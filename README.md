@@ -87,6 +87,9 @@ python -m venv .venv
 - [预定协议](docs/2026-10-03-llm-refinement-protocol.md)
 - [全部开发结果与验证登记](docs/2026-10-03-llm-refinement-results.md)
 - [首轮失败与原因分析](docs/2026-10-03-llm-improvement-design.md)
+- [v3新观测后的反馈修订](docs/2026-10-03-llm-refinement-v3.md)
+- [20条确认实验预定协议](docs/2026-10-03-llm-confirmation-20.md)
+- [接口与写作可声明范围](docs/2026-10-03-llm-method.md)
 
 需先存在本地训练模型，并将API密钥提供给子进程（不要写入代码或结果）：
 
