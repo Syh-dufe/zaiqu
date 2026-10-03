@@ -15,7 +15,7 @@
 | 库存 | 尚未发放的储备物资 |
 | 欠货 | 允许后续补供的未满足需求 |
 
-数量和时间采用归一化批次与仿真期。当前没有加入洪灾冲击、车辆、道路、LLM 或真实数据，不声称具有真实灾区验证结果。
+数量和时间采用归一化批次与仿真期。上述兼容训练入口保持原模型规则；另有需求冲击和DeepSeek补货修正实验入口。尚未加入车辆、道路或真实灾区数据，不声称具有真实灾区验证结果。
 
 ## 上游来源
 
@@ -79,3 +79,21 @@ python -m venv .venv
 ```powershell
 & .venv/Scripts/python.exe scripts/plot_learning_curve.py results/learning_curve/curve_seed11_50k_v1
 ```
+
+## DeepSeek与冻结HAPPO
+
+采用已训练的250000步最佳模型，现场通知后生成补货规则；影子仿真仅使用已观察状态及历史需求预测，筛选后执行有限修正，无HAPPO重训。
+
+- [预定协议](docs/2026-10-03-llm-refinement-protocol.md)
+- [全部开发结果与验证登记](docs/2026-10-03-llm-refinement-results.md)
+- [首轮失败与原因分析](docs/2026-10-03-llm-improvement-design.md)
+
+需先存在本地训练模型，并将API密钥提供给子进程（不要写入代码或结果）：
+
+```powershell
+$env:DEEPSEEK_API_KEY = [Environment]::GetEnvironmentVariable('DEEPSEEK_API_KEY','User')
+python experiments/deepseek_refinement/run.py --run-name my_unique_run
+python experiments/deepseek_refinement/summarize.py results/deepseek_refinement/my_unique_run
+```
+
+入口拒绝覆盖已有目录。本轮最多12次API请求，系列累计最多120次，无自动重试。默认两条开发需求；正常情形无现场通知，不能据此验证自动报警或虚假通知鲁棒性。成本下降须连同缺货和额外计算开销报告，全部不利结果保留。

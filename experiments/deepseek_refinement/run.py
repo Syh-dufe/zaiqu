@@ -43,7 +43,9 @@ def main():
     parser.add_argument('--cases',type=int,default=2,choices=(2,4))
     parser.add_argument('--demand-seed',type=int,default=20261011)
     parser.add_argument('--event-seed',type=int,default=20261012)
+    parser.add_argument('--correction-periods',type=int,default=20,choices=(5,20))
     opts = parser.parse_args()
+    run_started=time.perf_counter()
     if not opts.run_name or any(c not in 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_-' for c in opts.run_name):
         parser.error('invalid run name')
     out = ROOT/'results/deepseek_refinement'/opts.run_name
@@ -59,7 +61,8 @@ def main():
     if old_calls+12 > 120: parser.error('series API limit reached')
     out.mkdir(parents=True)
     write(out/'protocol.json', {'system': SYSTEM, 'document': 'docs/2026-10-03-llm-refinement-protocol.md',
-                               'max_calls': 12, 'series_calls_before': old_calls, 'model': 'deepseek-flash'})
+                               'max_calls': 12, 'series_calls_before': old_calls, 'model': 'deepseek-flash',
+                               'options':vars(opts)})
     sys.path.insert(0, str(UPSTREAM)); os.chdir(UPSTREAM)
     import numpy as np
     import torch
@@ -73,7 +76,7 @@ def main():
     shock = [[min(20, math.ceil(1.5*d)) if e['start_index'] <= i < e['start_index']+e['duration'] else d
               for i, d in enumerate(t)] for t, e in zip(base, events)]
     write(out/'demands.json', {'demand_seed': opts.demand_seed, 'event_seed': opts.event_seed, 'events': events, 'base': base, 'shock': shock})
-    calls = []; scores = []; rows = []; episodes = []; initial = {}; checks = {}; failures = []; branch_audits=[]
+    calls = []; scores = []; rows = []; episodes = []; initial = {}; checks = {}; failures = []; branch_audits=[]; feedback_times=[]
     config = json.loads((TRAINING/'config.json').read_text())['config']
     done = json.loads((TRAINING/'completed.json').read_text())
     model_dir = Path(done['final_model_directory']).parent/'models'
@@ -158,12 +161,16 @@ def main():
                 assert branch.inventory==verify.inventory and branch.backlog==verify.backlog and branch.order==verify.order
                 if notify and self.group=='llm_iterative':
                     for round_id in (1,2):
-                        feedback=[score(c,state,self.history,self.orders,proposed,self.recurrent,self.actors,paths[0]) for c in self.candidates]
+                        feedback_started=time.perf_counter()
+                        feedback=[score(c,state,self.history,self.orders,proposed,self.recurrent,self.actors,paths[0],opts.correction_periods) for c in self.candidates]
+                        feedback_times.append(dict(trace=self.trace,round=round_id,seconds=time.perf_counter()-feedback_started))
                         context=dict(self.context, forecast_method='last5 mean + sampled last20 residuals, horizon20',
                                      search_feedback=feedback,
                                      previous_candidates=[{'id':c['id'],'rule':c.get('rule')} for c in self.candidates])
+                        if opts.correction_periods==5:
+                            context['control_horizon']='Candidate applied first5 periods; remaining forecast horizon follows frozen HAPPO without correction. Real controller reselects every5 periods.'
                         self.candidates += generate(context,1,self.trace,round_id)
-                self.chosen, result=select(self.candidates,state,self.history,self.orders,proposed,self.recurrent,self.actors,paths)
+                self.chosen, result=select(self.candidates,state,self.history,self.orders,proposed,self.recurrent,self.actors,paths,opts.correction_periods)
                 scores.append(dict(group=self.group,trace=self.trace,period=period+1, forecasts=paths, **result))
                 write(out/'scores.json',scores)
                 print('SELECT',self.group,self.trace,period+1,self.chosen,round(result['seconds'],2),flush=True)
@@ -235,7 +242,8 @@ def main():
     write(out/'runtime_failures.json',failures)
     write(out/'completed.json',dict(episodes=len(episodes),rows=len(rows),training_updates=0,parameter_checks=checks,calls=len(calls),
                     upstream_revision=revision,causal_audit='explicit whitelist; synthetic-only branch futures; paired initial contexts; unchanged pre-notification actions',
-                    runtime_failures=failures,branch_audits=branch_audits))
+                    runtime_failures=failures,branch_audits=branch_audits,feedback_times=feedback_times,
+                    wall_seconds=time.perf_counter()-run_started))
     print('REFINEMENT_COMPLETED',flush=True)
 
 

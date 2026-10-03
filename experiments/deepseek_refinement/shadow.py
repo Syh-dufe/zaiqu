@@ -62,7 +62,7 @@ def forecasts(history, trace, period):
 
 
 @torch.no_grad()
-def score(candidate, state, history, orders, proposed, recurrent, actors, paths):
+def score(candidate, state, history, orders, proposed, recurrent, actors, paths, correction_periods=20):
     costs = []; downstream = []; node_backlog = []
     try:
         for path in paths:
@@ -71,7 +71,8 @@ def score(candidate, state, history, orders, proposed, recurrent, actors, paths)
             rnn = [r.copy() for r in recurrent]
             base = proposed.copy(); cost = 0.; backlog = np.zeros(3)
             for t, demand in enumerate(path):
-                actual = corrected(candidate, env, hist, acts, base)
+                active = candidate if t < correction_periods else {'id':'zero'}
+                actual = corrected(active, env, hist, acts, base)
                 obs, reward, _, _ = env.step(actual, one_hot=False)
                 cost -= float(np.sum(reward)); backlog += env.backlog
                 hist.append(int(demand)); acts.append(actual)
@@ -95,15 +96,15 @@ def eligible(candidate_score, zero_score):
             and candidate_score['downstream'] <= zero_score['downstream'])
 
 
-def select(candidates, state, history, orders, proposed, recurrent, actors, paths):
+def select(candidates, state, history, orders, proposed, recurrent, actors, paths, correction_periods=20):
     start = time.perf_counter()
-    search = [score(c, state, history, orders, proposed, recurrent, actors, paths[0]) for c in candidates]
+    search = [score(c, state, history, orders, proposed, recurrent, actors, paths[0], correction_periods) for c in candidates]
     zero = search[0]; assert zero['id'] == 'zero' and zero['valid']
     accepted = [s for s in search[1:] if eligible(s, zero)]
     chosen = min(accepted, key=lambda s: s['cost'])['id'] if accepted else 'zero'
     chosen_rule = next(c for c in candidates if c['id'] == chosen)
-    validation_zero = score(candidates[0], state, history, orders, proposed, recurrent, actors, paths[1])
-    validation = score(chosen_rule, state, history, orders, proposed, recurrent, actors, paths[1])
+    validation_zero = score(candidates[0], state, history, orders, proposed, recurrent, actors, paths[1], correction_periods)
+    validation = score(chosen_rule, state, history, orders, proposed, recurrent, actors, paths[1], correction_periods)
     if chosen != 'zero' and not eligible(validation, validation_zero):
         chosen = 'zero'
     return chosen, {'search': search, 'validation_zero': validation_zero,
