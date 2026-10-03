@@ -1,0 +1,12 @@
+.venv/
+external/
+results/
+data/raw/
+__pycache__/
+*.py[cod]
+*.pt
+*.pth
+*.log
+.env
+.env.*
+!.env.example
