@@ -1,0 +1,98 @@
+[
+  {
+    "group": "happo",
+    "scenario": "base",
+    "trace": 0,
+    "notification": null,
+    "cost": 30.27166666666667,
+    "downstream_backlog": 63.53
+  },
+  {
+    "group": "happo",
+    "scenario": "base",
+    "trace": 1,
+    "notification": null,
+    "cost": 21.831666666666667,
+    "downstream_backlog": 7.18
+  },
+  {
+    "group": "happo",
+    "scenario": "shock",
+    "trace": 0,
+    "notification": 101,
+    "cost": 31.966666666666665,
+    "downstream_backlog": 70.775
+  },
+  {
+    "group": "happo",
+    "scenario": "shock",
+    "trace": 1,
+    "notification": 100,
+    "cost": 19.545,
+    "downstream_backlog": 7.38
+  },
+  {
+    "group": "manual_screen",
+    "scenario": "base",
+    "trace": 0,
+    "notification": null,
+    "cost": 30.27166666666667,
+    "downstream_backlog": 63.53
+  },
+  {
+    "group": "manual_screen",
+    "scenario": "base",
+    "trace": 1,
+    "notification": null,
+    "cost": 21.831666666666667,
+    "downstream_backlog": 7.18
+  },
+  {
+    "group": "manual_screen",
+    "scenario": "shock",
+    "trace": 0,
+    "notification": 101,
+    "cost": 27.651666666666667,
+    "downstream_backlog": 57.065
+  },
+  {
+    "group": "manual_screen",
+    "scenario": "shock",
+    "trace": 1,
+    "notification": 100,
+    "cost": 19.545,
+    "downstream_backlog": 7.38
+  },
+  {
+    "group": "llm_library",
+    "scenario": "base",
+    "trace": 0,
+    "notification": null,
+    "cost": 30.27166666666667,
+    "downstream_backlog": 63.53
+  },
+  {
+    "group": "llm_library",
+    "scenario": "base",
+    "trace": 1,
+    "notification": null,
+    "cost": 21.831666666666667,
+    "downstream_backlog": 7.18
+  },
+  {
+    "group": "llm_library",
+    "scenario": "shock",
+    "trace": 0,
+    "notification": 101,
+    "cost": 31.966666666666665,
+    "downstream_backlog": 70.775
+  },
+  {
+    "group": "llm_library",
+    "scenario": "shock",
+    "trace": 1,
+    "notification": 100,
+    "cost": 19.545,
+    "downstream_backlog": 7.38
+  }
+]

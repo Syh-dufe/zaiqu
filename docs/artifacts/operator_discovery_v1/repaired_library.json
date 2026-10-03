@@ -1,0 +1,85 @@
+{
+  "candidates": [
+    {
+      "explanation": "Pipeline-aware conservative relaxation: reduce orders when pipeline is high relative to recent demand, but never cut so much that downstream backlog risk increases. Small coordinated corrections across nodes.",
+      "rules": [
+        {
+          "when": "pipeline > 3 * recent and backlog < 2",
+          "delta": "-min(2, max(0, (pipeline - 3 * recent) / 4))"
+        },
+        {
+          "when": "pipeline > 2 * recent and backlog >= 2",
+          "delta": "-1"
+        },
+        {
+          "when": "pipeline < recent and backlog > 0",
+          "delta": "min(2, max(0, (recent - pipeline) / 2))"
+        }
+      ]
+    },
+    {
+      "explanation": "Backlog-sensitive smoothing: increase orders when backlog is high and pipeline is low, but avoid over-ordering when pipeline already covers demand. Downstream service protected by limiting cuts.",
+      "rules": [
+        {
+          "when": "backlog > 2 * recent and pipeline < recent",
+          "delta": "min(3, max(0, backlog / 2 - pipeline))"
+        },
+        {
+          "when": "backlog > 0 and pipeline < 1.5 * recent",
+          "delta": "min(1, max(0, backlog / 3))"
+        },
+        {
+          "when": "pipeline > 2.5 * recent and backlog == 0",
+          "delta": "-min(2, max(0, (pipeline - 2.5 * recent) / 3))"
+        }
+      ]
+    },
+    {
+      "explanation": "Growth-adaptive damping: when recent demand exceeds baseline, slightly increase orders to avoid stockouts; when pipeline is excessive relative to growth, reduce cautiously. Keeps corrections small and coordinated.",
+      "rules": [
+        {
+          "when": "growth > 1.2 and pipeline < recent and backlog > 0",
+          "delta": "min(2, max(0, (growth - 1) * recent - pipeline))"
+        },
+        {
+          "when": "growth < 0.8 and pipeline > 2 * recent",
+          "delta": "-min(2, max(0, (pipeline - 2 * recent) / 2))"
+        },
+        {
+          "when": "pipeline > 3 * recent and backlog == 0",
+          "delta": "-1"
+        }
+      ]
+    }
+  ],
+  "stage": "explicit_syntax_repair_before_testing",
+  "source_request": 0,
+  "repair_audit": [
+    {
+      "candidate": 0,
+      "removed": {
+        "when": "true",
+        "delta": "0"
+      },
+      "reason": "Redundant terminal zero; default no-match output is zero"
+    },
+    {
+      "candidate": 1,
+      "removed": {
+        "when": "true",
+        "delta": "0"
+      },
+      "reason": "Redundant terminal zero; default no-match output is zero"
+    },
+    {
+      "candidate": 2,
+      "removed": {
+        "when": "true",
+        "delta": "0"
+      },
+      "reason": "Redundant terminal zero; default no-match output is zero"
+    }
+  ],
+  "excluded_request1": "Wrong candidate count; not incorporated",
+  "scope": "No new API; raw failed responses and empty original libraries retained"
+}

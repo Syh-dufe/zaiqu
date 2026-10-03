@@ -1,0 +1,7 @@
+{
+  "api_calls": 2,
+  "calls_before": 118,
+  "initial": 0,
+  "refined": 0,
+  "fitness_scope": "two development traces; no independent test demands provided to LLM"
+}

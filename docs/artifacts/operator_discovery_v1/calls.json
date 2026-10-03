@@ -1,0 +1,255 @@
+[
+  {
+    "index": 0,
+    "request": {
+      "model": "deepseek-flash",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Design bounded correction rules for a frozen HAPPO serial inventory policy.\nNodes: 0 disaster dispensing point, 1 regional warehouse, 2 upstream supply center.\nUnchanged simulator: each period external demand plus node0 backlog is served from its inventory and pipeline arrival.\nNode1 demand is node0 CURRENT order plus node1 backlog; node2 demand is node1 CURRENT order plus node2 backlog.\nUnfilled demand becomes backlog. Next shipments to lower nodes are min(the next node demand including backlog, that next node inventory+arrival BEFORE its update). Node2 receives its own order without supplier constraint. All shipments enter a 4-period pipeline. Orders 0..20.\nPrimary cost=sum of inventory+backlog at ALL 3 nodes, coefficients all1. Also avoid increasing downstream backlog. An upstream reduction can starve downstream after delay; downstream extra orders can create upstream backlog. Observe all nodes and pipelines together.\nYou design a reusable OPERATOR LIBRARY OFFLINE. Provided fitness comes from completed development simulations, not a future deployment. Generate generic state-dependent operators that transfer to unknown future demand emergencies. Do not hardcode dates, traces or future event timing. HAPPO remains frozen. Online causal forecasts will select or reject operators; no event-time model request is claimed.\nReturn JSON {\"candidates\":[{\"explanation\":\"...\",\"rules\":[{\"when\":\"expression\",\"delta\":\"expression\"}]}]}.\nUser specifies candidate count (3 initial, 1 refinement). Each rule set contains1..4 ordered first-match rules evaluated separately for each node.\nExpression features ONLY: agent, inventory, backlog, pipeline=sum of known in-transit, arrival=next known arrival, incoming=last observed local demand, recent=last5 external mean, baseline=preceding20 external mean, growth=recent/baseline, happo=current proposed order.\nExpressions <=300 characters may use numbers, + - * /, comparisons, and/or/not, conditional expressions, min/max2..6args, abs1arg. No other names, code, attributes, imports or containers.\nDelta clipped[-6,6], rounded, added to HAPPO order and clipped0..20. Prefer small coordinated corrections and pipeline-aware relaxation. Rules run on fresh causal state for each period. Zero correction is valid.\nFor feedback, scores are uncertain causal forecast rollouts, not actual future results. Improve both cost and downstream service; do not exploit sample noise. Explain mechanics briefly, no markdown."
+        },
+        {
+          "role": "user",
+          "content": "{\"past_development\": {\"means\": {\"merton\": {\"happo\": {\"cost\": 21.822812499999998, \"backlog\": 19.5009375}, \"manual_screen\": {\"cost\": 20.9421875, \"backlog\": 16.55375}, \"llm_single\": {\"cost\": 21.0465625, \"backlog\": 19.11375}}, \"residual\": {\"happo\": {\"cost\": 21.822812499999998, \"backlog\": 19.5009375}, \"manual_screen\": {\"cost\": 21.303437499999998, \"backlog\": 15.9134375}, \"llm_single\": {\"cost\": 21.563020833333333, \"backlog\": 19.1171875}}}, \"prediction_mae\": {\"merton\": 1.7524896319039929, \"residual\": 1.81955637318322}, \"new_api_calls\": 0, \"scope\": \"Paired development diagnosis on all16 previously observed cases, same causal initial responses, not independent validation\"}, \"forecast\": \"Approximate public Merton log transition from last observed integer demand+.5; six20-period paths,3search+3holdout\", \"control\": \"First5 forecast periods use operator; tail frozen HAPPO. Reselect every5 periods, require mean system cost>=1% reduction and no downstream backlog increase in both batches.\", \"failure_to_avoid\": \"Some legal rules caused extra upstream stock or propagated backlog after short interventions. Avoid starving downstream by aggressive cuts, and avoid replenishing an already sufficient pipeline.\", \"objective\": \"Design3 diverse reusable conservative operators, not3 descriptions of the same rule. All node costs matter. Do not simply copy a positive-only manual heuristic.\", \"candidate_count\": 3}"
+        }
+      ],
+      "response_format": {
+        "type": "json_object"
+      },
+      "thinking": {
+        "type": "disabled"
+      },
+      "temperature": 0.2,
+      "max_tokens": 3000
+    },
+    "status": "failed",
+    "response": {
+      "id": "3182f87a-9b25-4c4a-bf9d-bc38e7dcfa49",
+      "object": "chat.completion",
+      "created": 1791021861,
+      "model": "deepseek-flash",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"candidates\": [\n    {\n      \"explanation\": \"Pipeline-aware conservative relaxation: reduce orders when pipeline is high relative to recent demand, but never cut so much that downstream backlog risk increases. Small coordinated corrections across nodes.\",\n      \"rules\": [\n        {\n          \"when\": \"pipeline > 3 * recent and backlog < 2\",\n          \"delta\": \"-min(2, max(0, (pipeline - 3 * recent) / 4))\"\n        },\n        {\n          \"when\": \"pipeline > 2 * recent and backlog >= 2\",\n          \"delta\": \"-1\"\n        },\n        {\n          \"when\": \"pipeline < recent and backlog > 0\",\n          \"delta\": \"min(2, max(0, (recent - pipeline) / 2))\"\n        },\n        {\n          \"when\": \"true\",\n          \"delta\": \"0\"\n        }\n      ]\n    },\n    {\n      \"explanation\": \"Backlog-sensitive smoothing: increase orders when backlog is high and pipeline is low, but avoid over-ordering when pipeline already covers demand. Downstream service protected by limiting cuts.\",\n      \"rules\": [\n        {\n          \"when\": \"backlog > 2 * recent and pipeline < recent\",\n          \"delta\": \"min(3, max(0, backlog / 2 - pipeline))\"\n        },\n        {\n          \"when\": \"backlog > 0 and pipeline < 1.5 * recent\",\n          \"delta\": \"min(1, max(0, backlog / 3))\"\n        },\n        {\n          \"when\": \"pipeline > 2.5 * recent and backlog == 0\",\n          \"delta\": \"-min(2, max(0, (pipeline - 2.5 * recent) / 3))\"\n        },\n        {\n          \"when\": \"true\",\n          \"delta\": \"0\"\n        }\n      ]\n    },\n    {\n      \"explanation\": \"Growth-adaptive damping: when recent demand exceeds baseline, slightly increase orders to avoid stockouts; when pipeline is excessive relative to growth, reduce cautiously. Keeps corrections small and coordinated.\",\n      \"rules\": [\n        {\n          \"when\": \"growth > 1.2 and pipeline < recent and backlog > 0\",\n          \"delta\": \"min(2, max(0, (growth - 1) * recent - pipeline))\"\n        },\n        {\n          \"when\": \"growth < 0.8 and pipeline > 2 * recent\",\n          \"delta\": \"-min(2, max(0, (pipeline - 2 * recent) / 2))\"\n        },\n        {\n          \"when\": \"pipeline > 3 * recent and backlog == 0\",\n          \"delta\": \"-1\"\n        },\n        {\n          \"when\": \"true\",\n          \"delta\": \"0\"\n        }\n      ]\n    }\n  ]\n}"
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 934,
+        "completion_tokens": 608,
+        "total_tokens": 1542,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 934
+      },
+      "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+    },
+    "candidates": [
+      {
+        "explanation": "Pipeline-aware conservative relaxation: reduce orders when pipeline is high relative to recent demand, but never cut so much that downstream backlog risk increases. Small coordinated corrections across nodes.",
+        "rules": [
+          {
+            "when": "pipeline > 3 * recent and backlog < 2",
+            "delta": "-min(2, max(0, (pipeline - 3 * recent) / 4))"
+          },
+          {
+            "when": "pipeline > 2 * recent and backlog >= 2",
+            "delta": "-1"
+          },
+          {
+            "when": "pipeline < recent and backlog > 0",
+            "delta": "min(2, max(0, (recent - pipeline) / 2))"
+          },
+          {
+            "when": "true",
+            "delta": "0"
+          }
+        ]
+      },
+      {
+        "explanation": "Backlog-sensitive smoothing: increase orders when backlog is high and pipeline is low, but avoid over-ordering when pipeline already covers demand. Downstream service protected by limiting cuts.",
+        "rules": [
+          {
+            "when": "backlog > 2 * recent and pipeline < recent",
+            "delta": "min(3, max(0, backlog / 2 - pipeline))"
+          },
+          {
+            "when": "backlog > 0 and pipeline < 1.5 * recent",
+            "delta": "min(1, max(0, backlog / 3))"
+          },
+          {
+            "when": "pipeline > 2.5 * recent and backlog == 0",
+            "delta": "-min(2, max(0, (pipeline - 2.5 * recent) / 3))"
+          },
+          {
+            "when": "true",
+            "delta": "0"
+          }
+        ]
+      },
+      {
+        "explanation": "Growth-adaptive damping: when recent demand exceeds baseline, slightly increase orders to avoid stockouts; when pipeline is excessive relative to growth, reduce cautiously. Keeps corrections small and coordinated.",
+        "rules": [
+          {
+            "when": "growth > 1.2 and pipeline < recent and backlog > 0",
+            "delta": "min(2, max(0, (growth - 1) * recent - pipeline))"
+          },
+          {
+            "when": "growth < 0.8 and pipeline > 2 * recent",
+            "delta": "-min(2, max(0, (pipeline - 2 * recent) / 2))"
+          },
+          {
+            "when": "pipeline > 3 * recent and backlog == 0",
+            "delta": "-1"
+          },
+          {
+            "when": "true",
+            "delta": "0"
+          }
+        ]
+      }
+    ],
+    "invalid_candidates": [
+      {
+        "index": 0,
+        "failure": "ValueError"
+      },
+      {
+        "index": 1,
+        "failure": "ValueError"
+      },
+      {
+        "index": 2,
+        "failure": "ValueError"
+      }
+    ],
+    "seconds": 2.8401149999990594
+  },
+  {
+    "index": 1,
+    "request": {
+      "model": "deepseek-flash",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Design bounded correction rules for a frozen HAPPO serial inventory policy.\nNodes: 0 disaster dispensing point, 1 regional warehouse, 2 upstream supply center.\nUnchanged simulator: each period external demand plus node0 backlog is served from its inventory and pipeline arrival.\nNode1 demand is node0 CURRENT order plus node1 backlog; node2 demand is node1 CURRENT order plus node2 backlog.\nUnfilled demand becomes backlog. Next shipments to lower nodes are min(the next node demand including backlog, that next node inventory+arrival BEFORE its update). Node2 receives its own order without supplier constraint. All shipments enter a 4-period pipeline. Orders 0..20.\nPrimary cost=sum of inventory+backlog at ALL 3 nodes, coefficients all1. Also avoid increasing downstream backlog. An upstream reduction can starve downstream after delay; downstream extra orders can create upstream backlog. Observe all nodes and pipelines together.\nYou design a reusable OPERATOR LIBRARY OFFLINE. Provided fitness comes from completed development simulations, not a future deployment. Generate generic state-dependent operators that transfer to unknown future demand emergencies. Do not hardcode dates, traces or future event timing. HAPPO remains frozen. Online causal forecasts will select or reject operators; no event-time model request is claimed.\nReturn JSON {\"candidates\":[{\"explanation\":\"...\",\"rules\":[{\"when\":\"expression\",\"delta\":\"expression\"}]}]}.\nUser specifies candidate count (3 initial, 1 refinement). Each rule set contains1..4 ordered first-match rules evaluated separately for each node.\nExpression features ONLY: agent, inventory, backlog, pipeline=sum of known in-transit, arrival=next known arrival, incoming=last observed local demand, recent=last5 external mean, baseline=preceding20 external mean, growth=recent/baseline, happo=current proposed order.\nExpressions <=300 characters may use numbers, + - * /, comparisons, and/or/not, conditional expressions, min/max2..6args, abs1arg. No other names, code, attributes, imports or containers.\nDelta clipped[-6,6], rounded, added to HAPPO order and clipped0..20. Prefer small coordinated corrections and pipeline-aware relaxation. Rules run on fresh causal state for each period. Zero correction is valid.\nFor feedback, scores are uncertain causal forecast rollouts, not actual future results. Improve both cost and downstream service; do not exploit sample noise. Explain mechanics briefly, no markdown."
+        },
+        {
+          "role": "user",
+          "content": "{\"past_development\": {\"means\": {\"merton\": {\"happo\": {\"cost\": 21.822812499999998, \"backlog\": 19.5009375}, \"manual_screen\": {\"cost\": 20.9421875, \"backlog\": 16.55375}, \"llm_single\": {\"cost\": 21.0465625, \"backlog\": 19.11375}}, \"residual\": {\"happo\": {\"cost\": 21.822812499999998, \"backlog\": 19.5009375}, \"manual_screen\": {\"cost\": 21.303437499999998, \"backlog\": 15.9134375}, \"llm_single\": {\"cost\": 21.563020833333333, \"backlog\": 19.1171875}}}, \"prediction_mae\": {\"merton\": 1.7524896319039929, \"residual\": 1.81955637318322}, \"new_api_calls\": 0, \"scope\": \"Paired development diagnosis on all16 previously observed cases, same causal initial responses, not independent validation\"}, \"forecast\": \"Approximate public Merton log transition from last observed integer demand+.5; six20-period paths,3search+3holdout\", \"control\": \"First5 forecast periods use operator; tail frozen HAPPO. Reselect every5 periods, require mean system cost>=1% reduction and no downstream backlog increase in both batches.\", \"failure_to_avoid\": \"Some legal rules caused extra upstream stock or propagated backlog after short interventions. Avoid starving downstream by aggressive cuts, and avoid replenishing an already sufficient pipeline.\", \"objective\": \"Design3 diverse reusable conservative operators, not3 descriptions of the same rule. All node costs matter. Do not simply copy a positive-only manual heuristic.\", \"past_completed_fitness\": {\"summary\": {\"happo\": {\"base\": {\"cost\": 26.05166666666667, \"downstream_backlog\": 35.355000000000004}, \"shock\": {\"cost\": 25.755833333333335, \"downstream_backlog\": 39.0775}}, \"llm_library\": {\"base\": {\"cost\": 26.05166666666667, \"downstream_backlog\": 35.355000000000004}, \"shock\": {\"cost\": 25.755833333333335, \"downstream_backlog\": 39.0775}}, \"manual_screen\": {\"base\": {\"cost\": 26.05166666666667, \"downstream_backlog\": 35.355000000000004}, \"shock\": {\"cost\": 23.598333333333336, \"downstream_backlog\": 32.2225}}}, \"screening\": {\"happo\": {\"evaluations\": 0, \"accepted\": 0, \"seconds\": 0}, \"llm_library\": {\"evaluations\": 41, \"accepted\": 0, \"seconds\": 7.28788160001568}, \"manual_screen\": {\"evaluations\": 41, \"accepted\": 8, \"seconds\": 9.737857600019197}}, \"api_calls\": 0, \"replayed_calls\": 0, \"failed_calls\": 0, \"tokens\": 0, \"api_seconds\": 0, \"paired\": [{\"group\": \"happo\", \"scenario\": \"base\", \"trace\": 0, \"cost_delta\": 0.0, \"backlog_delta\": 0.0}, {\"group\": \"happo\", \"scenario\": \"base\", \"trace\": 1, \"cost_delta\": 0.0, \"backlog_delta\": 0.0}, {\"group\": \"happo\", \"scenario\": \"shock\", \"trace\": 0, \"cost_delta\": 0.0, \"backlog_delta\": 0.0}, {\"group\": \"happo\", \"scenario\": \"shock\", \"trace\": 1, \"cost_delta\": 0.0, \"backlog_delta\": 0.0}, {\"group\": \"llm_library\", \"scenario\": \"base\", \"trace\": 0, \"cost_delta\": 0.0, \"backlog_delta\": 0.0}, {\"group\": \"llm_library\", \"scenario\": \"base\", \"trace\": 1, \"cost_delta\": 0.0, \"backlog_delta\": 0.0}, {\"group\": \"llm_library\", \"scenario\": \"shock\", \"trace\": 0, \"cost_delta\": 0.0, \"backlog_delta\": 0.0}, {\"group\": \"llm_library\", \"scenario\": \"shock\", \"trace\": 1, \"cost_delta\": 0.0, \"backlog_delta\": 0.0}, {\"group\": \"manual_screen\", \"scenario\": \"base\", \"trace\": 0, \"cost_delta\": 0.0, \"backlog_delta\": 0.0}, {\"group\": \"manual_screen\", \"scenario\": \"base\", \"trace\": 1, \"cost_delta\": 0.0, \"backlog_delta\": 0.0}, {\"group\": \"manual_screen\", \"scenario\": \"shock\", \"trace\": 0, \"cost_delta\": -4.314999999999998, \"backlog_delta\": -13.710000000000008}, {\"group\": \"manual_screen\", \"scenario\": \"shock\", \"trace\": 1, \"cost_delta\": 0.0, \"backlog_delta\": 0.0}], \"prediction_mean_absolute_error\": 1.8516136979551614, \"interpretation\": \"Small batch; no significance or general superiority claim. API and screening pause simulator. Extra information and computation differ from original actors.\"}, \"previous_candidates\": [], \"search_examples\": [{\"period\": 101, \"trace\": 0, \"search\": [{\"id\": \"zero\", \"cost\": 1993.6666666666667, \"downstream\": 1106.6666666666667, \"node_backlog\": [1106.6666666666667, 528.3333333333334, 99.0], \"valid\": true}]}, {\"period\": 106, \"trace\": 0, \"search\": [{\"id\": \"zero\", \"cost\": 2182.0, \"downstream\": 1189.6666666666667, \"node_backlog\": [1189.6666666666667, 563.3333333333334, 95.33333333333333], \"valid\": true}]}, {\"period\": 111, \"trace\": 0, \"search\": [{\"id\": \"zero\", \"cost\": 1305.0, \"downstream\": 774.0, \"node_backlog\": [774.0, 260.0, 62.666666666666664], \"valid\": true}]}, {\"period\": 116, \"trace\": 0, \"search\": [{\"id\": \"zero\", \"cost\": 1346.3333333333333, \"downstream\": 825.3333333333334, \"node_backlog\": [825.3333333333334, 322.6666666666667, 30.666666666666668], \"valid\": true}]}, {\"period\": 121, \"trace\": 0, \"search\": [{\"id\": \"zero\", \"cost\": 1737.0, \"downstream\": 1366.0, \"node_backlog\": [1366.0, 331.0, 40.0], \"valid\": true}]}, {\"period\": 126, \"trace\": 0, \"search\": [{\"id\": \"zero\", \"cost\": 1676.0, \"downstream\": 1305.6666666666667, \"node_backlog\": [1305.6666666666667, 189.66666666666666, 34.666666666666664], \"valid\": true}]}, {\"period\": 131, \"trace\": 0, \"search\": [{\"id\": \"zero\", \"cost\": 1634.6666666666667, \"downstream\": 1388.6666666666667, \"node_backlog\": [1388.6666666666667, 141.0, 36.666666666666664], \"valid\": true}]}, {\"period\": 136, \"trace\": 0, \"search\": [{\"id\": \"zero\", \"cost\": 2044.6666666666667, \"downstream\": 1826.0, \"node_backlog\": [1826.0, 66.0, 35.333333333333336], \"valid\": true}]}], \"candidate_count\": 1}"
+        }
+      ],
+      "response_format": {
+        "type": "json_object"
+      },
+      "thinking": {
+        "type": "disabled"
+      },
+      "temperature": 0.2,
+      "max_tokens": 3000
+    },
+    "status": "failed",
+    "response": {
+      "id": "71a03a9d-c5d5-4bf2-8ec4-e36bf72c210f",
+      "object": "chat.completion",
+      "created": 1791021891,
+      "model": "deepseek-flash",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"candidates\":[{\"explanation\":\"Pipeline-aware conservative operator. It gently trims orders when local inventory plus known pipeline already covers recent demand, and gently boosts when backlog is high and pipeline is thin. Node-specific scaling keeps corrections small and coordinated, avoiding starvation of downstream nodes.\",\"rules\":[{\"when\":\"backlog > 0 and pipeline < recent * 2\",\"delta\":\"min(3, max(1, backlog / max(1, recent)))\"},{\"when\":\"inventory > recent * 2 and pipeline > recent\",\"delta\":\"-min(2, max(1, inventory / max(1, recent)))\"},{\"when\":\"growth > 1.5 and pipeline < recent * 3\",\"delta\":\"min(2, max(1, growth))\"},{\"when\":\"true\",\"delta\":\"0\"}]},{\"explanation\":\"Backlog-relief operator focused on downstream service. It increases orders only when backlog is large relative to recent demand and pipeline is not already excessive, and reduces orders when inventory is high and backlog is low. This prevents upstream overstock while protecting node0 service.\",\"rules\":[{\"when\":\"backlog > recent and pipeline < recent * 2\",\"delta\":\"min(4, max(1, backlog / max(1, recent)))\"},{\"when\":\"inventory > recent * 3 and backlog < recent\",\"delta\":\"-min(3, max(1, inventory / max(1, recent)))\"},{\"when\":\"growth > 1.2 and backlog > 0 and pipeline < recent * 2.5\",\"delta\":\"min(2, max(1, growth))\"},{\"when\":\"true\",\"delta\":\"0\"}]},{\"explanation\":\"Balanced pipeline and inventory operator. It slightly reduces orders when pipeline is already large relative to recent demand, and slightly increases when backlog exists and pipeline is low. The small magnitudes avoid destabilizing the frozen HAPPO policy.\",\"rules\":[{\"when\":\"pipeline > recent * 3 and backlog < recent\",\"delta\":\"-min(2, max(1, pipeline / max(1, recent) - 2))\"},{\"when\":\"backlog > recent * 0.5 and pipeline < recent * 1.5\",\"delta\":\"min(2, max(1, backlog / max(1, recent)))\"},{\"when\":\"inventory > recent * 2 and pipeline > recent * 2\",\"delta\":\"-1\"},{\"when\":\"true\",\"delta\":\"0\"}]}]}"
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 2495,
+        "completion_tokens": 511,
+        "total_tokens": 3006,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 1599
+      },
+      "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+    },
+    "candidates": [
+      {
+        "explanation": "Pipeline-aware conservative operator. It gently trims orders when local inventory plus known pipeline already covers recent demand, and gently boosts when backlog is high and pipeline is thin. Node-specific scaling keeps corrections small and coordinated, avoiding starvation of downstream nodes.",
+        "rules": [
+          {
+            "when": "backlog > 0 and pipeline < recent * 2",
+            "delta": "min(3, max(1, backlog / max(1, recent)))"
+          },
+          {
+            "when": "inventory > recent * 2 and pipeline > recent",
+            "delta": "-min(2, max(1, inventory / max(1, recent)))"
+          },
+          {
+            "when": "growth > 1.5 and pipeline < recent * 3",
+            "delta": "min(2, max(1, growth))"
+          },
+          {
+            "when": "true",
+            "delta": "0"
+          }
+        ]
+      },
+      {
+        "explanation": "Backlog-relief operator focused on downstream service. It increases orders only when backlog is large relative to recent demand and pipeline is not already excessive, and reduces orders when inventory is high and backlog is low. This prevents upstream overstock while protecting node0 service.",
+        "rules": [
+          {
+            "when": "backlog > recent and pipeline < recent * 2",
+            "delta": "min(4, max(1, backlog / max(1, recent)))"
+          },
+          {
+            "when": "inventory > recent * 3 and backlog < recent",
+            "delta": "-min(3, max(1, inventory / max(1, recent)))"
+          },
+          {
+            "when": "growth > 1.2 and backlog > 0 and pipeline < recent * 2.5",
+            "delta": "min(2, max(1, growth))"
+          },
+          {
+            "when": "true",
+            "delta": "0"
+          }
+        ]
+      },
+      {
+        "explanation": "Balanced pipeline and inventory operator. It slightly reduces orders when pipeline is already large relative to recent demand, and slightly increases when backlog exists and pipeline is low. The small magnitudes avoid destabilizing the frozen HAPPO policy.",
+        "rules": [
+          {
+            "when": "pipeline > recent * 3 and backlog < recent",
+            "delta": "-min(2, max(1, pipeline / max(1, recent) - 2))"
+          },
+          {
+            "when": "backlog > recent * 0.5 and pipeline < recent * 1.5",
+            "delta": "min(2, max(1, backlog / max(1, recent)))"
+          },
+          {
+            "when": "inventory > recent * 2 and pipeline > recent * 2",
+            "delta": "-1"
+          },
+          {
+            "when": "true",
+            "delta": "0"
+          }
+        ]
+      }
+    ],
+    "failure": "ValueError",
+    "seconds": 2.568649099994218
+  }
+]

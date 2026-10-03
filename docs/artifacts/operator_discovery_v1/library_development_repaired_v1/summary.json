@@ -1,0 +1,144 @@
+{
+  "summary": {
+    "happo": {
+      "base": {
+        "cost": 26.05166666666667,
+        "downstream_backlog": 35.355000000000004
+      },
+      "shock": {
+        "cost": 25.755833333333335,
+        "downstream_backlog": 39.0775
+      }
+    },
+    "llm_library": {
+      "base": {
+        "cost": 26.05166666666667,
+        "downstream_backlog": 35.355000000000004
+      },
+      "shock": {
+        "cost": 25.113333333333333,
+        "downstream_backlog": 38.620000000000005
+      }
+    },
+    "manual_screen": {
+      "base": {
+        "cost": 26.05166666666667,
+        "downstream_backlog": 35.355000000000004
+      },
+      "shock": {
+        "cost": 23.598333333333336,
+        "downstream_backlog": 32.2225
+      }
+    }
+  },
+  "screening": {
+    "happo": {
+      "evaluations": 0,
+      "accepted": 0,
+      "seconds": 0
+    },
+    "llm_library": {
+      "evaluations": 41,
+      "accepted": 9,
+      "seconds": 15.637122900021495
+    },
+    "manual_screen": {
+      "evaluations": 41,
+      "accepted": 8,
+      "seconds": 9.823802199971396
+    }
+  },
+  "api_calls": 0,
+  "replayed_calls": 0,
+  "failed_calls": 0,
+  "tokens": 0,
+  "api_seconds": 0,
+  "paired": [
+    {
+      "group": "happo",
+      "scenario": "base",
+      "trace": 0,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "happo",
+      "scenario": "base",
+      "trace": 1,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "happo",
+      "scenario": "shock",
+      "trace": 0,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "happo",
+      "scenario": "shock",
+      "trace": 1,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "llm_library",
+      "scenario": "base",
+      "trace": 0,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "llm_library",
+      "scenario": "base",
+      "trace": 1,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "llm_library",
+      "scenario": "shock",
+      "trace": 0,
+      "cost_delta": -1.0933333333333302,
+      "backlog_delta": -0.8100000000000023
+    },
+    {
+      "group": "llm_library",
+      "scenario": "shock",
+      "trace": 1,
+      "cost_delta": -0.19166666666666998,
+      "backlog_delta": -0.10499999999999954
+    },
+    {
+      "group": "manual_screen",
+      "scenario": "base",
+      "trace": 0,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "manual_screen",
+      "scenario": "base",
+      "trace": 1,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "manual_screen",
+      "scenario": "shock",
+      "trace": 0,
+      "cost_delta": -4.314999999999998,
+      "backlog_delta": -13.710000000000008
+    },
+    {
+      "group": "manual_screen",
+      "scenario": "shock",
+      "trace": 1,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    }
+  ],
+  "prediction_mean_absolute_error": 1.8516136979551614,
+  "interpretation": "Small batch; no significance or general superiority claim. API and screening pause simulator. Extra information and computation differ from original actors."
+}
