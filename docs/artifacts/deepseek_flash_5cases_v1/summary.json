@@ -1,0 +1,97 @@
+{
+  "summary": {
+    "happo": {
+      "base": {
+        "mean_cost": 19.753666666666668,
+        "mean_backlog": 16.666,
+        "cumulative_backlog": 3333.2,
+        "peak_backlog": 74.6,
+        "terminal_backlog": 43,
+        "mean_inventory": 8.740666666666666,
+        "changed_node_periods": 0,
+        "positive_corrections": 0,
+        "negative_corrections": 0
+      },
+      "shock": {
+        "mean_cost": 22.39666666666667,
+        "mean_backlog": 22.349,
+        "cumulative_backlog": 4469.8,
+        "peak_backlog": 97,
+        "terminal_backlog": 49.4,
+        "mean_inventory": 8.189333333333334,
+        "changed_node_periods": 0,
+        "positive_corrections": 0,
+        "negative_corrections": 0
+      }
+    },
+    "manual": {
+      "base": {
+        "mean_cost": 25.654666666666667,
+        "mean_backlog": 12.17,
+        "cumulative_backlog": 2434,
+        "peak_backlog": 68.6,
+        "terminal_backlog": 37.8,
+        "mean_inventory": 10.157,
+        "changed_node_periods": 129,
+        "positive_corrections": 129,
+        "negative_corrections": 0
+      },
+      "shock": {
+        "mean_cost": 28.672,
+        "mean_backlog": 15.691,
+        "cumulative_backlog": 3138.2,
+        "peak_backlog": 85.8,
+        "terminal_backlog": 33.6,
+        "mean_inventory": 9.730666666666666,
+        "changed_node_periods": 148.2,
+        "positive_corrections": 148.2,
+        "negative_corrections": 0
+      }
+    },
+    "deepseek": {
+      "base": {
+        "mean_cost": 25.692333333333334,
+        "mean_backlog": 17.977,
+        "cumulative_backlog": 3595.4,
+        "peak_backlog": 94.2,
+        "terminal_backlog": 54.8,
+        "mean_inventory": 8.816333333333333,
+        "changed_node_periods": 233.2,
+        "positive_corrections": 77.2,
+        "negative_corrections": 156
+      },
+      "shock": {
+        "mean_cost": 27.285666666666668,
+        "mean_backlog": 23.304,
+        "cumulative_backlog": 4660.8,
+        "peak_backlog": 111.6,
+        "terminal_backlog": 54.6,
+        "mean_inventory": 7.963,
+        "changed_node_periods": 183.8,
+        "positive_corrections": 62.4,
+        "negative_corrections": 121.4
+      }
+    }
+  },
+  "alarm_audit": {
+    "normal_episodes_with_alarm": 5,
+    "shock_episodes_with_pre_event_alarm": 5,
+    "normal_episode_count": 5,
+    "shock_episode_count": 5
+  },
+  "same_prompt_base_shock": [
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "api_calls": 10,
+  "valid_calls": 10,
+  "total_seconds": 18.982006400008686,
+  "total_tokens": 10415,
+  "returned_models": [
+    "deepseek-flash"
+  ],
+  "conclusion": "Interface operational, but detector fired in all normal episodes and before all scheduled shocks. Pilot does not demonstrate event-time rule generation or improvement. Preserve all results."
+}

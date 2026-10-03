@@ -1,0 +1,212 @@
+[
+  {
+    "group": "happo",
+    "scenario": "base",
+    "trace": 0,
+    "trigger_period": 50,
+    "runtime_rule_failed": false
+  },
+  {
+    "group": "happo",
+    "scenario": "base",
+    "trace": 1,
+    "trigger_period": 45,
+    "runtime_rule_failed": false
+  },
+  {
+    "group": "happo",
+    "scenario": "base",
+    "trace": 2,
+    "trigger_period": 46,
+    "runtime_rule_failed": false
+  },
+  {
+    "group": "happo",
+    "scenario": "base",
+    "trace": 3,
+    "trigger_period": 27,
+    "runtime_rule_failed": false
+  },
+  {
+    "group": "happo",
+    "scenario": "base",
+    "trace": 4,
+    "trigger_period": 65,
+    "runtime_rule_failed": false
+  },
+  {
+    "group": "happo",
+    "scenario": "shock",
+    "trace": 0,
+    "trigger_period": 50,
+    "runtime_rule_failed": false
+  },
+  {
+    "group": "happo",
+    "scenario": "shock",
+    "trace": 1,
+    "trigger_period": 45,
+    "runtime_rule_failed": false
+  },
+  {
+    "group": "happo",
+    "scenario": "shock",
+    "trace": 2,
+    "trigger_period": 46,
+    "runtime_rule_failed": false
+  },
+  {
+    "group": "happo",
+    "scenario": "shock",
+    "trace": 3,
+    "trigger_period": 27,
+    "runtime_rule_failed": false
+  },
+  {
+    "group": "happo",
+    "scenario": "shock",
+    "trace": 4,
+    "trigger_period": 65,
+    "runtime_rule_failed": false
+  },
+  {
+    "group": "manual",
+    "scenario": "base",
+    "trace": 0,
+    "trigger_period": 50,
+    "runtime_rule_failed": false
+  },
+  {
+    "group": "manual",
+    "scenario": "base",
+    "trace": 1,
+    "trigger_period": 45,
+    "runtime_rule_failed": false
+  },
+  {
+    "group": "manual",
+    "scenario": "base",
+    "trace": 2,
+    "trigger_period": 46,
+    "runtime_rule_failed": false
+  },
+  {
+    "group": "manual",
+    "scenario": "base",
+    "trace": 3,
+    "trigger_period": 27,
+    "runtime_rule_failed": false
+  },
+  {
+    "group": "manual",
+    "scenario": "base",
+    "trace": 4,
+    "trigger_period": 65,
+    "runtime_rule_failed": false
+  },
+  {
+    "group": "manual",
+    "scenario": "shock",
+    "trace": 0,
+    "trigger_period": 50,
+    "runtime_rule_failed": false
+  },
+  {
+    "group": "manual",
+    "scenario": "shock",
+    "trace": 1,
+    "trigger_period": 45,
+    "runtime_rule_failed": false
+  },
+  {
+    "group": "manual",
+    "scenario": "shock",
+    "trace": 2,
+    "trigger_period": 46,
+    "runtime_rule_failed": false
+  },
+  {
+    "group": "manual",
+    "scenario": "shock",
+    "trace": 3,
+    "trigger_period": 27,
+    "runtime_rule_failed": false
+  },
+  {
+    "group": "manual",
+    "scenario": "shock",
+    "trace": 4,
+    "trigger_period": 65,
+    "runtime_rule_failed": false
+  },
+  {
+    "group": "deepseek",
+    "scenario": "base",
+    "trace": 0,
+    "trigger_period": 50,
+    "runtime_rule_failed": false
+  },
+  {
+    "group": "deepseek",
+    "scenario": "base",
+    "trace": 1,
+    "trigger_period": 45,
+    "runtime_rule_failed": false
+  },
+  {
+    "group": "deepseek",
+    "scenario": "base",
+    "trace": 2,
+    "trigger_period": 46,
+    "runtime_rule_failed": false
+  },
+  {
+    "group": "deepseek",
+    "scenario": "base",
+    "trace": 3,
+    "trigger_period": 27,
+    "runtime_rule_failed": false
+  },
+  {
+    "group": "deepseek",
+    "scenario": "base",
+    "trace": 4,
+    "trigger_period": 65,
+    "runtime_rule_failed": false
+  },
+  {
+    "group": "deepseek",
+    "scenario": "shock",
+    "trace": 0,
+    "trigger_period": 50,
+    "runtime_rule_failed": false
+  },
+  {
+    "group": "deepseek",
+    "scenario": "shock",
+    "trace": 1,
+    "trigger_period": 45,
+    "runtime_rule_failed": false
+  },
+  {
+    "group": "deepseek",
+    "scenario": "shock",
+    "trace": 2,
+    "trigger_period": 46,
+    "runtime_rule_failed": false
+  },
+  {
+    "group": "deepseek",
+    "scenario": "shock",
+    "trace": 3,
+    "trigger_period": 27,
+    "runtime_rule_failed": false
+  },
+  {
+    "group": "deepseek",
+    "scenario": "shock",
+    "trace": 4,
+    "trigger_period": 65,
+    "runtime_rule_failed": false
+  }
+]

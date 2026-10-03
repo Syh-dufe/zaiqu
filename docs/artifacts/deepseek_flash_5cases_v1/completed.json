@@ -1,0 +1,29 @@
+{
+  "rows": 18000,
+  "episodes": 30,
+  "parameter_checks": {
+    "happo": {
+      "before": "583bd3c2a65b7c99ca1f693e8542e2654a05cc3b51bb198cb5ca4e3b44499192",
+      "after": "583bd3c2a65b7c99ca1f693e8542e2654a05cc3b51bb198cb5ca4e3b44499192",
+      "unchanged": true
+    },
+    "manual": {
+      "before": "583bd3c2a65b7c99ca1f693e8542e2654a05cc3b51bb198cb5ca4e3b44499192",
+      "after": "583bd3c2a65b7c99ca1f693e8542e2654a05cc3b51bb198cb5ca4e3b44499192",
+      "unchanged": true
+    },
+    "deepseek": {
+      "before": "583bd3c2a65b7c99ca1f693e8542e2654a05cc3b51bb198cb5ca4e3b44499192",
+      "after": "583bd3c2a65b7c99ca1f693e8542e2654a05cc3b51bb198cb5ca4e3b44499192",
+      "unchanged": true
+    }
+  },
+  "training_updates": 0,
+  "calls": 10,
+  "valid_calls": 10,
+  "failed_calls": 0,
+  "runtime_failures": [],
+  "official_revision": "a7e5a3e83e21565a5799483bc534e39635ec65dd",
+  "causal_checks": "same demand-only trigger across all groups; all pre-trigger costs and actions identical",
+  "limitations": "5 development traces, single HAPPO seed, one generation per triggered episode. Simulator pauses during API. Central shared rule features add coordination beyond dispersed actors."
+}

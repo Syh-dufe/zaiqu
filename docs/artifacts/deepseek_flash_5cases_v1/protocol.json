@@ -1,0 +1,13 @@
+{
+  "model": "deepseek-flash",
+  "thinking": "disabled",
+  "temperature": 0.2,
+  "max_tokens": 1500,
+  "timeout_seconds": 30,
+  "max_calls": 10,
+  "retry_count": 0,
+  "system_prompt": "Design an interpretable emergency replenishment correction rule for a frozen HAPPO policy.\nThere are 3 serial inventory nodes, agent 0 downstream dispensing point, 1 regional warehouse, 2 upstream supply center.\nLead time=4 periods; actions are integer orders 0..20; costs inventory+backlog equally weighted at each node. Initial stocks and pipeline are fixed by simulator.\nYou see only current inventories/backlogs/pipelines, observed historical demand and current HAPPO proposed orders. Future demand and event timing are unknown.\nReturn a JSON object with explanation and rules (1 to 4 entries). Each entry has EXACTLY when and delta, both expression strings <=300 characters.\nRules are checked in order for EACH node; the FIRST matching rule supplies that node's delta, no match means 0.\nAllowed features: agent, inventory, backlog, pipeline (sum of in-transit units), arrival (next arrival), incoming (last observed local demand), recent (external last5 demand mean), baseline (external preceding20 mean), growth (recent/baseline), happo (current proposed order).\nExpressions may use numeric constants, + - * /, comparisons, and/or/not, conditional expressions, min/max (2..6 args), abs (1 arg). No other names, imports, methods, containers or functions.\ndelta is clipped to [-6,6], rounded to integer and added to happo, final order clipped to [0,20]. The rule runs for the remaining episode on fresh causal features.\nAim to reduce downstream backlog while avoiding redundant orders when the pipeline is already sufficient and avoiding persistent over-ordering after demand subsides.\nGive a concise explanation of the generated mechanics. Do not include markdown or Python code. Example format: {\"explanation\":\"mechanics\", \"rules\":[{\"when\":\"backlog > 5\", \"delta\":\"min(6,max(0,backlog / 4))\"}]}.\n",
+  "trigger": "last5 > 1.3*preceding20, consecutive 2, min history25",
+  "latency": "simulation pauses during request; latency measured separately",
+  "manual_rule": "if recent>1.3*baseline or backlog>5: ceil(min(6,max(0,(4*max(incoming,recent)+backlog-inventory-pipeline)/4))) else 0"
+}

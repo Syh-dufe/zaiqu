@@ -1,0 +1,750 @@
+[
+  {
+    "index": 0,
+    "request": {
+      "model": "deepseek-flash",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Design an interpretable emergency replenishment correction rule for a frozen HAPPO policy.\nThere are 3 serial inventory nodes, agent 0 downstream dispensing point, 1 regional warehouse, 2 upstream supply center.\nLead time=4 periods; actions are integer orders 0..20; costs inventory+backlog equally weighted at each node. Initial stocks and pipeline are fixed by simulator.\nYou see only current inventories/backlogs/pipelines, observed historical demand and current HAPPO proposed orders. Future demand and event timing are unknown.\nReturn a JSON object with explanation and rules (1 to 4 entries). Each entry has EXACTLY when and delta, both expression strings <=300 characters.\nRules are checked in order for EACH node; the FIRST matching rule supplies that node's delta, no match means 0.\nAllowed features: agent, inventory, backlog, pipeline (sum of in-transit units), arrival (next arrival), incoming (last observed local demand), recent (external last5 demand mean), baseline (external preceding20 mean), growth (recent/baseline), happo (current proposed order).\nExpressions may use numeric constants, + - * /, comparisons, and/or/not, conditional expressions, min/max (2..6 args), abs (1 arg). No other names, imports, methods, containers or functions.\ndelta is clipped to [-6,6], rounded to integer and added to happo, final order clipped to [0,20]. The rule runs for the remaining episode on fresh causal features.\nAim to reduce downstream backlog while avoiding redundant orders when the pipeline is already sufficient and avoiding persistent over-ordering after demand subsides.\nGive a concise explanation of the generated mechanics. Do not include markdown or Python code. Example format: {\"explanation\":\"mechanics\", \"rules\":[{\"when\":\"backlog > 5\", \"delta\":\"min(6,max(0,backlog / 4))\"}]}.\n"
+        },
+        {
+          "role": "user",
+          "content": "{\"observed_periods\": 49, \"observed_last25_demands\": [9, 9, 10, 10, 9, 9, 10, 11, 11, 10, 10, 11, 12, 10, 10, 9, 9, 8, 10, 11, 12, 13, 14, 15, 16], \"nodes\": [{\"agent\": 0, \"inventory\": 0, \"backlog\": 8, \"pipeline\": 58, \"arrival\": 10, \"incoming\": 16, \"recent\": 14.0, \"baseline\": 9.9, \"growth\": 1.4141414141414141, \"happo\": 19}, {\"agent\": 1, \"inventory\": 14, \"backlog\": 0, \"pipeline\": 42, \"arrival\": 0, \"incoming\": 19, \"recent\": 14.0, \"baseline\": 9.9, \"growth\": 1.4141414141414141, \"happo\": 18}, {\"agent\": 2, \"inventory\": 14, \"backlog\": 0, \"pipeline\": 22, \"arrival\": 20, \"incoming\": 18, \"recent\": 14.0, \"baseline\": 9.9, \"growth\": 1.4141414141414141, \"happo\": 20}]}"
+        }
+      ],
+      "response_format": {
+        "type": "json_object"
+      },
+      "thinking": {
+        "type": "disabled"
+      },
+      "temperature": 0.2,
+      "max_tokens": 1500
+    },
+    "started_unix": 1791016721.0808313,
+    "status": "valid",
+    "response": {
+      "id": "01f31b3b-69b6-4f21-b6a2-15aacc31001f",
+      "object": "chat.completion",
+      "created": 1791016720,
+      "model": "deepseek-flash",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"explanation\": \"The rules correct the HAPPO policy by increasing orders when downstream backlog is high and the pipeline is insufficient, while reducing orders when pipeline is excessive or demand has subsided. Rule 1 targets the downstream node (agent 0) with backlog, boosting orders if pipeline is low relative to recent demand. Rule 2 prevents over-ordering at any node when pipeline is already high compared to recent demand. Rule 3 reduces orders at upstream nodes when demand growth is low, avoiding persistent over-ordering after demand subsides. Rule 4 provides a mild boost for the downstream node when backlog exists but pipeline is moderate.\",\n  \"rules\": [\n    {\n      \"when\": \"agent == 0 and backlog > 0 and pipeline < recent * 4\",\n      \"delta\": \"min(6, max(0, backlog / 2))\"\n    },\n    {\n      \"when\": \"pipeline > recent * 5\",\n      \"delta\": \"-min(6, max(0, (pipeline - recent * 5) / 4))\"\n    },\n    {\n      \"when\": \"agent >= 1 and growth < 1.1\",\n      \"delta\": \"-min(6, max(0, (1.1 - growth) * 10))\"\n    },\n    {\n      \"when\": \"agent == 0 and backlog > 0 and pipeline >= recent * 4\",\n      \"delta\": \"min(3, max(0, backlog / 4))\"\n    }\n  ]\n}"
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 765,
+        "completion_tokens": 319,
+        "total_tokens": 1084,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 765
+      },
+      "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+    },
+    "rule": {
+      "explanation": "The rules correct the HAPPO policy by increasing orders when downstream backlog is high and the pipeline is insufficient, while reducing orders when pipeline is excessive or demand has subsided. Rule 1 targets the downstream node (agent 0) with backlog, boosting orders if pipeline is low relative to recent demand. Rule 2 prevents over-ordering at any node when pipeline is already high compared to recent demand. Rule 3 reduces orders at upstream nodes when demand growth is low, avoiding persistent over-ordering after demand subsides. Rule 4 provides a mild boost for the downstream node when backlog exists but pipeline is moderate.",
+      "rules": [
+        {
+          "when": "agent == 0 and backlog > 0 and pipeline < recent * 4",
+          "delta": "min(6, max(0, backlog / 2))"
+        },
+        {
+          "when": "pipeline > recent * 5",
+          "delta": "-min(6, max(0, (pipeline - recent * 5) / 4))"
+        },
+        {
+          "when": "agent >= 1 and growth < 1.1",
+          "delta": "-min(6, max(0, (1.1 - growth) * 10))"
+        },
+        {
+          "when": "agent == 0 and backlog > 0 and pipeline >= recent * 4",
+          "delta": "min(3, max(0, backlog / 4))"
+        }
+      ]
+    },
+    "seconds": 1.9475910000037402
+  },
+  {
+    "index": 1,
+    "request": {
+      "model": "deepseek-flash",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Design an interpretable emergency replenishment correction rule for a frozen HAPPO policy.\nThere are 3 serial inventory nodes, agent 0 downstream dispensing point, 1 regional warehouse, 2 upstream supply center.\nLead time=4 periods; actions are integer orders 0..20; costs inventory+backlog equally weighted at each node. Initial stocks and pipeline are fixed by simulator.\nYou see only current inventories/backlogs/pipelines, observed historical demand and current HAPPO proposed orders. Future demand and event timing are unknown.\nReturn a JSON object with explanation and rules (1 to 4 entries). Each entry has EXACTLY when and delta, both expression strings <=300 characters.\nRules are checked in order for EACH node; the FIRST matching rule supplies that node's delta, no match means 0.\nAllowed features: agent, inventory, backlog, pipeline (sum of in-transit units), arrival (next arrival), incoming (last observed local demand), recent (external last5 demand mean), baseline (external preceding20 mean), growth (recent/baseline), happo (current proposed order).\nExpressions may use numeric constants, + - * /, comparisons, and/or/not, conditional expressions, min/max (2..6 args), abs (1 arg). No other names, imports, methods, containers or functions.\ndelta is clipped to [-6,6], rounded to integer and added to happo, final order clipped to [0,20]. The rule runs for the remaining episode on fresh causal features.\nAim to reduce downstream backlog while avoiding redundant orders when the pipeline is already sufficient and avoiding persistent over-ordering after demand subsides.\nGive a concise explanation of the generated mechanics. Do not include markdown or Python code. Example format: {\"explanation\":\"mechanics\", \"rules\":[{\"when\":\"backlog > 5\", \"delta\":\"min(6,max(0,backlog / 4))\"}]}.\n"
+        },
+        {
+          "role": "user",
+          "content": "{\"observed_periods\": 44, \"observed_last25_demands\": [7, 7, 7, 7, 7, 7, 6, 6, 7, 7, 7, 7, 8, 8, 7, 7, 6, 7, 8, 8, 9, 10, 10, 9, 9], \"nodes\": [{\"agent\": 0, \"inventory\": 0, \"backlog\": 7, \"pipeline\": 22, \"arrival\": 0, \"incoming\": 9, \"recent\": 9.4, \"baseline\": 7.05, \"growth\": 1.3333333333333335, \"happo\": 9}, {\"agent\": 1, \"inventory\": 0, \"backlog\": 33, \"pipeline\": 20, \"arrival\": 15, \"incoming\": 19, \"recent\": 9.4, \"baseline\": 7.05, \"growth\": 1.3333333333333335, \"happo\": 18}, {\"agent\": 2, \"inventory\": 0, \"backlog\": 49, \"pipeline\": 80, \"arrival\": 20, \"incoming\": 18, \"recent\": 9.4, \"baseline\": 7.05, \"growth\": 1.3333333333333335, \"happo\": 20}]}"
+        }
+      ],
+      "response_format": {
+        "type": "json_object"
+      },
+      "thinking": {
+        "type": "disabled"
+      },
+      "temperature": 0.2,
+      "max_tokens": 1500
+    },
+    "started_unix": 1791016723.3263493,
+    "status": "valid",
+    "response": {
+      "id": "0967dd5c-9ec9-4543-bcae-4a3e1177e993",
+      "object": "chat.completion",
+      "created": 1791016722,
+      "model": "deepseek-flash",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"explanation\":\"The rule set corrects the HAPPO order by adding a bounded delta based on backlog severity and pipeline sufficiency. For each node, if backlog is high and pipeline is low relative to backlog, we increase the order to reduce downstream backlog. If pipeline is already sufficient (pipeline >= backlog + recent demand), we decrease the order to avoid redundant ordering. A demand growth factor further scales the correction: when recent demand exceeds baseline (growth > 1.1), we add extra to cover rising demand; when growth < 0.9, we reduce to avoid over-ordering after demand subsides. The delta is clipped to [-6,6] and added to happo, then final order clipped to [0,20]. Rules are checked in order per node, first match applies.\",\"rules\":[{\"when\":\"backlog > 0 and pipeline < backlog + recent\", \"delta\":\"min(6, max(0, (backlog + recent - pipeline) / 4))\"},{\"when\":\"backlog > 0 and pipeline >= backlog + recent\", \"delta\":\"max(-6, min(0, -(pipeline - backlog - recent) / 4))\"},{\"when\":\"growth > 1.1\", \"delta\":\"min(6, max(0, (growth - 1) * recent / 2))\"},{\"when\":\"growth < 0.9\", \"delta\":\"max(-6, min(0, (growth - 1) * recent / 2))\"}]}"
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 765,
+        "completion_tokens": 315,
+        "total_tokens": 1080,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 509
+      },
+      "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+    },
+    "rule": {
+      "explanation": "The rule set corrects the HAPPO order by adding a bounded delta based on backlog severity and pipeline sufficiency. For each node, if backlog is high and pipeline is low relative to backlog, we increase the order to reduce downstream backlog. If pipeline is already sufficient (pipeline >= backlog + recent demand), we decrease the order to avoid redundant ordering. A demand growth factor further scales the correction: when recent demand exceeds baseline (growth > 1.1), we add extra to cover rising demand; when growth < 0.9, we reduce to avoid over-ordering after demand subsides. The delta is clipped to [-6,6] and added to happo, then final order clipped to [0,20]. Rules are checked in order per node, first match applies.",
+      "rules": [
+        {
+          "when": "backlog > 0 and pipeline < backlog + recent",
+          "delta": "min(6, max(0, (backlog + recent - pipeline) / 4))"
+        },
+        {
+          "when": "backlog > 0 and pipeline >= backlog + recent",
+          "delta": "max(-6, min(0, -(pipeline - backlog - recent) / 4))"
+        },
+        {
+          "when": "growth > 1.1",
+          "delta": "min(6, max(0, (growth - 1) * recent / 2))"
+        },
+        {
+          "when": "growth < 0.9",
+          "delta": "max(-6, min(0, (growth - 1) * recent / 2))"
+        }
+      ]
+    },
+    "seconds": 2.3058124000090174
+  },
+  {
+    "index": 2,
+    "request": {
+      "model": "deepseek-flash",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Design an interpretable emergency replenishment correction rule for a frozen HAPPO policy.\nThere are 3 serial inventory nodes, agent 0 downstream dispensing point, 1 regional warehouse, 2 upstream supply center.\nLead time=4 periods; actions are integer orders 0..20; costs inventory+backlog equally weighted at each node. Initial stocks and pipeline are fixed by simulator.\nYou see only current inventories/backlogs/pipelines, observed historical demand and current HAPPO proposed orders. Future demand and event timing are unknown.\nReturn a JSON object with explanation and rules (1 to 4 entries). Each entry has EXACTLY when and delta, both expression strings <=300 characters.\nRules are checked in order for EACH node; the FIRST matching rule supplies that node's delta, no match means 0.\nAllowed features: agent, inventory, backlog, pipeline (sum of in-transit units), arrival (next arrival), incoming (last observed local demand), recent (external last5 demand mean), baseline (external preceding20 mean), growth (recent/baseline), happo (current proposed order).\nExpressions may use numeric constants, + - * /, comparisons, and/or/not, conditional expressions, min/max (2..6 args), abs (1 arg). No other names, imports, methods, containers or functions.\ndelta is clipped to [-6,6], rounded to integer and added to happo, final order clipped to [0,20]. The rule runs for the remaining episode on fresh causal features.\nAim to reduce downstream backlog while avoiding redundant orders when the pipeline is already sufficient and avoiding persistent over-ordering after demand subsides.\nGive a concise explanation of the generated mechanics. Do not include markdown or Python code. Example format: {\"explanation\":\"mechanics\", \"rules\":[{\"when\":\"backlog > 5\", \"delta\":\"min(6,max(0,backlog / 4))\"}]}.\n"
+        },
+        {
+          "role": "user",
+          "content": "{\"observed_periods\": 45, \"observed_last25_demands\": [9, 10, 11, 10, 10, 10, 11, 10, 11, 9, 9, 10, 10, 10, 12, 11, 10, 10, 11, 12, 13, 14, 15, 16, 16], \"nodes\": [{\"agent\": 0, \"inventory\": 0, \"backlog\": 18, \"pipeline\": 44, \"arrival\": 10, \"incoming\": 16, \"recent\": 14.8, \"baseline\": 10.3, \"growth\": 1.4368932038834952, \"happo\": 19}, {\"agent\": 1, \"inventory\": 0, \"backlog\": 23, \"pipeline\": 56, \"arrival\": 15, \"incoming\": 19, \"recent\": 14.8, \"baseline\": 10.3, \"growth\": 1.4368932038834952, \"happo\": 18}, {\"agent\": 2, \"inventory\": 0, \"backlog\": 4, \"pipeline\": 41, \"arrival\": 0, \"incoming\": 15, \"recent\": 14.8, \"baseline\": 10.3, \"growth\": 1.4368932038834952, \"happo\": 20}]}"
+        }
+      ],
+      "response_format": {
+        "type": "json_object"
+      },
+      "thinking": {
+        "type": "disabled"
+      },
+      "temperature": 0.2,
+      "max_tokens": 1500
+    },
+    "started_unix": 1791016725.9383483,
+    "status": "valid",
+    "response": {
+      "id": "7b4d6043-d3f2-45e0-84d6-877130cb090e",
+      "object": "chat.completion",
+      "created": 1791016725,
+      "model": "deepseek-flash",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"explanation\": \"The rules correct the HAPPO orders by increasing orders when backlog is high and pipeline is insufficient, while reducing orders when pipeline is excessive or demand growth is low. Rule 1 targets downstream nodes with high backlog and low pipeline, boosting orders. Rule 2 prevents over-ordering when pipeline is already large. Rule 3 reduces orders when demand growth is low, avoiding persistent over-ordering after demand subsides. Rule 4 provides a mild boost for moderate backlog.\",\n  \"rules\": [\n    {\n      \"when\": \"backlog > 10 and pipeline < 50\",\n      \"delta\": \"min(6, max(0, (backlog - 10) / 2))\"\n    },\n    {\n      \"when\": \"pipeline > 60\",\n      \"delta\": \"-min(6, max(0, (pipeline - 60) / 5))\"\n    },\n    {\n      \"when\": \"growth < 1.1\",\n      \"delta\": \"-min(6, max(0, (1.1 - growth) * 10))\"\n    },\n    {\n      \"when\": \"backlog > 5 and pipeline < 40\",\n      \"delta\": \"min(3, max(0, backlog / 4))\"\n    }\n  ]\n}"
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 765,
+        "completion_tokens": 274,
+        "total_tokens": 1039,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 509
+      },
+      "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+    },
+    "rule": {
+      "explanation": "The rules correct the HAPPO orders by increasing orders when backlog is high and pipeline is insufficient, while reducing orders when pipeline is excessive or demand growth is low. Rule 1 targets downstream nodes with high backlog and low pipeline, boosting orders. Rule 2 prevents over-ordering when pipeline is already large. Rule 3 reduces orders when demand growth is low, avoiding persistent over-ordering after demand subsides. Rule 4 provides a mild boost for moderate backlog.",
+      "rules": [
+        {
+          "when": "backlog > 10 and pipeline < 50",
+          "delta": "min(6, max(0, (backlog - 10) / 2))"
+        },
+        {
+          "when": "pipeline > 60",
+          "delta": "-min(6, max(0, (pipeline - 60) / 5))"
+        },
+        {
+          "when": "growth < 1.1",
+          "delta": "-min(6, max(0, (1.1 - growth) * 10))"
+        },
+        {
+          "when": "backlog > 5 and pipeline < 40",
+          "delta": "min(3, max(0, backlog / 4))"
+        }
+      ]
+    },
+    "seconds": 2.1306216000084532
+  },
+  {
+    "index": 3,
+    "request": {
+      "model": "deepseek-flash",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Design an interpretable emergency replenishment correction rule for a frozen HAPPO policy.\nThere are 3 serial inventory nodes, agent 0 downstream dispensing point, 1 regional warehouse, 2 upstream supply center.\nLead time=4 periods; actions are integer orders 0..20; costs inventory+backlog equally weighted at each node. Initial stocks and pipeline are fixed by simulator.\nYou see only current inventories/backlogs/pipelines, observed historical demand and current HAPPO proposed orders. Future demand and event timing are unknown.\nReturn a JSON object with explanation and rules (1 to 4 entries). Each entry has EXACTLY when and delta, both expression strings <=300 characters.\nRules are checked in order for EACH node; the FIRST matching rule supplies that node's delta, no match means 0.\nAllowed features: agent, inventory, backlog, pipeline (sum of in-transit units), arrival (next arrival), incoming (last observed local demand), recent (external last5 demand mean), baseline (external preceding20 mean), growth (recent/baseline), happo (current proposed order).\nExpressions may use numeric constants, + - * /, comparisons, and/or/not, conditional expressions, min/max (2..6 args), abs (1 arg). No other names, imports, methods, containers or functions.\ndelta is clipped to [-6,6], rounded to integer and added to happo, final order clipped to [0,20]. The rule runs for the remaining episode on fresh causal features.\nAim to reduce downstream backlog while avoiding redundant orders when the pipeline is already sufficient and avoiding persistent over-ordering after demand subsides.\nGive a concise explanation of the generated mechanics. Do not include markdown or Python code. Example format: {\"explanation\":\"mechanics\", \"rules\":[{\"when\":\"backlog > 5\", \"delta\":\"min(6,max(0,backlog / 4))\"}]}.\n"
+        },
+        {
+          "role": "user",
+          "content": "{\"observed_periods\": 26, \"observed_last25_demands\": [10, 9, 11, 10, 11, 9, 8, 9, 9, 10, 10, 9, 8, 8, 8, 10, 10, 10, 10, 11, 13, 13, 15, 15, 14], \"nodes\": [{\"agent\": 0, \"inventory\": 0, \"backlog\": 26, \"pipeline\": 48, \"arrival\": 15, \"incoming\": 14, \"recent\": 14.0, \"baseline\": 9.5, \"growth\": 1.4736842105263157, \"happo\": 19}, {\"agent\": 1, \"inventory\": 0, \"backlog\": 19, \"pipeline\": 42, \"arrival\": 2, \"incoming\": 19, \"recent\": 14.0, \"baseline\": 9.5, \"growth\": 1.4736842105263157, \"happo\": 18}, {\"agent\": 2, \"inventory\": 0, \"backlog\": 21, \"pipeline\": 60, \"arrival\": 0, \"incoming\": 18, \"recent\": 14.0, \"baseline\": 9.5, \"growth\": 1.4736842105263157, \"happo\": 20}]}"
+        }
+      ],
+      "response_format": {
+        "type": "json_object"
+      },
+      "thinking": {
+        "type": "disabled"
+      },
+      "temperature": 0.2,
+      "max_tokens": 1500
+    },
+    "started_unix": 1791016728.3600028,
+    "status": "valid",
+    "response": {
+      "id": "41498b79-b3a2-45bf-985c-8635ae0dc277",
+      "object": "chat.completion",
+      "created": 1791016727,
+      "model": "deepseek-flash",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"explanation\":\"The policy corrects HAPPO orders by adding a bounded delta based on current backlog, pipeline sufficiency, and demand trend. For each node, if backlog is high and pipeline is low relative to recent demand, it increases the order to reduce downstream backlog. If pipeline is already sufficient (pipeline >= recent * lead_time), it reduces the order to avoid over-ordering. If demand has subsided (growth < 1) and backlog is low, it reduces orders to prevent persistent over-ordering. The delta is clipped to [-6,6] and added to HAPPO's proposed order, then final order clipped to [0,20].\",\"rules\":[{\"when\":\"backlog > 0 and pipeline < recent * 4\", \"delta\":\"min(6, max(0, (backlog + recent * 4 - pipeline) / 4))\"},{\"when\":\"pipeline >= recent * 4 and backlog <= 5\", \"delta\":\"max(-6, min(0, (recent * 4 - pipeline) / 4))\"},{\"when\":\"growth < 1 and backlog <= 10\", \"delta\":\"max(-6, min(0, -2 * (1 - growth)))\"},{\"when\":\"backlog > 20 and pipeline < recent * 6\", \"delta\":\"min(6, max(0, backlog / 4))\"}]}"
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 765,
+        "completion_tokens": 291,
+        "total_tokens": 1056,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 509
+      },
+      "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+    },
+    "rule": {
+      "explanation": "The policy corrects HAPPO orders by adding a bounded delta based on current backlog, pipeline sufficiency, and demand trend. For each node, if backlog is high and pipeline is low relative to recent demand, it increases the order to reduce downstream backlog. If pipeline is already sufficient (pipeline >= recent * lead_time), it reduces the order to avoid over-ordering. If demand has subsided (growth < 1) and backlog is low, it reduces orders to prevent persistent over-ordering. The delta is clipped to [-6,6] and added to HAPPO's proposed order, then final order clipped to [0,20].",
+      "rules": [
+        {
+          "when": "backlog > 0 and pipeline < recent * 4",
+          "delta": "min(6, max(0, (backlog + recent * 4 - pipeline) / 4))"
+        },
+        {
+          "when": "pipeline >= recent * 4 and backlog <= 5",
+          "delta": "max(-6, min(0, (recent * 4 - pipeline) / 4))"
+        },
+        {
+          "when": "growth < 1 and backlog <= 10",
+          "delta": "max(-6, min(0, -2 * (1 - growth)))"
+        },
+        {
+          "when": "backlog > 20 and pipeline < recent * 6",
+          "delta": "min(6, max(0, backlog / 4))"
+        }
+      ]
+    },
+    "seconds": 1.9511722000024747
+  },
+  {
+    "index": 4,
+    "request": {
+      "model": "deepseek-flash",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Design an interpretable emergency replenishment correction rule for a frozen HAPPO policy.\nThere are 3 serial inventory nodes, agent 0 downstream dispensing point, 1 regional warehouse, 2 upstream supply center.\nLead time=4 periods; actions are integer orders 0..20; costs inventory+backlog equally weighted at each node. Initial stocks and pipeline are fixed by simulator.\nYou see only current inventories/backlogs/pipelines, observed historical demand and current HAPPO proposed orders. Future demand and event timing are unknown.\nReturn a JSON object with explanation and rules (1 to 4 entries). Each entry has EXACTLY when and delta, both expression strings <=300 characters.\nRules are checked in order for EACH node; the FIRST matching rule supplies that node's delta, no match means 0.\nAllowed features: agent, inventory, backlog, pipeline (sum of in-transit units), arrival (next arrival), incoming (last observed local demand), recent (external last5 demand mean), baseline (external preceding20 mean), growth (recent/baseline), happo (current proposed order).\nExpressions may use numeric constants, + - * /, comparisons, and/or/not, conditional expressions, min/max (2..6 args), abs (1 arg). No other names, imports, methods, containers or functions.\ndelta is clipped to [-6,6], rounded to integer and added to happo, final order clipped to [0,20]. The rule runs for the remaining episode on fresh causal features.\nAim to reduce downstream backlog while avoiding redundant orders when the pipeline is already sufficient and avoiding persistent over-ordering after demand subsides.\nGive a concise explanation of the generated mechanics. Do not include markdown or Python code. Example format: {\"explanation\":\"mechanics\", \"rules\":[{\"when\":\"backlog > 5\", \"delta\":\"min(6,max(0,backlog / 4))\"}]}.\n"
+        },
+        {
+          "role": "user",
+          "content": "{\"observed_periods\": 64, \"observed_last25_demands\": [8, 7, 6, 5, 6, 8, 8, 8, 7, 6, 6, 5, 6, 7, 7, 7, 7, 8, 8, 9, 8, 9, 10, 12, 12], \"nodes\": [{\"agent\": 0, \"inventory\": 0, \"backlog\": 23, \"pipeline\": 2, \"arrival\": 1, \"incoming\": 12, \"recent\": 10.2, \"baseline\": 6.95, \"growth\": 1.4676258992805753, \"happo\": 17}, {\"agent\": 1, \"inventory\": 0, \"backlog\": 63, \"pipeline\": 80, \"arrival\": 20, \"incoming\": 19, \"recent\": 10.2, \"baseline\": 6.95, \"growth\": 1.4676258992805753, \"happo\": 18}, {\"agent\": 2, \"inventory\": 0, \"backlog\": 34, \"pipeline\": 80, \"arrival\": 20, \"incoming\": 11, \"recent\": 10.2, \"baseline\": 6.95, \"growth\": 1.4676258992805753, \"happo\": 20}]}"
+        }
+      ],
+      "response_format": {
+        "type": "json_object"
+      },
+      "thinking": {
+        "type": "disabled"
+      },
+      "temperature": 0.2,
+      "max_tokens": 1500
+    },
+    "started_unix": 1791016730.667129,
+    "status": "valid",
+    "response": {
+      "id": "b3266380-feb3-47a9-a9f7-0ea85ffb0d8d",
+      "object": "chat.completion",
+      "created": 1791016730,
+      "model": "deepseek-flash",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"explanation\": \"The rules correct HAPPO orders by increasing orders when downstream backlog is high and pipeline is low, while reducing orders when pipeline is excessive relative to backlog. Rule 1 targets severe downstream backlog with insufficient pipeline, adding up to 6 units. Rule 2 addresses moderate backlog with low pipeline, adding up to 3 units. Rule 3 prevents over-ordering when pipeline is already sufficient for current backlog, reducing orders by up to 4 units. Rule 4 slightly reduces orders when demand growth is low and pipeline is high, avoiding persistent over-ordering after demand subsides.\",\n  \"rules\": [\n    {\n      \"when\": \"agent == 0 and backlog > 10 and pipeline < 5\",\n      \"delta\": \"min(6, max(0, (backlog - 10) / 2))\"\n    },\n    {\n      \"when\": \"agent == 0 and backlog > 5 and pipeline < 10\",\n      \"delta\": \"min(3, max(0, (backlog - 5) / 3))\"\n    },\n    {\n      \"when\": \"pipeline > backlog * 2 and backlog > 0\",\n      \"delta\": \"-min(4, max(0, (pipeline - backlog * 2) / 5))\"\n    },\n    {\n      \"when\": \"growth < 1.1 and pipeline > 20\",\n      \"delta\": \"-min(2, max(0, (pipeline - 20) / 10))\"\n    }\n  ]\n}"
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 765,
+        "completion_tokens": 325,
+        "total_tokens": 1090,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 509
+      },
+      "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+    },
+    "rule": {
+      "explanation": "The rules correct HAPPO orders by increasing orders when downstream backlog is high and pipeline is low, while reducing orders when pipeline is excessive relative to backlog. Rule 1 targets severe downstream backlog with insufficient pipeline, adding up to 6 units. Rule 2 addresses moderate backlog with low pipeline, adding up to 3 units. Rule 3 prevents over-ordering when pipeline is already sufficient for current backlog, reducing orders by up to 4 units. Rule 4 slightly reduces orders when demand growth is low and pipeline is high, avoiding persistent over-ordering after demand subsides.",
+      "rules": [
+        {
+          "when": "agent == 0 and backlog > 10 and pipeline < 5",
+          "delta": "min(6, max(0, (backlog - 10) / 2))"
+        },
+        {
+          "when": "agent == 0 and backlog > 5 and pipeline < 10",
+          "delta": "min(3, max(0, (backlog - 5) / 3))"
+        },
+        {
+          "when": "pipeline > backlog * 2 and backlog > 0",
+          "delta": "-min(4, max(0, (pipeline - backlog * 2) / 5))"
+        },
+        {
+          "when": "growth < 1.1 and pipeline > 20",
+          "delta": "-min(2, max(0, (pipeline - 20) / 10))"
+        }
+      ]
+    },
+    "seconds": 1.921589399993536
+  },
+  {
+    "index": 5,
+    "request": {
+      "model": "deepseek-flash",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Design an interpretable emergency replenishment correction rule for a frozen HAPPO policy.\nThere are 3 serial inventory nodes, agent 0 downstream dispensing point, 1 regional warehouse, 2 upstream supply center.\nLead time=4 periods; actions are integer orders 0..20; costs inventory+backlog equally weighted at each node. Initial stocks and pipeline are fixed by simulator.\nYou see only current inventories/backlogs/pipelines, observed historical demand and current HAPPO proposed orders. Future demand and event timing are unknown.\nReturn a JSON object with explanation and rules (1 to 4 entries). Each entry has EXACTLY when and delta, both expression strings <=300 characters.\nRules are checked in order for EACH node; the FIRST matching rule supplies that node's delta, no match means 0.\nAllowed features: agent, inventory, backlog, pipeline (sum of in-transit units), arrival (next arrival), incoming (last observed local demand), recent (external last5 demand mean), baseline (external preceding20 mean), growth (recent/baseline), happo (current proposed order).\nExpressions may use numeric constants, + - * /, comparisons, and/or/not, conditional expressions, min/max (2..6 args), abs (1 arg). No other names, imports, methods, containers or functions.\ndelta is clipped to [-6,6], rounded to integer and added to happo, final order clipped to [0,20]. The rule runs for the remaining episode on fresh causal features.\nAim to reduce downstream backlog while avoiding redundant orders when the pipeline is already sufficient and avoiding persistent over-ordering after demand subsides.\nGive a concise explanation of the generated mechanics. Do not include markdown or Python code. Example format: {\"explanation\":\"mechanics\", \"rules\":[{\"when\":\"backlog > 5\", \"delta\":\"min(6,max(0,backlog / 4))\"}]}.\n"
+        },
+        {
+          "role": "user",
+          "content": "{\"observed_periods\": 49, \"observed_last25_demands\": [9, 9, 10, 10, 9, 9, 10, 11, 11, 10, 10, 11, 12, 10, 10, 9, 9, 8, 10, 11, 12, 13, 14, 15, 16], \"nodes\": [{\"agent\": 0, \"inventory\": 0, \"backlog\": 8, \"pipeline\": 58, \"arrival\": 10, \"incoming\": 16, \"recent\": 14.0, \"baseline\": 9.9, \"growth\": 1.4141414141414141, \"happo\": 19}, {\"agent\": 1, \"inventory\": 14, \"backlog\": 0, \"pipeline\": 42, \"arrival\": 0, \"incoming\": 19, \"recent\": 14.0, \"baseline\": 9.9, \"growth\": 1.4141414141414141, \"happo\": 18}, {\"agent\": 2, \"inventory\": 14, \"backlog\": 0, \"pipeline\": 22, \"arrival\": 20, \"incoming\": 18, \"recent\": 14.0, \"baseline\": 9.9, \"growth\": 1.4141414141414141, \"happo\": 20}]}"
+        }
+      ],
+      "response_format": {
+        "type": "json_object"
+      },
+      "thinking": {
+        "type": "disabled"
+      },
+      "temperature": 0.2,
+      "max_tokens": 1500
+    },
+    "started_unix": 1791016732.8959022,
+    "status": "valid",
+    "response": {
+      "id": "cb5a038b-31dd-4401-8801-7bbb83a2f43c",
+      "object": "chat.completion",
+      "created": 1791016732,
+      "model": "deepseek-flash",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"explanation\": \"The rules correct HAPPO orders by increasing orders when downstream backlog is high and pipeline is insufficient, while reducing orders when pipeline is excessive or demand has subsided. Rule 1 targets agent 0 with backlog and low pipeline coverage, boosting orders. Rule 2 reduces orders for any node when pipeline is very high relative to recent demand. Rule 3 reduces orders when demand growth is low, preventing over-ordering after demand subsides. Rule 4 provides a mild boost for agent 0 when backlog is moderate and pipeline is low.\",\n  \"rules\": [\n    {\n      \"when\": \"agent == 0 and backlog > 5 and pipeline < 4 * recent\",\n      \"delta\": \"min(6, max(0, backlog / 2))\"\n    },\n    {\n      \"when\": \"pipeline > 5 * recent\",\n      \"delta\": \"-min(6, max(0, (pipeline - 5 * recent) / 4))\"\n    },\n    {\n      \"when\": \"growth < 1.1 and pipeline > 2 * recent\",\n      \"delta\": \"-min(6, max(0, (pipeline - 2 * recent) / 3))\"\n    },\n    {\n      \"when\": \"agent == 0 and backlog > 2 and pipeline < 3 * recent\",\n      \"delta\": \"min(3, max(0, backlog / 3))\"\n    }\n  ]\n}"
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 765,
+        "completion_tokens": 307,
+        "total_tokens": 1072,
+        "prompt_tokens_details": {
+          "cached_tokens": 512
+        },
+        "prompt_cache_hit_tokens": 512,
+        "prompt_cache_miss_tokens": 253
+      },
+      "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+    },
+    "rule": {
+      "explanation": "The rules correct HAPPO orders by increasing orders when downstream backlog is high and pipeline is insufficient, while reducing orders when pipeline is excessive or demand has subsided. Rule 1 targets agent 0 with backlog and low pipeline coverage, boosting orders. Rule 2 reduces orders for any node when pipeline is very high relative to recent demand. Rule 3 reduces orders when demand growth is low, preventing over-ordering after demand subsides. Rule 4 provides a mild boost for agent 0 when backlog is moderate and pipeline is low.",
+      "rules": [
+        {
+          "when": "agent == 0 and backlog > 5 and pipeline < 4 * recent",
+          "delta": "min(6, max(0, backlog / 2))"
+        },
+        {
+          "when": "pipeline > 5 * recent",
+          "delta": "-min(6, max(0, (pipeline - 5 * recent) / 4))"
+        },
+        {
+          "when": "growth < 1.1 and pipeline > 2 * recent",
+          "delta": "-min(6, max(0, (pipeline - 2 * recent) / 3))"
+        },
+        {
+          "when": "agent == 0 and backlog > 2 and pipeline < 3 * recent",
+          "delta": "min(3, max(0, backlog / 3))"
+        }
+      ]
+    },
+    "seconds": 1.8952839999983553
+  },
+  {
+    "index": 6,
+    "request": {
+      "model": "deepseek-flash",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Design an interpretable emergency replenishment correction rule for a frozen HAPPO policy.\nThere are 3 serial inventory nodes, agent 0 downstream dispensing point, 1 regional warehouse, 2 upstream supply center.\nLead time=4 periods; actions are integer orders 0..20; costs inventory+backlog equally weighted at each node. Initial stocks and pipeline are fixed by simulator.\nYou see only current inventories/backlogs/pipelines, observed historical demand and current HAPPO proposed orders. Future demand and event timing are unknown.\nReturn a JSON object with explanation and rules (1 to 4 entries). Each entry has EXACTLY when and delta, both expression strings <=300 characters.\nRules are checked in order for EACH node; the FIRST matching rule supplies that node's delta, no match means 0.\nAllowed features: agent, inventory, backlog, pipeline (sum of in-transit units), arrival (next arrival), incoming (last observed local demand), recent (external last5 demand mean), baseline (external preceding20 mean), growth (recent/baseline), happo (current proposed order).\nExpressions may use numeric constants, + - * /, comparisons, and/or/not, conditional expressions, min/max (2..6 args), abs (1 arg). No other names, imports, methods, containers or functions.\ndelta is clipped to [-6,6], rounded to integer and added to happo, final order clipped to [0,20]. The rule runs for the remaining episode on fresh causal features.\nAim to reduce downstream backlog while avoiding redundant orders when the pipeline is already sufficient and avoiding persistent over-ordering after demand subsides.\nGive a concise explanation of the generated mechanics. Do not include markdown or Python code. Example format: {\"explanation\":\"mechanics\", \"rules\":[{\"when\":\"backlog > 5\", \"delta\":\"min(6,max(0,backlog / 4))\"}]}.\n"
+        },
+        {
+          "role": "user",
+          "content": "{\"observed_periods\": 44, \"observed_last25_demands\": [7, 7, 7, 7, 7, 7, 6, 6, 7, 7, 7, 7, 8, 8, 7, 7, 6, 7, 8, 8, 9, 10, 10, 9, 9], \"nodes\": [{\"agent\": 0, \"inventory\": 0, \"backlog\": 7, \"pipeline\": 22, \"arrival\": 0, \"incoming\": 9, \"recent\": 9.4, \"baseline\": 7.05, \"growth\": 1.3333333333333335, \"happo\": 9}, {\"agent\": 1, \"inventory\": 0, \"backlog\": 33, \"pipeline\": 20, \"arrival\": 15, \"incoming\": 19, \"recent\": 9.4, \"baseline\": 7.05, \"growth\": 1.3333333333333335, \"happo\": 18}, {\"agent\": 2, \"inventory\": 0, \"backlog\": 49, \"pipeline\": 80, \"arrival\": 20, \"incoming\": 18, \"recent\": 9.4, \"baseline\": 7.05, \"growth\": 1.3333333333333335, \"happo\": 20}]}"
+        }
+      ],
+      "response_format": {
+        "type": "json_object"
+      },
+      "thinking": {
+        "type": "disabled"
+      },
+      "temperature": 0.2,
+      "max_tokens": 1500
+    },
+    "started_unix": 1791016735.082754,
+    "status": "valid",
+    "response": {
+      "id": "876d9674-d820-41d5-b819-e2bbd3ea1dee",
+      "object": "chat.completion",
+      "created": 1791016734,
+      "model": "deepseek-flash",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"explanation\":\"The rule set corrects HAPPO orders by adding a bounded delta based on backlog and pipeline sufficiency. For each node, if backlog is high and pipeline is low relative to backlog, it increases the order to reduce downstream backlog. If pipeline is already sufficient (pipeline >= backlog + recent demand), it reduces the order to avoid redundant ordering. A separate rule prevents over-ordering when demand growth is low (growth <= 1.0) by reducing orders if backlog is not severe. The deltas are clipped to [-6,6] and added to HAPPO, then final order clipped to [0,20].\",\"rules\":[{\"when\":\"backlog > 0 and pipeline < backlog + recent\", \"delta\":\"min(6, max(0, (backlog + recent - pipeline) / 4))\"},{\"when\":\"pipeline >= backlog + recent and backlog <= 5\", \"delta\":\"max(-6, min(0, -pipeline / 10))\"},{\"when\":\"growth <= 1.0 and backlog <= 10\", \"delta\":\"max(-6, min(0, -happo / 4))\"}]}"
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 765,
+        "completion_tokens": 244,
+        "total_tokens": 1009,
+        "prompt_tokens_details": {
+          "cached_tokens": 512
+        },
+        "prompt_cache_hit_tokens": 512,
+        "prompt_cache_miss_tokens": 253
+      },
+      "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+    },
+    "rule": {
+      "explanation": "The rule set corrects HAPPO orders by adding a bounded delta based on backlog and pipeline sufficiency. For each node, if backlog is high and pipeline is low relative to backlog, it increases the order to reduce downstream backlog. If pipeline is already sufficient (pipeline >= backlog + recent demand), it reduces the order to avoid redundant ordering. A separate rule prevents over-ordering when demand growth is low (growth <= 1.0) by reducing orders if backlog is not severe. The deltas are clipped to [-6,6] and added to HAPPO, then final order clipped to [0,20].",
+      "rules": [
+        {
+          "when": "backlog > 0 and pipeline < backlog + recent",
+          "delta": "min(6, max(0, (backlog + recent - pipeline) / 4))"
+        },
+        {
+          "when": "pipeline >= backlog + recent and backlog <= 5",
+          "delta": "max(-6, min(0, -pipeline / 10))"
+        },
+        {
+          "when": "growth <= 1.0 and backlog <= 10",
+          "delta": "max(-6, min(0, -happo / 4))"
+        }
+      ]
+    },
+    "seconds": 1.924726199998986
+  },
+  {
+    "index": 7,
+    "request": {
+      "model": "deepseek-flash",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Design an interpretable emergency replenishment correction rule for a frozen HAPPO policy.\nThere are 3 serial inventory nodes, agent 0 downstream dispensing point, 1 regional warehouse, 2 upstream supply center.\nLead time=4 periods; actions are integer orders 0..20; costs inventory+backlog equally weighted at each node. Initial stocks and pipeline are fixed by simulator.\nYou see only current inventories/backlogs/pipelines, observed historical demand and current HAPPO proposed orders. Future demand and event timing are unknown.\nReturn a JSON object with explanation and rules (1 to 4 entries). Each entry has EXACTLY when and delta, both expression strings <=300 characters.\nRules are checked in order for EACH node; the FIRST matching rule supplies that node's delta, no match means 0.\nAllowed features: agent, inventory, backlog, pipeline (sum of in-transit units), arrival (next arrival), incoming (last observed local demand), recent (external last5 demand mean), baseline (external preceding20 mean), growth (recent/baseline), happo (current proposed order).\nExpressions may use numeric constants, + - * /, comparisons, and/or/not, conditional expressions, min/max (2..6 args), abs (1 arg). No other names, imports, methods, containers or functions.\ndelta is clipped to [-6,6], rounded to integer and added to happo, final order clipped to [0,20]. The rule runs for the remaining episode on fresh causal features.\nAim to reduce downstream backlog while avoiding redundant orders when the pipeline is already sufficient and avoiding persistent over-ordering after demand subsides.\nGive a concise explanation of the generated mechanics. Do not include markdown or Python code. Example format: {\"explanation\":\"mechanics\", \"rules\":[{\"when\":\"backlog > 5\", \"delta\":\"min(6,max(0,backlog / 4))\"}]}.\n"
+        },
+        {
+          "role": "user",
+          "content": "{\"observed_periods\": 45, \"observed_last25_demands\": [9, 10, 11, 10, 10, 10, 11, 10, 11, 9, 9, 10, 10, 10, 12, 11, 10, 10, 11, 12, 13, 14, 15, 16, 16], \"nodes\": [{\"agent\": 0, \"inventory\": 0, \"backlog\": 18, \"pipeline\": 44, \"arrival\": 10, \"incoming\": 16, \"recent\": 14.8, \"baseline\": 10.3, \"growth\": 1.4368932038834952, \"happo\": 19}, {\"agent\": 1, \"inventory\": 0, \"backlog\": 23, \"pipeline\": 56, \"arrival\": 15, \"incoming\": 19, \"recent\": 14.8, \"baseline\": 10.3, \"growth\": 1.4368932038834952, \"happo\": 18}, {\"agent\": 2, \"inventory\": 0, \"backlog\": 4, \"pipeline\": 41, \"arrival\": 0, \"incoming\": 15, \"recent\": 14.8, \"baseline\": 10.3, \"growth\": 1.4368932038834952, \"happo\": 20}]}"
+        }
+      ],
+      "response_format": {
+        "type": "json_object"
+      },
+      "thinking": {
+        "type": "disabled"
+      },
+      "temperature": 0.2,
+      "max_tokens": 1500
+    },
+    "started_unix": 1791016737.307047,
+    "status": "valid",
+    "response": {
+      "id": "c1a2afad-0eb8-448b-bb21-21a9d9a2ac1c",
+      "object": "chat.completion",
+      "created": 1791016736,
+      "model": "deepseek-flash",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"explanation\": \"The rules correct HAPPO orders to reduce downstream backlog while preventing over-ordering when pipeline is sufficient. Rule 1 boosts orders at the downstream node when backlog is high and pipeline is low relative to recent demand. Rule 2 boosts orders at the regional warehouse when its backlog is high and pipeline is low. Rule 3 reduces orders at any node when pipeline is excessive relative to recent demand, avoiding redundant orders. Rule 4 reduces orders when demand growth is low, preventing persistent over-ordering after demand subsides.\",\n  \"rules\": [\n    {\n      \"when\": \"agent == 0 and backlog > 10 and pipeline < recent * 4\",\n      \"delta\": \"min(6, max(0, (backlog - 10) / 2))\"\n    },\n    {\n      \"when\": \"agent == 1 and backlog > 10 and pipeline < recent * 4\",\n      \"delta\": \"min(6, max(0, (backlog - 10) / 2))\"\n    },\n    {\n      \"when\": \"pipeline > recent * 5\",\n      \"delta\": \"-min(6, max(0, (pipeline - recent * 5) / 4))\"\n    },\n    {\n      \"when\": \"growth < 1.1\",\n      \"delta\": \"-min(6, max(0, (1.1 - growth) * 10))\"\n    }\n  ]\n}"
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 765,
+        "completion_tokens": 306,
+        "total_tokens": 1071,
+        "prompt_tokens_details": {
+          "cached_tokens": 512
+        },
+        "prompt_cache_hit_tokens": 512,
+        "prompt_cache_miss_tokens": 253
+      },
+      "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+    },
+    "rule": {
+      "explanation": "The rules correct HAPPO orders to reduce downstream backlog while preventing over-ordering when pipeline is sufficient. Rule 1 boosts orders at the downstream node when backlog is high and pipeline is low relative to recent demand. Rule 2 boosts orders at the regional warehouse when its backlog is high and pipeline is low. Rule 3 reduces orders at any node when pipeline is excessive relative to recent demand, avoiding redundant orders. Rule 4 reduces orders when demand growth is low, preventing persistent over-ordering after demand subsides.",
+      "rules": [
+        {
+          "when": "agent == 0 and backlog > 10 and pipeline < recent * 4",
+          "delta": "min(6, max(0, (backlog - 10) / 2))"
+        },
+        {
+          "when": "agent == 1 and backlog > 10 and pipeline < recent * 4",
+          "delta": "min(6, max(0, (backlog - 10) / 2))"
+        },
+        {
+          "when": "pipeline > recent * 5",
+          "delta": "-min(6, max(0, (pipeline - recent * 5) / 4))"
+        },
+        {
+          "when": "growth < 1.1",
+          "delta": "-min(6, max(0, (1.1 - growth) * 10))"
+        }
+      ]
+    },
+    "seconds": 1.6513796000072034
+  },
+  {
+    "index": 8,
+    "request": {
+      "model": "deepseek-flash",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Design an interpretable emergency replenishment correction rule for a frozen HAPPO policy.\nThere are 3 serial inventory nodes, agent 0 downstream dispensing point, 1 regional warehouse, 2 upstream supply center.\nLead time=4 periods; actions are integer orders 0..20; costs inventory+backlog equally weighted at each node. Initial stocks and pipeline are fixed by simulator.\nYou see only current inventories/backlogs/pipelines, observed historical demand and current HAPPO proposed orders. Future demand and event timing are unknown.\nReturn a JSON object with explanation and rules (1 to 4 entries). Each entry has EXACTLY when and delta, both expression strings <=300 characters.\nRules are checked in order for EACH node; the FIRST matching rule supplies that node's delta, no match means 0.\nAllowed features: agent, inventory, backlog, pipeline (sum of in-transit units), arrival (next arrival), incoming (last observed local demand), recent (external last5 demand mean), baseline (external preceding20 mean), growth (recent/baseline), happo (current proposed order).\nExpressions may use numeric constants, + - * /, comparisons, and/or/not, conditional expressions, min/max (2..6 args), abs (1 arg). No other names, imports, methods, containers or functions.\ndelta is clipped to [-6,6], rounded to integer and added to happo, final order clipped to [0,20]. The rule runs for the remaining episode on fresh causal features.\nAim to reduce downstream backlog while avoiding redundant orders when the pipeline is already sufficient and avoiding persistent over-ordering after demand subsides.\nGive a concise explanation of the generated mechanics. Do not include markdown or Python code. Example format: {\"explanation\":\"mechanics\", \"rules\":[{\"when\":\"backlog > 5\", \"delta\":\"min(6,max(0,backlog / 4))\"}]}.\n"
+        },
+        {
+          "role": "user",
+          "content": "{\"observed_periods\": 26, \"observed_last25_demands\": [10, 9, 11, 10, 11, 9, 8, 9, 9, 10, 10, 9, 8, 8, 8, 10, 10, 10, 10, 11, 13, 13, 15, 15, 14], \"nodes\": [{\"agent\": 0, \"inventory\": 0, \"backlog\": 26, \"pipeline\": 48, \"arrival\": 15, \"incoming\": 14, \"recent\": 14.0, \"baseline\": 9.5, \"growth\": 1.4736842105263157, \"happo\": 19}, {\"agent\": 1, \"inventory\": 0, \"backlog\": 19, \"pipeline\": 42, \"arrival\": 2, \"incoming\": 19, \"recent\": 14.0, \"baseline\": 9.5, \"growth\": 1.4736842105263157, \"happo\": 18}, {\"agent\": 2, \"inventory\": 0, \"backlog\": 21, \"pipeline\": 60, \"arrival\": 0, \"incoming\": 18, \"recent\": 14.0, \"baseline\": 9.5, \"growth\": 1.4736842105263157, \"happo\": 20}]}"
+        }
+      ],
+      "response_format": {
+        "type": "json_object"
+      },
+      "thinking": {
+        "type": "disabled"
+      },
+      "temperature": 0.2,
+      "max_tokens": 1500
+    },
+    "started_unix": 1791016739.228865,
+    "status": "valid",
+    "response": {
+      "id": "c86b036e-eca5-4a23-aeda-ed4485b89fca",
+      "object": "chat.completion",
+      "created": 1791016738,
+      "model": "deepseek-flash",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"explanation\":\"The rule targets nodes with high backlog and insufficient pipeline relative to recent demand. It adds a correction proportional to backlog, but only when pipeline is low compared to recent demand, preventing redundant orders when pipeline is already sufficient. A second rule reduces orders when backlog is low and pipeline is high, avoiding over-ordering after demand subsides. The correction is capped at 6 and added to the HAPPO order, then clipped to [0,20].\",\"rules\":[{\"when\":\"backlog > 5 and pipeline < recent * 4\", \"delta\":\"min(6, max(0, backlog / 4))\"},{\"when\":\"backlog <= 2 and pipeline > recent * 5\", \"delta\":\"max(-6, -pipeline / 10)\"}]}"
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 765,
+        "completion_tokens": 162,
+        "total_tokens": 927,
+        "prompt_tokens_details": {
+          "cached_tokens": 512
+        },
+        "prompt_cache_hit_tokens": 512,
+        "prompt_cache_miss_tokens": 253
+      },
+      "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+    },
+    "rule": {
+      "explanation": "The rule targets nodes with high backlog and insufficient pipeline relative to recent demand. It adds a correction proportional to backlog, but only when pipeline is low compared to recent demand, preventing redundant orders when pipeline is already sufficient. A second rule reduces orders when backlog is low and pipeline is high, avoiding over-ordering after demand subsides. The correction is capped at 6 and added to the HAPPO order, then clipped to [0,20].",
+      "rules": [
+        {
+          "when": "backlog > 5 and pipeline < recent * 4",
+          "delta": "min(6, max(0, backlog / 4))"
+        },
+        {
+          "when": "backlog <= 2 and pipeline > recent * 5",
+          "delta": "max(-6, -pipeline / 10)"
+        }
+      ]
+    },
+    "seconds": 1.3889861999923596
+  },
+  {
+    "index": 9,
+    "request": {
+      "model": "deepseek-flash",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Design an interpretable emergency replenishment correction rule for a frozen HAPPO policy.\nThere are 3 serial inventory nodes, agent 0 downstream dispensing point, 1 regional warehouse, 2 upstream supply center.\nLead time=4 periods; actions are integer orders 0..20; costs inventory+backlog equally weighted at each node. Initial stocks and pipeline are fixed by simulator.\nYou see only current inventories/backlogs/pipelines, observed historical demand and current HAPPO proposed orders. Future demand and event timing are unknown.\nReturn a JSON object with explanation and rules (1 to 4 entries). Each entry has EXACTLY when and delta, both expression strings <=300 characters.\nRules are checked in order for EACH node; the FIRST matching rule supplies that node's delta, no match means 0.\nAllowed features: agent, inventory, backlog, pipeline (sum of in-transit units), arrival (next arrival), incoming (last observed local demand), recent (external last5 demand mean), baseline (external preceding20 mean), growth (recent/baseline), happo (current proposed order).\nExpressions may use numeric constants, + - * /, comparisons, and/or/not, conditional expressions, min/max (2..6 args), abs (1 arg). No other names, imports, methods, containers or functions.\ndelta is clipped to [-6,6], rounded to integer and added to happo, final order clipped to [0,20]. The rule runs for the remaining episode on fresh causal features.\nAim to reduce downstream backlog while avoiding redundant orders when the pipeline is already sufficient and avoiding persistent over-ordering after demand subsides.\nGive a concise explanation of the generated mechanics. Do not include markdown or Python code. Example format: {\"explanation\":\"mechanics\", \"rules\":[{\"when\":\"backlog > 5\", \"delta\":\"min(6,max(0,backlog / 4))\"}]}.\n"
+        },
+        {
+          "role": "user",
+          "content": "{\"observed_periods\": 64, \"observed_last25_demands\": [8, 7, 6, 5, 6, 8, 8, 8, 7, 6, 6, 5, 6, 7, 7, 7, 7, 8, 8, 9, 8, 9, 10, 12, 12], \"nodes\": [{\"agent\": 0, \"inventory\": 0, \"backlog\": 23, \"pipeline\": 2, \"arrival\": 1, \"incoming\": 12, \"recent\": 10.2, \"baseline\": 6.95, \"growth\": 1.4676258992805753, \"happo\": 17}, {\"agent\": 1, \"inventory\": 0, \"backlog\": 63, \"pipeline\": 80, \"arrival\": 20, \"incoming\": 19, \"recent\": 10.2, \"baseline\": 6.95, \"growth\": 1.4676258992805753, \"happo\": 18}, {\"agent\": 2, \"inventory\": 0, \"backlog\": 34, \"pipeline\": 80, \"arrival\": 20, \"incoming\": 11, \"recent\": 10.2, \"baseline\": 6.95, \"growth\": 1.4676258992805753, \"happo\": 20}]}"
+        }
+      ],
+      "response_format": {
+        "type": "json_object"
+      },
+      "thinking": {
+        "type": "disabled"
+      },
+      "temperature": 0.2,
+      "max_tokens": 1500
+    },
+    "started_unix": 1791016740.9691844,
+    "status": "valid",
+    "response": {
+      "id": "77a7e1db-42f9-4445-a9db-059c0c784d5a",
+      "object": "chat.completion",
+      "created": 1791016740,
+      "model": "deepseek-flash",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\"explanation\":\"The rule set prioritizes downstream backlog relief while preventing over-ordering when pipeline coverage is already high. For agent 0 (dispensing point), if backlog is severe and pipeline is low, add a moderate boost to orders. For upstream nodes, if backlog is high but pipeline already covers several periods of recent demand, avoid adding more orders; otherwise, add a small boost proportional to backlog. A final guard reduces orders when demand growth has subsided and pipeline is excessive, preventing persistent over-ordering.\",\"rules\":[{\"when\":\"agent == 0 and backlog > 10 and pipeline < 5\", \"delta\":\"min(6, max(0, backlog / 4))\"},{\"when\":\"backlog > 20 and pipeline < recent * 4\", \"delta\":\"min(4, max(0, backlog / 10))\"},{\"when\":\"growth < 1.1 and pipeline > recent * 5\", \"delta\":\"-2\"},{\"when\":\"backlog > 0 and pipeline > recent * 6\", \"delta\":\"-1\"}]}"
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 765,
+        "completion_tokens": 222,
+        "total_tokens": 987,
+        "prompt_tokens_details": {
+          "cached_tokens": 512
+        },
+        "prompt_cache_hit_tokens": 512,
+        "prompt_cache_miss_tokens": 253
+      },
+      "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+    },
+    "rule": {
+      "explanation": "The rule set prioritizes downstream backlog relief while preventing over-ordering when pipeline coverage is already high. For agent 0 (dispensing point), if backlog is severe and pipeline is low, add a moderate boost to orders. For upstream nodes, if backlog is high but pipeline already covers several periods of recent demand, avoid adding more orders; otherwise, add a small boost proportional to backlog. A final guard reduces orders when demand growth has subsided and pipeline is excessive, preventing persistent over-ordering.",
+      "rules": [
+        {
+          "when": "agent == 0 and backlog > 10 and pipeline < 5",
+          "delta": "min(6, max(0, backlog / 4))"
+        },
+        {
+          "when": "backlog > 20 and pipeline < recent * 4",
+          "delta": "min(4, max(0, backlog / 10))"
+        },
+        {
+          "when": "growth < 1.1 and pipeline > recent * 5",
+          "delta": "-2"
+        },
+        {
+          "when": "backlog > 0 and pipeline > recent * 6",
+          "delta": "-1"
+        }
+      ]
+    },
+    "seconds": 1.86484379999456
+  }
+]

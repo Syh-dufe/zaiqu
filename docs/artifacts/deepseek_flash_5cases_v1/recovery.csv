@@ -1,0 +1,16 @@
+group,trace,postshock_start_period,first_window_delay,sustained_window_delay,recross_after_first,interpretation
+happo,0,114,2,,True,paired same controller
+happo,1,108,0,61,True,paired same controller
+happo,2,119,4,4,False,paired same controller
+happo,3,123,66,66,False,paired same controller
+happo,4,134,2,,True,paired same controller
+manual,0,114,0,65,True,paired same controller
+manual,1,108,0,44,True,paired same controller
+manual,2,119,0,,True,paired same controller
+manual,3,123,19,19,False,paired same controller
+manual,4,134,2,42,True,paired same controller
+deepseek,0,114,1,,True,DeepSeek own base/shock curves have independently generated rules; not a pure shock-effect estimate
+deepseek,1,108,0,60,True,DeepSeek own base/shock curves have independently generated rules; not a pure shock-effect estimate
+deepseek,2,119,18,,True,DeepSeek own base/shock curves have independently generated rules; not a pure shock-effect estimate
+deepseek,3,123,40,40,False,DeepSeek own base/shock curves have independently generated rules; not a pure shock-effect estimate
+deepseek,4,134,1,32,True,DeepSeek own base/shock curves have independently generated rules; not a pure shock-effect estimate
