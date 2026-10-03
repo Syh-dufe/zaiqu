@@ -1,6 +1,6 @@
 # 灾害冲击下多级物资补给研究
 
-本项目先建立 Liu 官方库存模型的业务解释兼容版本，再逐项研究洪灾需求变化与 LLM 生成补货规则。目前已编写兼容启动器，尚未运行兼容验证或新的训练。
+本项目先建立 Liu 官方库存模型的业务解释兼容版本，再逐项研究洪灾需求变化与 LLM 生成补货规则。兼容启动器只增加业务命名与命令行种子列表适配，验证记录见 docs。
 
 ## 当前版本
 
@@ -44,13 +44,15 @@ python -m venv .venv
 & .venv/Scripts/python.exe -u experiments/emergency_compatibility/train.py
 ```
 
-或使用独立名称做小预算流程检查：
+短预算流程验证使用独立审计脚本：
 
 ```powershell
-& .venv/Scripts/python.exe -u experiments/emergency_compatibility/train.py --run-name smoke_seed11 --seed 11 --num_env_steps 5000
+& .venv/Scripts/python.exe -u scripts/verify_compatibility.py
 ```
 
 结果由官方脚本写到 `external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/<run-name>/`，包含来源记录、模型和原始训练输出。已有同名目录拒绝重跑。模型、原始数据、日志、API 密钥和上游源码均不上传。
+
+官方 `--seed` 参数默认是列表，但显式传值会变成整数；兼容入口将显式种子解析为列表，保持默认值不变。官方 runner 在预算耗尽且未早停时隐式返回 None；因此直接指定短预算不保证正常结束或保存模型。审计脚本保留官方更新过程，只在运行完成后保存最终模型并评估，记录为 `audit_final_policy_not_official_best`，不冒充官方最佳检查点。审计源码不修改上游文件。
 
 ## 下一步
 

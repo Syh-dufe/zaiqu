@@ -18,6 +18,16 @@ REVISION = "a7e5a3e83e21565a5799483bc534e39635ec65dd"
 SCENARIO = "Emergency_Replenishment_Compatibility"
 
 
+def seed_list_parser(factory):
+    """Keep official defaults while making explicit seed values iterable."""
+    parser = factory()
+    for action in parser._actions:
+        if action.dest == "seed":
+            action.nargs = "+"
+            break
+    return parser
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--describe", action="store_true")
@@ -51,14 +61,17 @@ def main():
         "reward": "unchanged official mean-cost mixed reward",
         "python": sys.version,
         "python_executable": sys.executable,
+        "cli_adapter": "explicit --seed values parsed as a list; defaults unchanged",
     }
     if options.describe:
         print(json.dumps(metadata, ensure_ascii=False, indent=2))
         return
     # Import only after selecting the official checkout, including on Windows spawn.
     sys.path.insert(0, str(ORIGINAL))
-    from config import get_config
-    get_config().parse_args(official_args)  # Reject mistyped flags before creating outputs.
+    import config
+    official_factory = config.get_config
+    config.get_config = lambda: seed_list_parser(official_factory)
+    config.get_config().parse_args(official_args)  # Reject mistyped flags before creating outputs.
     if output.exists():
         parser.error(f"output already exists; choose a new --run-name to preserve results: {output}")
     output.mkdir(parents=True)
