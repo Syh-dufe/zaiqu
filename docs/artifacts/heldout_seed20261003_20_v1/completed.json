@@ -1,0 +1,104 @@
+{
+  "official_revision": "a7e5a3e83e21565a5799483bc534e39635ec65dd",
+  "demand_seed": 20261003,
+  "summaries": {
+    "official_best": {
+      "original": {
+        "traces": 20,
+        "mean_cost": 23.71875,
+        "trace_cost_sample_sd": 10.315479537670814,
+        "trace_cost_min": 12.803333333333333,
+        "trace_cost_max": 52.825,
+        "trace_cost_median": 21.934166666666666,
+        "ordering_fluctuation_official": [
+          0.684545116619947,
+          0.9865485430445606,
+          1.2846026967529087
+        ]
+      },
+      "new": {
+        "traces": 20,
+        "mean_cost": 22.715749999999996,
+        "trace_cost_sample_sd": 9.523441799378013,
+        "trace_cost_min": 14.118333333333334,
+        "trace_cost_max": 52.07333333333333,
+        "trace_cost_median": 19.126666666666665,
+        "ordering_fluctuation_official": [
+          0.6831572288066363,
+          1.0008696421378338,
+          1.2868262095157728
+        ]
+      }
+    },
+    "final": {
+      "original": {
+        "traces": 20,
+        "mean_cost": 25.385916666666667,
+        "trace_cost_sample_sd": 13.931556772862718,
+        "trace_cost_min": 13.041666666666666,
+        "trace_cost_max": 69.59,
+        "trace_cost_median": 19.326666666666668,
+        "ordering_fluctuation_official": [
+          0.7135432722945099,
+          0.9270939094977028,
+          1.2187612393673584
+        ]
+      },
+      "new": {
+        "traces": 20,
+        "mean_cost": 22.718583333333335,
+        "trace_cost_sample_sd": 10.946872931618149,
+        "trace_cost_min": 13.83,
+        "trace_cost_max": 53.90833333333333,
+        "trace_cost_median": 19.954166666666666,
+        "ordering_fluctuation_official": [
+          0.708799579723029,
+          0.9128556228267746,
+          1.2064970831299204
+        ]
+      }
+    }
+  },
+  "parameter_checks": {
+    "official_best": {
+      "before": "583bd3c2a65b7c99ca1f693e8542e2654a05cc3b51bb198cb5ca4e3b44499192",
+      "after": "583bd3c2a65b7c99ca1f693e8542e2654a05cc3b51bb198cb5ca4e3b44499192",
+      "unchanged": true
+    },
+    "final": {
+      "before": "7b53430b9b2fa62c9da683796a9b650c4d1a69dbe8d118032f579ccadf327bed",
+      "after": "7b53430b9b2fa62c9da683796a9b650c4d1a69dbe8d118032f579ccadf327bed",
+      "unchanged": true
+    }
+  },
+  "new_paired_final_minus_best": [
+    -4.725,
+    -3.5283333333333324,
+    1.091666666666665,
+    10.26,
+    -5.263333333333332,
+    -1.8049999999999997,
+    -3.4383333333333344,
+    2.4616666666666696,
+    -1.796666666666665,
+    -1.7699999999999996,
+    -1.1433333333333344,
+    0.7883333333333322,
+    -3.4116666666666653,
+    -0.23833333333333329,
+    -3.349999999999998,
+    15.244999999999997,
+    -6.574999999999999,
+    5.188333333333333,
+    2.171666666666667,
+    -0.10500000000000043
+  ],
+  "paired_mean": 0.0028333333333335096,
+  "training_updates": 0,
+  "dependencies": {
+    "python": "3.12.13 (main, Mar 24 2026, 22:57:53) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "1.26.4",
+    "torch": "2.14.1+cpu"
+  },
+  "limitations": "20 fresh same-generator traces, one training seed, no disaster shock or algorithm baseline. Original evaluation demands influenced checkpoint selection. New demands are independently drawn; no exhaustive training-trace de-duplication log exists."
+}
