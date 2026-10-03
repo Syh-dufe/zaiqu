@@ -48,6 +48,7 @@ def main():
     parser.add_argument('--single-only',action='store_true',help='Compare original, manual and single LLM only; no feedback requests.')
     parser.add_argument('--predictor',default='residual',choices=('residual','merton'))
     parser.add_argument('--replay-calls',type=Path,help='Causal replay of stored initial requests; no new API calls, development only.')
+    parser.add_argument('--operator-library',type=Path,help='Fixed offline LLM-designed operators; no event-time API generation.')
     opts = parser.parse_args()
     run_started=time.perf_counter()
     if not opts.run_name or any(c not in 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_-' for c in opts.run_name):
@@ -55,7 +56,13 @@ def main():
     out = ROOT/'results/deepseek_refinement'/opts.run_name
     if out.exists(): parser.error('refuse overwrite')
     key = os.environ.get('DEEPSEEK_API_KEY')
-    if not key and not opts.replay_calls: parser.error('API key missing')
+    if not key and not opts.replay_calls and not opts.operator_library: parser.error('API key missing')
+    library=[]
+    if opts.operator_library:
+        if opts.replay_calls:parser.error('Library and causal replay are different modes')
+        source=json.loads(opts.operator_library.read_text(encoding='utf-8'))
+        library=[dict(id=f'library_{i}',rule=r,compiled=compile_rule(r)) for i,r in enumerate(source['candidates'])]
+        if len(library)>6:parser.error('At most6 fixed operators')
     replay=[]
     if opts.replay_calls:
         if not opts.single_only:parser.error('Replay currently supports single-only diagnosis')
@@ -66,12 +73,13 @@ def main():
     old_calls = 0
     for p in (ROOT/'results/deepseek_refinement').glob('*/calls.json'):
         old_calls += sum(not c.get('replayed',False) for c in json.loads(p.read_text(encoding='utf-8')))
-    expected_calls=0 if opts.replay_calls else opts.cases*(1 if opts.single_only else 3)
+    expected_calls=0 if opts.replay_calls or opts.operator_library else opts.cases*(1 if opts.single_only else 3)
     if old_calls+expected_calls > 120: parser.error('series API limit reached')
     out.mkdir(parents=True)
     write(out/'protocol.json', {'system': SYSTEM, 'document': 'docs/2026-10-03-llm-refinement-protocol.md',
                                'max_calls': 12, 'series_calls_before': old_calls, 'model': 'deepseek-flash',
-                               'options':{k:str(v) if isinstance(v,Path) else v for k,v in vars(opts).items()}})
+                               'options':{k:str(v) if isinstance(v,Path) else v for k,v in vars(opts).items()},
+                               'operator_library_sha256':hashlib.sha256(opts.operator_library.read_bytes()).hexdigest() if opts.operator_library else None})
     sys.path.insert(0, str(UPSTREAM)); os.chdir(UPSTREAM)
     import numpy as np
     import torch
@@ -86,6 +94,7 @@ def main():
               for i, d in enumerate(t)] for t, e in zip(base, events)]
     write(out/'demands.json', {'demand_seed': opts.demand_seed, 'event_seed': opts.event_seed, 'events': events, 'base': base, 'shock': shock})
     calls = []; scores = []; rows = []; episodes = []; initial = {}; checks = {}; failures = []; branch_audits=[]; feedback_times=[]
+    write(out/'calls.json',calls)
     config = json.loads((TRAINING/'config.json').read_text())['config']
     done = json.loads((TRAINING/'completed.json').read_text())
     model_dir = Path(done['final_model_directory']).parent/'models'
@@ -164,6 +173,7 @@ def main():
                                   known_pipeline=[list(map(int,p)) for p in env.order],
                                   last5_orders=self.orders[-5:], notification='emergency has occurred')
                 if self.group=='manual_screen': self.candidates.append(dict(id='manual'))
+                if self.group=='llm_library':self.candidates+=library
                 if self.group=='llm_single':
                     generated=generate(self.context,3,self.trace,0)
                     initial[self.trace]=dict(context=copy.deepcopy(self.context), generated=generated)
@@ -240,7 +250,7 @@ def main():
                 print('EPISODE',episodes[-1],flush=True)
             return output
 
-    groups=('happo','manual_screen','llm_single') if opts.single_only else ('happo','manual_screen','llm_single','llm_iterative')
+    groups=('happo','manual_screen','llm_library') if opts.operator_library else ('happo','manual_screen','llm_single') if opts.single_only else ('happo','manual_screen','llm_single','llm_iterative')
     for group in groups:
         args=argparse.Namespace(**config);args.model_dir=str(model_dir)
         envs=Controller(args)
