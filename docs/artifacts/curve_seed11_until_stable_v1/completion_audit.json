@@ -1,0 +1,176 @@
+{
+  "stability_excluding_extra_final_evaluation": {
+    "stable": true,
+    "steps": 295000,
+    "minimum_steps": 100000,
+    "window": 10,
+    "median_change_limit": 0.01,
+    "recent_cv_limit": 0.05,
+    "best_change_limit": 0.01,
+    "median_change": 0.009032692096155282,
+    "best_change": 0.0004916334521446033,
+    "recent_cv": 0.040275708232365696
+  },
+  "model_matches": {
+    "official_best": {
+      "sha256": "583bd3c2a65b7c99ca1f693e8542e2654a05cc3b51bb198cb5ca4e3b44499192",
+      "matching_steps": [
+        250000
+      ]
+    },
+    "final": {
+      "sha256": "7b53430b9b2fa62c9da683796a9b650c4d1a69dbe8d118032f579ccadf327bed",
+      "matching_steps": [
+        295000
+      ]
+    }
+  },
+  "final_reload_max_error": 0.0,
+  "stability_file_note": "stability.json was overwritten by the extra final evaluation; completed.json and this independently recomputed audit use scheduled evaluations only. Raw files preserved.",
+  "all_rebounds": [
+    {
+      "step": 20000,
+      "cost": 157.94591666666665,
+      "previous_cost": 136.2791666666667,
+      "relative_increase": 0.1589879842235603
+    },
+    {
+      "step": 45000,
+      "cost": 108.38775,
+      "previous_cost": 92.70216666666667,
+      "relative_increase": 0.16920406391076792
+    },
+    {
+      "step": 60000,
+      "cost": 80.91275,
+      "previous_cost": 76.3015,
+      "relative_increase": 0.060434591718380344
+    },
+    {
+      "step": 75000,
+      "cost": 63.41575000000001,
+      "previous_cost": 57.54575,
+      "relative_increase": 0.10200579538888643
+    },
+    {
+      "step": 105000,
+      "cost": 91.96991666666668,
+      "previous_cost": 44.199666666666666,
+      "relative_increase": 1.0807830375794691
+    },
+    {
+      "step": 115000,
+      "cost": 183.28716666666665,
+      "previous_cost": 42.141416666666665,
+      "relative_increase": 3.3493356693830494
+    },
+    {
+      "step": 130000,
+      "cost": 39.59733333333333,
+      "previous_cost": 36.89491666666667,
+      "relative_increase": 0.07324631442000812
+    },
+    {
+      "step": 145000,
+      "cost": 27.527499999999996,
+      "previous_cost": 24.138416666666668,
+      "relative_increase": 0.1404020561967263
+    },
+    {
+      "step": 150000,
+      "cost": 29.415916666666668,
+      "previous_cost": 27.527499999999996,
+      "relative_increase": 0.06860109587382333
+    },
+    {
+      "step": 155000,
+      "cost": 32.794333333333334,
+      "previous_cost": 29.415916666666668,
+      "relative_increase": 0.11484995368153861
+    },
+    {
+      "step": 160000,
+      "cost": 33.963416666666674,
+      "previous_cost": 32.794333333333334,
+      "relative_increase": 0.035648943415021096
+    },
+    {
+      "step": 165000,
+      "cost": 52.165,
+      "previous_cost": 33.963416666666674,
+      "relative_increase": 0.5359173228056655
+    },
+    {
+      "step": 180000,
+      "cost": 32.33925,
+      "previous_cost": 30.798416666666665,
+      "relative_increase": 0.050029628146468635
+    },
+    {
+      "step": 200000,
+      "cost": 30.250916666666672,
+      "previous_cost": 29.169499999999996,
+      "relative_increase": 0.03707354142740454
+    },
+    {
+      "step": 210000,
+      "cost": 28.026083333333336,
+      "previous_cost": 26.8645,
+      "relative_increase": 0.043238598646292925
+    },
+    {
+      "step": 215000,
+      "cost": 28.055666666666667,
+      "previous_cost": 28.026083333333336,
+      "relative_increase": 0.0010555643106272298
+    },
+    {
+      "step": 230000,
+      "cost": 31.603666666666665,
+      "previous_cost": 24.294083333333337,
+      "relative_increase": 0.3008791578196335
+    },
+    {
+      "step": 245000,
+      "cost": 24.40625,
+      "previous_cost": 23.730416666666663,
+      "relative_increase": 0.028479623549242508
+    },
+    {
+      "step": 255000,
+      "cost": 26.1055,
+      "previous_cost": 23.71875,
+      "relative_increase": 0.10062714097496703
+    },
+    {
+      "step": 260000,
+      "cost": 26.330583333333337,
+      "previous_cost": 26.1055,
+      "relative_increase": 0.008622065592819044
+    },
+    {
+      "step": 270000,
+      "cost": 25.282666666666668,
+      "previous_cost": 25.23675,
+      "relative_increase": 0.001819436602045304
+    },
+    {
+      "step": 275000,
+      "cost": 28.059916666666666,
+      "previous_cost": 25.282666666666668,
+      "relative_increase": 0.1098479854445733
+    },
+    {
+      "step": 290000,
+      "cost": 26.154333333333337,
+      "previous_cost": 25.695416666666663,
+      "relative_increase": 0.01785986476187417
+    }
+  ],
+  "largest_rebound": {
+    "step": 115000,
+    "cost": 183.28716666666665,
+    "previous_cost": 42.141416666666665,
+    "relative_increase": 3.3493356693830494
+  }
+}
