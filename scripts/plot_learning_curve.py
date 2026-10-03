@@ -1,6 +1,7 @@
 """Render exported training/evaluation curves; requires matplotlib."""
 import argparse
 import csv
+import json
 from pathlib import Path
 
 
@@ -21,7 +22,11 @@ def main():
         ax.set(title=phase.title(), xlabel="Environment transitions",
                ylabel="Mean cost per agent per period (lower is better)")
         ax.grid(alpha=0.25)
-    fig.suptitle("Official Liu rules — seed 11 — 50,000 transitions")
+    config_path = options.directory / "config.json"
+    config = json.loads(config_path.read_text())["config"] if config_path.exists() else {}
+    seed = config.get("seed", [11])[0]
+    last_step = max(int(row["step"]) for row in rows)
+    fig.suptitle(f"Official Liu rules — seed {seed} — {last_step:,} transitions")
     for extension in ("png", "pdf"):
         fig.savefig(options.directory / f"learning_curve.{extension}", dpi=180)
     plt.close(fig)

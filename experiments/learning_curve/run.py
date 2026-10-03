@@ -5,6 +5,7 @@ import hashlib
 import json
 from pathlib import Path
 import runpy
+import statistics
 import sys
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -17,9 +18,32 @@ def training_arguments(seed, budget, run_name):
     return ["--run-name", run_name, "--seed", str(seed), "--num_env_steps", str(budget)]
 
 
-def best_scheduled_evaluation(rows):
+def best_scheduled_evaluation(rows, stopped_at_plateau=False):
+    if stopped_at_plateau:
+        rows = rows[:-1]  # Plateau exception fires before the official save branch.
     scheduled = [row for row in rows if row["phase"] == "evaluation" and row["step"] > 0]
     return min(scheduled, key=lambda row: row["mean_actor_period_cost"], default=None)
+
+
+def stability_report(costs, steps):
+    """Predeclared empirical plateau rule; not a mathematical convergence proof."""
+    report = {"stable": False, "steps": steps, "minimum_steps": 100000,
+              "window": 10, "median_change_limit": 0.01, "recent_cv_limit": 0.05,
+              "best_change_limit": 0.01}
+    if steps < 100000 or len(costs) < 20:
+        return report
+    previous, recent = costs[-20:-10], costs[-10:]
+    denominator = max(abs(statistics.median(previous)), 1e-8)
+    median_change = abs(statistics.median(recent)-statistics.median(previous))/denominator
+    best_change = abs(min(recent)-min(previous))/max(abs(min(previous)), 1e-8)
+    cv = statistics.pstdev(recent)/max(abs(statistics.mean(recent)), 1e-8)
+    report.update(median_change=median_change, best_change=best_change, recent_cv=cv)
+    report["stable"] = median_change <= 0.01 and best_change <= 0.01 and cv <= 0.05
+    return report
+
+
+class EmpiricalPlateau(Exception):
+    pass
 
 
 def main():
@@ -27,8 +51,14 @@ def main():
     parser.add_argument("--seed", type=int, default=11)
     parser.add_argument("--budget", type=int, default=50000)
     parser.add_argument("--run-name", default="curve_seed11_50k_v1")
+    parser.add_argument("--until-stable", action="store_true")
+    parser.add_argument("--patience", type=int, default=10)
     options = parser.parse_args()
     arguments = training_arguments(options.seed, options.budget, options.run_name)
+    if options.patience < 1:
+        parser.error("patience must be positive")
+    if options.patience != 10:
+        arguments.extend(["--n_no_improvement_thres", str(options.patience)])
     target = ROOT / "results" / "learning_curve" / options.run_name
     if target.exists():
         parser.error(f"results already exist; use a new run name: {target}")
@@ -52,11 +82,12 @@ def main():
         def __init__(self, runner_config):
             runner_module.Runner.__init__(self, runner_config)
             self.completed_steps = 0
+            self.check_plateau = options.until_stable
             (target / "config.json").write_text(json.dumps({
                 "config": vars(self.all_args), "python": sys.version,
                 "torch": torch.__version__, "numpy": np.__version__,
                 "changes": "seed and budget; naming; passive curve recording and extra snapshots",
-                "early_stop": "unchanged official rule",
+                "early_stop": {"patience": options.patience, "until_stable": options.until_stable},
             }, indent=2), encoding="utf-8")
 
         def train(self):
@@ -87,11 +118,25 @@ def main():
         def eval(self):
             result = super().eval()
             record(self.completed_steps, "evaluation", -float(result[0]))
+            costs = [row["mean_actor_period_cost"] for row in rows
+                     if row["phase"] == "evaluation" and row["step"] > 0]
+            report = stability_report(costs, self.completed_steps)
+            (target / "stability.json").write_text(json.dumps(report, indent=2), encoding="utf-8")
+            if self.check_plateau and report["stable"]:
+                raise EmpiricalPlateau()
             return result
 
         def run(self):
-            original_result = super().run()
-            scheduled_best = best_scheduled_evaluation(rows)
+            original_result = None
+            stop_reason = "budget"
+            try:
+                original_result = super().run()
+                if original_result is not None:
+                    stop_reason = "official_early_stop"
+            except EmpiricalPlateau:
+                stop_reason = "empirical_plateau"
+            self.check_plateau = False
+            scheduled_best = best_scheduled_evaluation(rows, stop_reason == "empirical_plateau")
             # Budget-boundary handling only; final policy is not the best model.
             final_reward, bw = self.eval()
             final_dir = self.run_dir / "final_models"
@@ -117,7 +162,7 @@ def main():
             summary = {
                 "seed": options.seed, "requested_budget": options.budget,
                 "completed_steps": self.completed_steps,
-                "stop_reason": "budget" if original_result is None else "official_early_stop",
+                "stop_reason": stop_reason,
                 "initial_eval_cost": evaluations[0]["mean_actor_period_cost"],
                 "final_eval_cost": -float(final_reward),
                 "best_observed_evaluation": min(evaluations, key=lambda row: row["mean_actor_period_cost"]),
@@ -126,6 +171,8 @@ def main():
                 "final_model_directory": str(final_dir), "max_reload_error": max_error,
                 "eval_traces": self.eval_envs.get_eval_num(),
                 "interpretation": "single-seed learning observation, not convergence or superiority evidence",
+                "stability": stability_report([row["mean_actor_period_cost"]
+                    for row in evaluations[:-1] if row["step"] > 0], self.completed_steps),
             }
             (target / "completed.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
             print("LEARNING_CURVE_COMPLETED " + json.dumps(summary), flush=True)
