@@ -1,0 +1,101 @@
+{
+  "analysis": {
+    "manual_screen": {
+      "mean_delta": [
+        -1.5089166666666665,
+        -4.368999999999998
+      ],
+      "ci95": [
+        [
+          -3.347427083333333,
+          -9.751556249999998
+        ],
+        [
+          -0.1978187500000013,
+          -0.5679500000000042
+        ]
+      ],
+      "lower_cost_cases": 10,
+      "higher_cost_cases": 2,
+      "lower_backlog_cases": 11,
+      "higher_backlog_cases": 1,
+      "both_lower_cases": 9,
+      "both_ci_upper_below_zero": true
+    },
+    "llm_single": {
+      "mean_delta": [
+        -0.8286666666666666,
+        -1.723249999999999
+      ],
+      "ci95": [
+        [
+          -1.7548937500000006,
+          -4.736762499999999
+        ],
+        [
+          -0.21891041666666705,
+          -0.06349375000000014
+        ]
+      ],
+      "lower_cost_cases": 11,
+      "higher_cost_cases": 1,
+      "lower_backlog_cases": 8,
+      "higher_backlog_cases": 3,
+      "both_lower_cases": 7,
+      "both_ci_upper_below_zero": true
+    },
+    "llm_iterative": {
+      "mean_delta": [
+        -1.03075,
+        -3.254749999999999
+      ],
+      "ci95": [
+        [
+          -2.43959375,
+          -7.406506249999999
+        ],
+        [
+          0.09908541666666687,
+          -0.21398750000000089
+        ]
+      ],
+      "lower_cost_cases": 12,
+      "higher_cost_cases": 7,
+      "lower_backlog_cases": 8,
+      "higher_backlog_cases": 10,
+      "both_lower_cases": 7,
+      "both_ci_upper_below_zero": false
+    }
+  },
+  "absolute_means": {
+    "happo": [
+      22.724583333333335,
+      23.83425
+    ],
+    "manual_screen": [
+      21.215666666666667,
+      19.465250000000005
+    ],
+    "llm_single": [
+      21.895916666666672,
+      22.111
+    ],
+    "llm_iterative": [
+      21.693833333333334,
+      20.579500000000003
+    ]
+  },
+  "usage": {
+    "calls": 60,
+    "tokens": 108637,
+    "api_seconds": 112.77735829997982,
+    "wall_seconds": 641.2522850999958
+  },
+  "metric_order": [
+    "system_cost_per_node_period",
+    "downstream_mean_backlog"
+  ],
+  "n_demands": 20,
+  "bootstrap": "paired demand-level, seed20261040, 20000 resamples, percentile95%",
+  "scope": "One frozen training seed, fixed simulated distribution and reliable notification. No actual disaster-data or deployment-latency verification."
+}

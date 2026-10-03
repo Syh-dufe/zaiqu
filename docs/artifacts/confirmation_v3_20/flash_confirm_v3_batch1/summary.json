@@ -1,0 +1,298 @@
+{
+  "summary": {
+    "happo": {
+      "base": {
+        "cost": 24.721666666666668,
+        "downstream_backlog": 33.175
+      },
+      "shock": {
+        "cost": 25.499166666666667,
+        "downstream_backlog": 37.488749999999996
+      }
+    },
+    "llm_iterative": {
+      "base": {
+        "cost": 24.721666666666668,
+        "downstream_backlog": 33.175
+      },
+      "shock": {
+        "cost": 23.8725,
+        "downstream_backlog": 30.825
+      }
+    },
+    "llm_single": {
+      "base": {
+        "cost": 24.721666666666668,
+        "downstream_backlog": 33.175
+      },
+      "shock": {
+        "cost": 23.344166666666666,
+        "downstream_backlog": 30.61625
+      }
+    },
+    "manual_screen": {
+      "base": {
+        "cost": 24.721666666666668,
+        "downstream_backlog": 33.175
+      },
+      "shock": {
+        "cost": 23.50125,
+        "downstream_backlog": 31.52625
+      }
+    }
+  },
+  "screening": {
+    "happo": {
+      "evaluations": 0,
+      "accepted": 0,
+      "seconds": 0
+    },
+    "llm_iterative": {
+      "evaluations": 94,
+      "accepted": 24,
+      "seconds": 40.16093920003914
+    },
+    "llm_single": {
+      "evaluations": 94,
+      "accepted": 19,
+      "seconds": 21.61257260000275
+    },
+    "manual_screen": {
+      "evaluations": 94,
+      "accepted": 16,
+      "seconds": 23.380990900026518
+    }
+  },
+  "api_calls": 12,
+  "failed_calls": 1,
+  "tokens": 21403,
+  "api_seconds": 21.2694513000024,
+  "paired": [
+    {
+      "group": "happo",
+      "scenario": "base",
+      "trace": 0,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "happo",
+      "scenario": "base",
+      "trace": 1,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "happo",
+      "scenario": "base",
+      "trace": 2,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "happo",
+      "scenario": "base",
+      "trace": 3,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "happo",
+      "scenario": "shock",
+      "trace": 0,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "happo",
+      "scenario": "shock",
+      "trace": 1,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "happo",
+      "scenario": "shock",
+      "trace": 2,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "happo",
+      "scenario": "shock",
+      "trace": 3,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "llm_iterative",
+      "scenario": "base",
+      "trace": 0,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "llm_iterative",
+      "scenario": "base",
+      "trace": 1,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "llm_iterative",
+      "scenario": "base",
+      "trace": 2,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "llm_iterative",
+      "scenario": "base",
+      "trace": 3,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "llm_iterative",
+      "scenario": "shock",
+      "trace": 0,
+      "cost_delta": -6.251666666666672,
+      "backlog_delta": -28.08
+    },
+    {
+      "group": "llm_iterative",
+      "scenario": "shock",
+      "trace": 1,
+      "cost_delta": -0.44166666666666643,
+      "backlog_delta": 1.2950000000000017
+    },
+    {
+      "group": "llm_iterative",
+      "scenario": "shock",
+      "trace": 2,
+      "cost_delta": 0.8150000000000013,
+      "backlog_delta": 0.15500000000000003
+    },
+    {
+      "group": "llm_iterative",
+      "scenario": "shock",
+      "trace": 3,
+      "cost_delta": -0.6283333333333303,
+      "backlog_delta": -0.02499999999999991
+    },
+    {
+      "group": "llm_single",
+      "scenario": "base",
+      "trace": 0,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "llm_single",
+      "scenario": "base",
+      "trace": 1,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "llm_single",
+      "scenario": "base",
+      "trace": 2,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "llm_single",
+      "scenario": "base",
+      "trace": 3,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "llm_single",
+      "scenario": "shock",
+      "trace": 0,
+      "cost_delta": -8.128333333333337,
+      "backlog_delta": -28.784999999999997
+    },
+    {
+      "group": "llm_single",
+      "scenario": "shock",
+      "trace": 1,
+      "cost_delta": -0.44166666666666643,
+      "backlog_delta": 1.2950000000000017
+    },
+    {
+      "group": "llm_single",
+      "scenario": "shock",
+      "trace": 2,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "llm_single",
+      "scenario": "shock",
+      "trace": 3,
+      "cost_delta": -0.04999999999999716,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "manual_screen",
+      "scenario": "base",
+      "trace": 0,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "manual_screen",
+      "scenario": "base",
+      "trace": 1,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "manual_screen",
+      "scenario": "base",
+      "trace": 2,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "manual_screen",
+      "scenario": "base",
+      "trace": 3,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "manual_screen",
+      "scenario": "shock",
+      "trace": 0,
+      "cost_delta": -7.226666666666667,
+      "backlog_delta": -22.11999999999999
+    },
+    {
+      "group": "manual_screen",
+      "scenario": "shock",
+      "trace": 1,
+      "cost_delta": -0.764999999999997,
+      "backlog_delta": -1.7299999999999969
+    },
+    {
+      "group": "manual_screen",
+      "scenario": "shock",
+      "trace": 2,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "manual_screen",
+      "scenario": "shock",
+      "trace": 3,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    }
+  ],
+  "prediction_mean_absolute_error": 1.537133094058486,
+  "interpretation": "Small batch; no significance or general superiority claim. API and screening pause simulator. Extra information and computation differ from original actors."
+}

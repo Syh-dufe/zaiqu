@@ -1,0 +1,15 @@
+{
+  "system": "Design bounded correction rules for a frozen HAPPO serial inventory policy.\nNodes: 0 disaster dispensing point, 1 regional warehouse, 2 upstream supply center.\nUnchanged simulator: each period external demand plus node0 backlog is served from its inventory and pipeline arrival.\nNode1 demand is node0 CURRENT order plus node1 backlog; node2 demand is node1 CURRENT order plus node2 backlog.\nUnfilled demand becomes backlog. Next shipments to lower nodes are min(the next node demand including backlog, that next node inventory+arrival BEFORE its update). Node2 receives its own order without supplier constraint. All shipments enter a 4-period pipeline. Orders 0..20.\nPrimary cost=sum of inventory+backlog at ALL 3 nodes, coefficients all1. Also avoid increasing downstream backlog. An upstream reduction can starve downstream after delay; downstream extra orders can create upstream backlog. Observe all nodes and pipelines together.\nYou are notified a demand emergency HAS occurred. Future demand, duration and magnitude are unknown. You only see past demand and current state. Do not infer knowledge of the event end. HAPPO does not train.\nReturn JSON {\"candidates\":[{\"explanation\":\"...\",\"rules\":[{\"when\":\"expression\",\"delta\":\"expression\"}]}]}.\nUser specifies candidate count (3 initial, 1 refinement). Each rule set contains1..4 ordered first-match rules evaluated separately for each node.\nExpression features ONLY: agent, inventory, backlog, pipeline=sum of known in-transit, arrival=next known arrival, incoming=last observed local demand, recent=last5 external mean, baseline=preceding20 external mean, growth=recent/baseline, happo=current proposed order.\nExpressions <=300 characters may use numbers, + - * /, comparisons, and/or/not, conditional expressions, min/max2..6args, abs1arg. No other names, code, attributes, imports or containers.\nDelta clipped[-6,6], rounded, added to HAPPO order and clipped0..20. Prefer small coordinated corrections and pipeline-aware relaxation. Rules run on fresh causal state for each period. Zero correction is valid.\nFor feedback, scores are uncertain causal forecast rollouts, not actual future results. Improve both cost and downstream service; do not exploit sample noise. Explain mechanics briefly, no markdown.",
+  "document": "docs/2026-10-03-llm-refinement-protocol.md",
+  "max_calls": 12,
+  "series_calls_before": 42,
+  "model": "deepseek-flash",
+  "options": {
+    "run_name": "flash_confirm_v3_batch1",
+    "cases": 4,
+    "demand_seed": 20261030,
+    "event_seed": 20261031,
+    "correction_periods": 5,
+    "refinement_schedule": "observed"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "episodes": 32,
+  "rows": 19200,
+  "training_updates": 0,
+  "parameter_checks": {
+    "happo": {
+      "before": "583bd3c2a65b7c99ca1f693e8542e2654a05cc3b51bb198cb5ca4e3b44499192",
+      "after": "583bd3c2a65b7c99ca1f693e8542e2654a05cc3b51bb198cb5ca4e3b44499192",
+      "unchanged": true
+    },
+    "manual_screen": {
+      "before": "583bd3c2a65b7c99ca1f693e8542e2654a05cc3b51bb198cb5ca4e3b44499192",
+      "after": "583bd3c2a65b7c99ca1f693e8542e2654a05cc3b51bb198cb5ca4e3b44499192",
+      "unchanged": true
+    },
+    "llm_single": {
+      "before": "583bd3c2a65b7c99ca1f693e8542e2654a05cc3b51bb198cb5ca4e3b44499192",
+      "after": "583bd3c2a65b7c99ca1f693e8542e2654a05cc3b51bb198cb5ca4e3b44499192",
+      "unchanged": true
+    },
+    "llm_iterative": {
+      "before": "583bd3c2a65b7c99ca1f693e8542e2654a05cc3b51bb198cb5ca4e3b44499192",
+      "after": "583bd3c2a65b7c99ca1f693e8542e2654a05cc3b51bb198cb5ca4e3b44499192",
+      "unchanged": true
+    }
+  },
+  "calls": 12,
+  "upstream_revision": "a7e5a3e83e21565a5799483bc534e39635ec65dd",
+  "causal_audit": "explicit whitelist; synthetic-only branch futures; paired initial contexts; unchanged pre-notification actions",
+  "runtime_failures": [],
+  "branch_audits": [
+    {
+      "trace": 0,
+      "period": 101,
+      "shadow_cost": 786.0,
+      "observed_cost": 786.0,
+      "shadow_backlog": 10.0,
+      "observed_backlog": 10,
+      "note": "After-episode verification on observed demand, never used by selector"
+    },
+    {
+      "trace": 1,
+      "period": 73,
+      "shadow_cost": 2561.0,
+      "observed_cost": 2561.0,
+      "shadow_backlog": 1755.0,
+      "observed_backlog": 1755,
+      "note": "After-episode verification on observed demand, never used by selector"
+    },
+    {
+      "trace": 2,
+      "period": 98,
+      "shadow_cost": 2249.0,
+      "observed_cost": 2249.0,
+      "shadow_backlog": 1387.0,
+      "observed_backlog": 1387,
+      "note": "After-episode verification on observed demand, never used by selector"
+    },
+    {
+      "trace": 3,
+      "period": 64,
+      "shadow_cost": 1468.0,
+      "observed_cost": 1468.0,
+      "shadow_backlog": 930.0,
+      "observed_backlog": 930,
+      "note": "After-episode verification on observed demand, never used by selector"
+    }
+  ],
+  "feedback_times": [
+    {
+      "trace": 0,
+      "round": 1,
+      "seconds": 0.2637362000095891
+    },
+    {
+      "trace": 0,
+      "round": 2,
+      "seconds": 0.33057360000384506
+    },
+    {
+      "trace": 1,
+      "round": 1,
+      "seconds": 0.2591227000084473
+    },
+    {
+      "trace": 1,
+      "round": 2,
+      "seconds": 0.3435960999922827
+    },
+    {
+      "trace": 2,
+      "round": 1,
+      "seconds": 0.25950030000240076
+    },
+    {
+      "trace": 2,
+      "round": 2,
+      "seconds": 0.32796360000793356
+    },
+    {
+      "trace": 3,
+      "round": 1,
+      "seconds": 0.2561461000004783
+    },
+    {
+      "trace": 3,
+      "round": 2,
+      "seconds": 0.32497760000114795
+    }
+  ],
+  "wall_seconds": 134.51902859999973
+}
