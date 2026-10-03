@@ -45,6 +45,7 @@ def main():
     parser.add_argument('--event-seed',type=int,default=20261012)
     parser.add_argument('--correction-periods',type=int,default=20,choices=(5,20))
     parser.add_argument('--refinement-schedule',default='immediate',choices=('immediate','observed'))
+    parser.add_argument('--single-only',action='store_true',help='Compare original, manual and single LLM only; no feedback requests.')
     opts = parser.parse_args()
     run_started=time.perf_counter()
     if not opts.run_name or any(c not in 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_-' for c in opts.run_name):
@@ -59,7 +60,8 @@ def main():
     old_calls = 0
     for p in (ROOT/'results/deepseek_refinement').glob('*/calls.json'):
         old_calls += len(json.loads(p.read_text(encoding='utf-8')))
-    if old_calls+12 > 120: parser.error('series API limit reached')
+    expected_calls=opts.cases*(1 if opts.single_only else 3)
+    if old_calls+expected_calls > 120: parser.error('series API limit reached')
     out.mkdir(parents=True)
     write(out/'protocol.json', {'system': SYSTEM, 'document': 'docs/2026-10-03-llm-refinement-protocol.md',
                                'max_calls': 12, 'series_calls_before': old_calls, 'model': 'deepseek-flash',
@@ -221,7 +223,8 @@ def main():
                 print('EPISODE',episodes[-1],flush=True)
             return output
 
-    for group in ('happo','manual_screen','llm_single','llm_iterative'):
+    groups=('happo','manual_screen','llm_single') if opts.single_only else ('happo','manual_screen','llm_single','llm_iterative')
+    for group in groups:
         args=argparse.Namespace(**config);args.model_dir=str(model_dir)
         envs=Controller(args)
         runner=CRunner(dict(all_args=args,envs=envs,eval_envs=envs,num_agents=3,device=torch.device('cpu'),run_dir=out/group))
@@ -243,12 +246,12 @@ def main():
         after=model_hash(runner.policy);assert before==after
         checks[group]=dict(before=before,after=after,unchanged=True)
         runner.writter.close();envs.close()
-    assert len(episodes)==8*opts.cases and len(rows)==4800*opts.cases
+    assert len(episodes)==2*len(groups)*opts.cases and len(rows)==1200*len(groups)*opts.cases
     for scenario in ('base','shock'):
         for trace in range(opts.cases):
             end=201 if scenario=='base' else events[trace]['start_index']+3
             reference=[(r['cost'],r['actual_order']) for r in rows if r['group']=='happo' and r['scenario']==scenario and r['trace']==trace and r['period']<end]
-            for group in ('manual_screen','llm_single','llm_iterative'):
+            for group in groups[1:]:
                 assert reference==[(r['cost'],r['actual_order']) for r in rows if r['group']==group and r['scenario']==scenario and r['trace']==trace and r['period']<end]
     write(out/'runtime_failures.json',failures)
     write(out/'completed.json',dict(episodes=len(episodes),rows=len(rows),training_updates=0,parameter_checks=checks,calls=len(calls),
