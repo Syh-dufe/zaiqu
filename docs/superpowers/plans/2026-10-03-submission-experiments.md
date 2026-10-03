@@ -17,22 +17,22 @@
 
 ## Task 1：输入与冻结登记
 
-- [ ] 检索 `results`、`docs/artifacts` 中全部需求/事件种子；核对协议20261201..20261210尚未使用，记录检索范围和结果。
-- [ ] 新建 `experiments/formal_evaluation/prepare.py`：调用原生成器写完整5批需求与事件，仅序列生成，不加载控制器；保存201项来源、200项消费区间、冲击与截断比例，拒绝覆盖输入目录。
-- [ ] 保存最终执行代码、原模型/算子库哈希及依赖版本至新运行manifest；生成时记录协议哈希与输入摘要。
+- [x] 检索 `results`、`docs/artifacts` 中全部需求/事件种子；核对协议20261201..20261210尚未使用，记录检索范围和结果。
+- [x] 新建 `experiments/formal_evaluation/prepare.py`：调用原生成器写完整5批需求与事件，仅序列生成，不加载控制器；保存201项来源、200项消费区间、冲击与截断比例，拒绝覆盖输入目录。
+- [x] 保存最终执行代码、原模型/算子库哈希及依赖版本至新运行manifest；生成时记录协议哈希与输入摘要。
 
 ## Task 2：小规模正式执行入口
 
-- [ ] 新建 `experiments/formal_evaluation/run.py`，从输入文件读取需求，不边运行边重新生成；支持 `--training-directory`、`--methods`、`--report-interval`、`--input-directory`、`--run-name`，移除现有入口硬编码seed11模型目录的限制。
-- [ ] 复用 `experiments/deepseek_refinement/shadow.py` 与 `reports.py`，仅选择 `happo`/`llm_library`，对每模型方法重新初始化RNN、报告器和环境。正式入口不请求API。
-- [ ] 在单独开发输出目录做2条流程检查，核对输入哈希一致、每回合600节点期、通知前动作一致、无训练更新、信息审核和零修正影子回放。流程检查使用既有开发输入，不能消耗正式测试数据调实现。
-- [ ] 运行阶段A完整80回合；输出全部 `periods.csv`、`episodes.json`、`scores.json`、信息审核、失败记录与完成状态。
+- [x] 新建 `experiments/formal_evaluation/run.py`，从输入文件读取需求，不边运行边重新生成；支持 `--training-directory`、`--methods`、`--report-interval`、`--input-directory`、`--run-name`，移除现有入口硬编码seed11模型目录的限制。
+- [x] 复用 `experiments/deepseek_refinement/shadow.py` 与 `reports.py`，仅选择 `happo`/`llm_library`，对每模型方法重新初始化RNN、报告器和环境。正式入口不请求API。
+- [x] 在单独开发输出目录做2条流程检查，核对输入哈希一致、每回合600节点期、通知前动作一致、无训练更新、信息审核和零修正影子回放。流程检查使用既有开发输入，不能消耗正式测试数据调实现。
+- [x] 运行阶段A完整80回合；输出全部 `periods.csv`、`episodes.json`、`scores.json`、信息审核、失败记录与完成状态。
 
 ## Task 3：分析与阶段A报告
 
-- [ ] 新建 `experiments/formal_evaluation/analyze.py`：读取所有20配对，计算协议指标、20000次重采样及95%/97.5%区间，保存抽样种子、单位和完整配对CSV。
-- [ ] 生成全部20条配对图与平均时序PNG/PDF；复算归一化成本和总成本关系，显示退化个案。
-- [ ] 写 `docs/formal-evaluation-stage-a-results.md`，区分系统改善与LLM独立贡献，记录计算成本及停止原因；技术检查完成后提交推送。
+- [x] 新建 `experiments/formal_evaluation/analyze.py`：读取所有20配对，计算协议指标、20000次重采样及95%/97.5%区间，保存抽样种子、单位和完整配对CSV。
+- [x] 生成全部20条配对图与平均时序PNG/PDF；复算归一化成本和总成本关系，显示退化个案。
+- [x] 写 `docs/formal-evaluation-stage-a-results.md`，区分系统改善与LLM独立贡献，记录计算成本及停止原因；技术检查完成后提交推送。
 
 ## Task 4：正常需求下多训练种子
 
@@ -47,3 +47,5 @@
 - [ ] 汇总阶段C及局限。竞争算法、更多灾情或实时API路线另登记后再启动。
 
 本次授权首先完成参数来源与正式协议文档。本计划中的训练、API及正式评估未在文档整理阶段启动；后续执行先完成现成入口的隔离适配与流程检查，再按协议增加规模。
+
+阶段A于2026-10-03完整执行并审阅，具体记录见 docs/2026-10-03-formal-stage-a-implementation.md。历史输入查重和分析健壮性修订不改变本次控制结果。

@@ -10,7 +10,7 @@
 - [正式实验协议v1](docs/2026-10-03-formal-experiment-protocol.md)
 - [分阶段执行计划](docs/superpowers/plans/2026-10-03-submission-experiments.md)
 
-正式协议先登记80回合确认，再扩展多训练种子与消融；目前是设计交付，尚未启动该正式实验。
+正式协议先登记80回合确认，再扩展多训练种子与消融。[阶段A已完成](docs/formal-evaluation-stage-a-results.md)：当前单训练种子下成本均值下降2.71%、下游平均积压下降1.37%，保留全部退化个案；多训练种子与消融尚未执行。
 
 直接调用官方原始 `train_env.py`，只指定独立的场景和实验名称。库存状态转移、需求、奖励、网络、HAPPO 顺序更新、默认训练预算及早停均使用官方实现。
 

@@ -1,0 +1,76 @@
+{
+  "n_pairs": 20,
+  "training_seeds": [
+    11
+  ],
+  "report_interval": 3,
+  "methods": [
+    "happo",
+    "llm_library"
+  ],
+  "means": {
+    "happo": [
+      23.381916666666665,
+      23.415499999999998
+    ],
+    "llm_library": [
+      22.74941666666667,
+      23.0945
+    ]
+  },
+  "mean_delta": [
+    -0.6325,
+    -0.3210000000000002
+  ],
+  "ci95": [
+    [
+      -1.0919208333333332,
+      -0.6255062499999999
+    ],
+    [
+      -0.1933270833333339,
+      -0.0547500000000001
+    ]
+  ],
+  "ci97p5": [
+    [
+      -1.1565041666666664,
+      -0.6757499999999996
+    ],
+    [
+      -0.13133125000000043,
+      -0.021250000000000192
+    ]
+  ],
+  "counts": {
+    "cost": {
+      "improved": 16,
+      "tied": 0,
+      "worsened": 4
+    },
+    "backlog": {
+      "improved": 9,
+      "tied": 5,
+      "worsened": 6
+    }
+  },
+  "both_strictly_improved": 9,
+  "stronger_evidence": true,
+  "percent_reduction": [
+    2.7050819187192245,
+    1.3708868057483206
+  ],
+  "bootstrap_seed": 20261220,
+  "bootstrap_samples": 20000,
+  "resampling_unit": "paired demand/event trajectory",
+  "calls": 0,
+  "training_updates": 0,
+  "wall_seconds": 252.1641901999974,
+  "screening_seconds": 180.5191559001396,
+  "screening_decisions": 483,
+  "nonzero_selections": 88,
+  "forecast_mae_posthoc": 2.5678984527564968,
+  "upstream_revision": "a7e5a3e83e21565a5799483bc534e39635ec65dd",
+  "source_manifest": "manifest.json",
+  "development_api_history_note": "120 requests in prior refinement/discovery series, including failures; not a zero-cost method"
+}

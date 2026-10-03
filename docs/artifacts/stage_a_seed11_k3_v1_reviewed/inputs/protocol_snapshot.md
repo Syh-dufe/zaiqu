@@ -1,6 +1,6 @@
 # 投稿准备：正式实验协议 v1
 
-日期：2026-10-03。登记时状态为正式数据未生成、实验未启动。用户随后授权执行，阶段A的20条需求、80回合已全部完成；[完整结果](formal-evaluation-stage-a-results.md)。B、C尚未运行。实现任务见[执行计划](superpowers/plans/2026-10-03-submission-experiments.md)。实际运行前协议的原始快照及SHA256保存在[输入档案](artifacts/stage_a_seed11_k3_v1_reviewed/inputs/protocol_snapshot.md)，后续状态更新不替换原登记。
+日期：2026-10-03。状态：设计已登记，正式数据未生成、实验未启动；实现任务见[执行计划](superpowers/plans/2026-10-03-submission-experiments.md)。
 
 ## 1. 问题与主张
 

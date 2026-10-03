@@ -27,16 +27,25 @@ def intervals(values):
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('directory',type=Path)
-    out=parser.parse_args().directory.resolve()
-    state=json.loads((out/'progress.json').read_text(encoding='utf-8-sig'));manifest=json.loads((out/'manifest.json').read_text(encoding='utf-8-sig'))
+    parser.add_argument('--analysis-name',help='New analysis directory/export name; preserve any earlier partial analysis')
+    opts=parser.parse_args();raw=opts.directory.resolve()
+    state=json.loads((raw/'progress.json').read_text(encoding='utf-8-sig'));manifest=json.loads((raw/'manifest.json').read_text(encoding='utf-8-sig'))
     if state['status']!='completed' or manifest['mode']!='formal_stage_a' or len(state['completed'])!=5:
         raise RuntimeError('Require all five completed formal batches')
-    if (out/'summary.json').exists():raise RuntimeError('Refuse replacing analyzed results')
-    pairs=[];all_rows=[];absolute={'happo':[], 'llm_library':[]};checks=[];decisions=[];errors=[]
+    training=Path(manifest['training_directory'])
+    config=json.loads((training/'config.json').read_text(encoding='utf-8-sig'))['config']
+    if config['seed']!=[11] or manifest['report_interval']!=3 or manifest['methods']!=['happo','llm_library'] or manifest['model_parameter_sha256']!='583bd3c2a65b7c99ca1f693e8542e2654a05cc3b51bb198cb5ca4e3b44499192':
+        raise RuntimeError('Analysis is restricted to registered Stage A seed11/k3/model')
+    if opts.analysis_name and any(c not in 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_-' for c in opts.analysis_name):parser.error('Invalid analysis name')
+    out=raw/opts.analysis_name if opts.analysis_name else raw
+    export=ROOT/'docs/artifacts'/out.name
+    if export.exists() or (out/'summary.json').exists():raise RuntimeError('Preserve previous analysis; select a fresh --analysis-name')
+    if opts.analysis_name:out.mkdir()
+    pairs=[];all_rows=[];absolute={'happo':[], 'llm_library':[]};normal_absolute={'happo':[],'llm_library':[]};checks=[];decisions=[];errors=[]
     for batch_number,record in enumerate(state['completed'],1):
-        batch=out/record['name'];done=json.loads((batch/'completed.json').read_text(encoding='utf-8-sig'))
+        batch=raw/record['name'];done=json.loads((batch/'completed.json').read_text(encoding='utf-8-sig'))
         assert done['episodes']==16 and done['rows']==9600 and done['calls']==done['training_updates']==0 and not done['runtime_failures']
-        assert all(x['unchanged'] for x in done['parameter_checks'].values())
+        assert all(x['unchanged'] and x['before']==manifest['model_parameter_sha256'] for x in done['parameter_checks'].values())
         inputs=json.loads((batch/'demands.json').read_text(encoding='utf-8-sig'));source=json.loads((batch/'input_source.json').read_text(encoding='utf-8-sig'))
         source_file=Path(manifest['inputs'][batch_number-1]['path'])
         assert source['sha256']==manifest['inputs'][batch_number-1]['sha256']==hashlib.sha256(source_file.read_bytes()).hexdigest()
@@ -62,12 +71,18 @@ def main():
                 active=[r for r in lower if event['start_index']<r['period']<=event['start_index']+event['duration']]
                 recovery=[r for r in lower if r['period']>event['start_index']+event['duration']]
                 pair.update({group+'_cost':e['cost'],group+'_backlog':e['downstream_backlog'],
+                             group+'_total_cost':sum(r['cost'] for r in subset),
+                             group+'_normal_cost':base[group]['cost'],group+'_normal_backlog':base[group]['downstream_backlog'],
+                             group+'_shock_minus_normal_cost':e['cost']-base[group]['cost'],
+                             group+'_shock_minus_normal_backlog':e['downstream_backlog']-base[group]['downstream_backlog'],
+                             group+'_final_inventory_total':sum(r['inventory'] for r in subset if r['period']==200),
                              group+'_peak_backlog':max(r['backlog'] for r in lower),
                              group+'_final_backlog':lower[-1]['backlog'],
                              group+'_shock_backlog':float(np.mean([r['backlog'] for r in active])),
                              group+'_recovery_backlog':float(np.mean([r['backlog'] for r in recovery])),
                              group+'_inventory':float(np.mean([r['inventory'] for r in subset]))})
                 absolute[group].append([e['cost'],e['downstream_backlog']])
+                normal_absolute[group].append([base[group]['cost'],base[group]['downstream_backlog']])
             pair.update(cost_delta=pair['llm_library_cost']-pair['happo_cost'],
                         backlog_delta=pair['llm_library_backlog']-pair['happo_backlog'])
             pairs.append(pair)
@@ -101,7 +116,12 @@ def main():
         screening_seconds=sum(d['seconds'] for d in decisions),screening_decisions=len(decisions),
         nonzero_selections=sum(d['chosen']!='zero' for d in decisions),forecast_mae_posthoc=float(np.mean(errors)),
         upstream_revision='a7e5a3e83e21565a5799483bc534e39635ec65dd',
-        source_manifest='manifest.json',development_api_history_note='120 requests in prior refinement/discovery series, including failures; not a zero-cost method')
+        source_manifest='manifest.json',normal_means={g:np.mean(v,axis=0).tolist() for g,v in normal_absolute.items()},
+        mean_total_cost={g:600*means[g][0] for g in absolute},
+        mean_final_inventory_total={g:float(np.mean([p[g+'_final_inventory_total'] for p in pairs])) for g in absolute},
+        development_api_history_note='120 requests in prior refinement/discovery series, including failures; not a zero-cost method')
+    write(out/'analysis_manifest.json',dict(raw_directory=str(raw),raw_manifest_sha256=hashlib.sha256((raw/'manifest.json').read_bytes()).hexdigest(),
+        analyzer_sha256=hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),reason='Reviewed analysis adds registered descriptive metrics; no policy rerun or tuning'))
     write(out/'summary.json',summary);write(out/'verification.json',dict(episodes=80,rows=48000,batches=checks,all_inputs_unchanged=True))
     with (out/'paired.csv').open('w',newline='',encoding='utf-8') as f:
         writer=csv.DictWriter(f,fieldnames=list(pairs[0]));writer.writeheader();writer.writerows(pairs)
@@ -124,13 +144,13 @@ def main():
     axes[0].legend();fig.suptitle('All trajectories retained; different event start periods');fig.tight_layout()
     for extension in ('png','pdf'):fig.savefig(out/f'mean_timeseries.{extension}',dpi=160)
     plt.close(fig)
-    export=ROOT/'docs/artifacts'/out.name
-    if export.exists():raise RuntimeError('Refuse overwrite published artifacts')
     export.mkdir(parents=True)
+    for file in raw.iterdir():
+        if file.is_file() and (file.name in ('manifest.json','progress.json') or file.suffix=='.log'):shutil.copy2(file,export/file.name)
     for file in out.iterdir():
         if file.is_file():shutil.copy2(file,export/file.name)
     for record in state['completed']:
-        batch=out/record['name'];dest=export/batch.name;dest.mkdir()
+        batch=raw/record['name'];dest=export/batch.name;dest.mkdir()
         for file in batch.iterdir():
             if not file.is_file():continue
             if file.name in ('periods.csv','information_audits.json','scores.json'):
@@ -139,6 +159,10 @@ def main():
     input_export=export/'inputs';input_export.mkdir()
     for record in manifest['inputs']:shutil.copy2(record['path'],input_export/Path(record['path']).name)
     shutil.copy2(Path(manifest['inputs'][0]['path']).parent/'manifest.json',input_export/'manifest.json')
+    snapshot=Path(manifest['inputs'][0]['path']).parent/'protocol_snapshot.md'
+    if snapshot.exists():
+        assert hashlib.sha256(snapshot.read_bytes()).hexdigest()==manifest['protocol_sha256']
+        shutil.copy2(snapshot,input_export/snapshot.name)
     rows=['# 阶段A：20条新需求、80回合正式确认','',
           '按固定协议完成全部5批；单个seed11模型，报告间隔3，固定LLM算子库，评估阶段无API、无训练。','',
           '| 方法 | 平均成本/节点期 | 下游平均积压 |','|---|---:|---:|']
@@ -152,6 +176,7 @@ def main():
         rows.append(f"| {name} | {summary['mean_delta'][i]:.4f} | [{cis['ci95'][0][i]:.4f}, {cis['ci95'][1][i]:.4f}] | [{cis['ci97p5'][0][i]:.4f}, {cis['ci97p5'][1][i]:.4f}] | {counts_i['improved']}/{counts_i['tied']}/{counts_i['worsened']} |")
     conclusion='两项均值及各97.5%区间上限均低于0，达到预定的本分布下平均改善证据标准。' if stronger else '未达到预定的两指标同时改善证据标准；保留全部结果，不能宣布稳定优势。'
     rows+=['',conclusion,'',f"20条中两指标都严格改善{summary['both_strictly_improved']}条。多训练种子和机制消融尚未运行。",'',
+          f"正常需求两方法均为成本{summary['normal_means']['happo'][0]:.4f}、下游积压{summary['normal_means']['happo'][1]:.4f}。完整方案与原HAPPO的平均总成本分别为{summary['mean_total_cost']['llm_library']:.2f}、{summary['mean_total_cost']['happo']:.2f}；总成本为归一化均值乘600。",'',
            '## 口径与限制','',
            '- 基准需求未受冲击时，两方法所有行为相同，不把40个正常回合加入冲击配对统计。',
            '- 每条配对是统计单位，20000次bootstrap、种子20261220；97.5%区间对应两指标Bonferroni名义家族95%，有限样本覆盖不是严格保证。',
@@ -161,9 +186,11 @@ def main():
            f"- 筛选{summary['screening_decisions']}次，非零采用{summary['nonzero_selections']}次，累计筛选{summary['screening_seconds']:.2f}秒；总墙钟{summary['wall_seconds']:.2f}秒。计算期间仿真暂停，不是实时时延实测。",
            '- 当前评估API为0，但此前改进/发现系列有120次请求（含失败）。调用、修复来源与开发成本记录继续保留。','',
            '## 产物','',f'- [完整统计](artifacts/{out.name}/summary.json)',f'- [全部20条配对](artifacts/{out.name}/paired.csv)',
-           f'- [逐批输入、版本与因果审核](artifacts/{out.name}/verification.json)',
+           f'- [逐批输入、版本与因果审核](artifacts/{out.name}/verification.json)','',
            f'![全部配对差](artifacts/{out.name}/paired_differences.png)',f'![平均时序](artifacts/{out.name}/mean_timeseries.png)','']
     (ROOT/'docs/formal-evaluation-stage-a-results.md').write_text('\n'.join(rows),encoding='utf-8')
+    write(out/'analysis_completed.json',dict(status='completed',pairs=20,raw_episodes=80,export_directory=str(export)))
+    shutil.copy2(out/'analysis_completed.json',export/'analysis_completed.json')
     print(json.dumps(summary,ensure_ascii=False,indent=2));print('REPORT_WRITTEN',flush=True)
 
 

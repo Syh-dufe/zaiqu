@@ -1,0 +1,42 @@
+{
+  "episodes": 80,
+  "rows": 48000,
+  "batches": [
+    {
+      "batch": 1,
+      "rows": 9600,
+      "information_decisions": 3200,
+      "original_branch_replays": 4,
+      "all_model_hashes_unchanged": true
+    },
+    {
+      "batch": 2,
+      "rows": 9600,
+      "information_decisions": 3200,
+      "original_branch_replays": 4,
+      "all_model_hashes_unchanged": true
+    },
+    {
+      "batch": 3,
+      "rows": 9600,
+      "information_decisions": 3200,
+      "original_branch_replays": 4,
+      "all_model_hashes_unchanged": true
+    },
+    {
+      "batch": 4,
+      "rows": 9600,
+      "information_decisions": 3200,
+      "original_branch_replays": 4,
+      "all_model_hashes_unchanged": true
+    },
+    {
+      "batch": 5,
+      "rows": 9600,
+      "information_decisions": 3200,
+      "original_branch_replays": 4,
+      "all_model_hashes_unchanged": true
+    }
+  ],
+  "all_inputs_unchanged": true
+}

@@ -24,8 +24,10 @@ def main():
     seeds=set(range(20261201,20261211));checked=0;duplicates=[]
     previous_sequences=set()
     for parent in (ROOT/'results',ROOT/'docs/artifacts'):
-        for file in parent.rglob('demands.json'):
+        historical=set(parent.rglob('demands.json')) | set(parent.rglob('batch*.json'))
+        for file in historical:
             data=json.loads(file.read_text(encoding='utf-8-sig'));checked+=1
+            if not isinstance(data,dict) or 'base' not in data: continue
             if any(data.get(k) in seeds for k in ('demand_seed','event_seed')): duplicates.append(str(file))
             for trace in data.get('base',[]):previous_sequences.add(tuple(trace[:200]))
     if duplicates:raise RuntimeError('Registered seed already used: '+repr(duplicates))

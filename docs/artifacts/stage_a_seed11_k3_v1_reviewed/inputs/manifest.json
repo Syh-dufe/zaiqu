@@ -1,0 +1,55 @@
+{
+  "protocol_sha256": "9b20f4a5e1f816b80dbf040256fc0606be1f0f28ffbfb64fe4f591d292fbf975",
+  "history_search": {
+    "roots": [
+      "results",
+      "docs/artifacts"
+    ],
+    "demand_files_checked": 66,
+    "prior_unique_traces": 81,
+    "seeds_previously_used": [],
+    "duplicate_paths": 0
+  },
+  "batches": [
+    {
+      "file": "batch1.json",
+      "sha256": "8d9842e646520f3838a7c1e5a183a58c15e2c1b5c220177c2b995165ccc2bd79",
+      "cases": 4,
+      "demand_seed": 20261201,
+      "event_seed": 20261202
+    },
+    {
+      "file": "batch2.json",
+      "sha256": "6ec54d56c7a7db118398d21d9bf19bbcef551ea1385533fe826e871dece922b9",
+      "cases": 4,
+      "demand_seed": 20261203,
+      "event_seed": 20261204
+    },
+    {
+      "file": "batch3.json",
+      "sha256": "a488e75590f901b5f3533e50039c8e5c7218bd28788f9ca7ee0a04a8b4204b41",
+      "cases": 4,
+      "demand_seed": 20261205,
+      "event_seed": 20261206
+    },
+    {
+      "file": "batch4.json",
+      "sha256": "9c0dee648185d1bd5b1cd0579c9424f08eea0b052062cfa9881441ddecf6587f",
+      "cases": 4,
+      "demand_seed": 20261207,
+      "event_seed": 20261208
+    },
+    {
+      "file": "batch5.json",
+      "sha256": "84d27806b333f28790a309f827d1f7ff39613e8f09fc2099523d1be10c08baa2",
+      "cases": 4,
+      "demand_seed": 20261209,
+      "event_seed": 20261210
+    }
+  ],
+  "source_length": 201,
+  "consumed_indices": [
+    0,
+    199
+  ]
+}
