@@ -1,0 +1,452 @@
+{
+  "batches": [
+    {
+      "interval": 1,
+      "name": "reports_k1_development_v1",
+      "means": {
+        "happo": {
+          "cost": 35.00375,
+          "downstream_backlog": 63.4175
+        },
+        "manual_screen": {
+          "cost": 29.471666666666668,
+          "downstream_backlog": 47.99875
+        },
+        "llm_library": {
+          "cost": 33.269999999999996,
+          "downstream_backlog": 62.1975
+        }
+      },
+      "screening": {
+        "happo": {
+          "evaluations": 0,
+          "accepted": 0,
+          "seconds": 0
+        },
+        "llm_library": {
+          "evaluations": 93,
+          "accepted": 30,
+          "seconds": 36.3994177000568
+        },
+        "manual_screen": {
+          "evaluations": 93,
+          "accepted": 25,
+          "seconds": 35.938536899979226
+        }
+      },
+      "wall_seconds": 93.43784250000317,
+      "audited_decisions": 4800,
+      "audited_deliveries": 4800,
+      "model_hash": "583bd3c2a65b7c99ca1f693e8542e2654a05cc3b51bb198cb5ca4e3b44499192"
+    },
+    {
+      "interval": 3,
+      "name": "reports_k3_development_v1",
+      "means": {
+        "happo": {
+          "cost": 35.00375,
+          "downstream_backlog": 63.4175
+        },
+        "manual_screen": {
+          "cost": 29.102916666666665,
+          "downstream_backlog": 46.8875
+        },
+        "llm_library": {
+          "cost": 34.12083333333333,
+          "downstream_backlog": 62.136250000000004
+        }
+      },
+      "screening": {
+        "happo": {
+          "evaluations": 0,
+          "accepted": 0,
+          "seconds": 0
+        },
+        "llm_library": {
+          "evaluations": 93,
+          "accepted": 38,
+          "seconds": 34.469029700005194
+        },
+        "manual_screen": {
+          "evaluations": 93,
+          "accepted": 28,
+          "seconds": 34.46093640002073
+        }
+      },
+      "wall_seconds": 89.99632890000066,
+      "audited_decisions": 4800,
+      "audited_deliveries": 1584,
+      "model_hash": "583bd3c2a65b7c99ca1f693e8542e2654a05cc3b51bb198cb5ca4e3b44499192"
+    },
+    {
+      "interval": 5,
+      "name": "reports_k5_development_v1",
+      "means": {
+        "happo": {
+          "cost": 35.00375,
+          "downstream_backlog": 63.4175
+        },
+        "manual_screen": {
+          "cost": 29.083333333333336,
+          "downstream_backlog": 46.83875
+        },
+        "llm_library": {
+          "cost": 33.470416666666665,
+          "downstream_backlog": 62.4025
+        }
+      },
+      "screening": {
+        "happo": {
+          "evaluations": 0,
+          "accepted": 0,
+          "seconds": 0
+        },
+        "llm_library": {
+          "evaluations": 93,
+          "accepted": 38,
+          "seconds": 33.98373760000686
+        },
+        "manual_screen": {
+          "evaluations": 93,
+          "accepted": 27,
+          "seconds": 34.15436950001458
+        }
+      },
+      "wall_seconds": 88.3629043999972,
+      "audited_decisions": 4800,
+      "audited_deliveries": 960,
+      "model_hash": "583bd3c2a65b7c99ca1f693e8542e2654a05cc3b51bb198cb5ca4e3b44499192"
+    }
+  ],
+  "paired": [
+    {
+      "interval": 1,
+      "trace": 0,
+      "group": "happo",
+      "cost": 39.62166666666667,
+      "backlog": 84.005,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "interval": 1,
+      "trace": 0,
+      "group": "manual_screen",
+      "cost": 34.06166666666667,
+      "backlog": 66.05,
+      "cost_delta": -5.560000000000002,
+      "backlog_delta": -17.955
+    },
+    {
+      "interval": 1,
+      "trace": 0,
+      "group": "llm_library",
+      "cost": 38.19,
+      "backlog": 82.895,
+      "cost_delta": -1.431666666666672,
+      "backlog_delta": -1.1099999999999994
+    },
+    {
+      "interval": 1,
+      "trace": 1,
+      "group": "happo",
+      "cost": 23.241666666666667,
+      "backlog": 2.55,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "interval": 1,
+      "trace": 1,
+      "group": "manual_screen",
+      "cost": 22.01,
+      "backlog": 2.235,
+      "cost_delta": -1.2316666666666656,
+      "backlog_delta": -0.31499999999999995
+    },
+    {
+      "interval": 1,
+      "trace": 1,
+      "group": "llm_library",
+      "cost": 21.548333333333332,
+      "backlog": 1.98,
+      "cost_delta": -1.6933333333333351,
+      "backlog_delta": -0.5699999999999998
+    },
+    {
+      "interval": 1,
+      "trace": 2,
+      "group": "happo",
+      "cost": 44.571666666666665,
+      "backlog": 103.87,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "interval": 1,
+      "trace": 2,
+      "group": "manual_screen",
+      "cost": 31.563333333333333,
+      "backlog": 67.635,
+      "cost_delta": -13.008333333333333,
+      "backlog_delta": -36.235
+    },
+    {
+      "interval": 1,
+      "trace": 2,
+      "group": "llm_library",
+      "cost": 41.651666666666664,
+      "backlog": 101.555,
+      "cost_delta": -2.9200000000000017,
+      "backlog_delta": -2.3149999999999977
+    },
+    {
+      "interval": 1,
+      "trace": 3,
+      "group": "happo",
+      "cost": 32.58,
+      "backlog": 63.245,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "interval": 1,
+      "trace": 3,
+      "group": "manual_screen",
+      "cost": 30.251666666666665,
+      "backlog": 56.075,
+      "cost_delta": -2.328333333333333,
+      "backlog_delta": -7.169999999999995
+    },
+    {
+      "interval": 1,
+      "trace": 3,
+      "group": "llm_library",
+      "cost": 31.69,
+      "backlog": 62.36,
+      "cost_delta": -0.889999999999997,
+      "backlog_delta": -0.884999999999998
+    },
+    {
+      "interval": 3,
+      "trace": 0,
+      "group": "happo",
+      "cost": 39.62166666666667,
+      "backlog": 84.005,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "interval": 3,
+      "trace": 0,
+      "group": "manual_screen",
+      "cost": 34.06166666666667,
+      "backlog": 66.05,
+      "cost_delta": -5.560000000000002,
+      "backlog_delta": -17.955
+    },
+    {
+      "interval": 3,
+      "trace": 0,
+      "group": "llm_library",
+      "cost": 38.00833333333333,
+      "backlog": 82.895,
+      "cost_delta": -1.6133333333333368,
+      "backlog_delta": -1.1099999999999994
+    },
+    {
+      "interval": 3,
+      "trace": 1,
+      "group": "happo",
+      "cost": 23.241666666666667,
+      "backlog": 2.55,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "interval": 3,
+      "trace": 1,
+      "group": "manual_screen",
+      "cost": 22.39,
+      "backlog": 2.345,
+      "cost_delta": -0.8516666666666666,
+      "backlog_delta": -0.20499999999999963
+    },
+    {
+      "interval": 3,
+      "trace": 1,
+      "group": "llm_library",
+      "cost": 25.376666666666665,
+      "backlog": 1.735,
+      "cost_delta": 2.134999999999998,
+      "backlog_delta": -0.8149999999999997
+    },
+    {
+      "interval": 3,
+      "trace": 2,
+      "group": "happo",
+      "cost": 44.571666666666665,
+      "backlog": 103.87,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "interval": 3,
+      "trace": 2,
+      "group": "manual_screen",
+      "cost": 30.17,
+      "backlog": 63.235,
+      "cost_delta": -14.401666666666664,
+      "backlog_delta": -40.635000000000005
+    },
+    {
+      "interval": 3,
+      "trace": 2,
+      "group": "llm_library",
+      "cost": 41.531666666666666,
+      "backlog": 101.555,
+      "cost_delta": -3.039999999999999,
+      "backlog_delta": -2.3149999999999977
+    },
+    {
+      "interval": 3,
+      "trace": 3,
+      "group": "happo",
+      "cost": 32.58,
+      "backlog": 63.245,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "interval": 3,
+      "trace": 3,
+      "group": "manual_screen",
+      "cost": 29.79,
+      "backlog": 55.92,
+      "cost_delta": -2.789999999999999,
+      "backlog_delta": -7.324999999999996
+    },
+    {
+      "interval": 3,
+      "trace": 3,
+      "group": "llm_library",
+      "cost": 31.566666666666666,
+      "backlog": 62.36,
+      "cost_delta": -1.0133333333333319,
+      "backlog_delta": -0.884999999999998
+    },
+    {
+      "interval": 5,
+      "trace": 0,
+      "group": "happo",
+      "cost": 39.62166666666667,
+      "backlog": 84.005,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "interval": 5,
+      "trace": 0,
+      "group": "manual_screen",
+      "cost": 34.06166666666667,
+      "backlog": 66.05,
+      "cost_delta": -5.560000000000002,
+      "backlog_delta": -17.955
+    },
+    {
+      "interval": 5,
+      "trace": 0,
+      "group": "llm_library",
+      "cost": 38.105,
+      "backlog": 83.195,
+      "cost_delta": -1.5166666666666728,
+      "backlog_delta": -0.8100000000000023
+    },
+    {
+      "interval": 5,
+      "trace": 1,
+      "group": "happo",
+      "cost": 23.241666666666667,
+      "backlog": 2.55,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "interval": 5,
+      "trace": 1,
+      "group": "manual_screen",
+      "cost": 22.36,
+      "backlog": 2.205,
+      "cost_delta": -0.8816666666666677,
+      "backlog_delta": -0.34499999999999975
+    },
+    {
+      "interval": 5,
+      "trace": 1,
+      "group": "llm_library",
+      "cost": 22.683333333333334,
+      "backlog": 2.495,
+      "cost_delta": -0.5583333333333336,
+      "backlog_delta": -0.054999999999999716
+    },
+    {
+      "interval": 5,
+      "trace": 2,
+      "group": "happo",
+      "cost": 44.571666666666665,
+      "backlog": 103.87,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "interval": 5,
+      "trace": 2,
+      "group": "manual_screen",
+      "cost": 30.17,
+      "backlog": 63.235,
+      "cost_delta": -14.401666666666664,
+      "backlog_delta": -40.635000000000005
+    },
+    {
+      "interval": 5,
+      "trace": 2,
+      "group": "llm_library",
+      "cost": 41.755,
+      "backlog": 101.555,
+      "cost_delta": -2.816666666666663,
+      "backlog_delta": -2.3149999999999977
+    },
+    {
+      "interval": 5,
+      "trace": 3,
+      "group": "happo",
+      "cost": 32.58,
+      "backlog": 63.245,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "interval": 5,
+      "trace": 3,
+      "group": "manual_screen",
+      "cost": 29.741666666666667,
+      "backlog": 55.865,
+      "cost_delta": -2.838333333333331,
+      "backlog_delta": -7.3799999999999955
+    },
+    {
+      "interval": 5,
+      "trace": 3,
+      "group": "llm_library",
+      "cost": 31.338333333333335,
+      "backlog": 62.365,
+      "cost_delta": -1.2416666666666636,
+      "backlog_delta": -0.8799999999999955
+    }
+  ],
+  "distinct_demand_traces": 4,
+  "episodes": 72,
+  "api_calls": 0,
+  "training_updates": 0,
+  "interpretation": "Development sensitivity experiment; repeated settings share 4 demand traces, not 12 independent samples."
+}
