@@ -1,0 +1,4 @@
+# Formal artifacts contain SHA256 digests of exact file bytes.
+# Preserve original line endings when cloning on Windows or other platforms.
+docs/artifacts/stage_a_seed11_k3_v1/** -text whitespace=cr-at-eol
+docs/artifacts/stage_a_seed11_k3_v1_reviewed/** -text whitespace=cr-at-eol
