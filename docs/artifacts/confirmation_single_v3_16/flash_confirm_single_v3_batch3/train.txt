@@ -1,0 +1,260 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+share_observation_space:  [Box(-inf, inf, (21,), float32), Box(-inf, inf, (21,), float32), Box(-inf, inf, (21,), float32)]
+observation_space:  [Box(-inf, inf, (7,), float32), Box(-inf, inf, (7,), float32), Box(-inf, inf, (7,), float32)]
+action_space:  [Discrete(21), Discrete(21), Discrete(21)]
+EPISODE {'group': 'happo', 'scenario': 'base', 'trace': 0, 'notification': None, 'cost': 20.191666666666666, 'downstream_backlog': 9.695}
+EPISODE {'group': 'happo', 'scenario': 'base', 'trace': 1, 'notification': None, 'cost': 14.848333333333333, 'downstream_backlog': 1.965}
+EPISODE {'group': 'happo', 'scenario': 'base', 'trace': 2, 'notification': None, 'cost': 20.858333333333334, 'downstream_backlog': 2.795}
+EPISODE {'group': 'happo', 'scenario': 'base', 'trace': 3, 'notification': None, 'cost': 31.058333333333334, 'downstream_backlog': 52.395}
+NOTIFIED happo 0 72
+EPISODE {'group': 'happo', 'scenario': 'shock', 'trace': 0, 'notification': 72, 'cost': 23.191666666666666, 'downstream_backlog': 15.94}
+NOTIFIED happo 1 80
+EPISODE {'group': 'happo', 'scenario': 'shock', 'trace': 1, 'notification': 80, 'cost': 17.218333333333334, 'downstream_backlog': 2.72}
+NOTIFIED happo 2 68
+EPISODE {'group': 'happo', 'scenario': 'shock', 'trace': 2, 'notification': 68, 'cost': 21.09, 'downstream_backlog': 2.185}
+NOTIFIED happo 3 76
+EPISODE {'group': 'happo', 'scenario': 'shock', 'trace': 3, 'notification': 76, 'cost': 32.156666666666666, 'downstream_backlog': 63.085}
+share_observation_space:  [Box(-inf, inf, (21,), float32), Box(-inf, inf, (21,), float32), Box(-inf, inf, (21,), float32)]
+observation_space:  [Box(-inf, inf, (7,), float32), Box(-inf, inf, (7,), float32), Box(-inf, inf, (7,), float32)]
+action_space:  [Discrete(21), Discrete(21), Discrete(21)]
+EPISODE {'group': 'manual_screen', 'scenario': 'base', 'trace': 0, 'notification': None, 'cost': 20.191666666666666, 'downstream_backlog': 9.695}
+EPISODE {'group': 'manual_screen', 'scenario': 'base', 'trace': 1, 'notification': None, 'cost': 14.848333333333333, 'downstream_backlog': 1.965}
+EPISODE {'group': 'manual_screen', 'scenario': 'base', 'trace': 2, 'notification': None, 'cost': 20.858333333333334, 'downstream_backlog': 2.795}
+EPISODE {'group': 'manual_screen', 'scenario': 'base', 'trace': 3, 'notification': None, 'cost': 31.058333333333334, 'downstream_backlog': 52.395}
+NOTIFIED manual_screen 0 72
+SELECT manual_screen 0 72 zero 0.26
+SELECT manual_screen 0 77 zero 0.26
+SELECT manual_screen 0 82 zero 0.26
+SELECT manual_screen 0 87 zero 0.27
+SELECT manual_screen 0 92 manual 0.26
+SELECT manual_screen 0 97 zero 0.26
+SELECT manual_screen 0 102 zero 0.27
+SELECT manual_screen 0 107 zero 0.27
+SELECT manual_screen 0 112 zero 0.26
+SELECT manual_screen 0 117 zero 0.26
+SELECT manual_screen 0 122 zero 0.27
+SELECT manual_screen 0 127 zero 0.27
+SELECT manual_screen 0 132 zero 0.27
+SELECT manual_screen 0 137 zero 0.26
+SELECT manual_screen 0 142 zero 0.26
+SELECT manual_screen 0 147 zero 0.27
+SELECT manual_screen 0 152 zero 0.27
+SELECT manual_screen 0 157 manual 0.27
+SELECT manual_screen 0 162 zero 0.26
+SELECT manual_screen 0 167 zero 0.27
+SELECT manual_screen 0 172 zero 0.27
+SELECT manual_screen 0 177 zero 0.27
+SELECT manual_screen 0 182 zero 0.25
+SELECT manual_screen 0 187 zero 0.19
+SELECT manual_screen 0 192 zero 0.12
+SELECT manual_screen 0 197 zero 0.05
+EPISODE {'group': 'manual_screen', 'scenario': 'shock', 'trace': 0, 'notification': 72, 'cost': 20.71, 'downstream_backlog': 14.13}
+NOTIFIED manual_screen 1 80
+SELECT manual_screen 1 80 zero 0.26
+SELECT manual_screen 1 85 zero 0.26
+SELECT manual_screen 1 90 zero 0.26
+SELECT manual_screen 1 95 zero 0.27
+SELECT manual_screen 1 100 zero 0.26
+SELECT manual_screen 1 105 zero 0.26
+SELECT manual_screen 1 110 zero 0.26
+SELECT manual_screen 1 115 zero 0.27
+SELECT manual_screen 1 120 zero 0.26
+SELECT manual_screen 1 125 zero 0.26
+SELECT manual_screen 1 130 zero 0.27
+SELECT manual_screen 1 135 zero 0.27
+SELECT manual_screen 1 140 zero 0.27
+SELECT manual_screen 1 145 zero 0.26
+SELECT manual_screen 1 150 zero 0.26
+SELECT manual_screen 1 155 zero 0.27
+SELECT manual_screen 1 160 zero 0.27
+SELECT manual_screen 1 165 zero 0.27
+SELECT manual_screen 1 170 zero 0.27
+SELECT manual_screen 1 175 zero 0.27
+SELECT manual_screen 1 180 zero 0.27
+SELECT manual_screen 1 185 zero 0.22
+SELECT manual_screen 1 190 zero 0.15
+SELECT manual_screen 1 195 zero 0.08
+SELECT manual_screen 1 200 zero 0.01
+EPISODE {'group': 'manual_screen', 'scenario': 'shock', 'trace': 1, 'notification': 80, 'cost': 17.218333333333334, 'downstream_backlog': 2.72}
+NOTIFIED manual_screen 2 68
+SELECT manual_screen 2 68 zero 0.27
+SELECT manual_screen 2 73 zero 0.26
+SELECT manual_screen 2 78 zero 0.26
+SELECT manual_screen 2 83 zero 0.26
+SELECT manual_screen 2 88 zero 0.26
+SELECT manual_screen 2 93 zero 0.26
+SELECT manual_screen 2 98 zero 0.26
+SELECT manual_screen 2 103 zero 0.26
+SELECT manual_screen 2 108 zero 0.27
+SELECT manual_screen 2 113 zero 0.27
+SELECT manual_screen 2 118 zero 0.26
+SELECT manual_screen 2 123 zero 0.26
+SELECT manual_screen 2 128 zero 0.27
+SELECT manual_screen 2 133 zero 0.27
+SELECT manual_screen 2 138 zero 0.27
+SELECT manual_screen 2 143 zero 0.27
+SELECT manual_screen 2 148 zero 0.27
+SELECT manual_screen 2 153 zero 0.27
+SELECT manual_screen 2 158 zero 0.27
+SELECT manual_screen 2 163 zero 0.27
+SELECT manual_screen 2 168 zero 0.27
+SELECT manual_screen 2 173 zero 0.27
+SELECT manual_screen 2 178 zero 0.27
+SELECT manual_screen 2 183 zero 0.24
+SELECT manual_screen 2 188 zero 0.17
+SELECT manual_screen 2 193 zero 0.11
+SELECT manual_screen 2 198 zero 0.04
+EPISODE {'group': 'manual_screen', 'scenario': 'shock', 'trace': 2, 'notification': 68, 'cost': 21.09, 'downstream_backlog': 2.185}
+NOTIFIED manual_screen 3 76
+SELECT manual_screen 3 76 zero 0.26
+SELECT manual_screen 3 81 manual 0.26
+SELECT manual_screen 3 86 zero 0.26
+SELECT manual_screen 3 91 zero 0.27
+SELECT manual_screen 3 96 zero 0.26
+SELECT manual_screen 3 101 manual 0.26
+SELECT manual_screen 3 106 zero 0.26
+SELECT manual_screen 3 111 zero 0.27
+SELECT manual_screen 3 116 zero 0.26
+SELECT manual_screen 3 121 zero 0.26
+SELECT manual_screen 3 126 zero 0.26
+SELECT manual_screen 3 131 zero 0.27
+SELECT manual_screen 3 136 zero 0.26
+SELECT manual_screen 3 141 zero 0.27
+SELECT manual_screen 3 146 zero 0.26
+SELECT manual_screen 3 151 zero 0.27
+SELECT manual_screen 3 156 zero 0.27
+SELECT manual_screen 3 161 zero 0.26
+SELECT manual_screen 3 166 zero 0.27
+SELECT manual_screen 3 171 zero 0.27
+SELECT manual_screen 3 176 zero 0.27
+SELECT manual_screen 3 181 zero 0.27
+SELECT manual_screen 3 186 zero 0.2
+SELECT manual_screen 3 191 zero 0.14
+SELECT manual_screen 3 196 zero 0.07
+EPISODE {'group': 'manual_screen', 'scenario': 'shock', 'trace': 3, 'notification': 76, 'cost': 32.04, 'downstream_backlog': 61.315}
+share_observation_space:  [Box(-inf, inf, (21,), float32), Box(-inf, inf, (21,), float32), Box(-inf, inf, (21,), float32)]
+observation_space:  [Box(-inf, inf, (7,), float32), Box(-inf, inf, (7,), float32), Box(-inf, inf, (7,), float32)]
+action_space:  [Discrete(21), Discrete(21), Discrete(21)]
+EPISODE {'group': 'llm_single', 'scenario': 'base', 'trace': 0, 'notification': None, 'cost': 20.191666666666666, 'downstream_backlog': 9.695}
+EPISODE {'group': 'llm_single', 'scenario': 'base', 'trace': 1, 'notification': None, 'cost': 14.848333333333333, 'downstream_backlog': 1.965}
+EPISODE {'group': 'llm_single', 'scenario': 'base', 'trace': 2, 'notification': None, 'cost': 20.858333333333334, 'downstream_backlog': 2.795}
+EPISODE {'group': 'llm_single', 'scenario': 'base', 'trace': 3, 'notification': None, 'cost': 31.058333333333334, 'downstream_backlog': 52.395}
+API 0 0 valid 2.66
+NOTIFIED llm_single 0 72
+SELECT llm_single 0 72 zero 0.26
+SELECT llm_single 0 77 zero 0.26
+SELECT llm_single 0 82 zero 0.26
+SELECT llm_single 0 87 zero 0.26
+SELECT llm_single 0 92 zero 0.26
+SELECT llm_single 0 97 zero 0.26
+SELECT llm_single 0 102 zero 0.28
+SELECT llm_single 0 107 zero 0.27
+SELECT llm_single 0 112 zero 0.26
+SELECT llm_single 0 117 zero 0.26
+SELECT llm_single 0 122 zero 0.26
+SELECT llm_single 0 127 zero 0.27
+SELECT llm_single 0 132 llm_r0_0 0.27
+SELECT llm_single 0 137 zero 0.26
+SELECT llm_single 0 142 zero 0.26
+SELECT llm_single 0 147 zero 0.27
+SELECT llm_single 0 152 zero 0.26
+SELECT llm_single 0 157 zero 0.27
+SELECT llm_single 0 162 zero 0.27
+SELECT llm_single 0 167 zero 0.28
+SELECT llm_single 0 172 zero 0.28
+SELECT llm_single 0 177 zero 0.28
+SELECT llm_single 0 182 zero 0.26
+SELECT llm_single 0 187 zero 0.19
+SELECT llm_single 0 192 zero 0.12
+SELECT llm_single 0 197 llm_r0_0 0.05
+EPISODE {'group': 'llm_single', 'scenario': 'shock', 'trace': 0, 'notification': 72, 'cost': 20.461666666666666, 'downstream_backlog': 14.84}
+API 1 0 valid 2.14
+NOTIFIED llm_single 1 80
+SELECT llm_single 1 80 zero 0.27
+SELECT llm_single 1 85 zero 0.26
+SELECT llm_single 1 90 zero 0.26
+SELECT llm_single 1 95 zero 0.27
+SELECT llm_single 1 100 llm_r0_0 0.26
+SELECT llm_single 1 105 zero 0.26
+SELECT llm_single 1 110 zero 0.27
+SELECT llm_single 1 115 zero 0.27
+SELECT llm_single 1 120 zero 0.26
+SELECT llm_single 1 125 llm_r0_0 0.26
+SELECT llm_single 1 130 zero 0.27
+SELECT llm_single 1 135 zero 0.26
+SELECT llm_single 1 140 zero 0.26
+SELECT llm_single 1 145 zero 0.26
+SELECT llm_single 1 150 zero 0.29
+SELECT llm_single 1 155 llm_r0_0 0.28
+SELECT llm_single 1 160 zero 0.27
+SELECT llm_single 1 165 zero 0.27
+SELECT llm_single 1 170 zero 0.27
+SELECT llm_single 1 175 llm_r0_0 0.27
+SELECT llm_single 1 180 zero 0.27
+SELECT llm_single 1 185 zero 0.21
+SELECT llm_single 1 190 zero 0.15
+SELECT llm_single 1 195 zero 0.08
+SELECT llm_single 1 200 llm_r0_0 0.01
+EPISODE {'group': 'llm_single', 'scenario': 'shock', 'trace': 1, 'notification': 80, 'cost': 15.705, 'downstream_backlog': 2.58}
+API 2 0 valid 2.73
+NOTIFIED llm_single 2 68
+SELECT llm_single 2 68 zero 0.26
+SELECT llm_single 2 73 zero 0.26
+SELECT llm_single 2 78 zero 0.26
+SELECT llm_single 2 83 zero 0.26
+SELECT llm_single 2 88 zero 0.26
+SELECT llm_single 2 93 zero 0.26
+SELECT llm_single 2 98 zero 0.26
+SELECT llm_single 2 103 zero 0.27
+SELECT llm_single 2 108 zero 0.26
+SELECT llm_single 2 113 zero 0.26
+SELECT llm_single 2 118 zero 0.26
+SELECT llm_single 2 123 zero 0.27
+SELECT llm_single 2 128 zero 0.27
+SELECT llm_single 2 133 zero 0.26
+SELECT llm_single 2 138 zero 0.26
+SELECT llm_single 2 143 zero 0.29
+SELECT llm_single 2 148 zero 0.27
+SELECT llm_single 2 153 zero 0.27
+SELECT llm_single 2 158 zero 0.27
+SELECT llm_single 2 163 zero 0.27
+SELECT llm_single 2 168 zero 0.27
+SELECT llm_single 2 173 zero 0.27
+SELECT llm_single 2 178 zero 0.27
+SELECT llm_single 2 183 zero 0.25
+SELECT llm_single 2 188 zero 0.17
+SELECT llm_single 2 193 zero 0.11
+SELECT llm_single 2 198 zero 0.04
+EPISODE {'group': 'llm_single', 'scenario': 'shock', 'trace': 2, 'notification': 68, 'cost': 21.09, 'downstream_backlog': 2.185}
+API 3 0 valid 2.37
+NOTIFIED llm_single 3 76
+SELECT llm_single 3 76 llm_r0_0 0.27
+SELECT llm_single 3 81 zero 0.26
+SELECT llm_single 3 86 zero 0.26
+SELECT llm_single 3 91 zero 0.26
+SELECT llm_single 3 96 llm_r0_0 0.26
+SELECT llm_single 3 101 zero 0.26
+SELECT llm_single 3 106 zero 0.26
+SELECT llm_single 3 111 zero 0.27
+SELECT llm_single 3 116 zero 0.26
+SELECT llm_single 3 121 llm_r0_0 0.26
+SELECT llm_single 3 126 zero 0.26
+SELECT llm_single 3 131 zero 0.27
+SELECT llm_single 3 136 zero 0.26
+SELECT llm_single 3 141 zero 0.26
+SELECT llm_single 3 146 zero 0.27
+SELECT llm_single 3 151 zero 0.27
+SELECT llm_single 3 156 zero 0.27
+SELECT llm_single 3 161 llm_r0_0 0.27
+SELECT llm_single 3 166 zero 0.27
+SELECT llm_single 3 171 zero 0.27
+SELECT llm_single 3 176 zero 0.27
+SELECT llm_single 3 181 zero 0.27
+SELECT llm_single 3 186 zero 0.2
+SELECT llm_single 3 191 zero 0.13
+SELECT llm_single 3 196 zero 0.07
+EPISODE {'group': 'llm_single', 'scenario': 'shock', 'trace': 3, 'notification': 76, 'cost': 31.703333333333333, 'downstream_backlog': 60.105}
+REFINEMENT_COMPLETED

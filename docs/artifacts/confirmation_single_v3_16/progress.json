@@ -1,0 +1,29 @@
+{
+  "source_hashes": {
+    "run.py": "ec9ab5dbf22be4718ff18811ead4dbf1e35414e5c5c91d43a0b9e6e184d27ec6",
+    "shadow.py": "182e4ab03f7a149b51bbd5937163a3d9479fa85d23402410e8e6c19683d7251d"
+  },
+  "calls_before": 102,
+  "batches": [
+    {
+      "name": "flash_confirm_single_v3_batch1",
+      "returncode": 0
+    },
+    {
+      "name": "flash_confirm_single_v3_batch2",
+      "returncode": 0
+    },
+    {
+      "name": "flash_confirm_single_v3_batch3",
+      "returncode": 0
+    },
+    {
+      "name": "flash_confirm_single_v3_batch4",
+      "returncode": 0
+    }
+  ],
+  "status": "completed",
+  "started_unix": 1791020388.8323748,
+  "single_only": true,
+  "ended_unix": 1791020684.7348106
+}

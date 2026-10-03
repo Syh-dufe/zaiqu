@@ -46,6 +46,8 @@ def main():
     parser.add_argument('--correction-periods',type=int,default=20,choices=(5,20))
     parser.add_argument('--refinement-schedule',default='immediate',choices=('immediate','observed'))
     parser.add_argument('--single-only',action='store_true',help='Compare original, manual and single LLM only; no feedback requests.')
+    parser.add_argument('--predictor',default='residual',choices=('residual','merton'))
+    parser.add_argument('--replay-calls',type=Path,help='Causal replay of stored initial requests; no new API calls, development only.')
     opts = parser.parse_args()
     run_started=time.perf_counter()
     if not opts.run_name or any(c not in 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_-' for c in opts.run_name):
@@ -53,19 +55,23 @@ def main():
     out = ROOT/'results/deepseek_refinement'/opts.run_name
     if out.exists(): parser.error('refuse overwrite')
     key = os.environ.get('DEEPSEEK_API_KEY')
-    if not key: parser.error('API key missing')
+    if not key and not opts.replay_calls: parser.error('API key missing')
+    replay=[]
+    if opts.replay_calls:
+        if not opts.single_only:parser.error('Replay currently supports single-only diagnosis')
+        replay=json.loads(opts.replay_calls.read_text(encoding='utf-8'))
     revision = subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=UPSTREAM, text=True).strip()
     assert revision == 'a7e5a3e83e21565a5799483bc534e39635ec65dd'
     assert not subprocess.check_output(['git', 'status', '--porcelain', '--untracked-files=no'], cwd=UPSTREAM, text=True).strip()
     old_calls = 0
     for p in (ROOT/'results/deepseek_refinement').glob('*/calls.json'):
-        old_calls += len(json.loads(p.read_text(encoding='utf-8')))
-    expected_calls=opts.cases*(1 if opts.single_only else 3)
+        old_calls += sum(not c.get('replayed',False) for c in json.loads(p.read_text(encoding='utf-8')))
+    expected_calls=0 if opts.replay_calls else opts.cases*(1 if opts.single_only else 3)
     if old_calls+expected_calls > 120: parser.error('series API limit reached')
     out.mkdir(parents=True)
     write(out/'protocol.json', {'system': SYSTEM, 'document': 'docs/2026-10-03-llm-refinement-protocol.md',
                                'max_calls': 12, 'series_calls_before': old_calls, 'model': 'deepseek-flash',
-                               'options':vars(opts)})
+                               'options':{k:str(v) if isinstance(v,Path) else v for k,v in vars(opts).items()}})
     sys.path.insert(0, str(UPSTREAM)); os.chdir(UPSTREAM)
     import numpy as np
     import torch
@@ -98,6 +104,17 @@ def main():
         body = dict(model='deepseek-flash', messages=[dict(role='system', content=SYSTEM),
                     dict(role='user', content=json.dumps(dict(context, candidate_count=count)))],
                     response_format={'type':'json_object'}, thinking={'type':'disabled'}, temperature=.2, max_tokens=3000)
+        if replay:
+            assert round_id==0
+            original=next(c for c in replay if c['trace']==trace and c['round']==round_id)
+            assert original['request']==body, 'Replay context differs: cannot transfer a response as event-time generation'
+            record=copy.deepcopy(original);record.update(index=len(calls),replayed=True,seconds=0.,original_api_seconds=original['seconds'])
+            calls.append(record);write(out/'calls.json',calls)
+            result=[]
+            for i,value in enumerate(original.get('candidates',[])):
+                try:result.append(dict(id=f'llm_r{round_id}_{i}',compiled=compile_rule(value),rule=value))
+                except ValueError:pass
+            return result
         record = dict(index=len(calls), trace=trace, round=round_id, request=body, status='started')
         calls.append(record); write(out/'calls.json', calls)
         start = time.perf_counter(); result = []
@@ -157,7 +174,7 @@ def main():
                     self.candidates += initial[self.trace]['generated']
                 print('NOTIFIED',self.group,self.trace,period+1,flush=True)
             if self.notification is not None and self.group!='happo' and (period-(self.notification-1))%5==0:
-                state=snapshot(env,self.history); paths=forecasts(self.history,self.trace,period)
+                state=snapshot(env,self.history); paths=forecasts(self.history,self.trace,period,opts.predictor)
                 # Zero shadow first step must exactly equal original transition on identical synthetic demand.
                 branch=clone(state,self.history,paths[0][0]); branch.step(proposed,one_hot=False)
                 verify=clone(state,self.history,paths[0][0]); verify.step(corrected(dict(id='zero'),verify,self.history,self.orders,proposed),one_hot=False)

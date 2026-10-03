@@ -32,9 +32,10 @@ def main():
     screening={g:dict(evaluations=sum(s['group']==g for s in scores),
                      accepted=sum(s['group']==g and s['chosen']!='zero' for s in scores),
                      seconds=sum(s['seconds'] for s in scores if s['group']==g)) for g in groups}
-    result=dict(summary=summary,screening=screening,api_calls=len(calls),
-                failed_calls=sum(c['status']!='valid' for c in calls),
-                tokens=sum(c.get('response',{}).get('usage',{}).get('total_tokens',0) for c in calls),
+    result=dict(summary=summary,screening=screening,api_calls=sum(not c.get('replayed',False) for c in calls),
+                replayed_calls=sum(c.get('replayed',False) for c in calls),
+                failed_calls=sum(c['status']!='valid' and not c.get('replayed',False) for c in calls),
+                tokens=sum(c.get('response',{}).get('usage',{}).get('total_tokens',0) for c in calls if not c.get('replayed',False)),
                 api_seconds=sum(c['seconds'] for c in calls),
                 paired=paired,prediction_mean_absolute_error=statistics.mean(e['mean_absolute_error'] for e in prediction_errors),
                 interpretation='Small batch; no significance or general superiority claim. API and screening pause simulator. Extra information and computation differ from original actors.')

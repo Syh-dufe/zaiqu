@@ -51,13 +51,23 @@ def clone(state, history, forecast):
     return env
 
 
-def forecasts(history, trace, period):
+def forecasts(history, trace, period, method='residual'):
     rng = np.random.default_rng(20261013 + 1000*trace + period)
     horizon = min(20, 200-period)
-    mean = np.mean(history[-5:])
-    residual = np.array(history[-20:], dtype=float)
-    residual -= residual.mean()
-    values = np.clip(np.rint(mean+rng.choice(residual, size=(6, horizon))), 0, 20).astype(int)
+    if method=='merton':
+        # Public generator transition, conditioned approximately on last observed integer.
+        # No latent state, future real demands, event multiplier or ending time is read.
+        latent=np.full(6,np.log(history[-1]+.5));values=np.zeros((6,horizon),dtype=int)
+        for t in range(horizon):
+            z=rng.normal(0,1,6);n=rng.poisson(15,6);z2=rng.normal(0,2,6)
+            latent+=np.sqrt(15)*.01*z+.01*np.sqrt(n)*z2
+            values[:,t]=np.clip(np.floor(np.exp(np.clip(latent,-20,20))),0,20).astype(int)
+    else:
+        assert method=='residual'
+        mean = np.mean(history[-5:])
+        residual = np.array(history[-20:], dtype=float)
+        residual -= residual.mean()
+        values = np.clip(np.rint(mean+rng.choice(residual, size=(6, horizon))), 0, 20).astype(int)
     return values[:3].tolist(), values[3:].tolist()
 
 
