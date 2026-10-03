@@ -28,21 +28,21 @@ def intervals(values):
 def main():
     parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('directory',type=Path)
     out=parser.parse_args().directory.resolve()
-    state=json.loads((out/'progress.json').read_text());manifest=json.loads((out/'manifest.json').read_text())
+    state=json.loads((out/'progress.json').read_text(encoding='utf-8-sig'));manifest=json.loads((out/'manifest.json').read_text(encoding='utf-8-sig'))
     if state['status']!='completed' or manifest['mode']!='formal_stage_a' or len(state['completed'])!=5:
         raise RuntimeError('Require all five completed formal batches')
     if (out/'summary.json').exists():raise RuntimeError('Refuse replacing analyzed results')
     pairs=[];all_rows=[];absolute={'happo':[], 'llm_library':[]};checks=[];decisions=[];errors=[]
     for batch_number,record in enumerate(state['completed'],1):
-        batch=out/record['name'];done=json.loads((batch/'completed.json').read_text())
+        batch=out/record['name'];done=json.loads((batch/'completed.json').read_text(encoding='utf-8-sig'))
         assert done['episodes']==16 and done['rows']==9600 and done['calls']==done['training_updates']==0 and not done['runtime_failures']
         assert all(x['unchanged'] for x in done['parameter_checks'].values())
-        inputs=json.loads((batch/'demands.json').read_text());source=json.loads((batch/'input_source.json').read_text())
+        inputs=json.loads((batch/'demands.json').read_text(encoding='utf-8-sig'));source=json.loads((batch/'input_source.json').read_text(encoding='utf-8-sig'))
         source_file=Path(manifest['inputs'][batch_number-1]['path'])
         assert source['sha256']==manifest['inputs'][batch_number-1]['sha256']==hashlib.sha256(source_file.read_bytes()).hexdigest()
-        original=json.loads(source_file.read_text())
+        original=json.loads(source_file.read_text(encoding='utf-8-sig'))
         assert all(inputs[k]==original[k] for k in ('base','shock','events','demand_seed','event_seed'))
-        episodes=json.loads((batch/'episodes.json').read_text())
+        episodes=json.loads((batch/'episodes.json').read_text(encoding='utf-8-sig'))
         rows=list(csv.DictReader((batch/'periods.csv').open(encoding='utf-8')))
         for row in rows:
             for key in ('trace','period','node','demand','inventory','backlog','happo_order','actual_order'):row[key]=int(row[key])
@@ -71,13 +71,13 @@ def main():
             pair.update(cost_delta=pair['llm_library_cost']-pair['happo_cost'],
                         backlog_delta=pair['llm_library_backlog']-pair['happo_backlog'])
             pairs.append(pair)
-        for score in json.loads((batch/'scores.json').read_text()):
+        for score in json.loads((batch/'scores.json').read_text(encoding='utf-8-sig')):
             decisions.append(score)
             forecast_start=score['period']-1;actual=inputs['shock'][score['trace']]
             for paths in score['forecasts']:
                 for path in paths:errors.extend(abs(float(v)-actual[forecast_start+i]) for i,v in enumerate(path))
         # Public histories and interval calendars are independently checked after execution.
-        information=json.loads((batch/'information_audits.json').read_text())
+        information=json.loads((batch/'information_audits.json').read_text(encoding='utf-8-sig'))
         assert len(information)==3200
         for item in information:
             completed=item['decision_period']-1;through=completed//3*3

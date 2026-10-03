@@ -31,20 +31,20 @@ def main():
     if args.methods[0]!='happo' or len(set(args.methods))!=len(args.methods):parser.error('Require unique methods with HAPPO first')
     files=[]
     if args.input_directory:
-        directory=args.input_directory.resolve();manifest=json.loads((directory/'manifest.json').read_text())
+        directory=args.input_directory.resolve();manifest=json.loads((directory/'manifest.json').read_text(encoding='utf-8-sig'))
         protocol=ROOT/'docs/2026-10-03-formal-experiment-protocol.md'
         if digest(protocol)!=manifest['protocol_sha256']:raise RuntimeError('Protocol changed after inputs generated')
         for record in manifest['batches']:
             file=directory/record['file']
             if digest(file)!=record['sha256']:raise RuntimeError('Input hash differs')
-            validate_batch(json.loads(file.read_text()),4);files.append(file)
+            validate_batch(json.loads(file.read_text(encoding='utf-8-sig')),4);files.append(file)
         if len(files)!=5:raise RuntimeError('Require all five formal batches')
     else:
-        file=args.development_input.resolve();data=json.loads(file.read_text())
+        file=args.development_input.resolve();data=json.loads(file.read_text(encoding='utf-8-sig'))
         validate_batch(data,len(data['base']));files=[file]
     out=ROOT/'results/formal_evaluation'/args.run_name
     if out.exists():parser.error('Refuse overwrite')
-    training=args.training_directory.resolve();audit=json.loads((training/'completion_audit.json').read_text())
+    training=args.training_directory.resolve();audit=json.loads((training/'completion_audit.json').read_text(encoding='utf-8-sig'))
     sources=[Path(__file__),Path(__file__).with_name('inputs.py'),Path(__file__).with_name('prepare.py'),Path(__file__).with_name('analyze.py'),
              ROOT/'experiments/deepseek_refinement/run.py',ROOT/'experiments/deepseek_refinement/shadow.py',
              ROOT/'experiments/deepseek_refinement/reports.py',ROOT/'experiments/deepseek_pilot/rules.py']
@@ -60,7 +60,7 @@ def main():
         protocol_sha256=digest(ROOT/'docs/2026-10-03-formal-experiment-protocol.md'))
     write(out/'manifest.json',run_manifest);started=time.perf_counter();results=[]
     for i,file in enumerate(files,1):
-        data=json.loads(file.read_text());batch=f'{args.run_name}_batch{i}'
+        data=json.loads(file.read_text(encoding='utf-8-sig'));batch=f'{args.run_name}_batch{i}'
         command=[sys.executable,'-u',str(ROOT/'experiments/deepseek_refinement/run.py'),
                  '--run-name',batch,'--output-root',str(out),'--input-file',str(file),
                  '--training-directory',str(training),'--methods',*args.methods,'--cases',str(len(data['base'])),
@@ -72,7 +72,7 @@ def main():
         if completed.returncode:
             write(out/'progress.json',dict(status='failed',active_batch=batch,exit_code=completed.returncode,completed=results))
             raise RuntimeError(f'Batch failed; preserved log: {batch}')
-        completion=json.loads((out/batch/'completed.json').read_text())
+        completion=json.loads((out/batch/'completed.json').read_text(encoding='utf-8-sig'))
         if completion['calls'] or completion['training_updates'] or completion['runtime_failures']:raise RuntimeError('Formal frozen evaluation audit failed')
         if any(not check['unchanged'] or check['before']!=run_manifest['model_parameter_sha256'] for check in completion['parameter_checks'].values()):raise RuntimeError('Model mismatch')
         if any(digest(ROOT/name)!=value for name,value in run_manifest['source_sha256'].items()) or digest(library)!=run_manifest['library_sha256']:raise RuntimeError('Source changed during evaluation')
