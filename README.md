@@ -100,3 +100,22 @@ python experiments/deepseek_refinement/summarize.py results/deepseek_refinement/
 ```
 
 入口拒绝覆盖已有目录。本轮最多12次API请求，系列累计最多120次，无自动重试。默认两条开发需求；正常情形无现场通知，不能据此验证自动报警或虚假通知鲁棒性。成本下降须连同缺货和额外计算开销报告，全部不利结果保留。
+
+## 当前已验证的LLM算子库版本
+
+先在开发阶段由DeepSeek生成可复用补货算子，在线用当前状态与因果预测筛选；HAPPO保持冻结。它与每事件实时请求LLM的路线分别记录。
+
+20条全新需求测试中，相对同一原HAPPO，平均系统成本下降2.45%，下游平均积压下降1.86%，两项配对bootstrap95%区间均低于0。仍有个案退化，人工规则的平均成本和缺货更低，不能称LLM在所有对照中最佳。仅单训练种子、固定仿真需求冲击与可靠通知，不是真实灾区验证。
+
+- [独立测试完整报告](docs/2026-10-03-llm-library-confirmation-results.md)
+- [固定库设计及语法修复记录](docs/2026-10-03-llm-operator-library.md)
+- [运行前登记](docs/2026-10-03-llm-library-confirmation-20.md)
+
+当前库在开发中调用API，测试不请求API；无需密钥，可对已有本地模型运行小型库实验：
+
+```powershell
+python experiments/deepseek_refinement/run.py --run-name my_unique_library_run --operator-library docs/artifacts/operator_discovery_v1/repaired_library.json --correction-periods 5 --predictor merton
+python experiments/deepseek_refinement/summarize.py results/deepseek_refinement/my_unique_library_run
+```
+
+全部历史失败/不显著结果、缓存预测诊断和新确认结果均保留。后续需要等候选数手工对照、多训练种子、独立重复及可靠性实验进一步分析LLM贡献。

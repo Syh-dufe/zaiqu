@@ -1,0 +1,256 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+share_observation_space:  [Box(-inf, inf, (21,), float32), Box(-inf, inf, (21,), float32), Box(-inf, inf, (21,), float32)]
+observation_space:  [Box(-inf, inf, (7,), float32), Box(-inf, inf, (7,), float32), Box(-inf, inf, (7,), float32)]
+action_space:  [Discrete(21), Discrete(21), Discrete(21)]
+EPISODE {'group': 'happo', 'scenario': 'base', 'trace': 0, 'notification': None, 'cost': 16.948333333333334, 'downstream_backlog': 2.815}
+EPISODE {'group': 'happo', 'scenario': 'base', 'trace': 1, 'notification': None, 'cost': 15.81, 'downstream_backlog': 1.96}
+EPISODE {'group': 'happo', 'scenario': 'base', 'trace': 2, 'notification': None, 'cost': 51.891666666666666, 'downstream_backlog': 127.625}
+EPISODE {'group': 'happo', 'scenario': 'base', 'trace': 3, 'notification': None, 'cost': 18.413333333333334, 'downstream_backlog': 11.215}
+NOTIFIED happo 0 84
+EPISODE {'group': 'happo', 'scenario': 'shock', 'trace': 0, 'notification': 84, 'cost': 20.106666666666666, 'downstream_backlog': 3.505}
+NOTIFIED happo 1 64
+EPISODE {'group': 'happo', 'scenario': 'shock', 'trace': 1, 'notification': 64, 'cost': 18.615, 'downstream_backlog': 4.75}
+NOTIFIED happo 2 70
+EPISODE {'group': 'happo', 'scenario': 'shock', 'trace': 2, 'notification': 70, 'cost': 57.68833333333333, 'downstream_backlog': 145.015}
+NOTIFIED happo 3 83
+EPISODE {'group': 'happo', 'scenario': 'shock', 'trace': 3, 'notification': 83, 'cost': 20.535, 'downstream_backlog': 14.065}
+share_observation_space:  [Box(-inf, inf, (21,), float32), Box(-inf, inf, (21,), float32), Box(-inf, inf, (21,), float32)]
+observation_space:  [Box(-inf, inf, (7,), float32), Box(-inf, inf, (7,), float32), Box(-inf, inf, (7,), float32)]
+action_space:  [Discrete(21), Discrete(21), Discrete(21)]
+EPISODE {'group': 'manual_screen', 'scenario': 'base', 'trace': 0, 'notification': None, 'cost': 16.948333333333334, 'downstream_backlog': 2.815}
+EPISODE {'group': 'manual_screen', 'scenario': 'base', 'trace': 1, 'notification': None, 'cost': 15.81, 'downstream_backlog': 1.96}
+EPISODE {'group': 'manual_screen', 'scenario': 'base', 'trace': 2, 'notification': None, 'cost': 51.891666666666666, 'downstream_backlog': 127.625}
+EPISODE {'group': 'manual_screen', 'scenario': 'base', 'trace': 3, 'notification': None, 'cost': 18.413333333333334, 'downstream_backlog': 11.215}
+NOTIFIED manual_screen 0 84
+SELECT manual_screen 0 84 zero 0.26
+SELECT manual_screen 0 89 zero 0.26
+SELECT manual_screen 0 94 zero 0.26
+SELECT manual_screen 0 99 zero 0.26
+SELECT manual_screen 0 104 zero 0.26
+SELECT manual_screen 0 109 zero 0.26
+SELECT manual_screen 0 114 zero 0.26
+SELECT manual_screen 0 119 zero 0.26
+SELECT manual_screen 0 124 zero 0.27
+SELECT manual_screen 0 129 zero 0.26
+SELECT manual_screen 0 134 zero 0.26
+SELECT manual_screen 0 139 zero 0.26
+SELECT manual_screen 0 144 zero 0.26
+SELECT manual_screen 0 149 zero 0.26
+SELECT manual_screen 0 154 zero 0.26
+SELECT manual_screen 0 159 zero 0.27
+SELECT manual_screen 0 164 zero 0.26
+SELECT manual_screen 0 169 zero 0.26
+SELECT manual_screen 0 174 zero 0.26
+SELECT manual_screen 0 179 zero 0.26
+SELECT manual_screen 0 184 zero 0.23
+SELECT manual_screen 0 189 zero 0.16
+SELECT manual_screen 0 194 zero 0.09
+SELECT manual_screen 0 199 zero 0.02
+EPISODE {'group': 'manual_screen', 'scenario': 'shock', 'trace': 0, 'notification': 84, 'cost': 20.106666666666666, 'downstream_backlog': 3.505}
+NOTIFIED manual_screen 1 64
+SELECT manual_screen 1 64 zero 0.25
+SELECT manual_screen 1 69 zero 0.25
+SELECT manual_screen 1 74 zero 0.27
+SELECT manual_screen 1 79 zero 0.26
+SELECT manual_screen 1 84 zero 0.26
+SELECT manual_screen 1 89 zero 0.26
+SELECT manual_screen 1 94 zero 0.26
+SELECT manual_screen 1 99 manual 0.26
+SELECT manual_screen 1 104 zero 0.26
+SELECT manual_screen 1 109 manual 0.26
+SELECT manual_screen 1 114 zero 0.26
+SELECT manual_screen 1 119 zero 0.26
+SELECT manual_screen 1 124 zero 0.26
+SELECT manual_screen 1 129 zero 0.26
+SELECT manual_screen 1 134 zero 0.26
+SELECT manual_screen 1 139 zero 0.26
+SELECT manual_screen 1 144 zero 0.26
+SELECT manual_screen 1 149 zero 0.26
+SELECT manual_screen 1 154 zero 0.26
+SELECT manual_screen 1 159 zero 0.26
+SELECT manual_screen 1 164 zero 0.26
+SELECT manual_screen 1 169 zero 0.26
+SELECT manual_screen 1 174 zero 0.26
+SELECT manual_screen 1 179 zero 0.26
+SELECT manual_screen 1 184 zero 0.24
+SELECT manual_screen 1 189 zero 0.18
+SELECT manual_screen 1 194 zero 0.11
+SELECT manual_screen 1 199 zero 0.03
+EPISODE {'group': 'manual_screen', 'scenario': 'shock', 'trace': 1, 'notification': 64, 'cost': 17.516666666666666, 'downstream_backlog': 4.25}
+NOTIFIED manual_screen 2 70
+SELECT manual_screen 2 70 zero 0.26
+SELECT manual_screen 2 75 zero 0.26
+SELECT manual_screen 2 80 zero 0.26
+SELECT manual_screen 2 85 zero 0.26
+SELECT manual_screen 2 90 manual 0.26
+SELECT manual_screen 2 95 zero 0.26
+SELECT manual_screen 2 100 manual 0.26
+SELECT manual_screen 2 105 manual 0.26
+SELECT manual_screen 2 110 manual 0.26
+SELECT manual_screen 2 115 manual 0.26
+SELECT manual_screen 2 120 manual 0.26
+SELECT manual_screen 2 125 manual 0.26
+SELECT manual_screen 2 130 manual 0.26
+SELECT manual_screen 2 135 manual 0.26
+SELECT manual_screen 2 140 manual 0.27
+SELECT manual_screen 2 145 manual 0.26
+SELECT manual_screen 2 150 manual 0.26
+SELECT manual_screen 2 155 manual 0.26
+SELECT manual_screen 2 160 manual 0.26
+SELECT manual_screen 2 165 manual 0.26
+SELECT manual_screen 2 170 zero 0.26
+SELECT manual_screen 2 175 manual 0.26
+SELECT manual_screen 2 180 manual 0.27
+SELECT manual_screen 2 185 manual 0.21
+SELECT manual_screen 2 190 zero 0.15
+SELECT manual_screen 2 195 zero 0.08
+SELECT manual_screen 2 200 zero 0.01
+EPISODE {'group': 'manual_screen', 'scenario': 'shock', 'trace': 2, 'notification': 70, 'cost': 36.32333333333333, 'downstream_backlog': 75.855}
+NOTIFIED manual_screen 3 83
+SELECT manual_screen 3 83 zero 0.26
+SELECT manual_screen 3 88 zero 0.26
+SELECT manual_screen 3 93 zero 0.26
+SELECT manual_screen 3 98 zero 0.26
+SELECT manual_screen 3 103 zero 0.26
+SELECT manual_screen 3 108 zero 0.26
+SELECT manual_screen 3 113 zero 0.26
+SELECT manual_screen 3 118 zero 0.26
+SELECT manual_screen 3 123 zero 0.26
+SELECT manual_screen 3 128 zero 0.26
+SELECT manual_screen 3 133 zero 0.26
+SELECT manual_screen 3 138 zero 0.26
+SELECT manual_screen 3 143 zero 0.27
+SELECT manual_screen 3 148 zero 0.26
+SELECT manual_screen 3 153 zero 0.26
+SELECT manual_screen 3 158 zero 0.26
+SELECT manual_screen 3 163 manual 0.26
+SELECT manual_screen 3 168 zero 0.27
+SELECT manual_screen 3 173 zero 0.27
+SELECT manual_screen 3 178 zero 0.26
+SELECT manual_screen 3 183 zero 0.24
+SELECT manual_screen 3 188 zero 0.17
+SELECT manual_screen 3 193 zero 0.11
+SELECT manual_screen 3 198 zero 0.04
+EPISODE {'group': 'manual_screen', 'scenario': 'shock', 'trace': 3, 'notification': 83, 'cost': 21.415, 'downstream_backlog': 14.09}
+share_observation_space:  [Box(-inf, inf, (21,), float32), Box(-inf, inf, (21,), float32), Box(-inf, inf, (21,), float32)]
+observation_space:  [Box(-inf, inf, (7,), float32), Box(-inf, inf, (7,), float32), Box(-inf, inf, (7,), float32)]
+action_space:  [Discrete(21), Discrete(21), Discrete(21)]
+EPISODE {'group': 'llm_library', 'scenario': 'base', 'trace': 0, 'notification': None, 'cost': 16.948333333333334, 'downstream_backlog': 2.815}
+EPISODE {'group': 'llm_library', 'scenario': 'base', 'trace': 1, 'notification': None, 'cost': 15.81, 'downstream_backlog': 1.96}
+EPISODE {'group': 'llm_library', 'scenario': 'base', 'trace': 2, 'notification': None, 'cost': 51.891666666666666, 'downstream_backlog': 127.625}
+EPISODE {'group': 'llm_library', 'scenario': 'base', 'trace': 3, 'notification': None, 'cost': 18.413333333333334, 'downstream_backlog': 11.215}
+NOTIFIED llm_library 0 84
+SELECT llm_library 0 84 zero 0.43
+SELECT llm_library 0 89 zero 0.42
+SELECT llm_library 0 94 zero 0.42
+SELECT llm_library 0 99 zero 0.43
+SELECT llm_library 0 104 zero 0.41
+SELECT llm_library 0 109 zero 0.42
+SELECT llm_library 0 114 zero 0.41
+SELECT llm_library 0 119 zero 0.4
+SELECT llm_library 0 124 zero 0.4
+SELECT llm_library 0 129 zero 0.4
+SELECT llm_library 0 134 zero 0.4
+SELECT llm_library 0 139 zero 0.4
+SELECT llm_library 0 144 library_2 0.41
+SELECT llm_library 0 149 zero 0.4
+SELECT llm_library 0 154 zero 0.43
+SELECT llm_library 0 159 zero 0.43
+SELECT llm_library 0 164 zero 0.42
+SELECT llm_library 0 169 zero 0.4
+SELECT llm_library 0 174 zero 0.41
+SELECT llm_library 0 179 zero 0.41
+SELECT llm_library 0 184 library_0 0.36
+SELECT llm_library 0 189 library_0 0.27
+SELECT llm_library 0 194 zero 0.15
+SELECT llm_library 0 199 zero 0.04
+EPISODE {'group': 'llm_library', 'scenario': 'shock', 'trace': 0, 'notification': 84, 'cost': 20.843333333333334, 'downstream_backlog': 3.95}
+NOTIFIED llm_library 1 64
+SELECT llm_library 1 64 zero 0.42
+SELECT llm_library 1 69 zero 0.45
+SELECT llm_library 1 74 zero 0.42
+SELECT llm_library 1 79 zero 0.44
+SELECT llm_library 1 84 zero 0.43
+SELECT llm_library 1 89 zero 0.43
+SELECT llm_library 1 94 zero 0.41
+SELECT llm_library 1 99 zero 0.41
+SELECT llm_library 1 104 zero 0.4
+SELECT llm_library 1 109 zero 0.42
+SELECT llm_library 1 114 zero 0.42
+SELECT llm_library 1 119 zero 0.42
+SELECT llm_library 1 124 zero 0.46
+SELECT llm_library 1 129 zero 0.41
+SELECT llm_library 1 134 zero 0.4
+SELECT llm_library 1 139 library_0 0.42
+SELECT llm_library 1 144 zero 0.43
+SELECT llm_library 1 149 zero 0.42
+SELECT llm_library 1 154 zero 0.42
+SELECT llm_library 1 159 zero 0.41
+SELECT llm_library 1 164 zero 0.42
+SELECT llm_library 1 169 zero 0.41
+SELECT llm_library 1 174 zero 0.41
+SELECT llm_library 1 179 zero 0.4
+SELECT llm_library 1 184 zero 0.35
+SELECT llm_library 1 189 zero 0.26
+SELECT llm_library 1 194 library_2 0.15
+SELECT llm_library 1 199 library_0 0.04
+EPISODE {'group': 'llm_library', 'scenario': 'shock', 'trace': 1, 'notification': 64, 'cost': 19.386666666666667, 'downstream_backlog': 4.7}
+NOTIFIED llm_library 2 70
+SELECT llm_library 2 70 zero 0.41
+SELECT llm_library 2 75 zero 0.4
+SELECT llm_library 2 80 zero 0.39
+SELECT llm_library 2 85 zero 0.41
+SELECT llm_library 2 90 library_1 0.4
+SELECT llm_library 2 95 library_2 0.4
+SELECT llm_library 2 100 library_2 0.39
+SELECT llm_library 2 105 zero 0.41
+SELECT llm_library 2 110 library_1 0.4
+SELECT llm_library 2 115 library_2 0.4
+SELECT llm_library 2 120 zero 0.4
+SELECT llm_library 2 125 library_1 0.41
+SELECT llm_library 2 130 library_2 0.41
+SELECT llm_library 2 135 library_2 0.44
+SELECT llm_library 2 140 library_2 0.41
+SELECT llm_library 2 145 library_2 0.4
+SELECT llm_library 2 150 library_2 0.43
+SELECT llm_library 2 155 zero 0.43
+SELECT llm_library 2 160 library_1 0.43
+SELECT llm_library 2 165 zero 0.42
+SELECT llm_library 2 170 library_1 0.41
+SELECT llm_library 2 175 zero 0.43
+SELECT llm_library 2 180 library_1 0.43
+SELECT llm_library 2 185 zero 0.35
+SELECT llm_library 2 190 zero 0.23
+SELECT llm_library 2 195 zero 0.12
+SELECT llm_library 2 200 library_1 0.01
+EPISODE {'group': 'llm_library', 'scenario': 'shock', 'trace': 2, 'notification': 70, 'cost': 54.776666666666664, 'downstream_backlog': 142.65}
+NOTIFIED llm_library 3 83
+SELECT llm_library 3 83 zero 0.41
+SELECT llm_library 3 88 zero 0.41
+SELECT llm_library 3 93 zero 0.4
+SELECT llm_library 3 98 zero 0.42
+SELECT llm_library 3 103 zero 0.42
+SELECT llm_library 3 108 zero 0.42
+SELECT llm_library 3 113 zero 0.41
+SELECT llm_library 3 118 zero 0.4
+SELECT llm_library 3 123 zero 0.42
+SELECT llm_library 3 128 zero 0.43
+SELECT llm_library 3 133 zero 0.41
+SELECT llm_library 3 138 library_0 0.42
+SELECT llm_library 3 143 zero 0.44
+SELECT llm_library 3 148 zero 0.42
+SELECT llm_library 3 153 zero 0.42
+SELECT llm_library 3 158 zero 0.42
+SELECT llm_library 3 163 library_2 0.42
+SELECT llm_library 3 168 zero 0.4
+SELECT llm_library 3 173 zero 0.43
+SELECT llm_library 3 178 zero 0.43
+SELECT llm_library 3 183 zero 0.38
+SELECT llm_library 3 188 zero 0.28
+SELECT llm_library 3 193 library_0 0.18
+SELECT llm_library 3 198 library_0 0.06
+EPISODE {'group': 'llm_library', 'scenario': 'shock', 'trace': 3, 'notification': 83, 'cost': 19.868333333333332, 'downstream_backlog': 12.47}
+REFINEMENT_COMPLETED

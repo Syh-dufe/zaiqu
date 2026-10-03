@@ -24,7 +24,8 @@ def main():
             ax.errorbar(x,mean,yerr=np.asarray([[mean-ci[0]],[ci[1]-mean]]),color='black',fmt='s',capsize=5)
         ax.axhline(0,color='grey',linestyle='--');ax.set_xticks(range(len(groups)),groups,rotation=15)
         ax.set_title(title);ax.set_ylabel('Controller minus frozen HAPPO')
-    fig.suptitle(f"Fixed v3: all {summary['n_demands']} new demand traces; paired mean and bootstrap 95% CI")
+    version='Fixed operator library v1' if 'llm_library' in summary['analysis'] else 'Fixed v3'
+    fig.suptitle(f"{version}: all {summary['n_demands']} new traces; paired mean and bootstrap 95% CI")
     fig.tight_layout();fig.savefig(root/'confirmation.png',dpi=200);fig.savefig(root/'confirmation.pdf');plt.close(fig)
 
 

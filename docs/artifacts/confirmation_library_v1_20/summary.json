@@ -1,0 +1,75 @@
+{
+  "analysis": {
+    "manual_screen": {
+      "mean_delta": [
+        -1.3055833333333333,
+        -4.032749999999998
+      ],
+      "ci95": [
+        [
+          -3.635085416666666,
+          -11.258068749999998
+        ],
+        [
+          0.11943333333333198,
+          -0.12599999999999967
+        ]
+      ],
+      "lower_cost_cases": 10,
+      "higher_cost_cases": 5,
+      "lower_backlog_cases": 10,
+      "higher_backlog_cases": 4,
+      "both_lower_cases": 8,
+      "both_ci_upper_below_zero": false
+    },
+    "llm_library": {
+      "mean_delta": [
+        -0.5714166666666667,
+        -0.37574999999999903
+      ],
+      "ci95": [
+        [
+          -1.0306729166666673,
+          -0.7522562500000003
+        ],
+        [
+          -0.16315833333333363,
+          -0.0659999999999998
+        ]
+      ],
+      "lower_cost_cases": 15,
+      "higher_cost_cases": 3,
+      "lower_backlog_cases": 8,
+      "higher_backlog_cases": 6,
+      "both_lower_cases": 7,
+      "both_ci_upper_below_zero": true
+    }
+  },
+  "absolute_means": {
+    "happo": [
+      23.30383333333334,
+      20.229499999999998
+    ],
+    "manual_screen": [
+      21.998250000000002,
+      16.19675
+    ],
+    "llm_library": [
+      22.732416666666666,
+      19.85375
+    ]
+  },
+  "usage": {
+    "calls": 0,
+    "tokens": 0,
+    "api_seconds": 0,
+    "wall_seconds": 376.1730545999744
+  },
+  "metric_order": [
+    "system_cost_per_node_period",
+    "downstream_mean_backlog"
+  ],
+  "n_demands": 20,
+  "bootstrap": "paired demand-level, seed20261080, 20000 resamples, percentile95%",
+  "scope": "One frozen training seed, fixed simulated distribution and reliable notification. No actual disaster-data or deployment-latency verification."
+}

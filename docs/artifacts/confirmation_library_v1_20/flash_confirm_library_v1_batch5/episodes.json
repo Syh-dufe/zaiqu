@@ -1,0 +1,194 @@
+[
+  {
+    "group": "happo",
+    "scenario": "base",
+    "trace": 0,
+    "notification": null,
+    "cost": 16.948333333333334,
+    "downstream_backlog": 2.815
+  },
+  {
+    "group": "happo",
+    "scenario": "base",
+    "trace": 1,
+    "notification": null,
+    "cost": 15.81,
+    "downstream_backlog": 1.96
+  },
+  {
+    "group": "happo",
+    "scenario": "base",
+    "trace": 2,
+    "notification": null,
+    "cost": 51.891666666666666,
+    "downstream_backlog": 127.625
+  },
+  {
+    "group": "happo",
+    "scenario": "base",
+    "trace": 3,
+    "notification": null,
+    "cost": 18.413333333333334,
+    "downstream_backlog": 11.215
+  },
+  {
+    "group": "happo",
+    "scenario": "shock",
+    "trace": 0,
+    "notification": 84,
+    "cost": 20.106666666666666,
+    "downstream_backlog": 3.505
+  },
+  {
+    "group": "happo",
+    "scenario": "shock",
+    "trace": 1,
+    "notification": 64,
+    "cost": 18.615,
+    "downstream_backlog": 4.75
+  },
+  {
+    "group": "happo",
+    "scenario": "shock",
+    "trace": 2,
+    "notification": 70,
+    "cost": 57.68833333333333,
+    "downstream_backlog": 145.015
+  },
+  {
+    "group": "happo",
+    "scenario": "shock",
+    "trace": 3,
+    "notification": 83,
+    "cost": 20.535,
+    "downstream_backlog": 14.065
+  },
+  {
+    "group": "manual_screen",
+    "scenario": "base",
+    "trace": 0,
+    "notification": null,
+    "cost": 16.948333333333334,
+    "downstream_backlog": 2.815
+  },
+  {
+    "group": "manual_screen",
+    "scenario": "base",
+    "trace": 1,
+    "notification": null,
+    "cost": 15.81,
+    "downstream_backlog": 1.96
+  },
+  {
+    "group": "manual_screen",
+    "scenario": "base",
+    "trace": 2,
+    "notification": null,
+    "cost": 51.891666666666666,
+    "downstream_backlog": 127.625
+  },
+  {
+    "group": "manual_screen",
+    "scenario": "base",
+    "trace": 3,
+    "notification": null,
+    "cost": 18.413333333333334,
+    "downstream_backlog": 11.215
+  },
+  {
+    "group": "manual_screen",
+    "scenario": "shock",
+    "trace": 0,
+    "notification": 84,
+    "cost": 20.106666666666666,
+    "downstream_backlog": 3.505
+  },
+  {
+    "group": "manual_screen",
+    "scenario": "shock",
+    "trace": 1,
+    "notification": 64,
+    "cost": 17.516666666666666,
+    "downstream_backlog": 4.25
+  },
+  {
+    "group": "manual_screen",
+    "scenario": "shock",
+    "trace": 2,
+    "notification": 70,
+    "cost": 36.32333333333333,
+    "downstream_backlog": 75.855
+  },
+  {
+    "group": "manual_screen",
+    "scenario": "shock",
+    "trace": 3,
+    "notification": 83,
+    "cost": 21.415,
+    "downstream_backlog": 14.09
+  },
+  {
+    "group": "llm_library",
+    "scenario": "base",
+    "trace": 0,
+    "notification": null,
+    "cost": 16.948333333333334,
+    "downstream_backlog": 2.815
+  },
+  {
+    "group": "llm_library",
+    "scenario": "base",
+    "trace": 1,
+    "notification": null,
+    "cost": 15.81,
+    "downstream_backlog": 1.96
+  },
+  {
+    "group": "llm_library",
+    "scenario": "base",
+    "trace": 2,
+    "notification": null,
+    "cost": 51.891666666666666,
+    "downstream_backlog": 127.625
+  },
+  {
+    "group": "llm_library",
+    "scenario": "base",
+    "trace": 3,
+    "notification": null,
+    "cost": 18.413333333333334,
+    "downstream_backlog": 11.215
+  },
+  {
+    "group": "llm_library",
+    "scenario": "shock",
+    "trace": 0,
+    "notification": 84,
+    "cost": 20.843333333333334,
+    "downstream_backlog": 3.95
+  },
+  {
+    "group": "llm_library",
+    "scenario": "shock",
+    "trace": 1,
+    "notification": 64,
+    "cost": 19.386666666666667,
+    "downstream_backlog": 4.7
+  },
+  {
+    "group": "llm_library",
+    "scenario": "shock",
+    "trace": 2,
+    "notification": 70,
+    "cost": 54.776666666666664,
+    "downstream_backlog": 142.65
+  },
+  {
+    "group": "llm_library",
+    "scenario": "shock",
+    "trace": 3,
+    "notification": 83,
+    "cost": 19.868333333333332,
+    "downstream_backlog": 12.47
+  }
+]

@@ -43,7 +43,8 @@ def main():
         if file.is_file() and file.suffix in ('.json','.csv','.png','.pdf'):
             shutil.copy2(file,export/file.name)
     labels={'happo':'原HAPPO','manual_screen':'人工规则+筛选','llm_single':'单次LLM+筛选','llm_iterative':'迭代LLM+筛选','llm_library':'固定LLM算子库+筛选'}
-    ref=s['absolute_means']['happo'];lines=[f'# 固定v3：{method}、{n}条全新需求确认结果','',
+    version='固定算子库v1' if primary=='llm_library' else '固定v3'
+    ref=s['absolute_means']['happo'];lines=[f'# {version}：{method}、{n}条全新需求确认结果','',
         f'按{protocol}预定方案完整运行{n//4}批。未按中途成绩筛选批次、需求或修改算法；源码哈希与开始时一致。','',
         '## 全部冲击回合的均值','',
         '| 方法 | 系统成本/节点期 | 下游平均积压 | 成本较原模型下降 | 积压较原模型下降 |',
@@ -70,10 +71,11 @@ def main():
         f'人工对照的成本比{method}{"低" if manual[0]<v[0] else "高或相同"}，下游积压比{method}{"低" if manual[1]<v[1] else "高或相同"}。必须同时呈现，不能忽略更优人工结果。此均值比较不是额外的显著性检验。',
         '', '## 调用、计算和实现检查','',
         f"- 本确认实验{s['usage']['calls']}次API请求，失败或无有效候选请求{failed}次、语法无效候选{invalid}条，均保留且未自动重试。记录总tokens={s['usage']['tokens']}，未推算货币账单。",
-        f"- API等待{s['usage']['api_seconds']:.2f}秒；预测筛选{screening:.2f}秒；反馈评分{feedback:.2f}秒；5批总墙钟{s['usage']['wall_seconds']:.2f}秒（包括加载、写文件、运行四组等）。",
+        f"- API等待{s['usage']['api_seconds']:.2f}秒；预测筛选{screening:.2f}秒；反馈评分{feedback:.2f}秒；{n//4}批总墙钟{s['usage']['wall_seconds']:.2f}秒（包括加载、写文件、运行{len(s['absolute_means'])}组等）。",
         f'- {n*2*len(s["absolute_means"])}回合、{n*1200*len(s["absolute_means"])}节点期；无训练更新，全部模型哈希不变。每期白名单克隆状态核对通过；{n}条原HAPPO的20期零修正影子回放成本/下游积压与已发生轨迹完全一致。',
-        '- API和评分期间仿真暂停；不是需求继续到达时的部署时延测试。预测是过去需求经验样本，筛选结果不保证真实改善。',
+        '- API和评分期间仿真暂停；不是需求继续到达时的部署时延测试。未来预测仅由已观察需求及预先固定过程构造，筛选结果不保证每个真实回合改善。',
         '- 仅一个训练种子、固定需求冲击分布、可靠现场通知。需多训练种子/多次生成、等候选数与去反馈消融、通知可靠性及真实需求校准后支持更广结论。',
+        '- 本批是多轮开发后固定版本的独立确认；所列区间未对整个持续探索过程作多重/顺序检验校正。把它作为本批平均改善证据，不写成整个探索过程的全局显著性保证。',
         '', '## 可复查产物','',
         f'- [完整汇总](artifacts/{p.name}/summary.json)',
         f'- [全部{n}条逐项配对差](artifacts/{p.name}/paired.csv)',

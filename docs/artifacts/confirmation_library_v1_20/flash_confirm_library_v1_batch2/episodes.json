@@ -1,0 +1,194 @@
+[
+  {
+    "group": "happo",
+    "scenario": "base",
+    "trace": 0,
+    "notification": null,
+    "cost": 19.688333333333333,
+    "downstream_backlog": 13.135
+  },
+  {
+    "group": "happo",
+    "scenario": "base",
+    "trace": 1,
+    "notification": null,
+    "cost": 19.986666666666668,
+    "downstream_backlog": 11.655
+  },
+  {
+    "group": "happo",
+    "scenario": "base",
+    "trace": 2,
+    "notification": null,
+    "cost": 25.758333333333333,
+    "downstream_backlog": 11.4
+  },
+  {
+    "group": "happo",
+    "scenario": "base",
+    "trace": 3,
+    "notification": null,
+    "cost": 20.998333333333335,
+    "downstream_backlog": 25.24
+  },
+  {
+    "group": "happo",
+    "scenario": "shock",
+    "trace": 0,
+    "notification": 65,
+    "cost": 20.698333333333334,
+    "downstream_backlog": 21.96
+  },
+  {
+    "group": "happo",
+    "scenario": "shock",
+    "trace": 1,
+    "notification": 95,
+    "cost": 23.14666666666667,
+    "downstream_backlog": 14.325
+  },
+  {
+    "group": "happo",
+    "scenario": "shock",
+    "trace": 2,
+    "notification": 84,
+    "cost": 23.961666666666666,
+    "downstream_backlog": 11.605
+  },
+  {
+    "group": "happo",
+    "scenario": "shock",
+    "trace": 3,
+    "notification": 63,
+    "cost": 22.668333333333333,
+    "downstream_backlog": 31.305
+  },
+  {
+    "group": "manual_screen",
+    "scenario": "base",
+    "trace": 0,
+    "notification": null,
+    "cost": 19.688333333333333,
+    "downstream_backlog": 13.135
+  },
+  {
+    "group": "manual_screen",
+    "scenario": "base",
+    "trace": 1,
+    "notification": null,
+    "cost": 19.986666666666668,
+    "downstream_backlog": 11.655
+  },
+  {
+    "group": "manual_screen",
+    "scenario": "base",
+    "trace": 2,
+    "notification": null,
+    "cost": 25.758333333333333,
+    "downstream_backlog": 11.4
+  },
+  {
+    "group": "manual_screen",
+    "scenario": "base",
+    "trace": 3,
+    "notification": null,
+    "cost": 20.998333333333335,
+    "downstream_backlog": 25.24
+  },
+  {
+    "group": "manual_screen",
+    "scenario": "shock",
+    "trace": 0,
+    "notification": 65,
+    "cost": 20.93166666666667,
+    "downstream_backlog": 23.085
+  },
+  {
+    "group": "manual_screen",
+    "scenario": "shock",
+    "trace": 1,
+    "notification": 95,
+    "cost": 23.653333333333332,
+    "downstream_backlog": 13.91
+  },
+  {
+    "group": "manual_screen",
+    "scenario": "shock",
+    "trace": 2,
+    "notification": 84,
+    "cost": 23.763333333333332,
+    "downstream_backlog": 11.605
+  },
+  {
+    "group": "manual_screen",
+    "scenario": "shock",
+    "trace": 3,
+    "notification": 63,
+    "cost": 21.32,
+    "downstream_backlog": 29.775
+  },
+  {
+    "group": "llm_library",
+    "scenario": "base",
+    "trace": 0,
+    "notification": null,
+    "cost": 19.688333333333333,
+    "downstream_backlog": 13.135
+  },
+  {
+    "group": "llm_library",
+    "scenario": "base",
+    "trace": 1,
+    "notification": null,
+    "cost": 19.986666666666668,
+    "downstream_backlog": 11.655
+  },
+  {
+    "group": "llm_library",
+    "scenario": "base",
+    "trace": 2,
+    "notification": null,
+    "cost": 25.758333333333333,
+    "downstream_backlog": 11.4
+  },
+  {
+    "group": "llm_library",
+    "scenario": "base",
+    "trace": 3,
+    "notification": null,
+    "cost": 20.998333333333335,
+    "downstream_backlog": 25.24
+  },
+  {
+    "group": "llm_library",
+    "scenario": "shock",
+    "trace": 0,
+    "notification": 65,
+    "cost": 20.555,
+    "downstream_backlog": 21.96
+  },
+  {
+    "group": "llm_library",
+    "scenario": "shock",
+    "trace": 1,
+    "notification": 95,
+    "cost": 23.078333333333333,
+    "downstream_backlog": 14.325
+  },
+  {
+    "group": "llm_library",
+    "scenario": "shock",
+    "trace": 2,
+    "notification": 84,
+    "cost": 23.756666666666668,
+    "downstream_backlog": 11.63
+  },
+  {
+    "group": "llm_library",
+    "scenario": "shock",
+    "trace": 3,
+    "notification": 63,
+    "cost": 20.16,
+    "downstream_backlog": 30.815
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "source_hashes": {
+    "run.py": "6b3abd6ca2555788e3c0dcc955f53d530b144665aabf5e83dc43803b064799b7",
+    "shadow.py": "ae70031782a96b10d6c3f87376eea86d174fe8c00a7ed4a4860ecc62e994778f"
+  },
+  "calls_before": 120,
+  "batches": [
+    {
+      "name": "flash_confirm_library_v1_batch1",
+      "returncode": 0
+    },
+    {
+      "name": "flash_confirm_library_v1_batch2",
+      "returncode": 0
+    },
+    {
+      "name": "flash_confirm_library_v1_batch3",
+      "returncode": 0
+    },
+    {
+      "name": "flash_confirm_library_v1_batch4",
+      "returncode": 0
+    },
+    {
+      "name": "flash_confirm_library_v1_batch5",
+      "returncode": 0
+    }
+  ],
+  "status": "completed",
+  "started_unix": 1791022296.5547183,
+  "single_only": false,
+  "operator_library": "C:\\Users\\13384\\Documents\\ChatGPT\\\u65b0\\zaiqu\\results\\deepseek_refinement\\operator_discovery_v1\\repaired_library.json",
+  "operator_library_sha256": "1450aab60c410b4a0ce28711ada397635f2d0feac25ba6d5cf0067d33224a6f9",
+  "ended_unix": 1791022686.5911586
+}
