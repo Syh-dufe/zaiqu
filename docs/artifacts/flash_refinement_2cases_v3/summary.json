@@ -1,0 +1,186 @@
+{
+  "summary": {
+    "happo": {
+      "base": {
+        "cost": 22.889166666666668,
+        "downstream_backlog": 32.285000000000004
+      },
+      "shock": {
+        "cost": 23.442500000000003,
+        "downstream_backlog": 28.1025
+      }
+    },
+    "llm_iterative": {
+      "base": {
+        "cost": 22.889166666666668,
+        "downstream_backlog": 32.285000000000004
+      },
+      "shock": {
+        "cost": 22.973333333333333,
+        "downstream_backlog": 24.955000000000002
+      }
+    },
+    "llm_single": {
+      "base": {
+        "cost": 22.889166666666668,
+        "downstream_backlog": 32.285000000000004
+      },
+      "shock": {
+        "cost": 22.836666666666666,
+        "downstream_backlog": 26.4475
+      }
+    },
+    "manual_screen": {
+      "base": {
+        "cost": 22.889166666666668,
+        "downstream_backlog": 32.285000000000004
+      },
+      "shock": {
+        "cost": 21.8675,
+        "downstream_backlog": 23.8325
+      }
+    }
+  },
+  "screening": {
+    "happo": {
+      "evaluations": 0,
+      "accepted": 0,
+      "seconds": 0
+    },
+    "llm_iterative": {
+      "evaluations": 48,
+      "accepted": 9,
+      "seconds": 22.654483500053175
+    },
+    "llm_single": {
+      "evaluations": 48,
+      "accepted": 3,
+      "seconds": 11.428599399936502
+    },
+    "manual_screen": {
+      "evaluations": 48,
+      "accepted": 6,
+      "seconds": 11.69413830008125
+    }
+  },
+  "api_calls": 6,
+  "failed_calls": 0,
+  "tokens": 12188,
+  "api_seconds": 11.893251600005897,
+  "paired": [
+    {
+      "group": "happo",
+      "scenario": "base",
+      "trace": 0,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "happo",
+      "scenario": "base",
+      "trace": 1,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "happo",
+      "scenario": "shock",
+      "trace": 0,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "happo",
+      "scenario": "shock",
+      "trace": 1,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "llm_iterative",
+      "scenario": "base",
+      "trace": 0,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "llm_iterative",
+      "scenario": "base",
+      "trace": 1,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "llm_iterative",
+      "scenario": "shock",
+      "trace": 0,
+      "cost_delta": 0.18166666666666487,
+      "backlog_delta": -0.20500000000000007
+    },
+    {
+      "group": "llm_iterative",
+      "scenario": "shock",
+      "trace": 1,
+      "cost_delta": -1.120000000000001,
+      "backlog_delta": -6.089999999999996
+    },
+    {
+      "group": "llm_single",
+      "scenario": "base",
+      "trace": 0,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "llm_single",
+      "scenario": "base",
+      "trace": 1,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "llm_single",
+      "scenario": "shock",
+      "trace": 0,
+      "cost_delta": -0.006666666666667709,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "llm_single",
+      "scenario": "shock",
+      "trace": 1,
+      "cost_delta": -1.2049999999999983,
+      "backlog_delta": -3.309999999999995
+    },
+    {
+      "group": "manual_screen",
+      "scenario": "base",
+      "trace": 0,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "manual_screen",
+      "scenario": "base",
+      "trace": 1,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "manual_screen",
+      "scenario": "shock",
+      "trace": 0,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "manual_screen",
+      "scenario": "shock",
+      "trace": 1,
+      "cost_delta": -3.1499999999999986,
+      "backlog_delta": -8.54
+    }
+  ],
+  "prediction_mean_absolute_error": 1.8995515046296296,
+  "interpretation": "Small batch; no significance or general superiority claim. API and screening pause simulator. Extra information and computation differ from original actors."
+}

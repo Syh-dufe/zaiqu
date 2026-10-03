@@ -1,0 +1,20 @@
+[
+  {
+    "trace": 0,
+    "period": 100,
+    "shadow_cost": 1077.0,
+    "observed_cost": 1077.0,
+    "shadow_backlog": 123.0,
+    "observed_backlog": 123,
+    "note": "After-episode verification on observed demand, never used by selector"
+  },
+  {
+    "trace": 1,
+    "period": 70,
+    "shadow_cost": 1137.0,
+    "observed_cost": 1137.0,
+    "shadow_backlog": 226.0,
+    "observed_backlog": 226,
+    "note": "After-episode verification on observed demand, never used by selector"
+  }
+]
