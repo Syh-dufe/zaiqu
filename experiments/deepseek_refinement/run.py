@@ -14,6 +14,7 @@ import time
 import urllib.request
 import urllib.error
 from shadow import features, corrected, snapshot, clone, forecasts, score, select, compile_rule
+from reports import DemandReports
 
 ROOT = Path(__file__).resolve().parents[2]
 UPSTREAM = ROOT/'external/liu-inventory'
@@ -49,7 +50,13 @@ def main():
     parser.add_argument('--predictor',default='residual',choices=('residual','merton'))
     parser.add_argument('--replay-calls',type=Path,help='Causal replay of stored initial requests; no new API calls, development only.')
     parser.add_argument('--operator-library',type=Path,help='Fixed offline LLM-designed operators; no event-time API generation.')
+    parser.add_argument('--report-interval',type=int,choices=(1,3,5),default=None,
+                        help='Periodic aggregate demand reports for fixed-library mode; omitted preserves legacy access.')
     opts = parser.parse_args()
+    if opts.operator_library:
+        opts.operator_library = opts.operator_library.resolve()
+    if opts.report_interval is not None and (not opts.operator_library or opts.predictor != 'merton' or opts.correction_periods != 5):
+        parser.error('Report mode requires fixed library, merton predictor and 5-period correction horizon')
     run_started=time.perf_counter()
     if not opts.run_name or any(c not in 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_-' for c in opts.run_name):
         parser.error('invalid run name')
@@ -63,6 +70,8 @@ def main():
         source=json.loads(opts.operator_library.read_text(encoding='utf-8'))
         library=[dict(id=f'library_{i}',rule=r,compiled=compile_rule(r)) for i,r in enumerate(source['candidates'])]
         if len(library)>6:parser.error('At most6 fixed operators')
+        if opts.report_interval is not None and len(library)!=3:
+            parser.error('Report protocol requires 3 fixed operators matched to 3 manual strengths')
     replay=[]
     if opts.replay_calls:
         if not opts.single_only:parser.error('Replay currently supports single-only diagnosis')
@@ -77,6 +86,10 @@ def main():
     if old_calls+expected_calls > 120: parser.error('series API limit reached')
     out.mkdir(parents=True)
     write(out/'protocol.json', {'system': SYSTEM, 'document': 'docs/2026-10-03-llm-refinement-protocol.md',
+                               'information_protocol': 'docs/2026-10-03-periodic-demand-reports.md' if opts.report_interval is not None else None,
+                               'source_sha256': {name:hashlib.sha256(Path(__file__).with_name(name).read_bytes()).hexdigest()
+                                                 for name in ('run.py','shadow.py','reports.py')},
+                               'manual_strengths': [.5,1.,1.5] if opts.report_interval is not None else [1.],
                                'max_calls': 12, 'series_calls_before': old_calls, 'model': 'deepseek-flash',
                                'options':{k:str(v) if isinstance(v,Path) else v for k,v in vars(opts).items()},
                                'operator_library_sha256':hashlib.sha256(opts.operator_library.read_bytes()).hexdigest() if opts.operator_library else None})
@@ -94,6 +107,7 @@ def main():
               for i, d in enumerate(t)] for t, e in zip(base, events)]
     write(out/'demands.json', {'demand_seed': opts.demand_seed, 'event_seed': opts.event_seed, 'events': events, 'base': base, 'shock': shock})
     calls = []; scores = []; rows = []; episodes = []; initial = {}; checks = {}; failures = []; branch_audits=[]; feedback_times=[]
+    information_audits=[]; delivered_reports=[]
     write(out/'calls.json',calls)
     config = json.loads((TRAINING/'config.json').read_text())['config']
     done = json.loads((TRAINING/'completed.json').read_text())
@@ -157,10 +171,16 @@ def main():
             self.history=[]; self.orders=[]; self.candidates=[dict(id='zero')]; self.chosen='zero'; self.context=None
             self.notification=None; self.recurrent=[None]*3; self.episode_rows=[]
             self.audit_start=None
+            self.reports=DemandReports(opts.report_interval) if opts.report_interval is not None else None
             return super().reset()
 
         def step(self, actions):
             env=self.env_list[0]; period=env.step_num
+            information_history=self.history if self.reports is None else self.reports.delivered_history.copy()
+            report_state=self.reports.public_state() if self.reports is not None else None
+            if report_state is not None:
+                assert report_state['observed_periods']==period
+                assert report_state['delivered_through_period']==period//opts.report_interval*opts.report_interval
             proposed=[int(np.argmax(a)) for a in actions[0]]
             notify = self.scenario=='shock' and period==events[self.trace]['start_index']+2
             if notify:
@@ -168,11 +188,13 @@ def main():
                 if self.group=='happo':
                     self.audit_start=dict(state=snapshot(env,self.history),history=self.history.copy(),orders=copy.deepcopy(self.orders),
                                           proposed=proposed.copy(),recurrent=copy.deepcopy(self.recurrent))
-                fs=features(env,self.history,self.orders,proposed)
-                self.context=dict(observed_periods=period, observed_last25_demands=self.history[-25:], nodes=fs,
+                fs=features(env,information_history,self.orders,proposed)
+                self.context=dict(observed_periods=period, observed_last25_demands=information_history[-25:], nodes=fs,
                                   known_pipeline=[list(map(int,p)) for p in env.order],
                                   last5_orders=self.orders[-5:], notification='emergency has occurred')
-                if self.group=='manual_screen': self.candidates.append(dict(id='manual'))
+                if self.group=='manual_screen':
+                    if self.reports is None:self.candidates.append(dict(id='manual'))
+                    else:self.candidates.extend(dict(id=f'manual_{i}',strength=s) for i,s in enumerate((.5,1.,1.5)))
                 if self.group=='llm_library':self.candidates+=library
                 if self.group=='llm_single':
                     generated=generate(self.context,3,self.trace,0)
@@ -184,10 +206,12 @@ def main():
                     self.candidates += initial[self.trace]['generated']
                 print('NOTIFIED',self.group,self.trace,period+1,flush=True)
             if self.notification is not None and self.group!='happo' and (period-(self.notification-1))%5==0:
-                state=snapshot(env,self.history); paths=forecasts(self.history,self.trace,period,opts.predictor)
+                state=snapshot(env,self.history); paths=forecasts(information_history,self.trace,period,opts.predictor,
+                                                                               self.reports.age if self.reports else 0)
                 # Zero shadow first step must exactly equal original transition on identical synthetic demand.
-                branch=clone(state,self.history,paths[0][0]); branch.step(proposed,one_hot=False)
-                verify=clone(state,self.history,paths[0][0]); verify.step(corrected(dict(id='zero'),verify,self.history,self.orders,proposed),one_hot=False)
+                prefix=self.history if self.reports is None else [0]*period
+                branch=clone(state,prefix,paths[0][0]); branch.step(proposed,one_hot=False)
+                verify=clone(state,prefix,paths[0][0]); verify.step(corrected(dict(id='zero'),verify,information_history,self.orders,proposed),one_hot=False)
                 assert branch.inventory==verify.inventory and branch.backlog==verify.backlog and branch.order==verify.order
                 if self.group=='llm_iterative':
                     elapsed=period-(self.notification-1)
@@ -210,18 +234,29 @@ def main():
                         if opts.correction_periods==5:
                             context['control_horizon']='Candidate applied first5 periods; remaining forecast horizon follows frozen HAPPO without correction. Real controller reselects every5 periods.'
                         self.candidates += generate(context,1,self.trace,round_id)
-                self.chosen, result=select(self.candidates,state,self.history,self.orders,proposed,self.recurrent,self.actors,paths,opts.correction_periods)
-                scores.append(dict(group=self.group,trace=self.trace,period=period+1, forecasts=paths, **result))
+                # Supply only public/synthetic report state to prediction, never pending real values.
+                public_reports=self.reports.projection() if self.reports is not None else None
+                selection_history=self.history if self.reports is None else information_history
+                self.chosen, result=select(self.candidates,state,selection_history,self.orders,proposed,self.recurrent,self.actors,paths,opts.correction_periods,public_reports)
+                scores.append(dict(group=self.group,trace=self.trace,period=period+1, forecasts=paths,
+                                   available_report=report_state, **result))
                 write(out/'scores.json',scores)
                 print('SELECT',self.group,self.trace,period+1,self.chosen,round(result['seconds'],2),flush=True)
             rule=next(c for c in self.candidates if c['id']==self.chosen)
-            try: actual=corrected(rule,env,self.history,self.orders,proposed)
+            try: actual=corrected(rule,env,information_history,self.orders,proposed)
             except Exception as exc:
                 failures.append(dict(group=self.group,trace=self.trace,period=period+1,failure=type(exc).__name__))
                 actual=proposed.copy(); self.chosen='zero'
+            if report_state is not None:
+                information_audits.append(dict(group=self.group,scenario=self.scenario,trace=self.trace,
+                    decision_period=period+1,**report_state, chosen=self.chosen,
+                    rule_features=features(env,information_history,self.orders,proposed)))
             causal_state=snapshot(env,self.history)
             output=super().step([[np.eye(21)[a] for a in actual]])
             demand=int(env.get_demand()[0]); self.history.append(demand); self.orders.append(actual.copy())
+            if self.reports is not None:
+                report=self.reports.observe(demand,env.step_num)
+                if report is not None:delivered_reports.append(dict(group=self.group,scenario=self.scenario,trace=self.trace,**report))
             # Verification AFTER observing demand; never used for candidate evaluation or choice.
             observed_clone=clone(causal_state,self.history[:-1],[demand]);observed_clone.step(actual,one_hot=False)
             assert observed_clone.inventory==env.inventory and observed_clone.backlog==env.backlog and observed_clone.order==env.order
@@ -245,6 +280,9 @@ def main():
                             cost=float(np.mean([r['cost'] for r in self.episode_rows])),
                             downstream_backlog=float(np.mean([r['backlog'] for r in self.episode_rows if r['node']==0])) ))
                 write(out/'episodes.json',episodes)
+                if self.reports is not None:
+                    write(out/'information_audits.json',information_audits)
+                    write(out/'delivered_reports.json',delivered_reports)
                 with (out/'periods.csv').open('w',newline='',encoding='utf-8') as f:
                     w=csv.DictWriter(f,fieldnames=list(rows[0]));w.writeheader();w.writerows(rows)
                 print('EPISODE',episodes[-1],flush=True)
@@ -282,6 +320,7 @@ def main():
                 assert reference==[(r['cost'],r['actual_order']) for r in rows if r['group']==group and r['scenario']==scenario and r['trace']==trace and r['period']<end]
     write(out/'runtime_failures.json',failures)
     write(out/'completed.json',dict(episodes=len(episodes),rows=len(rows),training_updates=0,parameter_checks=checks,calls=len(calls),
+                    report_interval=opts.report_interval,information_audit_rows=len(information_audits),
                     upstream_revision=revision,causal_audit='explicit whitelist; synthetic-only branch futures; paired initial contexts; unchanged pre-notification actions',
                     runtime_failures=failures,branch_audits=branch_audits,feedback_times=feedback_times,
                     wall_seconds=time.perf_counter()-run_started))
