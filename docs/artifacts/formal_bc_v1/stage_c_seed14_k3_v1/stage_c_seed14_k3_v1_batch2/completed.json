@@ -1,0 +1,73 @@
+{
+  "episodes": 32,
+  "rows": 19200,
+  "training_updates": 0,
+  "parameter_checks": {
+    "happo": {
+      "before": "54590e6fba0eeeef7fccc7ac09fd5e22fefbe2d3bff1a2b34feb9d0a900a1c30",
+      "after": "54590e6fba0eeeef7fccc7ac09fd5e22fefbe2d3bff1a2b34feb9d0a900a1c30",
+      "unchanged": true
+    },
+    "llm_no_screen": {
+      "before": "54590e6fba0eeeef7fccc7ac09fd5e22fefbe2d3bff1a2b34feb9d0a900a1c30",
+      "after": "54590e6fba0eeeef7fccc7ac09fd5e22fefbe2d3bff1a2b34feb9d0a900a1c30",
+      "unchanged": true
+    },
+    "llm_search_only": {
+      "before": "54590e6fba0eeeef7fccc7ac09fd5e22fefbe2d3bff1a2b34feb9d0a900a1c30",
+      "after": "54590e6fba0eeeef7fccc7ac09fd5e22fefbe2d3bff1a2b34feb9d0a900a1c30",
+      "unchanged": true
+    },
+    "random_screen": {
+      "before": "54590e6fba0eeeef7fccc7ac09fd5e22fefbe2d3bff1a2b34feb9d0a900a1c30",
+      "after": "54590e6fba0eeeef7fccc7ac09fd5e22fefbe2d3bff1a2b34feb9d0a900a1c30",
+      "unchanged": true
+    }
+  },
+  "calls": 0,
+  "report_interval": 3,
+  "information_audit_rows": 6400,
+  "upstream_revision": "a7e5a3e83e21565a5799483bc534e39635ec65dd",
+  "causal_audit": "explicit whitelist; synthetic-only branch futures; paired initial contexts; unchanged pre-notification actions",
+  "runtime_failures": [],
+  "branch_audits": [
+    {
+      "trace": 0,
+      "period": 94,
+      "shadow_cost": 557.0,
+      "observed_cost": 557.0,
+      "shadow_backlog": 6.0,
+      "observed_backlog": 6,
+      "note": "After-episode verification on observed demand, never used by selector"
+    },
+    {
+      "trace": 1,
+      "period": 85,
+      "shadow_cost": 868.0,
+      "observed_cost": 868.0,
+      "shadow_backlog": 243.0,
+      "observed_backlog": 243,
+      "note": "After-episode verification on observed demand, never used by selector"
+    },
+    {
+      "trace": 2,
+      "period": 76,
+      "shadow_cost": 2525.0,
+      "observed_cost": 2525.0,
+      "shadow_backlog": 1028.0,
+      "observed_backlog": 1028,
+      "note": "After-episode verification on observed demand, never used by selector"
+    },
+    {
+      "trace": 3,
+      "period": 69,
+      "shadow_cost": 3254.0,
+      "observed_cost": 3254.0,
+      "shadow_backlog": 2406.0,
+      "observed_backlog": 2406,
+      "note": "After-episode verification on observed demand, never used by selector"
+    }
+  ],
+  "feedback_times": [],
+  "wall_seconds": 88.13063709999551
+}

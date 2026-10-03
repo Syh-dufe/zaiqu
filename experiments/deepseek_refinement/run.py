@@ -47,7 +47,7 @@ def main():
     parser.add_argument('--input-file',type=Path,help='Validated pre-generated paired demands; no generation')
     parser.add_argument('--training-directory',type=Path,default=TRAINING)
     parser.add_argument('--output-root',type=Path,default=ROOT/'results/deepseek_refinement')
-    parser.add_argument('--methods',nargs='+',choices=('happo','llm_library'),default=None)
+    parser.add_argument('--methods',nargs='+',choices=('happo','llm_library','llm_no_screen','llm_search_only','random_screen'),default=None)
     parser.add_argument('--correction-periods',type=int,default=20,choices=(5,20))
     parser.add_argument('--refinement-schedule',default='immediate',choices=('immediate','observed'))
     parser.add_argument('--single-only',action='store_true',help='Compare original, manual and single LLM only; no feedback requests.')
@@ -76,6 +76,9 @@ def main():
     key = os.environ.get('DEEPSEEK_API_KEY')
     if not key and not opts.replay_calls and not opts.operator_library: parser.error('API key missing')
     library=[]
+    sys.path.insert(0,str(ROOT/'experiments/formal_evaluation'))
+    from ablations import random_rules
+    random_library=[dict(id=f'random_{i}',rule=r,compiled=compile_rule(r)) for i,r in enumerate(random_rules())]
     if opts.operator_library:
         if opts.replay_calls:parser.error('Library and causal replay are different modes')
         source=json.loads(opts.operator_library.read_text(encoding='utf-8'))
@@ -96,6 +99,7 @@ def main():
     expected_calls=0 if opts.replay_calls or opts.operator_library else opts.cases*(1 if opts.single_only else 3)
     if old_calls+expected_calls > 120: parser.error('series API limit reached')
     out.mkdir(parents=True)
+    if opts.methods and 'random_screen' in opts.methods:write(out/'random_library.json',dict(seed=20261230,candidates=random_rules()))
     write(out/'protocol.json', {'system': SYSTEM, 'document': 'docs/2026-10-03-llm-refinement-protocol.md',
                                'information_protocol': 'docs/2026-10-03-periodic-demand-reports.md' if opts.report_interval is not None else None,
                                'source_sha256': {name:hashlib.sha256(Path(__file__).with_name(name).read_bytes()).hexdigest()
@@ -130,10 +134,10 @@ def main():
     calls = []; scores = []; rows = []; episodes = []; initial = {}; checks = {}; failures = []; branch_audits=[]; feedback_times=[]
     information_audits=[]; delivered_reports=[]
     write(out/'calls.json',calls)
-    config = json.loads((training_directory/'config.json').read_text())['config']
-    done = json.loads((training_directory/'completed.json').read_text())
+    config = json.loads((training_directory/'config.json').read_text(encoding='utf-8-sig'))['config']
+    done = json.loads((training_directory/'completed.json').read_text(encoding='utf-8-sig'))
     model_dir = Path(done['final_model_directory']).parent/'models'
-    audit = json.loads((training_directory/'completion_audit.json').read_text())
+    audit = json.loads((training_directory/'completion_audit.json').read_text(encoding='utf-8-sig'))
 
     def model_hash(policies):
         digest = hashlib.sha256()
@@ -216,7 +220,9 @@ def main():
                 if self.group=='manual_screen':
                     if self.reports is None:self.candidates.append(dict(id='manual'))
                     else:self.candidates.extend(dict(id=f'manual_{i}',strength=s) for i,s in enumerate((.5,1.,1.5)))
-                if self.group=='llm_library':self.candidates+=library
+                if self.group in ('llm_library','llm_no_screen','llm_search_only'):self.candidates+=library
+                if self.group=='llm_no_screen':self.chosen='library_0'
+                if self.group=='random_screen':self.candidates+=random_library
                 if self.group=='llm_single':
                     generated=generate(self.context,3,self.trace,0)
                     initial[self.trace]=dict(context=copy.deepcopy(self.context), generated=generated)
@@ -226,7 +232,7 @@ def main():
                     assert initial[self.trace]['context']==self.context
                     self.candidates += initial[self.trace]['generated']
                 print('NOTIFIED',self.group,self.trace,period+1,flush=True)
-            if self.notification is not None and self.group!='happo' and (period-(self.notification-1))%5==0:
+            if self.notification is not None and self.group not in ('happo','llm_no_screen') and (period-(self.notification-1))%5==0:
                 state=snapshot(env,self.history); paths=forecasts(information_history,self.trace,period,opts.predictor,
                                                                                self.reports.age if self.reports else 0)
                 # Zero shadow first step must exactly equal original transition on identical synthetic demand.
@@ -258,7 +264,7 @@ def main():
                 # Supply only public/synthetic report state to prediction, never pending real values.
                 public_reports=self.reports.projection() if self.reports is not None else None
                 selection_history=self.history if self.reports is None else information_history
-                self.chosen, result=select(self.candidates,state,selection_history,self.orders,proposed,self.recurrent,self.actors,paths,opts.correction_periods,public_reports)
+                self.chosen, result=select(self.candidates,state,selection_history,self.orders,proposed,self.recurrent,self.actors,paths,opts.correction_periods,public_reports,review=self.group!='llm_search_only')
                 scores.append(dict(group=self.group,trace=self.trace,period=period+1, forecasts=paths,
                                    available_report=report_state, **result))
                 write(out/'scores.json',scores)

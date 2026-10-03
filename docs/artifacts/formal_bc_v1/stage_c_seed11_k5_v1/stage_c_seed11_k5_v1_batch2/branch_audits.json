@@ -1,0 +1,38 @@
+[
+  {
+    "trace": 0,
+    "period": 94,
+    "shadow_cost": 716.0,
+    "observed_cost": 716.0,
+    "shadow_backlog": 9.0,
+    "observed_backlog": 9,
+    "note": "After-episode verification on observed demand, never used by selector"
+  },
+  {
+    "trace": 1,
+    "period": 85,
+    "shadow_cost": 964.0,
+    "observed_cost": 964.0,
+    "shadow_backlog": 284.0,
+    "observed_backlog": 284,
+    "note": "After-episode verification on observed demand, never used by selector"
+  },
+  {
+    "trace": 2,
+    "period": 76,
+    "shadow_cost": 859.0,
+    "observed_cost": 859.0,
+    "shadow_backlog": 283.0,
+    "observed_backlog": 283,
+    "note": "After-episode verification on observed demand, never used by selector"
+  },
+  {
+    "trace": 3,
+    "period": 69,
+    "shadow_cost": 2765.0,
+    "observed_cost": 2765.0,
+    "shadow_backlog": 2446.0,
+    "observed_backlog": 2446,
+    "note": "After-episode verification on observed demand, never used by selector"
+  }
+]

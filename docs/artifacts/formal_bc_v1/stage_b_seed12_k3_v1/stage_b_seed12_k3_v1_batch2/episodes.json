@@ -1,0 +1,130 @@
+[
+  {
+    "group": "happo",
+    "scenario": "base",
+    "trace": 0,
+    "notification": null,
+    "cost": 13.496666666666666,
+    "downstream_backlog": 2.125
+  },
+  {
+    "group": "happo",
+    "scenario": "base",
+    "trace": 1,
+    "notification": null,
+    "cost": 14.27,
+    "downstream_backlog": 8.105
+  },
+  {
+    "group": "happo",
+    "scenario": "base",
+    "trace": 2,
+    "notification": null,
+    "cost": 15.325,
+    "downstream_backlog": 6.195
+  },
+  {
+    "group": "happo",
+    "scenario": "base",
+    "trace": 3,
+    "notification": null,
+    "cost": 21.971666666666668,
+    "downstream_backlog": 32.335
+  },
+  {
+    "group": "happo",
+    "scenario": "shock",
+    "trace": 0,
+    "notification": 94,
+    "cost": 12.325,
+    "downstream_backlog": 2.195
+  },
+  {
+    "group": "happo",
+    "scenario": "shock",
+    "trace": 1,
+    "notification": 85,
+    "cost": 22.018333333333334,
+    "downstream_backlog": 11.46
+  },
+  {
+    "group": "happo",
+    "scenario": "shock",
+    "trace": 2,
+    "notification": 76,
+    "cost": 21.956666666666667,
+    "downstream_backlog": 14.38
+  },
+  {
+    "group": "happo",
+    "scenario": "shock",
+    "trace": 3,
+    "notification": 69,
+    "cost": 24.438333333333333,
+    "downstream_backlog": 34.665
+  },
+  {
+    "group": "llm_library",
+    "scenario": "base",
+    "trace": 0,
+    "notification": null,
+    "cost": 13.496666666666666,
+    "downstream_backlog": 2.125
+  },
+  {
+    "group": "llm_library",
+    "scenario": "base",
+    "trace": 1,
+    "notification": null,
+    "cost": 14.27,
+    "downstream_backlog": 8.105
+  },
+  {
+    "group": "llm_library",
+    "scenario": "base",
+    "trace": 2,
+    "notification": null,
+    "cost": 15.325,
+    "downstream_backlog": 6.195
+  },
+  {
+    "group": "llm_library",
+    "scenario": "base",
+    "trace": 3,
+    "notification": null,
+    "cost": 21.971666666666668,
+    "downstream_backlog": 32.335
+  },
+  {
+    "group": "llm_library",
+    "scenario": "shock",
+    "trace": 0,
+    "notification": 94,
+    "cost": 12.976666666666667,
+    "downstream_backlog": 2.35
+  },
+  {
+    "group": "llm_library",
+    "scenario": "shock",
+    "trace": 1,
+    "notification": 85,
+    "cost": 21.67,
+    "downstream_backlog": 11.78
+  },
+  {
+    "group": "llm_library",
+    "scenario": "shock",
+    "trace": 2,
+    "notification": 76,
+    "cost": 21.956666666666667,
+    "downstream_backlog": 14.38
+  },
+  {
+    "group": "llm_library",
+    "scenario": "shock",
+    "trace": 3,
+    "notification": 69,
+    "cost": 22.101666666666667,
+    "downstream_backlog": 32.71
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "suites": 20,
+  "episodes": 2000,
+  "rows": 1200000,
+  "input_and_model_audits": "passed",
+  "duplicate_HAPPO_metrics_identical": true,
+  "normal_row_actions_identical": true
+}

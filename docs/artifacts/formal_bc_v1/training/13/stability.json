@@ -1,0 +1,12 @@
+{
+  "stable": true,
+  "steps": 490000,
+  "minimum_steps": 100000,
+  "window": 10,
+  "median_change_limit": 0.01,
+  "recent_cv_limit": 0.05,
+  "best_change_limit": 0.01,
+  "median_change": 0.003942986348059342,
+  "best_change": 0.000972173525005747,
+  "recent_cv": 0.03721183662690085
+}

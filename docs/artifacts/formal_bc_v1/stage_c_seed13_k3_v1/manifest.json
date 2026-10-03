@@ -1,0 +1,56 @@
+{
+  "mode": "formal_stage_c",
+  "training_seed": 13,
+  "project_commit": "bf60452ff811c64901269e08089d50f9f71d1271",
+  "source_sha256": {
+    "experiments\\formal_evaluation\\run.py": "9b17fac58e216c3fc5fb56b1c8671705eb8d2e3acb4f929f90518488cc476e4f",
+    "experiments\\formal_evaluation\\inputs.py": "250e75202e660f711ffa2a75c67f98d7719da9e3054fac3aa85f2e560de09381",
+    "experiments\\formal_evaluation\\prepare.py": "2ba6c514525c0e3db018fc5e72532b2a700c918f4d61ef4bf1f7b776a099d9d2",
+    "experiments\\formal_evaluation\\analyze.py": "93b2a6218a6c83af6a842a42c9cabd614a88ef59daef5548b3be106a4a7c020c",
+    "experiments\\formal_evaluation\\ablations.py": "bac84d7a7b44f8416620939244fd0683334cfead5236e0c2ecbb60edc391124e",
+    "experiments\\deepseek_refinement\\run.py": "2515ab236fd015b50b5734105d9745f5f5e7c7974cc77e5fd7ebd7063bc1d4b6",
+    "experiments\\deepseek_refinement\\shadow.py": "fbf92c3c5bc5b86a52890a32e5d26d51400daef467504401838da55bbff95865",
+    "experiments\\deepseek_refinement\\reports.py": "46d4588efa0daae795e9677f4151cee66fe0d77aabe40eebc1296d4be460b154",
+    "experiments\\deepseek_pilot\\rules.py": "8de5400b739098929e760caf8bca9abd9d89a6f5e6910d9ab839119aefbc497b"
+  },
+  "library_sha256": "1450aab60c410b4a0ce28711ada397635f2d0feac25ba6d5cf0067d33224a6f9",
+  "training_directory": "C:\\Users\\13384\\Documents\\ChatGPT\\新\\zaiqu\\results\\learning_curve\\curve_seed13_formal_v1",
+  "model_parameter_sha256": "86582dd7aeae0c16c0b5c6f4862b8d3ac62988b1927fe4f3526af9ff901b3dd0",
+  "python": "3.12.13 (main, Mar 24 2026, 22:57:53) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "dependencies": {
+    "numpy": "1.26.4",
+    "torch": "2.14.1+cpu",
+    "matplotlib": "3.10.8"
+  },
+  "inputs": [
+    {
+      "path": "C:\\Users\\13384\\Documents\\ChatGPT\\新\\zaiqu\\results\\formal_evaluation\\stage_a_inputs_v1\\batch1.json",
+      "sha256": "8d9842e646520f3838a7c1e5a183a58c15e2c1b5c220177c2b995165ccc2bd79"
+    },
+    {
+      "path": "C:\\Users\\13384\\Documents\\ChatGPT\\新\\zaiqu\\results\\formal_evaluation\\stage_a_inputs_v1\\batch2.json",
+      "sha256": "6ec54d56c7a7db118398d21d9bf19bbcef551ea1385533fe826e871dece922b9"
+    },
+    {
+      "path": "C:\\Users\\13384\\Documents\\ChatGPT\\新\\zaiqu\\results\\formal_evaluation\\stage_a_inputs_v1\\batch3.json",
+      "sha256": "a488e75590f901b5f3533e50039c8e5c7218bd28788f9ca7ee0a04a8b4204b41"
+    },
+    {
+      "path": "C:\\Users\\13384\\Documents\\ChatGPT\\新\\zaiqu\\results\\formal_evaluation\\stage_a_inputs_v1\\batch4.json",
+      "sha256": "9c0dee648185d1bd5b1cd0579c9424f08eea0b052062cfa9881441ddecf6587f"
+    },
+    {
+      "path": "C:\\Users\\13384\\Documents\\ChatGPT\\新\\zaiqu\\results\\formal_evaluation\\stage_a_inputs_v1\\batch5.json",
+      "sha256": "84d27806b333f28790a309f827d1f7ff39613e8f09fc2099523d1be10c08baa2"
+    }
+  ],
+  "methods": [
+    "happo",
+    "llm_no_screen",
+    "llm_search_only",
+    "random_screen"
+  ],
+  "report_interval": 3,
+  "protocol_sha256": "9b20f4a5e1f816b80dbf040256fc0606be1f0f28ffbfb64fe4f591d292fbf975"
+}

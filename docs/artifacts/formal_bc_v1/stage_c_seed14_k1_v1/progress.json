@@ -1,0 +1,36 @@
+{
+  "status": "completed",
+  "completed": [
+    {
+      "name": "stage_c_seed14_k1_v1_batch1",
+      "episodes": 16,
+      "rows": 9600,
+      "wall_seconds": 48.36346930000582
+    },
+    {
+      "name": "stage_c_seed14_k1_v1_batch2",
+      "episodes": 16,
+      "rows": 9600,
+      "wall_seconds": 47.28190990000439
+    },
+    {
+      "name": "stage_c_seed14_k1_v1_batch3",
+      "episodes": 16,
+      "rows": 9600,
+      "wall_seconds": 45.0055194000015
+    },
+    {
+      "name": "stage_c_seed14_k1_v1_batch4",
+      "episodes": 16,
+      "rows": 9600,
+      "wall_seconds": 48.57313669999712
+    },
+    {
+      "name": "stage_c_seed14_k1_v1_batch5",
+      "episodes": 16,
+      "rows": 9600,
+      "wall_seconds": 44.43344389999402
+    }
+  ],
+  "wall_seconds": 242.60752850001154
+}

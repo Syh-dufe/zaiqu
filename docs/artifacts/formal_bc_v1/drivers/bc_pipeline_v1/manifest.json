@@ -1,0 +1,33 @@
+{
+  "sources": {
+    "experiments\\formal_evaluation\\ablations.py": "bac84d7a7b44f8416620939244fd0683334cfead5236e0c2ecbb60edc391124e",
+    "experiments\\formal_evaluation\\analyze.py": "93b2a6218a6c83af6a842a42c9cabd614a88ef59daef5548b3be106a4a7c020c",
+    "experiments\\formal_evaluation\\audit_training.py": "0ea2a45addaca2841341eafaa10392f848f3217ca8aa59dba1aa3fb62f88490e",
+    "experiments\\formal_evaluation\\inputs.py": "250e75202e660f711ffa2a75c67f98d7719da9e3054fac3aa85f2e560de09381",
+    "experiments\\formal_evaluation\\prepare.py": "2ba6c514525c0e3db018fc5e72532b2a700c918f4d61ef4bf1f7b776a099d9d2",
+    "experiments\\formal_evaluation\\run.py": "9b17fac58e216c3fc5fb56b1c8671705eb8d2e3acb4f929f90518488cc476e4f",
+    "experiments\\formal_evaluation\\run_bc.py": "e3fc0f0eeab3785f196812371911f085d74fafd9f85be67410350bc2fc6c2cbc",
+    "experiments\\formal_evaluation\\test_ablations.py": "c406cafa33f123e24a54f0cc9f08d386e2b0a1b8ab1d15a88a9b833d581fcb19",
+    "experiments\\formal_evaluation\\test_inputs.py": "835adf4ab7f645ec54e41524af8e11f07e1b7abcc4ac10f5fe55b46beff3c061",
+    "experiments\\formal_evaluation\\train_multi.py": "6beacb34f57a0d28e60fe1acfb8ed6bec6a3c23f9f346a517e8bbc1d2f36b2d9",
+    "experiments\\deepseek_refinement\\confirm.py": "ff741d1c1866f4ee0b0be2017cd0533200a5d049377ac4919982085fcf609fe4",
+    "experiments\\deepseek_refinement\\diagnose_predictor.py": "2b4ce2a02b3c58da3ad2dda52b63c6307b02fc2f723c53066c14b5c0c45c9ab8",
+    "experiments\\deepseek_refinement\\discover.py": "8a3c41fd4aacc1e331e4fabbba11a4dca57e69b02c332d725ee548530d712d24",
+    "experiments\\deepseek_refinement\\repair_library.py": "ac38a9e16485efd850ceeae289aa77d4b96e2157e4845cebfb49e11f4afa57cd",
+    "experiments\\deepseek_refinement\\reports.py": "46d4588efa0daae795e9677f4151cee66fe0d77aabe40eebc1296d4be460b154",
+    "experiments\\deepseek_refinement\\report_confirmation.py": "8f66cf2229aa8883d5a487ff58be4fbe9a814590edcca0b5df2720b6e52f03c9",
+    "experiments\\deepseek_refinement\\run.py": "2515ab236fd015b50b5734105d9745f5f5e7c7974cc77e5fd7ebd7063bc1d4b6",
+    "experiments\\deepseek_refinement\\shadow.py": "fbf92c3c5bc5b86a52890a32e5d26d51400daef467504401838da55bbff95865",
+    "experiments\\deepseek_refinement\\summarize.py": "4d175a1a2871a0aedede37b9c572874a461b7701f223b7b2df114377b9e272e6",
+    "experiments\\deepseek_pilot\\rules.py": "8de5400b739098929e760caf8bca9abd9d89a6f5e6910d9ab839119aefbc497b",
+    "docs\\artifacts\\operator_discovery_v1\\repaired_library.json": "1450aab60c410b4a0ce28711ada397635f2d0feac25ba6d5cf0067d33224a6f9"
+  },
+  "seeds": [
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "extra_happo_audit_episodes": 200
+}

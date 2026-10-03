@@ -118,13 +118,16 @@ def eligible(candidate_score, zero_score):
             and candidate_score['downstream'] <= zero_score['downstream'])
 
 
-def select(candidates, state, history, orders, proposed, recurrent, actors, paths, correction_periods=20, reports=None):
+def select(candidates, state, history, orders, proposed, recurrent, actors, paths, correction_periods=20, reports=None, review=True):
     start = time.perf_counter()
     search = [score(c, state, history, orders, proposed, recurrent, actors, paths[0], correction_periods, reports) for c in candidates]
     zero = search[0]; assert zero['id'] == 'zero' and zero['valid']
     accepted = [s for s in search[1:] if eligible(s, zero)]
     chosen = min(accepted, key=lambda s: s['cost'])['id'] if accepted else 'zero'
     chosen_rule = next(c for c in candidates if c['id'] == chosen)
+    if not review:
+        return chosen, {'search':search,'validation_zero':None,'validation_candidate':None,'chosen':chosen,
+                        'seconds':time.perf_counter()-start,'review':False}
     validation_zero = score(candidates[0], state, history, orders, proposed, recurrent, actors, paths[1], correction_periods, reports)
     validation = score(chosen_rule, state, history, orders, proposed, recurrent, actors, paths[1], correction_periods, reports)
     if chosen != 'zero' and not eligible(validation, validation_zero):

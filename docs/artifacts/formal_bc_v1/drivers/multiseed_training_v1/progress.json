@@ -1,0 +1,93 @@
+{
+  "seeds": {
+    "12": {
+      "status": "completed",
+      "command": [
+        "C:\\Users\\13384\\.codex\\worktrees\\delivery-happo\\\u65b0\\.venv\\Scripts\\python.exe",
+        "-u",
+        "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\learning_curve\\run.py",
+        "--seed",
+        "12",
+        "--budget",
+        "3000000",
+        "--patience",
+        "40",
+        "--until-stable",
+        "--run-name",
+        "curve_seed12_formal_v1"
+      ],
+      "log": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\learning_curve\\curve_seed12_formal_v1_train.log",
+      "pid": 58032,
+      "steps": 595000,
+      "stop_reason": "official_early_stop",
+      "stable": false
+    },
+    "13": {
+      "status": "completed",
+      "command": [
+        "C:\\Users\\13384\\.codex\\worktrees\\delivery-happo\\\u65b0\\.venv\\Scripts\\python.exe",
+        "-u",
+        "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\learning_curve\\run.py",
+        "--seed",
+        "13",
+        "--budget",
+        "3000000",
+        "--patience",
+        "40",
+        "--until-stable",
+        "--run-name",
+        "curve_seed13_formal_v1"
+      ],
+      "log": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\learning_curve\\curve_seed13_formal_v1_train.log",
+      "pid": 68440,
+      "steps": 490000,
+      "stop_reason": "empirical_plateau",
+      "stable": true
+    },
+    "14": {
+      "status": "completed",
+      "command": [
+        "C:\\Users\\13384\\.codex\\worktrees\\delivery-happo\\\u65b0\\.venv\\Scripts\\python.exe",
+        "-u",
+        "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\learning_curve\\run.py",
+        "--seed",
+        "14",
+        "--budget",
+        "3000000",
+        "--patience",
+        "40",
+        "--until-stable",
+        "--run-name",
+        "curve_seed14_formal_v1"
+      ],
+      "log": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\learning_curve\\curve_seed14_formal_v1_train.log",
+      "pid": 81320,
+      "steps": 790000,
+      "stop_reason": "official_early_stop",
+      "stable": false
+    },
+    "15": {
+      "status": "completed",
+      "command": [
+        "C:\\Users\\13384\\.codex\\worktrees\\delivery-happo\\\u65b0\\.venv\\Scripts\\python.exe",
+        "-u",
+        "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\learning_curve\\run.py",
+        "--seed",
+        "15",
+        "--budget",
+        "3000000",
+        "--patience",
+        "40",
+        "--until-stable",
+        "--run-name",
+        "curve_seed15_formal_v1"
+      ],
+      "log": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\learning_curve\\curve_seed15_formal_v1_train.log",
+      "pid": 83728,
+      "steps": 730000,
+      "stop_reason": "official_early_stop",
+      "stable": false
+    }
+  },
+  "started_at_unix": 1791037095.6098592
+}

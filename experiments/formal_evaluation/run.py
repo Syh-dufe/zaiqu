@@ -22,7 +22,8 @@ def main():
     parser.add_argument('--input-directory',type=Path)
     parser.add_argument('--development-input',type=Path)
     parser.add_argument('--training-directory',type=Path,default=ROOT/'results/learning_curve/curve_seed11_until_stable_v1')
-    parser.add_argument('--methods',nargs='+',default=['happo','llm_library'],choices=['happo','llm_library'])
+    parser.add_argument('--methods',nargs='+',default=['happo','llm_library'],choices=['happo','llm_library','llm_no_screen','llm_search_only','random_screen'])
+    parser.add_argument('--stage',choices=['a','b','c'],default='a')
     parser.add_argument('--report-interval',type=int,default=3,choices=[1,3,5])
     parser.add_argument('--run-name',required=True)
     args=parser.parse_args()
@@ -32,7 +33,8 @@ def main():
     files=[]
     if args.input_directory:
         directory=args.input_directory.resolve();manifest=json.loads((directory/'manifest.json').read_text(encoding='utf-8-sig'))
-        protocol=ROOT/'docs/2026-10-03-formal-experiment-protocol.md'
+        protocol=directory/'protocol_snapshot.md'
+        if not protocol.exists():protocol=ROOT/'docs/2026-10-03-formal-experiment-protocol.md'
         if digest(protocol)!=manifest['protocol_sha256']:raise RuntimeError('Protocol changed after inputs generated')
         for record in manifest['batches']:
             file=directory/record['file']
@@ -45,19 +47,21 @@ def main():
     out=ROOT/'results/formal_evaluation'/args.run_name
     if out.exists():parser.error('Refuse overwrite')
     training=args.training_directory.resolve();audit=json.loads((training/'completion_audit.json').read_text(encoding='utf-8-sig'))
-    sources=[Path(__file__),Path(__file__).with_name('inputs.py'),Path(__file__).with_name('prepare.py'),Path(__file__).with_name('analyze.py'),
+    sources=[Path(__file__),Path(__file__).with_name('inputs.py'),Path(__file__).with_name('prepare.py'),Path(__file__).with_name('analyze.py'),Path(__file__).with_name('ablations.py'),
              ROOT/'experiments/deepseek_refinement/run.py',ROOT/'experiments/deepseek_refinement/shadow.py',
              ROOT/'experiments/deepseek_refinement/reports.py',ROOT/'experiments/deepseek_pilot/rules.py']
     library=ROOT/'docs/artifacts/operator_discovery_v1/repaired_library.json'
     out.mkdir(parents=True)
     dependencies={name:importlib.metadata.version(name) for name in ('numpy','torch','matplotlib')}
-    run_manifest=dict(mode='development_flow_check' if args.development_input else 'formal_stage_a',
+    training_config=json.loads((training/'config.json').read_text(encoding='utf-8-sig'))['config']
+    run_manifest=dict(mode='development_flow_check' if args.development_input else 'formal_stage_'+args.stage,
+        training_seed=training_config['seed'][0],
         project_commit=subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip(),
         source_sha256={str(p.relative_to(ROOT)):digest(p) for p in sources},
         library_sha256=digest(library),training_directory=str(training),model_parameter_sha256=audit['model_matches']['official_best']['sha256'],
         python=sys.version,platform=platform.platform(),dependencies=dependencies,
         inputs=[dict(path=str(p),sha256=digest(p)) for p in files],methods=args.methods,report_interval=args.report_interval,
-        protocol_sha256=digest(ROOT/'docs/2026-10-03-formal-experiment-protocol.md'))
+        protocol_sha256=digest(protocol if args.input_directory else ROOT/'docs/2026-10-03-formal-experiment-protocol.md'))
     write(out/'manifest.json',run_manifest);started=time.perf_counter();results=[]
     for i,file in enumerate(files,1):
         data=json.loads(file.read_text(encoding='utf-8-sig'));batch=f'{args.run_name}_batch{i}'

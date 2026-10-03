@@ -1,0 +1,853 @@
+{
+  "training_seeds": [
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "trajectories": 20,
+  "metrics": [
+    "cost",
+    "downstream_backlog"
+  ],
+  "bootstrap_samples": 20000,
+  "bootstrap_seed": 20261221,
+  "resampling": "Independent model and trajectory resampling retaining crossed structure",
+  "main": {
+    "reference_means": [
+      20.71728333333332,
+      19.167250000000003
+    ],
+    "method_means": [
+      20.4784,
+      19.031900000000004
+    ],
+    "mean_delta": [
+      -0.23888333333333328,
+      -0.13534999999999997
+    ],
+    "ci95": [
+      [
+        -0.6777845833333332,
+        -0.7237450000000005
+      ],
+      [
+        0.18875333333333308,
+        0.2720999999999998
+      ]
+    ],
+    "ci97p5": [
+      [
+        -0.7681431249999997,
+        -0.89685625
+      ],
+      [
+        0.30397125000000025,
+        0.37032187500000174
+      ]
+    ],
+    "percent_reduction": [
+      1.153063022259127,
+      0.7061524214480375
+    ],
+    "per_seed_mean_delta": [
+      [
+        -0.6325,
+        -0.3210000000000002
+      ],
+      [
+        0.26225,
+        0.36950000000000044
+      ],
+      [
+        -0.16800000000000007,
+        -0.15975000000000034
+      ],
+      [
+        -0.13233333333333333,
+        -0.0032499999999995753
+      ],
+      [
+        -0.523833333333333,
+        -0.56225
+      ]
+    ],
+    "counts": {
+      "cost": {
+        "improved": 54,
+        "tied": 21,
+        "worsened": 25
+      },
+      "backlog": {
+        "improved": 27,
+        "tied": 42,
+        "worsened": 31
+      }
+    },
+    "stronger_evidence": false
+  },
+  "ablations": {
+    "llm_no_screen": {
+      "reference_means": [
+        21.62468333333332,
+        23.56275
+      ],
+      "method_means": [
+        20.4784,
+        19.031900000000004
+      ],
+      "mean_delta": [
+        -1.1462833333333333,
+        -4.530850000000002
+      ],
+      "ci95": [
+        [
+          -2.5188787500000016,
+          -8.169627500000002
+        ],
+        [
+          -0.11494791666666711,
+          -1.9444400000000015
+        ]
+      ],
+      "ci97p5": [
+        [
+          -2.7913474999999996,
+          -8.89888687499999
+        ],
+        [
+          -0.011846458333333056,
+          -1.643996249999999
+        ]
+      ],
+      "percent_reduction": [
+        5.300809799912227,
+        19.228867598221758
+      ],
+      "per_seed_mean_delta": [
+        [
+          -2.12175,
+          -6.246499999999999
+        ],
+        [
+          -1.3715,
+          -3.5562499999999995
+        ],
+        [
+          -1.3351666666666664,
+          -5.832
+        ],
+        [
+          -0.39983333333333365,
+          -4.0344999999999995
+        ],
+        [
+          -0.5031666666666663,
+          -2.9850000000000003
+        ]
+      ],
+      "counts": {
+        "cost": {
+          "improved": 59,
+          "tied": 0,
+          "worsened": 41
+        },
+        "backlog": {
+          "improved": 90,
+          "tied": 0,
+          "worsened": 10
+        }
+      },
+      "stronger_evidence": true
+    },
+    "llm_search_only": {
+      "reference_means": [
+        20.22428333333334,
+        19.21995
+      ],
+      "method_means": [
+        20.4784,
+        19.031900000000004
+      ],
+      "mean_delta": [
+        0.25411666666666677,
+        -0.18804999999999977
+      ],
+      "ci95": [
+        [
+          -0.2783562499999997,
+          -0.8589537499999995
+        ],
+        [
+          0.8433479166666661,
+          0.2810099999999999
+        ]
+      ],
+      "ci97p5": [
+        [
+          -0.3892702083333327,
+          -1.0469049999999989
+        ],
+        [
+          0.9894625000000004,
+          0.37395937500000076
+        ]
+      ],
+      "percent_reduction": [
+        -1.2564928135071673,
+        0.9784104537212477
+      ],
+      "per_seed_mean_delta": [
+        [
+          0.09108333333333389,
+          -0.06274999999999997
+        ],
+        [
+          0.8854166666666667,
+          0.24275000000000077
+        ],
+        [
+          0.3834166666666666,
+          -0.051999999999999734
+        ],
+        [
+          -0.2877500000000001,
+          -0.8934999999999995
+        ],
+        [
+          0.19841666666666669,
+          -0.17475000000000013
+        ]
+      ],
+      "counts": {
+        "cost": {
+          "improved": 38,
+          "tied": 4,
+          "worsened": 58
+        },
+        "backlog": {
+          "improved": 51,
+          "tied": 9,
+          "worsened": 40
+        }
+      },
+      "stronger_evidence": false
+    },
+    "random_screen": {
+      "reference_means": [
+        19.8005,
+        17.8989
+      ],
+      "method_means": [
+        20.4784,
+        19.031900000000004
+      ],
+      "mean_delta": [
+        0.6779000000000001,
+        1.1330000000000005
+      ],
+      "ci95": [
+        [
+          -0.11753499999999968,
+          0.16553749999999967
+        ],
+        [
+          1.6470637499999978,
+          2.6553087499999974
+        ]
+      ],
+      "ci97p5": [
+        [
+          -0.20185062499999978,
+          0.05244749999999988
+        ],
+        [
+          1.8469879166666667,
+          3.0060143750000012
+        ]
+      ],
+      "percent_reduction": [
+        -3.423650917906119,
+        -6.329997932833876
+      ],
+      "per_seed_mean_delta": [
+        [
+          1.0299999999999998,
+          2.7634999999999996
+        ],
+        [
+          1.8388333333333335,
+          1.08225
+        ],
+        [
+          0.23216666666666672,
+          0.98375
+        ],
+        [
+          0.1951666666666668,
+          0.06600000000000013
+        ],
+        [
+          0.09333333333333327,
+          0.7695000000000001
+        ]
+      ],
+      "counts": {
+        "cost": {
+          "improved": 44,
+          "tied": 0,
+          "worsened": 56
+        },
+        "backlog": {
+          "improved": 30,
+          "tied": 3,
+          "worsened": 67
+        }
+      },
+      "stronger_evidence": false
+    }
+  },
+  "sensitivity": {
+    "1": {
+      "reference_means": [
+        20.71728333333332,
+        19.167250000000003
+      ],
+      "method_means": [
+        20.54728333333334,
+        19.03265
+      ],
+      "mean_delta": [
+        -0.1699999999999998,
+        -0.13460000000000008
+      ],
+      "ci95": [
+        [
+          -0.6846866666666667,
+          -0.6737537500000002
+        ],
+        [
+          0.2972537499999997,
+          0.28965499999999966
+        ]
+      ],
+      "ci97p5": [
+        [
+          -0.7712577083333327,
+          -0.80100375
+        ],
+        [
+          0.41220312500000067,
+          0.40205437500000013
+        ]
+      ],
+      "percent_reduction": [
+        0.8205709081868705,
+        0.7022394970587981
+      ],
+      "per_seed_mean_delta": [
+        [
+          -0.5415833333333329,
+          -0.5387500000000003
+        ],
+        [
+          -0.16699999999999998,
+          0.13824999999999998
+        ],
+        [
+          -0.29441666666666644,
+          -0.4365000000000003
+        ],
+        [
+          0.537666666666667,
+          0.352
+        ],
+        [
+          -0.3846666666666664,
+          -0.18799999999999967
+        ]
+      ],
+      "counts": {
+        "cost": {
+          "improved": 54,
+          "tied": 20,
+          "worsened": 26
+        },
+        "backlog": {
+          "improved": 32,
+          "tied": 37,
+          "worsened": 31
+        }
+      },
+      "stronger_evidence": false
+    },
+    "5": {
+      "reference_means": [
+        20.71728333333332,
+        19.167250000000003
+      ],
+      "method_means": [
+        20.4157,
+        19.03405
+      ],
+      "mean_delta": [
+        -0.30158333333333337,
+        -0.1331999999999999
+      ],
+      "ci95": [
+        [
+          -0.7016516666666668,
+          -0.6492512500000001
+        ],
+        [
+          0.02486708333333336,
+          0.21920250000000013
+        ]
+      ],
+      "ci97p5": [
+        [
+          -0.7747214583333336,
+          -0.76290125
+        ],
+        [
+          0.06783479166666694,
+          0.3039506249999998
+        ]
+      ],
+      "percent_reduction": [
+        1.4557088807492582,
+        0.6949353715321822
+      ],
+      "per_seed_mean_delta": [
+        [
+          -0.6724166666666667,
+          -0.44650000000000006
+        ],
+        [
+          -0.4715833333333336,
+          0.06950000000000008
+        ],
+        [
+          0.16816666666666658,
+          0.134
+        ],
+        [
+          -0.16208333333333352,
+          0.07600000000000039
+        ],
+        [
+          -0.36999999999999966,
+          -0.49899999999999983
+        ]
+      ],
+      "counts": {
+        "cost": {
+          "improved": 58,
+          "tied": 21,
+          "worsened": 21
+        },
+        "backlog": {
+          "improved": 28,
+          "tied": 41,
+          "worsened": 31
+        }
+      },
+      "stronger_evidence": false
+    }
+  },
+  "normal_means_by_seed": [
+    {
+      "seed": 11,
+      "means": {
+        "happo": [
+          22.253333333333337,
+          20.468999999999998
+        ],
+        "llm_library": [
+          22.253333333333337,
+          20.468999999999998
+        ]
+      }
+    },
+    {
+      "seed": 12,
+      "means": {
+        "happo": [
+          18.43866666666667,
+          14.453999999999999
+        ],
+        "llm_library": [
+          18.43866666666667,
+          14.453999999999999
+        ]
+      }
+    },
+    {
+      "seed": 13,
+      "means": {
+        "happo": [
+          20.89241666666667,
+          22.560750000000002
+        ],
+        "llm_library": [
+          20.89241666666667,
+          22.560750000000002
+        ]
+      }
+    },
+    {
+      "seed": 14,
+      "means": {
+        "happo": [
+          17.26475,
+          13.5945
+        ],
+        "llm_library": [
+          17.26475,
+          13.5945
+        ]
+      }
+    },
+    {
+      "seed": 15,
+      "means": {
+        "happo": [
+          18.036833333333334,
+          14.624749999999997
+        ],
+        "llm_library": [
+          18.036833333333334,
+          14.624749999999997
+        ]
+      }
+    }
+  ],
+  "training_audits": [
+    {
+      "stability_excluding_extra_final_evaluation": {
+        "stable": true,
+        "steps": 295000,
+        "minimum_steps": 100000,
+        "window": 10,
+        "median_change_limit": 0.01,
+        "recent_cv_limit": 0.05,
+        "best_change_limit": 0.01,
+        "median_change": 0.009032692096155282,
+        "best_change": 0.0004916334521446033,
+        "recent_cv": 0.040275708232365696
+      },
+      "model_matches": {
+        "official_best": {
+          "sha256": "583bd3c2a65b7c99ca1f693e8542e2654a05cc3b51bb198cb5ca4e3b44499192",
+          "matching_steps": [
+            250000
+          ]
+        },
+        "final": {
+          "sha256": "7b53430b9b2fa62c9da683796a9b650c4d1a69dbe8d118032f579ccadf327bed",
+          "matching_steps": [
+            295000
+          ]
+        }
+      },
+      "final_reload_max_error": 0.0,
+      "stability_file_note": "stability.json was overwritten by the extra final evaluation; completed.json and this independently recomputed audit use scheduled evaluations only. Raw files preserved.",
+      "all_rebounds": [
+        {
+          "step": 20000,
+          "cost": 157.94591666666665,
+          "previous_cost": 136.2791666666667,
+          "relative_increase": 0.1589879842235603
+        },
+        {
+          "step": 45000,
+          "cost": 108.38775,
+          "previous_cost": 92.70216666666667,
+          "relative_increase": 0.16920406391076792
+        },
+        {
+          "step": 60000,
+          "cost": 80.91275,
+          "previous_cost": 76.3015,
+          "relative_increase": 0.060434591718380344
+        },
+        {
+          "step": 75000,
+          "cost": 63.41575000000001,
+          "previous_cost": 57.54575,
+          "relative_increase": 0.10200579538888643
+        },
+        {
+          "step": 105000,
+          "cost": 91.96991666666668,
+          "previous_cost": 44.199666666666666,
+          "relative_increase": 1.0807830375794691
+        },
+        {
+          "step": 115000,
+          "cost": 183.28716666666665,
+          "previous_cost": 42.141416666666665,
+          "relative_increase": 3.3493356693830494
+        },
+        {
+          "step": 130000,
+          "cost": 39.59733333333333,
+          "previous_cost": 36.89491666666667,
+          "relative_increase": 0.07324631442000812
+        },
+        {
+          "step": 145000,
+          "cost": 27.527499999999996,
+          "previous_cost": 24.138416666666668,
+          "relative_increase": 0.1404020561967263
+        },
+        {
+          "step": 150000,
+          "cost": 29.415916666666668,
+          "previous_cost": 27.527499999999996,
+          "relative_increase": 0.06860109587382333
+        },
+        {
+          "step": 155000,
+          "cost": 32.794333333333334,
+          "previous_cost": 29.415916666666668,
+          "relative_increase": 0.11484995368153861
+        },
+        {
+          "step": 160000,
+          "cost": 33.963416666666674,
+          "previous_cost": 32.794333333333334,
+          "relative_increase": 0.035648943415021096
+        },
+        {
+          "step": 165000,
+          "cost": 52.165,
+          "previous_cost": 33.963416666666674,
+          "relative_increase": 0.5359173228056655
+        },
+        {
+          "step": 180000,
+          "cost": 32.33925,
+          "previous_cost": 30.798416666666665,
+          "relative_increase": 0.050029628146468635
+        },
+        {
+          "step": 200000,
+          "cost": 30.250916666666672,
+          "previous_cost": 29.169499999999996,
+          "relative_increase": 0.03707354142740454
+        },
+        {
+          "step": 210000,
+          "cost": 28.026083333333336,
+          "previous_cost": 26.8645,
+          "relative_increase": 0.043238598646292925
+        },
+        {
+          "step": 215000,
+          "cost": 28.055666666666667,
+          "previous_cost": 28.026083333333336,
+          "relative_increase": 0.0010555643106272298
+        },
+        {
+          "step": 230000,
+          "cost": 31.603666666666665,
+          "previous_cost": 24.294083333333337,
+          "relative_increase": 0.3008791578196335
+        },
+        {
+          "step": 245000,
+          "cost": 24.40625,
+          "previous_cost": 23.730416666666663,
+          "relative_increase": 0.028479623549242508
+        },
+        {
+          "step": 255000,
+          "cost": 26.1055,
+          "previous_cost": 23.71875,
+          "relative_increase": 0.10062714097496703
+        },
+        {
+          "step": 260000,
+          "cost": 26.330583333333337,
+          "previous_cost": 26.1055,
+          "relative_increase": 0.008622065592819044
+        },
+        {
+          "step": 270000,
+          "cost": 25.282666666666668,
+          "previous_cost": 25.23675,
+          "relative_increase": 0.001819436602045304
+        },
+        {
+          "step": 275000,
+          "cost": 28.059916666666666,
+          "previous_cost": 25.282666666666668,
+          "relative_increase": 0.1098479854445733
+        },
+        {
+          "step": 290000,
+          "cost": 26.154333333333337,
+          "previous_cost": 25.695416666666663,
+          "relative_increase": 0.01785986476187417
+        }
+      ],
+      "largest_rebound": {
+        "step": 115000,
+        "cost": 183.28716666666665,
+        "previous_cost": 42.141416666666665,
+        "relative_increase": 3.3493356693830494
+      }
+    },
+    {
+      "seed": 12,
+      "stability_excluding_extra_final_evaluation": {
+        "stable": false,
+        "steps": 595000,
+        "minimum_steps": 100000,
+        "window": 10,
+        "median_change_limit": 0.01,
+        "recent_cv_limit": 0.05,
+        "best_change_limit": 0.01,
+        "median_change": 0.03862425709454,
+        "best_change": 0.00915593466485262,
+        "recent_cv": 0.11415065322996175
+      },
+      "model_matches": {
+        "official_best": {
+          "sha256": "d4ca903d6f13b9b6e25575eadd6e2486701d2b6fd39bea7b7ab61105ec2a4681",
+          "matching_steps": [
+            395000
+          ]
+        },
+        "final": {
+          "sha256": "9efafed6671736c0345ef4ccf4cbfd00985aea6f13aecb865ee67a7fb59a0b0f",
+          "matching_steps": [
+            595000
+          ]
+        }
+      },
+      "evaluated_original_costs": {
+        "official_best": 18.83,
+        "final": 25.610416666666666
+      },
+      "original_eval_traces": 20,
+      "stop_reason": "official_early_stop",
+      "note": "Best selected only using original normal-demand evaluation; no disaster test data used"
+    },
+    {
+      "seed": 13,
+      "stability_excluding_extra_final_evaluation": {
+        "stable": true,
+        "steps": 490000,
+        "minimum_steps": 100000,
+        "window": 10,
+        "median_change_limit": 0.01,
+        "recent_cv_limit": 0.05,
+        "best_change_limit": 0.01,
+        "median_change": 0.004991850418988854,
+        "best_change": 0.000972173525005747,
+        "recent_cv": 0.037215697817966735
+      },
+      "model_matches": {
+        "official_best": {
+          "sha256": "86582dd7aeae0c16c0b5c6f4862b8d3ac62988b1927fe4f3526af9ff901b3dd0",
+          "matching_steps": [
+            350000
+          ]
+        },
+        "final": {
+          "sha256": "2ecae623d36ed2bb47e895cbcf336dfd64fe621130d086d3bd77ec4f33db2801",
+          "matching_steps": [
+            490000
+          ]
+        }
+      },
+      "evaluated_original_costs": {
+        "official_best": 20.8315,
+        "final": 22.533416666666664
+      },
+      "original_eval_traces": 20,
+      "stop_reason": "empirical_plateau",
+      "note": "Best selected only using original normal-demand evaluation; no disaster test data used"
+    },
+    {
+      "seed": 14,
+      "stability_excluding_extra_final_evaluation": {
+        "stable": false,
+        "steps": 790000,
+        "minimum_steps": 100000,
+        "window": 10,
+        "median_change_limit": 0.01,
+        "recent_cv_limit": 0.05,
+        "best_change_limit": 0.01,
+        "median_change": 0.02317287067109619,
+        "best_change": 0.014575531659051233,
+        "recent_cv": 0.04683544648749187
+      },
+      "model_matches": {
+        "official_best": {
+          "sha256": "54590e6fba0eeeef7fccc7ac09fd5e22fefbe2d3bff1a2b34feb9d0a900a1c30",
+          "matching_steps": [
+            590000
+          ]
+        },
+        "final": {
+          "sha256": "69b5608a448cbae606a8b923d392be8b3a26c613f3c150777886d49e7de0074f",
+          "matching_steps": [
+            790000
+          ]
+        }
+      },
+      "evaluated_original_costs": {
+        "official_best": 18.108416666666663,
+        "final": 20.632333333333335
+      },
+      "original_eval_traces": 20,
+      "stop_reason": "official_early_stop",
+      "note": "Best selected only using original normal-demand evaluation; no disaster test data used"
+    },
+    {
+      "seed": 15,
+      "stability_excluding_extra_final_evaluation": {
+        "stable": false,
+        "steps": 730000,
+        "minimum_steps": 100000,
+        "window": 10,
+        "median_change_limit": 0.01,
+        "recent_cv_limit": 0.05,
+        "best_change_limit": 0.01,
+        "median_change": 0.062439058842917304,
+        "best_change": 0.001166746022554193,
+        "recent_cv": 0.48163953041881
+      },
+      "model_matches": {
+        "official_best": {
+          "sha256": "c6e966fec9ffdd56192e75b43c0c2c0dd93e815626e19f88f504b7a259e03fe1",
+          "matching_steps": [
+            530000
+          ]
+        },
+        "final": {
+          "sha256": "14b880005e47f206a2c8f28e0033583d058f0e6e10200808b8b506f053a77021",
+          "matching_steps": [
+            730000
+          ]
+        }
+      },
+      "evaluated_original_costs": {
+        "official_best": 18.09,
+        "final": 20.8765
+      },
+      "original_eval_traces": 20,
+      "stop_reason": "official_early_stop",
+      "note": "Best selected only using original normal-demand evaluation; no disaster test data used"
+    }
+  ],
+  "interpretation": "Ablations and sensitivity are descriptive, not additional confirmatory claims. Random operators are a diagnostic. Full system uses extra information/computation. All seeds retained; three new seeds did not meet stability criteria.",
+  "episodes_executed_including_A": 2000,
+  "duplicated_audit_episodes": 200,
+  "calls": 0,
+  "training_updates_during_evaluation": 0
+}

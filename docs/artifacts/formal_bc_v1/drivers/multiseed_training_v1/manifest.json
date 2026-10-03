@@ -1,0 +1,20 @@
+{
+  "seeds": [
+    12,
+    13,
+    14,
+    15
+  ],
+  "parallel_limit": 2,
+  "budget_per_seed": 3000000,
+  "patience": 40,
+  "until_stable": true,
+  "training": "Original normal Merton demand only; original 20 validation demand traces",
+  "project_commit": "bf60452ff811c64901269e08089d50f9f71d1271",
+  "source_sha256": {
+    "experiments\\learning_curve\\run.py": "efe476c01dc2e663177e1b1ee43e211382f5644eb5b94c392289d8b5513479d0",
+    "experiments\\emergency_compatibility\\train.py": "3b986e441c5e73dcb18da20c8fb96197bfa1f3731e21495a1de87a9162a7b030",
+    "experiments\\formal_evaluation\\train_multi.py": "6beacb34f57a0d28e60fe1acfb8ed6bec6a3c23f9f346a517e8bbc1d2f36b2d9",
+    "experiments\\formal_evaluation\\audit_training.py": "0ea2a45addaca2841341eafaa10392f848f3217ca8aa59dba1aa3fb62f88490e"
+  }
+}
