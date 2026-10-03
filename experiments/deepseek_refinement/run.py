@@ -44,6 +44,7 @@ def main():
     parser.add_argument('--demand-seed',type=int,default=20261011)
     parser.add_argument('--event-seed',type=int,default=20261012)
     parser.add_argument('--correction-periods',type=int,default=20,choices=(5,20))
+    parser.add_argument('--refinement-schedule',default='immediate',choices=('immediate','observed'))
     opts = parser.parse_args()
     run_started=time.perf_counter()
     if not opts.run_name or any(c not in 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_-' for c in opts.run_name):
@@ -159,14 +160,24 @@ def main():
                 branch=clone(state,self.history,paths[0][0]); branch.step(proposed,one_hot=False)
                 verify=clone(state,self.history,paths[0][0]); verify.step(corrected(dict(id='zero'),verify,self.history,self.orders,proposed),one_hot=False)
                 assert branch.inventory==verify.inventory and branch.backlog==verify.backlog and branch.order==verify.order
-                if notify and self.group=='llm_iterative':
-                    for round_id in (1,2):
+                if self.group=='llm_iterative':
+                    elapsed=period-(self.notification-1)
+                    rounds=(1,2) if notify and opts.refinement_schedule=='immediate' else (
+                        (elapsed//10,) if opts.refinement_schedule=='observed' and elapsed in (10,20) else ())
+                    for round_id in rounds:
                         feedback_started=time.perf_counter()
                         feedback=[score(c,state,self.history,self.orders,proposed,self.recurrent,self.actors,paths[0],opts.correction_periods) for c in self.candidates]
                         feedback_times.append(dict(trace=self.trace,round=round_id,seconds=time.perf_counter()-feedback_started))
                         context=dict(self.context, forecast_method='last5 mean + sampled last20 residuals, horizon20',
                                      search_feedback=feedback,
                                      previous_candidates=[{'id':c['id'],'rule':c.get('rule')} for c in self.candidates])
+                        if opts.refinement_schedule=='observed':
+                            context.update(observed_periods=period,observed_last25_demands=self.history[-25:],
+                                nodes=features(env,self.history,self.orders,proposed),known_pipeline=[list(map(int,p)) for p in env.order],
+                                last5_orders=self.orders[-5:],
+                                observed_cost_last10=[sum(r['cost'] for r in self.episode_rows if r['node']==i and r['period']>period-10)/10 for i in range(3)],
+                                invalid_generation_records=[{'round':c['round'],'invalid_candidates':c.get('invalid_candidates',[]),'failure':c.get('failure')}
+                                    for c in calls if c['trace']==self.trace and c['status']!='valid'])
                         if opts.correction_periods==5:
                             context['control_horizon']='Candidate applied first5 periods; remaining forecast horizon follows frozen HAPPO without correction. Real controller reselects every5 periods.'
                         self.candidates += generate(context,1,self.trace,round_id)

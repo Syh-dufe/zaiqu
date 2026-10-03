@@ -1,0 +1,186 @@
+{
+  "summary": {
+    "happo": {
+      "base": {
+        "cost": 20.344166666666666,
+        "downstream_backlog": 11.6775
+      },
+      "shock": {
+        "cost": 21.630833333333335,
+        "downstream_backlog": 16.0425
+      }
+    },
+    "llm_iterative": {
+      "base": {
+        "cost": 20.344166666666666,
+        "downstream_backlog": 11.6775
+      },
+      "shock": {
+        "cost": 21.329166666666666,
+        "downstream_backlog": 16.22
+      }
+    },
+    "llm_single": {
+      "base": {
+        "cost": 20.344166666666666,
+        "downstream_backlog": 11.6775
+      },
+      "shock": {
+        "cost": 21.5625,
+        "downstream_backlog": 16.2075
+      }
+    },
+    "manual_screen": {
+      "base": {
+        "cost": 20.344166666666666,
+        "downstream_backlog": 11.6775
+      },
+      "shock": {
+        "cost": 20.911666666666665,
+        "downstream_backlog": 14.87
+      }
+    }
+  },
+  "screening": {
+    "happo": {
+      "evaluations": 0,
+      "accepted": 0,
+      "seconds": 0
+    },
+    "llm_iterative": {
+      "evaluations": 47,
+      "accepted": 5,
+      "seconds": 22.693588900001487
+    },
+    "llm_single": {
+      "evaluations": 47,
+      "accepted": 5,
+      "seconds": 11.381585999988602
+    },
+    "manual_screen": {
+      "evaluations": 47,
+      "accepted": 4,
+      "seconds": 11.697796199965524
+    }
+  },
+  "api_calls": 6,
+  "failed_calls": 0,
+  "tokens": 11247,
+  "api_seconds": 11.363719899993157,
+  "paired": [
+    {
+      "group": "happo",
+      "scenario": "base",
+      "trace": 0,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "happo",
+      "scenario": "base",
+      "trace": 1,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "happo",
+      "scenario": "shock",
+      "trace": 0,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "happo",
+      "scenario": "shock",
+      "trace": 1,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "llm_iterative",
+      "scenario": "base",
+      "trace": 0,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "llm_iterative",
+      "scenario": "base",
+      "trace": 1,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "llm_iterative",
+      "scenario": "shock",
+      "trace": 0,
+      "cost_delta": -0.6033333333333317,
+      "backlog_delta": 0.3550000000000004
+    },
+    {
+      "group": "llm_iterative",
+      "scenario": "shock",
+      "trace": 1,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "llm_single",
+      "scenario": "base",
+      "trace": 0,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "llm_single",
+      "scenario": "base",
+      "trace": 1,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "llm_single",
+      "scenario": "shock",
+      "trace": 0,
+      "cost_delta": -0.13666666666666671,
+      "backlog_delta": 0.33000000000000007
+    },
+    {
+      "group": "llm_single",
+      "scenario": "shock",
+      "trace": 1,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "manual_screen",
+      "scenario": "base",
+      "trace": 0,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "manual_screen",
+      "scenario": "base",
+      "trace": 1,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "manual_screen",
+      "scenario": "shock",
+      "trace": 0,
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "group": "manual_screen",
+      "scenario": "shock",
+      "trace": 1,
+      "cost_delta": -1.4383333333333361,
+      "backlog_delta": -2.3450000000000024
+    }
+  ],
+  "prediction_mean_absolute_error": 1.6009281646249731,
+  "interpretation": "Small batch; no significance or general superiority claim. API and screening pause simulator. Extra information and computation differ from original actors."
+}
