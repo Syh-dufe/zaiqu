@@ -44,6 +44,10 @@ def main():
     parser.add_argument('--cases',type=int,default=2,choices=(2,4))
     parser.add_argument('--demand-seed',type=int,default=20261011)
     parser.add_argument('--event-seed',type=int,default=20261012)
+    parser.add_argument('--input-file',type=Path,help='Validated pre-generated paired demands; no generation')
+    parser.add_argument('--training-directory',type=Path,default=TRAINING)
+    parser.add_argument('--output-root',type=Path,default=ROOT/'results/deepseek_refinement')
+    parser.add_argument('--methods',nargs='+',choices=('happo','llm_library'),default=None)
     parser.add_argument('--correction-periods',type=int,default=20,choices=(5,20))
     parser.add_argument('--refinement-schedule',default='immediate',choices=('immediate','observed'))
     parser.add_argument('--single-only',action='store_true',help='Compare original, manual and single LLM only; no feedback requests.')
@@ -53,6 +57,13 @@ def main():
     parser.add_argument('--report-interval',type=int,choices=(1,3,5),default=None,
                         help='Periodic aggregate demand reports for fixed-library mode; omitted preserves legacy access.')
     opts = parser.parse_args()
+    if opts.input_file:
+        opts.input_file=opts.input_file.resolve()
+        supplied=json.loads(opts.input_file.read_text(encoding='utf-8-sig'))
+        opts.demand_seed=supplied['demand_seed'];opts.event_seed=supplied['event_seed']
+    training_directory=opts.training_directory.resolve()
+    if opts.methods is not None and (not opts.operator_library or len(set(opts.methods))!=len(opts.methods) or opts.methods[0]!='happo'):
+        parser.error('Explicit methods require library mode, unique methods and HAPPO first')
     if opts.operator_library:
         opts.operator_library = opts.operator_library.resolve()
     if opts.report_interval is not None and (not opts.operator_library or opts.predictor != 'merton' or opts.correction_periods != 5):
@@ -60,7 +71,7 @@ def main():
     run_started=time.perf_counter()
     if not opts.run_name or any(c not in 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_-' for c in opts.run_name):
         parser.error('invalid run name')
-    out = ROOT/'results/deepseek_refinement'/opts.run_name
+    out = opts.output_root.resolve()/opts.run_name
     if out.exists(): parser.error('refuse overwrite')
     key = os.environ.get('DEEPSEEK_API_KEY')
     if not key and not opts.replay_calls and not opts.operator_library: parser.error('API key missing')
@@ -100,19 +111,29 @@ def main():
     from envs.env_wrappers import DummyVecEnv
     from runners.separated.runner import CRunner
     torch.set_num_threads(1); torch.manual_seed(11); np.random.seed(opts.demand_seed)
-    base = [generator.merton(200, 20).demand_list for _ in range(opts.cases)]
-    rng = random.Random(opts.event_seed)
-    events = [dict(start_index=rng.randint(60, 100), duration=rng.randint(20, 40)) for _ in base]
-    shock = [[min(20, math.ceil(1.5*d)) if e['start_index'] <= i < e['start_index']+e['duration'] else d
-              for i, d in enumerate(t)] for t, e in zip(base, events)]
+    if opts.input_file:
+        sys.path.insert(0,str(ROOT/'experiments/formal_evaluation'))
+        from inputs import validate_batch
+        input_path=opts.input_file.resolve()
+        data=validate_batch(json.loads(input_path.read_text(encoding='utf-8-sig')),opts.cases)
+        base,shock,events=data['base'],data['shock'],data['events']
+        opts.demand_seed=data['demand_seed'];opts.event_seed=data['event_seed']
+        write(out/'input_source.json',dict(path=str(input_path),sha256=hashlib.sha256(input_path.read_bytes()).hexdigest(),
+                                          consumed_indices=[0,199],source_length=201))
+    else:
+        base = [generator.merton(200, 20).demand_list for _ in range(opts.cases)]
+        rng = random.Random(opts.event_seed)
+        events = [dict(start_index=rng.randint(60, 100), duration=rng.randint(20, 40)) for _ in base]
+        shock = [[min(20, math.ceil(1.5*d)) if e['start_index'] <= i < e['start_index']+e['duration'] else d
+                  for i, d in enumerate(t)] for t, e in zip(base, events)]
     write(out/'demands.json', {'demand_seed': opts.demand_seed, 'event_seed': opts.event_seed, 'events': events, 'base': base, 'shock': shock})
     calls = []; scores = []; rows = []; episodes = []; initial = {}; checks = {}; failures = []; branch_audits=[]; feedback_times=[]
     information_audits=[]; delivered_reports=[]
     write(out/'calls.json',calls)
-    config = json.loads((TRAINING/'config.json').read_text())['config']
-    done = json.loads((TRAINING/'completed.json').read_text())
+    config = json.loads((training_directory/'config.json').read_text())['config']
+    done = json.loads((training_directory/'completed.json').read_text())
     model_dir = Path(done['final_model_directory']).parent/'models'
-    audit = json.loads((TRAINING/'completion_audit.json').read_text())
+    audit = json.loads((training_directory/'completion_audit.json').read_text())
 
     def model_hash(policies):
         digest = hashlib.sha256()
@@ -289,6 +310,7 @@ def main():
             return output
 
     groups=('happo','manual_screen','llm_library') if opts.operator_library else ('happo','manual_screen','llm_single') if opts.single_only else ('happo','manual_screen','llm_single','llm_iterative')
+    if opts.methods is not None: groups=tuple(opts.methods)
     for group in groups:
         args=argparse.Namespace(**config);args.model_dir=str(model_dir)
         envs=Controller(args)
