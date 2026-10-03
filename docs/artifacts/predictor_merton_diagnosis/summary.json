@@ -1,0 +1,38 @@
+{
+  "means": {
+    "merton": {
+      "happo": {
+        "cost": 21.822812499999998,
+        "backlog": 19.5009375
+      },
+      "manual_screen": {
+        "cost": 20.9421875,
+        "backlog": 16.55375
+      },
+      "llm_single": {
+        "cost": 21.0465625,
+        "backlog": 19.11375
+      }
+    },
+    "residual": {
+      "happo": {
+        "cost": 21.822812499999998,
+        "backlog": 19.5009375
+      },
+      "manual_screen": {
+        "cost": 21.303437499999998,
+        "backlog": 15.9134375
+      },
+      "llm_single": {
+        "cost": 21.563020833333333,
+        "backlog": 19.1171875
+      }
+    }
+  },
+  "prediction_mae": {
+    "merton": 1.7524896319039929,
+    "residual": 1.81955637318322
+  },
+  "new_api_calls": 0,
+  "scope": "Paired development diagnosis on all16 previously observed cases, same causal initial responses, not independent validation"
+}

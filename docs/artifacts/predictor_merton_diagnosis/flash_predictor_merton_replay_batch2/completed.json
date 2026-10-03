@@ -1,0 +1,66 @@
+{
+  "episodes": 24,
+  "rows": 14400,
+  "training_updates": 0,
+  "parameter_checks": {
+    "happo": {
+      "before": "583bd3c2a65b7c99ca1f693e8542e2654a05cc3b51bb198cb5ca4e3b44499192",
+      "after": "583bd3c2a65b7c99ca1f693e8542e2654a05cc3b51bb198cb5ca4e3b44499192",
+      "unchanged": true
+    },
+    "manual_screen": {
+      "before": "583bd3c2a65b7c99ca1f693e8542e2654a05cc3b51bb198cb5ca4e3b44499192",
+      "after": "583bd3c2a65b7c99ca1f693e8542e2654a05cc3b51bb198cb5ca4e3b44499192",
+      "unchanged": true
+    },
+    "llm_single": {
+      "before": "583bd3c2a65b7c99ca1f693e8542e2654a05cc3b51bb198cb5ca4e3b44499192",
+      "after": "583bd3c2a65b7c99ca1f693e8542e2654a05cc3b51bb198cb5ca4e3b44499192",
+      "unchanged": true
+    }
+  },
+  "calls": 4,
+  "upstream_revision": "a7e5a3e83e21565a5799483bc534e39635ec65dd",
+  "causal_audit": "explicit whitelist; synthetic-only branch futures; paired initial contexts; unchanged pre-notification actions",
+  "runtime_failures": [],
+  "branch_audits": [
+    {
+      "trace": 0,
+      "period": 72,
+      "shadow_cost": 686.0,
+      "observed_cost": 686.0,
+      "shadow_backlog": 14.0,
+      "observed_backlog": 14,
+      "note": "After-episode verification on observed demand, never used by selector"
+    },
+    {
+      "trace": 1,
+      "period": 100,
+      "shadow_cost": 1829.0,
+      "observed_cost": 1829.0,
+      "shadow_backlog": 849.0,
+      "observed_backlog": 849,
+      "note": "After-episode verification on observed demand, never used by selector"
+    },
+    {
+      "trace": 2,
+      "period": 88,
+      "shadow_cost": 582.0,
+      "observed_cost": 582.0,
+      "shadow_backlog": 35.0,
+      "observed_backlog": 35,
+      "note": "After-episode verification on observed demand, never used by selector"
+    },
+    {
+      "trace": 3,
+      "period": 78,
+      "shadow_cost": 1806.0,
+      "observed_cost": 1806.0,
+      "shadow_backlog": 1662.0,
+      "observed_backlog": 1662,
+      "note": "After-episode verification on observed demand, never used by selector"
+    }
+  ],
+  "feedback_times": [],
+  "wall_seconds": 59.18080210000335
+}
