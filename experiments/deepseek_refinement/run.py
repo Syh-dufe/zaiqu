@@ -113,7 +113,7 @@ def main():
             result=[]
             for i,value in enumerate(original.get('candidates',[])):
                 try:result.append(dict(id=f'llm_r{round_id}_{i}',compiled=compile_rule(value),rule=value))
-                except ValueError:pass
+                except Exception:pass  # Preserve original invalid-candidate fallback for all syntax failures.
             return result
         record = dict(index=len(calls), trace=trace, round=round_id, request=body, status='started')
         calls.append(record); write(out/'calls.json', calls)

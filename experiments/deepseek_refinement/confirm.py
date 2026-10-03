@@ -17,7 +17,7 @@ def main():
     n=4*n_batches
     out=ROOT/'results/deepseek_refinement'/('confirmation_single_v3_16' if opts.single_only else 'confirmation_v3_20')
     if out.exists():raise SystemExit('Refuse overwrite; diagnose/resume explicitly instead.')
-    calls=sum(len(json.loads(p.read_text(encoding='utf-8'))) for p in (ROOT/'results/deepseek_refinement').glob('*/calls.json'))
+    calls=sum(sum(not c.get('replayed',False) for c in json.loads(p.read_text(encoding='utf-8'))) for p in (ROOT/'results/deepseek_refinement').glob('*/calls.json'))
     planned_calls=n if opts.single_only else n*3
     if calls+planned_calls>120:raise SystemExit('Series API budget exceeded')
     prefix='flash_confirm_single_v3' if opts.single_only else 'flash_confirm_v3'
