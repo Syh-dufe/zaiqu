@@ -63,3 +63,19 @@ python -m venv .venv
 5. 研究 LLM 生成、筛选与冻结补货调整规则。
 
 当前暂不开展基线排名；历史实验和停止的复现记录保留在原本地工作区。
+
+## 学习曲线实验
+
+用户授权后的扩大预算观察入口（默认种子 11、50,000 步）：
+
+```powershell
+& .venv/Scripts/python.exe -u experiments/learning_curve/run.py
+```
+
+本地结果写入 `results/learning_curve/curve_seed11_50k_v1/`，模型写入官方结果目录的 `curve_snapshots/` 和 `final_models/`。保留原始训练、奖励、评估频率和早停；额外记录曲线及保存快照。最终评估与最终模型另存，不替代官方已选模型。
+
+绘图依赖可安装固定的 `matplotlib==3.10.8`，同时保持现有 `numpy==1.26.4`，避免绘图安装改变训练依赖：
+
+```powershell
+& .venv/Scripts/python.exe scripts/plot_learning_curve.py results/learning_curve/curve_seed11_50k_v1
+```
