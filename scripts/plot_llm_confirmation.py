@@ -13,7 +13,7 @@ def main():
     parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('directory',type=Path);root=parser.parse_args().directory
     summary=json.loads((root/'summary.json').read_text())
     rows=list(csv.DictReader((root/'paired.csv').open(encoding='utf-8')))
-    groups=tuple(g for g in ('manual_screen','llm_single','llm_iterative') if g in summary['analysis'])
+    groups=tuple(g for g in ('manual_screen','llm_single','llm_iterative','llm_library') if g in summary['analysis'])
     fig,axes=plt.subplots(1,2,figsize=(11,4))
     for index,(ax,key,title) in enumerate(zip(axes,('cost_delta','backlog_delta'),('System cost difference','Downstream backlog difference'))):
         for x,group in enumerate(groups):
