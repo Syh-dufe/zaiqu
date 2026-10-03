@@ -1,0 +1,20 @@
+{
+  "purpose": "design_time_source_snapshot_not_executed_formal_experiment",
+  "date": "2026-10-03",
+  "project_commit": "0215ae0bf32ecb0542e3d8e107e7d6f4bf5ad1cf",
+  "upstream_commit": "a7e5a3e83e21565a5799483bc534e39635ec65dd",
+  "current_policy_parameter_sha256": "583bd3c2a65b7c99ca1f693e8542e2654a05cc3b51bb198cb5ca4e3b44499192",
+  "current_policy_evidence": "docs/artifacts/periodic_reports_development_v1/reports_k3_development_v1/completed.json",
+  "files": {
+    "external/liu-inventory/envs/serial.py": "7c73e9fe9ea5f8bf60908ee26e272e16bbb95e0acd9e074272ca8d1a95d70088",
+    "external/liu-inventory/envs/generator.py": "48366755e3318751966f240c68316488a7f79066a9c3116a798d5cab46e55741",
+    "external/liu-inventory/config.py": "603bb1e9b04f03cd32b9d939e7d7e1f5162a3fde3f3116c0120f80fb9e93ce99",
+    "experiments/deepseek_refinement/run.py": "3c07f240d21440a41b938791a870d5cee7b9c62ec45b08d18dcac0cf482458f3",
+    "experiments/deepseek_refinement/shadow.py": "05e7bd1c1190868e05a7f4666163b14135a9160f5146548dfaf8fdb4ac8cf0d8",
+    "experiments/deepseek_refinement/reports.py": "d920dd5ef4d0cbcfdc7559b1e49bce60aaab192737653259a4aa2856cc00f62a",
+    "experiments/deepseek_pilot/rules.py": "bff2330b6324221b2025e44c7d8d8dd99ad21d9b50b28cefe612116a3c8030d5",
+    "docs/artifacts/operator_discovery_v1/repaired_library.json": "1450aab60c410b4a0ce28711ada397635f2d0feac25ba6d5cf0067d33224a6f9",
+    "docs/2026-10-03-model-assumptions-and-sources.md": "5da7b3ef5cad4e7677467085f6b7ec240704474eddb83dcbee3923cf6cbccdbd",
+    "docs/2026-10-03-formal-experiment-protocol.md": "9b20f4a5e1f816b80dbf040256fc0606be1f0f28ffbfb64fe4f591d292fbf975"
+  }
+}

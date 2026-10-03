@@ -4,6 +4,14 @@
 
 ## 当前版本
 
+投稿准备材料：
+
+- [模型假设与参数来源](docs/2026-10-03-model-assumptions-and-sources.md)
+- [正式实验协议v1](docs/2026-10-03-formal-experiment-protocol.md)
+- [分阶段执行计划](docs/superpowers/plans/2026-10-03-submission-experiments.md)
+
+正式协议先登记80回合确认，再扩展多训练种子与消融；目前是设计交付，尚未启动该正式实验。
+
 直接调用官方原始 `train_env.py`，只指定独立的场景和实验名称。库存状态转移、需求、奖励、网络、HAPPO 顺序更新、默认训练预算及早停均使用官方实现。
 
 | 官方节点与变量 | 业务解释 |
