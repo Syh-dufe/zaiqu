@@ -1,0 +1,70 @@
+{
+  "summaries": {
+    "official_best": {
+      "base": {
+        "mean_cost": 22.715749999999996
+      },
+      "shock": {
+        "mean_cost": 26.87425
+      },
+      "paired": {
+        "delta_mean_cost": 4.1585,
+        "delta_shock_window_cost": 7.15,
+        "delta_downstream_peak_backlog": 24.8,
+        "delta_shock_window_backlog": 24.834999999999997,
+        "delta_postshock_backlog": 15.158125000000002,
+        "delta_terminal_backlog": 4.55
+      },
+      "recovery": {
+        "observed": 19,
+        "right_censored": 1,
+        "observed_mean_delay": 14.0,
+        "observed_max_delay": 67
+      }
+    },
+    "final": {
+      "base": {
+        "mean_cost": 22.718583333333335
+      },
+      "shock": {
+        "mean_cost": 27.377166666666664
+      },
+      "paired": {
+        "delta_mean_cost": 4.658583333333334,
+        "delta_shock_window_cost": 8.081666666666667,
+        "delta_downstream_peak_backlog": 22.1,
+        "delta_shock_window_backlog": 20.89625,
+        "delta_postshock_backlog": 9.147499999999999,
+        "delta_terminal_backlog": 4.1
+      },
+      "recovery": {
+        "observed": 19,
+        "right_censored": 1,
+        "observed_mean_delay": 10.631578947368421,
+        "observed_max_delay": 56
+      }
+    }
+  },
+  "checks": {
+    "official_best": {
+      "before": "583bd3c2a65b7c99ca1f693e8542e2654a05cc3b51bb198cb5ca4e3b44499192",
+      "after": "583bd3c2a65b7c99ca1f693e8542e2654a05cc3b51bb198cb5ca4e3b44499192",
+      "unchanged": true,
+      "base_reproduced": true,
+      "pre_shock_periods_identical": true
+    },
+    "final": {
+      "before": "7b53430b9b2fa62c9da683796a9b650c4d1a69dbe8d118032f579ccadf327bed",
+      "after": "7b53430b9b2fa62c9da683796a9b650c4d1a69dbe8d118032f579ccadf327bed",
+      "unchanged": true,
+      "base_reproduced": true,
+      "pre_shock_periods_identical": true
+    }
+  },
+  "training_updates": 0,
+  "demand_actual_ratio": 1.331918389702862,
+  "strict_cap_fraction": 0.2775,
+  "recovery_definition": "first 10-period window from period121 with shock downstream backlog <= paired base +5; delay=window start-121; null if censored",
+  "limitations": "Exploratory stress check on 20 previously examined development traces, one training seed; no real disaster calibration or algorithm comparison.",
+  "official_revision": "a7e5a3e83e21565a5799483bc534e39635ec65dd"
+}

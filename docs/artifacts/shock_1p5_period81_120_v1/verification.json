@@ -1,0 +1,59 @@
+{
+  "rows": 48000,
+  "paired_rows": 40,
+  "checks": {
+    "official_best": {
+      "costs": {
+        "base": 22.71575,
+        "shock": 26.87425
+      },
+      "censored_traces": [
+        5
+      ],
+      "recrossing_after_recovery_traces": [
+        0,
+        2,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "recovered_mean_delay": 14
+    },
+    "final": {
+      "costs": {
+        "base": 22.718583333333335,
+        "shock": 27.377166666666668
+      },
+      "censored_traces": [
+        5
+      ],
+      "recrossing_after_recovery_traces": [
+        0,
+        2,
+        4,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14,
+        16,
+        17,
+        19
+      ],
+      "recovered_mean_delay": 10.631578947368421
+    }
+  },
+  "note": "Independent CSV-based recomputation; recovery is first qualifying window, not permanent clearance."
+}
