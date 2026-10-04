@@ -1,0 +1,9 @@
+{
+  "status": "completed",
+  "development_only": true,
+  "episodes": 64,
+  "node_periods": 38400,
+  "api_requests": 196,
+  "summary_sha256": "fb1b1dc2ea3320632c16fb659f752bf8e9988dcd942370545e59e54e9ea936f5",
+  "all_cases_retained": true
+}

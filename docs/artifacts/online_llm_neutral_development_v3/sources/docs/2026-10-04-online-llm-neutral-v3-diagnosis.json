@@ -1,0 +1,99 @@
+{
+  "development_diagnostic_only": true,
+  "no_API_no_rollout": true,
+  "source_summary_sha256": "26ec3ae08e90b2527fa7768942354a455b4380244f8763b3cfe8b2abe938fc73",
+  "probe_definition": "96 observed node states from32 original-feedback generation events; each returned valid candidate evaluated independently against all same states; no environment transition or future outcomes",
+  "diagnostics": [
+    {
+      "method": "online_feedback",
+      "valid_candidates": 128,
+      "rule_count_histogram": {
+        "3": 55,
+        "2": 18,
+        "4": 50,
+        "1": 5
+      },
+      "candidate_feature_presence": {
+        "backlog": 120,
+        "pipeline": 65,
+        "inventory": 64,
+        "min": 91,
+        "agent": 80,
+        "baseline": 29,
+        "recent": 54,
+        "growth": 48,
+        "max": 52,
+        "happo": 11,
+        "incoming": 1
+      },
+      "agent_specific_candidates": 80,
+      "syntactically_zero_candidates": 2,
+      "unreachable_rules_after_first_True": 0,
+      "shared_observed_probe_states": 96,
+      "probe_total": 12288,
+      "probe_changed": 6013,
+      "probe_negative": 2034,
+      "probe_positive": 3979,
+      "probe_errors": 0
+    },
+    {
+      "method": "contract_feedback",
+      "valid_candidates": 128,
+      "rule_count_histogram": {
+        "3": 106,
+        "4": 22
+      },
+      "candidate_feature_presence": {
+        "backlog": 122,
+        "inventory": 27,
+        "min": 108,
+        "agent": 117,
+        "pipeline": 110,
+        "growth": 44,
+        "baseline": 17,
+        "recent": 26,
+        "max": 29,
+        "happo": 5,
+        "incoming": 1
+      },
+      "agent_specific_candidates": 117,
+      "syntactically_zero_candidates": 0,
+      "unreachable_rules_after_first_True": 0,
+      "shared_observed_probe_states": 96,
+      "probe_total": 12288,
+      "probe_changed": 4639,
+      "probe_negative": 1684,
+      "probe_positive": 2955,
+      "probe_errors": 0
+    },
+    {
+      "method": "elite_feedback",
+      "valid_candidates": 115,
+      "rule_count_histogram": {
+        "3": 106,
+        "4": 9
+      },
+      "candidate_feature_presence": {
+        "backlog": 111,
+        "inventory": 26,
+        "min": 111,
+        "agent": 111,
+        "pipeline": 99,
+        "growth": 43,
+        "recent": 21,
+        "baseline": 18,
+        "max": 25,
+        "incoming": 7
+      },
+      "agent_specific_candidates": 111,
+      "syntactically_zero_candidates": 0,
+      "unreachable_rules_after_first_True": 0,
+      "shared_observed_probe_states": 96,
+      "probe_total": 11040,
+      "probe_changed": 4254,
+      "probe_negative": 1281,
+      "probe_positive": 2973,
+      "probe_errors": 0
+    }
+  ]
+}

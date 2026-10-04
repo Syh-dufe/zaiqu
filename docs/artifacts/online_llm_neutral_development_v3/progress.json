@@ -1,0 +1,16 @@
+{
+  "status": "completed",
+  "pid": 91028,
+  "completed": [
+    {
+      "seed": 11,
+      "path": "C:\\Users\\13384\\Documents\\ChatGPT\\新\\zaiqu\\results\\online_llm_neutral\\development_v3\\seed11",
+      "protocol_sha256": "dc1886bfd44adccce7227d654bb4ccde754bdc7d90b63bf33f8a3403992ceb8b"
+    },
+    {
+      "seed": 12,
+      "path": "C:\\Users\\13384\\Documents\\ChatGPT\\新\\zaiqu\\results\\online_llm_neutral\\development_v3\\seed12",
+      "protocol_sha256": "ca213f75b8cfba825f89b50935b5a4c7dbcd3d8f7aebe6e14da2eeeb68bf7dce"
+    }
+  ]
+}

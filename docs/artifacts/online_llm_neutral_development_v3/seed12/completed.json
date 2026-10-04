@@ -1,0 +1,32 @@
+{
+  "episodes": 32,
+  "rows": 19200,
+  "training_updates": 0,
+  "parameter_checks": {
+    "happo": {
+      "before": "d4ca903d6f13b9b6e25575eadd6e2486701d2b6fd39bea7b7ab61105ec2a4681",
+      "after": "d4ca903d6f13b9b6e25575eadd6e2486701d2b6fd39bea7b7ab61105ec2a4681",
+      "unchanged": true
+    },
+    "online_feedback": {
+      "before": "d4ca903d6f13b9b6e25575eadd6e2486701d2b6fd39bea7b7ab61105ec2a4681",
+      "after": "d4ca903d6f13b9b6e25575eadd6e2486701d2b6fd39bea7b7ab61105ec2a4681",
+      "unchanged": true
+    },
+    "contract_feedback": {
+      "before": "d4ca903d6f13b9b6e25575eadd6e2486701d2b6fd39bea7b7ab61105ec2a4681",
+      "after": "d4ca903d6f13b9b6e25575eadd6e2486701d2b6fd39bea7b7ab61105ec2a4681",
+      "unchanged": true
+    },
+    "neutral_feedback": {
+      "before": "d4ca903d6f13b9b6e25575eadd6e2486701d2b6fd39bea7b7ab61105ec2a4681",
+      "after": "d4ca903d6f13b9b6e25575eadd6e2486701d2b6fd39bea7b7ab61105ec2a4681",
+      "unchanged": true
+    }
+  },
+  "calls": 97,
+  "runtime_failures": [],
+  "wall_seconds": 356.59789360000286,
+  "development_only": true,
+  "causal_audit": "Public whitelist; episode reset; synthetic-only forecast; no review in prompts"
+}
