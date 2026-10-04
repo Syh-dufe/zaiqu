@@ -1,5 +1,6 @@
 """Small reflective population search; queued behind the untouched v2 run."""
 import hashlib
+import argparse
 import json
 import os
 from pathlib import Path
@@ -47,24 +48,33 @@ def fingerprint(library,states):
 
 
 def main():
+    global OUT
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--version',type=int,choices=(3,4),default=3)
+    version=parser.parse_args().version
+    if version==4: OUT=ROOT/'results/llm_coordinated_v4'
     if OUT.exists(): raise RuntimeError('Already registered; do not duplicate')
     key=os.environ.get('DEEPSEEK_API_KEY')
     if not key: raise RuntimeError('Missing API key')
     OUT.mkdir(parents=True);runner.OUT=OUT
-    write(OUT/'progress.json',{'status':'waiting_v2','pid':os.getpid()})
+    write(OUT/'progress.json',{'status':'waiting_previous','pid':os.getpid(),'version':version})
     calls=[];archive=[];memory=[];seen=set();states=probes();write(OUT/'behavior_probes.json',states)
     source_files=[Path(__file__),Path(runner.__file__),ROOT/'experiments/deepseek_refinement/run.py',ROOT/'experiments/deepseek_refinement/shadow.py',ROOT/'experiments/deepseek_refinement/reports.py',ROOT/'experiments/deepseek_pilot/rules.py',ROOT/'experiments/formal_evaluation/analyze_multi.py']
+    source_files.append(ROOT/'experiments/formal_evaluation/ablations.py')
     hashes={str(p.relative_to(ROOT)):runner.digest(p) for p in source_files}
     model_hashes={str(seed):{'parameter_sha256':read(runner.training(seed)/'completion_audit.json')['model_matches']['official_best']['sha256'],
                            'audit_sha256':runner.digest(runner.training(seed)/'completion_audit.json')} for seed in range(11,16)}
-    write(OUT/'manifest.json',{'source_sha256':hashes,'generations':3,'training_seeds':list(range(11,16)),
+    dev_seeds=[20270301,20270302,20270303,20270304] if version==3 else [20270601,20270602,20270603,20270604]
+    test_start=20270501 if version==3 else 20270701
+    write(OUT/'manifest.json',{'source_sha256':hashes,'generations':3,'version':version,'training_seeds':list(range(11,16)),
                               'model_hashes':model_hashes,
-                              'probe_seed':20270401,'development_seeds':[20270301,20270302],
-                              'internal_validation_seeds':[20270303,20270304],'test_seeds':list(range(20270501,20270511)),
+                              'probe_seed':20270401,'development_seeds':dev_seeds[:2],
+                              'internal_validation_seeds':dev_seeds[2:],'test_seeds':list(range(test_start,test_start+10)),
                               'api_total_limit':None,'prior_v2_test_excluded_from_feedback':True})
     try:
-        while not (ROOT/'results/llm_current_v2/completed.json').exists():
-            if (ROOT/'results/llm_current_v2/failed.json').exists(): raise RuntimeError('v2 failed; diagnose before starting dependent work')
+        previous=ROOT/'results'/('llm_current_v2' if version==3 else 'llm_evolution_v3')
+        while not (previous/'completed.json').exists():
+            if (previous/'failed.json').exists(): raise RuntimeError('Previous version failed; diagnose before starting dependent work')
             time.sleep(15)
         used=set()
         for parent in (ROOT/'results',ROOT/'docs/artifacts'):
@@ -73,7 +83,7 @@ def main():
                 if isinstance(data,dict): used.update(tuple(t[:200]) for t in data.get('base',[]))
         inputs=[]
         registered_inputs={};registered_libraries={}
-        for ds,es,name in ((20270301,20270302,'development'),(20270303,20270304,'internal_validation')):
+        for ds,es,name in ((dev_seeds[0],dev_seeds[1],'development'),(dev_seeds[2],dev_seeds[3],'internal_validation')):
             path=OUT/f'{name}_inputs.json';write(path,runner.generate(ds,es,used));inputs.append(path)
             registered_inputs[str(path)]=runner.digest(path)
         write(OUT/'input_manifest.json',[{'path':str(p),'sha256':runner.digest(p)} for p in inputs])
@@ -115,12 +125,22 @@ def main():
                   'length':sum(len(r['when'])+len(r['delta']) for c in read(library)['candidates'] for r in c['rules'])}
             archive.append(item);write(OUT/'archive.json',archive);return item
         seeds=[ROOT/'docs/artifacts/operator_discovery_v1/repaired_library.json',ROOT/'results/llm_current_v2/round2_library.json',ROOT/'results/llm_current_v2/round6_library.json']
+        if version==4:
+            random_source=ROOT/'results/formal_evaluation/stage_c_seed11_k3_v1/stage_c_seed11_k3_v1_batch1/random_library.json'
+            sys.path.insert(0,str(ROOT/'experiments/formal_evaluation'))
+            from ablations import random_rules
+            if read(random_source)['candidates']!=random_rules():
+                raise RuntimeError('Historical random parent differs from live diagnostic library')
+            random_library=OUT/'non_llm_random_parent.json';write(random_library,read(random_source))
+            seeds=[seeds[0],random_library,seeds[1]]
         for path in seeds: registered_libraries[str(path)]=runner.digest(path)
         for index,path in enumerate(seeds):
             fp=fingerprint(read(path),states)
             if fp in seen: continue
             seen.add(fp);evaluate(f'initial{index}',path,index==0)
         system=runner.SYSTEM+'''\nOFFLINE current report environment: each3 completed external demands become a block mean repeated3 times, available next decision. recent/baseline/growth use only these delivered values; agent0 incoming is last delivered reconstructed value, upstream incoming is previous downstream order. Current local inventory/backlog/pipeline/arrival and HAPPO proposal are globally observed. Rules have no other-node feature names. Notification arrives after two completed event periods; no end time or multiplier available online. Frozen five models,6 forecast paths (3search+3review),20period horizon, first5 corrected, reselect every5,1percent cost improvement and no predicted backlog increase required. You design3 diverse bounded rules; do not hardcode dates/seeds, cannot add features. True is valid, lowercase true is not. DSL only. Numerical guards must cover zero demand. Reflections use completed development cases only. When producing a library return JSON {candidates:[3 candidates]}; each candidate has explanation and1..4 when/delta rules. Do not just rephrase parents; change actual bounded integer actions in substantive state regions.'''
+        if version==4:
+            system+='''\nOne parent is explicitly NON-LLM random constant-vector rules with strong completed development fitness. Preserve attribution to that source; do NOT copy and relabel them as novel LLM rules. Discover state-conditioned asymmetric coordination that improves that parent on both development and internal validation, especially downstream service. Compare all metrics and worst cases. Distinguish observed results from mechanistic hypotheses: an order at node0 becomes demand on node1; node1 order becomes demand on node2; cutting node0 order reduces upstream immediate demand, not directly upstream stock. A node own order affects its future pipeline replenishment. Shipment from node i+1 to i depends on upstream stock/arrival and downstream order/backlog. No other-node DSL features may be invented. Explain specific state regions where integer actions differ and why both splits can improve.'''
         def request(context,kind):
             body={'model':os.environ.get('DEEPSEEK_MODEL','deepseek-flash'),'messages':[{'role':'system','content':system},{'role':'user','content':json.dumps(context)}],
                   'response_format':{'type':'json_object'},'thinking':{'type':'disabled'},'temperature':.5,'max_tokens':4000}
@@ -178,13 +198,22 @@ def main():
                 else: write(OUT/f'generation{generation}_{operation}_skipped.json',{'failure':'Three failed/duplicate candidates; all requests preserved'})
             write(OUT/'generation_progress.json',{'generation':generation,'elite_labels':[p['label'] for p in sorted(archive,key=ranking)[:2]],'evaluated_libraries':len(archive)})
             print('GENERATION_COMPLETED',generation,'libraries',len(archive),flush=True)
-        winner=sorted([a for a in archive if a['eligible']],key=ranking)[0] if any(a['eligible'] for a in archive) else archive[0]
+        eligible=[a for a in archive if a['eligible']]
+        if version==4:
+            parent=next(a for a in archive if a['label']=='initial1')
+            eligible=[a for a in eligible if a['label'].startswith('generation') and all(a['split_mean_delta'][i][0]<parent['split_mean_delta'][i][0]-1e-9 and a['split_mean_delta'][i][1]<=parent['split_mean_delta'][i][1] for i in range(2))]
+            if not eligible:
+                write(OUT/'completed.json',{'status':'completed_no_qualified_library','evaluated_libraries':len(archive),
+                                           'api_requests':len(calls),'test_episodes':0,'reason':'No LLM offspring improves non-LLM parent on cost while maintaining service in both development splits'})
+                write(OUT/'progress.json',{'status':'completed_no_qualified_library','pid':os.getpid()})
+                print('NO_QUALIFIED_LIBRARY_NO_TEST_STARTED',flush=True);return
+        winner=sorted(eligible,key=ranking)[0] if eligible else archive[0]
         if runner.digest(Path(winner['library']))!=winner['library_sha256']: raise RuntimeError('Selected library changed since evaluation')
         frozen=OUT/'frozen_library.json';shutil.copy2(winner['library'],frozen)
         write(OUT/'frozen_manifest.json',{'source':winner['library'],'library_sha256':runner.digest(frozen),'selection':winner,'tests_not_generated_yet':True})
         directory=OUT/'test_inputs';directory.mkdir();tests=[]
         for n in range(1,6):
-            path=directory/f'batch{n}.json';write(path,runner.generate(20270499+2*n,20270500+2*n,used));tests.append(path)
+            path=directory/f'batch{n}.json';write(path,runner.generate(test_start-2+2*n,test_start-1+2*n,used));tests.append(path)
             registered_inputs[str(path)]=runner.digest(path)
         write(directory/'manifest.json',{'inputs':[{'path':str(p),'sha256':runner.digest(p)} for p in tests],'frozen_library_sha256':runner.digest(frozen)})
         if runner.digest(seeds[0])!=archive[0]['library_sha256']: raise RuntimeError('Old library changed since development')
