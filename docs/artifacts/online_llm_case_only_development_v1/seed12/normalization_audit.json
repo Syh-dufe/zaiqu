@@ -1,0 +1,2066 @@
+[
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 0,
+    "decision_period": 96,
+    "event": 1,
+    "stage": "initial",
+    "attempt": 1,
+    "index": 0,
+    "raw_candidate_sha256": "3d83c641fea4911c672397476ffa59c1ac42b79a95361cecf6bfe0a484b0dc4a",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "3d83c641fea4911c672397476ffa59c1ac42b79a95361cecf6bfe0a484b0dc4a",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[BinOp(left=Constant(value=2), op=Mult(), right=Name(id='recent', ctx=Load()))])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), BinOp(left=BinOp(left=Name(id='backlog', ctx=Load()), op=Add(), right=Name(id='recent', ctx=Load())), op=Sub(), right=BinOp(left=Name(id='pipeline', ctx=Load()), op=Div(), right=Constant(value=2)))], keywords=[])"
+      ],
+      [
+        "Compare(left=Name(id='pipeline', ctx=Load()), ops=[Gt()], comparators=[BinOp(left=Constant(value=3), op=Mult(), right=Name(id='recent', ctx=Load()))])",
+        "UnaryOp(op=USub(), operand=Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), BinOp(left=BinOp(left=Name(id='pipeline', ctx=Load()), op=Sub(), right=BinOp(left=Constant(value=3), op=Mult(), right=Name(id='recent', ctx=Load()))), op=Div(), right=Constant(value=2))], keywords=[]))"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='inventory', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Gt()], comparators=[Name(id='recent', ctx=Load())])])",
+        "UnaryOp(op=USub(), operand=Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), BinOp(left=BinOp(left=Name(id='pipeline', ctx=Load()), op=Sub(), right=Name(id='recent', ctx=Load())), op=Div(), right=Constant(value=2))], keywords=[]))"
+      ]
+    ],
+    "seconds": 0.0006110999966040254
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 0,
+    "decision_period": 96,
+    "event": 1,
+    "stage": "initial",
+    "attempt": 1,
+    "index": 1,
+    "raw_candidate_sha256": "bcc57b292e4ae64d5eb4d70ff86f97cb951354d8cb5739db3c2063cbd7287a4e",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "bcc57b292e4ae64d5eb4d70ff86f97cb951354d8cb5739db3c2063cbd7287a4e",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Name(id='recent', ctx=Load())])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), Name(id='backlog', ctx=Load())], keywords=[])"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[GtE()], comparators=[Name(id='recent', ctx=Load())]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[BinOp(left=Constant(value=2), op=Mult(), right=Name(id='recent', ctx=Load()))])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), BinOp(left=Name(id='backlog', ctx=Load()), op=Div(), right=Constant(value=2))], keywords=[])"
+      ],
+      [
+        "Compare(left=Name(id='pipeline', ctx=Load()), ops=[Gt()], comparators=[BinOp(left=Constant(value=2), op=Mult(), right=Name(id='recent', ctx=Load()))])",
+        "UnaryOp(op=USub(), operand=Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), BinOp(left=BinOp(left=Name(id='pipeline', ctx=Load()), op=Sub(), right=BinOp(left=Constant(value=2), op=Mult(), right=Name(id='recent', ctx=Load()))), op=Div(), right=Constant(value=2))], keywords=[]))"
+      ]
+    ],
+    "seconds": 0.0004011999990325421
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 0,
+    "decision_period": 96,
+    "event": 1,
+    "stage": "initial",
+    "attempt": 1,
+    "index": 2,
+    "raw_candidate_sha256": "9da05e01a45e98df6ddbb2b06aec3702d0aaba78d2c8a75ea2f9033b33bfcf91",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "9da05e01a45e98df6ddbb2b06aec3702d0aaba78d2c8a75ea2f9033b33bfcf91",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='inventory', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Gt()], comparators=[Name(id='recent', ctx=Load())])])",
+        "UnaryOp(op=USub(), operand=Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), BinOp(left=Name(id='inventory', ctx=Load()), op=Div(), right=Constant(value=2))], keywords=[]))"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='inventory', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Name(id='recent', ctx=Load())])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), BinOp(left=BinOp(left=Name(id='backlog', ctx=Load()), op=Add(), right=Name(id='recent', ctx=Load())), op=Sub(), right=Name(id='pipeline', ctx=Load()))], keywords=[])"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='inventory', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[GtE()], comparators=[Name(id='recent', ctx=Load())])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), BinOp(left=Name(id='backlog', ctx=Load()), op=Div(), right=Constant(value=2))], keywords=[])"
+      ]
+    ],
+    "seconds": 0.00043440001900307834
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 0,
+    "decision_period": 96,
+    "event": 1,
+    "stage": "revision",
+    "attempt": 1,
+    "index": 3,
+    "raw_candidate_sha256": "3401a7bdb1d7dc7c35241259419dd1b936be76e94f27b50d75b69e9faf6e1fae",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "3401a7bdb1d7dc7c35241259419dd1b936be76e94f27b50d75b69e9faf6e1fae",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[BinOp(left=Constant(value=2), op=Mult(), right=Name(id='recent', ctx=Load()))])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), BinOp(left=BinOp(left=Name(id='backlog', ctx=Load()), op=Add(), right=Name(id='recent', ctx=Load())), op=Sub(), right=BinOp(left=Name(id='pipeline', ctx=Load()), op=Div(), right=Constant(value=2)))], keywords=[])"
+      ],
+      [
+        "Compare(left=Name(id='pipeline', ctx=Load()), ops=[Gt()], comparators=[BinOp(left=Constant(value=3), op=Mult(), right=Name(id='recent', ctx=Load()))])",
+        "UnaryOp(op=USub(), operand=Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), BinOp(left=BinOp(left=Name(id='pipeline', ctx=Load()), op=Sub(), right=BinOp(left=Constant(value=3), op=Mult(), right=Name(id='recent', ctx=Load()))), op=Div(), right=Constant(value=2))], keywords=[]))"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='inventory', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Gt()], comparators=[Name(id='recent', ctx=Load())])])",
+        "UnaryOp(op=USub(), operand=Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), BinOp(left=BinOp(left=Name(id='pipeline', ctx=Load()), op=Sub(), right=Name(id='recent', ctx=Load())), op=Div(), right=Constant(value=2))], keywords=[]))"
+      ]
+    ],
+    "seconds": 0.0005967000033706427
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 0,
+    "decision_period": 101,
+    "event": 2,
+    "stage": "initial",
+    "attempt": 1,
+    "index": 4,
+    "raw_candidate_sha256": "90c4328591acb67bcfd616940df22069c4e57f9169bb15ae28e8e932000f1058",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "90c4328591acb67bcfd616940df22069c4e57f9169bb15ae28e8e932000f1058",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=10)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Constant(value=20)])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), BinOp(left=Name(id='backlog', ctx=Load()), op=Div(), right=Constant(value=5))], keywords=[])"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='inventory', ctx=Load()), ops=[Gt()], comparators=[Constant(value=10)])])",
+        "UnaryOp(op=USub(), operand=Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), BinOp(left=Name(id='inventory', ctx=Load()), op=Div(), right=Constant(value=5))], keywords=[]))"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=10)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Constant(value=30)])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), BinOp(left=Name(id='backlog', ctx=Load()), op=Div(), right=Constant(value=5))], keywords=[])"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='inventory', ctx=Load()), ops=[Gt()], comparators=[Constant(value=10)])])",
+        "UnaryOp(op=USub(), operand=Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), BinOp(left=Name(id='inventory', ctx=Load()), op=Div(), right=Constant(value=5))], keywords=[]))"
+      ]
+    ],
+    "seconds": 0.0005979000125080347
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 0,
+    "decision_period": 101,
+    "event": 2,
+    "stage": "initial",
+    "attempt": 1,
+    "index": 5,
+    "raw_candidate_sha256": "458a50b0f977ddc7af0a91717ef6be54c8312a081e8cb77e5302e93b6cba14a1",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "458a50b0f977ddc7af0a91717ef6be54c8312a081e8cb77e5302e93b6cba14a1",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=10)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Constant(value=20)])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), BinOp(left=Name(id='backlog', ctx=Load()), op=Div(), right=Constant(value=5))], keywords=[])"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='inventory', ctx=Load()), ops=[Gt()], comparators=[Constant(value=10)])])",
+        "UnaryOp(op=USub(), operand=Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), BinOp(left=Name(id='inventory', ctx=Load()), op=Div(), right=Constant(value=5))], keywords=[]))"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=10)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Constant(value=30)])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), BinOp(left=Name(id='backlog', ctx=Load()), op=Div(), right=Constant(value=5))], keywords=[])"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='inventory', ctx=Load()), ops=[Gt()], comparators=[Constant(value=10)])])",
+        "UnaryOp(op=USub(), operand=Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), BinOp(left=Name(id='inventory', ctx=Load()), op=Div(), right=Constant(value=5))], keywords=[]))"
+      ]
+    ],
+    "seconds": 0.0004904000088572502
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 0,
+    "decision_period": 101,
+    "event": 2,
+    "stage": "initial",
+    "attempt": 1,
+    "index": 6,
+    "raw_candidate_sha256": "458a50b0f977ddc7af0a91717ef6be54c8312a081e8cb77e5302e93b6cba14a1",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "458a50b0f977ddc7af0a91717ef6be54c8312a081e8cb77e5302e93b6cba14a1",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=10)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Constant(value=20)])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), BinOp(left=Name(id='backlog', ctx=Load()), op=Div(), right=Constant(value=5))], keywords=[])"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='inventory', ctx=Load()), ops=[Gt()], comparators=[Constant(value=10)])])",
+        "UnaryOp(op=USub(), operand=Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), BinOp(left=Name(id='inventory', ctx=Load()), op=Div(), right=Constant(value=5))], keywords=[]))"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=10)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Constant(value=30)])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), BinOp(left=Name(id='backlog', ctx=Load()), op=Div(), right=Constant(value=5))], keywords=[])"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='inventory', ctx=Load()), ops=[Gt()], comparators=[Constant(value=10)])])",
+        "UnaryOp(op=USub(), operand=Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), BinOp(left=Name(id='inventory', ctx=Load()), op=Div(), right=Constant(value=5))], keywords=[]))"
+      ]
+    ],
+    "seconds": 0.00047050000284798443
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 0,
+    "decision_period": 101,
+    "event": 2,
+    "stage": "revision",
+    "attempt": 1,
+    "index": 7,
+    "raw_candidate_sha256": "7a31c8845f422a0a09c829b5267de24d15d8003adee59af12120e21637c4a402",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "7a31c8845f422a0a09c829b5267de24d15d8003adee59af12120e21637c4a402",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=10)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Constant(value=20)])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), BinOp(left=Name(id='backlog', ctx=Load()), op=Div(), right=Constant(value=5))], keywords=[])"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='inventory', ctx=Load()), ops=[Gt()], comparators=[Constant(value=10)])])",
+        "UnaryOp(op=USub(), operand=Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), BinOp(left=Name(id='inventory', ctx=Load()), op=Div(), right=Constant(value=5))], keywords=[]))"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=10)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Constant(value=30)])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), BinOp(left=Name(id='backlog', ctx=Load()), op=Div(), right=Constant(value=5))], keywords=[])"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=2)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=5)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Constant(value=20)])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), BinOp(left=Name(id='backlog', ctx=Load()), op=Div(), right=Constant(value=5))], keywords=[])"
+      ]
+    ],
+    "seconds": 0.0009228999842889607
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 0,
+    "decision_period": 106,
+    "event": 3,
+    "stage": "initial",
+    "attempt": 1,
+    "index": 8,
+    "raw_candidate_sha256": "4e371705266d55b420c1596f1cc6dcb934ac6e12e5e4b3e3df7dd58185151d40",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "4e371705266d55b420c1596f1cc6dcb934ac6e12e5e4b3e3df7dd58185151d40",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)]), Compare(left=Name(id='growth', ctx=Load()), ops=[Gt()], comparators=[Constant(value=1.2)])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), BinOp(left=Name(id='backlog', ctx=Load()), op=Div(), right=Constant(value=2))], keywords=[])"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), BinOp(left=Name(id='backlog', ctx=Load()), op=Div(), right=Constant(value=2))], keywords=[])"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=2)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), BinOp(left=Name(id='backlog', ctx=Load()), op=Div(), right=Constant(value=2))], keywords=[])"
+      ]
+    ],
+    "seconds": 0.0004774999979417771
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 0,
+    "decision_period": 106,
+    "event": 3,
+    "stage": "initial",
+    "attempt": 1,
+    "index": 9,
+    "raw_candidate_sha256": "4dcbd5c15461534910e12f3cc873cb967d1d4d711db817ce0867046735910427",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "4dcbd5c15461534910e12f3cc873cb967d1d4d711db817ce0867046735910427",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Constant(value=10)])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), BinOp(left=Name(id='backlog', ctx=Load()), op=Div(), right=Constant(value=2))], keywords=[])"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Constant(value=10)])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), BinOp(left=Name(id='backlog', ctx=Load()), op=Div(), right=Constant(value=2))], keywords=[])"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=2)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Constant(value=10)])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), BinOp(left=Name(id='backlog', ctx=Load()), op=Div(), right=Constant(value=2))], keywords=[])"
+      ]
+    ],
+    "seconds": 0.0005751999851781875
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 0,
+    "decision_period": 106,
+    "event": 3,
+    "stage": "initial",
+    "attempt": 1,
+    "index": 10,
+    "raw_candidate_sha256": "53620c59748f9bbf4b8d094a60189fe711a0a6ca44daa87fb7907ba08711fb2d",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "53620c59748f9bbf4b8d094a60189fe711a0a6ca44daa87fb7907ba08711fb2d",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)]), Compare(left=Name(id='recent', ctx=Load()), ops=[Gt()], comparators=[Name(id='baseline', ctx=Load())])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), BinOp(left=Name(id='backlog', ctx=Load()), op=Div(), right=Constant(value=2))], keywords=[])"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)]), Compare(left=Name(id='recent', ctx=Load()), ops=[Gt()], comparators=[Name(id='baseline', ctx=Load())])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), BinOp(left=Name(id='backlog', ctx=Load()), op=Div(), right=Constant(value=2))], keywords=[])"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=2)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)]), Compare(left=Name(id='recent', ctx=Load()), ops=[Gt()], comparators=[Name(id='baseline', ctx=Load())])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), BinOp(left=Name(id='backlog', ctx=Load()), op=Div(), right=Constant(value=2))], keywords=[])"
+      ]
+    ],
+    "seconds": 0.00042830000165849924
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 0,
+    "decision_period": 106,
+    "event": 3,
+    "stage": "revision",
+    "attempt": 1,
+    "index": 11,
+    "raw_candidate_sha256": "4dcbd5c15461534910e12f3cc873cb967d1d4d711db817ce0867046735910427",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "4dcbd5c15461534910e12f3cc873cb967d1d4d711db817ce0867046735910427",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Constant(value=10)])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), BinOp(left=Name(id='backlog', ctx=Load()), op=Div(), right=Constant(value=2))], keywords=[])"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Constant(value=10)])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), BinOp(left=Name(id='backlog', ctx=Load()), op=Div(), right=Constant(value=2))], keywords=[])"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=2)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Constant(value=10)])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), BinOp(left=Name(id='backlog', ctx=Load()), op=Div(), right=Constant(value=2))], keywords=[])"
+      ]
+    ],
+    "seconds": 0.0005017000075895339
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 0,
+    "decision_period": 111,
+    "event": 4,
+    "stage": "initial",
+    "attempt": 1,
+    "index": 12,
+    "raw_candidate_sha256": "cb5152a5c00ddd8ce2ced38cde9922a8a29ae54b73a39fa261eeef6a8dfbc6cf",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "cb5152a5c00ddd8ce2ced38cde9922a8a29ae54b73a39fa261eeef6a8dfbc6cf",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), Call(func=Name(id='max', ctx=Load()), args=[Constant(value=0), BinOp(left=BinOp(left=Name(id='backlog', ctx=Load()), op=Add(), right=Constant(value=2)), op=Sub(), right=BinOp(left=Name(id='pipeline', ctx=Load()), op=Div(), right=Constant(value=4)))], keywords=[])], keywords=[])"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), Call(func=Name(id='max', ctx=Load()), args=[Constant(value=0), BinOp(left=BinOp(left=Name(id='backlog', ctx=Load()), op=Add(), right=Constant(value=2)), op=Sub(), right=BinOp(left=Name(id='pipeline', ctx=Load()), op=Div(), right=Constant(value=4)))], keywords=[])], keywords=[])"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=2)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), Call(func=Name(id='max', ctx=Load()), args=[Constant(value=0), BinOp(left=BinOp(left=Name(id='backlog', ctx=Load()), op=Add(), right=Constant(value=2)), op=Sub(), right=BinOp(left=Name(id='pipeline', ctx=Load()), op=Div(), right=Constant(value=4)))], keywords=[])], keywords=[])"
+      ]
+    ],
+    "seconds": 0.0007479999912902713
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 0,
+    "decision_period": 111,
+    "event": 4,
+    "stage": "initial",
+    "attempt": 1,
+    "index": 13,
+    "raw_candidate_sha256": "e29ba6011a0948490cd6feaa392382803749fcce9a3e074f36fa6d8bc0402159",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "e29ba6011a0948490cd6feaa392382803749fcce9a3e074f36fa6d8bc0402159",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), Call(func=Name(id='max', ctx=Load()), args=[Constant(value=0), BinOp(left=BinOp(left=Name(id='backlog', ctx=Load()), op=Add(), right=Constant(value=4)), op=Sub(), right=BinOp(left=Name(id='pipeline', ctx=Load()), op=Div(), right=Constant(value=3)))], keywords=[])], keywords=[])"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), Call(func=Name(id='max', ctx=Load()), args=[Constant(value=0), BinOp(left=BinOp(left=Name(id='backlog', ctx=Load()), op=Add(), right=Constant(value=4)), op=Sub(), right=BinOp(left=Name(id='pipeline', ctx=Load()), op=Div(), right=Constant(value=3)))], keywords=[])], keywords=[])"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=2)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), Call(func=Name(id='max', ctx=Load()), args=[Constant(value=0), BinOp(left=BinOp(left=Name(id='backlog', ctx=Load()), op=Add(), right=Constant(value=4)), op=Sub(), right=BinOp(left=Name(id='pipeline', ctx=Load()), op=Div(), right=Constant(value=3)))], keywords=[])], keywords=[])"
+      ]
+    ],
+    "seconds": 0.00048699998296797276
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 0,
+    "decision_period": 111,
+    "event": 4,
+    "stage": "initial",
+    "attempt": 1,
+    "index": 14,
+    "raw_candidate_sha256": "f918c10e902ef4258146d1f6720c9f9bb15e956f56056b4c2181932a4e2ac464",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "f918c10e902ef4258146d1f6720c9f9bb15e956f56056b4c2181932a4e2ac464",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Name(id='backlog', ctx=Load())])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), Call(func=Name(id='max', ctx=Load()), args=[Constant(value=0), BinOp(left=Name(id='backlog', ctx=Load()), op=Sub(), right=BinOp(left=Name(id='pipeline', ctx=Load()), op=Div(), right=Constant(value=2)))], keywords=[])], keywords=[])"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[GtE()], comparators=[Name(id='backlog', ctx=Load())])])",
+        "Call(func=Name(id='max', ctx=Load()), args=[UnaryOp(op=USub(), operand=Constant(value=6)), Call(func=Name(id='min', ctx=Load()), args=[Constant(value=0), BinOp(left=UnaryOp(op=USub(), operand=Name(id='backlog', ctx=Load())), op=Div(), right=Constant(value=2))], keywords=[])], keywords=[])"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Name(id='backlog', ctx=Load())])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), Call(func=Name(id='max', ctx=Load()), args=[Constant(value=0), BinOp(left=Name(id='backlog', ctx=Load()), op=Sub(), right=BinOp(left=Name(id='pipeline', ctx=Load()), op=Div(), right=Constant(value=2)))], keywords=[])], keywords=[])"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[GtE()], comparators=[Name(id='backlog', ctx=Load())])])",
+        "Call(func=Name(id='max', ctx=Load()), args=[UnaryOp(op=USub(), operand=Constant(value=6)), Call(func=Name(id='min', ctx=Load()), args=[Constant(value=0), BinOp(left=UnaryOp(op=USub(), operand=Name(id='backlog', ctx=Load())), op=Div(), right=Constant(value=2))], keywords=[])], keywords=[])"
+      ]
+    ],
+    "seconds": 0.0005791000148747116
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 0,
+    "decision_period": 111,
+    "event": 4,
+    "stage": "revision",
+    "attempt": 1,
+    "index": 15,
+    "raw_candidate_sha256": "91f6861699a73f116a510f7977def5d06d723ccc4c61badb571c898724551e87",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "91f6861699a73f116a510f7977def5d06d723ccc4c61badb571c898724551e87",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Name(id='backlog', ctx=Load())])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), Call(func=Name(id='max', ctx=Load()), args=[Constant(value=0), BinOp(left=Name(id='backlog', ctx=Load()), op=Sub(), right=BinOp(left=Name(id='pipeline', ctx=Load()), op=Div(), right=Constant(value=2)))], keywords=[])], keywords=[])"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[GtE()], comparators=[Name(id='backlog', ctx=Load())])])",
+        "Call(func=Name(id='max', ctx=Load()), args=[UnaryOp(op=USub(), operand=Constant(value=6)), Call(func=Name(id='min', ctx=Load()), args=[Constant(value=0), BinOp(left=UnaryOp(op=USub(), operand=Name(id='backlog', ctx=Load())), op=Div(), right=Constant(value=2))], keywords=[])], keywords=[])"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Name(id='backlog', ctx=Load())])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), Call(func=Name(id='max', ctx=Load()), args=[Constant(value=0), BinOp(left=Name(id='backlog', ctx=Load()), op=Sub(), right=BinOp(left=Name(id='pipeline', ctx=Load()), op=Div(), right=Constant(value=2)))], keywords=[])], keywords=[])"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[GtE()], comparators=[Name(id='backlog', ctx=Load())])])",
+        "Call(func=Name(id='max', ctx=Load()), args=[UnaryOp(op=USub(), operand=Constant(value=6)), Call(func=Name(id='min', ctx=Load()), args=[Constant(value=0), BinOp(left=UnaryOp(op=USub(), operand=Name(id='backlog', ctx=Load())), op=Div(), right=Constant(value=2))], keywords=[])], keywords=[])"
+      ]
+    ],
+    "seconds": 0.0007067999977152795
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 1,
+    "decision_period": 86,
+    "event": 1,
+    "stage": "initial",
+    "attempt": 1,
+    "index": 16,
+    "raw_candidate_sha256": "a6e067bab9372a2d6aec8a4cebcca217aaea246b99cac3cfd4a1f6e58b574b92",
+    "changes": [],
+    "status": "failed",
+    "failure_type": "ValueError",
+    "failure": "expected one to four rules",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "seconds": 9.590000263415277e-05
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 1,
+    "decision_period": 86,
+    "event": 1,
+    "stage": "initial",
+    "attempt": 2,
+    "index": 17,
+    "raw_candidate_sha256": "60232519e529a0fb86c6ea282a6345ff219e929ca0fa7a7ad71e73b322cfd2fd",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "60232519e529a0fb86c6ea282a6345ff219e929ca0fa7a7ad71e73b322cfd2fd",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Gt()], comparators=[BinOp(left=Name(id='recent', ctx=Load()), op=Mult(), right=Constant(value=2))]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Lt()], comparators=[Constant(value=2)])])",
+        "UnaryOp(op=USub(), operand=Constant(value=2))"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Name(id='recent', ctx=Load())]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)])])",
+        "Constant(value=2)"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Gt()], comparators=[BinOp(left=Name(id='recent', ctx=Load()), op=Mult(), right=Constant(value=2))]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)])])",
+        "UnaryOp(op=USub(), operand=Constant(value=2))"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Name(id='recent', ctx=Load())]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)])])",
+        "Constant(value=2)"
+      ]
+    ],
+    "seconds": 0.0005545000021811575
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 1,
+    "decision_period": 86,
+    "event": 1,
+    "stage": "initial",
+    "attempt": 2,
+    "index": 18,
+    "raw_candidate_sha256": "70c48262ca29e25ba061ec6fa3edfc6ccd21389ab8d05c477d8b2b519f7eaeb3",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "70c48262ca29e25ba061ec6fa3edfc6ccd21389ab8d05c477d8b2b519f7eaeb3",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=2)])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=4), Name(id='backlog', ctx=Load())], keywords=[])"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='inventory', ctx=Load()), ops=[Gt()], comparators=[Constant(value=10)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)])])",
+        "UnaryOp(op=USub(), operand=Constant(value=2))"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='growth', ctx=Load()), ops=[Gt()], comparators=[Constant(value=1.2)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)])])",
+        "Constant(value=2)"
+      ]
+    ],
+    "seconds": 0.00032350001856684685
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 1,
+    "decision_period": 86,
+    "event": 1,
+    "stage": "initial",
+    "attempt": 2,
+    "index": 19,
+    "raw_candidate_sha256": "ca1c5016700605f44c361ad2a040268e3e2d24b2f79387b613b65d3196c463ac",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "ca1c5016700605f44c361ad2a040268e3e2d24b2f79387b613b65d3196c463ac",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Name(id='recent', ctx=Load())]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)])])",
+        "Constant(value=2)"
+      ],
+      [
+        "Compare(left=Name(id='pipeline', ctx=Load()), ops=[Gt()], comparators=[BinOp(left=Name(id='recent', ctx=Load()), op=Mult(), right=Constant(value=2))])",
+        "UnaryOp(op=USub(), operand=Constant(value=2))"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='growth', ctx=Load()), ops=[Gt()], comparators=[Constant(value=1.1)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)])])",
+        "Constant(value=1)"
+      ]
+    ],
+    "seconds": 0.00030350001179613173
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 1,
+    "decision_period": 86,
+    "event": 1,
+    "stage": "revision",
+    "attempt": 1,
+    "index": 20,
+    "raw_candidate_sha256": "87bfc4df8c00bf6c0076d1f7decfc7bb0a2e65c5d85fe5c8e1e2fce05ef31df0",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "87bfc4df8c00bf6c0076d1f7decfc7bb0a2e65c5d85fe5c8e1e2fce05ef31df0",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Gt()], comparators=[BinOp(left=Name(id='recent', ctx=Load()), op=Mult(), right=Constant(value=2))]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Lt()], comparators=[Constant(value=2)])])",
+        "UnaryOp(op=USub(), operand=Constant(value=2))"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Name(id='recent', ctx=Load())]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)])])",
+        "Constant(value=2)"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Gt()], comparators=[BinOp(left=Name(id='recent', ctx=Load()), op=Mult(), right=Constant(value=2))]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)])])",
+        "UnaryOp(op=USub(), operand=Constant(value=2))"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Name(id='recent', ctx=Load())]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)])])",
+        "Constant(value=2)"
+      ]
+    ],
+    "seconds": 0.0005548000044655055
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 1,
+    "decision_period": 91,
+    "event": 2,
+    "stage": "initial",
+    "attempt": 1,
+    "index": 21,
+    "raw_candidate_sha256": "fc763bfb9acc7e03fdf63e93a742ff66a6efec83fb2a56dfbc303f4e641499d6",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "fc763bfb9acc7e03fdf63e93a742ff66a6efec83fb2a56dfbc303f4e641499d6",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='growth', ctx=Load()), ops=[Gt()], comparators=[Constant(value=1.5)])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), Call(func=Name(id='max', ctx=Load()), args=[Constant(value=0), BinOp(left=BinOp(left=BinOp(left=Name(id='backlog', ctx=Load()), op=Add(), right=Name(id='incoming', ctx=Load())), op=Sub(), right=Name(id='inventory', ctx=Load())), op=Sub(), right=Name(id='pipeline', ctx=Load()))], keywords=[])], keywords=[])"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='growth', ctx=Load()), ops=[Gt()], comparators=[Constant(value=1.5)])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), Call(func=Name(id='max', ctx=Load()), args=[Constant(value=0), BinOp(left=BinOp(left=BinOp(left=Name(id='backlog', ctx=Load()), op=Add(), right=Name(id='incoming', ctx=Load())), op=Sub(), right=Name(id='inventory', ctx=Load())), op=Sub(), right=Name(id='pipeline', ctx=Load()))], keywords=[])], keywords=[])"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=2)]), Compare(left=Name(id='growth', ctx=Load()), ops=[Gt()], comparators=[Constant(value=1.5)])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), Call(func=Name(id='max', ctx=Load()), args=[Constant(value=0), BinOp(left=BinOp(left=BinOp(left=Name(id='backlog', ctx=Load()), op=Add(), right=Name(id='incoming', ctx=Load())), op=Sub(), right=Name(id='inventory', ctx=Load())), op=Sub(), right=Name(id='pipeline', ctx=Load()))], keywords=[])], keywords=[])"
+      ]
+    ],
+    "seconds": 0.0006377999961841851
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 1,
+    "decision_period": 91,
+    "event": 2,
+    "stage": "initial",
+    "attempt": 1,
+    "index": 22,
+    "raw_candidate_sha256": "6bb2a28f3133d72332e5e1d5c5a04edade75c479091f6172ab7c7af25b18a8cd",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "6bb2a28f3133d72332e5e1d5c5a04edade75c479091f6172ab7c7af25b18a8cd",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='growth', ctx=Load()), ops=[Gt()], comparators=[Constant(value=1.5)])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), Call(func=Name(id='max', ctx=Load()), args=[Constant(value=0), BinOp(left=BinOp(left=BinOp(left=Name(id='backlog', ctx=Load()), op=Add(), right=Name(id='recent', ctx=Load())), op=Sub(), right=Name(id='inventory', ctx=Load())), op=Sub(), right=Name(id='pipeline', ctx=Load()))], keywords=[])], keywords=[])"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='growth', ctx=Load()), ops=[Gt()], comparators=[Constant(value=1.5)])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), Call(func=Name(id='max', ctx=Load()), args=[Constant(value=0), BinOp(left=BinOp(left=BinOp(left=Name(id='backlog', ctx=Load()), op=Add(), right=Name(id='recent', ctx=Load())), op=Sub(), right=Name(id='inventory', ctx=Load())), op=Sub(), right=Name(id='pipeline', ctx=Load()))], keywords=[])], keywords=[])"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=2)]), Compare(left=Name(id='growth', ctx=Load()), ops=[Gt()], comparators=[Constant(value=1.5)])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), Call(func=Name(id='max', ctx=Load()), args=[Constant(value=0), BinOp(left=BinOp(left=BinOp(left=Name(id='backlog', ctx=Load()), op=Add(), right=Name(id='recent', ctx=Load())), op=Sub(), right=Name(id='inventory', ctx=Load())), op=Sub(), right=Name(id='pipeline', ctx=Load()))], keywords=[])], keywords=[])"
+      ]
+    ],
+    "seconds": 0.00053190000471659
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 1,
+    "decision_period": 91,
+    "event": 2,
+    "stage": "initial",
+    "attempt": 1,
+    "index": 23,
+    "raw_candidate_sha256": "ccff90adab1a29a2b8b3bdea8fa4c6f4c48a1e3414c4b1c42482c071cf0311a7",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "ccff90adab1a29a2b8b3bdea8fa4c6f4c48a1e3414c4b1c42482c071cf0311a7",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='growth', ctx=Load()), ops=[Gt()], comparators=[Constant(value=1.5)])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=4), Call(func=Name(id='max', ctx=Load()), args=[Constant(value=0), BinOp(left=BinOp(left=BinOp(left=Name(id='backlog', ctx=Load()), op=Add(), right=Name(id='incoming', ctx=Load())), op=Sub(), right=Name(id='inventory', ctx=Load())), op=Sub(), right=Name(id='pipeline', ctx=Load()))], keywords=[])], keywords=[])"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='growth', ctx=Load()), ops=[Gt()], comparators=[Constant(value=1.5)])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=4), Call(func=Name(id='max', ctx=Load()), args=[Constant(value=0), BinOp(left=BinOp(left=BinOp(left=Name(id='backlog', ctx=Load()), op=Add(), right=Name(id='incoming', ctx=Load())), op=Sub(), right=Name(id='inventory', ctx=Load())), op=Sub(), right=Name(id='pipeline', ctx=Load()))], keywords=[])], keywords=[])"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=2)]), Compare(left=Name(id='growth', ctx=Load()), ops=[Gt()], comparators=[Constant(value=1.5)])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=4), Call(func=Name(id='max', ctx=Load()), args=[Constant(value=0), BinOp(left=BinOp(left=BinOp(left=Name(id='backlog', ctx=Load()), op=Add(), right=Name(id='incoming', ctx=Load())), op=Sub(), right=Name(id='inventory', ctx=Load())), op=Sub(), right=Name(id='pipeline', ctx=Load()))], keywords=[])], keywords=[])"
+      ]
+    ],
+    "seconds": 0.0005181000160519034
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 1,
+    "decision_period": 91,
+    "event": 2,
+    "stage": "revision",
+    "attempt": 1,
+    "index": 24,
+    "raw_candidate_sha256": "def853f94709a0b56e44f65ca725dcb665e8f9ea8c5bb91f3ec95e1da2ca4303",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "def853f94709a0b56e44f65ca725dcb665e8f9ea8c5bb91f3ec95e1da2ca4303",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='growth', ctx=Load()), ops=[Gt()], comparators=[Constant(value=1.5)])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), Call(func=Name(id='max', ctx=Load()), args=[Constant(value=0), BinOp(left=BinOp(left=BinOp(left=Name(id='backlog', ctx=Load()), op=Add(), right=Name(id='incoming', ctx=Load())), op=Sub(), right=Name(id='inventory', ctx=Load())), op=Sub(), right=Name(id='pipeline', ctx=Load()))], keywords=[])], keywords=[])"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='growth', ctx=Load()), ops=[Gt()], comparators=[Constant(value=1.5)])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), Call(func=Name(id='max', ctx=Load()), args=[Constant(value=0), BinOp(left=BinOp(left=BinOp(left=Name(id='backlog', ctx=Load()), op=Add(), right=Name(id='incoming', ctx=Load())), op=Sub(), right=Name(id='inventory', ctx=Load())), op=Sub(), right=Name(id='pipeline', ctx=Load()))], keywords=[])], keywords=[])"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=2)]), Compare(left=Name(id='growth', ctx=Load()), ops=[Gt()], comparators=[Constant(value=1.5)])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), Call(func=Name(id='max', ctx=Load()), args=[Constant(value=0), BinOp(left=BinOp(left=BinOp(left=Name(id='backlog', ctx=Load()), op=Add(), right=Name(id='incoming', ctx=Load())), op=Sub(), right=Name(id='inventory', ctx=Load())), op=Sub(), right=Name(id='pipeline', ctx=Load()))], keywords=[])], keywords=[])"
+      ]
+    ],
+    "seconds": 0.0006413999944925308
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 1,
+    "decision_period": 96,
+    "event": 3,
+    "stage": "initial",
+    "attempt": 1,
+    "index": 25,
+    "raw_candidate_sha256": "bc6e780fcabab85ee98232cdf1e6f4317bef12fbd60fe49f468751dd2002e357",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "bc6e780fcabab85ee98232cdf1e6f4317bef12fbd60fe49f468751dd2002e357",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='inventory', ctx=Load()), ops=[Gt()], comparators=[BinOp(left=Name(id='recent', ctx=Load()), op=Mult(), right=Constant(value=2))]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Gt()], comparators=[BinOp(left=Name(id='recent', ctx=Load()), op=Mult(), right=Constant(value=2))])])",
+        "UnaryOp(op=USub(), operand=Constant(value=2))"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='inventory', ctx=Load()), ops=[Gt()], comparators=[BinOp(left=Name(id='recent', ctx=Load()), op=Mult(), right=Constant(value=1.5))]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Gt()], comparators=[BinOp(left=Name(id='recent', ctx=Load()), op=Mult(), right=Constant(value=1.5))])])",
+        "UnaryOp(op=USub(), operand=Constant(value=1))"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)]), Compare(left=BinOp(left=Name(id='inventory', ctx=Load()), op=Add(), right=Name(id='pipeline', ctx=Load())), ops=[Lt()], comparators=[BinOp(left=Name(id='recent', ctx=Load()), op=Mult(), right=Constant(value=2))])])",
+        "Constant(value=1)"
+      ]
+    ],
+    "seconds": 0.000440500007243827
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 1,
+    "decision_period": 96,
+    "event": 3,
+    "stage": "initial",
+    "attempt": 1,
+    "index": 26,
+    "raw_candidate_sha256": "43d253ecd7ccb38706b870ded8279fae1c4e05f266a38d848e9569a1800f6d1c",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "43d253ecd7ccb38706b870ded8279fae1c4e05f266a38d848e9569a1800f6d1c",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='growth', ctx=Load()), ops=[Gt()], comparators=[Constant(value=1.2)]), Compare(left=Name(id='inventory', ctx=Load()), ops=[Lt()], comparators=[BinOp(left=Name(id='recent', ctx=Load()), op=Mult(), right=Constant(value=2))])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=2), Call(func=Name(id='max', ctx=Load()), args=[Constant(value=1), BinOp(left=BinOp(left=Name(id='recent', ctx=Load()), op=Sub(), right=Name(id='inventory', ctx=Load())), op=Div(), right=Constant(value=2))], keywords=[])], keywords=[])"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='growth', ctx=Load()), ops=[Lt()], comparators=[Constant(value=0.8)]), Compare(left=Name(id='inventory', ctx=Load()), ops=[Gt()], comparators=[BinOp(left=Name(id='recent', ctx=Load()), op=Mult(), right=Constant(value=2))])])",
+        "UnaryOp(op=USub(), operand=Constant(value=1))"
+      ],
+      [
+        "Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)])",
+        "Constant(value=1)"
+      ]
+    ],
+    "seconds": 0.0003519000019878149
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 1,
+    "decision_period": 96,
+    "event": 3,
+    "stage": "initial",
+    "attempt": 1,
+    "index": 27,
+    "raw_candidate_sha256": "a0089b86d35bf9fc826966e60f3076cbcb5af3f04b5f54ecdb4aa09e165dab77",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "a0089b86d35bf9fc826966e60f3076cbcb5af3f04b5f54ecdb4aa09e165dab77",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[BinOp(left=Name(id='backlog', ctx=Load()), op=Mult(), right=Constant(value=3))])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=3), Name(id='backlog', ctx=Load())], keywords=[])"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='inventory', ctx=Load()), ops=[Gt()], comparators=[BinOp(left=Name(id='recent', ctx=Load()), op=Mult(), right=Constant(value=3))]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)])])",
+        "UnaryOp(op=USub(), operand=Constant(value=2))"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='inventory', ctx=Load()), ops=[Gt()], comparators=[BinOp(left=Name(id='recent', ctx=Load()), op=Mult(), right=Constant(value=2))]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)])])",
+        "UnaryOp(op=USub(), operand=Constant(value=1))"
+      ]
+    ],
+    "seconds": 0.0003381999849807471
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 1,
+    "decision_period": 96,
+    "event": 3,
+    "stage": "revision",
+    "attempt": 1,
+    "index": 28,
+    "raw_candidate_sha256": "9807586367ddbfc46e439506dcacdff4d0471df08ba66be1d00e0605e66a1b2f",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "9807586367ddbfc46e439506dcacdff4d0471df08ba66be1d00e0605e66a1b2f",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='inventory', ctx=Load()), ops=[Gt()], comparators=[BinOp(left=Name(id='recent', ctx=Load()), op=Mult(), right=Constant(value=2))]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Gt()], comparators=[BinOp(left=Name(id='recent', ctx=Load()), op=Mult(), right=Constant(value=2))])])",
+        "UnaryOp(op=USub(), operand=Constant(value=2))"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[BinOp(left=Name(id='backlog', ctx=Load()), op=Mult(), right=Constant(value=2))])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=3), Name(id='backlog', ctx=Load())], keywords=[])"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='growth', ctx=Load()), ops=[Gt()], comparators=[Constant(value=1.2)]), Compare(left=Name(id='inventory', ctx=Load()), ops=[Lt()], comparators=[BinOp(left=Name(id='recent', ctx=Load()), op=Mult(), right=Constant(value=1.5))])])",
+        "Constant(value=1)"
+      ]
+    ],
+    "seconds": 0.0006337000231724232
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 1,
+    "decision_period": 101,
+    "event": 4,
+    "stage": "initial",
+    "attempt": 1,
+    "index": 29,
+    "raw_candidate_sha256": "1db06f18cd6d7d102c3586f0bf98f847e1344b183e49032bf1681929b506bf20",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "1db06f18cd6d7d102c3586f0bf98f847e1344b183e49032bf1681929b506bf20",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)])])",
+        "Name(id='backlog', ctx=Load())"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)])])",
+        "Name(id='backlog', ctx=Load())"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=2)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)])])",
+        "Name(id='backlog', ctx=Load())"
+      ]
+    ],
+    "seconds": 0.000603899999987334
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 1,
+    "decision_period": 101,
+    "event": 4,
+    "stage": "initial",
+    "attempt": 1,
+    "index": 30,
+    "raw_candidate_sha256": "95a5efa16ce62d6653826b1f8dd16f25a30d6ed523b1a34939d6993cbad99040",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "95a5efa16ce62d6653826b1f8dd16f25a30d6ed523b1a34939d6993cbad99040",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)])])",
+        "Name(id='backlog', ctx=Load())"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)])])",
+        "Name(id='backlog', ctx=Load())"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=2)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)])])",
+        "Name(id='backlog', ctx=Load())"
+      ],
+      [
+        "Compare(left=Name(id='growth', ctx=Load()), ops=[Gt()], comparators=[Constant(value=1.2)])",
+        "Constant(value=2)"
+      ]
+    ],
+    "seconds": 0.00031900001340545714
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 1,
+    "decision_period": 101,
+    "event": 4,
+    "stage": "initial",
+    "attempt": 1,
+    "index": 31,
+    "raw_candidate_sha256": "d231a7a46e271642c056f72339753b63b8bf3f4c61280b15317d340fcc959abb",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "d231a7a46e271642c056f72339753b63b8bf3f4c61280b15317d340fcc959abb",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)])])",
+        "Name(id='backlog', ctx=Load())"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)])])",
+        "Name(id='backlog', ctx=Load())"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=2)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)])])",
+        "Name(id='backlog', ctx=Load())"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='inventory', ctx=Load()), ops=[Gt()], comparators=[Constant(value=10)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)])])",
+        "UnaryOp(op=USub(), operand=Constant(value=1))"
+      ]
+    ],
+    "seconds": 0.00034500000765547156
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 1,
+    "decision_period": 101,
+    "event": 4,
+    "stage": "revision",
+    "attempt": 1,
+    "index": 32,
+    "raw_candidate_sha256": "f8692b27806e2604f7bef54bf9f466782c193634c69d43c9ca73f9d2e3b232c4",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "f8692b27806e2604f7bef54bf9f466782c193634c69d43c9ca73f9d2e3b232c4",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)])])",
+        "Name(id='backlog', ctx=Load())"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)])])",
+        "Name(id='backlog', ctx=Load())"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=2)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)])])",
+        "Name(id='backlog', ctx=Load())"
+      ],
+      [
+        "Compare(left=Name(id='growth', ctx=Load()), ops=[Gt()], comparators=[Constant(value=1.2)])",
+        "Constant(value=2)"
+      ]
+    ],
+    "seconds": 0.0004167000006418675
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 2,
+    "decision_period": 90,
+    "event": 1,
+    "stage": "initial",
+    "attempt": 1,
+    "index": 33,
+    "raw_candidate_sha256": "975d5aedb9d417a82dfe308762f7259d18e07b96960a0f5d6012f0400f211349",
+    "changes": [],
+    "status": "failed",
+    "failure_type": "ValueError",
+    "failure": "expected one to four rules",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "seconds": 6.920000305399299e-05
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 2,
+    "decision_period": 90,
+    "event": 1,
+    "stage": "initial",
+    "attempt": 2,
+    "index": 34,
+    "raw_candidate_sha256": "d6ca341462dcf75172b2c05cc18bdd407844e4795e2537e56c88e3fefb9594a7",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "d6ca341462dcf75172b2c05cc18bdd407844e4795e2537e56c88e3fefb9594a7",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), Name(id='backlog', ctx=Load())], keywords=[])"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='inventory', ctx=Load()), ops=[Lt()], comparators=[Constant(value=5)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Constant(value=10)])])",
+        "Constant(value=2)"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), Name(id='backlog', ctx=Load())], keywords=[])"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='inventory', ctx=Load()), ops=[Lt()], comparators=[Constant(value=10)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Constant(value=15)])])",
+        "Constant(value=2)"
+      ]
+    ],
+    "seconds": 0.0005839999939780682
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 2,
+    "decision_period": 90,
+    "event": 1,
+    "stage": "initial",
+    "attempt": 2,
+    "index": 35,
+    "raw_candidate_sha256": "33eb011bb8e690b827a3562349ceea959fc9e01ffad7e33a2579a0e4724b39c8",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "33eb011bb8e690b827a3562349ceea959fc9e01ffad7e33a2579a0e4724b39c8",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), Name(id='backlog', ctx=Load())], keywords=[])"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='inventory', ctx=Load()), ops=[Lt()], comparators=[Constant(value=5)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Constant(value=10)])])",
+        "Constant(value=2)"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), Name(id='backlog', ctx=Load())], keywords=[])"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='inventory', ctx=Load()), ops=[Lt()], comparators=[Constant(value=10)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Constant(value=15)])])",
+        "Constant(value=2)"
+      ]
+    ],
+    "seconds": 0.000582600012421608
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 2,
+    "decision_period": 90,
+    "event": 1,
+    "stage": "initial",
+    "attempt": 2,
+    "index": 36,
+    "raw_candidate_sha256": "33eb011bb8e690b827a3562349ceea959fc9e01ffad7e33a2579a0e4724b39c8",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "33eb011bb8e690b827a3562349ceea959fc9e01ffad7e33a2579a0e4724b39c8",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), Name(id='backlog', ctx=Load())], keywords=[])"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='inventory', ctx=Load()), ops=[Lt()], comparators=[Constant(value=5)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Constant(value=10)])])",
+        "Constant(value=2)"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), Name(id='backlog', ctx=Load())], keywords=[])"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='inventory', ctx=Load()), ops=[Lt()], comparators=[Constant(value=10)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Constant(value=15)])])",
+        "Constant(value=2)"
+      ]
+    ],
+    "seconds": 0.00042810000013560057
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 2,
+    "decision_period": 90,
+    "event": 1,
+    "stage": "revision",
+    "attempt": 1,
+    "index": 37,
+    "raw_candidate_sha256": "d6ca341462dcf75172b2c05cc18bdd407844e4795e2537e56c88e3fefb9594a7",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "d6ca341462dcf75172b2c05cc18bdd407844e4795e2537e56c88e3fefb9594a7",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), Name(id='backlog', ctx=Load())], keywords=[])"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='inventory', ctx=Load()), ops=[Lt()], comparators=[Constant(value=5)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Constant(value=10)])])",
+        "Constant(value=2)"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), Name(id='backlog', ctx=Load())], keywords=[])"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='inventory', ctx=Load()), ops=[Lt()], comparators=[Constant(value=10)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Constant(value=15)])])",
+        "Constant(value=2)"
+      ]
+    ],
+    "seconds": 0.0005363000091165304
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 2,
+    "decision_period": 95,
+    "event": 2,
+    "stage": "initial",
+    "attempt": 1,
+    "index": 38,
+    "raw_candidate_sha256": "1db2e88bc1f583f3ef39579712404e8eb3ede681f2ad95ac4beade678b84f657",
+    "changes": [
+      {
+        "rule_index": 2,
+        "field": "when",
+        "original": "true",
+        "repaired": "True",
+        "edits": [
+          {
+            "start": 0,
+            "end": 4,
+            "before": "true",
+            "after": "True"
+          }
+        ]
+      }
+    ],
+    "status": "valid",
+    "normalized_candidate_sha256": "a44d44e444486dffe4fd95b5e720cec0d7dea481f9730dc25deb16c890a90e7a",
+    "normalization_used": true,
+    "replaced_tokens": 1,
+    "compiled_ast": [
+      [
+        "Compare(left=Name(id='pipeline', ctx=Load()), ops=[Gt()], comparators=[BinOp(left=Constant(value=2), op=Mult(), right=Name(id='recent', ctx=Load()))])",
+        "UnaryOp(op=USub(), operand=Constant(value=2))"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Name(id='recent', ctx=Load())])])",
+        "Constant(value=1)"
+      ],
+      [
+        "Constant(value=True)",
+        "Constant(value=0)"
+      ]
+    ],
+    "seconds": 0.00035680001019500196
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 2,
+    "decision_period": 95,
+    "event": 2,
+    "stage": "initial",
+    "attempt": 1,
+    "index": 39,
+    "raw_candidate_sha256": "5f3e0fa7890be4df2601ba6b88016dc7c8e21e5a5e1b9270b8b508e4859cd92c",
+    "changes": [
+      {
+        "rule_index": 2,
+        "field": "when",
+        "original": "true",
+        "repaired": "True",
+        "edits": [
+          {
+            "start": 0,
+            "end": 4,
+            "before": "true",
+            "after": "True"
+          }
+        ]
+      }
+    ],
+    "status": "valid",
+    "normalized_candidate_sha256": "a80ed9596754958bda240b136a85214b7bb37c3ce3cd35184a4a36c24e143fde",
+    "normalization_used": true,
+    "replaced_tokens": 1,
+    "compiled_ast": [
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='growth', ctx=Load()), ops=[Gt()], comparators=[Constant(value=1.2)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[BinOp(left=Constant(value=3), op=Mult(), right=Name(id='recent', ctx=Load()))])])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=2), Call(func=Name(id='max', ctx=Load()), args=[Constant(value=0), BinOp(left=Name(id='recent', ctx=Load()), op=Sub(), right=Name(id='baseline', ctx=Load()))], keywords=[])], keywords=[])"
+      ],
+      [
+        "Compare(left=Name(id='pipeline', ctx=Load()), ops=[Gt()], comparators=[BinOp(left=Constant(value=3), op=Mult(), right=Name(id='recent', ctx=Load()))])",
+        "UnaryOp(op=USub(), operand=Constant(value=1))"
+      ],
+      [
+        "Constant(value=True)",
+        "Constant(value=0)"
+      ]
+    ],
+    "seconds": 0.0003578999894671142
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 2,
+    "decision_period": 95,
+    "event": 2,
+    "stage": "initial",
+    "attempt": 1,
+    "index": 40,
+    "raw_candidate_sha256": "734ae720a13dec47e9e2a14fff8eb9e138d9cda166bf001e9acd4898f1b7e81a",
+    "changes": [
+      {
+        "rule_index": 3,
+        "field": "when",
+        "original": "true",
+        "repaired": "True",
+        "edits": [
+          {
+            "start": 0,
+            "end": 4,
+            "before": "true",
+            "after": "True"
+          }
+        ]
+      }
+    ],
+    "status": "valid",
+    "normalized_candidate_sha256": "84c9a2833ea0126f70d1f6925e440dcfc97cb904d253fd9dae3e37583063b119",
+    "normalization_used": true,
+    "replaced_tokens": 1,
+    "compiled_ast": [
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=5)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[BinOp(left=Constant(value=2), op=Mult(), right=Name(id='recent', ctx=Load()))])])",
+        "Constant(value=2)"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Name(id='recent', ctx=Load())])])",
+        "Constant(value=1)"
+      ],
+      [
+        "Compare(left=Name(id='pipeline', ctx=Load()), ops=[Gt()], comparators=[BinOp(left=Constant(value=2), op=Mult(), right=Name(id='recent', ctx=Load()))])",
+        "UnaryOp(op=USub(), operand=Constant(value=1))"
+      ],
+      [
+        "Constant(value=True)",
+        "Constant(value=0)"
+      ]
+    ],
+    "seconds": 0.0006814000080339611
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 2,
+    "decision_period": 95,
+    "event": 2,
+    "stage": "revision",
+    "attempt": 1,
+    "index": 41,
+    "raw_candidate_sha256": "21d19d476163b70862b9984ac53fbff982cac6c0695195326ac4e4e0f960a9e7",
+    "changes": [
+      {
+        "rule_index": 3,
+        "field": "when",
+        "original": "true",
+        "repaired": "True",
+        "edits": [
+          {
+            "start": 0,
+            "end": 4,
+            "before": "true",
+            "after": "True"
+          }
+        ]
+      }
+    ],
+    "status": "valid",
+    "normalized_candidate_sha256": "67a23ed6761c727bc10a183e00e65d09556bdbe8d4e3edd2b247a9c4bf96b444",
+    "normalization_used": true,
+    "replaced_tokens": 1,
+    "compiled_ast": [
+      [
+        "Compare(left=Name(id='pipeline', ctx=Load()), ops=[Gt()], comparators=[BinOp(left=Constant(value=2), op=Mult(), right=Name(id='recent', ctx=Load()))])",
+        "UnaryOp(op=USub(), operand=Constant(value=2))"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=5)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Name(id='recent', ctx=Load())])])",
+        "Constant(value=2)"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Name(id='recent', ctx=Load())])])",
+        "Constant(value=1)"
+      ],
+      [
+        "Constant(value=True)",
+        "Constant(value=0)"
+      ]
+    ],
+    "seconds": 0.00043340001138858497
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 2,
+    "decision_period": 100,
+    "event": 3,
+    "stage": "initial",
+    "attempt": 1,
+    "index": 42,
+    "raw_candidate_sha256": "884cd3f5009009c5b8ff8a507e54b6c66fc7fe967f3c2d6e6ba4597b5e42d907",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "884cd3f5009009c5b8ff8a507e54b6c66fc7fe967f3c2d6e6ba4597b5e42d907",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "Constant(value=1)",
+        "Constant(value=0)"
+      ]
+    ],
+    "seconds": 0.00025599999935366213
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 2,
+    "decision_period": 100,
+    "event": 3,
+    "stage": "initial",
+    "attempt": 1,
+    "index": 43,
+    "raw_candidate_sha256": "3f8ae285b0822dca61c0297a03ab9871ab491d72c40f1915eb4081fbeca2c3d0",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "3f8ae285b0822dca61c0297a03ab9871ab491d72c40f1915eb4081fbeca2c3d0",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Gt()], comparators=[BinOp(left=Constant(value=2), op=Mult(), right=Name(id='recent', ctx=Load()))])])",
+        "UnaryOp(op=USub(), operand=Constant(value=2))"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Gt()], comparators=[BinOp(left=Constant(value=2), op=Mult(), right=Name(id='recent', ctx=Load()))])])",
+        "UnaryOp(op=USub(), operand=Constant(value=2))"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=2)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Gt()], comparators=[BinOp(left=Constant(value=2), op=Mult(), right=Name(id='recent', ctx=Load()))])])",
+        "UnaryOp(op=USub(), operand=Constant(value=2))"
+      ]
+    ],
+    "seconds": 0.0007492000004276633
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 2,
+    "decision_period": 100,
+    "event": 3,
+    "stage": "initial",
+    "attempt": 1,
+    "index": 44,
+    "raw_candidate_sha256": "208c9452d9250be57e27a9617fdefc52fdcc20da39994f0906679f62da142c64",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "208c9452d9250be57e27a9617fdefc52fdcc20da39994f0906679f62da142c64",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=5)])])",
+        "Constant(value=2)"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=5)])])",
+        "Constant(value=2)"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=2)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=5)])])",
+        "Constant(value=2)"
+      ]
+    ],
+    "seconds": 0.000611600000411272
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 2,
+    "decision_period": 100,
+    "event": 3,
+    "stage": "revision",
+    "attempt": 1,
+    "index": 45,
+    "raw_candidate_sha256": "c7842d2025d398966aaa06b02f54047c80ec83fd9085f64b6314eff2b7b5783c",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "c7842d2025d398966aaa06b02f54047c80ec83fd9085f64b6314eff2b7b5783c",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "Compare(left=Name(id='pipeline', ctx=Load()), ops=[Gt()], comparators=[BinOp(left=Constant(value=2.5), op=Mult(), right=Name(id='recent', ctx=Load()))])",
+        "UnaryOp(op=USub(), operand=Constant(value=2))"
+      ],
+      [
+        "Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=5)])",
+        "Constant(value=2)"
+      ]
+    ],
+    "seconds": 0.0003521000035107136
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 2,
+    "decision_period": 105,
+    "event": 4,
+    "stage": "initial",
+    "attempt": 1,
+    "index": 46,
+    "raw_candidate_sha256": "09485e7d7e45274bdcc14ddd4323fc5b999998d1b61c67789d443f67e5c5b0f9",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "09485e7d7e45274bdcc14ddd4323fc5b999998d1b61c67789d443f67e5c5b0f9",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Gt()], comparators=[Constant(value=20)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)])])",
+        "UnaryOp(op=USub(), operand=Constant(value=2))"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)])])",
+        "Constant(value=2)"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Gt()], comparators=[Constant(value=15)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)])])",
+        "UnaryOp(op=USub(), operand=Constant(value=1))"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)])])",
+        "Constant(value=1)"
+      ]
+    ],
+    "seconds": 0.000521400012075901
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 2,
+    "decision_period": 105,
+    "event": 4,
+    "stage": "initial",
+    "attempt": 1,
+    "index": 47,
+    "raw_candidate_sha256": "26355fff53c7442813ff8e259981d0b90b91db24d880db45aeecb0360467b556",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "26355fff53c7442813ff8e259981d0b90b91db24d880db45aeecb0360467b556",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='growth', ctx=Load()), ops=[Gt()], comparators=[Constant(value=1.1)])])",
+        "Constant(value=2)"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='growth', ctx=Load()), ops=[Lt()], comparators=[Constant(value=0.9)])])",
+        "UnaryOp(op=USub(), operand=Constant(value=1))"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='growth', ctx=Load()), ops=[Gt()], comparators=[Constant(value=1.1)])])",
+        "Constant(value=1)"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='growth', ctx=Load()), ops=[Lt()], comparators=[Constant(value=0.9)])])",
+        "UnaryOp(op=USub(), operand=Constant(value=1))"
+      ]
+    ],
+    "seconds": 0.0004072000156156719
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 2,
+    "decision_period": 105,
+    "event": 4,
+    "stage": "initial",
+    "attempt": 1,
+    "index": 48,
+    "raw_candidate_sha256": "b02872fc9790fbc85adf09ac01c2777fce1eaba7c5defac6478452a044452789",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "b02872fc9790fbc85adf09ac01c2777fce1eaba7c5defac6478452a044452789",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=2)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)])])",
+        "Constant(value=3)"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)])])",
+        "Constant(value=2)"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)])])",
+        "Constant(value=1)"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=2)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='inventory', ctx=Load()), ops=[Gt()], comparators=[Constant(value=50)])])",
+        "UnaryOp(op=USub(), operand=Constant(value=1))"
+      ]
+    ],
+    "seconds": 0.0004278999986127019
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 2,
+    "decision_period": 105,
+    "event": 4,
+    "stage": "revision",
+    "attempt": 1,
+    "index": 49,
+    "raw_candidate_sha256": "c3002947704f91c0f60d447508cab9a29d020178442957a0a9833dd251dbe6ab",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "c3002947704f91c0f60d447508cab9a29d020178442957a0a9833dd251dbe6ab",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Gt()], comparators=[Constant(value=20)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)])])",
+        "UnaryOp(op=USub(), operand=Constant(value=2))"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)])])",
+        "Constant(value=2)"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Gt()], comparators=[Constant(value=15)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)])])",
+        "UnaryOp(op=USub(), operand=Constant(value=1))"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)])])",
+        "Constant(value=1)"
+      ]
+    ],
+    "seconds": 0.0004993999900761992
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 3,
+    "decision_period": 73,
+    "event": 1,
+    "stage": "initial",
+    "attempt": 1,
+    "index": 50,
+    "raw_candidate_sha256": "3638a1d14b9b625938a2fcb425c6eb52fc6fb644fa06f718f38dbc912b9adaed",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "3638a1d14b9b625938a2fcb425c6eb52fc6fb644fa06f718f38dbc912b9adaed",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='inventory', ctx=Load()), ops=[Lt()], comparators=[Constant(value=5)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Constant(value=10)])])",
+        "Constant(value=2)"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='inventory', ctx=Load()), ops=[Lt()], comparators=[Constant(value=3)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Constant(value=5)])])",
+        "Constant(value=3)"
+      ],
+      [
+        "BoolOp(op=Or(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=2)])])",
+        "Constant(value=0)"
+      ]
+    ],
+    "seconds": 0.0004311000229790807
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 3,
+    "decision_period": 73,
+    "event": 1,
+    "stage": "initial",
+    "attempt": 1,
+    "index": 51,
+    "raw_candidate_sha256": "a25f68e66eefab44394c132b21e6d1840d601e7b3e1626f1060b329358f8ee08",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "a25f68e66eefab44394c132b21e6d1840d601e7b3e1626f1060b329358f8ee08",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)])])",
+        "Constant(value=2)"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='inventory', ctx=Load()), ops=[Lt()], comparators=[Constant(value=2)])])",
+        "Constant(value=3)"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Constant(value=10)])])",
+        "Constant(value=2)"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=2)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Constant(value=10)])])",
+        "Constant(value=2)"
+      ]
+    ],
+    "seconds": 0.0004707000043708831
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 3,
+    "decision_period": 73,
+    "event": 1,
+    "stage": "initial",
+    "attempt": 1,
+    "index": 52,
+    "raw_candidate_sha256": "ec6aec1fc52adba1e262c9ba522fc8a410a22c2862287d306ee28e35cb418bb9",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "ec6aec1fc52adba1e262c9ba522fc8a410a22c2862287d306ee28e35cb418bb9",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='inventory', ctx=Load()), ops=[Lt()], comparators=[Constant(value=5)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Constant(value=10)])])",
+        "Constant(value=2)"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='inventory', ctx=Load()), ops=[Lt()], comparators=[Constant(value=5)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Constant(value=10)])])",
+        "Constant(value=2)"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=2)]), Compare(left=Name(id='inventory', ctx=Load()), ops=[Lt()], comparators=[Constant(value=5)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Constant(value=10)])])",
+        "Constant(value=2)"
+      ]
+    ],
+    "seconds": 0.0003529000096023083
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 3,
+    "decision_period": 73,
+    "event": 1,
+    "stage": "revision",
+    "attempt": 1,
+    "index": 53,
+    "raw_candidate_sha256": "f9c35466e6eabb513af9949ed6eaaeb1191f71e64c70ee77da1af50b0bed20d4",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "f9c35466e6eabb513af9949ed6eaaeb1191f71e64c70ee77da1af50b0bed20d4",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='inventory', ctx=Load()), ops=[Lt()], comparators=[Constant(value=5)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Constant(value=10)])])",
+        "Constant(value=2)"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='inventory', ctx=Load()), ops=[Lt()], comparators=[Constant(value=3)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Constant(value=5)])])",
+        "Constant(value=3)"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Constant(value=10)])])",
+        "Constant(value=2)"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=2)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Constant(value=10)])])",
+        "Constant(value=2)"
+      ]
+    ],
+    "seconds": 0.0004970999725628644
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 3,
+    "decision_period": 78,
+    "event": 2,
+    "stage": "initial",
+    "attempt": 1,
+    "index": 54,
+    "raw_candidate_sha256": "a199f1ba3e12d3a95649d2db19c46dc9c17d7d48428975415114f55bf1d7b187",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "a199f1ba3e12d3a95649d2db19c46dc9c17d7d48428975415114f55bf1d7b187",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "Compare(left=Name(id='growth', ctx=Load()), ops=[Gt()], comparators=[Constant(value=1.2)])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), Call(func=Name(id='max', ctx=Load()), args=[Constant(value=2), BinOp(left=BinOp(left=Name(id='recent', ctx=Load()), op=Sub(), right=Name(id='baseline', ctx=Load())), op=Mult(), right=Constant(value=1.5))], keywords=[])], keywords=[])"
+      ]
+    ],
+    "seconds": 0.0002927999885287136
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 3,
+    "decision_period": 78,
+    "event": 2,
+    "stage": "initial",
+    "attempt": 1,
+    "index": 55,
+    "raw_candidate_sha256": "18379be14d7b315ead29265f16e1b6918a01c761fab8b3263a071f1c4d14ec5f",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "18379be14d7b315ead29265f16e1b6918a01c761fab8b3263a071f1c4d14ec5f",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "Compare(left=Name(id='pipeline', ctx=Load()), ops=[Gt()], comparators=[BinOp(left=Name(id='recent', ctx=Load()), op=Mult(), right=Constant(value=4))])",
+        "UnaryOp(op=USub(), operand=Constant(value=2))"
+      ],
+      [
+        "Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[BinOp(left=Name(id='recent', ctx=Load()), op=Mult(), right=Constant(value=2))])",
+        "Constant(value=2)"
+      ]
+    ],
+    "seconds": 0.00022360001457855105
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 3,
+    "decision_period": 78,
+    "event": 2,
+    "stage": "initial",
+    "attempt": 1,
+    "index": 56,
+    "raw_candidate_sha256": "b5485320c57280139e64a6ec75b60e05376cbc9b6d7a55812a2c4a4bd99dae4b",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "b5485320c57280139e64a6ec75b60e05376cbc9b6d7a55812a2c4a4bd99dae4b",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=5)])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=4), BinOp(left=Name(id='backlog', ctx=Load()), op=Div(), right=Constant(value=2))], keywords=[])"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[LtE()], comparators=[Constant(value=5)])])",
+        "Constant(value=1)"
+      ]
+    ],
+    "seconds": 0.00023189999046735466
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 3,
+    "decision_period": 78,
+    "event": 2,
+    "stage": "revision",
+    "attempt": 1,
+    "index": 57,
+    "raw_candidate_sha256": "558254b7a691f5fc736bea9f0a5739a03c3d9593e0765200e024fbe9dc382a45",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "558254b7a691f5fc736bea9f0a5739a03c3d9593e0765200e024fbe9dc382a45",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "Compare(left=Name(id='growth', ctx=Load()), ops=[Gt()], comparators=[Constant(value=1.2)])",
+        "Call(func=Name(id='min', ctx=Load()), args=[Constant(value=6), Call(func=Name(id='max', ctx=Load()), args=[Constant(value=2), BinOp(left=BinOp(left=Name(id='recent', ctx=Load()), op=Sub(), right=Name(id='baseline', ctx=Load())), op=Mult(), right=Constant(value=1.5))], keywords=[])], keywords=[])"
+      ]
+    ],
+    "seconds": 0.000458099995739758
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 3,
+    "decision_period": 83,
+    "event": 3,
+    "stage": "initial",
+    "attempt": 1,
+    "index": 58,
+    "raw_candidate_sha256": "bc9cd272f9ea85a373600d82ffb1f5f6185ae9c84f292a3f6416db6f03426750",
+    "changes": [],
+    "status": "failed",
+    "failure_type": "ValueError",
+    "failure": "expected one to four rules",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "seconds": 0.00010279999696649611
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 3,
+    "decision_period": 83,
+    "event": 3,
+    "stage": "initial",
+    "attempt": 2,
+    "index": 59,
+    "raw_candidate_sha256": "bc9cd272f9ea85a373600d82ffb1f5f6185ae9c84f292a3f6416db6f03426750",
+    "changes": [],
+    "status": "failed",
+    "failure_type": "ValueError",
+    "failure": "expected one to four rules",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "seconds": 6.390002090483904e-05
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 3,
+    "decision_period": 88,
+    "event": 4,
+    "stage": "initial",
+    "attempt": 1,
+    "index": 60,
+    "raw_candidate_sha256": "2686bdf3cbbc56b3c6a1c09ae58ea55dae5e585db425822440d2e7ed3771cbda",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "2686bdf3cbbc56b3c6a1c09ae58ea55dae5e585db425822440d2e7ed3771cbda",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)])])",
+        "Constant(value=2)"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='inventory', ctx=Load()), ops=[Lt()], comparators=[Constant(value=5)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Constant(value=20)])])",
+        "Constant(value=2)"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)])])",
+        "Constant(value=2)"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='inventory', ctx=Load()), ops=[Lt()], comparators=[Constant(value=5)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Constant(value=20)])])",
+        "Constant(value=2)"
+      ]
+    ],
+    "seconds": 0.0005504000000655651
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 3,
+    "decision_period": 88,
+    "event": 4,
+    "stage": "initial",
+    "attempt": 1,
+    "index": 61,
+    "raw_candidate_sha256": "bf04673b1edd8207233c1b358cd3570f061e90e691f9ecdc28e75a0fe1ebce1b",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "bf04673b1edd8207233c1b358cd3570f061e90e691f9ecdc28e75a0fe1ebce1b",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)])])",
+        "Constant(value=3)"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='inventory', ctx=Load()), ops=[Lt()], comparators=[Constant(value=5)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Constant(value=20)])])",
+        "Constant(value=2)"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)])])",
+        "Constant(value=3)"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='inventory', ctx=Load()), ops=[Lt()], comparators=[Constant(value=5)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Constant(value=20)])])",
+        "Constant(value=2)"
+      ]
+    ],
+    "seconds": 0.0004260999849066138
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 3,
+    "decision_period": 88,
+    "event": 4,
+    "stage": "initial",
+    "attempt": 1,
+    "index": 62,
+    "raw_candidate_sha256": "e876987155884714d8cda6601574ab8f699f68d8ada7089312a0a9210a6ff575",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "e876987155884714d8cda6601574ab8f699f68d8ada7089312a0a9210a6ff575",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)])])",
+        "Constant(value=2)"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='inventory', ctx=Load()), ops=[Lt()], comparators=[Constant(value=5)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Constant(value=20)])])",
+        "Constant(value=1)"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)])])",
+        "Constant(value=2)"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='inventory', ctx=Load()), ops=[Lt()], comparators=[Constant(value=5)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Constant(value=20)])])",
+        "Constant(value=1)"
+      ]
+    ],
+    "seconds": 0.000378400000045076
+  },
+  {
+    "group": "case_feedback",
+    "scenario": "shock",
+    "trace": 3,
+    "decision_period": 88,
+    "event": 4,
+    "stage": "revision",
+    "attempt": 1,
+    "index": 63,
+    "raw_candidate_sha256": "fca2d4079c96164e39a9a27965d3c4bf4ce3e51616d1a618b42324aa0ce4fa9a",
+    "changes": [],
+    "status": "valid",
+    "normalized_candidate_sha256": "fca2d4079c96164e39a9a27965d3c4bf4ce3e51616d1a618b42324aa0ce4fa9a",
+    "normalization_used": false,
+    "replaced_tokens": 0,
+    "compiled_ast": [
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)])])",
+        "Constant(value=2)"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=0)]), Compare(left=Name(id='inventory', ctx=Load()), ops=[Lt()], comparators=[Constant(value=5)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Constant(value=20)])])",
+        "Constant(value=1)"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='backlog', ctx=Load()), ops=[Gt()], comparators=[Constant(value=0)])])",
+        "Constant(value=2)"
+      ],
+      [
+        "BoolOp(op=And(), values=[Compare(left=Name(id='agent', ctx=Load()), ops=[Eq()], comparators=[Constant(value=1)]), Compare(left=Name(id='inventory', ctx=Load()), ops=[Lt()], comparators=[Constant(value=5)]), Compare(left=Name(id='pipeline', ctx=Load()), ops=[Lt()], comparators=[Constant(value=20)])])",
+        "Constant(value=1)"
+      ]
+    ],
+    "seconds": 0.0006512000109069049
+  }
+]
