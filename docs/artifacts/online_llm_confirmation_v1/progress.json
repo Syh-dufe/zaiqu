@@ -1,0 +1,231 @@
+{
+  "status": "completed",
+  "pid": 139660,
+  "completed": [
+    {
+      "seed": 11,
+      "batch": 1,
+      "path": "C:\\Users\\13384\\Documents\\ChatGPT\\新\\zaiqu\\results\\online_llm\\confirmation_v1\\seed11_batch1",
+      "input_sha256": "8acfdb2c47fc5e0c1cd9baa5b351414a47e021e0127064452152c2eac5fef815",
+      "protocol_sha256": "44d577f0c4a1283f34a3cfc9182234eb617a6311d973d0c3e019b625453e42a0",
+      "api_requests": 45,
+      "episodes": 40
+    },
+    {
+      "seed": 11,
+      "batch": 2,
+      "path": "C:\\Users\\13384\\Documents\\ChatGPT\\新\\zaiqu\\results\\online_llm\\confirmation_v1\\seed11_batch2",
+      "input_sha256": "e5da3c699a664591886c2413efd726ccd9c2e0738bae9c71d372e631889c206c",
+      "protocol_sha256": "bd720bc1cfc5c9fa2fafd7b4bccf34d12b6fc26984844400b60d6e6375ad8dd9",
+      "api_requests": 43,
+      "episodes": 40
+    },
+    {
+      "seed": 11,
+      "batch": 3,
+      "path": "C:\\Users\\13384\\Documents\\ChatGPT\\新\\zaiqu\\results\\online_llm\\confirmation_v1\\seed11_batch3",
+      "input_sha256": "f0fd188b983df21be00985a6399b6ff6a865f598a119b16dbc52fcb8f909a506",
+      "protocol_sha256": "2ecdf39fccea26ace5c05961d6e33029eba3b219ab039d6cc5587a1cfc14cf96",
+      "api_requests": 43,
+      "episodes": 40
+    },
+    {
+      "seed": 11,
+      "batch": 4,
+      "path": "C:\\Users\\13384\\Documents\\ChatGPT\\新\\zaiqu\\results\\online_llm\\confirmation_v1\\seed11_batch4",
+      "input_sha256": "a7db9392089c6fec6d58e1b2784769704d139caa132115cb8010a35ff37a3b7a",
+      "protocol_sha256": "959594062519e547f0d6083d716faf249eb520fab60309e7a1e70b88c660f926",
+      "api_requests": 41,
+      "episodes": 40
+    },
+    {
+      "seed": 11,
+      "batch": 5,
+      "path": "C:\\Users\\13384\\Documents\\ChatGPT\\新\\zaiqu\\results\\online_llm\\confirmation_v1\\seed11_batch5",
+      "input_sha256": "5208b6dc868c23da6483a412e8d15ece81651dd9b48959f1c6beb56f08a6eb9a",
+      "protocol_sha256": "c3f932fbbe99fc28e041357b1f87a071e93410ddca594a4f9d78e2d94d0f788d",
+      "api_requests": 44,
+      "episodes": 40
+    },
+    {
+      "seed": 12,
+      "batch": 1,
+      "path": "C:\\Users\\13384\\Documents\\ChatGPT\\新\\zaiqu\\results\\online_llm\\confirmation_v1\\seed12_batch1",
+      "input_sha256": "8acfdb2c47fc5e0c1cd9baa5b351414a47e021e0127064452152c2eac5fef815",
+      "protocol_sha256": "e6d4e5cef29133c51fbf32196e7e6258cdce471b239aba02207663d9a0293462",
+      "api_requests": 45,
+      "episodes": 40
+    },
+    {
+      "seed": 12,
+      "batch": 2,
+      "path": "C:\\Users\\13384\\Documents\\ChatGPT\\新\\zaiqu\\results\\online_llm\\confirmation_v1\\seed12_batch2",
+      "input_sha256": "e5da3c699a664591886c2413efd726ccd9c2e0738bae9c71d372e631889c206c",
+      "protocol_sha256": "49b76ee443d9aeea093c9942ba9dd7c615c3e4a570e2881231c9d0bbdedfb485",
+      "api_requests": 43,
+      "episodes": 40
+    },
+    {
+      "seed": 12,
+      "batch": 3,
+      "path": "C:\\Users\\13384\\Documents\\ChatGPT\\新\\zaiqu\\results\\online_llm\\confirmation_v1\\seed12_batch3",
+      "input_sha256": "f0fd188b983df21be00985a6399b6ff6a865f598a119b16dbc52fcb8f909a506",
+      "protocol_sha256": "ac1895bf48261bb150c66ee044238360eb3748d35a68179c6c6b54ed5fe71253",
+      "api_requests": 42,
+      "episodes": 40
+    },
+    {
+      "seed": 12,
+      "batch": 4,
+      "path": "C:\\Users\\13384\\Documents\\ChatGPT\\新\\zaiqu\\results\\online_llm\\confirmation_v1\\seed12_batch4",
+      "input_sha256": "a7db9392089c6fec6d58e1b2784769704d139caa132115cb8010a35ff37a3b7a",
+      "protocol_sha256": "11c1dc80a8bb32c8fe0a097e743f3b60c4db447a6447157ac993927938979ae9",
+      "api_requests": 46,
+      "episodes": 40
+    },
+    {
+      "seed": 12,
+      "batch": 5,
+      "path": "C:\\Users\\13384\\Documents\\ChatGPT\\新\\zaiqu\\results\\online_llm\\confirmation_v1\\seed12_batch5",
+      "input_sha256": "5208b6dc868c23da6483a412e8d15ece81651dd9b48959f1c6beb56f08a6eb9a",
+      "protocol_sha256": "aa41c2bad92fc63bbb12301e54c6048e19407e2a5e567109c3c210f2de06aa56",
+      "api_requests": 42,
+      "episodes": 40
+    },
+    {
+      "seed": 13,
+      "batch": 1,
+      "path": "C:\\Users\\13384\\Documents\\ChatGPT\\新\\zaiqu\\results\\online_llm\\confirmation_v1\\seed13_batch1",
+      "input_sha256": "8acfdb2c47fc5e0c1cd9baa5b351414a47e021e0127064452152c2eac5fef815",
+      "protocol_sha256": "32d92109410b44ed8d72d5933287f06c91382a6d33ed110d913725a31af163c1",
+      "api_requests": 45,
+      "episodes": 40
+    },
+    {
+      "seed": 13,
+      "batch": 2,
+      "path": "C:\\Users\\13384\\Documents\\ChatGPT\\新\\zaiqu\\results\\online_llm\\confirmation_v1\\seed13_batch2",
+      "input_sha256": "e5da3c699a664591886c2413efd726ccd9c2e0738bae9c71d372e631889c206c",
+      "protocol_sha256": "de6c2ad17d6205df265aeb641a688bc0107180beebec529a3311c36ac00882af",
+      "api_requests": 44,
+      "episodes": 40
+    },
+    {
+      "seed": 13,
+      "batch": 3,
+      "path": "C:\\Users\\13384\\Documents\\ChatGPT\\新\\zaiqu\\results\\online_llm\\confirmation_v1\\seed13_batch3",
+      "input_sha256": "f0fd188b983df21be00985a6399b6ff6a865f598a119b16dbc52fcb8f909a506",
+      "protocol_sha256": "ace0702d3c0b346030024f02174c271f266e4f590a76066afbfb6521e16da5b6",
+      "api_requests": 44,
+      "episodes": 40
+    },
+    {
+      "seed": 13,
+      "batch": 4,
+      "path": "C:\\Users\\13384\\Documents\\ChatGPT\\新\\zaiqu\\results\\online_llm\\confirmation_v1\\seed13_batch4",
+      "input_sha256": "a7db9392089c6fec6d58e1b2784769704d139caa132115cb8010a35ff37a3b7a",
+      "protocol_sha256": "d324ca8e05085078bd4aa2f1840cc852830a0bbd6959c12a5d55c3e5906d5f10",
+      "api_requests": 42,
+      "episodes": 40
+    },
+    {
+      "seed": 13,
+      "batch": 5,
+      "path": "C:\\Users\\13384\\Documents\\ChatGPT\\新\\zaiqu\\results\\online_llm\\confirmation_v1\\seed13_batch5",
+      "input_sha256": "5208b6dc868c23da6483a412e8d15ece81651dd9b48959f1c6beb56f08a6eb9a",
+      "protocol_sha256": "7051f6d50db2812e8582ad4d66d26dd1cdac20aa9ac5ba412a422743ad1e036e",
+      "api_requests": 42,
+      "episodes": 40
+    },
+    {
+      "seed": 14,
+      "batch": 1,
+      "path": "C:\\Users\\13384\\Documents\\ChatGPT\\新\\zaiqu\\results\\online_llm\\confirmation_v1\\seed14_batch1",
+      "input_sha256": "8acfdb2c47fc5e0c1cd9baa5b351414a47e021e0127064452152c2eac5fef815",
+      "protocol_sha256": "cea58066249cfca4cfc177c697dde06f9fd417ef3b86e50145d0c5c89b350870",
+      "api_requests": 43,
+      "episodes": 40
+    },
+    {
+      "seed": 14,
+      "batch": 2,
+      "path": "C:\\Users\\13384\\Documents\\ChatGPT\\新\\zaiqu\\results\\online_llm\\confirmation_v1\\seed14_batch2",
+      "input_sha256": "e5da3c699a664591886c2413efd726ccd9c2e0738bae9c71d372e631889c206c",
+      "protocol_sha256": "e6b4d5b1380b017596ab090ae758b30e3b5fe585b894f682c0c948eb8ff12de8",
+      "api_requests": 41,
+      "episodes": 40
+    },
+    {
+      "seed": 14,
+      "batch": 3,
+      "path": "C:\\Users\\13384\\Documents\\ChatGPT\\新\\zaiqu\\results\\online_llm\\confirmation_v1\\seed14_batch3",
+      "input_sha256": "f0fd188b983df21be00985a6399b6ff6a865f598a119b16dbc52fcb8f909a506",
+      "protocol_sha256": "0eb75ea2f31aeab145a31f9e629aade18d7ad939a8acc16256e270d5d1ede2e4",
+      "api_requests": 43,
+      "episodes": 40
+    },
+    {
+      "seed": 14,
+      "batch": 4,
+      "path": "C:\\Users\\13384\\Documents\\ChatGPT\\新\\zaiqu\\results\\online_llm\\confirmation_v1\\seed14_batch4",
+      "input_sha256": "a7db9392089c6fec6d58e1b2784769704d139caa132115cb8010a35ff37a3b7a",
+      "protocol_sha256": "b4b7c12ed11c224788c4d6d88ce0bb7c002abbc1f9529504dab651098e3021ad",
+      "api_requests": 40,
+      "episodes": 40
+    },
+    {
+      "seed": 14,
+      "batch": 5,
+      "path": "C:\\Users\\13384\\Documents\\ChatGPT\\新\\zaiqu\\results\\online_llm\\confirmation_v1\\seed14_batch5",
+      "input_sha256": "5208b6dc868c23da6483a412e8d15ece81651dd9b48959f1c6beb56f08a6eb9a",
+      "protocol_sha256": "1c909288ae1f55fe854b3df66376756df627acc0087ece756849eed7dcf6e70b",
+      "api_requests": 41,
+      "episodes": 40
+    },
+    {
+      "seed": 15,
+      "batch": 1,
+      "path": "C:\\Users\\13384\\Documents\\ChatGPT\\新\\zaiqu\\results\\online_llm\\confirmation_v1\\seed15_batch1",
+      "input_sha256": "8acfdb2c47fc5e0c1cd9baa5b351414a47e021e0127064452152c2eac5fef815",
+      "protocol_sha256": "f40a9b31e69bf6a8a451c9cc9b14acda361c55ecaac16f25ec7f54cfe5ec477e",
+      "api_requests": 41,
+      "episodes": 40
+    },
+    {
+      "seed": 15,
+      "batch": 2,
+      "path": "C:\\Users\\13384\\Documents\\ChatGPT\\新\\zaiqu\\results\\online_llm\\confirmation_v1\\seed15_batch2",
+      "input_sha256": "e5da3c699a664591886c2413efd726ccd9c2e0738bae9c71d372e631889c206c",
+      "protocol_sha256": "615102215f89749d2faaa5466dc2f10d7be2125c81af9f4ed4a04f3cc43c4e31",
+      "api_requests": 42,
+      "episodes": 40
+    },
+    {
+      "seed": 15,
+      "batch": 3,
+      "path": "C:\\Users\\13384\\Documents\\ChatGPT\\新\\zaiqu\\results\\online_llm\\confirmation_v1\\seed15_batch3",
+      "input_sha256": "f0fd188b983df21be00985a6399b6ff6a865f598a119b16dbc52fcb8f909a506",
+      "protocol_sha256": "494afc5f51d18506ce5d73fb39fa6f1501157373141ff081970fc5532a7fd5b6",
+      "api_requests": 42,
+      "episodes": 40
+    },
+    {
+      "seed": 15,
+      "batch": 4,
+      "path": "C:\\Users\\13384\\Documents\\ChatGPT\\新\\zaiqu\\results\\online_llm\\confirmation_v1\\seed15_batch4",
+      "input_sha256": "a7db9392089c6fec6d58e1b2784769704d139caa132115cb8010a35ff37a3b7a",
+      "protocol_sha256": "9beb9edc909b35e9b1a898a9de65644af0df8b0ad478e4696e2620ccbd71e09e",
+      "api_requests": 43,
+      "episodes": 40
+    },
+    {
+      "seed": 15,
+      "batch": 5,
+      "path": "C:\\Users\\13384\\Documents\\ChatGPT\\新\\zaiqu\\results\\online_llm\\confirmation_v1\\seed15_batch5",
+      "input_sha256": "5208b6dc868c23da6483a412e8d15ece81651dd9b48959f1c6beb56f08a6eb9a",
+      "protocol_sha256": "f661ec8de91dc0de597cd38a23ac0228f75f1a2eb0d970ed41970b2b3154bc0d",
+      "api_requests": 42,
+      "episodes": 40
+    }
+  ]
+}

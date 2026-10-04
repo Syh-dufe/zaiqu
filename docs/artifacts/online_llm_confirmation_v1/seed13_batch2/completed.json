@@ -1,0 +1,37 @@
+{
+  "episodes": 40,
+  "rows": 24000,
+  "training_updates": 0,
+  "parameter_checks": {
+    "happo": {
+      "before": "86582dd7aeae0c16c0b5c6f4862b8d3ac62988b1927fe4f3526af9ff901b3dd0",
+      "after": "86582dd7aeae0c16c0b5c6f4862b8d3ac62988b1927fe4f3526af9ff901b3dd0",
+      "unchanged": true
+    },
+    "llm_library": {
+      "before": "86582dd7aeae0c16c0b5c6f4862b8d3ac62988b1927fe4f3526af9ff901b3dd0",
+      "after": "86582dd7aeae0c16c0b5c6f4862b8d3ac62988b1927fe4f3526af9ff901b3dd0",
+      "unchanged": true
+    },
+    "online_once": {
+      "before": "86582dd7aeae0c16c0b5c6f4862b8d3ac62988b1927fe4f3526af9ff901b3dd0",
+      "after": "86582dd7aeae0c16c0b5c6f4862b8d3ac62988b1927fe4f3526af9ff901b3dd0",
+      "unchanged": true
+    },
+    "online_feedback": {
+      "before": "86582dd7aeae0c16c0b5c6f4862b8d3ac62988b1927fe4f3526af9ff901b3dd0",
+      "after": "86582dd7aeae0c16c0b5c6f4862b8d3ac62988b1927fe4f3526af9ff901b3dd0",
+      "unchanged": true
+    },
+    "random_screen": {
+      "before": "86582dd7aeae0c16c0b5c6f4862b8d3ac62988b1927fe4f3526af9ff901b3dd0",
+      "after": "86582dd7aeae0c16c0b5c6f4862b8d3ac62988b1927fe4f3526af9ff901b3dd0",
+      "unchanged": true
+    }
+  },
+  "calls": 44,
+  "runtime_failures": [],
+  "wall_seconds": 268.86997460000566,
+  "development_only": true,
+  "causal_audit": "Public whitelist; episode reset; synthetic-only forecast; no review in prompts"
+}
