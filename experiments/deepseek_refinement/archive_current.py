@@ -14,12 +14,14 @@ from current import ROOT, read, write, training
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--version',type=int,choices=(2,3),default=2)
+    parser.add_argument('--version',type=int,choices=(2,3,4),default=2)
     version=parser.parse_args().version
-    run_name='llm_current_v2' if version==2 else 'llm_evolution_v3'
+    run_name={2:'llm_current_v2',3:'llm_evolution_v3',4:'llm_coordinated_v4'}[version]
     source=ROOT/'results'/run_name;export=ROOT/'docs/artifacts'/run_name
     if export.exists(): raise RuntimeError('Refuse overwrite')
-    assert read(source/'completed.json')['status']=='completed'
+    completion=read(source/'completed.json')
+    no_test=completion['status']=='completed_no_qualified_library'
+    assert completion['status']=='completed' or (version==4 and no_test)
     records=[];rows_total=0;episodes_total=0;wall=0
     for directory in sorted(source.iterdir()):
         if not directory.is_dir() or not (directory/'episodes.json').exists(): continue
@@ -52,7 +54,45 @@ def main():
             for group in methods:
                 assert [tuple(r[k] for k in keys) for r in grouped[group,'base',trace]]==[tuple(r[k] for k in keys) for r in reference]
         rows_total+=len(rows);episodes_total+=len(episodes);wall+=done['wall_seconds']
-    assert episodes_total==(1600 if version==2 else 2360) and rows_total==episodes_total*600
+    expected_episodes=1600 if version==2 else (len(read(source/'archive.json'))*160+80 if version==4 else 1360)+(0 if no_test else 1000)
+    assert episodes_total==expected_episodes and rows_total==episodes_total*600
+    if version==4:
+        for item in read(source/'archive.json'):
+            for fitness in item['summary']['fitness']:
+                batch=fitness['trajectory']//4+1;trace=fitness['trajectory']%4
+                episode=next(r for r in records if r['evaluation']==f"{item['label']}_seed{fitness['seed']}_batch{batch}"
+                             and r['trace']==trace and r['group']==fitness['group'] and r['scenario']=='shock')
+                assert fitness['cost']==episode['cost'] and fitness['backlog']==episode['downstream_backlog']
+    if not no_test:
+        verify_final(source,records,version)
+    calls=read(source/'calls.json')
+    usage={key:sum(c.get('usage',{}).get(key,0) for c in calls) for key in ('prompt_tokens','completion_tokens','total_tokens','prompt_cache_hit_tokens','prompt_cache_miss_tokens')}
+    export.mkdir(parents=True)
+    for path in source.iterdir():
+        if path.is_file(): shutil.copy2(path,export/path.name)
+        elif path.name=='sources' or path.name in ('confirmation_inputs','test_inputs'): shutil.copytree(path,export/path.name)
+        elif (path/'episodes.json').exists():
+            target=export/path.name;target.mkdir()
+            for file in path.iterdir():
+                if not file.is_file(): continue
+                if file.name in ('periods.csv','scores.json','information_audits.json','delivered_reports.json'):
+                    with file.open('rb') as src,gzip.open(target/(file.name+'.gz'),'wb') as dst: shutil.copyfileobj(src,dst)
+                else: shutil.copy2(file,target/file.name)
+    if version>=3:
+        for name,expected in read(source/'manifest.json')['source_sha256'].items():
+            path=ROOT/name
+            assert hashlib.sha256(path.read_bytes()).hexdigest()==expected
+            target=export/'sources'/name;target.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(path,target)
+    write(export/'verification.json',{'episodes':episodes_total,'node_periods':rows_total,'raw_cost_backlog_normal_actions_and_report_timing':'passed',
+                                     'all_confirmation_statistics_recomputed':not no_test,'confirmation_not_run':no_test,
+                                     'summed_evaluation_wall_seconds':wall,'api_requests':len(calls),
+                                     'api_failed':sum(c['status']=='failed' for c in calls),'api_usage':usage,
+                                     'currency_cost':None,'cost_note':'Usage recorded; billing currency cost not independently obtained'})
+    write(export/'export_hashes.json',{str(p.relative_to(export)):hashlib.sha256(p.read_bytes()).hexdigest() for p in export.rglob('*') if p.is_file()})
+    print('ARCHIVED',episodes_total,'episodes',rows_total,'node-periods',usage,flush=True)
+
+
+def verify_final(source,records,version):
     prefix='confirmation' if version==2 else 'test'
     new=read(source/f'{prefix}_new_summary.json');old=read(source/f'{prefix}_old_summary.json')
     for label,summary in ((f'{prefix}_new',new),(f'{prefix}_old',old)):
@@ -72,30 +112,6 @@ def main():
                            ('vs_random',matrix(new,'random_screen'),matrix(new,'llm_library'))):
         actual=compare(ref,method)
         assert actual==summary[('new_'+key) if version==2 else key]
-    calls=read(source/'calls.json')
-    usage={key:sum(c.get('usage',{}).get(key,0) for c in calls) for key in ('prompt_tokens','completion_tokens','total_tokens','prompt_cache_hit_tokens','prompt_cache_miss_tokens')}
-    export.mkdir(parents=True)
-    for path in source.iterdir():
-        if path.is_file(): shutil.copy2(path,export/path.name)
-        elif path.name=='sources' or path.name in ('confirmation_inputs','test_inputs'): shutil.copytree(path,export/path.name)
-        elif (path/'episodes.json').exists():
-            target=export/path.name;target.mkdir()
-            for file in path.iterdir():
-                if not file.is_file(): continue
-                if file.name in ('periods.csv','scores.json','information_audits.json','delivered_reports.json'):
-                    with file.open('rb') as src,gzip.open(target/(file.name+'.gz'),'wb') as dst: shutil.copyfileobj(src,dst)
-                else: shutil.copy2(file,target/file.name)
-    if version==3:
-        for name,expected in read(source/'manifest.json')['source_sha256'].items():
-            path=ROOT/name
-            assert hashlib.sha256(path.read_bytes()).hexdigest()==expected
-            target=export/'sources'/name;target.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(path,target)
-    write(export/'verification.json',{'episodes':episodes_total,'node_periods':rows_total,'raw_cost_backlog_normal_actions_and_report_timing':'passed',
-                                     'all_confirmation_statistics_recomputed':True,'summed_evaluation_wall_seconds':wall,
-                                     'api_requests':len(calls),'api_failed':sum(c['status']=='failed' for c in calls),'api_usage':usage,
-                                     'currency_cost':None,'cost_note':'Usage recorded; billing currency cost not independently obtained'})
-    write(export/'export_hashes.json',{str(p.relative_to(export)):hashlib.sha256(p.read_bytes()).hexdigest() for p in export.rglob('*') if p.is_file()})
-    print('ARCHIVED',episodes_total,'episodes',rows_total,'node-periods',usage,flush=True)
 
 
 if __name__=='__main__': main()

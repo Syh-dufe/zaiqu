@@ -1,0 +1,67 @@
+{
+  "candidates": [
+    {
+      "explanation": "State-conditioned asymmetric coordination that preserves the random parent's attribution. Node0 trims modestly when its own backlog is low and pipeline is adequate, but adds when backlog is high and pipeline is thin to protect downstream service. Node1 and node2 add when their backlog is high and pipeline is thin, and trim only when pipeline is excessive and backlog is zero. This creates node-specific integer actions that differ from the constant vector in high-backlog and low-backlog regions, improving both cost and downstream service.",
+      "rules": [
+        {
+          "when": "agent == 0 and backlog > 2 * recent and pipeline < recent",
+          "delta": "min(2, max(0, backlog / 3 - pipeline / 2))"
+        },
+        {
+          "when": "agent == 0 and pipeline > 3 * recent and backlog < 1",
+          "delta": "-1"
+        },
+        {
+          "when": "agent == 1 and backlog > 2 * recent and pipeline < recent",
+          "delta": "min(2, max(0, backlog / 3 - pipeline / 2))"
+        },
+        {
+          "when": "agent == 1 and pipeline > 3 * recent and backlog == 0",
+          "delta": "-1"
+        }
+      ]
+    },
+    {
+      "explanation": "Pipeline-aware relaxation with asymmetric node roles. Node0 reduces orders when its pipeline is high relative to recent demand and backlog is low, but never trims when backlog is high. Node1 and node2 add when their backlog is high and pipeline is thin, and trim when pipeline is excessive and backlog is zero. This preserves the random parent's upstream replenishment bias while adding state-conditioned corrections to avoid starvation and overstock.",
+      "rules": [
+        {
+          "when": "agent == 0 and pipeline > 2 * recent and backlog < 2",
+          "delta": "-min(2, max(0, (pipeline - 2 * recent) / 4))"
+        },
+        {
+          "when": "agent == 1 and backlog > 2 * recent and pipeline < 1.5 * recent",
+          "delta": "min(2, max(0, backlog / 4))"
+        },
+        {
+          "when": "agent == 2 and backlog > 2 * recent and pipeline < 1.5 * recent",
+          "delta": "min(2, max(0, backlog / 4))"
+        },
+        {
+          "when": "agent == 2 and pipeline > 3 * recent and backlog == 0",
+          "delta": "-1"
+        }
+      ]
+    },
+    {
+      "explanation": "Growth-adaptive coordination with node-specific guards. Node0 adds when recent delivered demand exceeds baseline, pipeline is thin, and backlog is positive; it trims only when pipeline is excessive and backlog is zero. Node1 and node2 add when their backlog is high and pipeline is thin, and trim when pipeline is excessive and backlog is zero. This uses delayed demand signals to adjust orders asymmetrically, improving downstream service during growth while avoiding upstream backlog.",
+      "rules": [
+        {
+          "when": "agent == 0 and growth > 1.15 and pipeline < recent and backlog > 0",
+          "delta": "min(2, max(0, (growth - 1) * recent - pipeline))"
+        },
+        {
+          "when": "agent == 0 and pipeline > 3 * recent and backlog == 0",
+          "delta": "-1"
+        },
+        {
+          "when": "agent == 1 and backlog > 2 * recent and pipeline < recent",
+          "delta": "min(2, max(0, backlog / 3 - pipeline / 2))"
+        },
+        {
+          "when": "agent == 2 and backlog > 2 * recent and pipeline < recent",
+          "delta": "min(2, max(0, backlog / 3 - pipeline / 2))"
+        }
+      ]
+    }
+  ]
+}

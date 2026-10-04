@@ -1,0 +1,39 @@
+{
+  "system": "Design bounded correction rules for a frozen HAPPO serial inventory policy.\nNodes: 0 disaster dispensing point, 1 regional warehouse, 2 upstream supply center.\nUnchanged simulator: each period external demand plus node0 backlog is served from its inventory and pipeline arrival.\nNode1 demand is node0 CURRENT order plus node1 backlog; node2 demand is node1 CURRENT order plus node2 backlog.\nUnfilled demand becomes backlog. Next shipments to lower nodes are min(the next node demand including backlog, that next node inventory+arrival BEFORE its update). Node2 receives its own order without supplier constraint. All shipments enter a 4-period pipeline. Orders 0..20.\nPrimary cost=sum of inventory+backlog at ALL 3 nodes, coefficients all1. Also avoid increasing downstream backlog. An upstream reduction can starve downstream after delay; downstream extra orders can create upstream backlog. Observe all nodes and pipelines together.\nYou are notified a demand emergency HAS occurred. Future demand, duration and magnitude are unknown. You only see past demand and current state. Do not infer knowledge of the event end. HAPPO does not train.\nReturn JSON {\"candidates\":[{\"explanation\":\"...\",\"rules\":[{\"when\":\"expression\",\"delta\":\"expression\"}]}]}.\nUser specifies candidate count (3 initial, 1 refinement). Each rule set contains1..4 ordered first-match rules evaluated separately for each node.\nExpression features ONLY: agent, inventory, backlog, pipeline=sum of known in-transit, arrival=next known arrival, incoming=last observed local demand, recent=last5 external mean, baseline=preceding20 external mean, growth=recent/baseline, happo=current proposed order.\nExpressions <=300 characters may use numbers, + - * /, comparisons, and/or/not, conditional expressions, min/max2..6args, abs1arg. No other names, code, attributes, imports or containers.\nDelta clipped[-6,6], rounded, added to HAPPO order and clipped0..20. Prefer small coordinated corrections and pipeline-aware relaxation. Rules run on fresh causal state for each period. Zero correction is valid.\nFor feedback, scores are uncertain causal forecast rollouts, not actual future results. Improve both cost and downstream service; do not exploit sample noise. Explain mechanics briefly, no markdown.",
+  "document": "docs/2026-10-03-llm-refinement-protocol.md",
+  "information_protocol": "docs/2026-10-03-periodic-demand-reports.md",
+  "source_sha256": {
+    "run.py": "2515ab236fd015b50b5734105d9745f5f5e7c7974cc77e5fd7ebd7063bc1d4b6",
+    "shadow.py": "fbf92c3c5bc5b86a52890a32e5d26d51400daef467504401838da55bbff95865",
+    "reports.py": "46d4588efa0daae795e9677f4151cee66fe0d77aabe40eebc1296d4be460b154"
+  },
+  "manual_strengths": [
+    0.5,
+    1.0,
+    1.5
+  ],
+  "max_calls": 12,
+  "series_calls_before": 120,
+  "model": "deepseek-flash",
+  "options": {
+    "run_name": "generation3_elite_mutation_seed14_batch1",
+    "cases": 4,
+    "demand_seed": 20270601,
+    "event_seed": 20270602,
+    "input_file": "C:\\Users\\13384\\Documents\\ChatGPT\\新\\zaiqu\\results\\llm_coordinated_v4\\development_inputs.json",
+    "training_directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\learning_curve\\curve_seed14_formal_v1",
+    "output_root": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\llm_coordinated_v4",
+    "methods": [
+      "happo",
+      "llm_library"
+    ],
+    "correction_periods": 5,
+    "refinement_schedule": "immediate",
+    "single_only": false,
+    "predictor": "merton",
+    "replay_calls": null,
+    "operator_library": "C:\\Users\\13384\\Documents\\ChatGPT\\新\\zaiqu\\results\\llm_coordinated_v4\\generation3_elite_mutation.json",
+    "report_interval": 3
+  },
+  "operator_library_sha256": "1805b47b5094778602bc9a9a41a5f71c476394076ef8c739bf72569b7b3bd602"
+}

@@ -1,0 +1,19 @@
+{
+  "episodes": 1360,
+  "node_periods": 816000,
+  "raw_cost_backlog_normal_actions_and_report_timing": "passed",
+  "all_confirmation_statistics_recomputed": false,
+  "confirmation_not_run": true,
+  "summed_evaluation_wall_seconds": 4269.458102400153,
+  "api_requests": 16,
+  "api_failed": 8,
+  "api_usage": {
+    "prompt_tokens": 169039,
+    "completion_tokens": 12647,
+    "total_tokens": 181686,
+    "prompt_cache_hit_tokens": 32380,
+    "prompt_cache_miss_tokens": 136659
+  },
+  "currency_cost": null,
+  "cost_note": "Usage recorded; billing currency cost not independently obtained"
+}

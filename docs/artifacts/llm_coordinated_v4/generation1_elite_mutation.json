@@ -1,0 +1,67 @@
+{
+  "candidates": [
+    {
+      "explanation": "State-conditioned asymmetric coordination that preserves the non-LLM random parent's attribution as the strongest source. Node0 trims when pipeline is high and backlog is low, but adds when backlog is high and pipeline is thin to protect downstream service. Node1 and node2 add when their backlog is high and pipeline is thin, and trim when pipeline is excessive and backlog is low. Small bounded integer deltas, zero-demand guards via max(1,recent).",
+      "rules": [
+        {
+          "when": "agent == 0 and backlog > 2 * max(1, recent) and pipeline < recent",
+          "delta": "min(2, max(0, backlog / 4 - pipeline / 2))"
+        },
+        {
+          "when": "agent == 0 and pipeline > 3 * max(1, recent) and backlog < 1",
+          "delta": "-min(2, max(0, (pipeline - 3 * max(1, recent)) / 4))"
+        },
+        {
+          "when": "agent == 1 and backlog > 2 * max(1, recent) and pipeline < recent",
+          "delta": "min(2, max(0, backlog / 4 - pipeline / 2))"
+        },
+        {
+          "when": "agent == 2 and backlog > 2 * max(1, recent) and pipeline < recent",
+          "delta": "min(2, max(0, backlog / 4 - pipeline / 2))"
+        }
+      ]
+    },
+    {
+      "explanation": "Pipeline-aware relaxation with downstream protection, using growth from delayed delivered reports. Node0 adds when growth is high and pipeline is thin, trims when pipeline is excessive and backlog is low. Node1 and node2 add when growth is high and backlog is present, trim when pipeline is excessive and backlog is low. Bounded integer deltas, guards for zero demand via max(1,recent).",
+      "rules": [
+        {
+          "when": "agent == 0 and growth > 1.15 and pipeline < recent and backlog > 0",
+          "delta": "min(2, max(0, (growth - 1) * recent - pipeline))"
+        },
+        {
+          "when": "agent == 0 and pipeline > 3 * max(1, recent) and backlog < 1",
+          "delta": "-min(2, max(0, (pipeline - 3 * max(1, recent)) / 4))"
+        },
+        {
+          "when": "agent == 1 and growth > 1.15 and backlog > 0 and pipeline < recent",
+          "delta": "min(2, max(0, (growth - 1) * recent - pipeline))"
+        },
+        {
+          "when": "agent == 2 and growth > 1.15 and backlog > 0 and pipeline < recent",
+          "delta": "min(2, max(0, (growth - 1) * recent - pipeline))"
+        }
+      ]
+    },
+    {
+      "explanation": "Asymmetric coordination that differentiates nodes: node0 trims when pipeline is high and backlog is low, but adds when backlog is high and pipeline is thin; node1 and node2 add when backlog is high and pipeline is thin, and trim when pipeline is excessive and backlog is low. Uses only observed state, bounded integer deltas, zero-demand guards via max(1,recent).",
+      "rules": [
+        {
+          "when": "agent == 0 and backlog > 2 * max(1, recent) and pipeline < recent",
+          "delta": "min(2, max(0, backlog / 4 - pipeline / 2))"
+        },
+        {
+          "when": "agent == 0 and pipeline > 3 * max(1, recent) and backlog < 1",
+          "delta": "-min(2, max(0, (pipeline - 3 * max(1, recent)) / 4))"
+        },
+        {
+          "when": "agent == 1 and pipeline > 3 * max(1, recent) and backlog < 1",
+          "delta": "-min(2, max(0, (pipeline - 3 * max(1, recent)) / 4))"
+        },
+        {
+          "when": "agent == 2 and pipeline > 3 * max(1, recent) and backlog < 1",
+          "delta": "-min(2, max(0, (pipeline - 3 * max(1, recent)) / 4))"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "status": "completed_no_qualified_library",
+  "evaluated_libraries": 8,
+  "api_requests": 16,
+  "test_episodes": 0,
+  "reason": "No LLM offspring improves non-LLM parent on cost while maintaining service in both development splits"
+}

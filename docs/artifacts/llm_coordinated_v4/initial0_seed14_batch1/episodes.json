@@ -1,0 +1,194 @@
+[
+  {
+    "group": "happo",
+    "scenario": "base",
+    "trace": 0,
+    "notification": null,
+    "cost": 15.746666666666666,
+    "downstream_backlog": 9.01
+  },
+  {
+    "group": "happo",
+    "scenario": "base",
+    "trace": 1,
+    "notification": null,
+    "cost": 31.218333333333334,
+    "downstream_backlog": 42.04
+  },
+  {
+    "group": "happo",
+    "scenario": "base",
+    "trace": 2,
+    "notification": null,
+    "cost": 14.553333333333333,
+    "downstream_backlog": 3.27
+  },
+  {
+    "group": "happo",
+    "scenario": "base",
+    "trace": 3,
+    "notification": null,
+    "cost": 13.476666666666667,
+    "downstream_backlog": 2.66
+  },
+  {
+    "group": "happo",
+    "scenario": "shock",
+    "trace": 0,
+    "notification": 63,
+    "cost": 18.418333333333333,
+    "downstream_backlog": 10.315
+  },
+  {
+    "group": "happo",
+    "scenario": "shock",
+    "trace": 1,
+    "notification": 75,
+    "cost": 45.638333333333335,
+    "downstream_backlog": 86.795
+  },
+  {
+    "group": "happo",
+    "scenario": "shock",
+    "trace": 2,
+    "notification": 64,
+    "cost": 16.648333333333333,
+    "downstream_backlog": 7.395
+  },
+  {
+    "group": "happo",
+    "scenario": "shock",
+    "trace": 3,
+    "notification": 74,
+    "cost": 18.023333333333333,
+    "downstream_backlog": 7.365
+  },
+  {
+    "group": "llm_library",
+    "scenario": "base",
+    "trace": 0,
+    "notification": null,
+    "cost": 15.746666666666666,
+    "downstream_backlog": 9.01
+  },
+  {
+    "group": "llm_library",
+    "scenario": "base",
+    "trace": 1,
+    "notification": null,
+    "cost": 31.218333333333334,
+    "downstream_backlog": 42.04
+  },
+  {
+    "group": "llm_library",
+    "scenario": "base",
+    "trace": 2,
+    "notification": null,
+    "cost": 14.553333333333333,
+    "downstream_backlog": 3.27
+  },
+  {
+    "group": "llm_library",
+    "scenario": "base",
+    "trace": 3,
+    "notification": null,
+    "cost": 13.476666666666667,
+    "downstream_backlog": 2.66
+  },
+  {
+    "group": "llm_library",
+    "scenario": "shock",
+    "trace": 0,
+    "notification": 63,
+    "cost": 18.695,
+    "downstream_backlog": 11.105
+  },
+  {
+    "group": "llm_library",
+    "scenario": "shock",
+    "trace": 1,
+    "notification": 75,
+    "cost": 45.585,
+    "downstream_backlog": 86.795
+  },
+  {
+    "group": "llm_library",
+    "scenario": "shock",
+    "trace": 2,
+    "notification": 64,
+    "cost": 16.615,
+    "downstream_backlog": 7.395
+  },
+  {
+    "group": "llm_library",
+    "scenario": "shock",
+    "trace": 3,
+    "notification": 74,
+    "cost": 17.96,
+    "downstream_backlog": 7.365
+  },
+  {
+    "group": "random_screen",
+    "scenario": "base",
+    "trace": 0,
+    "notification": null,
+    "cost": 15.746666666666666,
+    "downstream_backlog": 9.01
+  },
+  {
+    "group": "random_screen",
+    "scenario": "base",
+    "trace": 1,
+    "notification": null,
+    "cost": 31.218333333333334,
+    "downstream_backlog": 42.04
+  },
+  {
+    "group": "random_screen",
+    "scenario": "base",
+    "trace": 2,
+    "notification": null,
+    "cost": 14.553333333333333,
+    "downstream_backlog": 3.27
+  },
+  {
+    "group": "random_screen",
+    "scenario": "base",
+    "trace": 3,
+    "notification": null,
+    "cost": 13.476666666666667,
+    "downstream_backlog": 2.66
+  },
+  {
+    "group": "random_screen",
+    "scenario": "shock",
+    "trace": 0,
+    "notification": 63,
+    "cost": 16.071666666666665,
+    "downstream_backlog": 8.635
+  },
+  {
+    "group": "random_screen",
+    "scenario": "shock",
+    "trace": 1,
+    "notification": 75,
+    "cost": 38.64666666666667,
+    "downstream_backlog": 80.93
+  },
+  {
+    "group": "random_screen",
+    "scenario": "shock",
+    "trace": 2,
+    "notification": 64,
+    "cost": 16.291666666666668,
+    "downstream_backlog": 7.225
+  },
+  {
+    "group": "random_screen",
+    "scenario": "shock",
+    "trace": 3,
+    "notification": 74,
+    "cost": 17.153333333333332,
+    "downstream_backlog": 7.335
+  }
+]

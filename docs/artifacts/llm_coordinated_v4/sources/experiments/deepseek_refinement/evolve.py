@@ -1,0 +1,238 @@
+"""Small reflective population search; queued behind the untouched v2 run."""
+import hashlib
+import argparse
+import json
+import os
+from pathlib import Path
+import random
+import shutil
+import sys
+import time
+import urllib.request
+import urllib.error
+import numpy as np
+import current as runner
+from rules import rule_delta, bounded_order
+
+ROOT=runner.ROOT
+OUT=ROOT/'results/llm_evolution_v3'
+
+
+def write(path,data): runner.write(path,data)
+def read(path): return runner.read(path)
+
+
+def probes():
+    rng=random.Random(20270401);result=[]
+    for _ in range(256):
+        recent=rng.choice([0.,1.,3.,6.,10.,15.,20.]);baseline=rng.choice([1.,3.,6.,10.,20.])
+        for agent in range(3):
+            result.append(dict(agent=agent,inventory=rng.randint(0,80),backlog=rng.randint(0,50),pipeline=rng.randint(0,80),
+                               arrival=rng.randint(0,20),incoming=rng.randint(0,20),recent=recent,baseline=baseline,
+                               growth=recent/baseline,happo=rng.randint(0,20)))
+    for agent in range(3):
+        for stock,backlog,pipeline,happo in ((0,0,0,0),(0,20,0,20),(80,0,80,0),(0,0,0,20)):
+            result.append(dict(agent=agent,inventory=stock,backlog=backlog,pipeline=pipeline,arrival=0,
+                               incoming=0,recent=0.,baseline=0.,growth=0.,happo=happo))
+    return result
+
+
+def fingerprint(library,states):
+    if len(library.get('candidates',[]))!=3: raise ValueError('Need exactly3 candidates')
+    individual=[]
+    for candidate in library['candidates']:
+        compiled=runner.compile_rule(candidate)
+        actions=[bounded_order(state['happo'],rule_delta(compiled,state)) for state in states]
+        individual.append(hashlib.sha256(json.dumps(actions).encode()).hexdigest())
+    return hashlib.sha256(json.dumps(sorted(individual)).encode()).hexdigest()
+
+
+def main():
+    global OUT
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--version',type=int,choices=(3,4),default=3)
+    version=parser.parse_args().version
+    if version==4: OUT=ROOT/'results/llm_coordinated_v4'
+    if OUT.exists(): raise RuntimeError('Already registered; do not duplicate')
+    key=os.environ.get('DEEPSEEK_API_KEY')
+    if not key: raise RuntimeError('Missing API key')
+    OUT.mkdir(parents=True);runner.OUT=OUT
+    write(OUT/'progress.json',{'status':'waiting_previous','pid':os.getpid(),'version':version})
+    calls=[];archive=[];memory=[];seen=set();states=probes();write(OUT/'behavior_probes.json',states)
+    source_files=[Path(__file__),Path(runner.__file__),ROOT/'experiments/deepseek_refinement/run.py',ROOT/'experiments/deepseek_refinement/shadow.py',ROOT/'experiments/deepseek_refinement/reports.py',ROOT/'experiments/deepseek_pilot/rules.py',ROOT/'experiments/formal_evaluation/analyze_multi.py']
+    source_files.append(ROOT/'experiments/formal_evaluation/ablations.py')
+    hashes={str(p.relative_to(ROOT)):runner.digest(p) for p in source_files}
+    model_hashes={str(seed):{'parameter_sha256':read(runner.training(seed)/'completion_audit.json')['model_matches']['official_best']['sha256'],
+                           'audit_sha256':runner.digest(runner.training(seed)/'completion_audit.json')} for seed in range(11,16)}
+    dev_seeds=[20270301,20270302,20270303,20270304] if version==3 else [20270601,20270602,20270603,20270604]
+    test_start=20270501 if version==3 else 20270701
+    write(OUT/'manifest.json',{'source_sha256':hashes,'generations':3,'version':version,'training_seeds':list(range(11,16)),
+                              'model_hashes':model_hashes,
+                              'probe_seed':20270401,'development_seeds':dev_seeds[:2],
+                              'internal_validation_seeds':dev_seeds[2:],'test_seeds':list(range(test_start,test_start+10)),
+                              'api_total_limit':None,'prior_v2_test_excluded_from_feedback':True})
+    try:
+        previous=ROOT/'results'/('llm_current_v2' if version==3 else 'llm_evolution_v3')
+        while not (previous/'completed.json').exists():
+            if (previous/'failed.json').exists(): raise RuntimeError('Previous version failed; diagnose before starting dependent work')
+            time.sleep(15)
+        used=set()
+        for parent in (ROOT/'results',ROOT/'docs/artifacts'):
+            for path in set(parent.rglob('demands.json'))|set(parent.rglob('batch*.json'))|set(parent.rglob('development_inputs.json')):
+                data=read(path)
+                if isinstance(data,dict): used.update(tuple(t[:200]) for t in data.get('base',[]))
+        inputs=[]
+        registered_inputs={};registered_libraries={}
+        for ds,es,name in ((dev_seeds[0],dev_seeds[1],'development'),(dev_seeds[2],dev_seeds[3],'internal_validation')):
+            path=OUT/f'{name}_inputs.json';write(path,runner.generate(ds,es,used));inputs.append(path)
+            registered_inputs[str(path)]=runner.digest(path)
+        write(OUT/'input_manifest.json',[{'path':str(p),'sha256':runner.digest(p)} for p in inputs])
+        def check_integrity():
+            for rel,value in hashes.items():
+                if runner.digest(ROOT/rel)!=value: raise RuntimeError('Registered source changed')
+            for seed in range(11,16):
+                if runner.digest(runner.training(seed)/'completion_audit.json')!=model_hashes[str(seed)]['audit_sha256']:
+                    raise RuntimeError('Frozen model audit changed')
+        def checked_evaluate(label,library,paths,random_group=False,expected_library_hash=None):
+            check_integrity()
+            library_hash=expected_library_hash or registered_libraries[str(library)]
+            input_hashes=[registered_inputs[str(p)] for p in paths]
+            if runner.digest(library)!=library_hash or [runner.digest(p) for p in paths]!=input_hashes:
+                raise RuntimeError('Registered input or library changed between evaluations')
+            summary=runner.evaluate(label,library,paths,random_group)
+            check_integrity()
+            if runner.digest(library)!=library_hash or [runner.digest(p) for p in paths]!=input_hashes:
+                raise RuntimeError('Evaluation input or library changed')
+            for index,source in enumerate(summary['sources']):
+                seed=11+index//len(paths)
+                if source['model_sha256']!=model_hashes[str(seed)]['parameter_sha256']:
+                    raise RuntimeError('Actual evaluated model differs from registered model')
+            return summary
+        def evaluate(label,library,random_group=False):
+            library_hash=runner.digest(library)
+            summary=checked_evaluate(label,library,inputs,random_group)
+            batches=[]
+            for lo in (0,4):
+                rows=summary['fitness'];d=[]
+                for seed in range(11,16):
+                    for trace in range(lo,lo+4):
+                        a=next(r for r in rows if r['seed']==seed and r['trajectory']==trace and r['group']=='happo')
+                        b=next(r for r in rows if r['seed']==seed and r['trajectory']==trace and r['group']=='llm_library')
+                        d.append([b['cost']-a['cost'],b['backlog']-a['backlog']])
+                batches.append(np.mean(d,axis=0).tolist())
+            item={'label':label,'library':str(library),'library_sha256':library_hash,'candidates':read(library)['candidates'],
+                  'summary':summary,'split_mean_delta':batches,'eligible':all(b[1]<=0 for b in batches),
+                  'length':sum(len(r['when'])+len(r['delta']) for c in read(library)['candidates'] for r in c['rules'])}
+            archive.append(item);write(OUT/'archive.json',archive);return item
+        seeds=[ROOT/'docs/artifacts/operator_discovery_v1/repaired_library.json',ROOT/'results/llm_current_v2/round2_library.json',ROOT/'results/llm_current_v2/round6_library.json']
+        if version==4:
+            random_source=ROOT/'results/formal_evaluation/stage_c_seed11_k3_v1/stage_c_seed11_k3_v1_batch1/random_library.json'
+            sys.path.insert(0,str(ROOT/'experiments/formal_evaluation'))
+            from ablations import random_rules
+            if read(random_source)['candidates']!=random_rules():
+                raise RuntimeError('Historical random parent differs from live diagnostic library')
+            random_library=OUT/'non_llm_random_parent.json';write(random_library,read(random_source))
+            seeds=[seeds[0],random_library,seeds[1]]
+        for path in seeds: registered_libraries[str(path)]=runner.digest(path)
+        for index,path in enumerate(seeds):
+            fp=fingerprint(read(path),states)
+            if fp in seen: continue
+            seen.add(fp);evaluate(f'initial{index}',path,index==0)
+        system=runner.SYSTEM+'''\nOFFLINE current report environment: each3 completed external demands become a block mean repeated3 times, available next decision. recent/baseline/growth use only these delivered values; agent0 incoming is last delivered reconstructed value, upstream incoming is previous downstream order. Current local inventory/backlog/pipeline/arrival and HAPPO proposal are globally observed. Rules have no other-node feature names. Notification arrives after two completed event periods; no end time or multiplier available online. Frozen five models,6 forecast paths (3search+3review),20period horizon, first5 corrected, reselect every5,1percent cost improvement and no predicted backlog increase required. You design3 diverse bounded rules; do not hardcode dates/seeds, cannot add features. True is valid, lowercase true is not. DSL only. Numerical guards must cover zero demand. Reflections use completed development cases only. When producing a library return JSON {candidates:[3 candidates]}; each candidate has explanation and1..4 when/delta rules. Do not just rephrase parents; change actual bounded integer actions in substantive state regions.'''
+        if version==4:
+            system+='''\nOne parent is explicitly NON-LLM random constant-vector rules with strong completed development fitness. Preserve attribution to that source; do NOT copy and relabel them as novel LLM rules. Discover state-conditioned asymmetric coordination that improves that parent on both development and internal validation, especially downstream service. Compare all metrics and worst cases. Distinguish observed results from mechanistic hypotheses: an order at node0 becomes demand on node1; node1 order becomes demand on node2; cutting node0 order reduces upstream immediate demand, not directly upstream stock. A node own order affects its future pipeline replenishment. Shipment from node i+1 to i depends on upstream stock/arrival and downstream order/backlog. No other-node DSL features may be invented. Explain specific state regions where integer actions differ and why both splits can improve.'''
+        def request(context,kind):
+            body={'model':os.environ.get('DEEPSEEK_MODEL','deepseek-flash'),'messages':[{'role':'system','content':system},{'role':'user','content':json.dumps(context)}],
+                  'response_format':{'type':'json_object'},'thinking':{'type':'disabled'},'temperature':.5,'max_tokens':4000}
+            record={'kind':kind,'request':body,'status':'started'};calls.append(record);write(OUT/'calls.json',calls)
+            write(OUT/'progress.json',{'status':'requesting','kind':kind,'requests':len(calls),'pid':os.getpid()});start=time.perf_counter()
+            try:
+                req=urllib.request.Request('https://api.deepseek.com/chat/completions',data=json.dumps(body).encode(),headers={'Authorization':'Bearer '+key,'Content-Type':'application/json'})
+                with urllib.request.urlopen(req,timeout=90) as response: result=json.load(response)
+                record['response']=result;record['usage']=result.get('usage')
+                choice=result['choices'][0]
+                if choice['finish_reason']!='stop': raise ValueError('Incomplete output')
+                content=json.loads(choice['message']['content']);record['status']='received';return content,record
+            except urllib.error.HTTPError as exc:
+                record['status']='failed';record['failure']='HTTP_'+str(exc.code)
+                if exc.code in (401,402,403): raise RuntimeError('API authentication/balance/permission failure') from None
+                return None,record
+            except Exception as exc:
+                record['status']='failed';record['failure']=str(exc)[:400];return None,record
+            finally:
+                record['seconds']=time.perf_counter()-start;write(OUT/'calls.json',calls)
+        def ranking(item):
+            # Length only breaks cost ties at a fixed1e-9 resolution.
+            return (not item['eligible'],round(item['summary']['mean_delta'][0],9),item['length'])
+        for generation in range(1,4):
+            parents=sorted(archive,key=ranking)
+            elite=parents[(generation-1)%min(2,len(parents))];other=parents[-1] if len(parents)>1 else elite
+            context={'generation':generation,'elite':elite,'different_parent':other,'memory':memory[-3:],
+                     'task':'Compare mechanisms and failures across five frozen models and development/internal validation; return JSON reflection string and memory string. No candidates yet.'}
+            reflection=None
+            for attempt in range(3):
+                value,record=request(context,'reflection')
+                if isinstance(value,dict) and isinstance(value.get('reflection'),str): reflection=value;record['status']='valid';break
+                record['status']='failed';record['failure']='Invalid reflection JSON';write(OUT/'calls.json',calls)
+            if reflection is None: raise RuntimeError('Reflection unavailable after3 attempts')
+            memory.append(reflection);write(OUT/'reflections.json',memory)
+            for operation in ('biased_crossover','elite_mutation'):
+                library=None
+                for attempt in range(3):
+                    context={'generation':generation,'operation':operation,'elite_candidates':elite['candidates'],
+                             'different_parent_candidates':other['candidates'],'reflection':reflection,'prior_memory':memory[-3:],
+                             'last_failure':calls[-1].get('failure'),
+                             'instruction':'Crossover: retain sound elite principles, integrate a distinct useful mechanism from other parent. Mutation: change failure-region behavior while preserving successful behavior. Return exactly3 candidates. Improve both development and internal validation, use no tests.'}
+                    value,record=request(context,operation)
+                    if value:
+                        try:
+                            fp=fingerprint(value,states)
+                            if fp in seen: raise ValueError('Behavior duplicate on registered bounded-action probes; substantive change required')
+                            seen.add(fp);library=OUT/f'generation{generation}_{operation}.json';write(library,value);record['status']='valid'
+                            registered_libraries[str(library)]=runner.digest(library)
+                        except Exception as exc:
+                            record['status']='failed';record['failure']=str(exc)[:400]
+                    write(OUT/'calls.json',calls)
+                    if library: break
+                if library: evaluate(f'generation{generation}_{operation}',library)
+                else: write(OUT/f'generation{generation}_{operation}_skipped.json',{'failure':'Three failed/duplicate candidates; all requests preserved'})
+            write(OUT/'generation_progress.json',{'generation':generation,'elite_labels':[p['label'] for p in sorted(archive,key=ranking)[:2]],'evaluated_libraries':len(archive)})
+            print('GENERATION_COMPLETED',generation,'libraries',len(archive),flush=True)
+        eligible=[a for a in archive if a['eligible']]
+        if version==4:
+            parent=next(a for a in archive if a['label']=='initial1')
+            eligible=[a for a in eligible if a['label'].startswith('generation') and all(a['split_mean_delta'][i][0]<parent['split_mean_delta'][i][0]-1e-9 and a['split_mean_delta'][i][1]<=parent['split_mean_delta'][i][1] for i in range(2))]
+            if not eligible:
+                write(OUT/'completed.json',{'status':'completed_no_qualified_library','evaluated_libraries':len(archive),
+                                           'api_requests':len(calls),'test_episodes':0,'reason':'No LLM offspring improves non-LLM parent on cost while maintaining service in both development splits'})
+                write(OUT/'progress.json',{'status':'completed_no_qualified_library','pid':os.getpid()})
+                print('NO_QUALIFIED_LIBRARY_NO_TEST_STARTED',flush=True);return
+        winner=sorted(eligible,key=ranking)[0] if eligible else archive[0]
+        if runner.digest(Path(winner['library']))!=winner['library_sha256']: raise RuntimeError('Selected library changed since evaluation')
+        frozen=OUT/'frozen_library.json';shutil.copy2(winner['library'],frozen)
+        write(OUT/'frozen_manifest.json',{'source':winner['library'],'library_sha256':runner.digest(frozen),'selection':winner,'tests_not_generated_yet':True})
+        directory=OUT/'test_inputs';directory.mkdir();tests=[]
+        for n in range(1,6):
+            path=directory/f'batch{n}.json';write(path,runner.generate(test_start-2+2*n,test_start-1+2*n,used));tests.append(path)
+            registered_inputs[str(path)]=runner.digest(path)
+        write(directory/'manifest.json',{'inputs':[{'path':str(p),'sha256':runner.digest(p)} for p in tests],'frozen_library_sha256':runner.digest(frozen)})
+        if runner.digest(seeds[0])!=archive[0]['library_sha256']: raise RuntimeError('Old library changed since development')
+        new=checked_evaluate('test_new',frozen,tests,True,expected_library_hash=winner['library_sha256'])
+        old=checked_evaluate('test_old',seeds[0],tests,expected_library_hash=archive[0]['library_sha256'])
+        sys.path.insert(0,str(ROOT/'experiments/formal_evaluation'))
+        from analyze_multi import compare
+        def matrix(summary,g):
+            return np.array([[next([r['cost'],r['backlog']] for r in summary['fitness'] if r['seed']==seed and r['trajectory']==trace and r['group']==g) for trace in range(20)] for seed in range(11,16)])
+        a=matrix(new,'happo');assert np.array_equal(a,matrix(old,'happo'))
+        summary={'vs_happo':compare(a,matrix(new,'llm_library')),'vs_old':compare(matrix(old,'llm_library'),matrix(new,'llm_library')),
+                 'vs_random':compare(matrix(new,'random_screen'),matrix(new,'llm_library')),'api_requests':len(calls),
+                 'api_failures':sum(r['status']=='failed' for r in calls),'usage':[r.get('usage') for r in calls],
+                 'test_episodes':1000,'duplicate_happo_audit_episodes':200,'all_seeds_retained':True,
+                 'limits':'Additional comparisons descriptive; vs_v2 discovery not budget matched. Synthetic behavioral deduplication does not prove equivalence in all states.'}
+        write(OUT/'test_summary.json',summary);write(OUT/'completed.json',{'status':'completed','winner':winner['label'],'summary':summary})
+        write(OUT/'progress.json',{'status':'completed','pid':os.getpid()});print('REFLECTIVE_EVOLUTION_COMPLETED',flush=True)
+    except Exception as exc:
+        write(OUT/'failed.json',{'failure':str(exc),'original_outputs_preserved':True});raise
+
+
+if __name__=='__main__': main()
