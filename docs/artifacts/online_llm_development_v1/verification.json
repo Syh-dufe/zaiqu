@@ -1,0 +1,59 @@
+{
+  "status": "verified",
+  "episodes": 80,
+  "node_periods": 48000,
+  "audits": [
+    {
+      "api_requests": 46,
+      "api_failures": 6,
+      "usage": {
+        "prompt_tokens": 144837,
+        "completion_tokens": 16718,
+        "total_tokens": 161555,
+        "prompt_cache_hit_tokens": 88832,
+        "prompt_cache_miss_tokens": 56005
+      },
+      "raw_rows": 24000,
+      "information_rows": 8000,
+      "selection_events": 384,
+      "wall_seconds": 286.7721420000016,
+      "api_seconds": 87.00471290000132,
+      "screening_seconds": 149.99615579962847,
+      "changed_node_orders": 931
+    },
+    {
+      "api_requests": 44,
+      "api_failures": 4,
+      "usage": {
+        "prompt_tokens": 136734,
+        "completion_tokens": 15155,
+        "total_tokens": 151889,
+        "prompt_cache_hit_tokens": 81536,
+        "prompt_cache_miss_tokens": 55198
+      },
+      "raw_rows": 24000,
+      "information_rows": 8000,
+      "selection_events": 384,
+      "wall_seconds": 281.3431120000023,
+      "api_seconds": 84.05662090002443,
+      "screening_seconds": 148.9592171999684,
+      "changed_node_orders": 560
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 281571,
+    "completion_tokens": 31873,
+    "total_tokens": 313444,
+    "prompt_cache_hit_tokens": 170368,
+    "prompt_cache_miss_tokens": 111203
+  },
+  "raw_cost_backlog_reports_normal_actions_API_budgets_summary": "passed",
+  "source_snapshot_and_current_model_metadata_hashes": "passed",
+  "credential_audit": "No configured key in archive process; requests inspected for missing authorization header",
+  "api_requests": 90,
+  "development_only": true,
+  "currency_cost": null,
+  "cost_note": "Tokens retained; currency billing not independently obtained",
+  "original_outputs_preserved": true,
+  "model_weights_not_copied": true
+}

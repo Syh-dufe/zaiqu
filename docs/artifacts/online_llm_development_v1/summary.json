@@ -1,0 +1,3318 @@
+{
+  "development_only": true,
+  "claim_limit": "Small development batch; no independent efficacy claim or LLM attribution vs random without support",
+  "episodes_observed": 80,
+  "expected_episodes": 80,
+  "fitness": [
+    {
+      "seed": 11,
+      "group": "happo",
+      "scenario": "base",
+      "trace": 0,
+      "cost": 15.845,
+      "downstream_backlog": 4.86,
+      "generation_events": 0,
+      "episode_http": 0,
+      "notification_period": null
+    },
+    {
+      "seed": 11,
+      "group": "happo",
+      "scenario": "base",
+      "trace": 1,
+      "cost": 17.848333333333333,
+      "downstream_backlog": 0.945,
+      "generation_events": 0,
+      "episode_http": 0,
+      "notification_period": null
+    },
+    {
+      "seed": 11,
+      "group": "happo",
+      "scenario": "base",
+      "trace": 2,
+      "cost": 60.151666666666664,
+      "downstream_backlog": 157.18,
+      "generation_events": 0,
+      "episode_http": 0,
+      "notification_period": null
+    },
+    {
+      "seed": 11,
+      "group": "happo",
+      "scenario": "base",
+      "trace": 3,
+      "cost": 38.06166666666667,
+      "downstream_backlog": 81.65,
+      "generation_events": 0,
+      "episode_http": 0,
+      "notification_period": null
+    },
+    {
+      "seed": 11,
+      "group": "happo",
+      "scenario": "shock",
+      "trace": 0,
+      "cost": 14.693333333333333,
+      "downstream_backlog": 5.245,
+      "generation_events": 0,
+      "episode_http": 0,
+      "notification_period": 72
+    },
+    {
+      "seed": 11,
+      "group": "happo",
+      "scenario": "shock",
+      "trace": 1,
+      "cost": 19.99,
+      "downstream_backlog": 1.015,
+      "generation_events": 0,
+      "episode_http": 0,
+      "notification_period": 92
+    },
+    {
+      "seed": 11,
+      "group": "happo",
+      "scenario": "shock",
+      "trace": 2,
+      "cost": 61.425,
+      "downstream_backlog": 161.36,
+      "generation_events": 0,
+      "episode_http": 0,
+      "notification_period": 95
+    },
+    {
+      "seed": 11,
+      "group": "happo",
+      "scenario": "shock",
+      "trace": 3,
+      "cost": 38.06166666666667,
+      "downstream_backlog": 81.65,
+      "generation_events": 0,
+      "episode_http": 0,
+      "notification_period": 72
+    },
+    {
+      "seed": 11,
+      "group": "llm_library",
+      "scenario": "base",
+      "trace": 0,
+      "cost": 15.845,
+      "downstream_backlog": 4.86,
+      "generation_events": 0,
+      "episode_http": 0,
+      "notification_period": null
+    },
+    {
+      "seed": 11,
+      "group": "llm_library",
+      "scenario": "base",
+      "trace": 1,
+      "cost": 17.848333333333333,
+      "downstream_backlog": 0.945,
+      "generation_events": 0,
+      "episode_http": 0,
+      "notification_period": null
+    },
+    {
+      "seed": 11,
+      "group": "llm_library",
+      "scenario": "base",
+      "trace": 2,
+      "cost": 60.151666666666664,
+      "downstream_backlog": 157.18,
+      "generation_events": 0,
+      "episode_http": 0,
+      "notification_period": null
+    },
+    {
+      "seed": 11,
+      "group": "llm_library",
+      "scenario": "base",
+      "trace": 3,
+      "cost": 38.06166666666667,
+      "downstream_backlog": 81.65,
+      "generation_events": 0,
+      "episode_http": 0,
+      "notification_period": null
+    },
+    {
+      "seed": 11,
+      "group": "llm_library",
+      "scenario": "shock",
+      "trace": 0,
+      "cost": 13.768333333333333,
+      "downstream_backlog": 5.055,
+      "generation_events": 1,
+      "episode_http": 0,
+      "notification_period": 72
+    },
+    {
+      "seed": 11,
+      "group": "llm_library",
+      "scenario": "shock",
+      "trace": 1,
+      "cost": 17.695,
+      "downstream_backlog": 1.075,
+      "generation_events": 1,
+      "episode_http": 0,
+      "notification_period": 92
+    },
+    {
+      "seed": 11,
+      "group": "llm_library",
+      "scenario": "shock",
+      "trace": 2,
+      "cost": 58.74,
+      "downstream_backlog": 159.04,
+      "generation_events": 1,
+      "episode_http": 0,
+      "notification_period": 95
+    },
+    {
+      "seed": 11,
+      "group": "llm_library",
+      "scenario": "shock",
+      "trace": 3,
+      "cost": 35.8,
+      "downstream_backlog": 79.595,
+      "generation_events": 1,
+      "episode_http": 0,
+      "notification_period": 72
+    },
+    {
+      "seed": 11,
+      "group": "online_once",
+      "scenario": "base",
+      "trace": 0,
+      "cost": 15.845,
+      "downstream_backlog": 4.86,
+      "generation_events": 0,
+      "episode_http": 0,
+      "notification_period": null
+    },
+    {
+      "seed": 11,
+      "group": "online_once",
+      "scenario": "base",
+      "trace": 1,
+      "cost": 17.848333333333333,
+      "downstream_backlog": 0.945,
+      "generation_events": 0,
+      "episode_http": 0,
+      "notification_period": null
+    },
+    {
+      "seed": 11,
+      "group": "online_once",
+      "scenario": "base",
+      "trace": 2,
+      "cost": 60.151666666666664,
+      "downstream_backlog": 157.18,
+      "generation_events": 0,
+      "episode_http": 0,
+      "notification_period": null
+    },
+    {
+      "seed": 11,
+      "group": "online_once",
+      "scenario": "base",
+      "trace": 3,
+      "cost": 38.06166666666667,
+      "downstream_backlog": 81.65,
+      "generation_events": 0,
+      "episode_http": 0,
+      "notification_period": null
+    },
+    {
+      "seed": 11,
+      "group": "online_once",
+      "scenario": "shock",
+      "trace": 0,
+      "cost": 15.761666666666667,
+      "downstream_backlog": 5.5,
+      "generation_events": 1,
+      "episode_http": 2,
+      "notification_period": 72
+    },
+    {
+      "seed": 11,
+      "group": "online_once",
+      "scenario": "shock",
+      "trace": 1,
+      "cost": 20.175,
+      "downstream_backlog": 1.315,
+      "generation_events": 1,
+      "episode_http": 4,
+      "notification_period": 92
+    },
+    {
+      "seed": 11,
+      "group": "online_once",
+      "scenario": "shock",
+      "trace": 2,
+      "cost": 55.163333333333334,
+      "downstream_backlog": 145.335,
+      "generation_events": 1,
+      "episode_http": 2,
+      "notification_period": 95
+    },
+    {
+      "seed": 11,
+      "group": "online_once",
+      "scenario": "shock",
+      "trace": 3,
+      "cost": 35.0,
+      "downstream_backlog": 75.57,
+      "generation_events": 1,
+      "episode_http": 2,
+      "notification_period": 72
+    },
+    {
+      "seed": 11,
+      "group": "online_feedback",
+      "scenario": "base",
+      "trace": 0,
+      "cost": 15.845,
+      "downstream_backlog": 4.86,
+      "generation_events": 0,
+      "episode_http": 0,
+      "notification_period": null
+    },
+    {
+      "seed": 11,
+      "group": "online_feedback",
+      "scenario": "base",
+      "trace": 1,
+      "cost": 17.848333333333333,
+      "downstream_backlog": 0.945,
+      "generation_events": 0,
+      "episode_http": 0,
+      "notification_period": null
+    },
+    {
+      "seed": 11,
+      "group": "online_feedback",
+      "scenario": "base",
+      "trace": 2,
+      "cost": 60.151666666666664,
+      "downstream_backlog": 157.18,
+      "generation_events": 0,
+      "episode_http": 0,
+      "notification_period": null
+    },
+    {
+      "seed": 11,
+      "group": "online_feedback",
+      "scenario": "base",
+      "trace": 3,
+      "cost": 38.06166666666667,
+      "downstream_backlog": 81.65,
+      "generation_events": 0,
+      "episode_http": 0,
+      "notification_period": null
+    },
+    {
+      "seed": 11,
+      "group": "online_feedback",
+      "scenario": "shock",
+      "trace": 0,
+      "cost": 14.64,
+      "downstream_backlog": 5.175,
+      "generation_events": 4,
+      "episode_http": 10,
+      "notification_period": 72
+    },
+    {
+      "seed": 11,
+      "group": "online_feedback",
+      "scenario": "shock",
+      "trace": 1,
+      "cost": 19.81,
+      "downstream_backlog": 0.995,
+      "generation_events": 4,
+      "episode_http": 8,
+      "notification_period": 92
+    },
+    {
+      "seed": 11,
+      "group": "online_feedback",
+      "scenario": "shock",
+      "trace": 2,
+      "cost": 50.03,
+      "downstream_backlog": 122.35,
+      "generation_events": 4,
+      "episode_http": 8,
+      "notification_period": 95
+    },
+    {
+      "seed": 11,
+      "group": "online_feedback",
+      "scenario": "shock",
+      "trace": 3,
+      "cost": 34.415,
+      "downstream_backlog": 69.245,
+      "generation_events": 4,
+      "episode_http": 10,
+      "notification_period": 72
+    },
+    {
+      "seed": 11,
+      "group": "random_screen",
+      "scenario": "base",
+      "trace": 0,
+      "cost": 15.845,
+      "downstream_backlog": 4.86,
+      "generation_events": 0,
+      "episode_http": 0,
+      "notification_period": null
+    },
+    {
+      "seed": 11,
+      "group": "random_screen",
+      "scenario": "base",
+      "trace": 1,
+      "cost": 17.848333333333333,
+      "downstream_backlog": 0.945,
+      "generation_events": 0,
+      "episode_http": 0,
+      "notification_period": null
+    },
+    {
+      "seed": 11,
+      "group": "random_screen",
+      "scenario": "base",
+      "trace": 2,
+      "cost": 60.151666666666664,
+      "downstream_backlog": 157.18,
+      "generation_events": 0,
+      "episode_http": 0,
+      "notification_period": null
+    },
+    {
+      "seed": 11,
+      "group": "random_screen",
+      "scenario": "base",
+      "trace": 3,
+      "cost": 38.06166666666667,
+      "downstream_backlog": 81.65,
+      "generation_events": 0,
+      "episode_http": 0,
+      "notification_period": null
+    },
+    {
+      "seed": 11,
+      "group": "random_screen",
+      "scenario": "shock",
+      "trace": 0,
+      "cost": 15.365,
+      "downstream_backlog": 4.555,
+      "generation_events": 4,
+      "episode_http": 0,
+      "notification_period": 72
+    },
+    {
+      "seed": 11,
+      "group": "random_screen",
+      "scenario": "shock",
+      "trace": 1,
+      "cost": 19.195,
+      "downstream_backlog": 1.3,
+      "generation_events": 4,
+      "episode_http": 0,
+      "notification_period": 92
+    },
+    {
+      "seed": 11,
+      "group": "random_screen",
+      "scenario": "shock",
+      "trace": 2,
+      "cost": 53.97,
+      "downstream_backlog": 142.125,
+      "generation_events": 4,
+      "episode_http": 0,
+      "notification_period": 95
+    },
+    {
+      "seed": 11,
+      "group": "random_screen",
+      "scenario": "shock",
+      "trace": 3,
+      "cost": 34.54333333333334,
+      "downstream_backlog": 67.225,
+      "generation_events": 4,
+      "episode_http": 0,
+      "notification_period": 72
+    },
+    {
+      "seed": 12,
+      "group": "happo",
+      "scenario": "base",
+      "trace": 0,
+      "cost": 19.058333333333334,
+      "downstream_backlog": 7.465,
+      "generation_events": 0,
+      "episode_http": 0,
+      "notification_period": null
+    },
+    {
+      "seed": 12,
+      "group": "happo",
+      "scenario": "base",
+      "trace": 1,
+      "cost": 14.09,
+      "downstream_backlog": 1.73,
+      "generation_events": 0,
+      "episode_http": 0,
+      "notification_period": null
+    },
+    {
+      "seed": 12,
+      "group": "happo",
+      "scenario": "base",
+      "trace": 2,
+      "cost": 42.43,
+      "downstream_backlog": 83.34,
+      "generation_events": 0,
+      "episode_http": 0,
+      "notification_period": null
+    },
+    {
+      "seed": 12,
+      "group": "happo",
+      "scenario": "base",
+      "trace": 3,
+      "cost": 35.22833333333333,
+      "downstream_backlog": 63.205,
+      "generation_events": 0,
+      "episode_http": 0,
+      "notification_period": null
+    },
+    {
+      "seed": 12,
+      "group": "happo",
+      "scenario": "shock",
+      "trace": 0,
+      "cost": 19.68166666666667,
+      "downstream_backlog": 7.27,
+      "generation_events": 0,
+      "episode_http": 0,
+      "notification_period": 72
+    },
+    {
+      "seed": 12,
+      "group": "happo",
+      "scenario": "shock",
+      "trace": 1,
+      "cost": 12.865,
+      "downstream_backlog": 1.565,
+      "generation_events": 0,
+      "episode_http": 0,
+      "notification_period": 92
+    },
+    {
+      "seed": 12,
+      "group": "happo",
+      "scenario": "shock",
+      "trace": 2,
+      "cost": 43.48166666666667,
+      "downstream_backlog": 86.655,
+      "generation_events": 0,
+      "episode_http": 0,
+      "notification_period": 95
+    },
+    {
+      "seed": 12,
+      "group": "happo",
+      "scenario": "shock",
+      "trace": 3,
+      "cost": 35.22833333333333,
+      "downstream_backlog": 63.205,
+      "generation_events": 0,
+      "episode_http": 0,
+      "notification_period": 72
+    },
+    {
+      "seed": 12,
+      "group": "llm_library",
+      "scenario": "base",
+      "trace": 0,
+      "cost": 19.058333333333334,
+      "downstream_backlog": 7.465,
+      "generation_events": 0,
+      "episode_http": 0,
+      "notification_period": null
+    },
+    {
+      "seed": 12,
+      "group": "llm_library",
+      "scenario": "base",
+      "trace": 1,
+      "cost": 14.09,
+      "downstream_backlog": 1.73,
+      "generation_events": 0,
+      "episode_http": 0,
+      "notification_period": null
+    },
+    {
+      "seed": 12,
+      "group": "llm_library",
+      "scenario": "base",
+      "trace": 2,
+      "cost": 42.43,
+      "downstream_backlog": 83.34,
+      "generation_events": 0,
+      "episode_http": 0,
+      "notification_period": null
+    },
+    {
+      "seed": 12,
+      "group": "llm_library",
+      "scenario": "base",
+      "trace": 3,
+      "cost": 35.22833333333333,
+      "downstream_backlog": 63.205,
+      "generation_events": 0,
+      "episode_http": 0,
+      "notification_period": null
+    },
+    {
+      "seed": 12,
+      "group": "llm_library",
+      "scenario": "shock",
+      "trace": 0,
+      "cost": 18.541666666666668,
+      "downstream_backlog": 6.835,
+      "generation_events": 1,
+      "episode_http": 0,
+      "notification_period": 72
+    },
+    {
+      "seed": 12,
+      "group": "llm_library",
+      "scenario": "shock",
+      "trace": 1,
+      "cost": 12.865,
+      "downstream_backlog": 1.565,
+      "generation_events": 1,
+      "episode_http": 0,
+      "notification_period": 92
+    },
+    {
+      "seed": 12,
+      "group": "llm_library",
+      "scenario": "shock",
+      "trace": 2,
+      "cost": 43.64333333333333,
+      "downstream_backlog": 86.74,
+      "generation_events": 1,
+      "episode_http": 0,
+      "notification_period": 95
+    },
+    {
+      "seed": 12,
+      "group": "llm_library",
+      "scenario": "shock",
+      "trace": 3,
+      "cost": 32.28666666666667,
+      "downstream_backlog": 56.185,
+      "generation_events": 1,
+      "episode_http": 0,
+      "notification_period": 72
+    },
+    {
+      "seed": 12,
+      "group": "online_once",
+      "scenario": "base",
+      "trace": 0,
+      "cost": 19.058333333333334,
+      "downstream_backlog": 7.465,
+      "generation_events": 0,
+      "episode_http": 0,
+      "notification_period": null
+    },
+    {
+      "seed": 12,
+      "group": "online_once",
+      "scenario": "base",
+      "trace": 1,
+      "cost": 14.09,
+      "downstream_backlog": 1.73,
+      "generation_events": 0,
+      "episode_http": 0,
+      "notification_period": null
+    },
+    {
+      "seed": 12,
+      "group": "online_once",
+      "scenario": "base",
+      "trace": 2,
+      "cost": 42.43,
+      "downstream_backlog": 83.34,
+      "generation_events": 0,
+      "episode_http": 0,
+      "notification_period": null
+    },
+    {
+      "seed": 12,
+      "group": "online_once",
+      "scenario": "base",
+      "trace": 3,
+      "cost": 35.22833333333333,
+      "downstream_backlog": 63.205,
+      "generation_events": 0,
+      "episode_http": 0,
+      "notification_period": null
+    },
+    {
+      "seed": 12,
+      "group": "online_once",
+      "scenario": "shock",
+      "trace": 0,
+      "cost": 19.716666666666665,
+      "downstream_backlog": 7.25,
+      "generation_events": 1,
+      "episode_http": 3,
+      "notification_period": 72
+    },
+    {
+      "seed": 12,
+      "group": "online_once",
+      "scenario": "shock",
+      "trace": 1,
+      "cost": 14.096666666666666,
+      "downstream_backlog": 1.48,
+      "generation_events": 1,
+      "episode_http": 2,
+      "notification_period": 92
+    },
+    {
+      "seed": 12,
+      "group": "online_once",
+      "scenario": "shock",
+      "trace": 2,
+      "cost": 43.528333333333336,
+      "downstream_backlog": 86.685,
+      "generation_events": 1,
+      "episode_http": 2,
+      "notification_period": 95
+    },
+    {
+      "seed": 12,
+      "group": "online_once",
+      "scenario": "shock",
+      "trace": 3,
+      "cost": 31.508333333333333,
+      "downstream_backlog": 55.395,
+      "generation_events": 1,
+      "episode_http": 2,
+      "notification_period": 72
+    },
+    {
+      "seed": 12,
+      "group": "online_feedback",
+      "scenario": "base",
+      "trace": 0,
+      "cost": 19.058333333333334,
+      "downstream_backlog": 7.465,
+      "generation_events": 0,
+      "episode_http": 0,
+      "notification_period": null
+    },
+    {
+      "seed": 12,
+      "group": "online_feedback",
+      "scenario": "base",
+      "trace": 1,
+      "cost": 14.09,
+      "downstream_backlog": 1.73,
+      "generation_events": 0,
+      "episode_http": 0,
+      "notification_period": null
+    },
+    {
+      "seed": 12,
+      "group": "online_feedback",
+      "scenario": "base",
+      "trace": 2,
+      "cost": 42.43,
+      "downstream_backlog": 83.34,
+      "generation_events": 0,
+      "episode_http": 0,
+      "notification_period": null
+    },
+    {
+      "seed": 12,
+      "group": "online_feedback",
+      "scenario": "base",
+      "trace": 3,
+      "cost": 35.22833333333333,
+      "downstream_backlog": 63.205,
+      "generation_events": 0,
+      "episode_http": 0,
+      "notification_period": null
+    },
+    {
+      "seed": 12,
+      "group": "online_feedback",
+      "scenario": "shock",
+      "trace": 0,
+      "cost": 19.628333333333334,
+      "downstream_backlog": 7.015,
+      "generation_events": 4,
+      "episode_http": 9,
+      "notification_period": 72
+    },
+    {
+      "seed": 12,
+      "group": "online_feedback",
+      "scenario": "shock",
+      "trace": 1,
+      "cost": 13.318333333333333,
+      "downstream_backlog": 1.37,
+      "generation_events": 4,
+      "episode_http": 8,
+      "notification_period": 92
+    },
+    {
+      "seed": 12,
+      "group": "online_feedback",
+      "scenario": "shock",
+      "trace": 2,
+      "cost": 40.836666666666666,
+      "downstream_backlog": 83.96,
+      "generation_events": 4,
+      "episode_http": 9,
+      "notification_period": 95
+    },
+    {
+      "seed": 12,
+      "group": "online_feedback",
+      "scenario": "shock",
+      "trace": 3,
+      "cost": 28.273333333333333,
+      "downstream_backlog": 53.435,
+      "generation_events": 4,
+      "episode_http": 9,
+      "notification_period": 72
+    },
+    {
+      "seed": 12,
+      "group": "random_screen",
+      "scenario": "base",
+      "trace": 0,
+      "cost": 19.058333333333334,
+      "downstream_backlog": 7.465,
+      "generation_events": 0,
+      "episode_http": 0,
+      "notification_period": null
+    },
+    {
+      "seed": 12,
+      "group": "random_screen",
+      "scenario": "base",
+      "trace": 1,
+      "cost": 14.09,
+      "downstream_backlog": 1.73,
+      "generation_events": 0,
+      "episode_http": 0,
+      "notification_period": null
+    },
+    {
+      "seed": 12,
+      "group": "random_screen",
+      "scenario": "base",
+      "trace": 2,
+      "cost": 42.43,
+      "downstream_backlog": 83.34,
+      "generation_events": 0,
+      "episode_http": 0,
+      "notification_period": null
+    },
+    {
+      "seed": 12,
+      "group": "random_screen",
+      "scenario": "base",
+      "trace": 3,
+      "cost": 35.22833333333333,
+      "downstream_backlog": 63.205,
+      "generation_events": 0,
+      "episode_http": 0,
+      "notification_period": null
+    },
+    {
+      "seed": 12,
+      "group": "random_screen",
+      "scenario": "shock",
+      "trace": 0,
+      "cost": 20.468333333333334,
+      "downstream_backlog": 5.765,
+      "generation_events": 4,
+      "episode_http": 0,
+      "notification_period": 72
+    },
+    {
+      "seed": 12,
+      "group": "random_screen",
+      "scenario": "shock",
+      "trace": 1,
+      "cost": 13.313333333333333,
+      "downstream_backlog": 1.32,
+      "generation_events": 4,
+      "episode_http": 0,
+      "notification_period": 92
+    },
+    {
+      "seed": 12,
+      "group": "random_screen",
+      "scenario": "shock",
+      "trace": 2,
+      "cost": 41.016666666666666,
+      "downstream_backlog": 81.615,
+      "generation_events": 4,
+      "episode_http": 0,
+      "notification_period": 95
+    },
+    {
+      "seed": 12,
+      "group": "random_screen",
+      "scenario": "shock",
+      "trace": 3,
+      "cost": 27.898333333333333,
+      "downstream_backlog": 52.06,
+      "generation_events": 4,
+      "episode_http": 0,
+      "notification_period": 72
+    }
+  ],
+  "paired_deltas": [
+    {
+      "seed": 11,
+      "trace": 0,
+      "group": "llm_library",
+      "cost_delta": -0.9250000000000007,
+      "backlog_delta": -0.1900000000000004
+    },
+    {
+      "seed": 11,
+      "trace": 1,
+      "group": "llm_library",
+      "cost_delta": -2.294999999999998,
+      "backlog_delta": 0.06000000000000005
+    },
+    {
+      "seed": 11,
+      "trace": 2,
+      "group": "llm_library",
+      "cost_delta": -2.684999999999995,
+      "backlog_delta": -2.3200000000000216
+    },
+    {
+      "seed": 11,
+      "trace": 3,
+      "group": "llm_library",
+      "cost_delta": -2.2616666666666703,
+      "backlog_delta": -2.055000000000007
+    },
+    {
+      "seed": 11,
+      "trace": 0,
+      "group": "online_once",
+      "cost_delta": 1.0683333333333334,
+      "backlog_delta": 0.2549999999999999
+    },
+    {
+      "seed": 11,
+      "trace": 1,
+      "group": "online_once",
+      "cost_delta": 0.18500000000000227,
+      "backlog_delta": 0.30000000000000004
+    },
+    {
+      "seed": 11,
+      "trace": 2,
+      "group": "online_once",
+      "cost_delta": -6.261666666666663,
+      "backlog_delta": -16.025000000000006
+    },
+    {
+      "seed": 11,
+      "trace": 3,
+      "group": "online_once",
+      "cost_delta": -3.0616666666666674,
+      "backlog_delta": -6.0800000000000125
+    },
+    {
+      "seed": 11,
+      "trace": 0,
+      "group": "online_feedback",
+      "cost_delta": -0.05333333333333279,
+      "backlog_delta": -0.07000000000000028
+    },
+    {
+      "seed": 11,
+      "trace": 1,
+      "group": "online_feedback",
+      "cost_delta": -0.17999999999999972,
+      "backlog_delta": -0.019999999999999907
+    },
+    {
+      "seed": 11,
+      "trace": 2,
+      "group": "online_feedback",
+      "cost_delta": -11.394999999999996,
+      "backlog_delta": -39.01000000000002
+    },
+    {
+      "seed": 11,
+      "trace": 3,
+      "group": "online_feedback",
+      "cost_delta": -3.6466666666666683,
+      "backlog_delta": -12.405000000000001
+    },
+    {
+      "seed": 11,
+      "trace": 0,
+      "group": "random_screen",
+      "cost_delta": 0.6716666666666669,
+      "backlog_delta": -0.6900000000000004
+    },
+    {
+      "seed": 11,
+      "trace": 1,
+      "group": "random_screen",
+      "cost_delta": -0.7949999999999982,
+      "backlog_delta": 0.28500000000000014
+    },
+    {
+      "seed": 11,
+      "trace": 2,
+      "group": "random_screen",
+      "cost_delta": -7.454999999999998,
+      "backlog_delta": -19.235000000000014
+    },
+    {
+      "seed": 11,
+      "trace": 3,
+      "group": "random_screen",
+      "cost_delta": -3.518333333333331,
+      "backlog_delta": -14.425000000000011
+    },
+    {
+      "seed": 12,
+      "trace": 0,
+      "group": "llm_library",
+      "cost_delta": -1.1400000000000006,
+      "backlog_delta": -0.4349999999999996
+    },
+    {
+      "seed": 12,
+      "trace": 1,
+      "group": "llm_library",
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "seed": 12,
+      "trace": 2,
+      "group": "llm_library",
+      "cost_delta": 0.16166666666666174,
+      "backlog_delta": 0.08499999999999375
+    },
+    {
+      "seed": 12,
+      "trace": 3,
+      "group": "llm_library",
+      "cost_delta": -2.941666666666663,
+      "backlog_delta": -7.019999999999996
+    },
+    {
+      "seed": 12,
+      "trace": 0,
+      "group": "online_once",
+      "cost_delta": 0.03499999999999659,
+      "backlog_delta": -0.019999999999999574
+    },
+    {
+      "seed": 12,
+      "trace": 1,
+      "group": "online_once",
+      "cost_delta": 1.2316666666666656,
+      "backlog_delta": -0.08499999999999996
+    },
+    {
+      "seed": 12,
+      "trace": 2,
+      "group": "online_once",
+      "cost_delta": 0.046666666666666856,
+      "backlog_delta": 0.030000000000001137
+    },
+    {
+      "seed": 12,
+      "trace": 3,
+      "group": "online_once",
+      "cost_delta": -3.719999999999999,
+      "backlog_delta": -7.809999999999995
+    },
+    {
+      "seed": 12,
+      "trace": 0,
+      "group": "online_feedback",
+      "cost_delta": -0.053333333333334565,
+      "backlog_delta": -0.2549999999999999
+    },
+    {
+      "seed": 12,
+      "trace": 1,
+      "group": "online_feedback",
+      "cost_delta": 0.45333333333333314,
+      "backlog_delta": -0.19499999999999984
+    },
+    {
+      "seed": 12,
+      "trace": 2,
+      "group": "online_feedback",
+      "cost_delta": -2.645000000000003,
+      "backlog_delta": -2.6950000000000074
+    },
+    {
+      "seed": 12,
+      "trace": 3,
+      "group": "online_feedback",
+      "cost_delta": -6.954999999999998,
+      "backlog_delta": -9.769999999999996
+    },
+    {
+      "seed": 12,
+      "trace": 0,
+      "group": "random_screen",
+      "cost_delta": 0.7866666666666653,
+      "backlog_delta": -1.505
+    },
+    {
+      "seed": 12,
+      "trace": 1,
+      "group": "random_screen",
+      "cost_delta": 0.44833333333333236,
+      "backlog_delta": -0.24499999999999988
+    },
+    {
+      "seed": 12,
+      "trace": 2,
+      "group": "random_screen",
+      "cost_delta": -2.4650000000000034,
+      "backlog_delta": -5.040000000000006
+    },
+    {
+      "seed": 12,
+      "trace": 3,
+      "group": "random_screen",
+      "cost_delta": -7.329999999999998,
+      "backlog_delta": -11.144999999999996
+    }
+  ],
+  "per_model": [
+    {
+      "seed": 11,
+      "group": "llm_library",
+      "pairs": 4,
+      "mean_cost_delta": -2.041666666666666,
+      "mean_backlog_delta": -1.1262500000000073
+    },
+    {
+      "seed": 11,
+      "group": "online_once",
+      "pairs": 4,
+      "mean_cost_delta": -2.0174999999999987,
+      "mean_backlog_delta": -5.387500000000005
+    },
+    {
+      "seed": 11,
+      "group": "online_feedback",
+      "pairs": 4,
+      "mean_cost_delta": -3.818749999999999,
+      "mean_backlog_delta": -12.876250000000006
+    },
+    {
+      "seed": 11,
+      "group": "random_screen",
+      "pairs": 4,
+      "mean_cost_delta": -2.774166666666665,
+      "mean_backlog_delta": -8.516250000000007
+    },
+    {
+      "seed": 12,
+      "group": "llm_library",
+      "pairs": 4,
+      "mean_cost_delta": -0.9800000000000004,
+      "mean_backlog_delta": -1.8425000000000005
+    },
+    {
+      "seed": 12,
+      "group": "online_once",
+      "pairs": 4,
+      "mean_cost_delta": -0.6016666666666675,
+      "mean_backlog_delta": -1.9712499999999984
+    },
+    {
+      "seed": 12,
+      "group": "online_feedback",
+      "pairs": 4,
+      "mean_cost_delta": -2.3000000000000007,
+      "mean_backlog_delta": -3.2287500000000007
+    },
+    {
+      "seed": 12,
+      "group": "random_screen",
+      "pairs": 4,
+      "mean_cost_delta": -2.140000000000001,
+      "mean_backlog_delta": -4.483750000000001
+    }
+  ],
+  "comparisons": [
+    {
+      "reference": "happo",
+      "method": "llm_library",
+      "mean_delta": [
+        -1.5108333333333333,
+        -1.484375000000004
+      ],
+      "descriptive_crossed_ci95": [
+        [
+          -2.4816666666666647,
+          -3.6825000000000045
+        ],
+        [
+          -0.20416666666666927,
+          -0.04500000000000459
+        ]
+      ]
+    },
+    {
+      "reference": "happo",
+      "method": "online_once",
+      "mean_delta": [
+        -1.309583333333333,
+        -3.6793750000000016
+      ],
+      "descriptive_crossed_ci95": [
+        [
+          -3.849999999999998,
+          -9.468750000000007
+        ],
+        [
+          0.6391666666666662,
+          0.11500000000000013
+        ]
+      ]
+    },
+    {
+      "reference": "happo",
+      "method": "online_feedback",
+      "mean_delta": [
+        -3.059375,
+        -8.052500000000004
+      ],
+      "descriptive_crossed_ci95": [
+        [
+          -6.654166666666665,
+          -22.62375000000001
+        ],
+        [
+          0.04166666666666652,
+          -0.12124999999999993
+        ]
+      ]
+    },
+    {
+      "reference": "happo",
+      "method": "random_screen",
+      "mean_delta": [
+        -2.4570833333333333,
+        -6.5000000000000036
+      ],
+      "descriptive_crossed_ci95": [
+        [
+          -5.423333333333332,
+          -13.396250000000009
+        ],
+        [
+          0.3050000000000006,
+          -0.44625000000000026
+        ]
+      ]
+    },
+    {
+      "reference": "llm_library",
+      "method": "online_feedback",
+      "mean_delta": [
+        -1.5485416666666667,
+        -6.568124999999999
+      ],
+      "descriptive_crossed_ci95": [
+        [
+          -4.993541666666666,
+          -20.952499999999997
+        ],
+        [
+          1.1825000000000006,
+          0.020000000000000073
+        ]
+      ]
+    },
+    {
+      "reference": "random_screen",
+      "method": "online_feedback",
+      "mean_delta": [
+        -0.6022916666666669,
+        -1.5524999999999993
+      ],
+      "descriptive_crossed_ci95": [
+        [
+          -2.183333333333333,
+          -9.808750000000003
+        ],
+        [
+          0.24333333333333051,
+          1.8287499999999994
+        ]
+      ]
+    },
+    {
+      "reference": "online_once",
+      "method": "online_feedback",
+      "mean_delta": [
+        -1.7497916666666669,
+        -4.373125000000001
+      ],
+      "descriptive_crossed_ci95": [
+        [
+          -3.1274999999999995,
+          -13.155000000000005
+        ],
+        [
+          -0.554166666666668,
+          -0.24750000000000005
+        ]
+      ]
+    }
+  ],
+  "all_unfavorable_pairs": [
+    {
+      "seed": 11,
+      "trace": 1,
+      "group": "llm_library",
+      "cost_delta": -2.294999999999998,
+      "backlog_delta": 0.06000000000000005
+    },
+    {
+      "seed": 11,
+      "trace": 0,
+      "group": "online_once",
+      "cost_delta": 1.0683333333333334,
+      "backlog_delta": 0.2549999999999999
+    },
+    {
+      "seed": 11,
+      "trace": 1,
+      "group": "online_once",
+      "cost_delta": 0.18500000000000227,
+      "backlog_delta": 0.30000000000000004
+    },
+    {
+      "seed": 11,
+      "trace": 0,
+      "group": "random_screen",
+      "cost_delta": 0.6716666666666669,
+      "backlog_delta": -0.6900000000000004
+    },
+    {
+      "seed": 11,
+      "trace": 1,
+      "group": "random_screen",
+      "cost_delta": -0.7949999999999982,
+      "backlog_delta": 0.28500000000000014
+    },
+    {
+      "seed": 12,
+      "trace": 2,
+      "group": "llm_library",
+      "cost_delta": 0.16166666666666174,
+      "backlog_delta": 0.08499999999999375
+    },
+    {
+      "seed": 12,
+      "trace": 0,
+      "group": "online_once",
+      "cost_delta": 0.03499999999999659,
+      "backlog_delta": -0.019999999999999574
+    },
+    {
+      "seed": 12,
+      "trace": 1,
+      "group": "online_once",
+      "cost_delta": 1.2316666666666656,
+      "backlog_delta": -0.08499999999999996
+    },
+    {
+      "seed": 12,
+      "trace": 2,
+      "group": "online_once",
+      "cost_delta": 0.046666666666666856,
+      "backlog_delta": 0.030000000000001137
+    },
+    {
+      "seed": 12,
+      "trace": 1,
+      "group": "online_feedback",
+      "cost_delta": 0.45333333333333314,
+      "backlog_delta": -0.19499999999999984
+    },
+    {
+      "seed": 12,
+      "trace": 0,
+      "group": "random_screen",
+      "cost_delta": 0.7866666666666653,
+      "backlog_delta": -1.505
+    },
+    {
+      "seed": 12,
+      "trace": 1,
+      "group": "random_screen",
+      "cost_delta": 0.44833333333333236,
+      "backlog_delta": -0.24499999999999988
+    }
+  ],
+  "failures": [],
+  "raw_metric_audits": [
+    {
+      "seed": 11,
+      "group": "happo",
+      "scenario": "base",
+      "trace": 0,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 11,
+      "group": "happo",
+      "scenario": "base",
+      "trace": 1,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 11,
+      "group": "happo",
+      "scenario": "base",
+      "trace": 2,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 11,
+      "group": "happo",
+      "scenario": "base",
+      "trace": 3,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 11,
+      "group": "happo",
+      "scenario": "shock",
+      "trace": 0,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 11,
+      "group": "happo",
+      "scenario": "shock",
+      "trace": 1,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 11,
+      "group": "happo",
+      "scenario": "shock",
+      "trace": 2,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 11,
+      "group": "happo",
+      "scenario": "shock",
+      "trace": 3,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 11,
+      "group": "llm_library",
+      "scenario": "base",
+      "trace": 0,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 11,
+      "group": "llm_library",
+      "scenario": "base",
+      "trace": 1,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 11,
+      "group": "llm_library",
+      "scenario": "base",
+      "trace": 2,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 11,
+      "group": "llm_library",
+      "scenario": "base",
+      "trace": 3,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 11,
+      "group": "llm_library",
+      "scenario": "shock",
+      "trace": 0,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 11,
+      "group": "llm_library",
+      "scenario": "shock",
+      "trace": 1,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 11,
+      "group": "llm_library",
+      "scenario": "shock",
+      "trace": 2,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 11,
+      "group": "llm_library",
+      "scenario": "shock",
+      "trace": 3,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 11,
+      "group": "online_once",
+      "scenario": "base",
+      "trace": 0,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 11,
+      "group": "online_once",
+      "scenario": "base",
+      "trace": 1,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 11,
+      "group": "online_once",
+      "scenario": "base",
+      "trace": 2,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 11,
+      "group": "online_once",
+      "scenario": "base",
+      "trace": 3,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 11,
+      "group": "online_once",
+      "scenario": "shock",
+      "trace": 0,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 11,
+      "group": "online_once",
+      "scenario": "shock",
+      "trace": 1,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 11,
+      "group": "online_once",
+      "scenario": "shock",
+      "trace": 2,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 11,
+      "group": "online_once",
+      "scenario": "shock",
+      "trace": 3,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 11,
+      "group": "online_feedback",
+      "scenario": "base",
+      "trace": 0,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 11,
+      "group": "online_feedback",
+      "scenario": "base",
+      "trace": 1,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 11,
+      "group": "online_feedback",
+      "scenario": "base",
+      "trace": 2,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 11,
+      "group": "online_feedback",
+      "scenario": "base",
+      "trace": 3,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 11,
+      "group": "online_feedback",
+      "scenario": "shock",
+      "trace": 0,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 11,
+      "group": "online_feedback",
+      "scenario": "shock",
+      "trace": 1,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 11,
+      "group": "online_feedback",
+      "scenario": "shock",
+      "trace": 2,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 11,
+      "group": "online_feedback",
+      "scenario": "shock",
+      "trace": 3,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 11,
+      "group": "random_screen",
+      "scenario": "base",
+      "trace": 0,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 11,
+      "group": "random_screen",
+      "scenario": "base",
+      "trace": 1,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 11,
+      "group": "random_screen",
+      "scenario": "base",
+      "trace": 2,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 11,
+      "group": "random_screen",
+      "scenario": "base",
+      "trace": 3,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 11,
+      "group": "random_screen",
+      "scenario": "shock",
+      "trace": 0,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 11,
+      "group": "random_screen",
+      "scenario": "shock",
+      "trace": 1,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 11,
+      "group": "random_screen",
+      "scenario": "shock",
+      "trace": 2,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 11,
+      "group": "random_screen",
+      "scenario": "shock",
+      "trace": 3,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 12,
+      "group": "happo",
+      "scenario": "base",
+      "trace": 0,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 12,
+      "group": "happo",
+      "scenario": "base",
+      "trace": 1,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 12,
+      "group": "happo",
+      "scenario": "base",
+      "trace": 2,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 12,
+      "group": "happo",
+      "scenario": "base",
+      "trace": 3,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 12,
+      "group": "happo",
+      "scenario": "shock",
+      "trace": 0,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 12,
+      "group": "happo",
+      "scenario": "shock",
+      "trace": 1,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 12,
+      "group": "happo",
+      "scenario": "shock",
+      "trace": 2,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 12,
+      "group": "happo",
+      "scenario": "shock",
+      "trace": 3,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 12,
+      "group": "llm_library",
+      "scenario": "base",
+      "trace": 0,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 12,
+      "group": "llm_library",
+      "scenario": "base",
+      "trace": 1,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 12,
+      "group": "llm_library",
+      "scenario": "base",
+      "trace": 2,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 12,
+      "group": "llm_library",
+      "scenario": "base",
+      "trace": 3,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 12,
+      "group": "llm_library",
+      "scenario": "shock",
+      "trace": 0,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 12,
+      "group": "llm_library",
+      "scenario": "shock",
+      "trace": 1,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 12,
+      "group": "llm_library",
+      "scenario": "shock",
+      "trace": 2,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 12,
+      "group": "llm_library",
+      "scenario": "shock",
+      "trace": 3,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 12,
+      "group": "online_once",
+      "scenario": "base",
+      "trace": 0,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 12,
+      "group": "online_once",
+      "scenario": "base",
+      "trace": 1,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 12,
+      "group": "online_once",
+      "scenario": "base",
+      "trace": 2,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 12,
+      "group": "online_once",
+      "scenario": "base",
+      "trace": 3,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 12,
+      "group": "online_once",
+      "scenario": "shock",
+      "trace": 0,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 12,
+      "group": "online_once",
+      "scenario": "shock",
+      "trace": 1,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 12,
+      "group": "online_once",
+      "scenario": "shock",
+      "trace": 2,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 12,
+      "group": "online_once",
+      "scenario": "shock",
+      "trace": 3,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 12,
+      "group": "online_feedback",
+      "scenario": "base",
+      "trace": 0,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 12,
+      "group": "online_feedback",
+      "scenario": "base",
+      "trace": 1,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 12,
+      "group": "online_feedback",
+      "scenario": "base",
+      "trace": 2,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 12,
+      "group": "online_feedback",
+      "scenario": "base",
+      "trace": 3,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 12,
+      "group": "online_feedback",
+      "scenario": "shock",
+      "trace": 0,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 12,
+      "group": "online_feedback",
+      "scenario": "shock",
+      "trace": 1,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 12,
+      "group": "online_feedback",
+      "scenario": "shock",
+      "trace": 2,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 12,
+      "group": "online_feedback",
+      "scenario": "shock",
+      "trace": 3,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 12,
+      "group": "random_screen",
+      "scenario": "base",
+      "trace": 0,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 12,
+      "group": "random_screen",
+      "scenario": "base",
+      "trace": 1,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 12,
+      "group": "random_screen",
+      "scenario": "base",
+      "trace": 2,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 12,
+      "group": "random_screen",
+      "scenario": "base",
+      "trace": 3,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 12,
+      "group": "random_screen",
+      "scenario": "shock",
+      "trace": 0,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 12,
+      "group": "random_screen",
+      "scenario": "shock",
+      "trace": 1,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 12,
+      "group": "random_screen",
+      "scenario": "shock",
+      "trace": 2,
+      "cost_reconstructed": true
+    },
+    {
+      "seed": 12,
+      "group": "random_screen",
+      "scenario": "shock",
+      "trace": 3,
+      "cost_reconstructed": true
+    }
+  ],
+  "episode_metrics": [
+    {
+      "seed": 11,
+      "group": "happo",
+      "scenario": "base",
+      "trace": 0,
+      "notification_window_backlog": {},
+      "peak_backlog": 42.0,
+      "recovery_periods": 26,
+      "recovery_censored": false,
+      "tail_inventory": [
+        10,
+        28,
+        26
+      ]
+    },
+    {
+      "seed": 11,
+      "group": "happo",
+      "scenario": "base",
+      "trace": 1,
+      "notification_window_backlog": {},
+      "peak_backlog": 9.0,
+      "recovery_periods": 10,
+      "recovery_censored": false,
+      "tail_inventory": [
+        2,
+        21,
+        30
+      ]
+    },
+    {
+      "seed": 11,
+      "group": "happo",
+      "scenario": "base",
+      "trace": 2,
+      "notification_window_backlog": {},
+      "peak_backlog": 346.0,
+      "recovery_periods": null,
+      "recovery_censored": true,
+      "tail_inventory": [
+        0,
+        46,
+        43
+      ]
+    },
+    {
+      "seed": 11,
+      "group": "happo",
+      "scenario": "base",
+      "trace": 3,
+      "notification_window_backlog": {},
+      "peak_backlog": 185.0,
+      "recovery_periods": null,
+      "recovery_censored": true,
+      "tail_inventory": [
+        0,
+        18,
+        1
+      ]
+    },
+    {
+      "seed": 11,
+      "group": "happo",
+      "scenario": "shock",
+      "trace": 0,
+      "notification_window_backlog": {
+        "10": 37.0,
+        "20": 116.0
+      },
+      "peak_backlog": 38.0,
+      "recovery_periods": 29,
+      "recovery_censored": false,
+      "tail_inventory": [
+        0,
+        32,
+        56
+      ]
+    },
+    {
+      "seed": 11,
+      "group": "happo",
+      "scenario": "shock",
+      "trace": 1,
+      "notification_window_backlog": {
+        "10": 49.0,
+        "20": 65.0
+      },
+      "peak_backlog": 10.0,
+      "recovery_periods": 0,
+      "recovery_censored": false,
+      "tail_inventory": [
+        0,
+        21,
+        26
+      ]
+    },
+    {
+      "seed": 11,
+      "group": "happo",
+      "scenario": "shock",
+      "trace": 2,
+      "notification_window_backlog": {
+        "10": 2330.0,
+        "20": 4872.0
+      },
+      "peak_backlog": 354.0,
+      "recovery_periods": null,
+      "recovery_censored": true,
+      "tail_inventory": [
+        0,
+        41,
+        28
+      ]
+    },
+    {
+      "seed": 11,
+      "group": "happo",
+      "scenario": "shock",
+      "trace": 3,
+      "notification_window_backlog": {
+        "10": 1120.0,
+        "20": 2304.0
+      },
+      "peak_backlog": 185.0,
+      "recovery_periods": null,
+      "recovery_censored": true,
+      "tail_inventory": [
+        0,
+        18,
+        1
+      ]
+    },
+    {
+      "seed": 11,
+      "group": "llm_library",
+      "scenario": "base",
+      "trace": 0,
+      "notification_window_backlog": {},
+      "peak_backlog": 42.0,
+      "recovery_periods": 26,
+      "recovery_censored": false,
+      "tail_inventory": [
+        10,
+        28,
+        26
+      ]
+    },
+    {
+      "seed": 11,
+      "group": "llm_library",
+      "scenario": "base",
+      "trace": 1,
+      "notification_window_backlog": {},
+      "peak_backlog": 9.0,
+      "recovery_periods": 10,
+      "recovery_censored": false,
+      "tail_inventory": [
+        2,
+        21,
+        30
+      ]
+    },
+    {
+      "seed": 11,
+      "group": "llm_library",
+      "scenario": "base",
+      "trace": 2,
+      "notification_window_backlog": {},
+      "peak_backlog": 346.0,
+      "recovery_periods": null,
+      "recovery_censored": true,
+      "tail_inventory": [
+        0,
+        46,
+        43
+      ]
+    },
+    {
+      "seed": 11,
+      "group": "llm_library",
+      "scenario": "base",
+      "trace": 3,
+      "notification_window_backlog": {},
+      "peak_backlog": 185.0,
+      "recovery_periods": null,
+      "recovery_censored": true,
+      "tail_inventory": [
+        0,
+        18,
+        1
+      ]
+    },
+    {
+      "seed": 11,
+      "group": "llm_library",
+      "scenario": "shock",
+      "trace": 0,
+      "notification_window_backlog": {
+        "10": 37.0,
+        "20": 116.0
+      },
+      "peak_backlog": 38.0,
+      "recovery_periods": 29,
+      "recovery_censored": false,
+      "tail_inventory": [
+        3,
+        20,
+        29
+      ]
+    },
+    {
+      "seed": 11,
+      "group": "llm_library",
+      "scenario": "shock",
+      "trace": 1,
+      "notification_window_backlog": {
+        "10": 49.0,
+        "20": 65.0
+      },
+      "peak_backlog": 8.0,
+      "recovery_periods": 0,
+      "recovery_censored": false,
+      "tail_inventory": [
+        3,
+        8,
+        11
+      ]
+    },
+    {
+      "seed": 11,
+      "group": "llm_library",
+      "scenario": "shock",
+      "trace": 2,
+      "notification_window_backlog": {
+        "10": 2330.0,
+        "20": 4872.0
+      },
+      "peak_backlog": 332.0,
+      "recovery_periods": null,
+      "recovery_censored": true,
+      "tail_inventory": [
+        0,
+        31,
+        32
+      ]
+    },
+    {
+      "seed": 11,
+      "group": "llm_library",
+      "scenario": "shock",
+      "trace": 3,
+      "notification_window_backlog": {
+        "10": 1120.0,
+        "20": 2304.0
+      },
+      "peak_backlog": 185.0,
+      "recovery_periods": null,
+      "recovery_censored": true,
+      "tail_inventory": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "seed": 11,
+      "group": "online_once",
+      "scenario": "base",
+      "trace": 0,
+      "notification_window_backlog": {},
+      "peak_backlog": 42.0,
+      "recovery_periods": 26,
+      "recovery_censored": false,
+      "tail_inventory": [
+        10,
+        28,
+        26
+      ]
+    },
+    {
+      "seed": 11,
+      "group": "online_once",
+      "scenario": "base",
+      "trace": 1,
+      "notification_window_backlog": {},
+      "peak_backlog": 9.0,
+      "recovery_periods": 10,
+      "recovery_censored": false,
+      "tail_inventory": [
+        2,
+        21,
+        30
+      ]
+    },
+    {
+      "seed": 11,
+      "group": "online_once",
+      "scenario": "base",
+      "trace": 2,
+      "notification_window_backlog": {},
+      "peak_backlog": 346.0,
+      "recovery_periods": null,
+      "recovery_censored": true,
+      "tail_inventory": [
+        0,
+        46,
+        43
+      ]
+    },
+    {
+      "seed": 11,
+      "group": "online_once",
+      "scenario": "base",
+      "trace": 3,
+      "notification_window_backlog": {},
+      "peak_backlog": 185.0,
+      "recovery_periods": null,
+      "recovery_censored": true,
+      "tail_inventory": [
+        0,
+        18,
+        1
+      ]
+    },
+    {
+      "seed": 11,
+      "group": "online_once",
+      "scenario": "shock",
+      "trace": 0,
+      "notification_window_backlog": {
+        "10": 37.0,
+        "20": 116.0
+      },
+      "peak_backlog": 39.0,
+      "recovery_periods": 27,
+      "recovery_censored": false,
+      "tail_inventory": [
+        5,
+        14,
+        29
+      ]
+    },
+    {
+      "seed": 11,
+      "group": "online_once",
+      "scenario": "shock",
+      "trace": 1,
+      "notification_window_backlog": {
+        "10": 51.0,
+        "20": 63.0
+      },
+      "peak_backlog": 14.0,
+      "recovery_periods": 0,
+      "recovery_censored": false,
+      "tail_inventory": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 11,
+      "group": "online_once",
+      "scenario": "shock",
+      "trace": 2,
+      "notification_window_backlog": {
+        "10": 2330.0,
+        "20": 4862.0
+      },
+      "peak_backlog": 316.0,
+      "recovery_periods": null,
+      "recovery_censored": true,
+      "tail_inventory": [
+        11,
+        40,
+        48
+      ]
+    },
+    {
+      "seed": 11,
+      "group": "online_once",
+      "scenario": "shock",
+      "trace": 3,
+      "notification_window_backlog": {
+        "10": 1120.0,
+        "20": 2304.0
+      },
+      "peak_backlog": 185.0,
+      "recovery_periods": null,
+      "recovery_censored": true,
+      "tail_inventory": [
+        0,
+        6,
+        0
+      ]
+    },
+    {
+      "seed": 11,
+      "group": "online_feedback",
+      "scenario": "base",
+      "trace": 0,
+      "notification_window_backlog": {},
+      "peak_backlog": 42.0,
+      "recovery_periods": 26,
+      "recovery_censored": false,
+      "tail_inventory": [
+        10,
+        28,
+        26
+      ]
+    },
+    {
+      "seed": 11,
+      "group": "online_feedback",
+      "scenario": "base",
+      "trace": 1,
+      "notification_window_backlog": {},
+      "peak_backlog": 9.0,
+      "recovery_periods": 10,
+      "recovery_censored": false,
+      "tail_inventory": [
+        2,
+        21,
+        30
+      ]
+    },
+    {
+      "seed": 11,
+      "group": "online_feedback",
+      "scenario": "base",
+      "trace": 2,
+      "notification_window_backlog": {},
+      "peak_backlog": 346.0,
+      "recovery_periods": null,
+      "recovery_censored": true,
+      "tail_inventory": [
+        0,
+        46,
+        43
+      ]
+    },
+    {
+      "seed": 11,
+      "group": "online_feedback",
+      "scenario": "base",
+      "trace": 3,
+      "notification_window_backlog": {},
+      "peak_backlog": 185.0,
+      "recovery_periods": null,
+      "recovery_censored": true,
+      "tail_inventory": [
+        0,
+        18,
+        1
+      ]
+    },
+    {
+      "seed": 11,
+      "group": "online_feedback",
+      "scenario": "shock",
+      "trace": 0,
+      "notification_window_backlog": {
+        "10": 37.0,
+        "20": 116.0
+      },
+      "peak_backlog": 38.0,
+      "recovery_periods": 29,
+      "recovery_censored": false,
+      "tail_inventory": [
+        0,
+        46,
+        48
+      ]
+    },
+    {
+      "seed": 11,
+      "group": "online_feedback",
+      "scenario": "shock",
+      "trace": 1,
+      "notification_window_backlog": {
+        "10": 49.0,
+        "20": 65.0
+      },
+      "peak_backlog": 10.0,
+      "recovery_periods": 0,
+      "recovery_censored": false,
+      "tail_inventory": [
+        11,
+        26,
+        17
+      ]
+    },
+    {
+      "seed": 11,
+      "group": "online_feedback",
+      "scenario": "shock",
+      "trace": 2,
+      "notification_window_backlog": {
+        "10": 2330.0,
+        "20": 4862.0
+      },
+      "peak_backlog": 274.0,
+      "recovery_periods": 77,
+      "recovery_censored": false,
+      "tail_inventory": [
+        20,
+        39,
+        69
+      ]
+    },
+    {
+      "seed": 11,
+      "group": "online_feedback",
+      "scenario": "shock",
+      "trace": 3,
+      "notification_window_backlog": {
+        "10": 1120.0,
+        "20": 2304.0
+      },
+      "peak_backlog": 160.0,
+      "recovery_periods": null,
+      "recovery_censored": true,
+      "tail_inventory": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "seed": 11,
+      "group": "random_screen",
+      "scenario": "base",
+      "trace": 0,
+      "notification_window_backlog": {},
+      "peak_backlog": 42.0,
+      "recovery_periods": 26,
+      "recovery_censored": false,
+      "tail_inventory": [
+        10,
+        28,
+        26
+      ]
+    },
+    {
+      "seed": 11,
+      "group": "random_screen",
+      "scenario": "base",
+      "trace": 1,
+      "notification_window_backlog": {},
+      "peak_backlog": 9.0,
+      "recovery_periods": 10,
+      "recovery_censored": false,
+      "tail_inventory": [
+        2,
+        21,
+        30
+      ]
+    },
+    {
+      "seed": 11,
+      "group": "random_screen",
+      "scenario": "base",
+      "trace": 2,
+      "notification_window_backlog": {},
+      "peak_backlog": 346.0,
+      "recovery_periods": null,
+      "recovery_censored": true,
+      "tail_inventory": [
+        0,
+        46,
+        43
+      ]
+    },
+    {
+      "seed": 11,
+      "group": "random_screen",
+      "scenario": "base",
+      "trace": 3,
+      "notification_window_backlog": {},
+      "peak_backlog": 185.0,
+      "recovery_periods": null,
+      "recovery_censored": true,
+      "tail_inventory": [
+        0,
+        18,
+        1
+      ]
+    },
+    {
+      "seed": 11,
+      "group": "random_screen",
+      "scenario": "shock",
+      "trace": 0,
+      "notification_window_backlog": {
+        "10": 37.0,
+        "20": 114.0
+      },
+      "peak_backlog": 32.0,
+      "recovery_periods": 0,
+      "recovery_censored": false,
+      "tail_inventory": [
+        0,
+        13,
+        5
+      ]
+    },
+    {
+      "seed": 11,
+      "group": "random_screen",
+      "scenario": "shock",
+      "trace": 1,
+      "notification_window_backlog": {
+        "10": 49.0,
+        "20": 65.0
+      },
+      "peak_backlog": 13.0,
+      "recovery_periods": 0,
+      "recovery_censored": false,
+      "tail_inventory": [
+        23,
+        34,
+        34
+      ]
+    },
+    {
+      "seed": 11,
+      "group": "random_screen",
+      "scenario": "shock",
+      "trace": 2,
+      "notification_window_backlog": {
+        "10": 2330.0,
+        "20": 4870.0
+      },
+      "peak_backlog": 311.0,
+      "recovery_periods": null,
+      "recovery_censored": true,
+      "tail_inventory": [
+        15,
+        36,
+        10
+      ]
+    },
+    {
+      "seed": 11,
+      "group": "random_screen",
+      "scenario": "shock",
+      "trace": 3,
+      "notification_window_backlog": {
+        "10": 1120.0,
+        "20": 2304.0
+      },
+      "peak_backlog": 150.0,
+      "recovery_periods": null,
+      "recovery_censored": true,
+      "tail_inventory": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 12,
+      "group": "happo",
+      "scenario": "base",
+      "trace": 0,
+      "notification_window_backlog": {},
+      "peak_backlog": 61.0,
+      "recovery_periods": 25,
+      "recovery_censored": false,
+      "tail_inventory": [
+        6,
+        12,
+        33
+      ]
+    },
+    {
+      "seed": 12,
+      "group": "happo",
+      "scenario": "base",
+      "trace": 1,
+      "notification_window_backlog": {},
+      "peak_backlog": 23.0,
+      "recovery_periods": 14,
+      "recovery_censored": false,
+      "tail_inventory": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 12,
+      "group": "happo",
+      "scenario": "base",
+      "trace": 2,
+      "notification_window_backlog": {},
+      "peak_backlog": 168.0,
+      "recovery_periods": 49,
+      "recovery_censored": false,
+      "tail_inventory": [
+        0,
+        28,
+        40
+      ]
+    },
+    {
+      "seed": 12,
+      "group": "happo",
+      "scenario": "base",
+      "trace": 3,
+      "notification_window_backlog": {},
+      "peak_backlog": 153.0,
+      "recovery_periods": 36,
+      "recovery_censored": false,
+      "tail_inventory": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 12,
+      "group": "happo",
+      "scenario": "shock",
+      "trace": 0,
+      "notification_window_backlog": {
+        "10": 228.0,
+        "20": 540.0
+      },
+      "peak_backlog": 50.0,
+      "recovery_periods": 0,
+      "recovery_censored": false,
+      "tail_inventory": [
+        1,
+        29,
+        34
+      ]
+    },
+    {
+      "seed": 12,
+      "group": "happo",
+      "scenario": "shock",
+      "trace": 1,
+      "notification_window_backlog": {
+        "10": 45.0,
+        "20": 55.0
+      },
+      "peak_backlog": 13.0,
+      "recovery_periods": 7,
+      "recovery_censored": false,
+      "tail_inventory": [
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "seed": 12,
+      "group": "happo",
+      "scenario": "shock",
+      "trace": 2,
+      "notification_window_backlog": {
+        "10": 1411.0,
+        "20": 2912.0
+      },
+      "peak_backlog": 176.0,
+      "recovery_periods": 50,
+      "recovery_censored": false,
+      "tail_inventory": [
+        16,
+        28,
+        33
+      ]
+    },
+    {
+      "seed": 12,
+      "group": "happo",
+      "scenario": "shock",
+      "trace": 3,
+      "notification_window_backlog": {
+        "10": 829.0,
+        "20": 1769.0
+      },
+      "peak_backlog": 153.0,
+      "recovery_periods": 36,
+      "recovery_censored": false,
+      "tail_inventory": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 12,
+      "group": "llm_library",
+      "scenario": "base",
+      "trace": 0,
+      "notification_window_backlog": {},
+      "peak_backlog": 61.0,
+      "recovery_periods": 25,
+      "recovery_censored": false,
+      "tail_inventory": [
+        6,
+        12,
+        33
+      ]
+    },
+    {
+      "seed": 12,
+      "group": "llm_library",
+      "scenario": "base",
+      "trace": 1,
+      "notification_window_backlog": {},
+      "peak_backlog": 23.0,
+      "recovery_periods": 14,
+      "recovery_censored": false,
+      "tail_inventory": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 12,
+      "group": "llm_library",
+      "scenario": "base",
+      "trace": 2,
+      "notification_window_backlog": {},
+      "peak_backlog": 168.0,
+      "recovery_periods": 49,
+      "recovery_censored": false,
+      "tail_inventory": [
+        0,
+        28,
+        40
+      ]
+    },
+    {
+      "seed": 12,
+      "group": "llm_library",
+      "scenario": "base",
+      "trace": 3,
+      "notification_window_backlog": {},
+      "peak_backlog": 153.0,
+      "recovery_periods": 36,
+      "recovery_censored": false,
+      "tail_inventory": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 12,
+      "group": "llm_library",
+      "scenario": "shock",
+      "trace": 0,
+      "notification_window_backlog": {
+        "10": 228.0,
+        "20": 540.0
+      },
+      "peak_backlog": 50.0,
+      "recovery_periods": 0,
+      "recovery_censored": false,
+      "tail_inventory": [
+        11,
+        22,
+        38
+      ]
+    },
+    {
+      "seed": 12,
+      "group": "llm_library",
+      "scenario": "shock",
+      "trace": 1,
+      "notification_window_backlog": {
+        "10": 45.0,
+        "20": 55.0
+      },
+      "peak_backlog": 13.0,
+      "recovery_periods": 7,
+      "recovery_censored": false,
+      "tail_inventory": [
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "seed": 12,
+      "group": "llm_library",
+      "scenario": "shock",
+      "trace": 2,
+      "notification_window_backlog": {
+        "10": 1411.0,
+        "20": 2912.0
+      },
+      "peak_backlog": 176.0,
+      "recovery_periods": 50,
+      "recovery_censored": false,
+      "tail_inventory": [
+        9,
+        20,
+        34
+      ]
+    },
+    {
+      "seed": 12,
+      "group": "llm_library",
+      "scenario": "shock",
+      "trace": 3,
+      "notification_window_backlog": {
+        "10": 829.0,
+        "20": 1769.0
+      },
+      "peak_backlog": 122.0,
+      "recovery_periods": 36,
+      "recovery_censored": false,
+      "tail_inventory": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "seed": 12,
+      "group": "online_once",
+      "scenario": "base",
+      "trace": 0,
+      "notification_window_backlog": {},
+      "peak_backlog": 61.0,
+      "recovery_periods": 25,
+      "recovery_censored": false,
+      "tail_inventory": [
+        6,
+        12,
+        33
+      ]
+    },
+    {
+      "seed": 12,
+      "group": "online_once",
+      "scenario": "base",
+      "trace": 1,
+      "notification_window_backlog": {},
+      "peak_backlog": 23.0,
+      "recovery_periods": 14,
+      "recovery_censored": false,
+      "tail_inventory": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 12,
+      "group": "online_once",
+      "scenario": "base",
+      "trace": 2,
+      "notification_window_backlog": {},
+      "peak_backlog": 168.0,
+      "recovery_periods": 49,
+      "recovery_censored": false,
+      "tail_inventory": [
+        0,
+        28,
+        40
+      ]
+    },
+    {
+      "seed": 12,
+      "group": "online_once",
+      "scenario": "base",
+      "trace": 3,
+      "notification_window_backlog": {},
+      "peak_backlog": 153.0,
+      "recovery_periods": 36,
+      "recovery_censored": false,
+      "tail_inventory": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 12,
+      "group": "online_once",
+      "scenario": "shock",
+      "trace": 0,
+      "notification_window_backlog": {
+        "10": 228.0,
+        "20": 540.0
+      },
+      "peak_backlog": 50.0,
+      "recovery_periods": 0,
+      "recovery_censored": false,
+      "tail_inventory": [
+        2,
+        32,
+        33
+      ]
+    },
+    {
+      "seed": 12,
+      "group": "online_once",
+      "scenario": "shock",
+      "trace": 1,
+      "notification_window_backlog": {
+        "10": 45.0,
+        "20": 46.0
+      },
+      "peak_backlog": 13.0,
+      "recovery_periods": 5,
+      "recovery_censored": false,
+      "tail_inventory": [
+        1,
+        7,
+        0
+      ]
+    },
+    {
+      "seed": 12,
+      "group": "online_once",
+      "scenario": "shock",
+      "trace": 2,
+      "notification_window_backlog": {
+        "10": 1411.0,
+        "20": 2912.0
+      },
+      "peak_backlog": 176.0,
+      "recovery_periods": 50,
+      "recovery_censored": false,
+      "tail_inventory": [
+        16,
+        24,
+        47
+      ]
+    },
+    {
+      "seed": 12,
+      "group": "online_once",
+      "scenario": "shock",
+      "trace": 3,
+      "notification_window_backlog": {
+        "10": 829.0,
+        "20": 1766.0
+      },
+      "peak_backlog": 116.0,
+      "recovery_periods": 32,
+      "recovery_censored": false,
+      "tail_inventory": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 12,
+      "group": "online_feedback",
+      "scenario": "base",
+      "trace": 0,
+      "notification_window_backlog": {},
+      "peak_backlog": 61.0,
+      "recovery_periods": 25,
+      "recovery_censored": false,
+      "tail_inventory": [
+        6,
+        12,
+        33
+      ]
+    },
+    {
+      "seed": 12,
+      "group": "online_feedback",
+      "scenario": "base",
+      "trace": 1,
+      "notification_window_backlog": {},
+      "peak_backlog": 23.0,
+      "recovery_periods": 14,
+      "recovery_censored": false,
+      "tail_inventory": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 12,
+      "group": "online_feedback",
+      "scenario": "base",
+      "trace": 2,
+      "notification_window_backlog": {},
+      "peak_backlog": 168.0,
+      "recovery_periods": 49,
+      "recovery_censored": false,
+      "tail_inventory": [
+        0,
+        28,
+        40
+      ]
+    },
+    {
+      "seed": 12,
+      "group": "online_feedback",
+      "scenario": "base",
+      "trace": 3,
+      "notification_window_backlog": {},
+      "peak_backlog": 153.0,
+      "recovery_periods": 36,
+      "recovery_censored": false,
+      "tail_inventory": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 12,
+      "group": "online_feedback",
+      "scenario": "shock",
+      "trace": 0,
+      "notification_window_backlog": {
+        "10": 228.0,
+        "20": 540.0
+      },
+      "peak_backlog": 50.0,
+      "recovery_periods": 0,
+      "recovery_censored": false,
+      "tail_inventory": [
+        17,
+        28,
+        35
+      ]
+    },
+    {
+      "seed": 12,
+      "group": "online_feedback",
+      "scenario": "shock",
+      "trace": 1,
+      "notification_window_backlog": {
+        "10": 45.0,
+        "20": 55.0
+      },
+      "peak_backlog": 12.0,
+      "recovery_periods": 8,
+      "recovery_censored": false,
+      "tail_inventory": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 12,
+      "group": "online_feedback",
+      "scenario": "shock",
+      "trace": 2,
+      "notification_window_backlog": {
+        "10": 1411.0,
+        "20": 2912.0
+      },
+      "peak_backlog": 172.0,
+      "recovery_periods": 53,
+      "recovery_censored": false,
+      "tail_inventory": [
+        30,
+        40,
+        65
+      ]
+    },
+    {
+      "seed": 12,
+      "group": "online_feedback",
+      "scenario": "shock",
+      "trace": 3,
+      "notification_window_backlog": {
+        "10": 829.0,
+        "20": 1769.0
+      },
+      "peak_backlog": 113.0,
+      "recovery_periods": 39,
+      "recovery_censored": false,
+      "tail_inventory": [
+        0,
+        7,
+        0
+      ]
+    },
+    {
+      "seed": 12,
+      "group": "random_screen",
+      "scenario": "base",
+      "trace": 0,
+      "notification_window_backlog": {},
+      "peak_backlog": 61.0,
+      "recovery_periods": 25,
+      "recovery_censored": false,
+      "tail_inventory": [
+        6,
+        12,
+        33
+      ]
+    },
+    {
+      "seed": 12,
+      "group": "random_screen",
+      "scenario": "base",
+      "trace": 1,
+      "notification_window_backlog": {},
+      "peak_backlog": 23.0,
+      "recovery_periods": 14,
+      "recovery_censored": false,
+      "tail_inventory": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 12,
+      "group": "random_screen",
+      "scenario": "base",
+      "trace": 2,
+      "notification_window_backlog": {},
+      "peak_backlog": 168.0,
+      "recovery_periods": 49,
+      "recovery_censored": false,
+      "tail_inventory": [
+        0,
+        28,
+        40
+      ]
+    },
+    {
+      "seed": 12,
+      "group": "random_screen",
+      "scenario": "base",
+      "trace": 3,
+      "notification_window_backlog": {},
+      "peak_backlog": 153.0,
+      "recovery_periods": 36,
+      "recovery_censored": false,
+      "tail_inventory": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 12,
+      "group": "random_screen",
+      "scenario": "shock",
+      "trace": 0,
+      "notification_window_backlog": {
+        "10": 228.0,
+        "20": 540.0
+      },
+      "peak_backlog": 50.0,
+      "recovery_periods": 0,
+      "recovery_censored": false,
+      "tail_inventory": [
+        22,
+        42,
+        20
+      ]
+    },
+    {
+      "seed": 12,
+      "group": "random_screen",
+      "scenario": "shock",
+      "trace": 1,
+      "notification_window_backlog": {
+        "10": 45.0,
+        "20": 45.0
+      },
+      "peak_backlog": 16.0,
+      "recovery_periods": 0,
+      "recovery_censored": false,
+      "tail_inventory": [
+        0,
+        1,
+        6
+      ]
+    },
+    {
+      "seed": 12,
+      "group": "random_screen",
+      "scenario": "shock",
+      "trace": 2,
+      "notification_window_backlog": {
+        "10": 1411.0,
+        "20": 2861.0
+      },
+      "peak_backlog": 152.0,
+      "recovery_periods": 47,
+      "recovery_censored": false,
+      "tail_inventory": [
+        21,
+        46,
+        39
+      ]
+    },
+    {
+      "seed": 12,
+      "group": "random_screen",
+      "scenario": "shock",
+      "trace": 3,
+      "notification_window_backlog": {
+        "10": 829.0,
+        "20": 1762.0
+      },
+      "peak_backlog": 107.0,
+      "recovery_periods": 35,
+      "recovery_censored": false,
+      "tail_inventory": [
+        0,
+        0,
+        5
+      ]
+    }
+  ],
+  "api_requests": 90,
+  "api_failures": 10,
+  "api_seconds": 171.06133380002575,
+  "usage": {
+    "prompt_tokens": 281571,
+    "completion_tokens": 31873,
+    "total_tokens": 313444,
+    "prompt_cache_hit_tokens": 170368,
+    "prompt_cache_miss_tokens": 111203
+  },
+  "screening_seconds": 298.9553729995969,
+  "selection_events": 768,
+  "generation_events": 80,
+  "accepted_selections": 180,
+  "changed_node_orders": 1491,
+  "total_node_orders": 48000,
+  "recovery_definition": "First5 consecutive zero downstream backlog periods after actual shock end; posthoc descriptive only; censored if absent",
+  "realized_demand_shocks": [
+    {
+      "trace": 0,
+      "intensity": 1.25,
+      "base_total": 300,
+      "shock_total": 387,
+      "clipped_periods": 0
+    },
+    {
+      "trace": 1,
+      "intensity": 1.25,
+      "base_total": 54,
+      "shock_total": 84,
+      "clipped_periods": 0
+    },
+    {
+      "trace": 2,
+      "intensity": 1.5,
+      "base_total": 392,
+      "shock_total": 400,
+      "clipped_periods": 20
+    },
+    {
+      "trace": 3,
+      "intensity": 1.5,
+      "base_total": 580,
+      "shock_total": 580,
+      "clipped_periods": 29
+    }
+  ]
+}

@@ -1,0 +1,402 @@
+[
+  {
+    "group": "happo",
+    "scenario": "base",
+    "trace": 0,
+    "cost": 15.845,
+    "downstream_backlog": 4.86,
+    "generation_events": 0,
+    "episode_http": 0,
+    "notification_period": null
+  },
+  {
+    "group": "happo",
+    "scenario": "base",
+    "trace": 1,
+    "cost": 17.848333333333333,
+    "downstream_backlog": 0.945,
+    "generation_events": 0,
+    "episode_http": 0,
+    "notification_period": null
+  },
+  {
+    "group": "happo",
+    "scenario": "base",
+    "trace": 2,
+    "cost": 60.151666666666664,
+    "downstream_backlog": 157.18,
+    "generation_events": 0,
+    "episode_http": 0,
+    "notification_period": null
+  },
+  {
+    "group": "happo",
+    "scenario": "base",
+    "trace": 3,
+    "cost": 38.06166666666667,
+    "downstream_backlog": 81.65,
+    "generation_events": 0,
+    "episode_http": 0,
+    "notification_period": null
+  },
+  {
+    "group": "happo",
+    "scenario": "shock",
+    "trace": 0,
+    "cost": 14.693333333333333,
+    "downstream_backlog": 5.245,
+    "generation_events": 0,
+    "episode_http": 0,
+    "notification_period": 72
+  },
+  {
+    "group": "happo",
+    "scenario": "shock",
+    "trace": 1,
+    "cost": 19.99,
+    "downstream_backlog": 1.015,
+    "generation_events": 0,
+    "episode_http": 0,
+    "notification_period": 92
+  },
+  {
+    "group": "happo",
+    "scenario": "shock",
+    "trace": 2,
+    "cost": 61.425,
+    "downstream_backlog": 161.36,
+    "generation_events": 0,
+    "episode_http": 0,
+    "notification_period": 95
+  },
+  {
+    "group": "happo",
+    "scenario": "shock",
+    "trace": 3,
+    "cost": 38.06166666666667,
+    "downstream_backlog": 81.65,
+    "generation_events": 0,
+    "episode_http": 0,
+    "notification_period": 72
+  },
+  {
+    "group": "llm_library",
+    "scenario": "base",
+    "trace": 0,
+    "cost": 15.845,
+    "downstream_backlog": 4.86,
+    "generation_events": 0,
+    "episode_http": 0,
+    "notification_period": null
+  },
+  {
+    "group": "llm_library",
+    "scenario": "base",
+    "trace": 1,
+    "cost": 17.848333333333333,
+    "downstream_backlog": 0.945,
+    "generation_events": 0,
+    "episode_http": 0,
+    "notification_period": null
+  },
+  {
+    "group": "llm_library",
+    "scenario": "base",
+    "trace": 2,
+    "cost": 60.151666666666664,
+    "downstream_backlog": 157.18,
+    "generation_events": 0,
+    "episode_http": 0,
+    "notification_period": null
+  },
+  {
+    "group": "llm_library",
+    "scenario": "base",
+    "trace": 3,
+    "cost": 38.06166666666667,
+    "downstream_backlog": 81.65,
+    "generation_events": 0,
+    "episode_http": 0,
+    "notification_period": null
+  },
+  {
+    "group": "llm_library",
+    "scenario": "shock",
+    "trace": 0,
+    "cost": 13.768333333333333,
+    "downstream_backlog": 5.055,
+    "generation_events": 1,
+    "episode_http": 0,
+    "notification_period": 72
+  },
+  {
+    "group": "llm_library",
+    "scenario": "shock",
+    "trace": 1,
+    "cost": 17.695,
+    "downstream_backlog": 1.075,
+    "generation_events": 1,
+    "episode_http": 0,
+    "notification_period": 92
+  },
+  {
+    "group": "llm_library",
+    "scenario": "shock",
+    "trace": 2,
+    "cost": 58.74,
+    "downstream_backlog": 159.04,
+    "generation_events": 1,
+    "episode_http": 0,
+    "notification_period": 95
+  },
+  {
+    "group": "llm_library",
+    "scenario": "shock",
+    "trace": 3,
+    "cost": 35.8,
+    "downstream_backlog": 79.595,
+    "generation_events": 1,
+    "episode_http": 0,
+    "notification_period": 72
+  },
+  {
+    "group": "online_once",
+    "scenario": "base",
+    "trace": 0,
+    "cost": 15.845,
+    "downstream_backlog": 4.86,
+    "generation_events": 0,
+    "episode_http": 0,
+    "notification_period": null
+  },
+  {
+    "group": "online_once",
+    "scenario": "base",
+    "trace": 1,
+    "cost": 17.848333333333333,
+    "downstream_backlog": 0.945,
+    "generation_events": 0,
+    "episode_http": 0,
+    "notification_period": null
+  },
+  {
+    "group": "online_once",
+    "scenario": "base",
+    "trace": 2,
+    "cost": 60.151666666666664,
+    "downstream_backlog": 157.18,
+    "generation_events": 0,
+    "episode_http": 0,
+    "notification_period": null
+  },
+  {
+    "group": "online_once",
+    "scenario": "base",
+    "trace": 3,
+    "cost": 38.06166666666667,
+    "downstream_backlog": 81.65,
+    "generation_events": 0,
+    "episode_http": 0,
+    "notification_period": null
+  },
+  {
+    "group": "online_once",
+    "scenario": "shock",
+    "trace": 0,
+    "cost": 15.761666666666667,
+    "downstream_backlog": 5.5,
+    "generation_events": 1,
+    "episode_http": 2,
+    "notification_period": 72
+  },
+  {
+    "group": "online_once",
+    "scenario": "shock",
+    "trace": 1,
+    "cost": 20.175,
+    "downstream_backlog": 1.315,
+    "generation_events": 1,
+    "episode_http": 4,
+    "notification_period": 92
+  },
+  {
+    "group": "online_once",
+    "scenario": "shock",
+    "trace": 2,
+    "cost": 55.163333333333334,
+    "downstream_backlog": 145.335,
+    "generation_events": 1,
+    "episode_http": 2,
+    "notification_period": 95
+  },
+  {
+    "group": "online_once",
+    "scenario": "shock",
+    "trace": 3,
+    "cost": 35.0,
+    "downstream_backlog": 75.57,
+    "generation_events": 1,
+    "episode_http": 2,
+    "notification_period": 72
+  },
+  {
+    "group": "online_feedback",
+    "scenario": "base",
+    "trace": 0,
+    "cost": 15.845,
+    "downstream_backlog": 4.86,
+    "generation_events": 0,
+    "episode_http": 0,
+    "notification_period": null
+  },
+  {
+    "group": "online_feedback",
+    "scenario": "base",
+    "trace": 1,
+    "cost": 17.848333333333333,
+    "downstream_backlog": 0.945,
+    "generation_events": 0,
+    "episode_http": 0,
+    "notification_period": null
+  },
+  {
+    "group": "online_feedback",
+    "scenario": "base",
+    "trace": 2,
+    "cost": 60.151666666666664,
+    "downstream_backlog": 157.18,
+    "generation_events": 0,
+    "episode_http": 0,
+    "notification_period": null
+  },
+  {
+    "group": "online_feedback",
+    "scenario": "base",
+    "trace": 3,
+    "cost": 38.06166666666667,
+    "downstream_backlog": 81.65,
+    "generation_events": 0,
+    "episode_http": 0,
+    "notification_period": null
+  },
+  {
+    "group": "online_feedback",
+    "scenario": "shock",
+    "trace": 0,
+    "cost": 14.64,
+    "downstream_backlog": 5.175,
+    "generation_events": 4,
+    "episode_http": 10,
+    "notification_period": 72
+  },
+  {
+    "group": "online_feedback",
+    "scenario": "shock",
+    "trace": 1,
+    "cost": 19.81,
+    "downstream_backlog": 0.995,
+    "generation_events": 4,
+    "episode_http": 8,
+    "notification_period": 92
+  },
+  {
+    "group": "online_feedback",
+    "scenario": "shock",
+    "trace": 2,
+    "cost": 50.03,
+    "downstream_backlog": 122.35,
+    "generation_events": 4,
+    "episode_http": 8,
+    "notification_period": 95
+  },
+  {
+    "group": "online_feedback",
+    "scenario": "shock",
+    "trace": 3,
+    "cost": 34.415,
+    "downstream_backlog": 69.245,
+    "generation_events": 4,
+    "episode_http": 10,
+    "notification_period": 72
+  },
+  {
+    "group": "random_screen",
+    "scenario": "base",
+    "trace": 0,
+    "cost": 15.845,
+    "downstream_backlog": 4.86,
+    "generation_events": 0,
+    "episode_http": 0,
+    "notification_period": null
+  },
+  {
+    "group": "random_screen",
+    "scenario": "base",
+    "trace": 1,
+    "cost": 17.848333333333333,
+    "downstream_backlog": 0.945,
+    "generation_events": 0,
+    "episode_http": 0,
+    "notification_period": null
+  },
+  {
+    "group": "random_screen",
+    "scenario": "base",
+    "trace": 2,
+    "cost": 60.151666666666664,
+    "downstream_backlog": 157.18,
+    "generation_events": 0,
+    "episode_http": 0,
+    "notification_period": null
+  },
+  {
+    "group": "random_screen",
+    "scenario": "base",
+    "trace": 3,
+    "cost": 38.06166666666667,
+    "downstream_backlog": 81.65,
+    "generation_events": 0,
+    "episode_http": 0,
+    "notification_period": null
+  },
+  {
+    "group": "random_screen",
+    "scenario": "shock",
+    "trace": 0,
+    "cost": 15.365,
+    "downstream_backlog": 4.555,
+    "generation_events": 4,
+    "episode_http": 0,
+    "notification_period": 72
+  },
+  {
+    "group": "random_screen",
+    "scenario": "shock",
+    "trace": 1,
+    "cost": 19.195,
+    "downstream_backlog": 1.3,
+    "generation_events": 4,
+    "episode_http": 0,
+    "notification_period": 92
+  },
+  {
+    "group": "random_screen",
+    "scenario": "shock",
+    "trace": 2,
+    "cost": 53.97,
+    "downstream_backlog": 142.125,
+    "generation_events": 4,
+    "episode_http": 0,
+    "notification_period": 95
+  },
+  {
+    "group": "random_screen",
+    "scenario": "shock",
+    "trace": 3,
+    "cost": 34.54333333333334,
+    "downstream_backlog": 67.225,
+    "generation_events": 4,
+    "episode_http": 0,
+    "notification_period": 72
+  }
+]
