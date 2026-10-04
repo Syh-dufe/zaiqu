@@ -29,6 +29,10 @@ def probes():
             result.append(dict(agent=agent,inventory=rng.randint(0,80),backlog=rng.randint(0,50),pipeline=rng.randint(0,80),
                                arrival=rng.randint(0,20),incoming=rng.randint(0,20),recent=recent,baseline=baseline,
                                growth=recent/baseline,happo=rng.randint(0,20)))
+    for agent in range(3):
+        for stock,backlog,pipeline,happo in ((0,0,0,0),(0,20,0,20),(80,0,80,0),(0,0,0,20)):
+            result.append(dict(agent=agent,inventory=stock,backlog=backlog,pipeline=pipeline,arrival=0,
+                               incoming=0,recent=0.,baseline=0.,growth=0.,happo=happo))
     return result
 
 
@@ -49,9 +53,12 @@ def main():
     OUT.mkdir(parents=True);runner.OUT=OUT
     write(OUT/'progress.json',{'status':'waiting_v2','pid':os.getpid()})
     calls=[];archive=[];memory=[];seen=set();states=probes();write(OUT/'behavior_probes.json',states)
-    source_files=[Path(__file__),Path(runner.__file__),ROOT/'experiments/deepseek_refinement/run.py',ROOT/'experiments/deepseek_refinement/shadow.py',ROOT/'experiments/deepseek_refinement/reports.py',ROOT/'experiments/deepseek_pilot/rules.py']
+    source_files=[Path(__file__),Path(runner.__file__),ROOT/'experiments/deepseek_refinement/run.py',ROOT/'experiments/deepseek_refinement/shadow.py',ROOT/'experiments/deepseek_refinement/reports.py',ROOT/'experiments/deepseek_pilot/rules.py',ROOT/'experiments/formal_evaluation/analyze_multi.py']
     hashes={str(p.relative_to(ROOT)):runner.digest(p) for p in source_files}
+    model_hashes={str(seed):{'parameter_sha256':read(runner.training(seed)/'completion_audit.json')['model_matches']['official_best']['sha256'],
+                           'audit_sha256':runner.digest(runner.training(seed)/'completion_audit.json')} for seed in range(11,16)}
     write(OUT/'manifest.json',{'source_sha256':hashes,'generations':3,'training_seeds':list(range(11,16)),
+                              'model_hashes':model_hashes,
                               'probe_seed':20270401,'development_seeds':[20270301,20270302],
                               'internal_validation_seeds':[20270303,20270304],'test_seeds':list(range(20270501,20270511)),
                               'api_total_limit':None,'prior_v2_test_excluded_from_feedback':True})
@@ -68,10 +75,27 @@ def main():
         for ds,es,name in ((20270301,20270302,'development'),(20270303,20270304,'internal_validation')):
             path=OUT/f'{name}_inputs.json';write(path,runner.generate(ds,es,used));inputs.append(path)
         write(OUT/'input_manifest.json',[{'path':str(p),'sha256':runner.digest(p)} for p in inputs])
-        def evaluate(label,library,random_group=False):
+        def check_integrity():
             for rel,value in hashes.items():
                 if runner.digest(ROOT/rel)!=value: raise RuntimeError('Registered source changed')
-            summary=runner.evaluate(label,library,inputs,random_group)
+            for seed in range(11,16):
+                if runner.digest(runner.training(seed)/'completion_audit.json')!=model_hashes[str(seed)]['audit_sha256']:
+                    raise RuntimeError('Frozen model audit changed')
+        def checked_evaluate(label,library,paths,random_group=False):
+            check_integrity()
+            library_hash=runner.digest(library);input_hashes=[runner.digest(p) for p in paths]
+            summary=runner.evaluate(label,library,paths,random_group)
+            check_integrity()
+            if runner.digest(library)!=library_hash or [runner.digest(p) for p in paths]!=input_hashes:
+                raise RuntimeError('Evaluation input or library changed')
+            for index,source in enumerate(summary['sources']):
+                seed=11+index//len(paths)
+                if source['model_sha256']!=model_hashes[str(seed)]['parameter_sha256']:
+                    raise RuntimeError('Actual evaluated model differs from registered model')
+            return summary
+        def evaluate(label,library,random_group=False):
+            library_hash=runner.digest(library)
+            summary=checked_evaluate(label,library,inputs,random_group)
             batches=[]
             for lo in (0,4):
                 rows=summary['fitness'];d=[]
@@ -81,7 +105,7 @@ def main():
                         b=next(r for r in rows if r['seed']==seed and r['trajectory']==trace and r['group']=='llm_library')
                         d.append([b['cost']-a['cost'],b['backlog']-a['backlog']])
                 batches.append(np.mean(d,axis=0).tolist())
-            item={'label':label,'library':str(library),'candidates':read(library)['candidates'],
+            item={'label':label,'library':str(library),'library_sha256':library_hash,'candidates':read(library)['candidates'],
                   'summary':summary,'split_mean_delta':batches,'eligible':all(b[1]<=0 for b in batches),
                   'length':sum(len(r['when'])+len(r['delta']) for c in read(library)['candidates'] for r in c['rules'])}
             archive.append(item);write(OUT/'archive.json',archive);return item
@@ -122,7 +146,7 @@ def main():
             reflection=None
             for attempt in range(3):
                 value,record=request(context,'reflection')
-                if value and isinstance(value.get('reflection'),str): reflection=value;record['status']='valid';break
+                if isinstance(value,dict) and isinstance(value.get('reflection'),str): reflection=value;record['status']='valid';break
                 record['status']='failed';record['failure']='Invalid reflection JSON';write(OUT/'calls.json',calls)
             if reflection is None: raise RuntimeError('Reflection unavailable after3 attempts')
             memory.append(reflection);write(OUT/'reflections.json',memory)
@@ -148,13 +172,15 @@ def main():
             write(OUT/'generation_progress.json',{'generation':generation,'elite_labels':[p['label'] for p in sorted(archive,key=ranking)[:2]],'evaluated_libraries':len(archive)})
             print('GENERATION_COMPLETED',generation,'libraries',len(archive),flush=True)
         winner=sorted([a for a in archive if a['eligible']],key=ranking)[0] if any(a['eligible'] for a in archive) else archive[0]
+        if runner.digest(Path(winner['library']))!=winner['library_sha256']: raise RuntimeError('Selected library changed since evaluation')
         frozen=OUT/'frozen_library.json';shutil.copy2(winner['library'],frozen)
         write(OUT/'frozen_manifest.json',{'source':winner['library'],'library_sha256':runner.digest(frozen),'selection':winner,'tests_not_generated_yet':True})
         directory=OUT/'test_inputs';directory.mkdir();tests=[]
         for n in range(1,6):
             path=directory/f'batch{n}.json';write(path,runner.generate(20270499+2*n,20270500+2*n,used));tests.append(path)
         write(directory/'manifest.json',{'inputs':[{'path':str(p),'sha256':runner.digest(p)} for p in tests],'frozen_library_sha256':runner.digest(frozen)})
-        new=runner.evaluate('test_new',frozen,tests,True);old=runner.evaluate('test_old',seeds[0],tests)
+        if runner.digest(seeds[0])!=archive[0]['library_sha256']: raise RuntimeError('Old library changed since development')
+        new=checked_evaluate('test_new',frozen,tests,True);old=checked_evaluate('test_old',seeds[0],tests)
         sys.path.insert(0,str(ROOT/'experiments/formal_evaluation'))
         from analyze_multi import compare
         def matrix(summary,g):
