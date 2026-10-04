@@ -1,0 +1,68 @@
+{
+  "episodes": 24,
+  "rows": 14400,
+  "training_updates": 0,
+  "parameter_checks": {
+    "happo": {
+      "before": "86582dd7aeae0c16c0b5c6f4862b8d3ac62988b1927fe4f3526af9ff901b3dd0",
+      "after": "86582dd7aeae0c16c0b5c6f4862b8d3ac62988b1927fe4f3526af9ff901b3dd0",
+      "unchanged": true
+    },
+    "llm_library": {
+      "before": "86582dd7aeae0c16c0b5c6f4862b8d3ac62988b1927fe4f3526af9ff901b3dd0",
+      "after": "86582dd7aeae0c16c0b5c6f4862b8d3ac62988b1927fe4f3526af9ff901b3dd0",
+      "unchanged": true
+    },
+    "random_screen": {
+      "before": "86582dd7aeae0c16c0b5c6f4862b8d3ac62988b1927fe4f3526af9ff901b3dd0",
+      "after": "86582dd7aeae0c16c0b5c6f4862b8d3ac62988b1927fe4f3526af9ff901b3dd0",
+      "unchanged": true
+    }
+  },
+  "calls": 0,
+  "report_interval": 3,
+  "information_audit_rows": 4800,
+  "upstream_revision": "a7e5a3e83e21565a5799483bc534e39635ec65dd",
+  "causal_audit": "explicit whitelist; synthetic-only branch futures; paired initial contexts; unchanged pre-notification actions",
+  "runtime_failures": [],
+  "branch_audits": [
+    {
+      "trace": 0,
+      "period": 96,
+      "shadow_cost": 1075.0,
+      "observed_cost": 1075.0,
+      "shadow_backlog": 111.0,
+      "observed_backlog": 111,
+      "note": "After-episode verification on observed demand, never used by selector"
+    },
+    {
+      "trace": 1,
+      "period": 102,
+      "shadow_cost": 1448.0,
+      "observed_cost": 1448.0,
+      "shadow_backlog": 469.0,
+      "observed_backlog": 469,
+      "note": "After-episode verification on observed demand, never used by selector"
+    },
+    {
+      "trace": 2,
+      "period": 71,
+      "shadow_cost": 1129.0,
+      "observed_cost": 1129.0,
+      "shadow_backlog": 222.0,
+      "observed_backlog": 222,
+      "note": "After-episode verification on observed demand, never used by selector"
+    },
+    {
+      "trace": 3,
+      "period": 82,
+      "shadow_cost": 867.0,
+      "observed_cost": 867.0,
+      "shadow_backlog": 0.0,
+      "observed_backlog": 0,
+      "note": "After-episode verification on observed demand, never used by selector"
+    }
+  ],
+  "feedback_times": [],
+  "wall_seconds": 87.52957040001638
+}

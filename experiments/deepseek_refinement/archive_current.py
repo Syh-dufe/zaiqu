@@ -1,5 +1,6 @@
 """Recompute completed v2 episode metrics and retain compressed research artifacts."""
 import csv
+import argparse
 import gzip
 import hashlib
 import json
@@ -12,7 +13,11 @@ from current import ROOT, read, write, training
 
 
 def main():
-    source=ROOT/'results/llm_current_v2';export=ROOT/'docs/artifacts/llm_current_v2'
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--version',type=int,choices=(2,3),default=2)
+    version=parser.parse_args().version
+    run_name='llm_current_v2' if version==2 else 'llm_evolution_v3'
+    source=ROOT/'results'/run_name;export=ROOT/'docs/artifacts'/run_name
     if export.exists(): raise RuntimeError('Refuse overwrite')
     assert read(source/'completed.json')['status']=='completed'
     records=[];rows_total=0;episodes_total=0;wall=0
@@ -47,9 +52,10 @@ def main():
             for group in methods:
                 assert [tuple(r[k] for k in keys) for r in grouped[group,'base',trace]]==[tuple(r[k] for k in keys) for r in reference]
         rows_total+=len(rows);episodes_total+=len(episodes);wall+=done['wall_seconds']
-    assert episodes_total==1600 and rows_total==960000
-    new=read(source/'confirmation_new_summary.json');old=read(source/'confirmation_old_summary.json')
-    for label,summary in (('confirmation_new',new),('confirmation_old',old)):
+    assert episodes_total==(1600 if version==2 else 2360) and rows_total==episodes_total*600
+    prefix='confirmation' if version==2 else 'test'
+    new=read(source/f'{prefix}_new_summary.json');old=read(source/f'{prefix}_old_summary.json')
+    for label,summary in ((f'{prefix}_new',new),(f'{prefix}_old',old)):
         for item in summary['fitness']:
             batch=item['trajectory']//4+1;trace=item['trajectory']%4
             episode=next(r for r in records if r['evaluation']==f"{label}_seed{item['seed']}_batch{batch}"
@@ -60,18 +66,18 @@ def main():
     import sys
     sys.path.insert(0,str(ROOT/'experiments/formal_evaluation'))
     from analyze_multi import compare
-    summary=read(source/'confirmation_summary.json')
-    for key,ref,method in (('new_vs_happo',matrix(new,'happo'),matrix(new,'llm_library')),
-                           ('new_vs_old',matrix(old,'llm_library'),matrix(new,'llm_library')),
-                           ('new_vs_random',matrix(new,'random_screen'),matrix(new,'llm_library'))):
+    summary=read(source/('confirmation_summary.json' if version==2 else 'test_summary.json'))
+    for key,ref,method in (('vs_happo',matrix(new,'happo'),matrix(new,'llm_library')),
+                           ('vs_old',matrix(old,'llm_library'),matrix(new,'llm_library')),
+                           ('vs_random',matrix(new,'random_screen'),matrix(new,'llm_library'))):
         actual=compare(ref,method)
-        assert actual==summary[key]
+        assert actual==summary[('new_'+key) if version==2 else key]
     calls=read(source/'calls.json')
     usage={key:sum(c.get('usage',{}).get(key,0) for c in calls) for key in ('prompt_tokens','completion_tokens','total_tokens','prompt_cache_hit_tokens','prompt_cache_miss_tokens')}
     export.mkdir(parents=True)
     for path in source.iterdir():
         if path.is_file(): shutil.copy2(path,export/path.name)
-        elif path.name=='sources' or path.name=='confirmation_inputs': shutil.copytree(path,export/path.name)
+        elif path.name=='sources' or path.name in ('confirmation_inputs','test_inputs'): shutil.copytree(path,export/path.name)
         elif (path/'episodes.json').exists():
             target=export/path.name;target.mkdir()
             for file in path.iterdir():
@@ -79,6 +85,11 @@ def main():
                 if file.name in ('periods.csv','scores.json','information_audits.json','delivered_reports.json'):
                     with file.open('rb') as src,gzip.open(target/(file.name+'.gz'),'wb') as dst: shutil.copyfileobj(src,dst)
                 else: shutil.copy2(file,target/file.name)
+    if version==3:
+        for name,expected in read(source/'manifest.json')['source_sha256'].items():
+            path=ROOT/name
+            assert hashlib.sha256(path.read_bytes()).hexdigest()==expected
+            target=export/'sources'/name;target.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(path,target)
     write(export/'verification.json',{'episodes':episodes_total,'node_periods':rows_total,'raw_cost_backlog_normal_actions_and_report_timing':'passed',
                                      'all_confirmation_statistics_recomputed':True,'summed_evaluation_wall_seconds':wall,
                                      'api_requests':len(calls),'api_failed':sum(c['status']=='failed' for c in calls),'api_usage':usage,

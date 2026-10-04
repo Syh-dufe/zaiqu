@@ -1,0 +1,194 @@
+[
+  {
+    "group": "happo",
+    "scenario": "base",
+    "trace": 0,
+    "notification": null,
+    "cost": 22.528333333333332,
+    "downstream_backlog": 9.995
+  },
+  {
+    "group": "happo",
+    "scenario": "base",
+    "trace": 1,
+    "notification": null,
+    "cost": 15.513333333333334,
+    "downstream_backlog": 8.305
+  },
+  {
+    "group": "happo",
+    "scenario": "base",
+    "trace": 2,
+    "notification": null,
+    "cost": 57.641666666666666,
+    "downstream_backlog": 111.57
+  },
+  {
+    "group": "happo",
+    "scenario": "base",
+    "trace": 3,
+    "notification": null,
+    "cost": 25.03,
+    "downstream_backlog": 19.72
+  },
+  {
+    "group": "happo",
+    "scenario": "shock",
+    "trace": 0,
+    "notification": 67,
+    "cost": 22.531666666666666,
+    "downstream_backlog": 10.26
+  },
+  {
+    "group": "happo",
+    "scenario": "shock",
+    "trace": 1,
+    "notification": 96,
+    "cost": 18.903333333333332,
+    "downstream_backlog": 17.06
+  },
+  {
+    "group": "happo",
+    "scenario": "shock",
+    "trace": 2,
+    "notification": 68,
+    "cost": 63.86,
+    "downstream_backlog": 140.11
+  },
+  {
+    "group": "happo",
+    "scenario": "shock",
+    "trace": 3,
+    "notification": 99,
+    "cost": 35.125,
+    "downstream_backlog": 45.295
+  },
+  {
+    "group": "llm_library",
+    "scenario": "base",
+    "trace": 0,
+    "notification": null,
+    "cost": 22.528333333333332,
+    "downstream_backlog": 9.995
+  },
+  {
+    "group": "llm_library",
+    "scenario": "base",
+    "trace": 1,
+    "notification": null,
+    "cost": 15.513333333333334,
+    "downstream_backlog": 8.305
+  },
+  {
+    "group": "llm_library",
+    "scenario": "base",
+    "trace": 2,
+    "notification": null,
+    "cost": 57.641666666666666,
+    "downstream_backlog": 111.57
+  },
+  {
+    "group": "llm_library",
+    "scenario": "base",
+    "trace": 3,
+    "notification": null,
+    "cost": 25.03,
+    "downstream_backlog": 19.72
+  },
+  {
+    "group": "llm_library",
+    "scenario": "shock",
+    "trace": 0,
+    "notification": 67,
+    "cost": 22.531666666666666,
+    "downstream_backlog": 10.26
+  },
+  {
+    "group": "llm_library",
+    "scenario": "shock",
+    "trace": 1,
+    "notification": 96,
+    "cost": 18.938333333333333,
+    "downstream_backlog": 17.06
+  },
+  {
+    "group": "llm_library",
+    "scenario": "shock",
+    "trace": 2,
+    "notification": 68,
+    "cost": 63.86,
+    "downstream_backlog": 140.11
+  },
+  {
+    "group": "llm_library",
+    "scenario": "shock",
+    "trace": 3,
+    "notification": 99,
+    "cost": 35.11833333333333,
+    "downstream_backlog": 45.295
+  },
+  {
+    "group": "random_screen",
+    "scenario": "base",
+    "trace": 0,
+    "notification": null,
+    "cost": 22.528333333333332,
+    "downstream_backlog": 9.995
+  },
+  {
+    "group": "random_screen",
+    "scenario": "base",
+    "trace": 1,
+    "notification": null,
+    "cost": 15.513333333333334,
+    "downstream_backlog": 8.305
+  },
+  {
+    "group": "random_screen",
+    "scenario": "base",
+    "trace": 2,
+    "notification": null,
+    "cost": 57.641666666666666,
+    "downstream_backlog": 111.57
+  },
+  {
+    "group": "random_screen",
+    "scenario": "base",
+    "trace": 3,
+    "notification": null,
+    "cost": 25.03,
+    "downstream_backlog": 19.72
+  },
+  {
+    "group": "random_screen",
+    "scenario": "shock",
+    "trace": 0,
+    "notification": 67,
+    "cost": 22.741666666666667,
+    "downstream_backlog": 10.63
+  },
+  {
+    "group": "random_screen",
+    "scenario": "shock",
+    "trace": 1,
+    "notification": 96,
+    "cost": 17.956666666666667,
+    "downstream_backlog": 16.615
+  },
+  {
+    "group": "random_screen",
+    "scenario": "shock",
+    "trace": 2,
+    "notification": 68,
+    "cost": 65.83166666666666,
+    "downstream_backlog": 155.04
+  },
+  {
+    "group": "random_screen",
+    "scenario": "shock",
+    "trace": 3,
+    "notification": 99,
+    "cost": 30.55666666666667,
+    "downstream_backlog": 41.87
+  }
+]

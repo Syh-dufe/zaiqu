@@ -1,0 +1,25 @@
+{
+  "inputs": [
+    {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\llm_evolution_v3\\test_inputs\\batch1.json",
+      "sha256": "f151a961794ef4de47fc608e27d4d9702b86d2e8c6e029b828e23cb9000320ab"
+    },
+    {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\llm_evolution_v3\\test_inputs\\batch2.json",
+      "sha256": "0471a004c8448c95a64c0d731796a730ecf8ada2cdfc675decfb8f66dc18845d"
+    },
+    {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\llm_evolution_v3\\test_inputs\\batch3.json",
+      "sha256": "020ef97c76c351d9f13eace2807253865124d9a22076cc3c4ab2dd145e768cd1"
+    },
+    {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\llm_evolution_v3\\test_inputs\\batch4.json",
+      "sha256": "40af291a5caa0ac281f54d9123f6076621d5c3f92f0f1533fd341cb3136bea8c"
+    },
+    {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\llm_evolution_v3\\test_inputs\\batch5.json",
+      "sha256": "e12a58d71388464d4285b1d040a9680a59be58cf5524e77cb080767e24ae4f56"
+    }
+  ],
+  "frozen_library_sha256": "1450aab60c410b4a0ce28711ada397635f2d0feac25ba6d5cf0067d33224a6f9"
+}

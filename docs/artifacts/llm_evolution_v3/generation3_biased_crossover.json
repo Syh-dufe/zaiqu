@@ -1,0 +1,55 @@
+{
+  "candidates": [
+    {
+      "explanation": "Pipeline-aware relaxation with strict downstream protection. Reduce orders only when local backlog is zero and pipeline is clearly excessive, using a small bounded trim. Add a small boost only when backlog is present and pipeline is thin, but never when pipeline is already high. This avoids under-ordering during demand surges and prevents upstream backlog creation.",
+      "rules": [
+        {
+          "when": "pipeline > 3 * recent and backlog == 0 and recent > 0",
+          "delta": "-min(2, max(0, (pipeline - 3 * recent) / 4))"
+        },
+        {
+          "when": "backlog > 0 and pipeline < recent and recent > 0",
+          "delta": "min(2, max(0, backlog / 3))"
+        },
+        {
+          "when": "pipeline > 2 * recent and backlog >= 1 and recent > 0",
+          "delta": "-1"
+        }
+      ]
+    },
+    {
+      "explanation": "Conservative service protection with pipeline damping. When backlog exists and pipeline is thin, add a small amount; when pipeline is excessive and backlog is zero, trim modestly. Uses a growth guard to avoid adding during stable high-demand periods where pipeline is already adequate.",
+      "rules": [
+        {
+          "when": "backlog > 0 and pipeline < 1.5 * recent and recent > 0",
+          "delta": "min(2, max(0, backlog / 4))"
+        },
+        {
+          "when": "pipeline > 3 * recent and backlog == 0 and recent > 0",
+          "delta": "-min(2, max(0, (pipeline - 3 * recent) / 4))"
+        },
+        {
+          "when": "growth > 1.2 and pipeline < recent and backlog > 0 and recent > 0",
+          "delta": "1"
+        }
+      ]
+    },
+    {
+      "explanation": "Backlog-priority coordination with pipeline-aware caps. Increase orders only when backlog is large and pipeline is very thin, capped at 2. Reduce orders only when pipeline is excessive and backlog is zero. Avoids any increase when pipeline is already high relative to recent demand.",
+      "rules": [
+        {
+          "when": "backlog > 2 * recent and pipeline < 1.5 * recent and recent > 0",
+          "delta": "min(2, max(0, backlog / 4))"
+        },
+        {
+          "when": "backlog > 0 and pipeline < recent and recent > 0",
+          "delta": "1"
+        },
+        {
+          "when": "pipeline > 3 * recent and backlog == 0 and recent > 0",
+          "delta": "-1"
+        }
+      ]
+    }
+  ]
+}

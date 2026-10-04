@@ -1,0 +1,64 @@
+{
+  "source_sha256": {
+    "experiments\\deepseek_refinement\\evolve.py": "de7f2e1bf262f4e6e076c899aca464d7f22ea26566cb24c9f5a78dfa969d5f65",
+    "experiments\\deepseek_refinement\\current.py": "1d19387f33f316b03466d8e143081393218c1b562c067da7d6db7e95dc18d11a",
+    "experiments\\deepseek_refinement\\run.py": "2515ab236fd015b50b5734105d9745f5f5e7c7974cc77e5fd7ebd7063bc1d4b6",
+    "experiments\\deepseek_refinement\\shadow.py": "fbf92c3c5bc5b86a52890a32e5d26d51400daef467504401838da55bbff95865",
+    "experiments\\deepseek_refinement\\reports.py": "46d4588efa0daae795e9677f4151cee66fe0d77aabe40eebc1296d4be460b154",
+    "experiments\\deepseek_pilot\\rules.py": "8de5400b739098929e760caf8bca9abd9d89a6f5e6910d9ab839119aefbc497b",
+    "experiments\\formal_evaluation\\analyze_multi.py": "92d6d0cffcea41413b3fd93d876bfc3a87e45ebda7ec54ef88027e5852a7c91c"
+  },
+  "generations": 3,
+  "training_seeds": [
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "model_hashes": {
+    "11": {
+      "parameter_sha256": "583bd3c2a65b7c99ca1f693e8542e2654a05cc3b51bb198cb5ca4e3b44499192",
+      "audit_sha256": "063d4d26729766fd36c2ba70ad9bc355d0f86bb0f5aa548941969f0d966694f9"
+    },
+    "12": {
+      "parameter_sha256": "d4ca903d6f13b9b6e25575eadd6e2486701d2b6fd39bea7b7ab61105ec2a4681",
+      "audit_sha256": "95f5a32e7bdbd099cbc3220495a3a322c1798c4812309b4498795badabd493ef"
+    },
+    "13": {
+      "parameter_sha256": "86582dd7aeae0c16c0b5c6f4862b8d3ac62988b1927fe4f3526af9ff901b3dd0",
+      "audit_sha256": "c8e5195535abd91137da3a8becdd9cda604aa031bc4b0135b307a94868660725"
+    },
+    "14": {
+      "parameter_sha256": "54590e6fba0eeeef7fccc7ac09fd5e22fefbe2d3bff1a2b34feb9d0a900a1c30",
+      "audit_sha256": "b3afccaa6024ae6f5f5d7f80ba14ecc67dab43498b86506a8bff5c5e762618fa"
+    },
+    "15": {
+      "parameter_sha256": "c6e966fec9ffdd56192e75b43c0c2c0dd93e815626e19f88f504b7a259e03fe1",
+      "audit_sha256": "d33706230317b168c4dca3ae3000a9c6a51d0f879b70e9e4a0926e32d188d53d"
+    }
+  },
+  "probe_seed": 20270401,
+  "development_seeds": [
+    20270301,
+    20270302
+  ],
+  "internal_validation_seeds": [
+    20270303,
+    20270304
+  ],
+  "test_seeds": [
+    20270501,
+    20270502,
+    20270503,
+    20270504,
+    20270505,
+    20270506,
+    20270507,
+    20270508,
+    20270509,
+    20270510
+  ],
+  "api_total_limit": null,
+  "prior_v2_test_excluded_from_feedback": true
+}
