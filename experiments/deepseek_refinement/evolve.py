@@ -72,8 +72,10 @@ def main():
                 data=read(path)
                 if isinstance(data,dict): used.update(tuple(t[:200]) for t in data.get('base',[]))
         inputs=[]
+        registered_inputs={};registered_libraries={}
         for ds,es,name in ((20270301,20270302,'development'),(20270303,20270304,'internal_validation')):
             path=OUT/f'{name}_inputs.json';write(path,runner.generate(ds,es,used));inputs.append(path)
+            registered_inputs[str(path)]=runner.digest(path)
         write(OUT/'input_manifest.json',[{'path':str(p),'sha256':runner.digest(p)} for p in inputs])
         def check_integrity():
             for rel,value in hashes.items():
@@ -81,9 +83,12 @@ def main():
             for seed in range(11,16):
                 if runner.digest(runner.training(seed)/'completion_audit.json')!=model_hashes[str(seed)]['audit_sha256']:
                     raise RuntimeError('Frozen model audit changed')
-        def checked_evaluate(label,library,paths,random_group=False):
+        def checked_evaluate(label,library,paths,random_group=False,expected_library_hash=None):
             check_integrity()
-            library_hash=runner.digest(library);input_hashes=[runner.digest(p) for p in paths]
+            library_hash=expected_library_hash or registered_libraries[str(library)]
+            input_hashes=[registered_inputs[str(p)] for p in paths]
+            if runner.digest(library)!=library_hash or [runner.digest(p) for p in paths]!=input_hashes:
+                raise RuntimeError('Registered input or library changed between evaluations')
             summary=runner.evaluate(label,library,paths,random_group)
             check_integrity()
             if runner.digest(library)!=library_hash or [runner.digest(p) for p in paths]!=input_hashes:
@@ -110,6 +115,7 @@ def main():
                   'length':sum(len(r['when'])+len(r['delta']) for c in read(library)['candidates'] for r in c['rules'])}
             archive.append(item);write(OUT/'archive.json',archive);return item
         seeds=[ROOT/'docs/artifacts/operator_discovery_v1/repaired_library.json',ROOT/'results/llm_current_v2/round2_library.json',ROOT/'results/llm_current_v2/round6_library.json']
+        for path in seeds: registered_libraries[str(path)]=runner.digest(path)
         for index,path in enumerate(seeds):
             fp=fingerprint(read(path),states)
             if fp in seen: continue
@@ -163,6 +169,7 @@ def main():
                             fp=fingerprint(value,states)
                             if fp in seen: raise ValueError('Behavior duplicate on registered bounded-action probes; substantive change required')
                             seen.add(fp);library=OUT/f'generation{generation}_{operation}.json';write(library,value);record['status']='valid'
+                            registered_libraries[str(library)]=runner.digest(library)
                         except Exception as exc:
                             record['status']='failed';record['failure']=str(exc)[:400]
                     write(OUT/'calls.json',calls)
@@ -178,9 +185,11 @@ def main():
         directory=OUT/'test_inputs';directory.mkdir();tests=[]
         for n in range(1,6):
             path=directory/f'batch{n}.json';write(path,runner.generate(20270499+2*n,20270500+2*n,used));tests.append(path)
+            registered_inputs[str(path)]=runner.digest(path)
         write(directory/'manifest.json',{'inputs':[{'path':str(p),'sha256':runner.digest(p)} for p in tests],'frozen_library_sha256':runner.digest(frozen)})
         if runner.digest(seeds[0])!=archive[0]['library_sha256']: raise RuntimeError('Old library changed since development')
-        new=checked_evaluate('test_new',frozen,tests,True);old=checked_evaluate('test_old',seeds[0],tests)
+        new=checked_evaluate('test_new',frozen,tests,True,expected_library_hash=winner['library_sha256'])
+        old=checked_evaluate('test_old',seeds[0],tests,expected_library_hash=archive[0]['library_sha256'])
         sys.path.insert(0,str(ROOT/'experiments/formal_evaluation'))
         from analyze_multi import compare
         def matrix(summary,g):
