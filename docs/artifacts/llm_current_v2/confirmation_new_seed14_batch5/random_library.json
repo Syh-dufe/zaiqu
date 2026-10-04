@@ -1,0 +1,56 @@
+{
+  "seed": 20261230,
+  "candidates": [
+    {
+      "explanation": "Fixed random constant-vector diagnostic, seed20261230",
+      "rules": [
+        {
+          "when": "agent == 0",
+          "delta": "-1"
+        },
+        {
+          "when": "agent == 1",
+          "delta": "2"
+        },
+        {
+          "when": "agent == 2",
+          "delta": "2"
+        }
+      ]
+    },
+    {
+      "explanation": "Fixed random constant-vector diagnostic, seed20261230",
+      "rules": [
+        {
+          "when": "agent == 0",
+          "delta": "-1"
+        },
+        {
+          "when": "agent == 1",
+          "delta": "-1"
+        },
+        {
+          "when": "agent == 2",
+          "delta": "1"
+        }
+      ]
+    },
+    {
+      "explanation": "Fixed random constant-vector diagnostic, seed20261230",
+      "rules": [
+        {
+          "when": "agent == 0",
+          "delta": "2"
+        },
+        {
+          "when": "agent == 1",
+          "delta": "-1"
+        },
+        {
+          "when": "agent == 2",
+          "delta": "2"
+        }
+      ]
+    }
+  ]
+}

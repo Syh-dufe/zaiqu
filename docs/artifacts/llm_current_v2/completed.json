@@ -1,0 +1,293 @@
+{
+  "status": "completed",
+  "selected_library": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\artifacts\\operator_discovery_v1\\repaired_library.json",
+  "summary": {
+    "new_vs_happo": {
+      "reference_means": [
+        21.94285,
+        22.846200000000014
+      ],
+      "method_means": [
+        21.83088333333332,
+        22.908650000000012
+      ],
+      "mean_delta": [
+        -0.11196666666666662,
+        0.06244999999999996
+      ],
+      "ci95": [
+        [
+          -0.5350845833333333,
+          -0.24405125000000052
+        ],
+        [
+          0.26531708333333326,
+          0.4172624999999986
+        ]
+      ],
+      "ci97p5": [
+        [
+          -0.6170458333333333,
+          -0.3003581249999995
+        ],
+        [
+          0.3269177083333332,
+          0.48180124999999957
+        ]
+      ],
+      "percent_reduction": [
+        0.5102649230463757,
+        -0.27334961612871417
+      ],
+      "per_seed_mean_delta": [
+        [
+          -0.29074999999999973,
+          -0.27875000000000016
+        ],
+        [
+          0.06874999999999946,
+          0.2392499999999999
+        ],
+        [
+          0.0318333333333336,
+          0.25974999999999987
+        ],
+        [
+          0.12299999999999996,
+          0.3407499999999999
+        ],
+        [
+          -0.4926666666666664,
+          -0.2487499999999998
+        ]
+      ],
+      "counts": {
+        "cost": {
+          "improved": 52,
+          "tied": 15,
+          "worsened": 33
+        },
+        "backlog": {
+          "improved": 30,
+          "tied": 34,
+          "worsened": 36
+        }
+      },
+      "stronger_evidence": false
+    },
+    "new_vs_old": {
+      "reference_means": [
+        21.83088333333332,
+        22.908650000000012
+      ],
+      "method_means": [
+        21.83088333333332,
+        22.908650000000012
+      ],
+      "mean_delta": [
+        0.0,
+        0.0
+      ],
+      "ci95": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "ci97p5": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "percent_reduction": [
+        0.0,
+        0.0
+      ],
+      "per_seed_mean_delta": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "counts": {
+        "cost": {
+          "improved": 0,
+          "tied": 100,
+          "worsened": 0
+        },
+        "backlog": {
+          "improved": 0,
+          "tied": 100,
+          "worsened": 0
+        }
+      },
+      "stronger_evidence": false
+    },
+    "new_vs_random": {
+      "reference_means": [
+        20.751416666666675,
+        21.509100000000004
+      ],
+      "method_means": [
+        21.83088333333332,
+        22.908650000000012
+      ],
+      "mean_delta": [
+        1.0794666666666664,
+        1.3995499999999998
+      ],
+      "ci95": [
+        [
+          0.32710124999999995,
+          0.42659499999999995
+        ],
+        [
+          2.0217683333333345,
+          2.9841062500000013
+        ]
+      ],
+      "ci97p5": [
+        [
+          0.22702812500000014,
+          0.32223500000000016
+        ],
+        [
+          2.1973593749999996,
+          3.348630000000001
+        ]
+      ],
+      "percent_reduction": [
+        -5.2018938466047375,
+        -6.506780850895705
+      ],
+      "per_seed_mean_delta": [
+        [
+          1.1771666666666671,
+          2.2422499999999994
+        ],
+        [
+          1.5406666666666664,
+          1.87975
+        ],
+        [
+          0.3383333333333331,
+          0.7830000000000006
+        ],
+        [
+          1.3889166666666668,
+          0.2827500000000006
+        ],
+        [
+          0.9522499999999997,
+          1.8099999999999998
+        ]
+      ],
+      "counts": {
+        "cost": {
+          "improved": 36,
+          "tied": 1,
+          "worsened": 63
+        },
+        "backlog": {
+          "improved": 28,
+          "tied": 4,
+          "worsened": 68
+        }
+      },
+      "stronger_evidence": false
+    },
+    "api_requests": 6,
+    "api_failures": 0,
+    "usage": [
+      {
+        "prompt_tokens": 12493,
+        "completion_tokens": 483,
+        "total_tokens": 12976,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 12237
+      },
+      {
+        "prompt_tokens": 22010,
+        "completion_tokens": 454,
+        "total_tokens": 22464,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 21370
+      },
+      {
+        "prompt_tokens": 31543,
+        "completion_tokens": 493,
+        "total_tokens": 32036,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 30903
+      },
+      {
+        "prompt_tokens": 30692,
+        "completion_tokens": 469,
+        "total_tokens": 31161,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 30052
+      },
+      {
+        "prompt_tokens": 30692,
+        "completion_tokens": 506,
+        "total_tokens": 31198,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 30052
+      },
+      {
+        "prompt_tokens": 30676,
+        "completion_tokens": 522,
+        "total_tokens": 31198,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 30036
+      }
+    ],
+    "selection_is_development_only": true,
+    "confirmation_episodes": 1000,
+    "duplicate_happo_audit_episodes": 200,
+    "claim_limit": "Two metrics per comparison; additional comparisons descriptive, not jointly corrected. Library selection used4 development traces, overfitting risk remains."
+  }
+}

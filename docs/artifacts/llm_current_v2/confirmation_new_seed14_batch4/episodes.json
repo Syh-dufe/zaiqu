@@ -1,0 +1,194 @@
+[
+  {
+    "group": "happo",
+    "scenario": "base",
+    "trace": 0,
+    "notification": null,
+    "cost": 12.313333333333333,
+    "downstream_backlog": 2.73
+  },
+  {
+    "group": "happo",
+    "scenario": "base",
+    "trace": 1,
+    "notification": null,
+    "cost": 11.253333333333334,
+    "downstream_backlog": 1.955
+  },
+  {
+    "group": "happo",
+    "scenario": "base",
+    "trace": 2,
+    "notification": null,
+    "cost": 17.69333333333333,
+    "downstream_backlog": 10.115
+  },
+  {
+    "group": "happo",
+    "scenario": "base",
+    "trace": 3,
+    "notification": null,
+    "cost": 13.576666666666666,
+    "downstream_backlog": 3.575
+  },
+  {
+    "group": "happo",
+    "scenario": "shock",
+    "trace": 0,
+    "notification": 103,
+    "cost": 12.248333333333333,
+    "downstream_backlog": 2.63
+  },
+  {
+    "group": "happo",
+    "scenario": "shock",
+    "trace": 1,
+    "notification": 96,
+    "cost": 12.236666666666666,
+    "downstream_backlog": 2.6
+  },
+  {
+    "group": "happo",
+    "scenario": "shock",
+    "trace": 2,
+    "notification": 70,
+    "cost": 23.07,
+    "downstream_backlog": 22.315
+  },
+  {
+    "group": "happo",
+    "scenario": "shock",
+    "trace": 3,
+    "notification": 86,
+    "cost": 16.278333333333332,
+    "downstream_backlog": 4.275
+  },
+  {
+    "group": "llm_library",
+    "scenario": "base",
+    "trace": 0,
+    "notification": null,
+    "cost": 12.313333333333333,
+    "downstream_backlog": 2.73
+  },
+  {
+    "group": "llm_library",
+    "scenario": "base",
+    "trace": 1,
+    "notification": null,
+    "cost": 11.253333333333334,
+    "downstream_backlog": 1.955
+  },
+  {
+    "group": "llm_library",
+    "scenario": "base",
+    "trace": 2,
+    "notification": null,
+    "cost": 17.69333333333333,
+    "downstream_backlog": 10.115
+  },
+  {
+    "group": "llm_library",
+    "scenario": "base",
+    "trace": 3,
+    "notification": null,
+    "cost": 13.576666666666666,
+    "downstream_backlog": 3.575
+  },
+  {
+    "group": "llm_library",
+    "scenario": "shock",
+    "trace": 0,
+    "notification": 103,
+    "cost": 12.058333333333334,
+    "downstream_backlog": 2.63
+  },
+  {
+    "group": "llm_library",
+    "scenario": "shock",
+    "trace": 1,
+    "notification": 96,
+    "cost": 11.096666666666666,
+    "downstream_backlog": 2.355
+  },
+  {
+    "group": "llm_library",
+    "scenario": "shock",
+    "trace": 2,
+    "notification": 70,
+    "cost": 23.07,
+    "downstream_backlog": 22.315
+  },
+  {
+    "group": "llm_library",
+    "scenario": "shock",
+    "trace": 3,
+    "notification": 86,
+    "cost": 16.278333333333332,
+    "downstream_backlog": 4.275
+  },
+  {
+    "group": "random_screen",
+    "scenario": "base",
+    "trace": 0,
+    "notification": null,
+    "cost": 12.313333333333333,
+    "downstream_backlog": 2.73
+  },
+  {
+    "group": "random_screen",
+    "scenario": "base",
+    "trace": 1,
+    "notification": null,
+    "cost": 11.253333333333334,
+    "downstream_backlog": 1.955
+  },
+  {
+    "group": "random_screen",
+    "scenario": "base",
+    "trace": 2,
+    "notification": null,
+    "cost": 17.69333333333333,
+    "downstream_backlog": 10.115
+  },
+  {
+    "group": "random_screen",
+    "scenario": "base",
+    "trace": 3,
+    "notification": null,
+    "cost": 13.576666666666666,
+    "downstream_backlog": 3.575
+  },
+  {
+    "group": "random_screen",
+    "scenario": "shock",
+    "trace": 0,
+    "notification": 103,
+    "cost": 12.226666666666667,
+    "downstream_backlog": 2.63
+  },
+  {
+    "group": "random_screen",
+    "scenario": "shock",
+    "trace": 1,
+    "notification": 96,
+    "cost": 11.338333333333333,
+    "downstream_backlog": 2.285
+  },
+  {
+    "group": "random_screen",
+    "scenario": "shock",
+    "trace": 2,
+    "notification": 70,
+    "cost": 21.013333333333332,
+    "downstream_backlog": 22.485
+  },
+  {
+    "group": "random_screen",
+    "scenario": "shock",
+    "trace": 3,
+    "notification": 86,
+    "cost": 15.345,
+    "downstream_backlog": 4.17
+  }
+]

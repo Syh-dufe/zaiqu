@@ -1,0 +1,194 @@
+[
+  {
+    "group": "happo",
+    "scenario": "base",
+    "trace": 0,
+    "notification": null,
+    "cost": 13.808333333333334,
+    "downstream_backlog": 0.925
+  },
+  {
+    "group": "happo",
+    "scenario": "base",
+    "trace": 1,
+    "notification": null,
+    "cost": 19.445,
+    "downstream_backlog": 5.48
+  },
+  {
+    "group": "happo",
+    "scenario": "base",
+    "trace": 2,
+    "notification": null,
+    "cost": 57.281666666666666,
+    "downstream_backlog": 119.465
+  },
+  {
+    "group": "happo",
+    "scenario": "base",
+    "trace": 3,
+    "notification": null,
+    "cost": 17.456666666666667,
+    "downstream_backlog": 4.85
+  },
+  {
+    "group": "happo",
+    "scenario": "shock",
+    "trace": 0,
+    "notification": 77,
+    "cost": 16.226666666666667,
+    "downstream_backlog": 1.55
+  },
+  {
+    "group": "happo",
+    "scenario": "shock",
+    "trace": 1,
+    "notification": 72,
+    "cost": 19.308333333333334,
+    "downstream_backlog": 9.165
+  },
+  {
+    "group": "happo",
+    "scenario": "shock",
+    "trace": 2,
+    "notification": 103,
+    "cost": 63.638333333333335,
+    "downstream_backlog": 138.535
+  },
+  {
+    "group": "happo",
+    "scenario": "shock",
+    "trace": 3,
+    "notification": 97,
+    "cost": 18.761666666666667,
+    "downstream_backlog": 4.295
+  },
+  {
+    "group": "llm_library",
+    "scenario": "base",
+    "trace": 0,
+    "notification": null,
+    "cost": 13.808333333333334,
+    "downstream_backlog": 0.925
+  },
+  {
+    "group": "llm_library",
+    "scenario": "base",
+    "trace": 1,
+    "notification": null,
+    "cost": 19.445,
+    "downstream_backlog": 5.48
+  },
+  {
+    "group": "llm_library",
+    "scenario": "base",
+    "trace": 2,
+    "notification": null,
+    "cost": 57.281666666666666,
+    "downstream_backlog": 119.465
+  },
+  {
+    "group": "llm_library",
+    "scenario": "base",
+    "trace": 3,
+    "notification": null,
+    "cost": 17.456666666666667,
+    "downstream_backlog": 4.85
+  },
+  {
+    "group": "llm_library",
+    "scenario": "shock",
+    "trace": 0,
+    "notification": 77,
+    "cost": 15.15,
+    "downstream_backlog": 1.55
+  },
+  {
+    "group": "llm_library",
+    "scenario": "shock",
+    "trace": 1,
+    "notification": 72,
+    "cost": 20.03,
+    "downstream_backlog": 9.265
+  },
+  {
+    "group": "llm_library",
+    "scenario": "shock",
+    "trace": 2,
+    "notification": 103,
+    "cost": 63.638333333333335,
+    "downstream_backlog": 138.535
+  },
+  {
+    "group": "llm_library",
+    "scenario": "shock",
+    "trace": 3,
+    "notification": 97,
+    "cost": 18.753333333333334,
+    "downstream_backlog": 4.13
+  },
+  {
+    "group": "random_screen",
+    "scenario": "base",
+    "trace": 0,
+    "notification": null,
+    "cost": 13.808333333333334,
+    "downstream_backlog": 0.925
+  },
+  {
+    "group": "random_screen",
+    "scenario": "base",
+    "trace": 1,
+    "notification": null,
+    "cost": 19.445,
+    "downstream_backlog": 5.48
+  },
+  {
+    "group": "random_screen",
+    "scenario": "base",
+    "trace": 2,
+    "notification": null,
+    "cost": 57.281666666666666,
+    "downstream_backlog": 119.465
+  },
+  {
+    "group": "random_screen",
+    "scenario": "base",
+    "trace": 3,
+    "notification": null,
+    "cost": 17.456666666666667,
+    "downstream_backlog": 4.85
+  },
+  {
+    "group": "random_screen",
+    "scenario": "shock",
+    "trace": 0,
+    "notification": 77,
+    "cost": 15.716666666666667,
+    "downstream_backlog": 1.595
+  },
+  {
+    "group": "random_screen",
+    "scenario": "shock",
+    "trace": 1,
+    "notification": 72,
+    "cost": 20.671666666666667,
+    "downstream_backlog": 9.08
+  },
+  {
+    "group": "random_screen",
+    "scenario": "shock",
+    "trace": 2,
+    "notification": 103,
+    "cost": 53.29,
+    "downstream_backlog": 126.55
+  },
+  {
+    "group": "random_screen",
+    "scenario": "shock",
+    "trace": 3,
+    "notification": 97,
+    "cost": 17.331666666666667,
+    "downstream_backlog": 4.12
+  }
+]

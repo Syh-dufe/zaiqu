@@ -1,0 +1,27 @@
+{
+  "frozen_library_sha256": "1450aab60c410b4a0ce28711ada397635f2d0feac25ba6d5cf0067d33224a6f9",
+  "inputs": [
+    {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\llm_current_v2\\confirmation_inputs\\batch1.json",
+      "sha256": "c9635e481ecf6af644a7f1c9a253d3e930629ab45ebfe891bdd5b9710a3d5bc7"
+    },
+    {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\llm_current_v2\\confirmation_inputs\\batch2.json",
+      "sha256": "3eb0ee3e8ca865b6135f27c92df9f60e657461e78cdb0edb534dbb263df4af94"
+    },
+    {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\llm_current_v2\\confirmation_inputs\\batch3.json",
+      "sha256": "d5b25115075204f89b140260147e9466be2e1c76a90b6b1eab62d9693e843340"
+    },
+    {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\llm_current_v2\\confirmation_inputs\\batch4.json",
+      "sha256": "46b30e2acbf963b8ba22827790a72c0b6d4b4965ae66fa1763c6b922620330de"
+    },
+    {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\llm_current_v2\\confirmation_inputs\\batch5.json",
+      "sha256": "e944ddf7cfc366351dceb5e8d1807c6b616db283a43dc06f664e87656c20dda6"
+    }
+  ],
+  "created_after_freeze": true,
+  "no_feedback_to_llm": true
+}

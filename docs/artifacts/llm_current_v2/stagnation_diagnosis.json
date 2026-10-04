@@ -1,0 +1,354 @@
+[
+  {
+    "seed": 11,
+    "round": 1,
+    "different_node_actions": 0,
+    "decisions": 92,
+    "selected": {
+      "zero": 77,
+      "library_0": 2,
+      "library_2": 11,
+      "library_1": 2
+    }
+  },
+  {
+    "seed": 11,
+    "round": 2,
+    "different_node_actions": 240,
+    "decisions": 92,
+    "selected": {
+      "zero": 73,
+      "library_1": 16,
+      "library_0": 2,
+      "library_2": 1
+    }
+  },
+  {
+    "seed": 11,
+    "round": 3,
+    "different_node_actions": 0,
+    "decisions": 92,
+    "selected": {
+      "zero": 77,
+      "library_0": 2,
+      "library_2": 11,
+      "library_1": 2
+    }
+  },
+  {
+    "seed": 11,
+    "round": 4,
+    "different_node_actions": 0,
+    "decisions": 92,
+    "selected": {
+      "zero": 77,
+      "library_0": 2,
+      "library_2": 11,
+      "library_1": 2
+    }
+  },
+  {
+    "seed": 11,
+    "round": 5,
+    "different_node_actions": 0,
+    "decisions": 92,
+    "selected": {
+      "zero": 77,
+      "library_0": 2,
+      "library_2": 11,
+      "library_1": 2
+    }
+  },
+  {
+    "seed": 11,
+    "round": 6,
+    "different_node_actions": 0,
+    "decisions": 92,
+    "selected": {
+      "zero": 77,
+      "library_0": 2,
+      "library_2": 11,
+      "library_1": 2
+    }
+  },
+  {
+    "seed": 12,
+    "round": 1,
+    "different_node_actions": 0,
+    "decisions": 92,
+    "selected": {
+      "zero": 84,
+      "library_1": 2,
+      "library_0": 5,
+      "library_2": 1
+    }
+  },
+  {
+    "seed": 12,
+    "round": 2,
+    "different_node_actions": 185,
+    "decisions": 92,
+    "selected": {
+      "zero": 85,
+      "library_1": 3,
+      "library_0": 3,
+      "library_2": 1
+    }
+  },
+  {
+    "seed": 12,
+    "round": 3,
+    "different_node_actions": 0,
+    "decisions": 92,
+    "selected": {
+      "zero": 84,
+      "library_1": 2,
+      "library_0": 5,
+      "library_2": 1
+    }
+  },
+  {
+    "seed": 12,
+    "round": 4,
+    "different_node_actions": 0,
+    "decisions": 92,
+    "selected": {
+      "zero": 84,
+      "library_1": 2,
+      "library_0": 5,
+      "library_2": 1
+    }
+  },
+  {
+    "seed": 12,
+    "round": 5,
+    "different_node_actions": 0,
+    "decisions": 92,
+    "selected": {
+      "zero": 84,
+      "library_1": 2,
+      "library_0": 5,
+      "library_2": 1
+    }
+  },
+  {
+    "seed": 12,
+    "round": 6,
+    "different_node_actions": 2,
+    "decisions": 92,
+    "selected": {
+      "zero": 84,
+      "library_1": 2,
+      "library_0": 5,
+      "library_2": 1
+    }
+  },
+  {
+    "seed": 13,
+    "round": 1,
+    "different_node_actions": 0,
+    "decisions": 92,
+    "selected": {
+      "zero": 78,
+      "library_2": 8,
+      "library_0": 3,
+      "library_1": 3
+    }
+  },
+  {
+    "seed": 13,
+    "round": 2,
+    "different_node_actions": 333,
+    "decisions": 92,
+    "selected": {
+      "zero": 79,
+      "library_1": 7,
+      "library_0": 5,
+      "library_2": 1
+    }
+  },
+  {
+    "seed": 13,
+    "round": 3,
+    "different_node_actions": 0,
+    "decisions": 92,
+    "selected": {
+      "zero": 78,
+      "library_2": 8,
+      "library_0": 3,
+      "library_1": 3
+    }
+  },
+  {
+    "seed": 13,
+    "round": 4,
+    "different_node_actions": 0,
+    "decisions": 92,
+    "selected": {
+      "zero": 78,
+      "library_2": 8,
+      "library_0": 3,
+      "library_1": 3
+    }
+  },
+  {
+    "seed": 13,
+    "round": 5,
+    "different_node_actions": 0,
+    "decisions": 92,
+    "selected": {
+      "zero": 78,
+      "library_2": 8,
+      "library_0": 3,
+      "library_1": 3
+    }
+  },
+  {
+    "seed": 13,
+    "round": 6,
+    "different_node_actions": 0,
+    "decisions": 92,
+    "selected": {
+      "zero": 78,
+      "library_2": 8,
+      "library_0": 3,
+      "library_1": 3
+    }
+  },
+  {
+    "seed": 14,
+    "round": 1,
+    "different_node_actions": 0,
+    "decisions": 92,
+    "selected": {
+      "zero": 84,
+      "library_0": 6,
+      "library_1": 1,
+      "library_2": 1
+    }
+  },
+  {
+    "seed": 14,
+    "round": 2,
+    "different_node_actions": 313,
+    "decisions": 92,
+    "selected": {
+      "zero": 88,
+      "library_0": 3,
+      "library_1": 1
+    }
+  },
+  {
+    "seed": 14,
+    "round": 3,
+    "different_node_actions": 0,
+    "decisions": 92,
+    "selected": {
+      "zero": 84,
+      "library_0": 6,
+      "library_1": 1,
+      "library_2": 1
+    }
+  },
+  {
+    "seed": 14,
+    "round": 4,
+    "different_node_actions": 0,
+    "decisions": 92,
+    "selected": {
+      "zero": 84,
+      "library_0": 6,
+      "library_1": 1,
+      "library_2": 1
+    }
+  },
+  {
+    "seed": 14,
+    "round": 5,
+    "different_node_actions": 0,
+    "decisions": 92,
+    "selected": {
+      "zero": 84,
+      "library_0": 6,
+      "library_1": 1,
+      "library_2": 1
+    }
+  },
+  {
+    "seed": 14,
+    "round": 6,
+    "different_node_actions": 58,
+    "decisions": 92,
+    "selected": {
+      "zero": 84,
+      "library_0": 6,
+      "library_1": 1,
+      "library_2": 1
+    }
+  },
+  {
+    "seed": 15,
+    "round": 1,
+    "different_node_actions": 0,
+    "decisions": 92,
+    "selected": {
+      "zero": 88,
+      "library_1": 3,
+      "library_0": 1
+    }
+  },
+  {
+    "seed": 15,
+    "round": 2,
+    "different_node_actions": 116,
+    "decisions": 92,
+    "selected": {
+      "zero": 88,
+      "library_0": 4
+    }
+  },
+  {
+    "seed": 15,
+    "round": 3,
+    "different_node_actions": 0,
+    "decisions": 92,
+    "selected": {
+      "zero": 88,
+      "library_1": 3,
+      "library_0": 1
+    }
+  },
+  {
+    "seed": 15,
+    "round": 4,
+    "different_node_actions": 0,
+    "decisions": 92,
+    "selected": {
+      "zero": 88,
+      "library_1": 3,
+      "library_0": 1
+    }
+  },
+  {
+    "seed": 15,
+    "round": 5,
+    "different_node_actions": 0,
+    "decisions": 92,
+    "selected": {
+      "zero": 88,
+      "library_1": 3,
+      "library_0": 1
+    }
+  },
+  {
+    "seed": 15,
+    "round": 6,
+    "different_node_actions": 0,
+    "decisions": 92,
+    "selected": {
+      "zero": 88,
+      "library_1": 3,
+      "library_0": 1
+    }
+  }
+]

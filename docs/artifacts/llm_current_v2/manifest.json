@@ -1,0 +1,33 @@
+{
+  "rounds_first_block": 6,
+  "training_seeds": [
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "source_sha256": {
+    "experiments\\deepseek_refinement\\current.py": "1d19387f33f316b03466d8e143081393218c1b562c067da7d6db7e95dc18d11a",
+    "experiments\\deepseek_refinement\\run.py": "2515ab236fd015b50b5734105d9745f5f5e7c7974cc77e5fd7ebd7063bc1d4b6",
+    "experiments\\deepseek_refinement\\shadow.py": "fbf92c3c5bc5b86a52890a32e5d26d51400daef467504401838da55bbff95865",
+    "experiments\\deepseek_refinement\\reports.py": "46d4588efa0daae795e9677f4151cee66fe0d77aabe40eebc1296d4be460b154",
+    "experiments\\deepseek_pilot\\rules.py": "8de5400b739098929e760caf8bca9abd9d89a6f5e6910d9ab839119aefbc497b"
+  },
+  "api_total_limit": null,
+  "format_attempts_per_round": 3,
+  "development_demand_seed": 20270101,
+  "new_confirmation_seeds": [
+    20270201,
+    20270202,
+    20270203,
+    20270204,
+    20270205,
+    20270206,
+    20270207,
+    20270208,
+    20270209,
+    20270210
+  ],
+  "prior_results_are_development": true
+}

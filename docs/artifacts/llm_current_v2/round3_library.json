@@ -1,0 +1,57 @@
+{
+  "candidates": [
+    {
+      "explanation": "Pipeline-aware coordinated relaxation. When total pipeline is high relative to recent demand, trim orders modestly to avoid upstream backlog; when pipeline is low and backlog exists, add small orders to protect downstream service. Corrections are small and node-symmetric so HAPPO remains the base policy.",
+      "rules": [
+        {
+          "when": "pipeline > 3 * recent and backlog < 2",
+          "delta": "-min(2, max(0, (pipeline - 3 * recent) / 4))"
+        },
+        {
+          "when": "pipeline < recent and backlog > 0",
+          "delta": "min(2, max(0, (recent - pipeline) / 2))"
+        },
+        {
+          "when": "pipeline > 2 * recent and backlog >= 2",
+          "delta": "-1"
+        }
+      ]
+    },
+    {
+      "explanation": "Backlog-sensitive smoothing with downstream protection. Increase orders only when backlog is large and pipeline is thin; reduce cautiously when pipeline already covers demand and no backlog pressure exists. Keeps cuts bounded so downstream nodes are not starved.",
+      "rules": [
+        {
+          "when": "backlog > 2 * recent and pipeline < recent",
+          "delta": "min(3, max(0, backlog / 2 - pipeline))"
+        },
+        {
+          "when": "backlog > 0 and pipeline < 1.5 * recent",
+          "delta": "min(1, max(0, backlog / 3))"
+        },
+        {
+          "when": "pipeline > 2.5 * recent and backlog == 0",
+          "delta": "-min(2, max(0, (pipeline - 2.5 * recent) / 3))"
+        }
+      ]
+    },
+    {
+      "explanation": "Growth-adaptive damping using delayed delivered-demand growth. When growth is high and pipeline is thin with backlog, add a small amount; when growth is low and pipeline is excessive, trim modestly. Avoids overreaction to noisy growth estimates.",
+      "rules": [
+        {
+          "when": "growth > 1.2 and pipeline < recent and backlog > 0",
+          "delta": "min(2, max(0, (growth - 1) * recent - pipeline))"
+        },
+        {
+          "when": "growth < 0.8 and pipeline > 2 * recent",
+          "delta": "-min(2, max(0, (pipeline - 2 * recent) / 2))"
+        },
+        {
+          "when": "pipeline > 3 * recent and backlog == 0",
+          "delta": "-1"
+        }
+      ]
+    }
+  ],
+  "stage": "current_environment_development",
+  "iteration": 3
+}

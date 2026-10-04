@@ -1,0 +1,7875 @@
+{
+  "means": {
+    "happo": [
+      21.94285,
+      22.846200000000014
+    ],
+    "llm_library": [
+      21.83088333333332,
+      22.908650000000012
+    ],
+    "random_screen": [
+      20.751416666666675,
+      21.509100000000004
+    ]
+  },
+  "mean_delta": [
+    -0.11196666666666662,
+    0.06244999999999996
+  ],
+  "per_seed": [
+    {
+      "seed": 11,
+      "mean_delta": [
+        -0.29074999999999973,
+        -0.27875000000000016
+      ]
+    },
+    {
+      "seed": 12,
+      "mean_delta": [
+        0.06874999999999946,
+        0.2392499999999999
+      ]
+    },
+    {
+      "seed": 13,
+      "mean_delta": [
+        0.0318333333333336,
+        0.25974999999999987
+      ]
+    },
+    {
+      "seed": 14,
+      "mean_delta": [
+        0.12299999999999996,
+        0.3407499999999999
+      ]
+    },
+    {
+      "seed": 15,
+      "mean_delta": [
+        -0.4926666666666664,
+        -0.2487499999999998
+      ]
+    }
+  ],
+  "worst_cases": [
+    {
+      "seed": 11,
+      "trajectory": 7,
+      "delta": [
+        4.504999999999999,
+        0.2699999999999996
+      ],
+      "happo": {
+        "seed": 11,
+        "trajectory": 7,
+        "group": "happo",
+        "cost": 22.366666666666667,
+        "backlog": 29.56
+      },
+      "llm": {
+        "seed": 11,
+        "trajectory": 7,
+        "group": "llm_library",
+        "cost": 26.871666666666666,
+        "backlog": 29.83
+      }
+    },
+    {
+      "seed": 14,
+      "trajectory": 3,
+      "delta": [
+        4.141666666666666,
+        2.235000000000001
+      ],
+      "happo": {
+        "seed": 14,
+        "trajectory": 3,
+        "group": "happo",
+        "cost": 23.98,
+        "backlog": 15.565
+      },
+      "llm": {
+        "seed": 14,
+        "trajectory": 3,
+        "group": "llm_library",
+        "cost": 28.121666666666666,
+        "backlog": 17.8
+      }
+    },
+    {
+      "seed": 14,
+      "trajectory": 19,
+      "delta": [
+        3.294999999999998,
+        4.17
+      ],
+      "happo": {
+        "seed": 14,
+        "trajectory": 19,
+        "group": "happo",
+        "cost": 18.756666666666668,
+        "backlog": 14.92
+      },
+      "llm": {
+        "seed": 14,
+        "trajectory": 19,
+        "group": "llm_library",
+        "cost": 22.051666666666666,
+        "backlog": 19.09
+      }
+    },
+    {
+      "seed": 11,
+      "trajectory": 2,
+      "delta": [
+        3.005000000000001,
+        0.35000000000000053
+      ],
+      "happo": {
+        "seed": 11,
+        "trajectory": 2,
+        "group": "happo",
+        "cost": 14.748333333333333,
+        "backlog": 3.755
+      },
+      "llm": {
+        "seed": 11,
+        "trajectory": 2,
+        "group": "llm_library",
+        "cost": 17.753333333333334,
+        "backlog": 4.105
+      }
+    },
+    {
+      "seed": 15,
+      "trajectory": 10,
+      "delta": [
+        2.8099999999999987,
+        0.5349999999999984
+      ],
+      "happo": {
+        "seed": 15,
+        "trajectory": 10,
+        "group": "happo",
+        "cost": 18.566666666666666,
+        "backlog": 9.005
+      },
+      "llm": {
+        "seed": 15,
+        "trajectory": 10,
+        "group": "llm_library",
+        "cost": 21.376666666666665,
+        "backlog": 9.54
+      }
+    }
+  ],
+  "predicted_selection_examples": [
+    {
+      "seed": 11,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 1197.0,
+          "downstream": 54.333333333333336,
+          "node_backlog": [
+            54.333333333333336,
+            65.33333333333333,
+            151.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 1074.3333333333333,
+          "downstream": 47.666666666666664,
+          "node_backlog": [
+            47.666666666666664,
+            54.0,
+            148.33333333333334
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 1177.3333333333333,
+          "downstream": 54.0,
+          "node_backlog": [
+            54.0,
+            65.33333333333333,
+            150.33333333333334
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 1193.3333333333333,
+          "downstream": 54.0,
+          "node_backlog": [
+            54.0,
+            65.33333333333333,
+            150.66666666666666
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 1277.6666666666667,
+        "downstream": 79.0,
+        "node_backlog": [
+          79.0,
+          111.66666666666667,
+          194.66666666666666
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "library_0",
+        "cost": 1174.3333333333333,
+        "downstream": 83.66666666666667,
+        "node_backlog": [
+          83.66666666666667,
+          95.66666666666667,
+          196.33333333333334
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 11,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 2697.6666666666665,
+          "downstream": 1045.6666666666667,
+          "node_backlog": [
+            1045.6666666666667,
+            876.3333333333334,
+            318.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 2665.3333333333335,
+          "downstream": 1065.6666666666667,
+          "node_backlog": [
+            1065.6666666666667,
+            865.6666666666666,
+            298.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 2709.6666666666665,
+          "downstream": 1045.6666666666667,
+          "node_backlog": [
+            1045.6666666666667,
+            888.3333333333334,
+            318.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 2697.6666666666665,
+          "downstream": 1045.6666666666667,
+          "node_backlog": [
+            1045.6666666666667,
+            876.3333333333334,
+            318.0
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 2118.3333333333335,
+        "downstream": 845.3333333333334,
+        "node_backlog": [
+          845.3333333333334,
+          779.0,
+          298.6666666666667
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 2118.3333333333335,
+        "downstream": 845.3333333333334,
+        "node_backlog": [
+          845.3333333333334,
+          779.0,
+          298.6666666666667
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 11,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 1840.0,
+          "downstream": 881.6666666666666,
+          "node_backlog": [
+            881.6666666666666,
+            543.3333333333334,
+            163.33333333333334
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 1809.3333333333333,
+          "downstream": 897.6666666666666,
+          "node_backlog": [
+            897.6666666666666,
+            517.6666666666666,
+            160.33333333333334
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 1840.0,
+          "downstream": 881.6666666666666,
+          "node_backlog": [
+            881.6666666666666,
+            543.3333333333334,
+            163.33333333333334
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 1840.0,
+          "downstream": 881.6666666666666,
+          "node_backlog": [
+            881.6666666666666,
+            543.3333333333334,
+            163.33333333333334
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 1976.3333333333333,
+        "downstream": 968.6666666666666,
+        "node_backlog": [
+          968.6666666666666,
+          595.6666666666666,
+          173.33333333333334
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 1976.3333333333333,
+        "downstream": 968.6666666666666,
+        "node_backlog": [
+          968.6666666666666,
+          595.6666666666666,
+          173.33333333333334
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 11,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 2540.3333333333335,
+          "downstream": 1720.0,
+          "node_backlog": [
+            1720.0,
+            607.3333333333334,
+            139.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 2519.6666666666665,
+          "downstream": 1752.6666666666667,
+          "node_backlog": [
+            1752.6666666666667,
+            589.0,
+            132.66666666666666
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 2540.3333333333335,
+          "downstream": 1720.0,
+          "node_backlog": [
+            1720.0,
+            607.3333333333334,
+            139.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 2540.3333333333335,
+          "downstream": 1720.0,
+          "node_backlog": [
+            1720.0,
+            607.3333333333334,
+            139.0
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 2701.6666666666665,
+        "downstream": 1888.3333333333333,
+        "node_backlog": [
+          1888.3333333333333,
+          649.6666666666666,
+          142.0
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 2701.6666666666665,
+        "downstream": 1888.3333333333333,
+        "node_backlog": [
+          1888.3333333333333,
+          649.6666666666666,
+          142.0
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 11,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 2601.6666666666665,
+          "downstream": 2077.6666666666665,
+          "node_backlog": [
+            2077.6666666666665,
+            452.0,
+            70.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 2604.6666666666665,
+          "downstream": 2118.6666666666665,
+          "node_backlog": [
+            2118.6666666666665,
+            426.0,
+            60.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 2601.6666666666665,
+          "downstream": 2077.6666666666665,
+          "node_backlog": [
+            2077.6666666666665,
+            452.0,
+            70.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 2601.6666666666665,
+          "downstream": 2077.6666666666665,
+          "node_backlog": [
+            2077.6666666666665,
+            452.0,
+            70.0
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 2328.6666666666665,
+        "downstream": 1719.0,
+        "node_backlog": [
+          1719.0,
+          413.0,
+          64.33333333333333
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 2328.6666666666665,
+        "downstream": 1719.0,
+        "node_backlog": [
+          1719.0,
+          413.0,
+          64.33333333333333
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 11,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 1851.3333333333333,
+          "downstream": 1218.3333333333333,
+          "node_backlog": [
+            1218.3333333333333,
+            269.3333333333333,
+            28.666666666666668
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 1797.0,
+          "downstream": 1249.3333333333333,
+          "node_backlog": [
+            1249.3333333333333,
+            221.33333333333334,
+            23.666666666666668
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 1851.3333333333333,
+          "downstream": 1218.3333333333333,
+          "node_backlog": [
+            1218.3333333333333,
+            269.3333333333333,
+            28.666666666666668
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 1851.3333333333333,
+          "downstream": 1218.3333333333333,
+          "node_backlog": [
+            1218.3333333333333,
+            269.3333333333333,
+            28.666666666666668
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 1669.6666666666667,
+        "downstream": 1187.6666666666667,
+        "node_backlog": [
+          1187.6666666666667,
+          222.33333333333334,
+          30.333333333333332
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 1669.6666666666667,
+        "downstream": 1187.6666666666667,
+        "node_backlog": [
+          1187.6666666666667,
+          222.33333333333334,
+          30.333333333333332
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 11,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 755.0,
+          "downstream": 19.0,
+          "node_backlog": [
+            19.0,
+            13.0,
+            57.666666666666664
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 630.3333333333334,
+          "downstream": 19.666666666666668,
+          "node_backlog": [
+            19.666666666666668,
+            24.0,
+            42.333333333333336
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 757.0,
+          "downstream": 17.333333333333332,
+          "node_backlog": [
+            17.333333333333332,
+            17.0,
+            45.333333333333336
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 700.3333333333334,
+          "downstream": 21.0,
+          "node_backlog": [
+            21.0,
+            30.666666666666668,
+            71.66666666666667
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 973.0,
+        "downstream": 61.0,
+        "node_backlog": [
+          61.0,
+          87.0,
+          109.66666666666667
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 973.0,
+        "downstream": 61.0,
+        "node_backlog": [
+          61.0,
+          87.0,
+          109.66666666666667
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 11,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 673.3333333333334,
+          "downstream": 18.666666666666668,
+          "node_backlog": [
+            18.666666666666668,
+            0.0,
+            10.333333333333334
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 681.0,
+          "downstream": 22.666666666666668,
+          "node_backlog": [
+            22.666666666666668,
+            1.3333333333333333,
+            12.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 741.6666666666666,
+          "downstream": 24.666666666666668,
+          "node_backlog": [
+            24.666666666666668,
+            5.0,
+            71.66666666666667
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 741.6666666666666,
+          "downstream": 24.666666666666668,
+          "node_backlog": [
+            24.666666666666668,
+            5.0,
+            71.66666666666667
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 827.3333333333334,
+        "downstream": 31.0,
+        "node_backlog": [
+          31.0,
+          71.0,
+          90.66666666666667
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 827.3333333333334,
+        "downstream": 31.0,
+        "node_backlog": [
+          31.0,
+          71.0,
+          90.66666666666667
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 11,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 889.3333333333334,
+          "downstream": 83.66666666666667,
+          "node_backlog": [
+            83.66666666666667,
+            230.66666666666666,
+            197.66666666666666
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 913.3333333333334,
+          "downstream": 88.33333333333333,
+          "node_backlog": [
+            88.33333333333333,
+            246.0,
+            190.33333333333334
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 877.3333333333334,
+          "downstream": 87.66666666666667,
+          "node_backlog": [
+            87.66666666666667,
+            222.66666666666666,
+            192.33333333333334
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 877.3333333333334,
+          "downstream": 87.66666666666667,
+          "node_backlog": [
+            87.66666666666667,
+            222.66666666666666,
+            192.33333333333334
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 538.3333333333334,
+        "downstream": 27.666666666666668,
+        "node_backlog": [
+          27.666666666666668,
+          57.0,
+          139.0
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 538.3333333333334,
+        "downstream": 27.666666666666668,
+        "node_backlog": [
+          27.666666666666668,
+          57.0,
+          139.0
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 11,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 775.0,
+          "downstream": 35.666666666666664,
+          "node_backlog": [
+            35.666666666666664,
+            16.666666666666668,
+            40.666666666666664
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 770.6666666666666,
+          "downstream": 41.0,
+          "node_backlog": [
+            41.0,
+            11.0,
+            32.666666666666664
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 834.6666666666666,
+          "downstream": 35.666666666666664,
+          "node_backlog": [
+            35.666666666666664,
+            17.0,
+            49.666666666666664
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 834.6666666666666,
+          "downstream": 35.666666666666664,
+          "node_backlog": [
+            35.666666666666664,
+            17.0,
+            49.666666666666664
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 793.0,
+        "downstream": 35.666666666666664,
+        "node_backlog": [
+          35.666666666666664,
+          21.333333333333332,
+          59.0
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 793.0,
+        "downstream": 35.666666666666664,
+        "node_backlog": [
+          35.666666666666664,
+          21.333333333333332,
+          59.0
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 11,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 1237.0,
+          "downstream": 12.666666666666666,
+          "node_backlog": [
+            12.666666666666666,
+            26.0,
+            101.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 1190.6666666666667,
+          "downstream": 11.0,
+          "node_backlog": [
+            11.0,
+            23.0,
+            83.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 1237.0,
+          "downstream": 12.666666666666666,
+          "node_backlog": [
+            12.666666666666666,
+            26.0,
+            101.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 1237.0,
+          "downstream": 12.666666666666666,
+          "node_backlog": [
+            12.666666666666666,
+            26.0,
+            101.0
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "library_0",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 1229.3333333333333,
+        "downstream": 18.0,
+        "node_backlog": [
+          18.0,
+          26.0,
+          101.0
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "library_0",
+        "cost": 1182.3333333333333,
+        "downstream": 14.0,
+        "node_backlog": [
+          14.0,
+          23.0,
+          83.0
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 11,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 1285.0,
+          "downstream": 13.666666666666666,
+          "node_backlog": [
+            13.666666666666666,
+            0.0,
+            0.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 1294.0,
+          "downstream": 13.666666666666666,
+          "node_backlog": [
+            13.666666666666666,
+            0.0,
+            0.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 1287.6666666666667,
+          "downstream": 13.666666666666666,
+          "node_backlog": [
+            13.666666666666666,
+            0.0,
+            0.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 1287.6666666666667,
+          "downstream": 13.666666666666666,
+          "node_backlog": [
+            13.666666666666666,
+            0.0,
+            0.0
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 1469.6666666666667,
+        "downstream": 21.333333333333332,
+        "node_backlog": [
+          21.333333333333332,
+          0.0,
+          0.0
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 1469.6666666666667,
+        "downstream": 21.333333333333332,
+        "node_backlog": [
+          21.333333333333332,
+          0.0,
+          0.0
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 11,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 2464.0,
+          "downstream": 973.0,
+          "node_backlog": [
+            973.0,
+            835.3333333333334,
+            438.3333333333333
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 2403.0,
+          "downstream": 987.0,
+          "node_backlog": [
+            987.0,
+            790.0,
+            428.3333333333333
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 2469.6666666666665,
+          "downstream": 973.0,
+          "node_backlog": [
+            973.0,
+            835.3333333333334,
+            444.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 2464.0,
+          "downstream": 973.0,
+          "node_backlog": [
+            973.0,
+            835.3333333333334,
+            438.3333333333333
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 2788.0,
+        "downstream": 1279.6666666666667,
+        "node_backlog": [
+          1279.6666666666667,
+          961.3333333333334,
+          478.3333333333333
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 2788.0,
+        "downstream": 1279.6666666666667,
+        "node_backlog": [
+          1279.6666666666667,
+          961.3333333333334,
+          478.3333333333333
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 11,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 2989.6666666666665,
+          "downstream": 1556.0,
+          "node_backlog": [
+            1556.0,
+            920.6666666666666,
+            346.6666666666667
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 2988.0,
+          "downstream": 1579.3333333333333,
+          "node_backlog": [
+            1579.3333333333333,
+            935.0,
+            334.6666666666667
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 3003.0,
+          "downstream": 1556.0,
+          "node_backlog": [
+            1556.0,
+            936.0,
+            346.6666666666667
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 2989.6666666666665,
+          "downstream": 1556.0,
+          "node_backlog": [
+            1556.0,
+            920.6666666666666,
+            346.6666666666667
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 3517.3333333333335,
+        "downstream": 2091.3333333333335,
+        "node_backlog": [
+          2091.3333333333335,
+          1050.0,
+          376.0
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 3517.3333333333335,
+        "downstream": 2091.3333333333335,
+        "node_backlog": [
+          2091.3333333333335,
+          1050.0,
+          376.0
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 11,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 3302.6666666666665,
+          "downstream": 2226.0,
+          "node_backlog": [
+            2226.0,
+            744.6666666666666,
+            214.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 3284.6666666666665,
+          "downstream": 2259.3333333333335,
+          "node_backlog": [
+            2259.3333333333335,
+            724.0,
+            205.66666666666666
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 3302.6666666666665,
+          "downstream": 2226.0,
+          "node_backlog": [
+            2226.0,
+            744.6666666666666,
+            214.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 3302.6666666666665,
+          "downstream": 2226.0,
+          "node_backlog": [
+            2226.0,
+            744.6666666666666,
+            214.0
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 3502.6666666666665,
+        "downstream": 2494.6666666666665,
+        "node_backlog": [
+          2494.6666666666665,
+          790.0,
+          217.0
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 3502.6666666666665,
+        "downstream": 2494.6666666666665,
+        "node_backlog": [
+          2494.6666666666665,
+          790.0,
+          217.0
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 12,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 1095.3333333333333,
+          "downstream": 104.33333333333333,
+          "node_backlog": [
+            104.33333333333333,
+            24.333333333333332,
+            59.333333333333336
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 920.3333333333334,
+          "downstream": 126.66666666666667,
+          "node_backlog": [
+            126.66666666666667,
+            20.333333333333332,
+            49.333333333333336
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 972.6666666666666,
+          "downstream": 108.0,
+          "node_backlog": [
+            108.0,
+            20.333333333333332,
+            31.666666666666668
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 1103.0,
+          "downstream": 108.33333333333333,
+          "node_backlog": [
+            108.33333333333333,
+            32.333333333333336,
+            56.666666666666664
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 1103.3333333333333,
+        "downstream": 119.0,
+        "node_backlog": [
+          119.0,
+          11.0,
+          34.333333333333336
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 1103.3333333333333,
+        "downstream": 119.0,
+        "node_backlog": [
+          119.0,
+          11.0,
+          34.333333333333336
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 12,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 2040.3333333333333,
+          "downstream": 1075.6666666666667,
+          "node_backlog": [
+            1075.6666666666667,
+            589.3333333333334,
+            45.333333333333336
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 2180.0,
+          "downstream": 1137.0,
+          "node_backlog": [
+            1137.0,
+            619.6666666666666,
+            104.33333333333333
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 2056.6666666666665,
+          "downstream": 1076.0,
+          "node_backlog": [
+            1076.0,
+            591.0,
+            49.333333333333336
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 2064.0,
+          "downstream": 1081.6666666666667,
+          "node_backlog": [
+            1081.6666666666667,
+            600.6666666666666,
+            60.0
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 1745.0,
+        "downstream": 887.6666666666666,
+        "node_backlog": [
+          887.6666666666666,
+          652.3333333333334,
+          55.666666666666664
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 1745.0,
+        "downstream": 887.6666666666666,
+        "node_backlog": [
+          887.6666666666666,
+          652.3333333333334,
+          55.666666666666664
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 12,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 1886.6666666666667,
+          "downstream": 950.6666666666666,
+          "node_backlog": [
+            950.6666666666666,
+            747.0,
+            55.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 1946.0,
+          "downstream": 999.3333333333334,
+          "node_backlog": [
+            999.3333333333334,
+            761.0,
+            68.66666666666667
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 1979.3333333333333,
+          "downstream": 972.0,
+          "node_backlog": [
+            972.0,
+            769.0,
+            109.33333333333333
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 1924.3333333333333,
+          "downstream": 958.0,
+          "node_backlog": [
+            958.0,
+            738.3333333333334,
+            77.0
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 2153.3333333333335,
+        "downstream": 1043.3333333333333,
+        "node_backlog": [
+          1043.3333333333333,
+          829.6666666666666,
+          59.333333333333336
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 2153.3333333333335,
+        "downstream": 1043.3333333333333,
+        "node_backlog": [
+          1043.3333333333333,
+          829.6666666666666,
+          59.333333333333336
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 12,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 1583.0,
+          "downstream": 1186.3333333333333,
+          "node_backlog": [
+            1186.3333333333333,
+            258.0,
+            37.666666666666664
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 1585.3333333333333,
+          "downstream": 1225.0,
+          "node_backlog": [
+            1225.0,
+            233.33333333333334,
+            30.666666666666668
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 1613.3333333333333,
+          "downstream": 1197.6666666666667,
+          "node_backlog": [
+            1197.6666666666667,
+            268.6666666666667,
+            44.666666666666664
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 1594.6666666666667,
+          "downstream": 1191.6666666666667,
+          "node_backlog": [
+            1191.6666666666667,
+            262.6666666666667,
+            41.0
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 1744.3333333333333,
+        "downstream": 1352.0,
+        "node_backlog": [
+          1352.0,
+          272.6666666666667,
+          37.666666666666664
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 1744.3333333333333,
+        "downstream": 1352.0,
+        "node_backlog": [
+          1352.0,
+          272.6666666666667,
+          37.666666666666664
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 12,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 1975.6666666666667,
+          "downstream": 1604.6666666666667,
+          "node_backlog": [
+            1604.6666666666667,
+            328.0,
+            26.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 2028.6666666666667,
+          "downstream": 1665.6666666666667,
+          "node_backlog": [
+            1665.6666666666667,
+            306.0,
+            25.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 1975.6666666666667,
+          "downstream": 1604.6666666666667,
+          "node_backlog": [
+            1604.6666666666667,
+            328.0,
+            26.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 1975.6666666666667,
+          "downstream": 1604.6666666666667,
+          "node_backlog": [
+            1604.6666666666667,
+            328.0,
+            26.0
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 1724.3333333333333,
+        "downstream": 1267.3333333333333,
+        "node_backlog": [
+          1267.3333333333333,
+          291.0,
+          20.666666666666668
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 1724.3333333333333,
+        "downstream": 1267.3333333333333,
+        "node_backlog": [
+          1267.3333333333333,
+          291.0,
+          20.666666666666668
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 12,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 1663.3333333333333,
+          "downstream": 852.6666666666666,
+          "node_backlog": [
+            852.6666666666666,
+            255.33333333333334,
+            11.333333333333334
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 1718.6666666666667,
+          "downstream": 900.3333333333334,
+          "node_backlog": [
+            900.3333333333334,
+            256.0,
+            38.666666666666664
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 1607.3333333333333,
+          "downstream": 844.0,
+          "node_backlog": [
+            844.0,
+            246.0,
+            2.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 1630.0,
+          "downstream": 853.0,
+          "node_backlog": [
+            853.0,
+            261.0,
+            24.666666666666668
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "library_1",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 1454.0,
+        "downstream": 791.3333333333334,
+        "node_backlog": [
+          791.3333333333334,
+          303.0,
+          12.333333333333334
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "library_1",
+        "cost": 1419.3333333333333,
+        "downstream": 784.3333333333334,
+        "node_backlog": [
+          784.3333333333334,
+          293.0,
+          7.333333333333333
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 12,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 381.0,
+          "downstream": 25.333333333333332,
+          "node_backlog": [
+            25.333333333333332,
+            10.333333333333334,
+            19.333333333333332
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 445.0,
+          "downstream": 50.666666666666664,
+          "node_backlog": [
+            50.666666666666664,
+            48.666666666666664,
+            35.666666666666664
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 494.3333333333333,
+          "downstream": 39.333333333333336,
+          "node_backlog": [
+            39.333333333333336,
+            49.666666666666664,
+            24.666666666666668
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 380.6666666666667,
+          "downstream": 46.666666666666664,
+          "node_backlog": [
+            46.666666666666664,
+            18.333333333333332,
+            16.333333333333332
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 534.0,
+        "downstream": 45.333333333333336,
+        "node_backlog": [
+          45.333333333333336,
+          40.0,
+          33.666666666666664
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 534.0,
+        "downstream": 45.333333333333336,
+        "node_backlog": [
+          45.333333333333336,
+          40.0,
+          33.666666666666664
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 12,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 449.3333333333333,
+          "downstream": 35.666666666666664,
+          "node_backlog": [
+            35.666666666666664,
+            2.3333333333333335,
+            6.666666666666667
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 586.6666666666666,
+          "downstream": 56.666666666666664,
+          "node_backlog": [
+            56.666666666666664,
+            81.66666666666667,
+            31.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 491.0,
+          "downstream": 44.666666666666664,
+          "node_backlog": [
+            44.666666666666664,
+            9.0,
+            12.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 610.0,
+          "downstream": 64.33333333333333,
+          "node_backlog": [
+            64.33333333333333,
+            88.33333333333333,
+            32.666666666666664
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 505.3333333333333,
+        "downstream": 29.666666666666668,
+        "node_backlog": [
+          29.666666666666668,
+          28.333333333333332,
+          19.333333333333332
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 505.3333333333333,
+        "downstream": 29.666666666666668,
+        "node_backlog": [
+          29.666666666666668,
+          28.333333333333332,
+          19.333333333333332
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 12,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 473.3333333333333,
+          "downstream": 109.33333333333333,
+          "node_backlog": [
+            109.33333333333333,
+            76.66666666666667,
+            64.33333333333333
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 506.6666666666667,
+          "downstream": 126.33333333333333,
+          "node_backlog": [
+            126.33333333333333,
+            127.0,
+            64.66666666666667
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 501.3333333333333,
+          "downstream": 112.66666666666667,
+          "node_backlog": [
+            112.66666666666667,
+            98.66666666666667,
+            56.333333333333336
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 501.3333333333333,
+          "downstream": 112.66666666666667,
+          "node_backlog": [
+            112.66666666666667,
+            98.66666666666667,
+            56.333333333333336
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 412.6666666666667,
+        "downstream": 62.666666666666664,
+        "node_backlog": [
+          62.666666666666664,
+          1.3333333333333333,
+          7.333333333333333
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 412.6666666666667,
+        "downstream": 62.666666666666664,
+        "node_backlog": [
+          62.666666666666664,
+          1.3333333333333333,
+          7.333333333333333
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 12,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 475.0,
+          "downstream": 28.666666666666668,
+          "node_backlog": [
+            28.666666666666668,
+            12.0,
+            0.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 599.0,
+          "downstream": 57.0,
+          "node_backlog": [
+            57.0,
+            73.33333333333333,
+            31.333333333333332
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 542.3333333333334,
+          "downstream": 52.333333333333336,
+          "node_backlog": [
+            52.333333333333336,
+            42.666666666666664,
+            2.6666666666666665
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 549.0,
+          "downstream": 56.0,
+          "node_backlog": [
+            56.0,
+            42.333333333333336,
+            2.6666666666666665
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 637.3333333333334,
+        "downstream": 49.666666666666664,
+        "node_backlog": [
+          49.666666666666664,
+          97.0,
+          35.333333333333336
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 637.3333333333334,
+        "downstream": 49.666666666666664,
+        "node_backlog": [
+          49.666666666666664,
+          97.0,
+          35.333333333333336
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 12,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 535.0,
+          "downstream": 74.66666666666667,
+          "node_backlog": [
+            74.66666666666667,
+            27.666666666666668,
+            8.666666666666666
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 619.6666666666666,
+          "downstream": 128.0,
+          "node_backlog": [
+            128.0,
+            110.33333333333333,
+            30.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 535.0,
+          "downstream": 74.66666666666667,
+          "node_backlog": [
+            74.66666666666667,
+            27.666666666666668,
+            8.666666666666666
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 535.0,
+          "downstream": 74.66666666666667,
+          "node_backlog": [
+            74.66666666666667,
+            27.666666666666668,
+            8.666666666666666
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 491.0,
+        "downstream": 91.33333333333333,
+        "node_backlog": [
+          91.33333333333333,
+          40.0,
+          13.333333333333334
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 491.0,
+        "downstream": 91.33333333333333,
+        "node_backlog": [
+          91.33333333333333,
+          40.0,
+          13.333333333333334
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 12,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 477.0,
+          "downstream": 70.0,
+          "node_backlog": [
+            70.0,
+            22.333333333333332,
+            15.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 501.0,
+          "downstream": 75.33333333333333,
+          "node_backlog": [
+            75.33333333333333,
+            22.333333333333332,
+            12.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 483.3333333333333,
+          "downstream": 72.0,
+          "node_backlog": [
+            72.0,
+            34.333333333333336,
+            9.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 447.6666666666667,
+          "downstream": 72.33333333333333,
+          "node_backlog": [
+            72.33333333333333,
+            24.0,
+            9.0
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 517.3333333333334,
+        "downstream": 55.666666666666664,
+        "node_backlog": [
+          55.666666666666664,
+          8.666666666666666,
+          5.333333333333333
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 517.3333333333334,
+        "downstream": 55.666666666666664,
+        "node_backlog": [
+          55.666666666666664,
+          8.666666666666666,
+          5.333333333333333
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 12,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 1337.0,
+          "downstream": 880.6666666666666,
+          "node_backlog": [
+            880.6666666666666,
+            115.66666666666667,
+            35.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 1400.3333333333333,
+          "downstream": 926.6666666666666,
+          "node_backlog": [
+            926.6666666666666,
+            176.66666666666666,
+            48.666666666666664
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 1338.6666666666667,
+          "downstream": 882.6666666666666,
+          "node_backlog": [
+            882.6666666666666,
+            122.0,
+            45.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 1320.0,
+          "downstream": 878.6666666666666,
+          "node_backlog": [
+            878.6666666666666,
+            113.66666666666667,
+            36.666666666666664
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 1640.6666666666667,
+        "downstream": 1149.3333333333333,
+        "node_backlog": [
+          1149.3333333333333,
+          240.33333333333334,
+          77.33333333333333
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "library_2",
+        "cost": 1631.3333333333333,
+        "downstream": 1147.0,
+        "node_backlog": [
+          1147.0,
+          240.33333333333334,
+          85.0
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 12,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 1935.6666666666667,
+          "downstream": 1462.3333333333333,
+          "node_backlog": [
+            1462.3333333333333,
+            237.33333333333334,
+            51.333333333333336
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 1963.0,
+          "downstream": 1508.6666666666667,
+          "node_backlog": [
+            1508.6666666666667,
+            224.33333333333334,
+            50.666666666666664
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 2006.6666666666667,
+          "downstream": 1499.0,
+          "node_backlog": [
+            1499.0,
+            299.6666666666667,
+            52.666666666666664
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 2027.3333333333333,
+          "downstream": 1493.6666666666667,
+          "node_backlog": [
+            1493.6666666666667,
+            295.3333333333333,
+            77.0
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 2367.3333333333335,
+        "downstream": 1999.3333333333333,
+        "node_backlog": [
+          1999.3333333333333,
+          265.0,
+          65.0
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 2367.3333333333335,
+        "downstream": 1999.3333333333333,
+        "node_backlog": [
+          1999.3333333333333,
+          265.0,
+          65.0
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 12,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 2644.6666666666665,
+          "downstream": 2166.6666666666665,
+          "node_backlog": [
+            2166.6666666666665,
+            296.6666666666667,
+            59.666666666666664
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 2692.3333333333335,
+          "downstream": 2231.3333333333335,
+          "node_backlog": [
+            2231.3333333333335,
+            338.0,
+            55.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 2644.6666666666665,
+          "downstream": 2166.6666666666665,
+          "node_backlog": [
+            2166.6666666666665,
+            296.6666666666667,
+            59.666666666666664
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 2644.6666666666665,
+          "downstream": 2166.6666666666665,
+          "node_backlog": [
+            2166.6666666666665,
+            296.6666666666667,
+            59.666666666666664
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 2827.6666666666665,
+        "downstream": 2438.6666666666665,
+        "node_backlog": [
+          2438.6666666666665,
+          313.0,
+          60.0
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 2827.6666666666665,
+        "downstream": 2438.6666666666665,
+        "node_backlog": [
+          2438.6666666666665,
+          313.0,
+          60.0
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 13,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 1033.3333333333333,
+          "downstream": 21.666666666666668,
+          "node_backlog": [
+            21.666666666666668,
+            26.666666666666668,
+            106.66666666666667
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 934.3333333333334,
+          "downstream": 41.666666666666664,
+          "node_backlog": [
+            41.666666666666664,
+            68.0,
+            93.66666666666667
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 912.0,
+          "downstream": 46.666666666666664,
+          "node_backlog": [
+            46.666666666666664,
+            59.333333333333336,
+            95.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 951.6666666666666,
+          "downstream": 7.333333333333333,
+          "node_backlog": [
+            7.333333333333333,
+            33.666666666666664,
+            75.66666666666667
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "library_2",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 1079.3333333333333,
+        "downstream": 26.0,
+        "node_backlog": [
+          26.0,
+          53.333333333333336,
+          98.33333333333333
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "library_2",
+        "cost": 977.6666666666666,
+        "downstream": 25.333333333333332,
+        "node_backlog": [
+          25.333333333333332,
+          23.333333333333332,
+          44.666666666666664
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 13,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 2093.0,
+          "downstream": 1062.6666666666667,
+          "node_backlog": [
+            1062.6666666666667,
+            527.3333333333334,
+            209.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 2096.3333333333335,
+          "downstream": 1095.3333333333333,
+          "node_backlog": [
+            1095.3333333333333,
+            523.6666666666666,
+            192.66666666666666
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 2093.0,
+          "downstream": 1062.6666666666667,
+          "node_backlog": [
+            1062.6666666666667,
+            527.3333333333334,
+            209.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 2093.0,
+          "downstream": 1062.6666666666667,
+          "node_backlog": [
+            1062.6666666666667,
+            527.3333333333334,
+            209.0
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 1687.3333333333333,
+        "downstream": 837.6666666666666,
+        "node_backlog": [
+          837.6666666666666,
+          599.6666666666666,
+          227.33333333333334
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 1687.3333333333333,
+        "downstream": 837.6666666666666,
+        "node_backlog": [
+          837.6666666666666,
+          599.6666666666666,
+          227.33333333333334
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 13,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 1953.6666666666667,
+          "downstream": 1100.0,
+          "node_backlog": [
+            1100.0,
+            560.0,
+            121.33333333333333
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 1946.0,
+          "downstream": 1122.6666666666667,
+          "node_backlog": [
+            1122.6666666666667,
+            535.0,
+            98.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 1981.6666666666667,
+          "downstream": 1109.0,
+          "node_backlog": [
+            1109.0,
+            582.0,
+            144.33333333333334
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 1970.3333333333333,
+          "downstream": 1100.0,
+          "node_backlog": [
+            1100.0,
+            564.0,
+            125.0
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 2077.6666666666665,
+        "downstream": 1216.3333333333333,
+        "node_backlog": [
+          1216.3333333333333,
+          583.0,
+          122.0
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 2077.6666666666665,
+        "downstream": 1216.3333333333333,
+        "node_backlog": [
+          1216.3333333333333,
+          583.0,
+          122.0
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 13,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 2187.6666666666665,
+          "downstream": 1638.6666666666667,
+          "node_backlog": [
+            1638.6666666666667,
+            410.0,
+            9.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 2164.6666666666665,
+          "downstream": 1689.6666666666667,
+          "node_backlog": [
+            1689.6666666666667,
+            398.0,
+            26.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 2163.6666666666665,
+          "downstream": 1638.6666666666667,
+          "node_backlog": [
+            1638.6666666666667,
+            410.0,
+            9.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 2175.6666666666665,
+          "downstream": 1638.6666666666667,
+          "node_backlog": [
+            1638.6666666666667,
+            410.0,
+            9.0
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "library_1",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 2371.3333333333335,
+        "downstream": 1822.3333333333333,
+        "node_backlog": [
+          1822.3333333333333,
+          410.0,
+          9.0
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "library_1",
+        "cost": 2347.3333333333335,
+        "downstream": 1822.3333333333333,
+        "node_backlog": [
+          1822.3333333333333,
+          410.0,
+          9.0
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 13,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 2632.6666666666665,
+          "downstream": 2150.6666666666665,
+          "node_backlog": [
+            2150.6666666666665,
+            365.0,
+            3.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 2690.6666666666665,
+          "downstream": 2200.6666666666665,
+          "node_backlog": [
+            2200.6666666666665,
+            344.0,
+            1.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 2673.6666666666665,
+          "downstream": 2167.6666666666665,
+          "node_backlog": [
+            2167.6666666666665,
+            381.0,
+            17.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 2630.6666666666665,
+          "downstream": 2159.6666666666665,
+          "node_backlog": [
+            2159.6666666666665,
+            381.0,
+            20.0
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 2244.3333333333335,
+        "downstream": 1762.3333333333333,
+        "node_backlog": [
+          1762.3333333333333,
+          365.0,
+          3.0
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 2244.3333333333335,
+        "downstream": 1762.3333333333333,
+        "node_backlog": [
+          1762.3333333333333,
+          365.0,
+          3.0
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 13,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 2119.0,
+          "downstream": 1399.0,
+          "node_backlog": [
+            1399.0,
+            303.0,
+            4.333333333333333
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 2141.3333333333335,
+          "downstream": 1441.0,
+          "node_backlog": [
+            1441.0,
+            300.0,
+            16.333333333333332
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 2184.0,
+          "downstream": 1410.3333333333333,
+          "node_backlog": [
+            1410.3333333333333,
+            315.0,
+            18.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 2143.3333333333335,
+          "downstream": 1407.0,
+          "node_backlog": [
+            1407.0,
+            310.6666666666667,
+            13.0
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 1861.3333333333333,
+        "downstream": 1345.6666666666667,
+        "node_backlog": [
+          1345.6666666666667,
+          316.0,
+          4.333333333333333
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 1861.3333333333333,
+        "downstream": 1345.6666666666667,
+        "node_backlog": [
+          1345.6666666666667,
+          316.0,
+          4.333333333333333
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 13,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 704.3333333333334,
+          "downstream": 11.333333333333334,
+          "node_backlog": [
+            11.333333333333334,
+            95.33333333333333,
+            88.33333333333333
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 712.0,
+          "downstream": 7.666666666666667,
+          "node_backlog": [
+            7.666666666666667,
+            58.0,
+            65.33333333333333
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 701.3333333333334,
+          "downstream": 9.0,
+          "node_backlog": [
+            9.0,
+            80.33333333333333,
+            102.66666666666667
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 707.6666666666666,
+          "downstream": 13.333333333333334,
+          "node_backlog": [
+            13.333333333333334,
+            95.0,
+            101.66666666666667
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 649.3333333333334,
+        "downstream": 10.333333333333334,
+        "node_backlog": [
+          10.333333333333334,
+          24.0,
+          45.333333333333336
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 649.3333333333334,
+        "downstream": 10.333333333333334,
+        "node_backlog": [
+          10.333333333333334,
+          24.0,
+          45.333333333333336
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 13,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 567.6666666666666,
+          "downstream": 0.0,
+          "node_backlog": [
+            0.0,
+            10.0,
+            3.6666666666666665
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 552.3333333333334,
+          "downstream": 0.0,
+          "node_backlog": [
+            0.0,
+            13.666666666666666,
+            7.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 536.0,
+          "downstream": 0.3333333333333333,
+          "node_backlog": [
+            0.3333333333333333,
+            13.0,
+            14.333333333333334
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 578.0,
+          "downstream": 0.0,
+          "node_backlog": [
+            0.0,
+            5.0,
+            0.6666666666666666
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 680.0,
+        "downstream": 1.6666666666666667,
+        "node_backlog": [
+          1.6666666666666667,
+          46.666666666666664,
+          83.0
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "library_0",
+        "cost": 655.6666666666666,
+        "downstream": 2.0,
+        "node_backlog": [
+          2.0,
+          42.0,
+          78.0
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 13,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 629.6666666666666,
+          "downstream": 32.0,
+          "node_backlog": [
+            32.0,
+            65.0,
+            108.33333333333333
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 705.0,
+          "downstream": 32.333333333333336,
+          "node_backlog": [
+            32.333333333333336,
+            71.0,
+            164.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 734.3333333333334,
+          "downstream": 34.333333333333336,
+          "node_backlog": [
+            34.333333333333336,
+            68.33333333333333,
+            149.66666666666666
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 723.3333333333334,
+          "downstream": 34.333333333333336,
+          "node_backlog": [
+            34.333333333333336,
+            75.0,
+            149.66666666666666
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 584.0,
+        "downstream": 0.0,
+        "node_backlog": [
+          0.0,
+          1.3333333333333333,
+          25.0
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 584.0,
+        "downstream": 0.0,
+        "node_backlog": [
+          0.0,
+          1.3333333333333333,
+          25.0
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 13,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 572.3333333333334,
+          "downstream": 0.6666666666666666,
+          "node_backlog": [
+            0.6666666666666666,
+            51.666666666666664,
+            55.333333333333336
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 574.6666666666666,
+          "downstream": 0.6666666666666666,
+          "node_backlog": [
+            0.6666666666666666,
+            52.666666666666664,
+            55.333333333333336
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 575.0,
+          "downstream": 0.6666666666666666,
+          "node_backlog": [
+            0.6666666666666666,
+            50.666666666666664,
+            55.333333333333336
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 579.0,
+          "downstream": 0.6666666666666666,
+          "node_backlog": [
+            0.6666666666666666,
+            47.666666666666664,
+            55.333333333333336
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 542.0,
+        "downstream": 2.6666666666666665,
+        "node_backlog": [
+          2.6666666666666665,
+          16.0,
+          12.333333333333334
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 542.0,
+        "downstream": 2.6666666666666665,
+        "node_backlog": [
+          2.6666666666666665,
+          16.0,
+          12.333333333333334
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 13,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 497.6666666666667,
+          "downstream": 4.333333333333333,
+          "node_backlog": [
+            4.333333333333333,
+            27.666666666666668,
+            14.333333333333334
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 475.0,
+          "downstream": 5.666666666666667,
+          "node_backlog": [
+            5.666666666666667,
+            47.0,
+            34.666666666666664
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 460.6666666666667,
+          "downstream": 4.666666666666667,
+          "node_backlog": [
+            4.666666666666667,
+            39.666666666666664,
+            21.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 463.6666666666667,
+          "downstream": 4.666666666666667,
+          "node_backlog": [
+            4.666666666666667,
+            23.333333333333332,
+            10.666666666666666
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 490.3333333333333,
+        "downstream": 0.0,
+        "node_backlog": [
+          0.0,
+          36.666666666666664,
+          10.666666666666666
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 490.3333333333333,
+        "downstream": 0.0,
+        "node_backlog": [
+          0.0,
+          36.666666666666664,
+          10.666666666666666
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 13,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 635.3333333333334,
+          "downstream": 0.3333333333333333,
+          "node_backlog": [
+            0.3333333333333333,
+            73.33333333333333,
+            73.66666666666667
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 569.6666666666666,
+          "downstream": 1.6666666666666667,
+          "node_backlog": [
+            1.6666666666666667,
+            81.66666666666667,
+            74.33333333333333
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 554.3333333333334,
+          "downstream": 0.3333333333333333,
+          "node_backlog": [
+            0.3333333333333333,
+            34.333333333333336,
+            32.333333333333336
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 505.3333333333333,
+          "downstream": 0.3333333333333333,
+          "node_backlog": [
+            0.3333333333333333,
+            25.333333333333332,
+            31.0
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 571.3333333333334,
+        "downstream": 0.0,
+        "node_backlog": [
+          0.0,
+          15.333333333333334,
+          6.0
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "library_2",
+        "cost": 630.3333333333334,
+        "downstream": 0.0,
+        "node_backlog": [
+          0.0,
+          15.0,
+          17.333333333333332
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 13,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 1720.3333333333333,
+          "downstream": 636.3333333333334,
+          "node_backlog": [
+            636.3333333333334,
+            493.0,
+            5.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 1644.0,
+          "downstream": 656.6666666666666,
+          "node_backlog": [
+            656.6666666666666,
+            477.0,
+            19.333333333333332
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 1676.0,
+          "downstream": 636.6666666666666,
+          "node_backlog": [
+            636.6666666666666,
+            494.0,
+            7.333333333333333
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 1696.0,
+          "downstream": 636.3333333333334,
+          "node_backlog": [
+            636.3333333333334,
+            493.0,
+            5.333333333333333
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "library_2",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 1724.6666666666667,
+        "downstream": 833.0,
+        "node_backlog": [
+          833.0,
+          600.3333333333334,
+          5.0
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "library_2",
+        "cost": 1701.0,
+        "downstream": 833.0,
+        "node_backlog": [
+          833.0,
+          600.3333333333334,
+          5.666666666666667
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 13,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 1801.3333333333333,
+          "downstream": 974.3333333333334,
+          "node_backlog": [
+            974.3333333333334,
+            525.3333333333334,
+            2.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 1831.0,
+          "downstream": 1011.3333333333334,
+          "node_backlog": [
+            1011.3333333333334,
+            516.6666666666666,
+            5.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 1868.0,
+          "downstream": 983.0,
+          "node_backlog": [
+            983.0,
+            544.6666666666666,
+            13.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 1809.0,
+          "downstream": 980.3333333333334,
+          "node_backlog": [
+            980.3333333333334,
+            536.0,
+            15.0
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 2191.3333333333335,
+        "downstream": 1458.3333333333333,
+        "node_backlog": [
+          1458.3333333333333,
+          622.0,
+          3.0
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 2191.3333333333335,
+        "downstream": 1458.3333333333333,
+        "node_backlog": [
+          1458.3333333333333,
+          622.0,
+          3.0
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 13,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 2383.3333333333335,
+          "downstream": 1638.3333333333333,
+          "node_backlog": [
+            1638.3333333333333,
+            576.3333333333334,
+            5.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 2415.6666666666665,
+          "downstream": 1683.0,
+          "node_backlog": [
+            1683.0,
+            556.6666666666666,
+            5.666666666666667
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 2455.3333333333335,
+          "downstream": 1648.6666666666667,
+          "node_backlog": [
+            1648.6666666666667,
+            586.0,
+            12.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 2403.6666666666665,
+          "downstream": 1645.6666666666667,
+          "node_backlog": [
+            1645.6666666666667,
+            593.0,
+            23.0
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 2611.6666666666665,
+        "downstream": 1901.6666666666667,
+        "node_backlog": [
+          1901.6666666666667,
+          623.0,
+          6.0
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 2611.6666666666665,
+        "downstream": 1901.6666666666667,
+        "node_backlog": [
+          1901.6666666666667,
+          623.0,
+          6.0
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 14,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 1040.6666666666667,
+          "downstream": 61.666666666666664,
+          "node_backlog": [
+            61.666666666666664,
+            52.333333333333336,
+            168.66666666666666
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 1004.0,
+          "downstream": 68.0,
+          "node_backlog": [
+            68.0,
+            31.666666666666668,
+            167.66666666666666
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 1003.6666666666666,
+          "downstream": 58.0,
+          "node_backlog": [
+            58.0,
+            44.333333333333336,
+            131.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 1005.3333333333334,
+          "downstream": 56.666666666666664,
+          "node_backlog": [
+            56.666666666666664,
+            47.0,
+            147.66666666666666
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "library_1",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 1108.6666666666667,
+        "downstream": 119.66666666666667,
+        "node_backlog": [
+          119.66666666666667,
+          43.333333333333336,
+          111.0
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "library_1",
+        "cost": 1092.0,
+        "downstream": 119.66666666666667,
+        "node_backlog": [
+          119.66666666666667,
+          43.333333333333336,
+          101.0
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 14,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 1770.6666666666667,
+          "downstream": 1193.6666666666667,
+          "node_backlog": [
+            1193.6666666666667,
+            207.66666666666666,
+            145.66666666666666
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 2108.0,
+          "downstream": 1285.6666666666667,
+          "node_backlog": [
+            1285.6666666666667,
+            307.3333333333333,
+            250.66666666666666
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 1770.6666666666667,
+          "downstream": 1193.6666666666667,
+          "node_backlog": [
+            1193.6666666666667,
+            207.66666666666666,
+            145.66666666666666
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 1770.6666666666667,
+          "downstream": 1193.6666666666667,
+          "node_backlog": [
+            1193.6666666666667,
+            207.66666666666666,
+            145.66666666666666
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 1534.3333333333333,
+        "downstream": 1085.3333333333333,
+        "node_backlog": [
+          1085.3333333333333,
+          161.66666666666666,
+          179.33333333333334
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 1534.3333333333333,
+        "downstream": 1085.3333333333333,
+        "node_backlog": [
+          1085.3333333333333,
+          161.66666666666666,
+          179.33333333333334
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 14,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 1594.3333333333333,
+          "downstream": 1188.3333333333333,
+          "node_backlog": [
+            1188.3333333333333,
+            120.0,
+            121.33333333333333
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 1565.3333333333333,
+          "downstream": 1181.6666666666667,
+          "node_backlog": [
+            1181.6666666666667,
+            130.66666666666666,
+            143.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 1580.0,
+          "downstream": 1188.6666666666667,
+          "node_backlog": [
+            1188.6666666666667,
+            120.33333333333333,
+            139.33333333333334
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 1580.6666666666667,
+          "downstream": 1188.3333333333333,
+          "node_backlog": [
+            1188.3333333333333,
+            120.0,
+            134.33333333333334
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 1686.0,
+        "downstream": 1269.0,
+        "node_backlog": [
+          1269.0,
+          164.33333333333334,
+          124.66666666666667
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "library_0",
+        "cost": 1842.3333333333333,
+        "downstream": 1341.3333333333333,
+        "node_backlog": [
+          1341.3333333333333,
+          219.33333333333334,
+          151.0
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 14,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 1797.3333333333333,
+          "downstream": 1373.6666666666667,
+          "node_backlog": [
+            1373.6666666666667,
+            202.66666666666666,
+            164.66666666666666
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 1749.6666666666667,
+          "downstream": 1402.6666666666667,
+          "node_backlog": [
+            1402.6666666666667,
+            170.0,
+            122.66666666666667
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 1806.0,
+          "downstream": 1373.6666666666667,
+          "node_backlog": [
+            1373.6666666666667,
+            202.66666666666666,
+            163.33333333333334
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 1795.6666666666667,
+          "downstream": 1373.6666666666667,
+          "node_backlog": [
+            1373.6666666666667,
+            202.66666666666666,
+            163.0
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 2072.0,
+        "downstream": 1524.3333333333333,
+        "node_backlog": [
+          1524.3333333333333,
+          272.0,
+          189.66666666666666
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 2072.0,
+        "downstream": 1524.3333333333333,
+        "node_backlog": [
+          1524.3333333333333,
+          272.0,
+          189.66666666666666
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 14,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 2265.6666666666665,
+          "downstream": 1804.6666666666667,
+          "node_backlog": [
+            1804.6666666666667,
+            318.0,
+            117.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 2239.6666666666665,
+          "downstream": 1838.6666666666667,
+          "node_backlog": [
+            1838.6666666666667,
+            283.0,
+            102.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 2265.6666666666665,
+          "downstream": 1804.6666666666667,
+          "node_backlog": [
+            1804.6666666666667,
+            318.0,
+            117.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 2265.6666666666665,
+          "downstream": 1804.6666666666667,
+          "node_backlog": [
+            1804.6666666666667,
+            318.0,
+            117.0
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 2034.0,
+        "downstream": 1493.0,
+        "node_backlog": [
+          1493.0,
+          263.0,
+          117.0
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 2034.0,
+        "downstream": 1493.0,
+        "node_backlog": [
+          1493.0,
+          263.0,
+          117.0
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 14,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 1716.0,
+          "downstream": 1141.6666666666667,
+          "node_backlog": [
+            1141.6666666666667,
+            118.66666666666667,
+            57.333333333333336
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 1804.0,
+          "downstream": 1180.0,
+          "node_backlog": [
+            1180.0,
+            148.66666666666666,
+            74.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 1764.0,
+          "downstream": 1143.6666666666667,
+          "node_backlog": [
+            1143.6666666666667,
+            135.66666666666666,
+            80.66666666666667
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 1718.0,
+          "downstream": 1142.6666666666667,
+          "node_backlog": [
+            1142.6666666666667,
+            120.33333333333333,
+            45.666666666666664
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 1461.3333333333333,
+        "downstream": 1035.0,
+        "node_backlog": [
+          1035.0,
+          123.33333333333333,
+          44.0
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 1461.3333333333333,
+        "downstream": 1035.0,
+        "node_backlog": [
+          1035.0,
+          123.33333333333333,
+          44.0
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 14,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 422.6666666666667,
+          "downstream": 23.0,
+          "node_backlog": [
+            23.0,
+            2.6666666666666665,
+            37.666666666666664
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 471.3333333333333,
+          "downstream": 15.666666666666666,
+          "node_backlog": [
+            15.666666666666666,
+            25.666666666666668,
+            23.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 467.3333333333333,
+          "downstream": 10.666666666666666,
+          "node_backlog": [
+            10.666666666666666,
+            18.333333333333332,
+            9.666666666666666
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 491.6666666666667,
+          "downstream": 18.0,
+          "node_backlog": [
+            18.0,
+            25.666666666666668,
+            23.0
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 523.0,
+        "downstream": 46.333333333333336,
+        "node_backlog": [
+          46.333333333333336,
+          18.0,
+          24.666666666666668
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 523.0,
+        "downstream": 46.333333333333336,
+        "node_backlog": [
+          46.333333333333336,
+          18.0,
+          24.666666666666668
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 14,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 472.6666666666667,
+          "downstream": 15.333333333333334,
+          "node_backlog": [
+            15.333333333333334,
+            4.333333333333333,
+            17.666666666666668
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 451.6666666666667,
+          "downstream": 18.666666666666668,
+          "node_backlog": [
+            18.666666666666668,
+            9.333333333333334,
+            15.666666666666666
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 461.0,
+          "downstream": 21.666666666666668,
+          "node_backlog": [
+            21.666666666666668,
+            17.333333333333332,
+            38.333333333333336
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 468.6666666666667,
+          "downstream": 23.333333333333332,
+          "node_backlog": [
+            23.333333333333332,
+            22.0,
+            22.0
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 528.6666666666666,
+        "downstream": 22.666666666666668,
+        "node_backlog": [
+          22.666666666666668,
+          38.333333333333336,
+          60.666666666666664
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 528.6666666666666,
+        "downstream": 22.666666666666668,
+        "node_backlog": [
+          22.666666666666668,
+          38.333333333333336,
+          60.666666666666664
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 14,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 495.6666666666667,
+          "downstream": 82.33333333333333,
+          "node_backlog": [
+            82.33333333333333,
+            60.0,
+            134.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 564.0,
+          "downstream": 132.33333333333334,
+          "node_backlog": [
+            132.33333333333334,
+            121.66666666666667,
+            99.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 499.3333333333333,
+          "downstream": 84.33333333333333,
+          "node_backlog": [
+            84.33333333333333,
+            53.666666666666664,
+            137.33333333333334
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 496.3333333333333,
+          "downstream": 84.0,
+          "node_backlog": [
+            84.0,
+            52.333333333333336,
+            139.0
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 378.3333333333333,
+        "downstream": 36.0,
+        "node_backlog": [
+          36.0,
+          4.666666666666667,
+          45.333333333333336
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 378.3333333333333,
+        "downstream": 36.0,
+        "node_backlog": [
+          36.0,
+          4.666666666666667,
+          45.333333333333336
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 14,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 373.3333333333333,
+          "downstream": 28.666666666666668,
+          "node_backlog": [
+            28.666666666666668,
+            3.0,
+            27.666666666666668
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 311.0,
+          "downstream": 63.666666666666664,
+          "node_backlog": [
+            63.666666666666664,
+            4.0,
+            4.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 388.6666666666667,
+          "downstream": 33.333333333333336,
+          "node_backlog": [
+            33.333333333333336,
+            3.0,
+            2.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 394.6666666666667,
+          "downstream": 33.0,
+          "node_backlog": [
+            33.0,
+            2.3333333333333335,
+            1.0
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 333.0,
+        "downstream": 31.333333333333332,
+        "node_backlog": [
+          31.333333333333332,
+          13.333333333333334,
+          6.666666666666667
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 333.0,
+        "downstream": 31.333333333333332,
+        "node_backlog": [
+          31.333333333333332,
+          13.333333333333334,
+          6.666666666666667
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 14,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 459.6666666666667,
+          "downstream": 74.33333333333333,
+          "node_backlog": [
+            74.33333333333333,
+            33.333333333333336,
+            48.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 435.3333333333333,
+          "downstream": 89.33333333333333,
+          "node_backlog": [
+            89.33333333333333,
+            28.0,
+            45.333333333333336
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 478.0,
+          "downstream": 75.0,
+          "node_backlog": [
+            75.0,
+            48.333333333333336,
+            50.666666666666664
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 478.0,
+          "downstream": 75.0,
+          "node_backlog": [
+            75.0,
+            48.333333333333336,
+            50.666666666666664
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 423.3333333333333,
+        "downstream": 54.333333333333336,
+        "node_backlog": [
+          54.333333333333336,
+          20.0,
+          81.66666666666667
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 423.3333333333333,
+        "downstream": 54.333333333333336,
+        "node_backlog": [
+          54.333333333333336,
+          20.0,
+          81.66666666666667
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 14,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 492.3333333333333,
+          "downstream": 48.666666666666664,
+          "node_backlog": [
+            48.666666666666664,
+            29.0,
+            91.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 469.3333333333333,
+          "downstream": 61.666666666666664,
+          "node_backlog": [
+            61.666666666666664,
+            29.666666666666668,
+            121.33333333333333
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 492.3333333333333,
+          "downstream": 48.666666666666664,
+          "node_backlog": [
+            48.666666666666664,
+            29.0,
+            91.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 492.3333333333333,
+          "downstream": 48.666666666666664,
+          "node_backlog": [
+            48.666666666666664,
+            29.0,
+            91.0
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 387.6666666666667,
+        "downstream": 25.333333333333332,
+        "node_backlog": [
+          25.333333333333332,
+          7.666666666666667,
+          46.333333333333336
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 387.6666666666667,
+        "downstream": 25.333333333333332,
+        "node_backlog": [
+          25.333333333333332,
+          7.666666666666667,
+          46.333333333333336
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 14,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 1518.6666666666667,
+          "downstream": 786.0,
+          "node_backlog": [
+            786.0,
+            263.6666666666667,
+            201.66666666666666
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 1417.0,
+          "downstream": 802.6666666666666,
+          "node_backlog": [
+            802.6666666666666,
+            239.0,
+            180.66666666666666
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 1517.0,
+          "downstream": 790.0,
+          "node_backlog": [
+            790.0,
+            268.0,
+            192.66666666666666
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 1512.0,
+          "downstream": 786.0,
+          "node_backlog": [
+            786.0,
+            263.6666666666667,
+            199.33333333333334
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 1797.3333333333333,
+        "downstream": 1032.6666666666667,
+        "node_backlog": [
+          1032.6666666666667,
+          385.0,
+          272.0
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 1797.3333333333333,
+        "downstream": 1032.6666666666667,
+        "node_backlog": [
+          1032.6666666666667,
+          385.0,
+          272.0
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 14,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 2075.0,
+          "downstream": 1201.0,
+          "node_backlog": [
+            1201.0,
+            453.3333333333333,
+            212.66666666666666
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 2037.0,
+          "downstream": 1225.0,
+          "node_backlog": [
+            1225.0,
+            418.6666666666667,
+            192.33333333333334
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 2075.0,
+          "downstream": 1201.0,
+          "node_backlog": [
+            1201.0,
+            453.3333333333333,
+            212.66666666666666
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 2075.0,
+          "downstream": 1201.0,
+          "node_backlog": [
+            1201.0,
+            453.3333333333333,
+            212.66666666666666
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 2606.6666666666665,
+        "downstream": 1664.3333333333333,
+        "node_backlog": [
+          1664.3333333333333,
+          664.6666666666666,
+          272.6666666666667
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 2606.6666666666665,
+        "downstream": 1664.3333333333333,
+        "node_backlog": [
+          1664.3333333333333,
+          664.6666666666666,
+          272.6666666666667
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 14,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 2653.0,
+          "downstream": 1766.6666666666667,
+          "node_backlog": [
+            1766.6666666666667,
+            556.0,
+            171.66666666666666
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 2656.3333333333335,
+          "downstream": 1791.3333333333333,
+          "node_backlog": [
+            1791.3333333333333,
+            519.6666666666666,
+            153.33333333333334
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 2653.0,
+          "downstream": 1766.6666666666667,
+          "node_backlog": [
+            1766.6666666666667,
+            556.0,
+            171.66666666666666
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 2653.0,
+          "downstream": 1766.6666666666667,
+          "node_backlog": [
+            1766.6666666666667,
+            556.0,
+            171.66666666666666
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 2874.6666666666665,
+        "downstream": 1990.6666666666667,
+        "node_backlog": [
+          1990.6666666666667,
+          690.0,
+          194.0
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 2874.6666666666665,
+        "downstream": 1990.6666666666667,
+        "node_backlog": [
+          1990.6666666666667,
+          690.0,
+          194.0
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 15,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 696.6666666666666,
+          "downstream": 78.0,
+          "node_backlog": [
+            78.0,
+            24.666666666666668,
+            137.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 679.6666666666666,
+          "downstream": 100.33333333333333,
+          "node_backlog": [
+            100.33333333333333,
+            27.0,
+            71.33333333333333
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 690.0,
+          "downstream": 87.66666666666667,
+          "node_backlog": [
+            87.66666666666667,
+            28.0,
+            99.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 702.0,
+          "downstream": 79.0,
+          "node_backlog": [
+            79.0,
+            25.666666666666668,
+            141.33333333333334
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 995.6666666666666,
+        "downstream": 138.0,
+        "node_backlog": [
+          138.0,
+          69.33333333333333,
+          146.66666666666666
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 995.6666666666666,
+        "downstream": 138.0,
+        "node_backlog": [
+          138.0,
+          69.33333333333333,
+          146.66666666666666
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 15,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 3391.6666666666665,
+          "downstream": 1574.6666666666667,
+          "node_backlog": [
+            1574.6666666666667,
+            1203.3333333333333,
+            391.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 3330.0,
+          "downstream": 1576.6666666666667,
+          "node_backlog": [
+            1576.6666666666667,
+            1167.6666666666667,
+            369.3333333333333
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 3167.0,
+          "downstream": 1498.6666666666667,
+          "node_backlog": [
+            1498.6666666666667,
+            1107.0,
+            296.3333333333333
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 3391.6666666666665,
+          "downstream": 1574.6666666666667,
+          "node_backlog": [
+            1574.6666666666667,
+            1203.3333333333333,
+            391.0
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "library_1",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 3323.3333333333335,
+        "downstream": 1475.0,
+        "node_backlog": [
+          1475.0,
+          1405.3333333333333,
+          443.0
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "library_1",
+        "cost": 2967.6666666666665,
+        "downstream": 1372.0,
+        "node_backlog": [
+          1372.0,
+          1261.0,
+          328.3333333333333
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 15,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 3241.6666666666665,
+          "downstream": 1598.3333333333333,
+          "node_backlog": [
+            1598.3333333333333,
+            1378.6666666666667,
+            196.33333333333334
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 3260.6666666666665,
+          "downstream": 1624.0,
+          "node_backlog": [
+            1624.0,
+            1360.3333333333333,
+            223.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 3261.0,
+          "downstream": 1598.3333333333333,
+          "node_backlog": [
+            1598.3333333333333,
+            1398.3333333333333,
+            196.33333333333334
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 3241.6666666666665,
+          "downstream": 1598.3333333333333,
+          "node_backlog": [
+            1598.3333333333333,
+            1378.6666666666667,
+            196.33333333333334
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 3390.3333333333335,
+        "downstream": 1724.6666666666667,
+        "node_backlog": [
+          1724.6666666666667,
+          1413.3333333333333,
+          204.33333333333334
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 3390.3333333333335,
+        "downstream": 1724.6666666666667,
+        "node_backlog": [
+          1724.6666666666667,
+          1413.3333333333333,
+          204.33333333333334
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 15,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 2306.3333333333335,
+          "downstream": 1665.0,
+          "node_backlog": [
+            1665.0,
+            539.0,
+            42.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 2262.3333333333335,
+          "downstream": 1693.3333333333333,
+          "node_backlog": [
+            1693.3333333333333,
+            498.0,
+            22.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 2306.3333333333335,
+          "downstream": 1665.0,
+          "node_backlog": [
+            1665.0,
+            539.0,
+            42.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 2306.3333333333335,
+          "downstream": 1665.0,
+          "node_backlog": [
+            1665.0,
+            539.0,
+            42.0
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 2484.3333333333335,
+        "downstream": 1846.3333333333333,
+        "node_backlog": [
+          1846.3333333333333,
+          562.0,
+          42.0
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 2484.3333333333335,
+        "downstream": 1846.3333333333333,
+        "node_backlog": [
+          1846.3333333333333,
+          562.0,
+          42.0
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 15,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 2622.6666666666665,
+          "downstream": 2043.6666666666667,
+          "node_backlog": [
+            2043.6666666666667,
+            515.0,
+            10.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 2624.6666666666665,
+          "downstream": 2091.6666666666665,
+          "node_backlog": [
+            2091.6666666666665,
+            495.0,
+            10.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 2622.6666666666665,
+          "downstream": 2043.6666666666667,
+          "node_backlog": [
+            2043.6666666666667,
+            515.0,
+            10.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 2622.6666666666665,
+          "downstream": 2043.6666666666667,
+          "node_backlog": [
+            2043.6666666666667,
+            515.0,
+            10.0
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 2308.3333333333335,
+        "downstream": 1668.6666666666667,
+        "node_backlog": [
+          1668.6666666666667,
+          482.6666666666667,
+          10.0
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 2308.3333333333335,
+        "downstream": 1668.6666666666667,
+        "node_backlog": [
+          1668.6666666666667,
+          482.6666666666667,
+          10.0
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 15,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 2053.3333333333335,
+          "downstream": 1170.0,
+          "node_backlog": [
+            1170.0,
+            384.3333333333333,
+            0.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 2019.6666666666667,
+          "downstream": 1207.0,
+          "node_backlog": [
+            1207.0,
+            367.6666666666667,
+            4.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 2039.0,
+          "downstream": 1180.6666666666667,
+          "node_backlog": [
+            1180.6666666666667,
+            395.6666666666667,
+            12.333333333333334
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 2018.6666666666667,
+          "downstream": 1172.6666666666667,
+          "node_backlog": [
+            1172.6666666666667,
+            387.6666666666667,
+            3.3333333333333335
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 1831.0,
+        "downstream": 1119.0,
+        "node_backlog": [
+          1119.0,
+          383.0,
+          0.0
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 1831.0,
+        "downstream": 1119.0,
+        "node_backlog": [
+          1119.0,
+          383.0,
+          0.0
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 15,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 599.0,
+          "downstream": 53.333333333333336,
+          "node_backlog": [
+            53.333333333333336,
+            25.666666666666668,
+            39.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 586.6666666666666,
+          "downstream": 85.66666666666667,
+          "node_backlog": [
+            85.66666666666667,
+            45.333333333333336,
+            46.333333333333336
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 599.0,
+          "downstream": 53.333333333333336,
+          "node_backlog": [
+            53.333333333333336,
+            25.666666666666668,
+            39.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 609.6666666666666,
+          "downstream": 101.0,
+          "node_backlog": [
+            101.0,
+            47.666666666666664,
+            34.666666666666664
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 794.3333333333334,
+        "downstream": 81.66666666666667,
+        "node_backlog": [
+          81.66666666666667,
+          98.33333333333333,
+          113.66666666666667
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 794.3333333333334,
+        "downstream": 81.66666666666667,
+        "node_backlog": [
+          81.66666666666667,
+          98.33333333333333,
+          113.66666666666667
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 15,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 533.6666666666666,
+          "downstream": 43.333333333333336,
+          "node_backlog": [
+            43.333333333333336,
+            22.0,
+            52.666666666666664
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 598.3333333333334,
+          "downstream": 53.666666666666664,
+          "node_backlog": [
+            53.666666666666664,
+            35.0,
+            50.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 507.3333333333333,
+          "downstream": 55.666666666666664,
+          "node_backlog": [
+            55.666666666666664,
+            27.333333333333332,
+            32.666666666666664
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 630.3333333333334,
+          "downstream": 60.0,
+          "node_backlog": [
+            60.0,
+            52.333333333333336,
+            59.333333333333336
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 597.3333333333334,
+        "downstream": 56.333333333333336,
+        "node_backlog": [
+          56.333333333333336,
+          54.0,
+          78.0
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 597.3333333333334,
+        "downstream": 56.333333333333336,
+        "node_backlog": [
+          56.333333333333336,
+          54.0,
+          78.0
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 15,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 736.6666666666666,
+          "downstream": 120.66666666666667,
+          "node_backlog": [
+            120.66666666666667,
+            138.66666666666666,
+            92.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 663.0,
+          "downstream": 144.66666666666666,
+          "node_backlog": [
+            144.66666666666666,
+            157.33333333333334,
+            106.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 736.6666666666666,
+          "downstream": 120.66666666666667,
+          "node_backlog": [
+            120.66666666666667,
+            138.66666666666666,
+            92.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 736.6666666666666,
+          "downstream": 120.66666666666667,
+          "node_backlog": [
+            120.66666666666667,
+            138.66666666666666,
+            92.0
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 976.3333333333334,
+        "downstream": 77.66666666666667,
+        "node_backlog": [
+          77.66666666666667,
+          138.33333333333334,
+          139.66666666666666
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 976.3333333333334,
+        "downstream": 77.66666666666667,
+        "node_backlog": [
+          77.66666666666667,
+          138.33333333333334,
+          139.66666666666666
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 15,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 455.6666666666667,
+          "downstream": 72.66666666666667,
+          "node_backlog": [
+            72.66666666666667,
+            0.0,
+            10.666666666666666
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 540.3333333333334,
+          "downstream": 91.0,
+          "node_backlog": [
+            91.0,
+            25.333333333333332,
+            66.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 455.6666666666667,
+          "downstream": 72.66666666666667,
+          "node_backlog": [
+            72.66666666666667,
+            0.0,
+            10.666666666666666
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 455.6666666666667,
+          "downstream": 72.66666666666667,
+          "node_backlog": [
+            72.66666666666667,
+            0.0,
+            10.666666666666666
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 494.0,
+        "downstream": 85.66666666666667,
+        "node_backlog": [
+          85.66666666666667,
+          15.666666666666666,
+          34.0
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 494.0,
+        "downstream": 85.66666666666667,
+        "node_backlog": [
+          85.66666666666667,
+          15.666666666666666,
+          34.0
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 15,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 653.0,
+          "downstream": 94.33333333333333,
+          "node_backlog": [
+            94.33333333333333,
+            50.666666666666664,
+            61.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 569.0,
+          "downstream": 107.66666666666667,
+          "node_backlog": [
+            107.66666666666667,
+            27.666666666666668,
+            59.666666666666664
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 660.6666666666666,
+          "downstream": 96.0,
+          "node_backlog": [
+            96.0,
+            49.333333333333336,
+            85.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 662.0,
+          "downstream": 95.0,
+          "node_backlog": [
+            95.0,
+            48.333333333333336,
+            81.66666666666667
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 524.0,
+        "downstream": 98.33333333333333,
+        "node_backlog": [
+          98.33333333333333,
+          1.3333333333333333,
+          8.0
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 524.0,
+        "downstream": 98.33333333333333,
+        "node_backlog": [
+          98.33333333333333,
+          1.3333333333333333,
+          8.0
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 15,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 655.3333333333334,
+          "downstream": 77.66666666666667,
+          "node_backlog": [
+            77.66666666666667,
+            3.3333333333333335,
+            4.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 478.0,
+          "downstream": 80.66666666666667,
+          "node_backlog": [
+            80.66666666666667,
+            2.3333333333333335,
+            10.333333333333334
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 582.6666666666666,
+          "downstream": 77.66666666666667,
+          "node_backlog": [
+            77.66666666666667,
+            4.333333333333333,
+            5.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 602.0,
+          "downstream": 77.66666666666667,
+          "node_backlog": [
+            77.66666666666667,
+            3.6666666666666665,
+            5.333333333333333
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "library_1",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 722.6666666666666,
+        "downstream": 78.33333333333333,
+        "node_backlog": [
+          78.33333333333333,
+          0.0,
+          3.0
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "library_1",
+        "cost": 645.0,
+        "downstream": 78.33333333333333,
+        "node_backlog": [
+          78.33333333333333,
+          0.6666666666666666,
+          1.6666666666666667
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 15,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 1306.6666666666667,
+          "downstream": 678.0,
+          "node_backlog": [
+            678.0,
+            204.33333333333334,
+            194.33333333333334
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 1311.0,
+          "downstream": 690.3333333333334,
+          "node_backlog": [
+            690.3333333333334,
+            173.66666666666666,
+            177.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 1311.0,
+          "downstream": 681.3333333333334,
+          "node_backlog": [
+            681.3333333333334,
+            207.66666666666666,
+            157.33333333333334
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 1306.6666666666667,
+          "downstream": 678.0,
+          "node_backlog": [
+            678.0,
+            204.33333333333334,
+            194.33333333333334
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 1715.0,
+        "downstream": 940.6666666666666,
+        "node_backlog": [
+          940.6666666666666,
+          345.6666666666667,
+          253.33333333333334
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 1715.0,
+        "downstream": 940.6666666666666,
+        "node_backlog": [
+          940.6666666666666,
+          345.6666666666667,
+          253.33333333333334
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 15,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 2108.0,
+          "downstream": 1202.0,
+          "node_backlog": [
+            1202.0,
+            438.0,
+            232.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 2062.3333333333335,
+          "downstream": 1231.3333333333333,
+          "node_backlog": [
+            1231.3333333333333,
+            397.3333333333333,
+            199.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 2108.0,
+          "downstream": 1202.0,
+          "node_backlog": [
+            1202.0,
+            438.0,
+            232.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 2108.0,
+          "downstream": 1202.0,
+          "node_backlog": [
+            1202.0,
+            438.0,
+            232.0
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 2471.3333333333335,
+        "downstream": 1694.3333333333333,
+        "node_backlog": [
+          1694.3333333333333,
+          524.0,
+          253.0
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 2471.3333333333335,
+        "downstream": 1694.3333333333333,
+        "node_backlog": [
+          1694.3333333333333,
+          524.0,
+          253.0
+        ],
+        "valid": true
+      }
+    },
+    {
+      "seed": 15,
+      "group": "llm_library",
+      "search": [
+        {
+          "id": "zero",
+          "cost": 2667.0,
+          "downstream": 1846.3333333333333,
+          "node_backlog": [
+            1846.3333333333333,
+            449.3333333333333,
+            151.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_0",
+          "cost": 2623.6666666666665,
+          "downstream": 1870.0,
+          "node_backlog": [
+            1870.0,
+            409.3333333333333,
+            131.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_1",
+          "cost": 2667.0,
+          "downstream": 1846.3333333333333,
+          "node_backlog": [
+            1846.3333333333333,
+            449.3333333333333,
+            151.0
+          ],
+          "valid": true
+        },
+        {
+          "id": "library_2",
+          "cost": 2667.0,
+          "downstream": 1846.3333333333333,
+          "node_backlog": [
+            1846.3333333333333,
+            449.3333333333333,
+            151.0
+          ],
+          "valid": true
+        }
+      ],
+      "chosen": "zero",
+      "validation_zero": {
+        "id": "zero",
+        "cost": 2738.6666666666665,
+        "downstream": 2092.6666666666665,
+        "node_backlog": [
+          2092.6666666666665,
+          490.0,
+          153.0
+        ],
+        "valid": true
+      },
+      "validation_candidate": {
+        "id": "zero",
+        "cost": 2738.6666666666665,
+        "downstream": 2092.6666666666665,
+        "node_backlog": [
+          2092.6666666666665,
+          490.0,
+          153.0
+        ],
+        "valid": true
+      }
+    }
+  ],
+  "fitness": [
+    {
+      "seed": 11,
+      "trajectory": 0,
+      "group": "happo",
+      "cost": 17.903333333333332,
+      "backlog": 11.955
+    },
+    {
+      "seed": 11,
+      "trajectory": 0,
+      "group": "llm_library",
+      "cost": 17.863333333333333,
+      "backlog": 11.955
+    },
+    {
+      "seed": 11,
+      "trajectory": 0,
+      "group": "random_screen",
+      "cost": 18.475,
+      "backlog": 12.61
+    },
+    {
+      "seed": 11,
+      "trajectory": 1,
+      "group": "happo",
+      "cost": 19.455,
+      "backlog": 17.095
+    },
+    {
+      "seed": 11,
+      "trajectory": 1,
+      "group": "llm_library",
+      "cost": 20.66,
+      "backlog": 17.325
+    },
+    {
+      "seed": 11,
+      "trajectory": 1,
+      "group": "random_screen",
+      "cost": 20.115,
+      "backlog": 17.185
+    },
+    {
+      "seed": 11,
+      "trajectory": 2,
+      "group": "happo",
+      "cost": 14.748333333333333,
+      "backlog": 3.755
+    },
+    {
+      "seed": 11,
+      "trajectory": 2,
+      "group": "llm_library",
+      "cost": 17.753333333333334,
+      "backlog": 4.105
+    },
+    {
+      "seed": 11,
+      "trajectory": 2,
+      "group": "random_screen",
+      "cost": 15.056666666666667,
+      "backlog": 3.785
+    },
+    {
+      "seed": 11,
+      "trajectory": 3,
+      "group": "happo",
+      "cost": 20.435,
+      "backlog": 8.79
+    },
+    {
+      "seed": 11,
+      "trajectory": 3,
+      "group": "llm_library",
+      "cost": 15.245,
+      "backlog": 7.385
+    },
+    {
+      "seed": 11,
+      "trajectory": 3,
+      "group": "random_screen",
+      "cost": 15.835,
+      "backlog": 7.155
+    },
+    {
+      "seed": 11,
+      "trajectory": 4,
+      "group": "happo",
+      "cost": 22.688333333333333,
+      "backlog": 22.705
+    },
+    {
+      "seed": 11,
+      "trajectory": 4,
+      "group": "llm_library",
+      "cost": 22.688333333333333,
+      "backlog": 22.705
+    },
+    {
+      "seed": 11,
+      "trajectory": 4,
+      "group": "random_screen",
+      "cost": 21.39666666666667,
+      "backlog": 23.175
+    },
+    {
+      "seed": 11,
+      "trajectory": 5,
+      "group": "happo",
+      "cost": 52.265,
+      "backlog": 126.055
+    },
+    {
+      "seed": 11,
+      "trajectory": 5,
+      "group": "llm_library",
+      "cost": 49.931666666666665,
+      "backlog": 124.395
+    },
+    {
+      "seed": 11,
+      "trajectory": 5,
+      "group": "random_screen",
+      "cost": 44.605,
+      "backlog": 108.39
+    },
+    {
+      "seed": 11,
+      "trajectory": 6,
+      "group": "happo",
+      "cost": 16.748333333333335,
+      "backlog": 1.605
+    },
+    {
+      "seed": 11,
+      "trajectory": 6,
+      "group": "llm_library",
+      "cost": 16.691666666666666,
+      "backlog": 1.605
+    },
+    {
+      "seed": 11,
+      "trajectory": 6,
+      "group": "random_screen",
+      "cost": 16.79,
+      "backlog": 1.76
+    },
+    {
+      "seed": 11,
+      "trajectory": 7,
+      "group": "happo",
+      "cost": 22.366666666666667,
+      "backlog": 29.56
+    },
+    {
+      "seed": 11,
+      "trajectory": 7,
+      "group": "llm_library",
+      "cost": 26.871666666666666,
+      "backlog": 29.83
+    },
+    {
+      "seed": 11,
+      "trajectory": 7,
+      "group": "random_screen",
+      "cost": 26.61,
+      "backlog": 28.35
+    },
+    {
+      "seed": 11,
+      "trajectory": 8,
+      "group": "happo",
+      "cost": 27.245,
+      "backlog": 1.865
+    },
+    {
+      "seed": 11,
+      "trajectory": 8,
+      "group": "llm_library",
+      "cost": 23.865,
+      "backlog": 1.865
+    },
+    {
+      "seed": 11,
+      "trajectory": 8,
+      "group": "random_screen",
+      "cost": 21.83,
+      "backlog": 1.765
+    },
+    {
+      "seed": 11,
+      "trajectory": 9,
+      "group": "happo",
+      "cost": 23.735,
+      "backlog": 3.36
+    },
+    {
+      "seed": 11,
+      "trajectory": 9,
+      "group": "llm_library",
+      "cost": 22.323333333333334,
+      "backlog": 3.175
+    },
+    {
+      "seed": 11,
+      "trajectory": 9,
+      "group": "random_screen",
+      "cost": 23.32,
+      "backlog": 2.81
+    },
+    {
+      "seed": 11,
+      "trajectory": 10,
+      "group": "happo",
+      "cost": 24.653333333333332,
+      "backlog": 8.045
+    },
+    {
+      "seed": 11,
+      "trajectory": 10,
+      "group": "llm_library",
+      "cost": 21.631666666666668,
+      "backlog": 7.225
+    },
+    {
+      "seed": 11,
+      "trajectory": 10,
+      "group": "random_screen",
+      "cost": 23.278333333333332,
+      "backlog": 7.615
+    },
+    {
+      "seed": 11,
+      "trajectory": 11,
+      "group": "happo",
+      "cost": 21.66,
+      "backlog": 16.155
+    },
+    {
+      "seed": 11,
+      "trajectory": 11,
+      "group": "llm_library",
+      "cost": 21.686666666666667,
+      "backlog": 15.98
+    },
+    {
+      "seed": 11,
+      "trajectory": 11,
+      "group": "random_screen",
+      "cost": 21.638333333333332,
+      "backlog": 15.93
+    },
+    {
+      "seed": 11,
+      "trajectory": 12,
+      "group": "happo",
+      "cost": 14.14,
+      "backlog": 2.81
+    },
+    {
+      "seed": 11,
+      "trajectory": 12,
+      "group": "llm_library",
+      "cost": 16.768333333333334,
+      "backlog": 2.81
+    },
+    {
+      "seed": 11,
+      "trajectory": 12,
+      "group": "random_screen",
+      "cost": 13.8,
+      "backlog": 2.745
+    },
+    {
+      "seed": 11,
+      "trajectory": 13,
+      "group": "happo",
+      "cost": 20.186666666666667,
+      "backlog": 2.5
+    },
+    {
+      "seed": 11,
+      "trajectory": 13,
+      "group": "llm_library",
+      "cost": 20.476666666666667,
+      "backlog": 2.515
+    },
+    {
+      "seed": 11,
+      "trajectory": 13,
+      "group": "random_screen",
+      "cost": 18.99,
+      "backlog": 2.54
+    },
+    {
+      "seed": 11,
+      "trajectory": 14,
+      "group": "happo",
+      "cost": 25.22,
+      "backlog": 43.865
+    },
+    {
+      "seed": 11,
+      "trajectory": 14,
+      "group": "llm_library",
+      "cost": 24.43166666666667,
+      "backlog": 42.97
+    },
+    {
+      "seed": 11,
+      "trajectory": 14,
+      "group": "random_screen",
+      "cost": 22.505,
+      "backlog": 37.33
+    },
+    {
+      "seed": 11,
+      "trajectory": 15,
+      "group": "happo",
+      "cost": 16.72833333333333,
+      "backlog": 2.29
+    },
+    {
+      "seed": 11,
+      "trajectory": 15,
+      "group": "llm_library",
+      "cost": 18.366666666666667,
+      "backlog": 2.47
+    },
+    {
+      "seed": 11,
+      "trajectory": 15,
+      "group": "random_screen",
+      "cost": 17.051666666666666,
+      "backlog": 2.345
+    },
+    {
+      "seed": 11,
+      "trajectory": 16,
+      "group": "happo",
+      "cost": 25.891666666666666,
+      "backlog": 28.705
+    },
+    {
+      "seed": 11,
+      "trajectory": 16,
+      "group": "llm_library",
+      "cost": 25.891666666666666,
+      "backlog": 28.705
+    },
+    {
+      "seed": 11,
+      "trajectory": 16,
+      "group": "random_screen",
+      "cost": 24.641666666666666,
+      "backlog": 27.495
+    },
+    {
+      "seed": 11,
+      "trajectory": 17,
+      "group": "happo",
+      "cost": 65.78166666666667,
+      "backlog": 171.26
+    },
+    {
+      "seed": 11,
+      "trajectory": 17,
+      "group": "llm_library",
+      "cost": 62.93833333333333,
+      "backlog": 169.06
+    },
+    {
+      "seed": 11,
+      "trajectory": 17,
+      "group": "random_screen",
+      "cost": 56.81333333333333,
+      "backlog": 149.37
+    },
+    {
+      "seed": 11,
+      "trajectory": 18,
+      "group": "happo",
+      "cost": 18.511666666666667,
+      "backlog": 7.99
+    },
+    {
+      "seed": 11,
+      "trajectory": 18,
+      "group": "llm_library",
+      "cost": 18.511666666666667,
+      "backlog": 7.99
+    },
+    {
+      "seed": 11,
+      "trajectory": 18,
+      "group": "random_screen",
+      "cost": 17.558333333333334,
+      "backlog": 7.05
+    },
+    {
+      "seed": 11,
+      "trajectory": 19,
+      "group": "happo",
+      "cost": 22.266666666666666,
+      "backlog": 18.51
+    },
+    {
+      "seed": 11,
+      "trajectory": 19,
+      "group": "llm_library",
+      "cost": 22.218333333333334,
+      "backlog": 19.23
+    },
+    {
+      "seed": 11,
+      "trajectory": 19,
+      "group": "random_screen",
+      "cost": 22.961666666666666,
+      "backlog": 19.05
+    },
+    {
+      "seed": 12,
+      "trajectory": 0,
+      "group": "happo",
+      "cost": 17.36,
+      "backlog": 12.335
+    },
+    {
+      "seed": 12,
+      "trajectory": 0,
+      "group": "llm_library",
+      "cost": 17.253333333333334,
+      "backlog": 12.335
+    },
+    {
+      "seed": 12,
+      "trajectory": 0,
+      "group": "random_screen",
+      "cost": 17.433333333333334,
+      "backlog": 12.56
+    },
+    {
+      "seed": 12,
+      "trajectory": 1,
+      "group": "happo",
+      "cost": 21.418333333333333,
+      "backlog": 20.825
+    },
+    {
+      "seed": 12,
+      "trajectory": 1,
+      "group": "llm_library",
+      "cost": 21.531666666666666,
+      "backlog": 20.825
+    },
+    {
+      "seed": 12,
+      "trajectory": 1,
+      "group": "random_screen",
+      "cost": 19.956666666666667,
+      "backlog": 19.295
+    },
+    {
+      "seed": 12,
+      "trajectory": 2,
+      "group": "happo",
+      "cost": 14.186666666666667,
+      "backlog": 4.935
+    },
+    {
+      "seed": 12,
+      "trajectory": 2,
+      "group": "llm_library",
+      "cost": 14.313333333333333,
+      "backlog": 5.135
+    },
+    {
+      "seed": 12,
+      "trajectory": 2,
+      "group": "random_screen",
+      "cost": 14.213333333333333,
+      "backlog": 4.8
+    },
+    {
+      "seed": 12,
+      "trajectory": 3,
+      "group": "happo",
+      "cost": 19.035,
+      "backlog": 9.445
+    },
+    {
+      "seed": 12,
+      "trajectory": 3,
+      "group": "llm_library",
+      "cost": 18.72833333333333,
+      "backlog": 9.515
+    },
+    {
+      "seed": 12,
+      "trajectory": 3,
+      "group": "random_screen",
+      "cost": 15.913333333333334,
+      "backlog": 8.95
+    },
+    {
+      "seed": 12,
+      "trajectory": 4,
+      "group": "happo",
+      "cost": 17.015,
+      "backlog": 15.27
+    },
+    {
+      "seed": 12,
+      "trajectory": 4,
+      "group": "llm_library",
+      "cost": 17.461666666666666,
+      "backlog": 16.145
+    },
+    {
+      "seed": 12,
+      "trajectory": 4,
+      "group": "random_screen",
+      "cost": 15.636666666666667,
+      "backlog": 12.55
+    },
+    {
+      "seed": 12,
+      "trajectory": 5,
+      "group": "happo",
+      "cost": 48.915,
+      "backlog": 98.085
+    },
+    {
+      "seed": 12,
+      "trajectory": 5,
+      "group": "llm_library",
+      "cost": 48.915,
+      "backlog": 98.085
+    },
+    {
+      "seed": 12,
+      "trajectory": 5,
+      "group": "random_screen",
+      "cost": 37.20166666666667,
+      "backlog": 86.89
+    },
+    {
+      "seed": 12,
+      "trajectory": 6,
+      "group": "happo",
+      "cost": 13.415,
+      "backlog": 2.8
+    },
+    {
+      "seed": 12,
+      "trajectory": 6,
+      "group": "llm_library",
+      "cost": 13.79,
+      "backlog": 3.09
+    },
+    {
+      "seed": 12,
+      "trajectory": 6,
+      "group": "random_screen",
+      "cost": 11.656666666666666,
+      "backlog": 2.305
+    },
+    {
+      "seed": 12,
+      "trajectory": 7,
+      "group": "happo",
+      "cost": 27.02,
+      "backlog": 32.3
+    },
+    {
+      "seed": 12,
+      "trajectory": 7,
+      "group": "llm_library",
+      "cost": 27.02,
+      "backlog": 32.3
+    },
+    {
+      "seed": 12,
+      "trajectory": 7,
+      "group": "random_screen",
+      "cost": 29.05,
+      "backlog": 31.23
+    },
+    {
+      "seed": 12,
+      "trajectory": 8,
+      "group": "happo",
+      "cost": 14.211666666666666,
+      "backlog": 0.83
+    },
+    {
+      "seed": 12,
+      "trajectory": 8,
+      "group": "llm_library",
+      "cost": 14.088333333333333,
+      "backlog": 0.83
+    },
+    {
+      "seed": 12,
+      "trajectory": 8,
+      "group": "random_screen",
+      "cost": 14.828333333333333,
+      "backlog": 0.9
+    },
+    {
+      "seed": 12,
+      "trajectory": 9,
+      "group": "happo",
+      "cost": 14.866666666666667,
+      "backlog": 2.625
+    },
+    {
+      "seed": 12,
+      "trajectory": 9,
+      "group": "llm_library",
+      "cost": 14.696666666666667,
+      "backlog": 2.81
+    },
+    {
+      "seed": 12,
+      "trajectory": 9,
+      "group": "random_screen",
+      "cost": 14.881666666666666,
+      "backlog": 2.965
+    },
+    {
+      "seed": 12,
+      "trajectory": 10,
+      "group": "happo",
+      "cost": 17.726666666666667,
+      "backlog": 6.785
+    },
+    {
+      "seed": 12,
+      "trajectory": 10,
+      "group": "llm_library",
+      "cost": 16.615,
+      "backlog": 6.58
+    },
+    {
+      "seed": 12,
+      "trajectory": 10,
+      "group": "random_screen",
+      "cost": 19.83,
+      "backlog": 7.025
+    },
+    {
+      "seed": 12,
+      "trajectory": 11,
+      "group": "happo",
+      "cost": 19.975,
+      "backlog": 14.34
+    },
+    {
+      "seed": 12,
+      "trajectory": 11,
+      "group": "llm_library",
+      "cost": 19.748333333333335,
+      "backlog": 14.03
+    },
+    {
+      "seed": 12,
+      "trajectory": 11,
+      "group": "random_screen",
+      "cost": 19.86,
+      "backlog": 14.34
+    },
+    {
+      "seed": 12,
+      "trajectory": 12,
+      "group": "happo",
+      "cost": 12.755,
+      "backlog": 1.775
+    },
+    {
+      "seed": 12,
+      "trajectory": 12,
+      "group": "llm_library",
+      "cost": 12.61,
+      "backlog": 1.775
+    },
+    {
+      "seed": 12,
+      "trajectory": 12,
+      "group": "random_screen",
+      "cost": 12.631666666666666,
+      "backlog": 1.775
+    },
+    {
+      "seed": 12,
+      "trajectory": 13,
+      "group": "happo",
+      "cost": 12.891666666666667,
+      "backlog": 1.655
+    },
+    {
+      "seed": 12,
+      "trajectory": 13,
+      "group": "llm_library",
+      "cost": 12.891666666666667,
+      "backlog": 1.655
+    },
+    {
+      "seed": 12,
+      "trajectory": 13,
+      "group": "random_screen",
+      "cost": 12.84,
+      "backlog": 1.635
+    },
+    {
+      "seed": 12,
+      "trajectory": 14,
+      "group": "happo",
+      "cost": 22.92,
+      "backlog": 32.985
+    },
+    {
+      "seed": 12,
+      "trajectory": 14,
+      "group": "llm_library",
+      "cost": 23.211666666666666,
+      "backlog": 32.74
+    },
+    {
+      "seed": 12,
+      "trajectory": 14,
+      "group": "random_screen",
+      "cost": 20.161666666666665,
+      "backlog": 29.75
+    },
+    {
+      "seed": 12,
+      "trajectory": 15,
+      "group": "happo",
+      "cost": 14.273333333333333,
+      "backlog": 4.24
+    },
+    {
+      "seed": 12,
+      "trajectory": 15,
+      "group": "llm_library",
+      "cost": 14.388333333333334,
+      "backlog": 4.145
+    },
+    {
+      "seed": 12,
+      "trajectory": 15,
+      "group": "random_screen",
+      "cost": 14.751666666666667,
+      "backlog": 3.555
+    },
+    {
+      "seed": 12,
+      "trajectory": 16,
+      "group": "happo",
+      "cost": 26.018333333333334,
+      "backlog": 30.085
+    },
+    {
+      "seed": 12,
+      "trajectory": 16,
+      "group": "llm_library",
+      "cost": 27.135,
+      "backlog": 30.755
+    },
+    {
+      "seed": 12,
+      "trajectory": 16,
+      "group": "random_screen",
+      "cost": 24.27166666666667,
+      "backlog": 29.845
+    },
+    {
+      "seed": 12,
+      "trajectory": 17,
+      "group": "happo",
+      "cost": 36.388333333333335,
+      "backlog": 74.105
+    },
+    {
+      "seed": 12,
+      "trajectory": 17,
+      "group": "llm_library",
+      "cost": 36.233333333333334,
+      "backlog": 74.03
+    },
+    {
+      "seed": 12,
+      "trajectory": 17,
+      "group": "random_screen",
+      "cost": 30.245,
+      "backlog": 68.74
+    },
+    {
+      "seed": 12,
+      "trajectory": 18,
+      "group": "happo",
+      "cost": 18.405,
+      "backlog": 9.82
+    },
+    {
+      "seed": 12,
+      "trajectory": 18,
+      "group": "llm_library",
+      "cost": 18.453333333333333,
+      "backlog": 10.445
+    },
+    {
+      "seed": 12,
+      "trajectory": 18,
+      "group": "random_screen",
+      "cost": 17.201666666666668,
+      "backlog": 8.92
+    },
+    {
+      "seed": 12,
+      "trajectory": 19,
+      "group": "happo",
+      "cost": 19.631666666666668,
+      "backlog": 19.87
+    },
+    {
+      "seed": 12,
+      "trajectory": 19,
+      "group": "llm_library",
+      "cost": 20.718333333333334,
+      "backlog": 22.67
+    },
+    {
+      "seed": 12,
+      "trajectory": 19,
+      "group": "random_screen",
+      "cost": 16.425,
+      "backlog": 14.27
+    },
+    {
+      "seed": 13,
+      "trajectory": 0,
+      "group": "happo",
+      "cost": 18.121666666666666,
+      "backlog": 9.645
+    },
+    {
+      "seed": 13,
+      "trajectory": 0,
+      "group": "llm_library",
+      "cost": 18.078333333333333,
+      "backlog": 9.645
+    },
+    {
+      "seed": 13,
+      "trajectory": 0,
+      "group": "random_screen",
+      "cost": 19.183333333333334,
+      "backlog": 11.37
+    },
+    {
+      "seed": 13,
+      "trajectory": 1,
+      "group": "happo",
+      "cost": 23.393333333333334,
+      "backlog": 27.675
+    },
+    {
+      "seed": 13,
+      "trajectory": 1,
+      "group": "llm_library",
+      "cost": 23.358333333333334,
+      "backlog": 27.675
+    },
+    {
+      "seed": 13,
+      "trajectory": 1,
+      "group": "random_screen",
+      "cost": 23.405,
+      "backlog": 26.325
+    },
+    {
+      "seed": 13,
+      "trajectory": 2,
+      "group": "happo",
+      "cost": 14.87,
+      "backlog": 4.3
+    },
+    {
+      "seed": 13,
+      "trajectory": 2,
+      "group": "llm_library",
+      "cost": 15.798333333333334,
+      "backlog": 2.7
+    },
+    {
+      "seed": 13,
+      "trajectory": 2,
+      "group": "random_screen",
+      "cost": 16.161666666666665,
+      "backlog": 3.365
+    },
+    {
+      "seed": 13,
+      "trajectory": 3,
+      "group": "happo",
+      "cost": 15.601666666666667,
+      "backlog": 8.08
+    },
+    {
+      "seed": 13,
+      "trajectory": 3,
+      "group": "llm_library",
+      "cost": 15.556666666666667,
+      "backlog": 8.155
+    },
+    {
+      "seed": 13,
+      "trajectory": 3,
+      "group": "random_screen",
+      "cost": 15.715,
+      "backlog": 7.84
+    },
+    {
+      "seed": 13,
+      "trajectory": 4,
+      "group": "happo",
+      "cost": 18.43,
+      "backlog": 16.22
+    },
+    {
+      "seed": 13,
+      "trajectory": 4,
+      "group": "llm_library",
+      "cost": 19.671666666666667,
+      "backlog": 18.32
+    },
+    {
+      "seed": 13,
+      "trajectory": 4,
+      "group": "random_screen",
+      "cost": 18.31833333333333,
+      "backlog": 16.425
+    },
+    {
+      "seed": 13,
+      "trajectory": 5,
+      "group": "happo",
+      "cost": 59.733333333333334,
+      "backlog": 159.925
+    },
+    {
+      "seed": 13,
+      "trajectory": 5,
+      "group": "llm_library",
+      "cost": 59.733333333333334,
+      "backlog": 159.925
+    },
+    {
+      "seed": 13,
+      "trajectory": 5,
+      "group": "random_screen",
+      "cost": 58.95166666666667,
+      "backlog": 156.68
+    },
+    {
+      "seed": 13,
+      "trajectory": 6,
+      "group": "happo",
+      "cost": 14.863333333333333,
+      "backlog": 0.815
+    },
+    {
+      "seed": 13,
+      "trajectory": 6,
+      "group": "llm_library",
+      "cost": 15.161666666666667,
+      "backlog": 1.01
+    },
+    {
+      "seed": 13,
+      "trajectory": 6,
+      "group": "random_screen",
+      "cost": 14.556666666666667,
+      "backlog": 0.76
+    },
+    {
+      "seed": 13,
+      "trajectory": 7,
+      "group": "happo",
+      "cost": 27.898333333333333,
+      "backlog": 34.725
+    },
+    {
+      "seed": 13,
+      "trajectory": 7,
+      "group": "llm_library",
+      "cost": 27.856666666666666,
+      "backlog": 34.725
+    },
+    {
+      "seed": 13,
+      "trajectory": 7,
+      "group": "random_screen",
+      "cost": 27.238333333333333,
+      "backlog": 33.675
+    },
+    {
+      "seed": 13,
+      "trajectory": 8,
+      "group": "happo",
+      "cost": 16.06,
+      "backlog": 1.46
+    },
+    {
+      "seed": 13,
+      "trajectory": 8,
+      "group": "llm_library",
+      "cost": 15.988333333333333,
+      "backlog": 1.46
+    },
+    {
+      "seed": 13,
+      "trajectory": 8,
+      "group": "random_screen",
+      "cost": 16.05666666666667,
+      "backlog": 1.46
+    },
+    {
+      "seed": 13,
+      "trajectory": 9,
+      "group": "happo",
+      "cost": 17.093333333333334,
+      "backlog": 1.745
+    },
+    {
+      "seed": 13,
+      "trajectory": 9,
+      "group": "llm_library",
+      "cost": 14.683333333333334,
+      "backlog": 1.67
+    },
+    {
+      "seed": 13,
+      "trajectory": 9,
+      "group": "random_screen",
+      "cost": 15.228333333333333,
+      "backlog": 1.665
+    },
+    {
+      "seed": 13,
+      "trajectory": 10,
+      "group": "happo",
+      "cost": 23.156666666666666,
+      "backlog": 8.3
+    },
+    {
+      "seed": 13,
+      "trajectory": 10,
+      "group": "llm_library",
+      "cost": 22.911666666666665,
+      "backlog": 8.325
+    },
+    {
+      "seed": 13,
+      "trajectory": 10,
+      "group": "random_screen",
+      "cost": 25.123333333333335,
+      "backlog": 7.9
+    },
+    {
+      "seed": 13,
+      "trajectory": 11,
+      "group": "happo",
+      "cost": 16.458333333333332,
+      "backlog": 8.58
+    },
+    {
+      "seed": 13,
+      "trajectory": 11,
+      "group": "llm_library",
+      "cost": 15.815,
+      "backlog": 8.67
+    },
+    {
+      "seed": 13,
+      "trajectory": 11,
+      "group": "random_screen",
+      "cost": 16.611666666666668,
+      "backlog": 8.18
+    },
+    {
+      "seed": 13,
+      "trajectory": 12,
+      "group": "happo",
+      "cost": 16.45,
+      "backlog": 2.145
+    },
+    {
+      "seed": 13,
+      "trajectory": 12,
+      "group": "llm_library",
+      "cost": 15.763333333333334,
+      "backlog": 2.145
+    },
+    {
+      "seed": 13,
+      "trajectory": 12,
+      "group": "random_screen",
+      "cost": 15.51,
+      "backlog": 2.15
+    },
+    {
+      "seed": 13,
+      "trajectory": 13,
+      "group": "happo",
+      "cost": 13.763333333333334,
+      "backlog": 0.45
+    },
+    {
+      "seed": 13,
+      "trajectory": 13,
+      "group": "llm_library",
+      "cost": 15.05,
+      "backlog": 0.63
+    },
+    {
+      "seed": 13,
+      "trajectory": 13,
+      "group": "random_screen",
+      "cost": 14.035,
+      "backlog": 0.54
+    },
+    {
+      "seed": 13,
+      "trajectory": 14,
+      "group": "happo",
+      "cost": 29.876666666666665,
+      "backlog": 49.215
+    },
+    {
+      "seed": 13,
+      "trajectory": 14,
+      "group": "llm_library",
+      "cost": 29.876666666666665,
+      "backlog": 49.215
+    },
+    {
+      "seed": 13,
+      "trajectory": 14,
+      "group": "random_screen",
+      "cost": 27.88,
+      "backlog": 47.405
+    },
+    {
+      "seed": 13,
+      "trajectory": 15,
+      "group": "happo",
+      "cost": 16.23,
+      "backlog": 3.58
+    },
+    {
+      "seed": 13,
+      "trajectory": 15,
+      "group": "llm_library",
+      "cost": 16.035,
+      "backlog": 3.59
+    },
+    {
+      "seed": 13,
+      "trajectory": 15,
+      "group": "random_screen",
+      "cost": 16.288333333333334,
+      "backlog": 3.58
+    },
+    {
+      "seed": 13,
+      "trajectory": 16,
+      "group": "happo",
+      "cost": 23.696666666666665,
+      "backlog": 22.63
+    },
+    {
+      "seed": 13,
+      "trajectory": 16,
+      "group": "llm_library",
+      "cost": 24.60333333333333,
+      "backlog": 24.75
+    },
+    {
+      "seed": 13,
+      "trajectory": 16,
+      "group": "random_screen",
+      "cost": 22.436666666666667,
+      "backlog": 21.815
+    },
+    {
+      "seed": 13,
+      "trajectory": 17,
+      "group": "happo",
+      "cost": 62.265,
+      "backlog": 172.825
+    },
+    {
+      "seed": 13,
+      "trajectory": 17,
+      "group": "llm_library",
+      "cost": 62.265,
+      "backlog": 172.825
+    },
+    {
+      "seed": 13,
+      "trajectory": 17,
+      "group": "random_screen",
+      "cost": 62.265,
+      "backlog": 172.825
+    },
+    {
+      "seed": 13,
+      "trajectory": 18,
+      "group": "happo",
+      "cost": 18.933333333333334,
+      "backlog": 9.92
+    },
+    {
+      "seed": 13,
+      "trajectory": 18,
+      "group": "llm_library",
+      "cost": 19.315,
+      "backlog": 11.165
+    },
+    {
+      "seed": 13,
+      "trajectory": 18,
+      "group": "random_screen",
+      "cost": 17.336666666666666,
+      "backlog": 8.94
+    },
+    {
+      "seed": 13,
+      "trajectory": 19,
+      "group": "happo",
+      "cost": 22.171666666666667,
+      "backlog": 23.87
+    },
+    {
+      "seed": 13,
+      "trajectory": 19,
+      "group": "llm_library",
+      "cost": 22.18166666666667,
+      "backlog": 24.7
+    },
+    {
+      "seed": 13,
+      "trajectory": 19,
+      "group": "random_screen",
+      "cost": 20.635,
+      "backlog": 22.74
+    },
+    {
+      "seed": 14,
+      "trajectory": 0,
+      "group": "happo",
+      "cost": 18.233333333333334,
+      "backlog": 11.63
+    },
+    {
+      "seed": 14,
+      "trajectory": 0,
+      "group": "llm_library",
+      "cost": 17.588333333333335,
+      "backlog": 12.485
+    },
+    {
+      "seed": 14,
+      "trajectory": 0,
+      "group": "random_screen",
+      "cost": 16.81,
+      "backlog": 10.59
+    },
+    {
+      "seed": 14,
+      "trajectory": 1,
+      "group": "happo",
+      "cost": 24.483333333333334,
+      "backlog": 18.925
+    },
+    {
+      "seed": 14,
+      "trajectory": 1,
+      "group": "llm_library",
+      "cost": 24.483333333333334,
+      "backlog": 18.925
+    },
+    {
+      "seed": 14,
+      "trajectory": 1,
+      "group": "random_screen",
+      "cost": 23.321666666666665,
+      "backlog": 18.655
+    },
+    {
+      "seed": 14,
+      "trajectory": 2,
+      "group": "happo",
+      "cost": 15.398333333333333,
+      "backlog": 7.8
+    },
+    {
+      "seed": 14,
+      "trajectory": 2,
+      "group": "llm_library",
+      "cost": 15.475,
+      "backlog": 7.115
+    },
+    {
+      "seed": 14,
+      "trajectory": 2,
+      "group": "random_screen",
+      "cost": 14.108333333333333,
+      "backlog": 6.95
+    },
+    {
+      "seed": 14,
+      "trajectory": 3,
+      "group": "happo",
+      "cost": 23.98,
+      "backlog": 15.565
+    },
+    {
+      "seed": 14,
+      "trajectory": 3,
+      "group": "llm_library",
+      "cost": 28.121666666666666,
+      "backlog": 17.8
+    },
+    {
+      "seed": 14,
+      "trajectory": 3,
+      "group": "random_screen",
+      "cost": 15.348333333333333,
+      "backlog": 9.34
+    },
+    {
+      "seed": 14,
+      "trajectory": 4,
+      "group": "happo",
+      "cost": 20.758333333333333,
+      "backlog": 18.45
+    },
+    {
+      "seed": 14,
+      "trajectory": 4,
+      "group": "llm_library",
+      "cost": 20.733333333333334,
+      "backlog": 18.45
+    },
+    {
+      "seed": 14,
+      "trajectory": 4,
+      "group": "random_screen",
+      "cost": 20.623333333333335,
+      "backlog": 17.95
+    },
+    {
+      "seed": 14,
+      "trajectory": 5,
+      "group": "happo",
+      "cost": 45.73,
+      "backlog": 103.595
+    },
+    {
+      "seed": 14,
+      "trajectory": 5,
+      "group": "llm_library",
+      "cost": 45.6,
+      "backlog": 103.16
+    },
+    {
+      "seed": 14,
+      "trajectory": 5,
+      "group": "random_screen",
+      "cost": 45.013333333333335,
+      "backlog": 107.835
+    },
+    {
+      "seed": 14,
+      "trajectory": 6,
+      "group": "happo",
+      "cost": 12.965,
+      "backlog": 1.865
+    },
+    {
+      "seed": 14,
+      "trajectory": 6,
+      "group": "llm_library",
+      "cost": 12.688333333333333,
+      "backlog": 1.865
+    },
+    {
+      "seed": 14,
+      "trajectory": 6,
+      "group": "random_screen",
+      "cost": 10.655,
+      "backlog": 1.99
+    },
+    {
+      "seed": 14,
+      "trajectory": 7,
+      "group": "happo",
+      "cost": 22.041666666666668,
+      "backlog": 15.52
+    },
+    {
+      "seed": 14,
+      "trajectory": 7,
+      "group": "llm_library",
+      "cost": 20.435,
+      "backlog": 15.54
+    },
+    {
+      "seed": 14,
+      "trajectory": 7,
+      "group": "random_screen",
+      "cost": 20.923333333333332,
+      "backlog": 15.385
+    },
+    {
+      "seed": 14,
+      "trajectory": 8,
+      "group": "happo",
+      "cost": 13.338333333333333,
+      "backlog": 1.46
+    },
+    {
+      "seed": 14,
+      "trajectory": 8,
+      "group": "llm_library",
+      "cost": 13.55,
+      "backlog": 1.4
+    },
+    {
+      "seed": 14,
+      "trajectory": 8,
+      "group": "random_screen",
+      "cost": 13.338333333333333,
+      "backlog": 1.46
+    },
+    {
+      "seed": 14,
+      "trajectory": 9,
+      "group": "happo",
+      "cost": 15.998333333333333,
+      "backlog": 5.44
+    },
+    {
+      "seed": 14,
+      "trajectory": 9,
+      "group": "llm_library",
+      "cost": 13.858333333333333,
+      "backlog": 5.05
+    },
+    {
+      "seed": 14,
+      "trajectory": 9,
+      "group": "random_screen",
+      "cost": 14.365,
+      "backlog": 4.405
+    },
+    {
+      "seed": 14,
+      "trajectory": 10,
+      "group": "happo",
+      "cost": 17.188333333333333,
+      "backlog": 10.03
+    },
+    {
+      "seed": 14,
+      "trajectory": 10,
+      "group": "llm_library",
+      "cost": 17.188333333333333,
+      "backlog": 10.03
+    },
+    {
+      "seed": 14,
+      "trajectory": 10,
+      "group": "random_screen",
+      "cost": 17.248333333333335,
+      "backlog": 9.715
+    },
+    {
+      "seed": 14,
+      "trajectory": 11,
+      "group": "happo",
+      "cost": 26.09,
+      "backlog": 21.525
+    },
+    {
+      "seed": 14,
+      "trajectory": 11,
+      "group": "llm_library",
+      "cost": 27.631666666666668,
+      "backlog": 22.81
+    },
+    {
+      "seed": 14,
+      "trajectory": 11,
+      "group": "random_screen",
+      "cost": 27.088333333333335,
+      "backlog": 22.1
+    },
+    {
+      "seed": 14,
+      "trajectory": 12,
+      "group": "happo",
+      "cost": 12.248333333333333,
+      "backlog": 2.63
+    },
+    {
+      "seed": 14,
+      "trajectory": 12,
+      "group": "llm_library",
+      "cost": 12.058333333333334,
+      "backlog": 2.63
+    },
+    {
+      "seed": 14,
+      "trajectory": 12,
+      "group": "random_screen",
+      "cost": 12.226666666666667,
+      "backlog": 2.63
+    },
+    {
+      "seed": 14,
+      "trajectory": 13,
+      "group": "happo",
+      "cost": 12.236666666666666,
+      "backlog": 2.6
+    },
+    {
+      "seed": 14,
+      "trajectory": 13,
+      "group": "llm_library",
+      "cost": 11.096666666666666,
+      "backlog": 2.355
+    },
+    {
+      "seed": 14,
+      "trajectory": 13,
+      "group": "random_screen",
+      "cost": 11.338333333333333,
+      "backlog": 2.285
+    },
+    {
+      "seed": 14,
+      "trajectory": 14,
+      "group": "happo",
+      "cost": 23.07,
+      "backlog": 22.315
+    },
+    {
+      "seed": 14,
+      "trajectory": 14,
+      "group": "llm_library",
+      "cost": 23.07,
+      "backlog": 22.315
+    },
+    {
+      "seed": 14,
+      "trajectory": 14,
+      "group": "random_screen",
+      "cost": 21.013333333333332,
+      "backlog": 22.485
+    },
+    {
+      "seed": 14,
+      "trajectory": 15,
+      "group": "happo",
+      "cost": 16.278333333333332,
+      "backlog": 4.275
+    },
+    {
+      "seed": 14,
+      "trajectory": 15,
+      "group": "llm_library",
+      "cost": 16.278333333333332,
+      "backlog": 4.275
+    },
+    {
+      "seed": 14,
+      "trajectory": 15,
+      "group": "random_screen",
+      "cost": 15.345,
+      "backlog": 4.17
+    },
+    {
+      "seed": 14,
+      "trajectory": 16,
+      "group": "happo",
+      "cost": 25.361666666666668,
+      "backlog": 23.41
+    },
+    {
+      "seed": 14,
+      "trajectory": 16,
+      "group": "llm_library",
+      "cost": 25.283333333333335,
+      "backlog": 23.475
+    },
+    {
+      "seed": 14,
+      "trajectory": 16,
+      "group": "random_screen",
+      "cost": 25.155,
+      "backlog": 23.875
+    },
+    {
+      "seed": 14,
+      "trajectory": 17,
+      "group": "happo",
+      "cost": 31.783333333333335,
+      "backlog": 70.805
+    },
+    {
+      "seed": 14,
+      "trajectory": 17,
+      "group": "llm_library",
+      "cost": 31.208333333333332,
+      "backlog": 70.805
+    },
+    {
+      "seed": 14,
+      "trajectory": 17,
+      "group": "random_screen",
+      "cost": 31.196666666666665,
+      "backlog": 76.19
+    },
+    {
+      "seed": 14,
+      "trajectory": 18,
+      "group": "happo",
+      "cost": 17.968333333333334,
+      "backlog": 10.14
+    },
+    {
+      "seed": 14,
+      "trajectory": 18,
+      "group": "llm_library",
+      "cost": 17.968333333333334,
+      "backlog": 10.14
+    },
+    {
+      "seed": 14,
+      "trajectory": 18,
+      "group": "random_screen",
+      "cost": 15.163333333333334,
+      "backlog": 8.76
+    },
+    {
+      "seed": 14,
+      "trajectory": 19,
+      "group": "happo",
+      "cost": 18.756666666666668,
+      "backlog": 14.92
+    },
+    {
+      "seed": 14,
+      "trajectory": 19,
+      "group": "llm_library",
+      "cost": 22.051666666666666,
+      "backlog": 19.09
+    },
+    {
+      "seed": 14,
+      "trajectory": 19,
+      "group": "random_screen",
+      "cost": 18.308333333333334,
+      "backlog": 17.29
+    },
+    {
+      "seed": 15,
+      "trajectory": 0,
+      "group": "happo",
+      "cost": 22.083333333333332,
+      "backlog": 15.35
+    },
+    {
+      "seed": 15,
+      "trajectory": 0,
+      "group": "llm_library",
+      "cost": 20.545,
+      "backlog": 14.975
+    },
+    {
+      "seed": 15,
+      "trajectory": 0,
+      "group": "random_screen",
+      "cost": 18.855,
+      "backlog": 15.275
+    },
+    {
+      "seed": 15,
+      "trajectory": 1,
+      "group": "happo",
+      "cost": 23.27,
+      "backlog": 21.015
+    },
+    {
+      "seed": 15,
+      "trajectory": 1,
+      "group": "llm_library",
+      "cost": 24.155,
+      "backlog": 21.175
+    },
+    {
+      "seed": 15,
+      "trajectory": 1,
+      "group": "random_screen",
+      "cost": 22.43166666666667,
+      "backlog": 20.99
+    },
+    {
+      "seed": 15,
+      "trajectory": 2,
+      "group": "happo",
+      "cost": 12.561666666666667,
+      "backlog": 5.675
+    },
+    {
+      "seed": 15,
+      "trajectory": 2,
+      "group": "llm_library",
+      "cost": 12.655,
+      "backlog": 5.735
+    },
+    {
+      "seed": 15,
+      "trajectory": 2,
+      "group": "random_screen",
+      "cost": 13.201666666666666,
+      "backlog": 5.18
+    },
+    {
+      "seed": 15,
+      "trajectory": 3,
+      "group": "happo",
+      "cost": 20.138333333333332,
+      "backlog": 12.665
+    },
+    {
+      "seed": 15,
+      "trajectory": 3,
+      "group": "llm_library",
+      "cost": 18.986666666666668,
+      "backlog": 11.355
+    },
+    {
+      "seed": 15,
+      "trajectory": 3,
+      "group": "random_screen",
+      "cost": 18.918333333333333,
+      "backlog": 11.855
+    },
+    {
+      "seed": 15,
+      "trajectory": 4,
+      "group": "happo",
+      "cost": 19.28,
+      "backlog": 21.375
+    },
+    {
+      "seed": 15,
+      "trajectory": 4,
+      "group": "llm_library",
+      "cost": 18.85,
+      "backlog": 21.66
+    },
+    {
+      "seed": 15,
+      "trajectory": 4,
+      "group": "random_screen",
+      "cost": 18.571666666666665,
+      "backlog": 21.015
+    },
+    {
+      "seed": 15,
+      "trajectory": 5,
+      "group": "happo",
+      "cost": 45.79666666666667,
+      "backlog": 104.02
+    },
+    {
+      "seed": 15,
+      "trajectory": 5,
+      "group": "llm_library",
+      "cost": 45.093333333333334,
+      "backlog": 104.02
+    },
+    {
+      "seed": 15,
+      "trajectory": 5,
+      "group": "random_screen",
+      "cost": 35.74666666666667,
+      "backlog": 87.63
+    },
+    {
+      "seed": 15,
+      "trajectory": 6,
+      "group": "happo",
+      "cost": 12.343333333333334,
+      "backlog": 2.52
+    },
+    {
+      "seed": 15,
+      "trajectory": 6,
+      "group": "llm_library",
+      "cost": 12.06,
+      "backlog": 2.265
+    },
+    {
+      "seed": 15,
+      "trajectory": 6,
+      "group": "random_screen",
+      "cost": 12.983333333333333,
+      "backlog": 2.295
+    },
+    {
+      "seed": 15,
+      "trajectory": 7,
+      "group": "happo",
+      "cost": 22.831666666666667,
+      "backlog": 18.125
+    },
+    {
+      "seed": 15,
+      "trajectory": 7,
+      "group": "llm_library",
+      "cost": 19.125,
+      "backlog": 18.17
+    },
+    {
+      "seed": 15,
+      "trajectory": 7,
+      "group": "random_screen",
+      "cost": 20.033333333333335,
+      "backlog": 18.26
+    },
+    {
+      "seed": 15,
+      "trajectory": 8,
+      "group": "happo",
+      "cost": 19.111666666666668,
+      "backlog": 1.855
+    },
+    {
+      "seed": 15,
+      "trajectory": 8,
+      "group": "llm_library",
+      "cost": 18.988333333333333,
+      "backlog": 1.755
+    },
+    {
+      "seed": 15,
+      "trajectory": 8,
+      "group": "random_screen",
+      "cost": 19.085,
+      "backlog": 1.855
+    },
+    {
+      "seed": 15,
+      "trajectory": 9,
+      "group": "happo",
+      "cost": 14.973333333333333,
+      "backlog": 3.075
+    },
+    {
+      "seed": 15,
+      "trajectory": 9,
+      "group": "llm_library",
+      "cost": 14.113333333333333,
+      "backlog": 2.44
+    },
+    {
+      "seed": 15,
+      "trajectory": 9,
+      "group": "random_screen",
+      "cost": 14.518333333333333,
+      "backlog": 2.3
+    },
+    {
+      "seed": 15,
+      "trajectory": 10,
+      "group": "happo",
+      "cost": 18.566666666666666,
+      "backlog": 9.005
+    },
+    {
+      "seed": 15,
+      "trajectory": 10,
+      "group": "llm_library",
+      "cost": 21.376666666666665,
+      "backlog": 9.54
+    },
+    {
+      "seed": 15,
+      "trajectory": 10,
+      "group": "random_screen",
+      "cost": 22.991666666666667,
+      "backlog": 10.12
+    },
+    {
+      "seed": 15,
+      "trajectory": 11,
+      "group": "happo",
+      "cost": 19.926666666666666,
+      "backlog": 14.585
+    },
+    {
+      "seed": 15,
+      "trajectory": 11,
+      "group": "llm_library",
+      "cost": 19.975,
+      "backlog": 15.455
+    },
+    {
+      "seed": 15,
+      "trajectory": 11,
+      "group": "random_screen",
+      "cost": 19.908333333333335,
+      "backlog": 14.585
+    },
+    {
+      "seed": 15,
+      "trajectory": 12,
+      "group": "happo",
+      "cost": 13.273333333333333,
+      "backlog": 4.38
+    },
+    {
+      "seed": 15,
+      "trajectory": 12,
+      "group": "llm_library",
+      "cost": 13.323333333333334,
+      "backlog": 4.3
+    },
+    {
+      "seed": 15,
+      "trajectory": 12,
+      "group": "random_screen",
+      "cost": 12.401666666666667,
+      "backlog": 3.56
+    },
+    {
+      "seed": 15,
+      "trajectory": 13,
+      "group": "happo",
+      "cost": 11.36,
+      "backlog": 1.63
+    },
+    {
+      "seed": 15,
+      "trajectory": 13,
+      "group": "llm_library",
+      "cost": 11.36,
+      "backlog": 1.63
+    },
+    {
+      "seed": 15,
+      "trajectory": 13,
+      "group": "random_screen",
+      "cost": 10.9,
+      "backlog": 1.73
+    },
+    {
+      "seed": 15,
+      "trajectory": 14,
+      "group": "happo",
+      "cost": 23.211666666666666,
+      "backlog": 30.4
+    },
+    {
+      "seed": 15,
+      "trajectory": 14,
+      "group": "llm_library",
+      "cost": 22.776666666666667,
+      "backlog": 30.155
+    },
+    {
+      "seed": 15,
+      "trajectory": 14,
+      "group": "random_screen",
+      "cost": 19.89666666666667,
+      "backlog": 28.365
+    },
+    {
+      "seed": 15,
+      "trajectory": 15,
+      "group": "happo",
+      "cost": 14.456666666666667,
+      "backlog": 4.745
+    },
+    {
+      "seed": 15,
+      "trajectory": 15,
+      "group": "llm_library",
+      "cost": 13.738333333333333,
+      "backlog": 4.565
+    },
+    {
+      "seed": 15,
+      "trajectory": 15,
+      "group": "random_screen",
+      "cost": 13.925,
+      "backlog": 4.66
+    },
+    {
+      "seed": 15,
+      "trajectory": 16,
+      "group": "happo",
+      "cost": 22.503333333333334,
+      "backlog": 24.505
+    },
+    {
+      "seed": 15,
+      "trajectory": 16,
+      "group": "llm_library",
+      "cost": 21.551666666666666,
+      "backlog": 22.32
+    },
+    {
+      "seed": 15,
+      "trajectory": 16,
+      "group": "random_screen",
+      "cost": 20.461666666666666,
+      "backlog": 21.49
+    },
+    {
+      "seed": 15,
+      "trajectory": 17,
+      "group": "happo",
+      "cost": 34.88333333333333,
+      "backlog": 84.425
+    },
+    {
+      "seed": 15,
+      "trajectory": 17,
+      "group": "llm_library",
+      "cost": 34.08833333333333,
+      "backlog": 84.425
+    },
+    {
+      "seed": 15,
+      "trajectory": 17,
+      "group": "random_screen",
+      "cost": 29.54,
+      "backlog": 70.58
+    },
+    {
+      "seed": 15,
+      "trajectory": 18,
+      "group": "happo",
+      "cost": 17.753333333333334,
+      "backlog": 9.0
+    },
+    {
+      "seed": 15,
+      "trajectory": 18,
+      "group": "llm_library",
+      "cost": 17.456666666666667,
+      "backlog": 8.735
+    },
+    {
+      "seed": 15,
+      "trajectory": 18,
+      "group": "random_screen",
+      "cost": 17.633333333333333,
+      "backlog": 9.635
+    },
+    {
+      "seed": 15,
+      "trajectory": 19,
+      "group": "happo",
+      "cost": 21.926666666666666,
+      "backlog": 23.28
+    },
+    {
+      "seed": 15,
+      "trajectory": 19,
+      "group": "llm_library",
+      "cost": 20.18,
+      "backlog": 21.98
+    },
+    {
+      "seed": 15,
+      "trajectory": 19,
+      "group": "random_screen",
+      "cost": 19.35,
+      "backlog": 19.075
+    }
+  ],
+  "sources": [
+    {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\llm_current_v2\\confirmation_new_seed11_batch1",
+      "input_sha256": "c9635e481ecf6af644a7f1c9a253d3e930629ab45ebfe891bdd5b9710a3d5bc7",
+      "model_sha256": "583bd3c2a65b7c99ca1f693e8542e2654a05cc3b51bb198cb5ca4e3b44499192"
+    },
+    {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\llm_current_v2\\confirmation_new_seed11_batch2",
+      "input_sha256": "3eb0ee3e8ca865b6135f27c92df9f60e657461e78cdb0edb534dbb263df4af94",
+      "model_sha256": "583bd3c2a65b7c99ca1f693e8542e2654a05cc3b51bb198cb5ca4e3b44499192"
+    },
+    {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\llm_current_v2\\confirmation_new_seed11_batch3",
+      "input_sha256": "d5b25115075204f89b140260147e9466be2e1c76a90b6b1eab62d9693e843340",
+      "model_sha256": "583bd3c2a65b7c99ca1f693e8542e2654a05cc3b51bb198cb5ca4e3b44499192"
+    },
+    {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\llm_current_v2\\confirmation_new_seed11_batch4",
+      "input_sha256": "46b30e2acbf963b8ba22827790a72c0b6d4b4965ae66fa1763c6b922620330de",
+      "model_sha256": "583bd3c2a65b7c99ca1f693e8542e2654a05cc3b51bb198cb5ca4e3b44499192"
+    },
+    {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\llm_current_v2\\confirmation_new_seed11_batch5",
+      "input_sha256": "e944ddf7cfc366351dceb5e8d1807c6b616db283a43dc06f664e87656c20dda6",
+      "model_sha256": "583bd3c2a65b7c99ca1f693e8542e2654a05cc3b51bb198cb5ca4e3b44499192"
+    },
+    {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\llm_current_v2\\confirmation_new_seed12_batch1",
+      "input_sha256": "c9635e481ecf6af644a7f1c9a253d3e930629ab45ebfe891bdd5b9710a3d5bc7",
+      "model_sha256": "d4ca903d6f13b9b6e25575eadd6e2486701d2b6fd39bea7b7ab61105ec2a4681"
+    },
+    {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\llm_current_v2\\confirmation_new_seed12_batch2",
+      "input_sha256": "3eb0ee3e8ca865b6135f27c92df9f60e657461e78cdb0edb534dbb263df4af94",
+      "model_sha256": "d4ca903d6f13b9b6e25575eadd6e2486701d2b6fd39bea7b7ab61105ec2a4681"
+    },
+    {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\llm_current_v2\\confirmation_new_seed12_batch3",
+      "input_sha256": "d5b25115075204f89b140260147e9466be2e1c76a90b6b1eab62d9693e843340",
+      "model_sha256": "d4ca903d6f13b9b6e25575eadd6e2486701d2b6fd39bea7b7ab61105ec2a4681"
+    },
+    {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\llm_current_v2\\confirmation_new_seed12_batch4",
+      "input_sha256": "46b30e2acbf963b8ba22827790a72c0b6d4b4965ae66fa1763c6b922620330de",
+      "model_sha256": "d4ca903d6f13b9b6e25575eadd6e2486701d2b6fd39bea7b7ab61105ec2a4681"
+    },
+    {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\llm_current_v2\\confirmation_new_seed12_batch5",
+      "input_sha256": "e944ddf7cfc366351dceb5e8d1807c6b616db283a43dc06f664e87656c20dda6",
+      "model_sha256": "d4ca903d6f13b9b6e25575eadd6e2486701d2b6fd39bea7b7ab61105ec2a4681"
+    },
+    {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\llm_current_v2\\confirmation_new_seed13_batch1",
+      "input_sha256": "c9635e481ecf6af644a7f1c9a253d3e930629ab45ebfe891bdd5b9710a3d5bc7",
+      "model_sha256": "86582dd7aeae0c16c0b5c6f4862b8d3ac62988b1927fe4f3526af9ff901b3dd0"
+    },
+    {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\llm_current_v2\\confirmation_new_seed13_batch2",
+      "input_sha256": "3eb0ee3e8ca865b6135f27c92df9f60e657461e78cdb0edb534dbb263df4af94",
+      "model_sha256": "86582dd7aeae0c16c0b5c6f4862b8d3ac62988b1927fe4f3526af9ff901b3dd0"
+    },
+    {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\llm_current_v2\\confirmation_new_seed13_batch3",
+      "input_sha256": "d5b25115075204f89b140260147e9466be2e1c76a90b6b1eab62d9693e843340",
+      "model_sha256": "86582dd7aeae0c16c0b5c6f4862b8d3ac62988b1927fe4f3526af9ff901b3dd0"
+    },
+    {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\llm_current_v2\\confirmation_new_seed13_batch4",
+      "input_sha256": "46b30e2acbf963b8ba22827790a72c0b6d4b4965ae66fa1763c6b922620330de",
+      "model_sha256": "86582dd7aeae0c16c0b5c6f4862b8d3ac62988b1927fe4f3526af9ff901b3dd0"
+    },
+    {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\llm_current_v2\\confirmation_new_seed13_batch5",
+      "input_sha256": "e944ddf7cfc366351dceb5e8d1807c6b616db283a43dc06f664e87656c20dda6",
+      "model_sha256": "86582dd7aeae0c16c0b5c6f4862b8d3ac62988b1927fe4f3526af9ff901b3dd0"
+    },
+    {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\llm_current_v2\\confirmation_new_seed14_batch1",
+      "input_sha256": "c9635e481ecf6af644a7f1c9a253d3e930629ab45ebfe891bdd5b9710a3d5bc7",
+      "model_sha256": "54590e6fba0eeeef7fccc7ac09fd5e22fefbe2d3bff1a2b34feb9d0a900a1c30"
+    },
+    {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\llm_current_v2\\confirmation_new_seed14_batch2",
+      "input_sha256": "3eb0ee3e8ca865b6135f27c92df9f60e657461e78cdb0edb534dbb263df4af94",
+      "model_sha256": "54590e6fba0eeeef7fccc7ac09fd5e22fefbe2d3bff1a2b34feb9d0a900a1c30"
+    },
+    {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\llm_current_v2\\confirmation_new_seed14_batch3",
+      "input_sha256": "d5b25115075204f89b140260147e9466be2e1c76a90b6b1eab62d9693e843340",
+      "model_sha256": "54590e6fba0eeeef7fccc7ac09fd5e22fefbe2d3bff1a2b34feb9d0a900a1c30"
+    },
+    {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\llm_current_v2\\confirmation_new_seed14_batch4",
+      "input_sha256": "46b30e2acbf963b8ba22827790a72c0b6d4b4965ae66fa1763c6b922620330de",
+      "model_sha256": "54590e6fba0eeeef7fccc7ac09fd5e22fefbe2d3bff1a2b34feb9d0a900a1c30"
+    },
+    {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\llm_current_v2\\confirmation_new_seed14_batch5",
+      "input_sha256": "e944ddf7cfc366351dceb5e8d1807c6b616db283a43dc06f664e87656c20dda6",
+      "model_sha256": "54590e6fba0eeeef7fccc7ac09fd5e22fefbe2d3bff1a2b34feb9d0a900a1c30"
+    },
+    {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\llm_current_v2\\confirmation_new_seed15_batch1",
+      "input_sha256": "c9635e481ecf6af644a7f1c9a253d3e930629ab45ebfe891bdd5b9710a3d5bc7",
+      "model_sha256": "c6e966fec9ffdd56192e75b43c0c2c0dd93e815626e19f88f504b7a259e03fe1"
+    },
+    {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\llm_current_v2\\confirmation_new_seed15_batch2",
+      "input_sha256": "3eb0ee3e8ca865b6135f27c92df9f60e657461e78cdb0edb534dbb263df4af94",
+      "model_sha256": "c6e966fec9ffdd56192e75b43c0c2c0dd93e815626e19f88f504b7a259e03fe1"
+    },
+    {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\llm_current_v2\\confirmation_new_seed15_batch3",
+      "input_sha256": "d5b25115075204f89b140260147e9466be2e1c76a90b6b1eab62d9693e843340",
+      "model_sha256": "c6e966fec9ffdd56192e75b43c0c2c0dd93e815626e19f88f504b7a259e03fe1"
+    },
+    {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\llm_current_v2\\confirmation_new_seed15_batch4",
+      "input_sha256": "46b30e2acbf963b8ba22827790a72c0b6d4b4965ae66fa1763c6b922620330de",
+      "model_sha256": "c6e966fec9ffdd56192e75b43c0c2c0dd93e815626e19f88f504b7a259e03fe1"
+    },
+    {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\llm_current_v2\\confirmation_new_seed15_batch5",
+      "input_sha256": "e944ddf7cfc366351dceb5e8d1807c6b616db283a43dc06f664e87656c20dda6",
+      "model_sha256": "c6e966fec9ffdd56192e75b43c0c2c0dd93e815626e19f88f504b7a259e03fe1"
+    }
+  ]
+}

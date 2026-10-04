@@ -1,0 +1,57 @@
+{
+  "candidates": [
+    {
+      "explanation": "Pipeline-aware relaxation with downstream protection. When total pipeline is high relative to recent delivered demand, trim orders modestly, but only if local backlog is low; if backlog is high, add a small amount to protect service. Uses only observed state, no event timing.",
+      "rules": [
+        {
+          "when": "pipeline > 3 * recent and backlog < 1",
+          "delta": "-min(2, max(0, (pipeline - 3 * recent) / 4))"
+        },
+        {
+          "when": "pipeline > 2 * recent and backlog < 2",
+          "delta": "-1"
+        },
+        {
+          "when": "backlog > 2 * recent and pipeline < recent",
+          "delta": "min(2, max(0, backlog / 3 - pipeline / 2))"
+        }
+      ]
+    },
+    {
+      "explanation": "Backlog-service coordination. Raise orders when backlog is large and pipeline is thin, but cap increases; reduce only when pipeline clearly exceeds demand and backlog is zero. Small deltas limit overreaction to miscalibrated forecasts.",
+      "rules": [
+        {
+          "when": "backlog > 2 * recent and pipeline < 1.5 * recent",
+          "delta": "min(2, max(0, backlog / 4))"
+        },
+        {
+          "when": "backlog > 0 and pipeline < recent",
+          "delta": "1"
+        },
+        {
+          "when": "pipeline > 3 * recent and backlog == 0",
+          "delta": "-1"
+        }
+      ]
+    },
+    {
+      "explanation": "Growth-adaptive damping using delayed delivered reports. If recent delivered demand exceeds baseline and pipeline is thin, add a small amount; if pipeline is excessive relative to recent, trim cautiously. Guards avoid division and keep corrections bounded.",
+      "rules": [
+        {
+          "when": "growth > 1.15 and pipeline < recent and backlog > 0",
+          "delta": "min(2, max(0, (growth - 1) * recent - pipeline))"
+        },
+        {
+          "when": "growth < 0.85 and pipeline > 2 * recent and backlog < 1",
+          "delta": "-min(2, max(0, (pipeline - 2 * recent) / 3))"
+        },
+        {
+          "when": "pipeline > 3 * recent and backlog == 0",
+          "delta": "-1"
+        }
+      ]
+    }
+  ],
+  "stage": "current_environment_development",
+  "iteration": 2
+}
