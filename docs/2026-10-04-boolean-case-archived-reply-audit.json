@@ -1,0 +1,6312 @@
+{
+  "no_API": true,
+  "no_environment_rollout": true,
+  "no_performance_counterfactual": true,
+  "input_sha256": {
+    "results\\online_llm\\development_v1\\seed11\\calls.json": "2224090185f175736bcfd463bbdeb93aebaab07243f4c16913d76012ff32a9c6",
+    "results\\online_llm\\development_v1\\seed12\\calls.json": "a26fa25f77ff1eed51a5e066eb6c5acbd250ebb674e07b21089e073b9cd10a9f",
+    "results\\online_llm\\confirmation_v1\\seed11_batch1\\calls.json": "dd1339059ebc55ed7a6a3a468092bae65cd0f7e1b1c9b41ac7b3fb32f62ccda3",
+    "results\\online_llm\\confirmation_v1\\seed11_batch2\\calls.json": "074ec5c707e732e7acf3c45b23c0428faf8029510268f5330d16797c3097cfb6",
+    "results\\online_llm\\confirmation_v1\\seed11_batch3\\calls.json": "6e09df251e92fab678851d116322877a3f616fe6be3b79d971d9ee6c2a9c3b95",
+    "results\\online_llm\\confirmation_v1\\seed11_batch4\\calls.json": "b4644ec58dd111f4eb5c3df8ee492a4576e4ef79a89197b38b2c3f46ecb9bb9a",
+    "results\\online_llm\\confirmation_v1\\seed11_batch5\\calls.json": "5d7b929bc1c293bb21276dca0f41063ad26049a8d3f94a62830814836482acf0",
+    "results\\online_llm\\confirmation_v1\\seed12_batch1\\calls.json": "37f7f69972335da7f1ac4dbaeb6d680d17934994f071d672861f5c0c02ab73fe",
+    "results\\online_llm\\confirmation_v1\\seed12_batch2\\calls.json": "118ec4c0e8f572e2054edb96c4e0885a90d6e185d7282de261905706983aa84a",
+    "results\\online_llm\\confirmation_v1\\seed12_batch3\\calls.json": "a7ee55df97527d7d9ed5b511d332cbe98d1f029c10fac993808d1efe76431750",
+    "results\\online_llm\\confirmation_v1\\seed12_batch4\\calls.json": "05d078bb7d5d11736698c169e93b7d430eab4ccd89f05626fbf16332e1331985",
+    "results\\online_llm\\confirmation_v1\\seed12_batch5\\calls.json": "d85405534ef561fd9dc365c3c0e0bd44cc199fa41d26ad857fc0c7fa70230e5d",
+    "results\\online_llm\\confirmation_v1\\seed13_batch1\\calls.json": "7be22805a86c1bde67fc572b29c8c746659ab6c8dfafce2aae49be3c50c7e7c2",
+    "results\\online_llm\\confirmation_v1\\seed13_batch2\\calls.json": "f2e07d3c78f5390da8eb2aececcd121934f0ff2a9c4027891a896c6a15db5927",
+    "results\\online_llm\\confirmation_v1\\seed13_batch3\\calls.json": "5631ee9c7e33bf9fc20806464da86063af3f235a77ca612328d1c6f0aa8536ff",
+    "results\\online_llm\\confirmation_v1\\seed13_batch4\\calls.json": "73e8bb7d5c039a59f3d1f1c00097403bd8acb05575d7d0a3e33212b1c80add4b",
+    "results\\online_llm\\confirmation_v1\\seed13_batch5\\calls.json": "b220c2274b921b2282d3754620a5254bd19be4bac424ca3c059dba391c64fac0",
+    "results\\online_llm\\confirmation_v1\\seed14_batch1\\calls.json": "8dbcdb3b1c33d9c326d0ed1e658628c73445a7736e9bf314d97dcdcb66c611fa",
+    "results\\online_llm\\confirmation_v1\\seed14_batch2\\calls.json": "02c482360888641efb68466bf3c759f1c10e08d065e281d33703ca4057eb5663",
+    "results\\online_llm\\confirmation_v1\\seed14_batch3\\calls.json": "8b52eb9073ef7d7f8a1049b7375e377497136d232cc4b60536d2e02925c85963",
+    "results\\online_llm\\confirmation_v1\\seed14_batch4\\calls.json": "1b37af4ce8330ad90052903cd1c97361a1c939b2977ae927cd4d10db2ff26752",
+    "results\\online_llm\\confirmation_v1\\seed14_batch5\\calls.json": "6f9f665c0775bd6389926bd31f5ba1bb9919eda648e2e511f5a14a600ff8aa33",
+    "results\\online_llm\\confirmation_v1\\seed15_batch1\\calls.json": "0cb371ca057d53618452621acc42144267c87ebfcabd2613efd3588191b7cc63",
+    "results\\online_llm\\confirmation_v1\\seed15_batch2\\calls.json": "3e928ae390110511fdee7b2c09d3c37b5932e4c8de8d1035982172cecd6d9c90",
+    "results\\online_llm\\confirmation_v1\\seed15_batch3\\calls.json": "22cf312c5fd7c2444df3910a69fb451f63ebcf0facc60309f42e42793c63fbc9",
+    "results\\online_llm\\confirmation_v1\\seed15_batch4\\calls.json": "320facf086820c7f8cb1e49b951766569d66dcc9fcec555ccdc771cadf3686f1",
+    "results\\online_llm\\confirmation_v1\\seed15_batch5\\calls.json": "80d71576ccc0f8f6408f9d8ebcd3cefed5d5b84ce77a761104f605a94ed27358",
+    "results\\online_llm_targeted\\development_v2\\seed11\\calls.json": "b3dba180a3c47e7f9e400f596c96ad651974f1b058e811ab8d2b7b4adfed0a7b",
+    "results\\online_llm_targeted\\development_v2\\seed12\\calls.json": "ed0879fb94ccbe8762946a68688727db404defde51d687fe9616cfc7f0a8edf0",
+    "results\\online_llm_neutral\\development_v3\\seed11\\calls.json": "727d3b520caf9830f8636e03a84faf733d74adebf3a82cd3a50ba9c9b9e6230b",
+    "results\\online_llm_neutral\\development_v3\\seed12\\calls.json": "9bfc53fcd9f2e7df64a6722e6d562954ec04fc8eb9f0125aa80b357baae16789"
+  },
+  "counts": {
+    "candidate_documents": 3186,
+    "originally_valid_AST_identical": 2902,
+    "rescued_boolean_candidates": 209,
+    "unrelated_error_message_identical": 75,
+    "still_invalid_candidates": 75,
+    "responses_without_candidate_document": 1
+  },
+  "rescued": [
+    {
+      "file": "results\\online_llm\\development_v1\\seed11\\calls.json",
+      "call_index": 2,
+      "candidate_index": 0,
+      "group": "online_once",
+      "trace": 1,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\development_v1\\seed11\\calls.json",
+      "call_index": 2,
+      "candidate_index": 1,
+      "group": "online_once",
+      "trace": 1,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\development_v1\\seed11\\calls.json",
+      "call_index": 2,
+      "candidate_index": 2,
+      "group": "online_once",
+      "trace": 1,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\development_v1\\seed11\\calls.json",
+      "call_index": 12,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\development_v1\\seed11\\calls.json",
+      "call_index": 12,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\development_v1\\seed11\\calls.json",
+      "call_index": 12,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\development_v1\\seed11\\calls.json",
+      "call_index": 17,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\development_v1\\seed11\\calls.json",
+      "call_index": 17,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\development_v1\\seed11\\calls.json",
+      "call_index": 17,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\development_v1\\seed11\\calls.json",
+      "call_index": 40,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\development_v1\\seed11\\calls.json",
+      "call_index": 40,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\development_v1\\seed11\\calls.json",
+      "call_index": 43,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\development_v1\\seed11\\calls.json",
+      "call_index": 43,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 1,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\development_v1\\seed12\\calls.json",
+      "call_index": 0,
+      "candidate_index": 0,
+      "group": "online_once",
+      "trace": 0,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 2,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\development_v1\\seed12\\calls.json",
+      "call_index": 0,
+      "candidate_index": 1,
+      "group": "online_once",
+      "trace": 0,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 2,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\development_v1\\seed12\\calls.json",
+      "call_index": 0,
+      "candidate_index": 2,
+      "group": "online_once",
+      "trace": 0,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 2,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\development_v1\\seed12\\calls.json",
+      "call_index": 15,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\development_v1\\seed12\\calls.json",
+      "call_index": 15,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\development_v1\\seed12\\calls.json",
+      "call_index": 15,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\development_v1\\seed12\\calls.json",
+      "call_index": 28,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\development_v1\\seed12\\calls.json",
+      "call_index": 28,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\development_v1\\seed12\\calls.json",
+      "call_index": 28,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\development_v1\\seed12\\calls.json",
+      "call_index": 35,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\development_v1\\seed12\\calls.json",
+      "call_index": 35,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\development_v1\\seed12\\calls.json",
+      "call_index": 35,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed11_batch1\\calls.json",
+      "call_index": 17,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed11_batch1\\calls.json",
+      "call_index": 17,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed11_batch1\\calls.json",
+      "call_index": 17,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed11_batch1\\calls.json",
+      "call_index": 22,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed11_batch1\\calls.json",
+      "call_index": 22,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 2,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed11_batch1\\calls.json",
+      "call_index": 22,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 2,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed11_batch1\\calls.json",
+      "call_index": 25,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed11_batch2\\calls.json",
+      "call_index": 4,
+      "candidate_index": 0,
+      "group": "online_once",
+      "trace": 2,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed11_batch2\\calls.json",
+      "call_index": 4,
+      "candidate_index": 1,
+      "group": "online_once",
+      "trace": 2,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed11_batch2\\calls.json",
+      "call_index": 7,
+      "candidate_index": 0,
+      "group": "online_once",
+      "trace": 3,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed11_batch2\\calls.json",
+      "call_index": 7,
+      "candidate_index": 1,
+      "group": "online_once",
+      "trace": 3,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed11_batch2\\calls.json",
+      "call_index": 7,
+      "candidate_index": 2,
+      "group": "online_once",
+      "trace": 3,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed11_batch2\\calls.json",
+      "call_index": 20,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed11_batch2\\calls.json",
+      "call_index": 20,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed11_batch2\\calls.json",
+      "call_index": 20,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed11_batch3\\calls.json",
+      "call_index": 2,
+      "candidate_index": 0,
+      "group": "online_once",
+      "trace": 1,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed11_batch3\\calls.json",
+      "call_index": 2,
+      "candidate_index": 1,
+      "group": "online_once",
+      "trace": 1,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed11_batch3\\calls.json",
+      "call_index": 2,
+      "candidate_index": 2,
+      "group": "online_once",
+      "trace": 1,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed11_batch3\\calls.json",
+      "call_index": 5,
+      "candidate_index": 0,
+      "group": "online_once",
+      "trace": 2,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 2,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed11_batch3\\calls.json",
+      "call_index": 5,
+      "candidate_index": 1,
+      "group": "online_once",
+      "trace": 2,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 2,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed11_batch3\\calls.json",
+      "call_index": 5,
+      "candidate_index": 2,
+      "group": "online_once",
+      "trace": 2,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed11_batch3\\calls.json",
+      "call_index": 36,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed11_batch3\\calls.json",
+      "call_index": 36,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed11_batch3\\calls.json",
+      "call_index": 36,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed11_batch4\\calls.json",
+      "call_index": 10,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed11_batch4\\calls.json",
+      "call_index": 10,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed11_batch4\\calls.json",
+      "call_index": 10,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed11_batch5\\calls.json",
+      "call_index": 13,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed11_batch5\\calls.json",
+      "call_index": 13,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed11_batch5\\calls.json",
+      "call_index": 13,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 2,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed11_batch5\\calls.json",
+      "call_index": 20,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed11_batch5\\calls.json",
+      "call_index": 20,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed11_batch5\\calls.json",
+      "call_index": 20,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed11_batch5\\calls.json",
+      "call_index": 37,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed11_batch5\\calls.json",
+      "call_index": 37,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed11_batch5\\calls.json",
+      "call_index": 37,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed12_batch1\\calls.json",
+      "call_index": 10,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed12_batch1\\calls.json",
+      "call_index": 10,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 2,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed12_batch1\\calls.json",
+      "call_index": 10,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed12_batch1\\calls.json",
+      "call_index": 15,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed12_batch1\\calls.json",
+      "call_index": 15,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed12_batch1\\calls.json",
+      "call_index": 15,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed12_batch1\\calls.json",
+      "call_index": 24,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed12_batch1\\calls.json",
+      "call_index": 24,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed12_batch1\\calls.json",
+      "call_index": 24,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed12_batch1\\calls.json",
+      "call_index": 31,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed12_batch1\\calls.json",
+      "call_index": 42,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed12_batch1\\calls.json",
+      "call_index": 42,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 2,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed12_batch1\\calls.json",
+      "call_index": 42,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 2,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed12_batch2\\calls.json",
+      "call_index": 16,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed12_batch2\\calls.json",
+      "call_index": 16,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed12_batch2\\calls.json",
+      "call_index": 16,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed12_batch2\\calls.json",
+      "call_index": 29,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed12_batch2\\calls.json",
+      "call_index": 29,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 2,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed12_batch2\\calls.json",
+      "call_index": 29,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 2,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed12_batch2\\calls.json",
+      "call_index": 39,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 3,
+      "stage": "revision",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed12_batch3\\calls.json",
+      "call_index": 4,
+      "candidate_index": 0,
+      "group": "online_once",
+      "trace": 2,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed12_batch3\\calls.json",
+      "call_index": 4,
+      "candidate_index": 1,
+      "group": "online_once",
+      "trace": 2,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed12_batch3\\calls.json",
+      "call_index": 4,
+      "candidate_index": 2,
+      "group": "online_once",
+      "trace": 2,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 2,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed12_batch3\\calls.json",
+      "call_index": 27,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed12_batch3\\calls.json",
+      "call_index": 27,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed12_batch3\\calls.json",
+      "call_index": 27,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed12_batch4\\calls.json",
+      "call_index": 2,
+      "candidate_index": 0,
+      "group": "online_once",
+      "trace": 1,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed12_batch4\\calls.json",
+      "call_index": 2,
+      "candidate_index": 1,
+      "group": "online_once",
+      "trace": 1,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed12_batch4\\calls.json",
+      "call_index": 2,
+      "candidate_index": 2,
+      "group": "online_once",
+      "trace": 1,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed12_batch4\\calls.json",
+      "call_index": 5,
+      "candidate_index": 0,
+      "group": "online_once",
+      "trace": 2,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed12_batch4\\calls.json",
+      "call_index": 5,
+      "candidate_index": 1,
+      "group": "online_once",
+      "trace": 2,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed12_batch4\\calls.json",
+      "call_index": 5,
+      "candidate_index": 2,
+      "group": "online_once",
+      "trace": 2,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed12_batch4\\calls.json",
+      "call_index": 14,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed12_batch4\\calls.json",
+      "call_index": 14,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed12_batch4\\calls.json",
+      "call_index": 14,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed12_batch4\\calls.json",
+      "call_index": 27,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed12_batch4\\calls.json",
+      "call_index": 27,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 2,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed12_batch4\\calls.json",
+      "call_index": 27,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed12_batch4\\calls.json",
+      "call_index": 30,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 2,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed12_batch4\\calls.json",
+      "call_index": 30,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed12_batch4\\calls.json",
+      "call_index": 30,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 2,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed12_batch4\\calls.json",
+      "call_index": 40,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 2,
+      "stage": "revision",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 0,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed12_batch5\\calls.json",
+      "call_index": 20,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed12_batch5\\calls.json",
+      "call_index": 20,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed12_batch5\\calls.json",
+      "call_index": 20,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed12_batch5\\calls.json",
+      "call_index": 37,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed12_batch5\\calls.json",
+      "call_index": 37,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed13_batch1\\calls.json",
+      "call_index": 17,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed13_batch1\\calls.json",
+      "call_index": 17,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed13_batch1\\calls.json",
+      "call_index": 17,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed13_batch1\\calls.json",
+      "call_index": 29,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed13_batch1\\calls.json",
+      "call_index": 29,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed13_batch1\\calls.json",
+      "call_index": 29,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed13_batch1\\calls.json",
+      "call_index": 32,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 2,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed13_batch1\\calls.json",
+      "call_index": 32,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed13_batch1\\calls.json",
+      "call_index": 32,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 2,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed13_batch2\\calls.json",
+      "call_index": 8,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 2,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed13_batch2\\calls.json",
+      "call_index": 8,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 2,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed13_batch2\\calls.json",
+      "call_index": 8,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 2,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed13_batch2\\calls.json",
+      "call_index": 17,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed13_batch2\\calls.json",
+      "call_index": 17,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed13_batch2\\calls.json",
+      "call_index": 24,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed13_batch2\\calls.json",
+      "call_index": 24,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed13_batch2\\calls.json",
+      "call_index": 24,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed13_batch2\\calls.json",
+      "call_index": 35,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed13_batch2\\calls.json",
+      "call_index": 35,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed13_batch2\\calls.json",
+      "call_index": 35,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed13_batch3\\calls.json",
+      "call_index": 4,
+      "candidate_index": 1,
+      "group": "online_once",
+      "trace": 2,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 2,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed13_batch3\\calls.json",
+      "call_index": 4,
+      "candidate_index": 2,
+      "group": "online_once",
+      "trace": 2,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed13_batch3\\calls.json",
+      "call_index": 21,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 2,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed13_batch3\\calls.json",
+      "call_index": 21,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 2,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed13_batch3\\calls.json",
+      "call_index": 21,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 2,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed13_batch3\\calls.json",
+      "call_index": 28,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed13_batch3\\calls.json",
+      "call_index": 28,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed13_batch3\\calls.json",
+      "call_index": 41,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 2,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed13_batch3\\calls.json",
+      "call_index": 41,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 2,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed13_batch3\\calls.json",
+      "call_index": 41,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed13_batch4\\calls.json",
+      "call_index": 4,
+      "candidate_index": 0,
+      "group": "online_once",
+      "trace": 2,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed13_batch4\\calls.json",
+      "call_index": 4,
+      "candidate_index": 1,
+      "group": "online_once",
+      "trace": 2,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed13_batch4\\calls.json",
+      "call_index": 4,
+      "candidate_index": 2,
+      "group": "online_once",
+      "trace": 2,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 1,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed13_batch4\\calls.json",
+      "call_index": 33,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed13_batch5\\calls.json",
+      "call_index": 6,
+      "candidate_index": 0,
+      "group": "online_once",
+      "trace": 3,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 2,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed13_batch5\\calls.json",
+      "call_index": 6,
+      "candidate_index": 1,
+      "group": "online_once",
+      "trace": 3,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 2,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed13_batch5\\calls.json",
+      "call_index": 6,
+      "candidate_index": 2,
+      "group": "online_once",
+      "trace": 3,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 2,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed13_batch5\\calls.json",
+      "call_index": 39,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed13_batch5\\calls.json",
+      "call_index": 39,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed13_batch5\\calls.json",
+      "call_index": 39,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed14_batch1\\calls.json",
+      "call_index": 12,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed14_batch1\\calls.json",
+      "call_index": 12,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed14_batch1\\calls.json",
+      "call_index": 12,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed14_batch1\\calls.json",
+      "call_index": 19,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 2,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed14_batch1\\calls.json",
+      "call_index": 19,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 2,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed14_batch1\\calls.json",
+      "call_index": 19,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 2,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed14_batch1\\calls.json",
+      "call_index": 29,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 2,
+      "stage": "revision",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 0,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed14_batch3\\calls.json",
+      "call_index": 18,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed14_batch3\\calls.json",
+      "call_index": 33,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed14_batch3\\calls.json",
+      "call_index": 33,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed14_batch3\\calls.json",
+      "call_index": 33,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed14_batch3\\calls.json",
+      "call_index": 36,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed14_batch3\\calls.json",
+      "call_index": 36,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed14_batch3\\calls.json",
+      "call_index": 36,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed14_batch5\\calls.json",
+      "call_index": 22,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed14_batch5\\calls.json",
+      "call_index": 22,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed14_batch5\\calls.json",
+      "call_index": 22,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed15_batch1\\calls.json",
+      "call_index": 38,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed15_batch1\\calls.json",
+      "call_index": 38,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed15_batch2\\calls.json",
+      "call_index": 20,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed15_batch2\\calls.json",
+      "call_index": 20,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed15_batch2\\calls.json",
+      "call_index": 20,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed15_batch2\\calls.json",
+      "call_index": 31,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed15_batch2\\calls.json",
+      "call_index": 31,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed15_batch2\\calls.json",
+      "call_index": 31,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed15_batch3\\calls.json",
+      "call_index": 2,
+      "candidate_index": 0,
+      "group": "online_once",
+      "trace": 1,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed15_batch3\\calls.json",
+      "call_index": 2,
+      "candidate_index": 1,
+      "group": "online_once",
+      "trace": 1,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed15_batch3\\calls.json",
+      "call_index": 2,
+      "candidate_index": 2,
+      "group": "online_once",
+      "trace": 1,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed15_batch3\\calls.json",
+      "call_index": 7,
+      "candidate_index": 0,
+      "group": "online_once",
+      "trace": 3,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed15_batch3\\calls.json",
+      "call_index": 7,
+      "candidate_index": 2,
+      "group": "online_once",
+      "trace": 3,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed15_batch3\\calls.json",
+      "call_index": 28,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed15_batch3\\calls.json",
+      "call_index": 28,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed15_batch4\\calls.json",
+      "call_index": 24,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed15_batch4\\calls.json",
+      "call_index": 24,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed15_batch4\\calls.json",
+      "call_index": 24,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed15_batch4\\calls.json",
+      "call_index": 29,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed15_batch4\\calls.json",
+      "call_index": 34,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 2,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed15_batch4\\calls.json",
+      "call_index": 34,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 2,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed15_batch4\\calls.json",
+      "call_index": 34,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 2,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed15_batch5\\calls.json",
+      "call_index": 23,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed15_batch5\\calls.json",
+      "call_index": 23,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 2,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed15_batch5\\calls.json",
+      "call_index": 23,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm_targeted\\development_v2\\seed11\\calls.json",
+      "call_index": 26,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm_targeted\\development_v2\\seed11\\calls.json",
+      "call_index": 26,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm_targeted\\development_v2\\seed12\\calls.json",
+      "call_index": 6,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm_targeted\\development_v2\\seed12\\calls.json",
+      "call_index": 6,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm_targeted\\development_v2\\seed12\\calls.json",
+      "call_index": 19,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm_targeted\\development_v2\\seed12\\calls.json",
+      "call_index": 19,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm_targeted\\development_v2\\seed12\\calls.json",
+      "call_index": 19,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm_targeted\\development_v2\\seed12\\calls.json",
+      "call_index": 22,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 2,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm_targeted\\development_v2\\seed12\\calls.json",
+      "call_index": 22,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 2,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm_targeted\\development_v2\\seed12\\calls.json",
+      "call_index": 22,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 2,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm_targeted\\development_v2\\seed12\\calls.json",
+      "call_index": 31,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm_targeted\\development_v2\\seed12\\calls.json",
+      "call_index": 31,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm_targeted\\development_v2\\seed12\\calls.json",
+      "call_index": 31,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm_neutral\\development_v3\\seed11\\calls.json",
+      "call_index": 14,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 1,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm_neutral\\development_v3\\seed11\\calls.json",
+      "call_index": 14,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm_neutral\\development_v3\\seed11\\calls.json",
+      "call_index": 14,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 1,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm_neutral\\development_v3\\seed11\\calls.json",
+      "call_index": 25,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 3,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm_neutral\\development_v3\\seed11\\calls.json",
+      "call_index": 25,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 2,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "results\\online_llm_neutral\\development_v3\\seed11\\calls.json",
+      "call_index": 25,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unknown feature",
+      "normalization_changes": [
+        {
+          "rule_index": 2,
+          "field": "when",
+          "original": "true",
+          "repaired": "True",
+          "edits": [
+            {
+              "start": 0,
+              "end": 4,
+              "before": "true",
+              "after": "True"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "remaining_invalid": [
+    {
+      "file": "results\\online_llm\\development_v1\\seed11\\calls.json",
+      "call_index": 4,
+      "candidate_index": 0,
+      "group": "online_once",
+      "trace": 1,
+      "event": 1,
+      "stage": "revision",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed11_batch1\\calls.json",
+      "call_index": 15,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 4,
+      "stage": "revision",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed11_batch4\\calls.json",
+      "call_index": 35,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed11_batch4\\calls.json",
+      "call_index": 35,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed11_batch4\\calls.json",
+      "call_index": 35,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed11_batch4\\calls.json",
+      "call_index": 36,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed11_batch4\\calls.json",
+      "call_index": 36,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed11_batch4\\calls.json",
+      "call_index": 36,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed11_batch5\\calls.json",
+      "call_index": 0,
+      "candidate_index": 0,
+      "group": "online_once",
+      "trace": 0,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed11_batch5\\calls.json",
+      "call_index": 0,
+      "candidate_index": 1,
+      "group": "online_once",
+      "trace": 0,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed11_batch5\\calls.json",
+      "call_index": 27,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed11_batch5\\calls.json",
+      "call_index": 27,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed11_batch5\\calls.json",
+      "call_index": 27,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed11_batch5\\calls.json",
+      "call_index": 28,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed11_batch5\\calls.json",
+      "call_index": 28,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed11_batch5\\calls.json",
+      "call_index": 28,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed12_batch2\\calls.json",
+      "call_index": 27,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed12_batch2\\calls.json",
+      "call_index": 27,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed12_batch2\\calls.json",
+      "call_index": 27,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed12_batch2\\calls.json",
+      "call_index": 28,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed12_batch2\\calls.json",
+      "call_index": 28,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed12_batch2\\calls.json",
+      "call_index": 28,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed13_batch1\\calls.json",
+      "call_index": 10,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed13_batch1\\calls.json",
+      "call_index": 10,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed13_batch1\\calls.json",
+      "call_index": 10,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed13_batch1\\calls.json",
+      "call_index": 19,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 1,
+      "stage": "revision",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed14_batch2\\calls.json",
+      "call_index": 12,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed14_batch2\\calls.json",
+      "call_index": 12,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed14_batch2\\calls.json",
+      "call_index": 12,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed14_batch2\\calls.json",
+      "call_index": 15,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed14_batch2\\calls.json",
+      "call_index": 15,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed14_batch2\\calls.json",
+      "call_index": 15,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed14_batch2\\calls.json",
+      "call_index": 16,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed14_batch2\\calls.json",
+      "call_index": 16,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed14_batch2\\calls.json",
+      "call_index": 16,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed14_batch4\\calls.json",
+      "call_index": 20,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed14_batch4\\calls.json",
+      "call_index": 20,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed14_batch4\\calls.json",
+      "call_index": 20,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed14_batch4\\calls.json",
+      "call_index": 21,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed14_batch4\\calls.json",
+      "call_index": 21,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed14_batch4\\calls.json",
+      "call_index": 21,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed14_batch4\\calls.json",
+      "call_index": 22,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed14_batch4\\calls.json",
+      "call_index": 23,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed14_batch5\\calls.json",
+      "call_index": 10,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed14_batch5\\calls.json",
+      "call_index": 10,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed14_batch5\\calls.json",
+      "call_index": 10,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed14_batch5\\calls.json",
+      "call_index": 11,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed14_batch5\\calls.json",
+      "call_index": 11,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed14_batch5\\calls.json",
+      "call_index": 11,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed15_batch2\\calls.json",
+      "call_index": 12,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed15_batch2\\calls.json",
+      "call_index": 12,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed15_batch2\\calls.json",
+      "call_index": 12,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed15_batch2\\calls.json",
+      "call_index": 13,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed15_batch2\\calls.json",
+      "call_index": 13,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed15_batch2\\calls.json",
+      "call_index": 13,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 0,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed15_batch3\\calls.json",
+      "call_index": 28,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed15_batch3\\calls.json",
+      "call_index": 29,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed15_batch3\\calls.json",
+      "call_index": 36,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed15_batch3\\calls.json",
+      "call_index": 37,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 2,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed15_batch4\\calls.json",
+      "call_index": 20,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed15_batch4\\calls.json",
+      "call_index": 20,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed15_batch4\\calls.json",
+      "call_index": 20,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed15_batch4\\calls.json",
+      "call_index": 21,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed15_batch4\\calls.json",
+      "call_index": 21,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed15_batch4\\calls.json",
+      "call_index": 21,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 1,
+      "event": 3,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm\\confirmation_v1\\seed15_batch5\\calls.json",
+      "call_index": 7,
+      "candidate_index": 0,
+      "group": "online_once",
+      "trace": 3,
+      "event": 1,
+      "stage": "revision",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm_neutral\\development_v3\\seed11\\calls.json",
+      "call_index": 32,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm_neutral\\development_v3\\seed11\\calls.json",
+      "call_index": 32,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm_neutral\\development_v3\\seed11\\calls.json",
+      "call_index": 32,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm_neutral\\development_v3\\seed11\\calls.json",
+      "call_index": 33,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm_neutral\\development_v3\\seed11\\calls.json",
+      "call_index": 33,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm_neutral\\development_v3\\seed11\\calls.json",
+      "call_index": 33,
+      "candidate_index": 2,
+      "group": "online_feedback",
+      "trace": 3,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm_neutral\\development_v3\\seed11\\calls.json",
+      "call_index": 66,
+      "candidate_index": 1,
+      "group": "neutral_feedback",
+      "trace": 0,
+      "event": 1,
+      "stage": "initial",
+      "original_error": "unsupported expression construct",
+      "compatibility_error": "unsupported expression construct"
+    },
+    {
+      "file": "results\\online_llm_neutral\\development_v3\\seed12\\calls.json",
+      "call_index": 22,
+      "candidate_index": 0,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    },
+    {
+      "file": "results\\online_llm_neutral\\development_v3\\seed12\\calls.json",
+      "call_index": 22,
+      "candidate_index": 1,
+      "group": "online_feedback",
+      "trace": 2,
+      "event": 4,
+      "stage": "initial",
+      "original_error": "expected one to four rules",
+      "compatibility_error": "expected one to four rules"
+    }
+  ],
+  "raw_inputs_unchanged": true,
+  "all_originally_valid_AST_identical": true,
+  "scope": "Candidate parsing audit includes recorded retries; candidate counts are not independent episodes or avoided HTTP counts"
+}
