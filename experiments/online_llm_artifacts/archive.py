@@ -145,6 +145,9 @@ def audit_run(directory,expected_input,contract,allow_runtime_fallbacks=False):
     assert all(n<=16 for n in per_episode.values())
     assert all([c['attempt'] for c in cs] in ([1],[1,2]) for cs in per_request.values())
     assert all(n<=4 for (group,_),n in per_episode.items() if group=='online_once')
+    for episode in episodes:
+        expected_calls=per_episode.get((episode['group'],episode['trace']),0) if episode['scenario']=='shock' else 0
+        assert episode['episode_http']==expected_calls
     scores=read(directory/'scores.json');generations={}
     for result in scores:
         if result.get('screening_event') is False:
