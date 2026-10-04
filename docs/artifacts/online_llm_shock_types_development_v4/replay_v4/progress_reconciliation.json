@@ -1,0 +1,10 @@
+{
+  "original_progress_sha256": "50049a6f65c5534a6374728bda86b25be8683a0dfbf2a57ef685d9fa37d90b22",
+  "original_status": "running",
+  "reason": "Driver wrote root completed.json but omitted final progress status update.",
+  "verified_completed_runs": 10,
+  "verified_episodes": 160,
+  "verified_node_periods": 96000,
+  "reconciled_at": 1791132461.605073,
+  "raw_original_preserved_as": "progress_before_reconciliation.json"
+}

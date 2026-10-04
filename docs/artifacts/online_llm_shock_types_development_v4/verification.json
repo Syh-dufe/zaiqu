@@ -1,0 +1,34 @@
+{
+  "status": "verified",
+  "episodes": 160,
+  "node_periods": 96000,
+  "shock_pairs": 40,
+  "unique_demand_paths_per_type": {
+    "single_surge": 2,
+    "sustained_surge": 2,
+    "double_surge": 2,
+    "surge_then_drop": 2
+  },
+  "input_replay_from_exposed_v3": true,
+  "raw_v3_failure_separately_preserved": true,
+  "shock_transform_checks": 8,
+  "model_files_and_best_parameter_hashes": "verified",
+  "source_protocol_input_hashes": "passed",
+  "cost_backlog_period_recomputation": "passed",
+  "normal_and_pre_notice_checks": 80,
+  "runtime_failures": [],
+  "api_http": 374,
+  "semantic_attempts": 348,
+  "token_usage": {
+    "prompt_tokens": 1227967,
+    "completion_tokens": 141852,
+    "total_tokens": 1369819,
+    "prompt_cache_hit_tokens": 684544,
+    "prompt_cache_miss_tokens": 543423
+  },
+  "configured_credential_absent": true,
+  "development_only": true,
+  "independent_confirmation": false,
+  "currency_cost": null,
+  "progress_status_reconciled": true
+}

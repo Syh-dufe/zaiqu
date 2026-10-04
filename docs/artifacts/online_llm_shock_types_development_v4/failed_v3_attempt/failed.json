@@ -1,0 +1,7 @@
+{
+  "failure": "RuntimeError",
+  "detail": "seed11_batch1 failed with non-quota process error; raw outputs retained",
+  "completed_runs": [],
+  "raw_outputs_preserved": true,
+  "no_blind_restart": true
+}

@@ -1,0 +1,19 @@
+{
+  "historical_collisions": "not_applicable_replay_of_exposed_development_inputs",
+  "cross_path_collisions": [],
+  "duplicate_base": false,
+  "duplicate_shock": false,
+  "unchanged_shock_paths": [],
+  "prior_v3_manifest_sha256": "baaab5175b3baed6e9e918c9601175f6ca6d56951cf83626cbffb1d07473fa2a",
+  "prior_v3_collision_diagnosis_sha256": "da7fca2d536a22912186e782b15b4b6275181ec01b46f4be653b21cb2d3b777f",
+  "prior_v3_attempt_diagnosis_sha256": "fd29d5186a9e5047096e8cbd0128ad4d9ed90d1d8ee0e6d3e81bc568067df0da",
+  "source_input_sha256": [
+    "6345be14c50253bba9e76fd11ce996a21c46ab5ce21c6392747829441a3fefec",
+    "e1f9dbbf34b93b0c7f7db3304f69be94ae90a6d8279a0ad5a7c457eb45e3ff3c"
+  ],
+  "prior_v3_http_requests": 37,
+  "prior_v3_semantic_attempts": 31,
+  "inputs_are_unseen": false,
+  "development_replay": true,
+  "no_resampling": true
+}

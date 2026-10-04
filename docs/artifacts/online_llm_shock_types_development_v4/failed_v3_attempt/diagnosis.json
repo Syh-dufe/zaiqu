@@ -1,0 +1,21 @@
+{
+  "status": "failed_attempt_preserved",
+  "root_cause": "The frozen runner executed HAPPO and online_feedback only, but its final audit still indexed random_screen generation events.",
+  "failure_location": "experiments/demand_shock_types_v3/run_online.py:evaluate, after all episodes and period rows were written",
+  "evidence": {
+    "episodes": 16,
+    "period_rows": 9600,
+    "score_records": 101,
+    "http_records": 37,
+    "semantic_attempts": 31,
+    "http_failures": 7,
+    "completed_audit_present": false,
+    "child_log_sha256": "548b76a940704ceb29e788d2774b9c6ce8f0774a2c5b7a7f9e0df4a2ec8c296a",
+    "episodes_sha256": "a46e9e1e4edce66e0c7fed0ba67d5e0c6e829b40d621d3c9f2a5f19bb5f87dea",
+    "periods_sha256": "9dc762276aeb99b1e2fa1cd635cba6be3829cfc4bcdfdbdebcf8593cd3128cab",
+    "calls_sha256": "35d526aee7071b5fc0cc264cd5cf09d08d33eeccf4fffcb4d52799e8112e6645",
+    "failure_sha256": "60167d1230ff49f860a0fbaad00637d50e103dcb8ca0bef1057f368c24fc2619"
+  },
+  "interpretation": "No v3 task is counted as completed; the partial outcomes are not included as valid comparative results. Inputs and every raw output are retained. Any replay is development-only and must disclose this prior exposure.",
+  "torch_runtime": "2.14.1+cpu; CUDA unavailable; CPU simulation works."
+}

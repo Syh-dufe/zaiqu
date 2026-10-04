@@ -2,7 +2,9 @@
 
 本项目基于Liu等的多级库存代码，将三级补货系统解释为灾区物资供应链，研究正常环境训练的HAPPO如何应对突发需求变化。当前主线是在HAPPO保持冻结的情况下，现场调用DeepSeek生成补货修正规则，通过因果需求预测与独立复核决定是否执行。
 
-**最新状态（2026-10-04）：针对性优化、中性格式及大小写兼容开发批次均已完成。已确认并继续采用原实时LLM作为论文主方法；现有大小写兼容版尚未通过完整确认。**
+**最新状态（2026-10-05）：原实时LLM与冻结HAPPO的四类需求冲击开发重放已完成。40个模型×路径配对的平均成本差为-0.66317、下游欠货差为-1.39625；但每类只有2条不同需求轨迹，路径已在此前失败尝试及重放中暴露，因此仅是开发描述，不代表独立泛化或显著优势。**
+
+详见[多类需求冲击开发重放报告](docs/2026-10-05-online-llm-shock-types-v4-results.md)。原版提示、解析器、筛选机制和HAPPO权重均未更改。v3收尾断言错误导致的失败尝试已单独保留，不计入性能估计；v4重放了相同输入，不能称为新测试。
 
 原实时LLM在5个冻结HAPPO种子、20条确认路径的平均冲击成本为19.89710、下游欠货为17.69955。大小写兼容开发结果在2种子×4路径上未超过原版，不能替换主确认表。见[大小写兼容结果及使用范围](docs/2026-10-04-online-llm-case-only-results.md)。
 
@@ -12,9 +14,9 @@
 
 最新研究内容位于 [`codex/llm-current-v2`](https://github.com/Syh-dufe/zaiqu/tree/codex/llm-current-v2) 分支，尚未合并到 `main`。
 
-## 最新实验结果
+## 原实时机制的独立确认（既有批次）
 
-冻结5个HAPPO训练模型，使用20条新需求路径，比较5种方法在正常与冲击情形下的表现，共1000回合、600000节点期。全部模型、路径、失败与退化案例保留；测试成绩未用于修改本版提示词。
+冻结5个HAPPO训练模型，使用20条新需求路径，对照实时策略在正常与冲击情形下的表现，共1000回合、600000节点期。全部模型、路径、失败与退化案例保留；测试成绩未用于修改本版提示词。
 
 下表列出HAPPO及LLM方法在100个模型×冲击路径配对中的平均值，成本与欠货均越小越好。
 
@@ -82,10 +84,14 @@
 | `experiments/formal_evaluation/train_multi.py` | 多训练种子驱动 |
 | `experiments/online_llm/run.py` | 4条路径、单模型的实时LLM评估 |
 | `experiments/online_llm_confirmation/batch.py` | 冻结登记与25子任务独立确认驱动 |
+| `experiments/demand_shock_types_v4/batch.py` | 冻结HAPPO与原实时LLM的四类冲击开发重放 |
+| `experiments/online_llm_artifacts/archive_shock_types_v4.py` | 独立核验并归档冲击重放及v3失败尝试，不调用API |
 | `experiments/online_llm_artifacts/archive_confirmation.py` | 完成结果审核与无损归档，不调用API |
 | `experiments/online_llm_artifacts/plot_confirmation.py` | 从确认汇总生成PNG/PDF差异图 |
 
 本地训练记录位于 `results/learning_curve/`，实时确认位于 `results/online_llm/confirmation_v1/`。公开归档在 `docs/artifacts/`，包含输入、冻结源码快照、请求/回复、失败、筛选、回合及压缩节点期；模型权重和API密钥不上传。
+
+四类冲击开发重放保存在 [`docs/artifacts/online_llm_shock_types_development_v4/`](docs/artifacts/online_llm_shock_types_development_v4/)，含v4完整重放、v3断言失败原始尝试、源码快照与哈希。每类实际仅有两条不同需求轨迹；40个模型×路径配对是重复策略评估，不能用作40条独立需求样本。
 
 归档中的绝对路径是原执行环境的来源记录，换机器时需配置对应本地模型与输入。仅克隆仓库不能直接重新调用API完成整套实验。入口拒绝覆盖已登记或已启动输出；已用确认路径不得再作为新方法的未见测试。
 

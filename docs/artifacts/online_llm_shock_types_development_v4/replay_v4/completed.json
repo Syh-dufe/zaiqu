@@ -1,0 +1,14 @@
+{
+  "status": "completed",
+  "phase": "development_only",
+  "episodes": 160,
+  "node_periods": 96000,
+  "completed_runs": 10,
+  "api_requests": 337,
+  "all_attempt_http_requests": 374,
+  "all_attempt_semantic_requests": 348,
+  "quota_recovery_runs": 0,
+  "summary_sha256": "5bbebaee8d3e4dbab0878b9fa4225f6af4ee9ef7c3eff0eef6c4ac637edebe6c",
+  "all_registered_cases_retained": true,
+  "training_updates": 0
+}

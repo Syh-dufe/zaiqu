@@ -1,0 +1,10 @@
+[
+  {
+    "task": "seed11_batch1",
+    "run_label": "seed11_batch1",
+    "exit_code": 1,
+    "fatal_http": null,
+    "log_sha256": "548b76a940704ceb29e788d2774b9c6ce8f0774a2c5b7a7f9e0df4a2ec8c296a",
+    "raw_http_requests": 37
+  }
+]
