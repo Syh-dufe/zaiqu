@@ -1,0 +1,9 @@
+# 三方法共同确认：审核模块导入故障恢复
+
+原确认注册62fd458、运行状态更新8ca015已推送。首个seed11_batch01完整产生24回合14400节点期、34HTTP，但驱动audit_child因模块名称冲突失败，根异常AttributeError: module analyze has no attribute audit_raw。冻结运行器将online_llm目录放到sys.path前面，晚执行的通用import analyze读取了online_llm/analyze.py。离线fixture先导入本地analyze，合同预检没有运行收尾审核，因此未发现此路径差异。原失败日志、failed/progress、全部请求和回合结果保留。
+
+本恢复不修改任何冻结旧源码/模型/输入/方法/统计门槛，不生成新输入，不重跑首个已完整成功的仿真子任务。唯一变更是新独立驱动experiments/joint_baseline_recovery/continue.py通过明确文件路径加载原登记analyze.py，并把审核/汇总通用模块名绑定到该文件。原审计逻辑原样使用。先复现错误模块无audit_raw，再用正确原统计器重算已有首任务全部24/14400、模型/因果/API归属；此核验API0。驱动与本协议、原失败文件、原freeze/manifest/preflight及首任务全部原始文件SHA在新恢复注册保存并每任务前后检查。
+
+新状态目录results/joint_baseline_confirmation/audit_import_recovery_v1，独立launch/progress/failed/completed/driver.log/error.log。原confirmation_v1失败标记不删除、不覆盖；剩余49任务的仿真产物仍写原runs和原每任务日志的未使用路径。采用原50项输入与方法合同，首任务复用为完成项，其34HTTP及所有tokens计入原本批预算；不按首任务成绩决定恢复，也不把已曝光路径重新称未见新生成数据。本注册队列仍是首次事前冻结的整体测试。
+
+API上限、每任务一次402完整恢复、余额等待、401/403和程序/审核故障停止、主97.5%交叉bootstrap与次95%、五种子及不利结果保留均与原计划一致。审核修复不改变动作或模型选择；测试不用于调提示。恢复注册、独立审阅、原始哈希和密钥缺席检查、GitHub推送后才启动唯一续跑。全1200/720000最终统计仍写原结果根，恢复根保存完成引用；最后完整归档原失败与新恢复记录，并如实报告技术故障和全部成本。

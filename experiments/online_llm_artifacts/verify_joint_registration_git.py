@@ -5,6 +5,7 @@ import json
 import os
 from pathlib import Path
 import subprocess
+import sys
 
 ROOT=Path(__file__).resolve().parents[2]
 PUBLIC=ROOT/'docs/artifacts/joint_baseline_confirmation_v1_preregistration'
@@ -14,6 +15,9 @@ def sha(b):return hashlib.sha256(b).hexdigest()
 
 
 def main():
+    global PUBLIC
+    if len(sys.argv)==2:PUBLIC=ROOT/sys.argv[1]
+    assert len(sys.argv)<=2
     manifest=json.loads((PUBLIC/'export_manifest.json').read_text(encoding='utf-8'))
     for record in manifest['files']:
         stored=(PUBLIC/record['public_path']).read_bytes()

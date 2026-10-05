@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\13384\.codex\worktrees\zaiqu-formal-bc\experiments\joint_baseline_confirmation\batch.py", line 444, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "C:\Users\13384\.codex\worktrees\zaiqu-formal-bc\experiments\joint_baseline_confirmation\batch.py", line 432, in main
+    audit_child(directory,entry,seed)
+  File "C:\Users\13384\.codex\worktrees\zaiqu-formal-bc\experiments\joint_baseline_confirmation\batch.py", line 350, in audit_child
+    analyze.audit_raw(rows,episodes,data,read(directory/'information_audits.json'),done['parameter_checks'],entry['contracts'][str(seed)])
+    ^^^^^^^^^^^^^^^^^
+AttributeError: module 'analyze' has no attribute 'audit_raw'
