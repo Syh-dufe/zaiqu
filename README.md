@@ -6,7 +6,7 @@
 
 详见[跨冲击独立确认完整报告](docs/2026-10-05-online-llm-shock-confirmation-v5b-results.md)及[无损原始产物与独立审核](docs/artifacts/online_llm_shock_confirmation_v5b/)。五模型、每类10条新路径全部保留，原提示、解析器、筛选和HAPPO权重未变。初次v5登记边界错误在API/仿真前发现，失败记录单独保存。此前[四类冲击v4重放](docs/2026-10-05-online-llm-shock-types-v4-results.md)仅作开发描述。
 
-**后续报告触发开发已完成，但未通过升级门槛。** 240回合中，新方法相对本批原实时反馈成本仅降低0.17%、欠货降低5.41%，双峰冲击两项均退化；不启动此版本正式确认，投稿主方法仍为原实时反馈。见[完整负面开发结果](docs/2026-10-05-online-report-trigger-v2-results.md)。
+**后续报告触发开发已完成，但未通过升级门槛。** 240回合中，新方法相对本批原实时反馈成本仅降低0.17%、欠货降低5.41%，双峰冲击两项均退化；不启动此版本正式确认，投稿主方法仍为原实时反馈。见[完整负面开发结果](docs/2026-10-05-online-report-trigger-v2-results.md)。 同事件320条预测诊断也不支持残差替换：MAE由2.31953增至2.49193；没有调用API或改变主方法。见[配对预测诊断](docs/2026-10-05-paired-forecast-diagnosis-results.md)。
 
 原实时LLM在5个冻结HAPPO种子、20条确认路径的平均冲击成本为19.89710、下游欠货为17.69955。大小写兼容开发结果在2种子×4路径上未超过原版，不能替换主确认表。见[大小写兼容结果及使用范围](docs/2026-10-04-online-llm-case-only-results.md)。
 

@@ -1,0 +1,16 @@
+{
+  "runs": [
+    "results\\online_llm_report_trigger\\development_v2\\runs\\seed11_batch01",
+    "results\\online_llm_report_trigger\\development_v2\\runs\\seed11_batch06",
+    "results\\online_llm_report_trigger\\development_v2\\runs\\seed12_batch01",
+    "results\\online_llm_report_trigger\\development_v2\\runs\\seed12_batch06",
+    "results\\online_llm_report_trigger\\development_v2\\runs\\seed13_batch01",
+    "results\\online_llm_report_trigger\\development_v2\\runs\\seed13_batch06",
+    "results\\online_llm_report_trigger\\development_v2\\runs\\seed14_batch01",
+    "results\\online_llm_report_trigger\\development_v2\\runs\\seed14_batch06",
+    "results\\online_llm_report_trigger\\development_v2\\runs\\seed15_batch01",
+    "results\\online_llm_report_trigger\\development_v2\\runs\\seed15_batch06"
+  ],
+  "freeze_sha256": "7641c9de153ee2907797bcef624ae89609142130fe209f1bb1f0d5fa75289be3",
+  "expected_events": 320
+}
