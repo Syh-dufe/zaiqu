@@ -1,0 +1,28 @@
+{
+  "episodes": 24,
+  "rows": 14400,
+  "training_updates": 0,
+  "parameter_checks": {
+    "happo": {
+      "before": "54590e6fba0eeeef7fccc7ac09fd5e22fefbe2d3bff1a2b34feb9d0a900a1c30",
+      "after": "54590e6fba0eeeef7fccc7ac09fd5e22fefbe2d3bff1a2b34feb9d0a900a1c30",
+      "unchanged": true
+    },
+    "online_feedback": {
+      "before": "54590e6fba0eeeef7fccc7ac09fd5e22fefbe2d3bff1a2b34feb9d0a900a1c30",
+      "after": "54590e6fba0eeeef7fccc7ac09fd5e22fefbe2d3bff1a2b34feb9d0a900a1c30",
+      "unchanged": true
+    },
+    "report_trigger_feedback": {
+      "before": "54590e6fba0eeeef7fccc7ac09fd5e22fefbe2d3bff1a2b34feb9d0a900a1c30",
+      "after": "54590e6fba0eeeef7fccc7ac09fd5e22fefbe2d3bff1a2b34feb9d0a900a1c30",
+      "unchanged": true
+    }
+  },
+  "calls": 75,
+  "runtime_failures": [],
+  "wall_seconds": 250.36248390001128,
+  "development_only": true,
+  "independent_confirmation": false,
+  "causal_audit": "Public whitelist; episode reset; synthetic-only forecast; no review in prompts"
+}

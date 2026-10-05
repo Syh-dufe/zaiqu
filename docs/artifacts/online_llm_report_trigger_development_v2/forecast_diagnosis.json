@@ -1,0 +1,117 @@
+{
+  "development_only": true,
+  "post_hoc": true,
+  "no_API_calls": true,
+  "actual_future_used_for_analysis_only": true,
+  "metric": "20-period (or remaining shorter horizon) mean error across6 synthetic paths versus realized exogenous demand; no correction counterfactual claim",
+  "cells": [
+    {
+      "method": "online_feedback",
+      "type": "double_surge",
+      "phase": "first40",
+      "events": 40,
+      "forecast_bias": 0.5374999999999998,
+      "forecast_MAE": 2.0375,
+      "nonzero_selected": 4
+    },
+    {
+      "method": "online_feedback",
+      "type": "single_surge",
+      "phase": "first40",
+      "events": 40,
+      "forecast_bias": 0.04166666666666674,
+      "forecast_MAE": 1.1145833333333333,
+      "nonzero_selected": 1
+    },
+    {
+      "method": "online_feedback",
+      "type": "surge_then_drop",
+      "phase": "first40",
+      "events": 40,
+      "forecast_bias": 4.316666666666666,
+      "forecast_MAE": 6.335416666666667,
+      "nonzero_selected": 9
+    },
+    {
+      "method": "online_feedback",
+      "type": "sustained_surge",
+      "phase": "first40",
+      "events": 40,
+      "forecast_bias": 0.3656250000000001,
+      "forecast_MAE": 1.7364583333333334,
+      "nonzero_selected": 5
+    },
+    {
+      "method": "report_trigger_feedback",
+      "type": "double_surge",
+      "phase": "first40",
+      "events": 20,
+      "forecast_bias": -0.4354166666666668,
+      "forecast_MAE": 2.1020833333333333,
+      "nonzero_selected": 2
+    },
+    {
+      "method": "report_trigger_feedback",
+      "type": "double_surge",
+      "phase": "later",
+      "events": 20,
+      "forecast_bias": 0.28124999999999983,
+      "forecast_MAE": 0.71875,
+      "nonzero_selected": 2
+    },
+    {
+      "method": "report_trigger_feedback",
+      "type": "single_surge",
+      "phase": "first40",
+      "events": 20,
+      "forecast_bias": -0.5416666666666669,
+      "forecast_MAE": 1.0958333333333332,
+      "nonzero_selected": 0
+    },
+    {
+      "method": "report_trigger_feedback",
+      "type": "single_surge",
+      "phase": "later",
+      "events": 20,
+      "forecast_bias": -0.6291666666666668,
+      "forecast_MAE": 1.1708333333333334,
+      "nonzero_selected": 2
+    },
+    {
+      "method": "report_trigger_feedback",
+      "type": "surge_then_drop",
+      "phase": "first40",
+      "events": 20,
+      "forecast_bias": -0.5583333333333333,
+      "forecast_MAE": 2.7666666666666666,
+      "nonzero_selected": 3
+    },
+    {
+      "method": "report_trigger_feedback",
+      "type": "surge_then_drop",
+      "phase": "later",
+      "events": 20,
+      "forecast_bias": -2.264583333333333,
+      "forecast_MAE": 2.6979166666666665,
+      "nonzero_selected": 2
+    },
+    {
+      "method": "report_trigger_feedback",
+      "type": "sustained_surge",
+      "phase": "first40",
+      "events": 20,
+      "forecast_bias": 0.4812500000000002,
+      "forecast_MAE": 2.0770833333333334,
+      "nonzero_selected": 0
+    },
+    {
+      "method": "report_trigger_feedback",
+      "type": "sustained_surge",
+      "phase": "later",
+      "events": 20,
+      "forecast_bias": -1.1479166666666665,
+      "forecast_MAE": 2.035416666666667,
+      "nonzero_selected": 1
+    }
+  ]
+}

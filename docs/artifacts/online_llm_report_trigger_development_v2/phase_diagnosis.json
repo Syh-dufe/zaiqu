@@ -1,0 +1,48 @@
+{
+  "development_only": true,
+  "post_hoc": true,
+  "hidden_event_times_used_for_analysis_only": true,
+  "description": "Contribution to full200x3 mean cost delta per type (10 crossed pairs); phase inventory and backlog sum equals reported cost delta",
+  "contributions": {
+    "single_surge": {
+      "pre_notice_inventory": 0.0,
+      "pre_notice_backlog": 0.0,
+      "first20_after_notice_inventory": 0.005166666666666667,
+      "first20_after_notice_backlog": -0.01866666666666668,
+      "next20_after_notice_inventory": -0.02183333333333333,
+      "next20_after_notice_backlog": -0.03433333333333331,
+      "later_inventory": -0.3383333333333345,
+      "later_backlog": -0.11549999999999994
+    },
+    "sustained_surge": {
+      "pre_notice_inventory": 0.0,
+      "pre_notice_backlog": 0.0,
+      "first20_after_notice_inventory": -0.0003333333333333324,
+      "first20_after_notice_backlog": 0.0038333333333333284,
+      "next20_after_notice_inventory": 0.0011666666666666143,
+      "next20_after_notice_backlog": 0.050333333333333355,
+      "later_inventory": 0.4765000000000011,
+      "later_backlog": -0.11433333333333127
+    },
+    "double_surge": {
+      "pre_notice_inventory": 0.0,
+      "pre_notice_backlog": 0.0,
+      "first20_after_notice_inventory": 0.025833333333333347,
+      "first20_after_notice_backlog": -0.065,
+      "next20_after_notice_inventory": -0.06366666666666672,
+      "next20_after_notice_backlog": -0.035833333333333335,
+      "later_inventory": 0.33250000000000013,
+      "later_backlog": 0.2311666666666675
+    },
+    "surge_then_drop": {
+      "pre_notice_inventory": 0.0,
+      "pre_notice_backlog": 0.0,
+      "first20_after_notice_inventory": -0.004833333333333336,
+      "first20_after_notice_backlog": 0.02733333333333333,
+      "next20_after_notice_inventory": -0.06049999999999984,
+      "next20_after_notice_backlog": 0.044500000000000005,
+      "later_inventory": 0.040666666666667246,
+      "later_backlog": -0.5011666666666673
+    }
+  }
+}

@@ -1,0 +1,1388 @@
+{
+  "status": "complete",
+  "development_only": true,
+  "independent_confirmation": false,
+  "episodes": 240,
+  "node_periods": 144000,
+  "paired_results": [
+    {
+      "seed": 11,
+      "batch": 1,
+      "trace": 0,
+      "type": "single_surge",
+      "outcomes": {
+        "happo": {
+          "cost": 10.97,
+          "backlog": 0.85,
+          "http": 0,
+          "events": 0
+        },
+        "online_feedback": {
+          "cost": 11.788333333333334,
+          "backlog": 1.0,
+          "http": 8,
+          "events": 4
+        },
+        "report_trigger_feedback": {
+          "cost": 11.505,
+          "backlog": 0.9,
+          "http": 9,
+          "events": 4
+        }
+      },
+      "cost_delta": -0.2833333333333332,
+      "backlog_delta": -0.09999999999999998
+    },
+    {
+      "seed": 11,
+      "batch": 1,
+      "trace": 1,
+      "type": "sustained_surge",
+      "outcomes": {
+        "happo": {
+          "cost": 23.558333333333334,
+          "backlog": 13.965,
+          "http": 0,
+          "events": 0
+        },
+        "online_feedback": {
+          "cost": 26.128333333333334,
+          "backlog": 17.11,
+          "http": 8,
+          "events": 4
+        },
+        "report_trigger_feedback": {
+          "cost": 19.453333333333333,
+          "backlog": 12.52,
+          "http": 8,
+          "events": 4
+        }
+      },
+      "cost_delta": -6.675000000000001,
+      "backlog_delta": -4.59
+    },
+    {
+      "seed": 11,
+      "batch": 1,
+      "trace": 2,
+      "type": "double_surge",
+      "outcomes": {
+        "happo": {
+          "cost": 21.788333333333334,
+          "backlog": 2.27,
+          "http": 0,
+          "events": 0
+        },
+        "online_feedback": {
+          "cost": 19.798333333333332,
+          "backlog": 2.26,
+          "http": 9,
+          "events": 4
+        },
+        "report_trigger_feedback": {
+          "cost": 22.006666666666668,
+          "backlog": 2.585,
+          "http": 8,
+          "events": 4
+        }
+      },
+      "cost_delta": 2.2083333333333357,
+      "backlog_delta": 0.3250000000000002
+    },
+    {
+      "seed": 11,
+      "batch": 1,
+      "trace": 3,
+      "type": "surge_then_drop",
+      "outcomes": {
+        "happo": {
+          "cost": 32.04666666666667,
+          "backlog": 10.59,
+          "http": 0,
+          "events": 0
+        },
+        "online_feedback": {
+          "cost": 32.04666666666667,
+          "backlog": 10.59,
+          "http": 9,
+          "events": 4
+        },
+        "report_trigger_feedback": {
+          "cost": 32.04666666666667,
+          "backlog": 10.59,
+          "http": 8,
+          "events": 4
+        }
+      },
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "seed": 11,
+      "batch": 6,
+      "trace": 0,
+      "type": "single_surge",
+      "outcomes": {
+        "happo": {
+          "cost": 21.82,
+          "backlog": 3.555,
+          "http": 0,
+          "events": 0
+        },
+        "online_feedback": {
+          "cost": 23.335,
+          "backlog": 4.43,
+          "http": 8,
+          "events": 4
+        },
+        "report_trigger_feedback": {
+          "cost": 20.838333333333335,
+          "backlog": 3.99,
+          "http": 8,
+          "events": 4
+        }
+      },
+      "cost_delta": -2.496666666666666,
+      "backlog_delta": -0.4399999999999995
+    },
+    {
+      "seed": 11,
+      "batch": 6,
+      "trace": 1,
+      "type": "sustained_surge",
+      "outcomes": {
+        "happo": {
+          "cost": 20.11,
+          "backlog": 2.88,
+          "http": 0,
+          "events": 0
+        },
+        "online_feedback": {
+          "cost": 13.476666666666667,
+          "backlog": 1.805,
+          "http": 8,
+          "events": 4
+        },
+        "report_trigger_feedback": {
+          "cost": 17.516666666666666,
+          "backlog": 2.83,
+          "http": 10,
+          "events": 4
+        }
+      },
+      "cost_delta": 4.039999999999999,
+      "backlog_delta": 1.0250000000000001
+    },
+    {
+      "seed": 11,
+      "batch": 6,
+      "trace": 2,
+      "type": "double_surge",
+      "outcomes": {
+        "happo": {
+          "cost": 20.775,
+          "backlog": 2.595,
+          "http": 0,
+          "events": 0
+        },
+        "online_feedback": {
+          "cost": 19.94,
+          "backlog": 3.235,
+          "http": 8,
+          "events": 4
+        },
+        "report_trigger_feedback": {
+          "cost": 22.641666666666666,
+          "backlog": 3.37,
+          "http": 8,
+          "events": 4
+        }
+      },
+      "cost_delta": 2.7016666666666644,
+      "backlog_delta": 0.13500000000000023
+    },
+    {
+      "seed": 11,
+      "batch": 6,
+      "trace": 3,
+      "type": "surge_then_drop",
+      "outcomes": {
+        "happo": {
+          "cost": 28.118333333333332,
+          "backlog": 51.635,
+          "http": 0,
+          "events": 0
+        },
+        "online_feedback": {
+          "cost": 28.926666666666666,
+          "backlog": 55.075,
+          "http": 9,
+          "events": 4
+        },
+        "report_trigger_feedback": {
+          "cost": 21.501666666666665,
+          "backlog": 36.025,
+          "http": 8,
+          "events": 4
+        }
+      },
+      "cost_delta": -7.425000000000001,
+      "backlog_delta": -19.050000000000004
+    },
+    {
+      "seed": 12,
+      "batch": 1,
+      "trace": 0,
+      "type": "single_surge",
+      "outcomes": {
+        "happo": {
+          "cost": 11.466666666666667,
+          "backlog": 1.925,
+          "http": 0,
+          "events": 0
+        },
+        "online_feedback": {
+          "cost": 11.656666666666666,
+          "backlog": 1.475,
+          "http": 10,
+          "events": 4
+        },
+        "report_trigger_feedback": {
+          "cost": 10.48,
+          "backlog": 1.605,
+          "http": 10,
+          "events": 4
+        }
+      },
+      "cost_delta": -1.1766666666666659,
+      "backlog_delta": 0.1299999999999999
+    },
+    {
+      "seed": 12,
+      "batch": 1,
+      "trace": 1,
+      "type": "sustained_surge",
+      "outcomes": {
+        "happo": {
+          "cost": 22.205,
+          "backlog": 14.77,
+          "http": 0,
+          "events": 0
+        },
+        "online_feedback": {
+          "cost": 18.78,
+          "backlog": 10.56,
+          "http": 8,
+          "events": 4
+        },
+        "report_trigger_feedback": {
+          "cost": 19.35333333333333,
+          "backlog": 10.515,
+          "http": 8,
+          "events": 4
+        }
+      },
+      "cost_delta": 0.5733333333333306,
+      "backlog_delta": -0.04499999999999993
+    },
+    {
+      "seed": 12,
+      "batch": 1,
+      "trace": 2,
+      "type": "double_surge",
+      "outcomes": {
+        "happo": {
+          "cost": 16.691666666666666,
+          "backlog": 1.275,
+          "http": 0,
+          "events": 0
+        },
+        "online_feedback": {
+          "cost": 16.711666666666666,
+          "backlog": 1.635,
+          "http": 10,
+          "events": 4
+        },
+        "report_trigger_feedback": {
+          "cost": 15.45,
+          "backlog": 1.465,
+          "http": 8,
+          "events": 4
+        }
+      },
+      "cost_delta": -1.2616666666666667,
+      "backlog_delta": -0.16999999999999993
+    },
+    {
+      "seed": 12,
+      "batch": 1,
+      "trace": 3,
+      "type": "surge_then_drop",
+      "outcomes": {
+        "happo": {
+          "cost": 33.498333333333335,
+          "backlog": 11.555,
+          "http": 0,
+          "events": 0
+        },
+        "online_feedback": {
+          "cost": 33.46333333333333,
+          "backlog": 10.345,
+          "http": 8,
+          "events": 4
+        },
+        "report_trigger_feedback": {
+          "cost": 33.498333333333335,
+          "backlog": 11.555,
+          "http": 9,
+          "events": 4
+        }
+      },
+      "cost_delta": 0.035000000000003695,
+      "backlog_delta": 1.209999999999999
+    },
+    {
+      "seed": 12,
+      "batch": 6,
+      "trace": 0,
+      "type": "single_surge",
+      "outcomes": {
+        "happo": {
+          "cost": 18.641666666666666,
+          "backlog": 3.54,
+          "http": 0,
+          "events": 0
+        },
+        "online_feedback": {
+          "cost": 18.726666666666667,
+          "backlog": 3.395,
+          "http": 9,
+          "events": 4
+        },
+        "report_trigger_feedback": {
+          "cost": 18.641666666666666,
+          "backlog": 3.54,
+          "http": 8,
+          "events": 4
+        }
+      },
+      "cost_delta": -0.08500000000000085,
+      "backlog_delta": 0.14500000000000002
+    },
+    {
+      "seed": 12,
+      "batch": 6,
+      "trace": 1,
+      "type": "sustained_surge",
+      "outcomes": {
+        "happo": {
+          "cost": 13.976666666666667,
+          "backlog": 3.265,
+          "http": 0,
+          "events": 0
+        },
+        "online_feedback": {
+          "cost": 13.826666666666666,
+          "backlog": 3.175,
+          "http": 10,
+          "events": 4
+        },
+        "report_trigger_feedback": {
+          "cost": 13.945,
+          "backlog": 3.265,
+          "http": 9,
+          "events": 4
+        }
+      },
+      "cost_delta": 0.11833333333333407,
+      "backlog_delta": 0.0900000000000003
+    },
+    {
+      "seed": 12,
+      "batch": 6,
+      "trace": 2,
+      "type": "double_surge",
+      "outcomes": {
+        "happo": {
+          "cost": 17.773333333333333,
+          "backlog": 4.005,
+          "http": 0,
+          "events": 0
+        },
+        "online_feedback": {
+          "cost": 17.291666666666668,
+          "backlog": 3.125,
+          "http": 9,
+          "events": 4
+        },
+        "report_trigger_feedback": {
+          "cost": 15.94,
+          "backlog": 3.46,
+          "http": 8,
+          "events": 4
+        }
+      },
+      "cost_delta": -1.3516666666666683,
+      "backlog_delta": 0.33499999999999996
+    },
+    {
+      "seed": 12,
+      "batch": 6,
+      "trace": 3,
+      "type": "surge_then_drop",
+      "outcomes": {
+        "happo": {
+          "cost": 28.606666666666666,
+          "backlog": 50.665,
+          "http": 0,
+          "events": 0
+        },
+        "online_feedback": {
+          "cost": 29.165,
+          "backlog": 51.425,
+          "http": 8,
+          "events": 4
+        },
+        "report_trigger_feedback": {
+          "cost": 32.56333333333333,
+          "backlog": 56.02,
+          "http": 8,
+          "events": 4
+        }
+      },
+      "cost_delta": 3.3983333333333334,
+      "backlog_delta": 4.595000000000006
+    },
+    {
+      "seed": 13,
+      "batch": 1,
+      "trace": 0,
+      "type": "single_surge",
+      "outcomes": {
+        "happo": {
+          "cost": 13.353333333333333,
+          "backlog": 0.235,
+          "http": 0,
+          "events": 0
+        },
+        "online_feedback": {
+          "cost": 12.806666666666667,
+          "backlog": 0.235,
+          "http": 10,
+          "events": 4
+        },
+        "report_trigger_feedback": {
+          "cost": 12.241666666666667,
+          "backlog": 0.255,
+          "http": 8,
+          "events": 4
+        }
+      },
+      "cost_delta": -0.5649999999999995,
+      "backlog_delta": 0.020000000000000018
+    },
+    {
+      "seed": 13,
+      "batch": 1,
+      "trace": 1,
+      "type": "sustained_surge",
+      "outcomes": {
+        "happo": {
+          "cost": 22.745,
+          "backlog": 13.085,
+          "http": 0,
+          "events": 0
+        },
+        "online_feedback": {
+          "cost": 20.75,
+          "backlog": 10.575,
+          "http": 10,
+          "events": 4
+        },
+        "report_trigger_feedback": {
+          "cost": 22.378333333333334,
+          "backlog": 13.125,
+          "http": 8,
+          "events": 4
+        }
+      },
+      "cost_delta": 1.6283333333333339,
+      "backlog_delta": 2.5500000000000007
+    },
+    {
+      "seed": 13,
+      "batch": 1,
+      "trace": 2,
+      "type": "double_surge",
+      "outcomes": {
+        "happo": {
+          "cost": 17.951666666666668,
+          "backlog": 1.035,
+          "http": 0,
+          "events": 0
+        },
+        "online_feedback": {
+          "cost": 15.241666666666667,
+          "backlog": 0.94,
+          "http": 9,
+          "events": 4
+        },
+        "report_trigger_feedback": {
+          "cost": 18.37,
+          "backlog": 1.11,
+          "http": 8,
+          "events": 4
+        }
+      },
+      "cost_delta": 3.128333333333334,
+      "backlog_delta": 0.17000000000000015
+    },
+    {
+      "seed": 13,
+      "batch": 1,
+      "trace": 3,
+      "type": "surge_then_drop",
+      "outcomes": {
+        "happo": {
+          "cost": 27.995,
+          "backlog": 10.205,
+          "http": 0,
+          "events": 0
+        },
+        "online_feedback": {
+          "cost": 28.158333333333335,
+          "backlog": 10.205,
+          "http": 9,
+          "events": 4
+        },
+        "report_trigger_feedback": {
+          "cost": 27.868333333333332,
+          "backlog": 10.205,
+          "http": 9,
+          "events": 4
+        }
+      },
+      "cost_delta": -0.2900000000000027,
+      "backlog_delta": 0.0
+    },
+    {
+      "seed": 13,
+      "batch": 6,
+      "trace": 0,
+      "type": "single_surge",
+      "outcomes": {
+        "happo": {
+          "cost": 19.68166666666667,
+          "backlog": 3.89,
+          "http": 0,
+          "events": 0
+        },
+        "online_feedback": {
+          "cost": 17.88,
+          "backlog": 3.085,
+          "http": 9,
+          "events": 4
+        },
+        "report_trigger_feedback": {
+          "cost": 18.698333333333334,
+          "backlog": 2.955,
+          "http": 8,
+          "events": 4
+        }
+      },
+      "cost_delta": 0.8183333333333351,
+      "backlog_delta": -0.1299999999999999
+    },
+    {
+      "seed": 13,
+      "batch": 6,
+      "trace": 1,
+      "type": "sustained_surge",
+      "outcomes": {
+        "happo": {
+          "cost": 15.47,
+          "backlog": 2.285,
+          "http": 0,
+          "events": 0
+        },
+        "online_feedback": {
+          "cost": 15.271666666666667,
+          "backlog": 2.245,
+          "http": 8,
+          "events": 4
+        },
+        "report_trigger_feedback": {
+          "cost": 17.063333333333333,
+          "backlog": 2.325,
+          "http": 8,
+          "events": 4
+        }
+      },
+      "cost_delta": 1.791666666666666,
+      "backlog_delta": 0.08000000000000007
+    },
+    {
+      "seed": 13,
+      "batch": 6,
+      "trace": 2,
+      "type": "double_surge",
+      "outcomes": {
+        "happo": {
+          "cost": 18.72,
+          "backlog": 2.11,
+          "http": 0,
+          "events": 0
+        },
+        "online_feedback": {
+          "cost": 18.72,
+          "backlog": 2.11,
+          "http": 8,
+          "events": 4
+        },
+        "report_trigger_feedback": {
+          "cost": 18.106666666666666,
+          "backlog": 1.75,
+          "http": 8,
+          "events": 4
+        }
+      },
+      "cost_delta": -0.6133333333333333,
+      "backlog_delta": -0.3599999999999999
+    },
+    {
+      "seed": 13,
+      "batch": 6,
+      "trace": 3,
+      "type": "surge_then_drop",
+      "outcomes": {
+        "happo": {
+          "cost": 37.53333333333333,
+          "backlog": 63.465,
+          "http": 0,
+          "events": 0
+        },
+        "online_feedback": {
+          "cost": 37.53333333333333,
+          "backlog": 63.465,
+          "http": 9,
+          "events": 4
+        },
+        "report_trigger_feedback": {
+          "cost": 37.53333333333333,
+          "backlog": 63.465,
+          "http": 9,
+          "events": 4
+        }
+      },
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "seed": 14,
+      "batch": 1,
+      "trace": 0,
+      "type": "single_surge",
+      "outcomes": {
+        "happo": {
+          "cost": 9.991666666666667,
+          "backlog": 1.405,
+          "http": 0,
+          "events": 0
+        },
+        "online_feedback": {
+          "cost": 10.363333333333333,
+          "backlog": 1.275,
+          "http": 8,
+          "events": 4
+        },
+        "report_trigger_feedback": {
+          "cost": 9.653333333333334,
+          "backlog": 1.24,
+          "http": 9,
+          "events": 4
+        }
+      },
+      "cost_delta": -0.7099999999999991,
+      "backlog_delta": -0.03499999999999992
+    },
+    {
+      "seed": 14,
+      "batch": 1,
+      "trace": 1,
+      "type": "sustained_surge",
+      "outcomes": {
+        "happo": {
+          "cost": 24.005,
+          "backlog": 18.375,
+          "http": 0,
+          "events": 0
+        },
+        "online_feedback": {
+          "cost": 23.278333333333332,
+          "backlog": 17.035,
+          "http": 10,
+          "events": 4
+        },
+        "report_trigger_feedback": {
+          "cost": 25.648333333333333,
+          "backlog": 14.96,
+          "http": 9,
+          "events": 4
+        }
+      },
+      "cost_delta": 2.370000000000001,
+      "backlog_delta": -2.0749999999999993
+    },
+    {
+      "seed": 14,
+      "batch": 1,
+      "trace": 2,
+      "type": "double_surge",
+      "outcomes": {
+        "happo": {
+          "cost": 11.455,
+          "backlog": 2.54,
+          "http": 0,
+          "events": 0
+        },
+        "online_feedback": {
+          "cost": 12.671666666666667,
+          "backlog": 2.115,
+          "http": 8,
+          "events": 4
+        },
+        "report_trigger_feedback": {
+          "cost": 11.455,
+          "backlog": 2.54,
+          "http": 9,
+          "events": 4
+        }
+      },
+      "cost_delta": -1.2166666666666668,
+      "backlog_delta": 0.4249999999999998
+    },
+    {
+      "seed": 14,
+      "batch": 1,
+      "trace": 3,
+      "type": "surge_then_drop",
+      "outcomes": {
+        "happo": {
+          "cost": 19.111666666666668,
+          "backlog": 9.655,
+          "http": 0,
+          "events": 0
+        },
+        "online_feedback": {
+          "cost": 21.026666666666667,
+          "backlog": 8.59,
+          "http": 8,
+          "events": 4
+        },
+        "report_trigger_feedback": {
+          "cost": 21.79,
+          "backlog": 8.555,
+          "http": 9,
+          "events": 4
+        }
+      },
+      "cost_delta": 0.7633333333333319,
+      "backlog_delta": -0.03500000000000014
+    },
+    {
+      "seed": 14,
+      "batch": 6,
+      "trace": 0,
+      "type": "single_surge",
+      "outcomes": {
+        "happo": {
+          "cost": 16.18166666666667,
+          "backlog": 7.04,
+          "http": 0,
+          "events": 0
+        },
+        "online_feedback": {
+          "cost": 16.583333333333332,
+          "backlog": 6.22,
+          "http": 9,
+          "events": 4
+        },
+        "report_trigger_feedback": {
+          "cost": 15.271666666666667,
+          "backlog": 6.575,
+          "http": 12,
+          "events": 4
+        }
+      },
+      "cost_delta": -1.3116666666666656,
+      "backlog_delta": 0.3550000000000004
+    },
+    {
+      "seed": 14,
+      "batch": 6,
+      "trace": 1,
+      "type": "sustained_surge",
+      "outcomes": {
+        "happo": {
+          "cost": 13.123333333333333,
+          "backlog": 1.845,
+          "http": 0,
+          "events": 0
+        },
+        "online_feedback": {
+          "cost": 13.09,
+          "backlog": 1.77,
+          "http": 8,
+          "events": 4
+        },
+        "report_trigger_feedback": {
+          "cost": 13.761666666666667,
+          "backlog": 1.67,
+          "http": 12,
+          "events": 4
+        }
+      },
+      "cost_delta": 0.6716666666666669,
+      "backlog_delta": -0.10000000000000009
+    },
+    {
+      "seed": 14,
+      "batch": 6,
+      "trace": 2,
+      "type": "double_surge",
+      "outcomes": {
+        "happo": {
+          "cost": 12.975,
+          "backlog": 3.5,
+          "http": 0,
+          "events": 0
+        },
+        "online_feedback": {
+          "cost": 12.975,
+          "backlog": 3.5,
+          "http": 8,
+          "events": 4
+        },
+        "report_trigger_feedback": {
+          "cost": 12.133333333333333,
+          "backlog": 3.795,
+          "http": 8,
+          "events": 4
+        }
+      },
+      "cost_delta": -0.8416666666666668,
+      "backlog_delta": 0.29499999999999993
+    },
+    {
+      "seed": 14,
+      "batch": 6,
+      "trace": 3,
+      "type": "surge_then_drop",
+      "outcomes": {
+        "happo": {
+          "cost": 31.386666666666667,
+          "backlog": 45.185,
+          "http": 0,
+          "events": 0
+        },
+        "online_feedback": {
+          "cost": 24.505,
+          "backlog": 38.23,
+          "http": 10,
+          "events": 4
+        },
+        "report_trigger_feedback": {
+          "cost": 28.045,
+          "backlog": 39.41,
+          "http": 8,
+          "events": 4
+        }
+      },
+      "cost_delta": 3.5400000000000027,
+      "backlog_delta": 1.1799999999999997
+    },
+    {
+      "seed": 15,
+      "batch": 1,
+      "trace": 0,
+      "type": "single_surge",
+      "outcomes": {
+        "happo": {
+          "cost": 10.636666666666667,
+          "backlog": 1.66,
+          "http": 0,
+          "events": 0
+        },
+        "online_feedback": {
+          "cost": 10.191666666666666,
+          "backlog": 1.375,
+          "http": 9,
+          "events": 4
+        },
+        "report_trigger_feedback": {
+          "cost": 10.766666666666667,
+          "backlog": 1.38,
+          "http": 8,
+          "events": 4
+        }
+      },
+      "cost_delta": 0.5750000000000011,
+      "backlog_delta": 0.004999999999999893
+    },
+    {
+      "seed": 15,
+      "batch": 1,
+      "trace": 1,
+      "type": "sustained_surge",
+      "outcomes": {
+        "happo": {
+          "cost": 25.46,
+          "backlog": 17.99,
+          "http": 0,
+          "events": 0
+        },
+        "online_feedback": {
+          "cost": 21.801666666666666,
+          "backlog": 15.255,
+          "http": 9,
+          "events": 4
+        },
+        "report_trigger_feedback": {
+          "cost": 21.778333333333332,
+          "backlog": 14.38,
+          "http": 8,
+          "events": 4
+        }
+      },
+      "cost_delta": -0.023333333333333428,
+      "backlog_delta": -0.875
+    },
+    {
+      "seed": 15,
+      "batch": 1,
+      "trace": 2,
+      "type": "double_surge",
+      "outcomes": {
+        "happo": {
+          "cost": 12.766666666666667,
+          "backlog": 2.69,
+          "http": 0,
+          "events": 0
+        },
+        "online_feedback": {
+          "cost": 12.663333333333334,
+          "backlog": 2.2,
+          "http": 9,
+          "events": 4
+        },
+        "report_trigger_feedback": {
+          "cost": 14.281666666666666,
+          "backlog": 2.435,
+          "http": 9,
+          "events": 4
+        }
+      },
+      "cost_delta": 1.6183333333333323,
+      "backlog_delta": 0.23499999999999988
+    },
+    {
+      "seed": 15,
+      "batch": 1,
+      "trace": 3,
+      "type": "surge_then_drop",
+      "outcomes": {
+        "happo": {
+          "cost": 33.73,
+          "backlog": 12.105,
+          "http": 0,
+          "events": 0
+        },
+        "online_feedback": {
+          "cost": 33.73,
+          "backlog": 12.105,
+          "http": 8,
+          "events": 4
+        },
+        "report_trigger_feedback": {
+          "cost": 33.55166666666667,
+          "backlog": 11.965,
+          "http": 9,
+          "events": 4
+        }
+      },
+      "cost_delta": -0.17833333333332746,
+      "backlog_delta": -0.14000000000000057
+    },
+    {
+      "seed": 15,
+      "batch": 6,
+      "trace": 0,
+      "type": "single_surge",
+      "outcomes": {
+        "happo": {
+          "cost": 17.873333333333335,
+          "backlog": 7.28,
+          "http": 0,
+          "events": 0
+        },
+        "online_feedback": {
+          "cost": 17.873333333333335,
+          "backlog": 7.28,
+          "http": 8,
+          "events": 4
+        },
+        "report_trigger_feedback": {
+          "cost": 17.873333333333335,
+          "backlog": 7.28,
+          "http": 9,
+          "events": 4
+        }
+      },
+      "cost_delta": 0.0,
+      "backlog_delta": 0.0
+    },
+    {
+      "seed": 15,
+      "batch": 6,
+      "trace": 1,
+      "type": "sustained_surge",
+      "outcomes": {
+        "happo": {
+          "cost": 13.363333333333333,
+          "backlog": 1.3,
+          "http": 0,
+          "events": 0
+        },
+        "online_feedback": {
+          "cost": 13.151666666666667,
+          "backlog": 1.195,
+          "http": 10,
+          "events": 4
+        },
+        "report_trigger_feedback": {
+          "cost": 12.828333333333333,
+          "backlog": 1.15,
+          "http": 8,
+          "events": 4
+        }
+      },
+      "cost_delta": -0.32333333333333414,
+      "backlog_delta": -0.04500000000000015
+    },
+    {
+      "seed": 15,
+      "batch": 6,
+      "trace": 2,
+      "type": "double_surge",
+      "outcomes": {
+        "happo": {
+          "cost": 13.356666666666667,
+          "backlog": 3.375,
+          "http": 0,
+          "events": 0
+        },
+        "online_feedback": {
+          "cost": 13.478333333333333,
+          "backlog": 3.385,
+          "http": 9,
+          "events": 4
+        },
+        "report_trigger_feedback": {
+          "cost": 13.356666666666667,
+          "backlog": 3.375,
+          "http": 8,
+          "events": 4
+        }
+      },
+      "cost_delta": -0.12166666666666615,
+      "backlog_delta": -0.009999999999999787
+    },
+    {
+      "seed": 15,
+      "batch": 6,
+      "trace": 3,
+      "type": "surge_then_drop",
+      "outcomes": {
+        "happo": {
+          "cost": 31.688333333333333,
+          "backlog": 49.455,
+          "http": 0,
+          "events": 0
+        },
+        "online_feedback": {
+          "cost": 28.073333333333334,
+          "backlog": 43.895,
+          "http": 8,
+          "events": 4
+        },
+        "report_trigger_feedback": {
+          "cost": 23.69,
+          "backlog": 35.035,
+          "http": 11,
+          "events": 4
+        }
+      },
+      "cost_delta": -4.383333333333333,
+      "backlog_delta": -8.860000000000007
+    }
+  ],
+  "overall": {
+    "cost_delta": {
+      "mean": -0.03383333333333312,
+      "better": 20,
+      "tied": 3,
+      "worse": 17
+    },
+    "backlog_delta": {
+      "mean": -0.593875,
+      "better": 17,
+      "tied": 4,
+      "worse": 19
+    }
+  },
+  "by_type": {
+    "single_surge": {
+      "cost_delta": {
+        "mean": -0.5234999999999994,
+        "better": 7,
+        "tied": 1,
+        "worse": 2
+      },
+      "backlog_delta": {
+        "mean": -0.004999999999999905,
+        "better": 4,
+        "tied": 1,
+        "worse": 5
+      }
+    },
+    "sustained_surge": {
+      "cost_delta": {
+        "mean": 0.41716666666666635,
+        "better": 3,
+        "tied": 0,
+        "worse": 7
+      },
+      "backlog_delta": {
+        "mean": -0.3984999999999998,
+        "better": 6,
+        "tied": 0,
+        "worse": 4
+      }
+    },
+    "double_surge": {
+      "cost_delta": {
+        "mean": 0.4249999999999998,
+        "better": 6,
+        "tied": 0,
+        "worse": 4
+      },
+      "backlog_delta": {
+        "mean": 0.13800000000000007,
+        "better": 3,
+        "tied": 0,
+        "worse": 7
+      }
+    },
+    "surge_then_drop": {
+      "cost_delta": {
+        "mean": -0.4539999999999992,
+        "better": 4,
+        "tied": 2,
+        "worse": 4
+      },
+      "backlog_delta": {
+        "mean": -2.1100000000000008,
+        "better": 4,
+        "tied": 3,
+        "worse": 3
+      }
+    }
+  },
+  "by_seed": {
+    "11": {
+      "cost_delta": {
+        "mean": -0.9912500000000002,
+        "better": 4,
+        "tied": 1,
+        "worse": 3
+      },
+      "backlog_delta": {
+        "mean": -2.8368750000000005,
+        "better": 4,
+        "tied": 1,
+        "worse": 3
+      }
+    },
+    "12": {
+      "cost_delta": {
+        "mean": 0.03125,
+        "better": 4,
+        "tied": 0,
+        "worse": 4
+      },
+      "backlog_delta": {
+        "mean": 0.7862500000000007,
+        "better": 2,
+        "tied": 0,
+        "worse": 6
+      }
+    },
+    "13": {
+      "cost_delta": {
+        "mean": 0.7372916666666667,
+        "better": 3,
+        "tied": 1,
+        "worse": 4
+      },
+      "backlog_delta": {
+        "mean": 0.2912500000000001,
+        "better": 2,
+        "tied": 2,
+        "worse": 4
+      }
+    },
+    "14": {
+      "cost_delta": {
+        "mean": 0.4081250000000005,
+        "better": 4,
+        "tied": 0,
+        "worse": 4
+      },
+      "backlog_delta": {
+        "mean": 0.0012500000000000566,
+        "better": 4,
+        "tied": 0,
+        "worse": 4
+      }
+    },
+    "15": {
+      "cost_delta": {
+        "mean": -0.3545833333333326,
+        "better": 5,
+        "tied": 1,
+        "worse": 2
+      },
+      "backlog_delta": {
+        "mean": -1.2112500000000008,
+        "better": 5,
+        "tied": 1,
+        "worse": 2
+      }
+    }
+  },
+  "development_gate_passed": false,
+  "runs": [
+    {
+      "seed": 11,
+      "batch": 1,
+      "run_label": "seed11_batch01",
+      "episodes": 24,
+      "node_periods": 14400,
+      "completed_sha256": "50be83a2ceacc9b9dee4152d2182551a05f53ee81610f332fbe0b17692850fce",
+      "input_sha256": "807656230345c0a53bfe09cae53955c8954a11060ab9bdf7aadce1bf5807ad4a",
+      "runtime_failures": []
+    },
+    {
+      "seed": 11,
+      "batch": 6,
+      "run_label": "seed11_batch06",
+      "episodes": 24,
+      "node_periods": 14400,
+      "completed_sha256": "bca7b3c0fbd8d06aceb3b412ce302e389695ebbd8be9648e34eac80a467a35fc",
+      "input_sha256": "ed4cd7bf1d9fcf23a8b55a57549555204b08a8b62e92ea09a1fe5c316c173149",
+      "runtime_failures": []
+    },
+    {
+      "seed": 12,
+      "batch": 1,
+      "run_label": "seed12_batch01",
+      "episodes": 24,
+      "node_periods": 14400,
+      "completed_sha256": "41a30a335db200539d637b53951f517c6430f05ef73da8b943e0609f15d304b2",
+      "input_sha256": "807656230345c0a53bfe09cae53955c8954a11060ab9bdf7aadce1bf5807ad4a",
+      "runtime_failures": []
+    },
+    {
+      "seed": 12,
+      "batch": 6,
+      "run_label": "seed12_batch06",
+      "episodes": 24,
+      "node_periods": 14400,
+      "completed_sha256": "132425cdd19d4624f2d93a3468076134e2da763818c1f976d646879eed3508ba",
+      "input_sha256": "ed4cd7bf1d9fcf23a8b55a57549555204b08a8b62e92ea09a1fe5c316c173149",
+      "runtime_failures": []
+    },
+    {
+      "seed": 13,
+      "batch": 1,
+      "run_label": "seed13_batch01",
+      "episodes": 24,
+      "node_periods": 14400,
+      "completed_sha256": "158d07611c95023c1981762df69d0e3c698366a403d7704c5eace48b0881a4e7",
+      "input_sha256": "807656230345c0a53bfe09cae53955c8954a11060ab9bdf7aadce1bf5807ad4a",
+      "runtime_failures": []
+    },
+    {
+      "seed": 13,
+      "batch": 6,
+      "run_label": "seed13_batch06",
+      "episodes": 24,
+      "node_periods": 14400,
+      "completed_sha256": "a2128d92dfcbb06214484564673c994c443889c129d866f2805f51e110467b33",
+      "input_sha256": "ed4cd7bf1d9fcf23a8b55a57549555204b08a8b62e92ea09a1fe5c316c173149",
+      "runtime_failures": []
+    },
+    {
+      "seed": 14,
+      "batch": 1,
+      "run_label": "seed14_batch01",
+      "episodes": 24,
+      "node_periods": 14400,
+      "completed_sha256": "f8c8945c61fac8b5e6bbe684700459697b8ff3fc433dccf435604a2c43205768",
+      "input_sha256": "807656230345c0a53bfe09cae53955c8954a11060ab9bdf7aadce1bf5807ad4a",
+      "runtime_failures": []
+    },
+    {
+      "seed": 14,
+      "batch": 6,
+      "run_label": "seed14_batch06",
+      "episodes": 24,
+      "node_periods": 14400,
+      "completed_sha256": "a707f65ff17c03968563b81ba8bd77756724ff25cfa6fa68a564804128a9c707",
+      "input_sha256": "ed4cd7bf1d9fcf23a8b55a57549555204b08a8b62e92ea09a1fe5c316c173149",
+      "runtime_failures": []
+    },
+    {
+      "seed": 15,
+      "batch": 1,
+      "run_label": "seed15_batch01",
+      "episodes": 24,
+      "node_periods": 14400,
+      "completed_sha256": "364ebb2eb676d1c0e93acf8f4b504c2151a7dad636ff07dfc483fe03f788c4ae",
+      "input_sha256": "807656230345c0a53bfe09cae53955c8954a11060ab9bdf7aadce1bf5807ad4a",
+      "runtime_failures": []
+    },
+    {
+      "seed": 15,
+      "batch": 6,
+      "run_label": "seed15_batch06",
+      "episodes": 24,
+      "node_periods": 14400,
+      "completed_sha256": "666e3e07286ede0b5f1aaebe4fc09ab8a24fc6f81c5aaa13e8270038f28ea3a8",
+      "input_sha256": "ed4cd7bf1d9fcf23a8b55a57549555204b08a8b62e92ea09a1fe5c316c173149",
+      "runtime_failures": []
+    }
+  ],
+  "api_requests": 697,
+  "semantic_requests": 626,
+  "token_usage": {
+    "prompt_tokens": 2470844,
+    "completion_tokens": 274138,
+    "total_tokens": 2744982,
+    "prompt_cache_hit_tokens": 1672192,
+    "prompt_cache_miss_tokens": 798652
+  },
+  "api_failures": 87,
+  "API_nondeterminism_limitation": true,
+  "no_test_generalization_claim": true
+}

@@ -1,0 +1,1682 @@
+{
+  "status": "verified",
+  "episodes": 240,
+  "node_periods": 144000,
+  "pairs": 40,
+  "normal_pre_notice_checks": 160,
+  "pooled_new_minus_original": {
+    "cost_delta": -0.03383333333333312,
+    "backlog_delta": -0.593875
+  },
+  "by_type": {
+    "surge_then_drop": {
+      "cost_delta": -0.4539999999999992,
+      "backlog_delta": -2.1100000000000008
+    },
+    "single_surge": {
+      "cost_delta": -0.5234999999999994,
+      "backlog_delta": -0.004999999999999905
+    },
+    "double_surge": {
+      "cost_delta": 0.4249999999999998,
+      "backlog_delta": 0.13800000000000007
+    },
+    "sustained_surge": {
+      "cost_delta": 0.41716666666666635,
+      "backlog_delta": -0.3984999999999998
+    }
+  },
+  "development_gate_passed": false,
+  "absolute_shocked_means": {
+    "happo": {
+      "cost": 20.315041666666666,
+      "downstream_backlog": 11.52625
+    },
+    "online_feedback": {
+      "cost": 19.672,
+      "downstream_backlog": 10.973125
+    },
+    "report_trigger_feedback": {
+      "cost": 19.638166666666667,
+      "downstream_backlog": 10.37925
+    }
+  },
+  "api_http": 697,
+  "semantic_requests": 626,
+  "token_usage": {
+    "prompt_tokens": 2470844,
+    "completion_tokens": 274138,
+    "total_tokens": 2744982,
+    "prompt_cache_hit_tokens": 1672192,
+    "prompt_cache_miss_tokens": 798652
+  },
+  "resources": {
+    "online_feedback": {
+      "http": 350,
+      "semantic": 312,
+      "initial_failed": 8,
+      "revision_failed": 2,
+      "failed_replies": 48
+    },
+    "report_trigger_feedback": {
+      "http": 347,
+      "semantic": 314,
+      "initial_failed": 6,
+      "revision_failed": 0,
+      "failed_replies": 39
+    }
+  },
+  "response_failure_types": {
+    "expected one to four rules": 40,
+    "unknown feature": 43,
+    "invalid syntax (<unknown>, line 1)": 4
+  },
+  "schedules": [
+    {
+      "seed": 11,
+      "batch": 1,
+      "trace": 0,
+      "type": "single_surge",
+      "method": "online_feedback",
+      "periods": [
+        73,
+        78,
+        83,
+        88
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 3
+    },
+    {
+      "seed": 11,
+      "batch": 1,
+      "trace": 0,
+      "type": "single_surge",
+      "method": "report_trigger_feedback",
+      "periods": [
+        73,
+        93,
+        123,
+        143
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 2
+    },
+    {
+      "seed": 11,
+      "batch": 1,
+      "trace": 1,
+      "type": "sustained_surge",
+      "method": "online_feedback",
+      "periods": [
+        63,
+        68,
+        73,
+        78
+      ],
+      "chosen": [
+        "zero",
+        "event2_initial_2",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 9
+    },
+    {
+      "seed": 11,
+      "batch": 1,
+      "trace": 1,
+      "type": "sustained_surge",
+      "method": "report_trigger_feedback",
+      "periods": [
+        63,
+        83,
+        103,
+        123
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 27
+    },
+    {
+      "seed": 11,
+      "batch": 1,
+      "trace": 2,
+      "type": "double_surge",
+      "method": "online_feedback",
+      "periods": [
+        68,
+        73,
+        78,
+        83
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 23
+    },
+    {
+      "seed": 11,
+      "batch": 1,
+      "trace": 2,
+      "type": "double_surge",
+      "method": "report_trigger_feedback",
+      "periods": [
+        68,
+        93,
+        113,
+        133
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "event3_revision_0",
+        "zero"
+      ],
+      "changed_node_periods": 17
+    },
+    {
+      "seed": 11,
+      "batch": 1,
+      "trace": 3,
+      "type": "surge_then_drop",
+      "method": "online_feedback",
+      "periods": [
+        73,
+        78,
+        83,
+        88
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 0
+    },
+    {
+      "seed": 11,
+      "batch": 1,
+      "trace": 3,
+      "type": "surge_then_drop",
+      "method": "report_trigger_feedback",
+      "periods": [
+        73,
+        98,
+        118,
+        138
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 0
+    },
+    {
+      "seed": 11,
+      "batch": 6,
+      "trace": 0,
+      "type": "single_surge",
+      "method": "online_feedback",
+      "periods": [
+        83,
+        88,
+        93,
+        98
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 8
+    },
+    {
+      "seed": 11,
+      "batch": 6,
+      "trace": 0,
+      "type": "single_surge",
+      "method": "report_trigger_feedback",
+      "periods": [
+        83,
+        103,
+        128,
+        148
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 20
+    },
+    {
+      "seed": 11,
+      "batch": 6,
+      "trace": 1,
+      "type": "sustained_surge",
+      "method": "online_feedback",
+      "periods": [
+        73,
+        78,
+        83,
+        88
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "event4_revision_0"
+      ],
+      "changed_node_periods": 36
+    },
+    {
+      "seed": 11,
+      "batch": 6,
+      "trace": 1,
+      "type": "sustained_surge",
+      "method": "report_trigger_feedback",
+      "periods": [
+        73,
+        103,
+        123,
+        143
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 16
+    },
+    {
+      "seed": 11,
+      "batch": 6,
+      "trace": 2,
+      "type": "double_surge",
+      "method": "online_feedback",
+      "periods": [
+        78,
+        83,
+        88,
+        93
+      ],
+      "chosen": [
+        "zero",
+        "event2_revision_0",
+        "zero",
+        "event4_revision_0"
+      ],
+      "changed_node_periods": 8
+    },
+    {
+      "seed": 11,
+      "batch": 6,
+      "trace": 2,
+      "type": "double_surge",
+      "method": "report_trigger_feedback",
+      "periods": [
+        78,
+        98,
+        128,
+        148
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 3
+    },
+    {
+      "seed": 11,
+      "batch": 6,
+      "trace": 3,
+      "type": "surge_then_drop",
+      "method": "online_feedback",
+      "periods": [
+        83,
+        88,
+        93,
+        98
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "event3_initial_2",
+        "zero"
+      ],
+      "changed_node_periods": 30
+    },
+    {
+      "seed": 11,
+      "batch": 6,
+      "trace": 3,
+      "type": "surge_then_drop",
+      "method": "report_trigger_feedback",
+      "periods": [
+        83,
+        108,
+        138,
+        158
+      ],
+      "chosen": [
+        "event1_initial_1",
+        "zero",
+        "zero",
+        "event4_revision_0"
+      ],
+      "changed_node_periods": 95
+    },
+    {
+      "seed": 12,
+      "batch": 1,
+      "trace": 0,
+      "type": "single_surge",
+      "method": "online_feedback",
+      "periods": [
+        73,
+        78,
+        83,
+        88
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 34
+    },
+    {
+      "seed": 12,
+      "batch": 1,
+      "trace": 0,
+      "type": "single_surge",
+      "method": "report_trigger_feedback",
+      "periods": [
+        73,
+        93,
+        123,
+        143
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 1
+    },
+    {
+      "seed": 12,
+      "batch": 1,
+      "trace": 1,
+      "type": "sustained_surge",
+      "method": "online_feedback",
+      "periods": [
+        63,
+        68,
+        73,
+        78
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 9
+    },
+    {
+      "seed": 12,
+      "batch": 1,
+      "trace": 1,
+      "type": "sustained_surge",
+      "method": "report_trigger_feedback",
+      "periods": [
+        63,
+        83,
+        103,
+        123
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 31
+    },
+    {
+      "seed": 12,
+      "batch": 1,
+      "trace": 2,
+      "type": "double_surge",
+      "method": "online_feedback",
+      "periods": [
+        68,
+        73,
+        78,
+        83
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 3
+    },
+    {
+      "seed": 12,
+      "batch": 1,
+      "trace": 2,
+      "type": "double_surge",
+      "method": "report_trigger_feedback",
+      "periods": [
+        68,
+        93,
+        113,
+        133
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "event3_revision_0",
+        "zero"
+      ],
+      "changed_node_periods": 15
+    },
+    {
+      "seed": 12,
+      "batch": 1,
+      "trace": 3,
+      "type": "surge_then_drop",
+      "method": "online_feedback",
+      "periods": [
+        73,
+        78,
+        83,
+        88
+      ],
+      "chosen": [
+        "event1_initial_1",
+        "event2_initial_2",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 22
+    },
+    {
+      "seed": 12,
+      "batch": 1,
+      "trace": 3,
+      "type": "surge_then_drop",
+      "method": "report_trigger_feedback",
+      "periods": [
+        73,
+        98,
+        118,
+        138
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 0
+    },
+    {
+      "seed": 12,
+      "batch": 6,
+      "trace": 0,
+      "type": "single_surge",
+      "method": "online_feedback",
+      "periods": [
+        83,
+        88,
+        93,
+        98
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 6
+    },
+    {
+      "seed": 12,
+      "batch": 6,
+      "trace": 0,
+      "type": "single_surge",
+      "method": "report_trigger_feedback",
+      "periods": [
+        83,
+        103,
+        128,
+        148
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 0
+    },
+    {
+      "seed": 12,
+      "batch": 6,
+      "trace": 1,
+      "type": "sustained_surge",
+      "method": "online_feedback",
+      "periods": [
+        73,
+        78,
+        83,
+        88
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 11
+    },
+    {
+      "seed": 12,
+      "batch": 6,
+      "trace": 1,
+      "type": "sustained_surge",
+      "method": "report_trigger_feedback",
+      "periods": [
+        73,
+        103,
+        123,
+        143
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 4
+    },
+    {
+      "seed": 12,
+      "batch": 6,
+      "trace": 2,
+      "type": "double_surge",
+      "method": "online_feedback",
+      "periods": [
+        78,
+        83,
+        88,
+        93
+      ],
+      "chosen": [
+        "event1_revision_0",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 16
+    },
+    {
+      "seed": 12,
+      "batch": 6,
+      "trace": 2,
+      "type": "double_surge",
+      "method": "report_trigger_feedback",
+      "periods": [
+        78,
+        98,
+        128,
+        148
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 2
+    },
+    {
+      "seed": 12,
+      "batch": 6,
+      "trace": 3,
+      "type": "surge_then_drop",
+      "method": "online_feedback",
+      "periods": [
+        83,
+        88,
+        93,
+        98
+      ],
+      "chosen": [
+        "event1_initial_1",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 24
+    },
+    {
+      "seed": 12,
+      "batch": 6,
+      "trace": 3,
+      "type": "surge_then_drop",
+      "method": "report_trigger_feedback",
+      "periods": [
+        83,
+        108,
+        138,
+        158
+      ],
+      "chosen": [
+        "event1_revision_0",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 42
+    },
+    {
+      "seed": 13,
+      "batch": 1,
+      "trace": 0,
+      "type": "single_surge",
+      "method": "online_feedback",
+      "periods": [
+        73,
+        78,
+        83,
+        88
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 7
+    },
+    {
+      "seed": 13,
+      "batch": 1,
+      "trace": 0,
+      "type": "single_surge",
+      "method": "report_trigger_feedback",
+      "periods": [
+        73,
+        93,
+        123,
+        143
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 15
+    },
+    {
+      "seed": 13,
+      "batch": 1,
+      "trace": 1,
+      "type": "sustained_surge",
+      "method": "online_feedback",
+      "periods": [
+        63,
+        68,
+        73,
+        78
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "event4_initial_1"
+      ],
+      "changed_node_periods": 26
+    },
+    {
+      "seed": 13,
+      "batch": 1,
+      "trace": 1,
+      "type": "sustained_surge",
+      "method": "report_trigger_feedback",
+      "periods": [
+        63,
+        83,
+        103,
+        123
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 14
+    },
+    {
+      "seed": 13,
+      "batch": 1,
+      "trace": 2,
+      "type": "double_surge",
+      "method": "online_feedback",
+      "periods": [
+        68,
+        73,
+        78,
+        83
+      ],
+      "chosen": [
+        "event1_revision_0",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 9
+    },
+    {
+      "seed": 13,
+      "batch": 1,
+      "trace": 2,
+      "type": "double_surge",
+      "method": "report_trigger_feedback",
+      "periods": [
+        68,
+        93,
+        113,
+        133
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 8
+    },
+    {
+      "seed": 13,
+      "batch": 1,
+      "trace": 3,
+      "type": "surge_then_drop",
+      "method": "online_feedback",
+      "periods": [
+        73,
+        78,
+        83,
+        88
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "event4_revision_0"
+      ],
+      "changed_node_periods": 12
+    },
+    {
+      "seed": 13,
+      "batch": 1,
+      "trace": 3,
+      "type": "surge_then_drop",
+      "method": "report_trigger_feedback",
+      "periods": [
+        73,
+        98,
+        118,
+        138
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 6
+    },
+    {
+      "seed": 13,
+      "batch": 6,
+      "trace": 0,
+      "type": "single_surge",
+      "method": "online_feedback",
+      "periods": [
+        83,
+        88,
+        93,
+        98
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 11
+    },
+    {
+      "seed": 13,
+      "batch": 6,
+      "trace": 0,
+      "type": "single_surge",
+      "method": "report_trigger_feedback",
+      "periods": [
+        83,
+        103,
+        128,
+        148
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "event3_initial_1",
+        "zero"
+      ],
+      "changed_node_periods": 10
+    },
+    {
+      "seed": 13,
+      "batch": 6,
+      "trace": 1,
+      "type": "sustained_surge",
+      "method": "online_feedback",
+      "periods": [
+        73,
+        78,
+        83,
+        88
+      ],
+      "chosen": [
+        "event1_revision_0",
+        "zero",
+        "event3_initial_2",
+        "zero"
+      ],
+      "changed_node_periods": 29
+    },
+    {
+      "seed": 13,
+      "batch": 6,
+      "trace": 1,
+      "type": "sustained_surge",
+      "method": "report_trigger_feedback",
+      "periods": [
+        73,
+        103,
+        123,
+        143
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 17
+    },
+    {
+      "seed": 13,
+      "batch": 6,
+      "trace": 2,
+      "type": "double_surge",
+      "method": "online_feedback",
+      "periods": [
+        78,
+        83,
+        88,
+        93
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 0
+    },
+    {
+      "seed": 13,
+      "batch": 6,
+      "trace": 2,
+      "type": "double_surge",
+      "method": "report_trigger_feedback",
+      "periods": [
+        78,
+        98,
+        128,
+        148
+      ],
+      "chosen": [
+        "event1_initial_1",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 22
+    },
+    {
+      "seed": 13,
+      "batch": 6,
+      "trace": 3,
+      "type": "surge_then_drop",
+      "method": "online_feedback",
+      "periods": [
+        83,
+        88,
+        93,
+        98
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 0
+    },
+    {
+      "seed": 13,
+      "batch": 6,
+      "trace": 3,
+      "type": "surge_then_drop",
+      "method": "report_trigger_feedback",
+      "periods": [
+        83,
+        108,
+        138,
+        158
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 0
+    },
+    {
+      "seed": 14,
+      "batch": 1,
+      "trace": 0,
+      "type": "single_surge",
+      "method": "online_feedback",
+      "periods": [
+        73,
+        78,
+        83,
+        88
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 15
+    },
+    {
+      "seed": 14,
+      "batch": 1,
+      "trace": 0,
+      "type": "single_surge",
+      "method": "report_trigger_feedback",
+      "periods": [
+        73,
+        93,
+        123,
+        143
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 8
+    },
+    {
+      "seed": 14,
+      "batch": 1,
+      "trace": 1,
+      "type": "sustained_surge",
+      "method": "online_feedback",
+      "periods": [
+        63,
+        68,
+        73,
+        78
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 25
+    },
+    {
+      "seed": 14,
+      "batch": 1,
+      "trace": 1,
+      "type": "sustained_surge",
+      "method": "report_trigger_feedback",
+      "periods": [
+        63,
+        83,
+        103,
+        123
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 15
+    },
+    {
+      "seed": 14,
+      "batch": 1,
+      "trace": 2,
+      "type": "double_surge",
+      "method": "online_feedback",
+      "periods": [
+        68,
+        73,
+        78,
+        83
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 4
+    },
+    {
+      "seed": 14,
+      "batch": 1,
+      "trace": 2,
+      "type": "double_surge",
+      "method": "report_trigger_feedback",
+      "periods": [
+        68,
+        93,
+        113,
+        133
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 0
+    },
+    {
+      "seed": 14,
+      "batch": 1,
+      "trace": 3,
+      "type": "surge_then_drop",
+      "method": "online_feedback",
+      "periods": [
+        73,
+        78,
+        83,
+        88
+      ],
+      "chosen": [
+        "event1_initial_1",
+        "zero",
+        "zero",
+        "event4_initial_2"
+      ],
+      "changed_node_periods": 19
+    },
+    {
+      "seed": 14,
+      "batch": 1,
+      "trace": 3,
+      "type": "surge_then_drop",
+      "method": "report_trigger_feedback",
+      "periods": [
+        73,
+        98,
+        118,
+        138
+      ],
+      "chosen": [
+        "event1_initial_2",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 25
+    },
+    {
+      "seed": 14,
+      "batch": 6,
+      "trace": 0,
+      "type": "single_surge",
+      "method": "online_feedback",
+      "periods": [
+        83,
+        88,
+        93,
+        98
+      ],
+      "chosen": [
+        "zero",
+        "event2_revision_0",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 19
+    },
+    {
+      "seed": 14,
+      "batch": 6,
+      "trace": 0,
+      "type": "single_surge",
+      "method": "report_trigger_feedback",
+      "periods": [
+        83,
+        103,
+        128,
+        148
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 3
+    },
+    {
+      "seed": 14,
+      "batch": 6,
+      "trace": 1,
+      "type": "sustained_surge",
+      "method": "online_feedback",
+      "periods": [
+        73,
+        78,
+        83,
+        88
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 2
+    },
+    {
+      "seed": 14,
+      "batch": 6,
+      "trace": 1,
+      "type": "sustained_surge",
+      "method": "report_trigger_feedback",
+      "periods": [
+        73,
+        103,
+        123,
+        143
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 42
+    },
+    {
+      "seed": 14,
+      "batch": 6,
+      "trace": 2,
+      "type": "double_surge",
+      "method": "online_feedback",
+      "periods": [
+        78,
+        83,
+        88,
+        93
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 0
+    },
+    {
+      "seed": 14,
+      "batch": 6,
+      "trace": 2,
+      "type": "double_surge",
+      "method": "report_trigger_feedback",
+      "periods": [
+        78,
+        98,
+        128,
+        148
+      ],
+      "chosen": [
+        "zero",
+        "event2_initial_2",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 14
+    },
+    {
+      "seed": 14,
+      "batch": 6,
+      "trace": 3,
+      "type": "surge_then_drop",
+      "method": "online_feedback",
+      "periods": [
+        83,
+        88,
+        93,
+        98
+      ],
+      "chosen": [
+        "zero",
+        "event2_revision_0",
+        "event3_initial_1",
+        "zero"
+      ],
+      "changed_node_periods": 88
+    },
+    {
+      "seed": 14,
+      "batch": 6,
+      "trace": 3,
+      "type": "surge_then_drop",
+      "method": "report_trigger_feedback",
+      "periods": [
+        83,
+        108,
+        138,
+        158
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 28
+    },
+    {
+      "seed": 15,
+      "batch": 1,
+      "trace": 0,
+      "type": "single_surge",
+      "method": "online_feedback",
+      "periods": [
+        73,
+        78,
+        83,
+        88
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 13
+    },
+    {
+      "seed": 15,
+      "batch": 1,
+      "trace": 0,
+      "type": "single_surge",
+      "method": "report_trigger_feedback",
+      "periods": [
+        73,
+        93,
+        123,
+        143
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "event3_revision_0",
+        "zero"
+      ],
+      "changed_node_periods": 12
+    },
+    {
+      "seed": 15,
+      "batch": 1,
+      "trace": 1,
+      "type": "sustained_surge",
+      "method": "online_feedback",
+      "periods": [
+        63,
+        68,
+        73,
+        78
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 8
+    },
+    {
+      "seed": 15,
+      "batch": 1,
+      "trace": 1,
+      "type": "sustained_surge",
+      "method": "report_trigger_feedback",
+      "periods": [
+        63,
+        83,
+        103,
+        123
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 32
+    },
+    {
+      "seed": 15,
+      "batch": 1,
+      "trace": 2,
+      "type": "double_surge",
+      "method": "online_feedback",
+      "periods": [
+        68,
+        73,
+        78,
+        83
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 10
+    },
+    {
+      "seed": 15,
+      "batch": 1,
+      "trace": 2,
+      "type": "double_surge",
+      "method": "report_trigger_feedback",
+      "periods": [
+        68,
+        93,
+        113,
+        133
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 24
+    },
+    {
+      "seed": 15,
+      "batch": 1,
+      "trace": 3,
+      "type": "surge_then_drop",
+      "method": "online_feedback",
+      "periods": [
+        73,
+        78,
+        83,
+        88
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 0
+    },
+    {
+      "seed": 15,
+      "batch": 1,
+      "trace": 3,
+      "type": "surge_then_drop",
+      "method": "report_trigger_feedback",
+      "periods": [
+        73,
+        98,
+        118,
+        138
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "event4_revision_0"
+      ],
+      "changed_node_periods": 16
+    },
+    {
+      "seed": 15,
+      "batch": 6,
+      "trace": 0,
+      "type": "single_surge",
+      "method": "online_feedback",
+      "periods": [
+        83,
+        88,
+        93,
+        98
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 0
+    },
+    {
+      "seed": 15,
+      "batch": 6,
+      "trace": 0,
+      "type": "single_surge",
+      "method": "report_trigger_feedback",
+      "periods": [
+        83,
+        103,
+        128,
+        148
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 0
+    },
+    {
+      "seed": 15,
+      "batch": 6,
+      "trace": 1,
+      "type": "sustained_surge",
+      "method": "online_feedback",
+      "periods": [
+        73,
+        78,
+        83,
+        88
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 16
+    },
+    {
+      "seed": 15,
+      "batch": 6,
+      "trace": 1,
+      "type": "sustained_surge",
+      "method": "report_trigger_feedback",
+      "periods": [
+        73,
+        103,
+        123,
+        143
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "event4_revision_0"
+      ],
+      "changed_node_periods": 13
+    },
+    {
+      "seed": 15,
+      "batch": 6,
+      "trace": 2,
+      "type": "double_surge",
+      "method": "online_feedback",
+      "periods": [
+        78,
+        83,
+        88,
+        93
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 19
+    },
+    {
+      "seed": 15,
+      "batch": 6,
+      "trace": 2,
+      "type": "double_surge",
+      "method": "report_trigger_feedback",
+      "periods": [
+        78,
+        98,
+        128,
+        148
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 0
+    },
+    {
+      "seed": 15,
+      "batch": 6,
+      "trace": 3,
+      "type": "surge_then_drop",
+      "method": "online_feedback",
+      "periods": [
+        83,
+        88,
+        93,
+        98
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 46
+    },
+    {
+      "seed": 15,
+      "batch": 6,
+      "trace": 3,
+      "type": "surge_then_drop",
+      "method": "report_trigger_feedback",
+      "periods": [
+        83,
+        108,
+        138,
+        158
+      ],
+      "chosen": [
+        "zero",
+        "zero",
+        "zero",
+        "zero"
+      ],
+      "changed_node_periods": 48
+    }
+  ],
+  "runtime_failures": [],
+  "source_input_model_training_hashes": "passed",
+  "credential_absent": true,
+  "development_only": true,
+  "independent_confirmation": false,
+  "API_output_nondeterminism": true
+}

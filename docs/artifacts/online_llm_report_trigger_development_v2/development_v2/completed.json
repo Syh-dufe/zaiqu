@@ -1,0 +1,9 @@
+{
+  "status": "completed",
+  "development_only": true,
+  "episodes": 240,
+  "node_periods": 144000,
+  "completed_runs": 10,
+  "summary_sha256": "ca6ea6ae0bf56a087aff2a975cc034f2464adebec946eba39671d2803a812b48",
+  "training_updates": 0
+}
