@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "normal_validation_episodes": 100,
+  "replay_episodes": 40,
+  "total_episodes": 140,
+  "recorded_node_periods": 24000,
+  "api_calls": 0,
+  "training_updates": 0,
+  "all_models_unchanged": true,
+  "all_costs_I_plus_B": true,
+  "report_interval": 3,
+  "notification_delay": 2,
+  "original_normal_costs_reproduced": true,
+  "wall_seconds": 43.068420600000536,
+  "development_only": true,
+  "interpretation": "Frozen IPPO compatibility on original validation and previously used replay paths, not new test evidence"
+}
