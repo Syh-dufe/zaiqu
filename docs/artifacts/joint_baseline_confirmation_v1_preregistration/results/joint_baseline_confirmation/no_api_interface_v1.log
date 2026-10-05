@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "C:\Users\13384\.codex\worktrees\zaiqu-formal-bc\experiments\joint_baseline_confirmation\no_api_check.py", line 93, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "C:\Users\13384\.codex\worktrees\zaiqu-formal-bc\experiments\joint_baseline_confirmation\no_api_check.py", line 42, in main
+    contracts={str(seed):core.contracts(INPUT,core.LIBRARY,core.training(seed),require_key=False) for seed in range(11,16)}
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\13384\.codex\worktrees\zaiqu-formal-bc\experiments\joint_baseline_confirmation\run_online.py", line 132, in contracts
+    _,happo_contract=frozen.load('happo',done['seed'])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\13384\.codex\worktrees\zaiqu-formal-bc\experiments\joint_baseline\frozen.py", line 41, in load
+    assert audit['evaluated_original_costs']['official_best']==done['official_best_cost']
+           ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'evaluated_original_costs'

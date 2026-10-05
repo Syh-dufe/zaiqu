@@ -1,0 +1,2257 @@
+{
+  "files": [
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\2026-10-05-joint-baseline-code-review.md",
+      "public_path": "docs/2026-10-05-joint-baseline-code-review.md",
+      "raw_sha256": "27dbd487327213b40eb94928f9a5df2fb8b15ee23bd3c1d2e2e0bf33f2eb8777",
+      "stored_sha256": "27dbd487327213b40eb94928f9a5df2fb8b15ee23bd3c1d2e2e0bf33f2eb8777",
+      "compression": "none",
+      "bytes": 3242
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\2026-10-05-joint-baseline-confirmation-registration.md",
+      "public_path": "docs/2026-10-05-joint-baseline-confirmation-registration.md",
+      "raw_sha256": "cca628ae0976bcda15540f532be8f58534166a96ccba478e6638cf6c612471e8",
+      "stored_sha256": "cca628ae0976bcda15540f532be8f58534166a96ccba478e6638cf6c612471e8",
+      "compression": "none",
+      "bytes": 3595
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\artifacts\\online_llm_development_v1\\inputs.json",
+      "public_path": "docs/artifacts/online_llm_development_v1/inputs.json",
+      "raw_sha256": "314c63dd6a253c7874d32f8644c52790269b684a39542d4c8e43b1de844151d0",
+      "stored_sha256": "314c63dd6a253c7874d32f8644c52790269b684a39542d4c8e43b1de844151d0",
+      "compression": "none",
+      "bytes": 17528
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\artifacts\\operator_discovery_v1\\repaired_library.json",
+      "public_path": "docs/artifacts/operator_discovery_v1/repaired_library.json",
+      "raw_sha256": "1450aab60c410b4a0ce28711ada397635f2d0feac25ba6d5cf0067d33224a6f9",
+      "stored_sha256": "1450aab60c410b4a0ce28711ada397635f2d0feac25ba6d5cf0067d33224a6f9",
+      "compression": "none",
+      "bytes": 2938
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\superpowers\\plans\\2026-10-05-joint-baseline-confirmation.md",
+      "public_path": "docs/superpowers/plans/2026-10-05-joint-baseline-confirmation.md",
+      "raw_sha256": "2c56cc24a2348b13e342721ee43c54d19d0c378a54cbd6b33f667cbaeb0540b3",
+      "stored_sha256": "2c56cc24a2348b13e342721ee43c54d19d0c378a54cbd6b33f667cbaeb0540b3",
+      "compression": "none",
+      "bytes": 5436
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\superpowers\\specs\\2026-10-05-joint-baseline-design.md",
+      "public_path": "docs/superpowers/specs/2026-10-05-joint-baseline-design.md",
+      "raw_sha256": "b317bdb25ee289e2c97669289fe065512f5e682caf2aea60969f35876cb90dfa",
+      "stored_sha256": "b317bdb25ee289e2c97669289fe065512f5e682caf2aea60969f35876cb90dfa",
+      "compression": "none",
+      "bytes": 2673
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\deepseek_pilot\\rules.py",
+      "public_path": "experiments/deepseek_pilot/rules.py",
+      "raw_sha256": "8de5400b739098929e760caf8bca9abd9d89a6f5e6910d9ab839119aefbc497b",
+      "stored_sha256": "8de5400b739098929e760caf8bca9abd9d89a6f5e6910d9ab839119aefbc497b",
+      "compression": "none",
+      "bytes": 4990
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\deepseek_refinement\\reports.py",
+      "public_path": "experiments/deepseek_refinement/reports.py",
+      "raw_sha256": "46d4588efa0daae795e9677f4151cee66fe0d77aabe40eebc1296d4be460b154",
+      "stored_sha256": "46d4588efa0daae795e9677f4151cee66fe0d77aabe40eebc1296d4be460b154",
+      "compression": "none",
+      "bytes": 2565
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\deepseek_refinement\\run.py",
+      "public_path": "experiments/deepseek_refinement/run.py",
+      "raw_sha256": "2515ab236fd015b50b5734105d9745f5f5e7c7974cc77e5fd7ebd7063bc1d4b6",
+      "stored_sha256": "2515ab236fd015b50b5734105d9745f5f5e7c7974cc77e5fd7ebd7063bc1d4b6",
+      "compression": "none",
+      "bytes": 28367
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\deepseek_refinement\\shadow.py",
+      "public_path": "experiments/deepseek_refinement/shadow.py",
+      "raw_sha256": "fbf92c3c5bc5b86a52890a32e5d26d51400daef467504401838da55bbff95865",
+      "stored_sha256": "fbf92c3c5bc5b86a52890a32e5d26d51400daef467504401838da55bbff95865",
+      "compression": "none",
+      "bytes": 7526
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\formal_evaluation\\ablations.py",
+      "public_path": "experiments/formal_evaluation/ablations.py",
+      "raw_sha256": "bac84d7a7b44f8416620939244fd0683334cfead5236e0c2ecbb60edc391124e",
+      "stored_sha256": "bac84d7a7b44f8416620939244fd0683334cfead5236e0c2ecbb60edc391124e",
+      "compression": "none",
+      "bytes": 353
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\joint_baseline\\frozen.py",
+      "public_path": "experiments/joint_baseline/frozen.py",
+      "raw_sha256": "9f37cbcfb9d6fb60234496100acb0d3c060743064e04e9e5ef28c0a6f396f2bf",
+      "stored_sha256": "9f37cbcfb9d6fb60234496100acb0d3c060743064e04e9e5ef28c0a6f396f2bf",
+      "compression": "none",
+      "bytes": 2325
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\joint_baseline_confirmation\\analyze.py",
+      "public_path": "experiments/joint_baseline_confirmation/analyze.py",
+      "raw_sha256": "cd3125d8f2c0bfe1afaf3d033bb311680623f4d0ab6d017e5ab48618c051df49",
+      "stored_sha256": "cd3125d8f2c0bfe1afaf3d033bb311680623f4d0ab6d017e5ab48618c051df49",
+      "compression": "none",
+      "bytes": 10273
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\joint_baseline_confirmation\\batch.py",
+      "public_path": "experiments/joint_baseline_confirmation/batch.py",
+      "raw_sha256": "ef6f44fcc5ac059f454816492ce0bd125cdb301cdace39ab1aa59758b2a187cb",
+      "stored_sha256": "ef6f44fcc5ac059f454816492ce0bd125cdb301cdace39ab1aa59758b2a187cb",
+      "compression": "none",
+      "bytes": 27983
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\joint_baseline_confirmation\\build_adapter.py",
+      "public_path": "experiments/joint_baseline_confirmation/build_adapter.py",
+      "raw_sha256": "05a67bbc72857dc54d3e3bffcdbc53db752a07a5daa09bd117189bc2b458ecf4",
+      "stored_sha256": "05a67bbc72857dc54d3e3bffcdbc53db752a07a5daa09bd117189bc2b458ecf4",
+      "compression": "none",
+      "bytes": 7819
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\joint_baseline_confirmation\\no_api_check.py",
+      "public_path": "experiments/joint_baseline_confirmation/no_api_check.py",
+      "raw_sha256": "ab6818e8ad89f39e087700797d7af80fb471d9d0f71facc905f02478c088b8bc",
+      "stored_sha256": "ab6818e8ad89f39e087700797d7af80fb471d9d0f71facc905f02478c088b8bc",
+      "compression": "none",
+      "bytes": 5752
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\joint_baseline_confirmation\\run_online.py",
+      "public_path": "experiments/joint_baseline_confirmation/run_online.py",
+      "raw_sha256": "b5d1d0f8ac1ca8831c7ecac3d343903cf1f760f719b2b4c626c76268edd4ca98",
+      "stored_sha256": "b5d1d0f8ac1ca8831c7ecac3d343903cf1f760f719b2b4c626c76268edd4ca98",
+      "compression": "none",
+      "bytes": 21397
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\online_llm\\client.py",
+      "public_path": "experiments/online_llm/client.py",
+      "raw_sha256": "db7d8dd0efe1916896eefd575c50a459ed594076c3ca233449bfe2184e3af511",
+      "stored_sha256": "db7d8dd0efe1916896eefd575c50a459ed594076c3ca233449bfe2184e3af511",
+      "compression": "none",
+      "bytes": 5237
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\online_llm\\controller.py",
+      "public_path": "experiments/online_llm/controller.py",
+      "raw_sha256": "4f67a4775be661f0751fd2f916baf8f961350de01430c14e5a57e12cdd54b067",
+      "stored_sha256": "4f67a4775be661f0751fd2f916baf8f961350de01430c14e5a57e12cdd54b067",
+      "compression": "none",
+      "bytes": 8445
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\online_llm\\run.py",
+      "public_path": "experiments/online_llm/run.py",
+      "raw_sha256": "b266032166b74a3c640f962c9cbd13d212d5b03dca46335fd83d9464bcb7095c",
+      "stored_sha256": "b266032166b74a3c640f962c9cbd13d212d5b03dca46335fd83d9464bcb7095c",
+      "compression": "none",
+      "bytes": 16476
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\algorithms\\__init__.py",
+      "public_path": "external/liu-inventory/algorithms/__init__.py",
+      "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stored_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compression": "none",
+      "bytes": 0
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\algorithms\\actor_critic.py",
+      "public_path": "external/liu-inventory/algorithms/actor_critic.py",
+      "raw_sha256": "a60a097b84fd74c4027ecd0d3b0b94e9be9ed276cad85e694fddf466b6b7a9ad",
+      "stored_sha256": "a60a097b84fd74c4027ecd0d3b0b94e9be9ed276cad85e694fddf466b6b7a9ad",
+      "compression": "none",
+      "bytes": 8743
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\algorithms\\happo_policy.py",
+      "public_path": "external/liu-inventory/algorithms/happo_policy.py",
+      "raw_sha256": "48f1915d792a000a5938718a09d897c2646cbc6d2d59529d47b8e79bd6f3161a",
+      "stored_sha256": "48f1915d792a000a5938718a09d897c2646cbc6d2d59529d47b8e79bd6f3161a",
+      "compression": "none",
+      "bytes": 7855
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\algorithms\\happo_trainer.py",
+      "public_path": "external/liu-inventory/algorithms/happo_trainer.py",
+      "raw_sha256": "40c67b8b8f724cb0102f4766b58ea876606c7f2423b3733c41864502f53ba84a",
+      "stored_sha256": "40c67b8b8f724cb0102f4766b58ea876606c7f2423b3733c41864502f53ba84a",
+      "compression": "none",
+      "bytes": 10716
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\algorithms\\utils\\act.py",
+      "public_path": "external/liu-inventory/algorithms/utils/act.py",
+      "raw_sha256": "dc551eb81567f591eab1ef148768439f67c236f2aca493e401171493fcc86d71",
+      "stored_sha256": "dc551eb81567f591eab1ef148768439f67c236f2aca493e401171493fcc86d71",
+      "compression": "none",
+      "bytes": 11179
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\algorithms\\utils\\cnn.py",
+      "public_path": "external/liu-inventory/algorithms/utils/cnn.py",
+      "raw_sha256": "958c59f4828ec874934490249877b7b82d6d218ef12db2428dac7f6b325ce067",
+      "stored_sha256": "958c59f4828ec874934490249877b7b82d6d218ef12db2428dac7f6b325ce067",
+      "compression": "none",
+      "bytes": 1910
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\algorithms\\utils\\distributions.py",
+      "public_path": "external/liu-inventory/algorithms/utils/distributions.py",
+      "raw_sha256": "f11e226e9218e954c576f80ed4043bd480de1fc5a29905bd11663d2e678d159e",
+      "stored_sha256": "f11e226e9218e954c576f80ed4043bd480de1fc5a29905bd11663d2e678d159e",
+      "compression": "none",
+      "bytes": 4682
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\algorithms\\utils\\mlp.py",
+      "public_path": "external/liu-inventory/algorithms/utils/mlp.py",
+      "raw_sha256": "04e0ae4da416ac5352cd5d228688577903b4d0242386e19f63a0b3361af03b49",
+      "stored_sha256": "04e0ae4da416ac5352cd5d228688577903b4d0242386e19f63a0b3361af03b49",
+      "compression": "none",
+      "bytes": 2132
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\algorithms\\utils\\rnn.py",
+      "public_path": "external/liu-inventory/algorithms/utils/rnn.py",
+      "raw_sha256": "bb6ca30a91503f012df3c45d9be9011642f9895fb9804b05530bcb49db47fe50",
+      "stored_sha256": "bb6ca30a91503f012df3c45d9be9011642f9895fb9804b05530bcb49db47fe50",
+      "compression": "none",
+      "bytes": 2929
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\algorithms\\utils\\util.py",
+      "public_path": "external/liu-inventory/algorithms/utils/util.py",
+      "raw_sha256": "0d32cea8abf8d063bf0cd7fd8a80b3e12331be4bfa96ed18d7c51a17323c560b",
+      "stored_sha256": "0d32cea8abf8d063bf0cd7fd8a80b3e12331be4bfa96ed18d7c51a17323c560b",
+      "compression": "none",
+      "bytes": 442
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\config.py",
+      "public_path": "external/liu-inventory/config.py",
+      "raw_sha256": "603bb1e9b04f03cd32b9d939e7d7e1f5162a3fde3f3116c0120f80fb9e93ce99",
+      "stored_sha256": "603bb1e9b04f03cd32b9d939e7d7e1f5162a3fde3f3116c0120f80fb9e93ce99",
+      "compression": "none",
+      "bytes": 11578
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\envs\\__init__.py",
+      "public_path": "external/liu-inventory/envs/__init__.py",
+      "raw_sha256": "15c2ffe5d6790738d28363cf7101f64d7b6370a182b805284fbbbd304e6b42a1",
+      "stored_sha256": "15c2ffe5d6790738d28363cf7101f64d7b6370a182b805284fbbbd304e6b42a1",
+      "compression": "none",
+      "bytes": 90
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\envs\\env_wrappers.py",
+      "public_path": "external/liu-inventory/envs/env_wrappers.py",
+      "raw_sha256": "1781852360c113902585d9e293016382d5fdd956ad756ea820b5697b429fa405",
+      "stored_sha256": "1781852360c113902585d9e293016382d5fdd956ad756ea820b5697b429fa405",
+      "compression": "none",
+      "bytes": 9199
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\envs\\generator.py",
+      "public_path": "external/liu-inventory/envs/generator.py",
+      "raw_sha256": "48366755e3318751966f240c68316488a7f79066a9c3116a798d5cab46e55741",
+      "stored_sha256": "48366755e3318751966f240c68316488a7f79066a9c3116a798d5cab46e55741",
+      "compression": "none",
+      "bytes": 1630
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\envs\\net_2x3.py",
+      "public_path": "external/liu-inventory/envs/net_2x3.py",
+      "raw_sha256": "fad67da8c575853154d6d7e22aa034cad8f6f8c1ff0fde9cd8de07729325bd24",
+      "stored_sha256": "fad67da8c575853154d6d7e22aa034cad8f6f8c1ff0fde9cd8de07729325bd24",
+      "compression": "none",
+      "bytes": 14223
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\envs\\serial.py",
+      "public_path": "external/liu-inventory/envs/serial.py",
+      "raw_sha256": "7c73e9fe9ea5f8bf60908ee26e272e16bbb95e0acd9e074272ca8d1a95d70088",
+      "stored_sha256": "7c73e9fe9ea5f8bf60908ee26e272e16bbb95e0acd9e074272ca8d1a95d70088",
+      "compression": "none",
+      "bytes": 12262
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\envs\\template.py",
+      "public_path": "external/liu-inventory/envs/template.py",
+      "raw_sha256": "49a2b095b30ddbe195e4790650b87d2c2d2d10f2e3ed0bec2627fec8a2d2529f",
+      "stored_sha256": "49a2b095b30ddbe195e4790650b87d2c2d2d10f2e3ed0bec2627fec8a2d2529f",
+      "compression": "none",
+      "bytes": 7271
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\runners\\__init__.py",
+      "public_path": "external/liu-inventory/runners/__init__.py",
+      "raw_sha256": "c128749b116e135f555dc0948ea297a43316cc3cee0415e9e8e19aea7f72a9fc",
+      "stored_sha256": "c128749b116e135f555dc0948ea297a43316cc3cee0415e9e8e19aea7f72a9fc",
+      "compression": "none",
+      "bytes": 64
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\runners\\separated\\__init__.py",
+      "public_path": "external/liu-inventory/runners/separated/__init__.py",
+      "raw_sha256": "000ace4edd2d1786448beee066ce906a8b838276066f27b63eaf19b7c3de251c",
+      "stored_sha256": "000ace4edd2d1786448beee066ce906a8b838276066f27b63eaf19b7c3de251c",
+      "compression": "none",
+      "bytes": 98
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\runners\\separated\\base_runner.py",
+      "public_path": "external/liu-inventory/runners/separated/base_runner.py",
+      "raw_sha256": "d2d6f229dd65319ee0aeb81a376b6d80524f53070fd0c73a860c760c9570517e",
+      "stored_sha256": "d2d6f229dd65319ee0aeb81a376b6d80524f53070fd0c73a860c760c9570517e",
+      "compression": "none",
+      "bytes": 9947
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\runners\\separated\\runner.py",
+      "public_path": "external/liu-inventory/runners/separated/runner.py",
+      "raw_sha256": "47c997beb9c2504afaa80215c89e430d15e0c75e77a0ed757551ffa6f4179fc8",
+      "stored_sha256": "47c997beb9c2504afaa80215c89e430d15e0c75e77a0ed757551ffa6f4179fc8",
+      "compression": "none",
+      "bytes": 15346
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\test_data\\test_demand_merton\\0.txt",
+      "public_path": "external/liu-inventory/test_data/test_demand_merton/0.txt",
+      "raw_sha256": "9498a12ad1ac27e23d67f4f6a9bd03a007595395c17ab953cff0d1c23ab6aae5",
+      "stored_sha256": "9498a12ad1ac27e23d67f4f6a9bd03a007595395c17ab953cff0d1c23ab6aae5",
+      "compression": "none",
+      "bytes": 1474
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\test_data\\test_demand_merton\\1.txt",
+      "public_path": "external/liu-inventory/test_data/test_demand_merton/1.txt",
+      "raw_sha256": "2352617b9255ca38cdafa3c2cfddc95e3d993eebff892e6d897a9a3ad6b03989",
+      "stored_sha256": "2352617b9255ca38cdafa3c2cfddc95e3d993eebff892e6d897a9a3ad6b03989",
+      "compression": "none",
+      "bytes": 1323
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\test_data\\test_demand_merton\\10.txt",
+      "public_path": "external/liu-inventory/test_data/test_demand_merton/10.txt",
+      "raw_sha256": "73da8005d2ed8ce668a7b8207f0e836a1916691eee83b1b51639dbcc112a4344",
+      "stored_sha256": "73da8005d2ed8ce668a7b8207f0e836a1916691eee83b1b51639dbcc112a4344",
+      "compression": "none",
+      "bytes": 1314
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\test_data\\test_demand_merton\\11.txt",
+      "public_path": "external/liu-inventory/test_data/test_demand_merton/11.txt",
+      "raw_sha256": "513054f67f0ca8d5c3123ac3f4ca40dad3e4dba9a3b7b7eff677893bfad2875f",
+      "stored_sha256": "513054f67f0ca8d5c3123ac3f4ca40dad3e4dba9a3b7b7eff677893bfad2875f",
+      "compression": "none",
+      "bytes": 1403
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\test_data\\test_demand_merton\\12.txt",
+      "public_path": "external/liu-inventory/test_data/test_demand_merton/12.txt",
+      "raw_sha256": "e7b907381e86e60a4643390594c02287f88e078e88d72b3e15e5973577ebf0b2",
+      "stored_sha256": "e7b907381e86e60a4643390594c02287f88e078e88d72b3e15e5973577ebf0b2",
+      "compression": "none",
+      "bytes": 1293
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\test_data\\test_demand_merton\\13.txt",
+      "public_path": "external/liu-inventory/test_data/test_demand_merton/13.txt",
+      "raw_sha256": "c3d20499e48da360ded21a6be78a552fc0243b55360152b48b549fa2ee178292",
+      "stored_sha256": "c3d20499e48da360ded21a6be78a552fc0243b55360152b48b549fa2ee178292",
+      "compression": "none",
+      "bytes": 1289
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\test_data\\test_demand_merton\\14.txt",
+      "public_path": "external/liu-inventory/test_data/test_demand_merton/14.txt",
+      "raw_sha256": "6315abf3c87b80028e844c236e26380f4d046b5fd564866638981837c7361935",
+      "stored_sha256": "6315abf3c87b80028e844c236e26380f4d046b5fd564866638981837c7361935",
+      "compression": "none",
+      "bytes": 1237
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\test_data\\test_demand_merton\\15.txt",
+      "public_path": "external/liu-inventory/test_data/test_demand_merton/15.txt",
+      "raw_sha256": "5db287c9242cdef54927e1211c3b03a7bcfee3270b6b62ea79f0d6dedf659fd7",
+      "stored_sha256": "5db287c9242cdef54927e1211c3b03a7bcfee3270b6b62ea79f0d6dedf659fd7",
+      "compression": "none",
+      "bytes": 1418
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\test_data\\test_demand_merton\\16.txt",
+      "public_path": "external/liu-inventory/test_data/test_demand_merton/16.txt",
+      "raw_sha256": "f787492a4de4e6c79be2ea130c1f14a2e43dd61131fa1c8d3a182a6f4aeb1baf",
+      "stored_sha256": "f787492a4de4e6c79be2ea130c1f14a2e43dd61131fa1c8d3a182a6f4aeb1baf",
+      "compression": "none",
+      "bytes": 1454
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\test_data\\test_demand_merton\\17.txt",
+      "public_path": "external/liu-inventory/test_data/test_demand_merton/17.txt",
+      "raw_sha256": "ef635ab3d96ece77b900efc7ded7e8925428b82b8323cc0e0b143b337304ee76",
+      "stored_sha256": "ef635ab3d96ece77b900efc7ded7e8925428b82b8323cc0e0b143b337304ee76",
+      "compression": "none",
+      "bytes": 1526
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\test_data\\test_demand_merton\\18.txt",
+      "public_path": "external/liu-inventory/test_data/test_demand_merton/18.txt",
+      "raw_sha256": "a2ba31fcd22db5d515659b915e2f02072f1f41b108efb1f223a8d18837a02f1e",
+      "stored_sha256": "a2ba31fcd22db5d515659b915e2f02072f1f41b108efb1f223a8d18837a02f1e",
+      "compression": "none",
+      "bytes": 1269
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\test_data\\test_demand_merton\\19.txt",
+      "public_path": "external/liu-inventory/test_data/test_demand_merton/19.txt",
+      "raw_sha256": "571c0f32b8eeb898d5e5a307ec09ac99bfce7f2f92bcdef14c1e47c9162ec84f",
+      "stored_sha256": "571c0f32b8eeb898d5e5a307ec09ac99bfce7f2f92bcdef14c1e47c9162ec84f",
+      "compression": "none",
+      "bytes": 1494
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\test_data\\test_demand_merton\\2.txt",
+      "public_path": "external/liu-inventory/test_data/test_demand_merton/2.txt",
+      "raw_sha256": "7411b52fcfe7c0f472f57aa26589cf022b45f9a46a040c5876c8e28bd9975b0a",
+      "stored_sha256": "7411b52fcfe7c0f472f57aa26589cf022b45f9a46a040c5876c8e28bd9975b0a",
+      "compression": "none",
+      "bytes": 1486
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\test_data\\test_demand_merton\\3.txt",
+      "public_path": "external/liu-inventory/test_data/test_demand_merton/3.txt",
+      "raw_sha256": "e35b6d931453add0cd31520527ceb0f71a429a7fdaab1911c88181c7ec1580ff",
+      "stored_sha256": "e35b6d931453add0cd31520527ceb0f71a429a7fdaab1911c88181c7ec1580ff",
+      "compression": "none",
+      "bytes": 1429
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\test_data\\test_demand_merton\\4.txt",
+      "public_path": "external/liu-inventory/test_data/test_demand_merton/4.txt",
+      "raw_sha256": "4b04858ad88f89a0ac679e10dd8ba99d417172ddd2cd8a98b18256fde27a3a20",
+      "stored_sha256": "4b04858ad88f89a0ac679e10dd8ba99d417172ddd2cd8a98b18256fde27a3a20",
+      "compression": "none",
+      "bytes": 1436
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\test_data\\test_demand_merton\\5.txt",
+      "public_path": "external/liu-inventory/test_data/test_demand_merton/5.txt",
+      "raw_sha256": "8c7cb937311ed131319bbc2e31cb3568ca20fc967475beae85993b88354adc93",
+      "stored_sha256": "8c7cb937311ed131319bbc2e31cb3568ca20fc967475beae85993b88354adc93",
+      "compression": "none",
+      "bytes": 1420
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\test_data\\test_demand_merton\\6.txt",
+      "public_path": "external/liu-inventory/test_data/test_demand_merton/6.txt",
+      "raw_sha256": "67769b5daf19193fc97603c2b3075b0b58e81766fd8ba9af926022fe2aa2ec1b",
+      "stored_sha256": "67769b5daf19193fc97603c2b3075b0b58e81766fd8ba9af926022fe2aa2ec1b",
+      "compression": "none",
+      "bytes": 1462
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\test_data\\test_demand_merton\\7.txt",
+      "public_path": "external/liu-inventory/test_data/test_demand_merton/7.txt",
+      "raw_sha256": "56e7d199ace8deb464bcb58022a7c55659d7cfda0efc42b86f668698e5b8db90",
+      "stored_sha256": "56e7d199ace8deb464bcb58022a7c55659d7cfda0efc42b86f668698e5b8db90",
+      "compression": "none",
+      "bytes": 1418
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\test_data\\test_demand_merton\\8.txt",
+      "public_path": "external/liu-inventory/test_data/test_demand_merton/8.txt",
+      "raw_sha256": "9a5e0866e729e22ae432a0be3995e64a3982408bf6ddba9abc8017ded4987c3a",
+      "stored_sha256": "9a5e0866e729e22ae432a0be3995e64a3982408bf6ddba9abc8017ded4987c3a",
+      "compression": "none",
+      "bytes": 1414
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\test_data\\test_demand_merton\\9.txt",
+      "public_path": "external/liu-inventory/test_data/test_demand_merton/9.txt",
+      "raw_sha256": "eae741e9e2b7fadc030689d1da13fbfc81f52acecefef066a1afcb34eaa49d3b",
+      "stored_sha256": "eae741e9e2b7fadc030689d1da13fbfc81f52acecefef066a1afcb34eaa49d3b",
+      "compression": "none",
+      "bytes": 1445
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\train_env.py",
+      "public_path": "external/liu-inventory/train_env.py",
+      "raw_sha256": "78959c118607046478d4681f4ad8f31e239a299a0b49363fd5321d0bff8d36c9",
+      "stored_sha256": "78959c118607046478d4681f4ad8f31e239a299a0b49363fd5321d0bff8d36c9",
+      "compression": "none",
+      "bytes": 2992
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\utils\\__init__.py",
+      "public_path": "external/liu-inventory/utils/__init__.py",
+      "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stored_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compression": "none",
+      "bytes": 0
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\utils\\multi_discrete.py",
+      "public_path": "external/liu-inventory/utils/multi_discrete.py",
+      "raw_sha256": "7bca00aa5f47039ebe1fa1cb26e46682046cda57cf05d963f7c3ac699fa5a7a6",
+      "stored_sha256": "7bca00aa5f47039ebe1fa1cb26e46682046cda57cf05d963f7c3ac699fa5a7a6",
+      "compression": "none",
+      "bytes": 2391
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\utils\\popart.py",
+      "public_path": "external/liu-inventory/utils/popart.py",
+      "raw_sha256": "40fdb523f10aac1d03362cc1fc6a745936743a6763003a791a962fbe8acc9bbd",
+      "stored_sha256": "40fdb523f10aac1d03362cc1fc6a745936743a6763003a791a962fbe8acc9bbd",
+      "compression": "none",
+      "bytes": 3181
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\utils\\separated_buffer.py",
+      "public_path": "external/liu-inventory/utils/separated_buffer.py",
+      "raw_sha256": "af0f1850bc0a8101ed18a5298aea1eb8146f86eb16396d46ea4b77e9ed436051",
+      "stored_sha256": "af0f1850bc0a8101ed18a5298aea1eb8146f86eb16396d46ea4b77e9ed436051",
+      "compression": "none",
+      "bytes": 23965
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\utils\\util.py",
+      "public_path": "external/liu-inventory/utils/util.py",
+      "raw_sha256": "7cf8ce806483e8abbc358951105a3765a734c92a15fa641595fa6ea967e1f4d7",
+      "stored_sha256": "7cf8ce806483e8abbc358951105a3765a734c92a15fa641595fa6ea967e1f4d7",
+      "compression": "none",
+      "bytes": 2304
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\utils\\valuenorm.py",
+      "public_path": "external/liu-inventory/utils/valuenorm.py",
+      "raw_sha256": "8cd48bb7e3a3d8295baec57a2cde23ca60a973d047f358f408709ef53c6a1836",
+      "stored_sha256": "8cd48bb7e3a3d8295baec57a2cde23ca60a973d047f358f408709ef53c6a1836",
+      "compression": "none",
+      "bytes": 3189
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed12_formal_v1\\run_seed_13\\models\\actor_agent0.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/curve_seed12_formal_v1/run_seed_13/models/actor_agent0.pt",
+      "raw_sha256": "e8c7702ab8e1c56290977ac00a02d948b30261daec19a75062d2f585351b61b4",
+      "stored_sha256": "e8c7702ab8e1c56290977ac00a02d948b30261daec19a75062d2f585351b61b4",
+      "compression": "none",
+      "bytes": 952241
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed12_formal_v1\\run_seed_13\\models\\actor_agent1.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/curve_seed12_formal_v1/run_seed_13/models/actor_agent1.pt",
+      "raw_sha256": "68eee61f31bc6827e8911e787abcc94af5b52d6f59fa10fa438ea720032aaa27",
+      "stored_sha256": "68eee61f31bc6827e8911e787abcc94af5b52d6f59fa10fa438ea720032aaa27",
+      "compression": "none",
+      "bytes": 952241
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed12_formal_v1\\run_seed_13\\models\\actor_agent2.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/curve_seed12_formal_v1/run_seed_13/models/actor_agent2.pt",
+      "raw_sha256": "a459eddca9069aed8c681906555d8da2f31a1ae29e46576b5bde71da59228a9d",
+      "stored_sha256": "a459eddca9069aed8c681906555d8da2f31a1ae29e46576b5bde71da59228a9d",
+      "compression": "none",
+      "bytes": 952241
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed12_formal_v1\\run_seed_13\\models\\critic_agent0.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/curve_seed12_formal_v1/run_seed_13/models/critic_agent0.pt",
+      "raw_sha256": "624dbc98a35e7d60db932d99d82e3c42a367019ac375edff420a1ca7e484125d",
+      "stored_sha256": "624dbc98a35e7d60db932d99d82e3c42a367019ac375edff420a1ca7e484125d",
+      "compression": "none",
+      "bytes": 949007
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed12_formal_v1\\run_seed_13\\models\\critic_agent1.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/curve_seed12_formal_v1/run_seed_13/models/critic_agent1.pt",
+      "raw_sha256": "a632c4380790626512172897113dd2cee8070a71f61f30627fd32565b2932413",
+      "stored_sha256": "a632c4380790626512172897113dd2cee8070a71f61f30627fd32565b2932413",
+      "compression": "none",
+      "bytes": 949007
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed12_formal_v1\\run_seed_13\\models\\critic_agent2.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/curve_seed12_formal_v1/run_seed_13/models/critic_agent2.pt",
+      "raw_sha256": "c603a09046f95a1edcb3e37ab26f954e0dabeab684b6ecf24da567fbc43bd725",
+      "stored_sha256": "c603a09046f95a1edcb3e37ab26f954e0dabeab684b6ecf24da567fbc43bd725",
+      "compression": "none",
+      "bytes": 949007
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed13_formal_v1\\run_seed_14\\models\\actor_agent0.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/curve_seed13_formal_v1/run_seed_14/models/actor_agent0.pt",
+      "raw_sha256": "0f5449b66d1e53c0afdb40f597b752c71a1a86f5dd2818688a24154f89a5ed21",
+      "stored_sha256": "0f5449b66d1e53c0afdb40f597b752c71a1a86f5dd2818688a24154f89a5ed21",
+      "compression": "none",
+      "bytes": 952241
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed13_formal_v1\\run_seed_14\\models\\actor_agent1.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/curve_seed13_formal_v1/run_seed_14/models/actor_agent1.pt",
+      "raw_sha256": "16b9802a599822a2d502dfa103fed996a98ec617c3a84b609bd54a65c2163c43",
+      "stored_sha256": "16b9802a599822a2d502dfa103fed996a98ec617c3a84b609bd54a65c2163c43",
+      "compression": "none",
+      "bytes": 952241
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed13_formal_v1\\run_seed_14\\models\\actor_agent2.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/curve_seed13_formal_v1/run_seed_14/models/actor_agent2.pt",
+      "raw_sha256": "3c4b31829fd32b47b6140d290d8391d03c38006cb2521932095dd898312d52b9",
+      "stored_sha256": "3c4b31829fd32b47b6140d290d8391d03c38006cb2521932095dd898312d52b9",
+      "compression": "none",
+      "bytes": 952241
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed13_formal_v1\\run_seed_14\\models\\critic_agent0.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/curve_seed13_formal_v1/run_seed_14/models/critic_agent0.pt",
+      "raw_sha256": "196b9e228967242ce9fb053b9a7814fcc81565a8d6ea5d59f46e30373ead22e7",
+      "stored_sha256": "196b9e228967242ce9fb053b9a7814fcc81565a8d6ea5d59f46e30373ead22e7",
+      "compression": "none",
+      "bytes": 949007
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed13_formal_v1\\run_seed_14\\models\\critic_agent1.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/curve_seed13_formal_v1/run_seed_14/models/critic_agent1.pt",
+      "raw_sha256": "7218a0d4e3cb18c7a61b6e404d31929d0d57926a7260e8c1672af3d7f2bc7563",
+      "stored_sha256": "7218a0d4e3cb18c7a61b6e404d31929d0d57926a7260e8c1672af3d7f2bc7563",
+      "compression": "none",
+      "bytes": 949007
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed13_formal_v1\\run_seed_14\\models\\critic_agent2.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/curve_seed13_formal_v1/run_seed_14/models/critic_agent2.pt",
+      "raw_sha256": "bf59c86f9b040f4ceac9f676cabc4d37dae3d2a2365a2cbf891f1189efc01f23",
+      "stored_sha256": "bf59c86f9b040f4ceac9f676cabc4d37dae3d2a2365a2cbf891f1189efc01f23",
+      "compression": "none",
+      "bytes": 949007
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed14_formal_v1\\run_seed_15\\models\\actor_agent0.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/curve_seed14_formal_v1/run_seed_15/models/actor_agent0.pt",
+      "raw_sha256": "fca99f01d0408ed10c6ee3382b7e635f7c13b9f7e9b5e233e7d51ba2b7bf23f8",
+      "stored_sha256": "fca99f01d0408ed10c6ee3382b7e635f7c13b9f7e9b5e233e7d51ba2b7bf23f8",
+      "compression": "none",
+      "bytes": 952241
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed14_formal_v1\\run_seed_15\\models\\actor_agent1.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/curve_seed14_formal_v1/run_seed_15/models/actor_agent1.pt",
+      "raw_sha256": "ac23c5f124466989aa07d0b88f71f0b3eb8cb9507ac09c2e1a4f56032e7a46c2",
+      "stored_sha256": "ac23c5f124466989aa07d0b88f71f0b3eb8cb9507ac09c2e1a4f56032e7a46c2",
+      "compression": "none",
+      "bytes": 952241
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed14_formal_v1\\run_seed_15\\models\\actor_agent2.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/curve_seed14_formal_v1/run_seed_15/models/actor_agent2.pt",
+      "raw_sha256": "f76b97c534eca73f86581bd5cf878d87e5565e81180cb698faab6c2531609fa0",
+      "stored_sha256": "f76b97c534eca73f86581bd5cf878d87e5565e81180cb698faab6c2531609fa0",
+      "compression": "none",
+      "bytes": 952241
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed14_formal_v1\\run_seed_15\\models\\critic_agent0.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/curve_seed14_formal_v1/run_seed_15/models/critic_agent0.pt",
+      "raw_sha256": "89f927e2df33e91d19a21414fa75321f6ea6cc18f344afe23dba2ddcef46d72a",
+      "stored_sha256": "89f927e2df33e91d19a21414fa75321f6ea6cc18f344afe23dba2ddcef46d72a",
+      "compression": "none",
+      "bytes": 949007
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed14_formal_v1\\run_seed_15\\models\\critic_agent1.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/curve_seed14_formal_v1/run_seed_15/models/critic_agent1.pt",
+      "raw_sha256": "b39318789a6066ec44365dd82b42a129a9513faae8731b230e6c3fac5decae9b",
+      "stored_sha256": "b39318789a6066ec44365dd82b42a129a9513faae8731b230e6c3fac5decae9b",
+      "compression": "none",
+      "bytes": 949007
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed14_formal_v1\\run_seed_15\\models\\critic_agent2.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/curve_seed14_formal_v1/run_seed_15/models/critic_agent2.pt",
+      "raw_sha256": "5ed8b35be3a5f0f7f4aa75d66dafb5cb30acabb008128418686a233df65a7fc0",
+      "stored_sha256": "5ed8b35be3a5f0f7f4aa75d66dafb5cb30acabb008128418686a233df65a7fc0",
+      "compression": "none",
+      "bytes": 949007
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed15_formal_v1\\run_seed_16\\models\\actor_agent0.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/curve_seed15_formal_v1/run_seed_16/models/actor_agent0.pt",
+      "raw_sha256": "d6f131179a0a3af9cbb769f4e1727ca048c54381172bbcd7119ca0c31d34bb08",
+      "stored_sha256": "d6f131179a0a3af9cbb769f4e1727ca048c54381172bbcd7119ca0c31d34bb08",
+      "compression": "none",
+      "bytes": 952241
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed15_formal_v1\\run_seed_16\\models\\actor_agent1.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/curve_seed15_formal_v1/run_seed_16/models/actor_agent1.pt",
+      "raw_sha256": "41cdb149b07576e311f325c55b2f0d67bc1273487bbe77abba5cdfdcc4caee86",
+      "stored_sha256": "41cdb149b07576e311f325c55b2f0d67bc1273487bbe77abba5cdfdcc4caee86",
+      "compression": "none",
+      "bytes": 952241
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed15_formal_v1\\run_seed_16\\models\\actor_agent2.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/curve_seed15_formal_v1/run_seed_16/models/actor_agent2.pt",
+      "raw_sha256": "58069eb8e3e7d2352cbec6c697f49ba3ab9df0cffcf815f80e40fc69b36bca61",
+      "stored_sha256": "58069eb8e3e7d2352cbec6c697f49ba3ab9df0cffcf815f80e40fc69b36bca61",
+      "compression": "none",
+      "bytes": 952241
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed15_formal_v1\\run_seed_16\\models\\critic_agent0.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/curve_seed15_formal_v1/run_seed_16/models/critic_agent0.pt",
+      "raw_sha256": "990bf94d6be2582f564218338084bc46150bcc4a31588b559a2eaba87dec4ffa",
+      "stored_sha256": "990bf94d6be2582f564218338084bc46150bcc4a31588b559a2eaba87dec4ffa",
+      "compression": "none",
+      "bytes": 949007
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed15_formal_v1\\run_seed_16\\models\\critic_agent1.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/curve_seed15_formal_v1/run_seed_16/models/critic_agent1.pt",
+      "raw_sha256": "5f693c77354ccaa2a3ab63ab5bbb60c562b3aee430597440595f7abcbceb935a",
+      "stored_sha256": "5f693c77354ccaa2a3ab63ab5bbb60c562b3aee430597440595f7abcbceb935a",
+      "compression": "none",
+      "bytes": 949007
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed15_formal_v1\\run_seed_16\\models\\critic_agent2.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/curve_seed15_formal_v1/run_seed_16/models/critic_agent2.pt",
+      "raw_sha256": "e7c4c16c3eba10931df96954b7920991ecec44cab973b8ec167da8d62e0b4ae5",
+      "stored_sha256": "e7c4c16c3eba10931df96954b7920991ecec44cab973b8ec167da8d62e0b4ae5",
+      "compression": "none",
+      "bytes": 949007
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed11_formal_v1\\run_seed_12\\models\\actor_agent0.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/ippo_seed11_formal_v1/run_seed_12/models/actor_agent0.pt",
+      "raw_sha256": "408eb344eef0d991ba507e96dc8007e8f8487da8ba9690dbe3e3680f52c661c3",
+      "stored_sha256": "408eb344eef0d991ba507e96dc8007e8f8487da8ba9690dbe3e3680f52c661c3",
+      "compression": "none",
+      "bytes": 952241
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed11_formal_v1\\run_seed_12\\models\\actor_agent1.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/ippo_seed11_formal_v1/run_seed_12/models/actor_agent1.pt",
+      "raw_sha256": "6d54f6b861de9b8627c6d26456b5891c712a3791fec83f1bd0150b7967c13096",
+      "stored_sha256": "6d54f6b861de9b8627c6d26456b5891c712a3791fec83f1bd0150b7967c13096",
+      "compression": "none",
+      "bytes": 952241
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed11_formal_v1\\run_seed_12\\models\\actor_agent2.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/ippo_seed11_formal_v1/run_seed_12/models/actor_agent2.pt",
+      "raw_sha256": "6953e716a6da4e6994b59eba3c2670bfdc04c9637f832c6e116ca417fcb3c142",
+      "stored_sha256": "6953e716a6da4e6994b59eba3c2670bfdc04c9637f832c6e116ca417fcb3c142",
+      "compression": "none",
+      "bytes": 952241
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed11_formal_v1\\run_seed_12\\models\\critic_agent0.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/ippo_seed11_formal_v1/run_seed_12/models/critic_agent0.pt",
+      "raw_sha256": "8bd0b9569da3b0eaa14492bae51f0db76aa2bfee68d90a618c773645e0879209",
+      "stored_sha256": "8bd0b9569da3b0eaa14492bae51f0db76aa2bfee68d90a618c773645e0879209",
+      "compression": "none",
+      "bytes": 941839
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed11_formal_v1\\run_seed_12\\models\\critic_agent1.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/ippo_seed11_formal_v1/run_seed_12/models/critic_agent1.pt",
+      "raw_sha256": "a1ca1a4ad88c0c624cb9074f9d961413429cb6651bb5f5edccaea95a6976a0a6",
+      "stored_sha256": "a1ca1a4ad88c0c624cb9074f9d961413429cb6651bb5f5edccaea95a6976a0a6",
+      "compression": "none",
+      "bytes": 941839
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed11_formal_v1\\run_seed_12\\models\\critic_agent2.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/ippo_seed11_formal_v1/run_seed_12/models/critic_agent2.pt",
+      "raw_sha256": "f0457312d90e20b6b6343caea497c82b81bab5783bac413c3d473628affee3b1",
+      "stored_sha256": "f0457312d90e20b6b6343caea497c82b81bab5783bac413c3d473628affee3b1",
+      "compression": "none",
+      "bytes": 941839
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\models\\actor_agent0.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/ippo_seed12_formal_v1/run_seed_13/models/actor_agent0.pt",
+      "raw_sha256": "69b4d052ebe08b61f2c4452aa0fabc0f0407a9f1fdc4bccde8a6da03e79ce479",
+      "stored_sha256": "69b4d052ebe08b61f2c4452aa0fabc0f0407a9f1fdc4bccde8a6da03e79ce479",
+      "compression": "none",
+      "bytes": 952241
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\models\\actor_agent1.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/ippo_seed12_formal_v1/run_seed_13/models/actor_agent1.pt",
+      "raw_sha256": "3bd4be13f7a5cdf3956c31111bc7b0a40dc444c7e306ff32c010ce38a48a1272",
+      "stored_sha256": "3bd4be13f7a5cdf3956c31111bc7b0a40dc444c7e306ff32c010ce38a48a1272",
+      "compression": "none",
+      "bytes": 952241
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\models\\actor_agent2.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/ippo_seed12_formal_v1/run_seed_13/models/actor_agent2.pt",
+      "raw_sha256": "268e4be0d61d0a0cb130192ada5983f05f31064d3bdca043e85cb5de483b037a",
+      "stored_sha256": "268e4be0d61d0a0cb130192ada5983f05f31064d3bdca043e85cb5de483b037a",
+      "compression": "none",
+      "bytes": 952241
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\models\\critic_agent0.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/ippo_seed12_formal_v1/run_seed_13/models/critic_agent0.pt",
+      "raw_sha256": "3d836bf9c5d791882a4dd56b9a4b01f27887b667efcd11cf9f852472d092896c",
+      "stored_sha256": "3d836bf9c5d791882a4dd56b9a4b01f27887b667efcd11cf9f852472d092896c",
+      "compression": "none",
+      "bytes": 941839
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\models\\critic_agent1.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/ippo_seed12_formal_v1/run_seed_13/models/critic_agent1.pt",
+      "raw_sha256": "80e08158e51b4dea538fc15b8fb0935c217fa9d50ade7d4aad1bdfe92903dddf",
+      "stored_sha256": "80e08158e51b4dea538fc15b8fb0935c217fa9d50ade7d4aad1bdfe92903dddf",
+      "compression": "none",
+      "bytes": 941839
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\models\\critic_agent2.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/ippo_seed12_formal_v1/run_seed_13/models/critic_agent2.pt",
+      "raw_sha256": "692217cbec5de4c3a2d0bae10c778d122282f879d062e283a16f1e4dc1a7b725",
+      "stored_sha256": "692217cbec5de4c3a2d0bae10c778d122282f879d062e283a16f1e4dc1a7b725",
+      "compression": "none",
+      "bytes": 941839
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed13_formal_v1\\run_seed_14\\models\\actor_agent0.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/ippo_seed13_formal_v1/run_seed_14/models/actor_agent0.pt",
+      "raw_sha256": "37940453389cd0fe0581ed8cd45adc0642d9420f7480dc4615cce06b2c923630",
+      "stored_sha256": "37940453389cd0fe0581ed8cd45adc0642d9420f7480dc4615cce06b2c923630",
+      "compression": "none",
+      "bytes": 952241
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed13_formal_v1\\run_seed_14\\models\\actor_agent1.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/ippo_seed13_formal_v1/run_seed_14/models/actor_agent1.pt",
+      "raw_sha256": "a98bf0b0979861c63e908a6abe0112b820a63a1260d5500ac03bc76d776df75e",
+      "stored_sha256": "a98bf0b0979861c63e908a6abe0112b820a63a1260d5500ac03bc76d776df75e",
+      "compression": "none",
+      "bytes": 952241
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed13_formal_v1\\run_seed_14\\models\\actor_agent2.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/ippo_seed13_formal_v1/run_seed_14/models/actor_agent2.pt",
+      "raw_sha256": "2f30dcea958d9dbf7a4b2a5325c0696b0a5787b5e7af00d677c94023d7005430",
+      "stored_sha256": "2f30dcea958d9dbf7a4b2a5325c0696b0a5787b5e7af00d677c94023d7005430",
+      "compression": "none",
+      "bytes": 952241
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed13_formal_v1\\run_seed_14\\models\\critic_agent0.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/ippo_seed13_formal_v1/run_seed_14/models/critic_agent0.pt",
+      "raw_sha256": "260c1930b8a721ce207c9a1f8c4aadef86d4205773dd3ae0bde178c953b8bd48",
+      "stored_sha256": "260c1930b8a721ce207c9a1f8c4aadef86d4205773dd3ae0bde178c953b8bd48",
+      "compression": "none",
+      "bytes": 941839
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed13_formal_v1\\run_seed_14\\models\\critic_agent1.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/ippo_seed13_formal_v1/run_seed_14/models/critic_agent1.pt",
+      "raw_sha256": "8b0e88fec6253d9d5565c2a8d8cd520f09e05690eb353977d16be03b5c3d6bb4",
+      "stored_sha256": "8b0e88fec6253d9d5565c2a8d8cd520f09e05690eb353977d16be03b5c3d6bb4",
+      "compression": "none",
+      "bytes": 941839
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed13_formal_v1\\run_seed_14\\models\\critic_agent2.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/ippo_seed13_formal_v1/run_seed_14/models/critic_agent2.pt",
+      "raw_sha256": "c0959eaf49392df26a39e26d8ca6d869c7c795f7bdc446db0f1ab778720e2988",
+      "stored_sha256": "c0959eaf49392df26a39e26d8ca6d869c7c795f7bdc446db0f1ab778720e2988",
+      "compression": "none",
+      "bytes": 941839
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed14_formal_v1\\run_seed_15\\models\\actor_agent0.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/ippo_seed14_formal_v1/run_seed_15/models/actor_agent0.pt",
+      "raw_sha256": "14cc7c9eb66dbb5d3269246357598187f74159cb50f4f38fb1ff669d59f4e790",
+      "stored_sha256": "14cc7c9eb66dbb5d3269246357598187f74159cb50f4f38fb1ff669d59f4e790",
+      "compression": "none",
+      "bytes": 952241
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed14_formal_v1\\run_seed_15\\models\\actor_agent1.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/ippo_seed14_formal_v1/run_seed_15/models/actor_agent1.pt",
+      "raw_sha256": "2e8218765da119338d20ccaaa20a451c596c1357ed4ad4a253a6cb03c208456a",
+      "stored_sha256": "2e8218765da119338d20ccaaa20a451c596c1357ed4ad4a253a6cb03c208456a",
+      "compression": "none",
+      "bytes": 952241
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed14_formal_v1\\run_seed_15\\models\\actor_agent2.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/ippo_seed14_formal_v1/run_seed_15/models/actor_agent2.pt",
+      "raw_sha256": "6c3b3014669ac2b5735497cc10c52cb3fd6eefddbb656dba67641d9514dcbb3c",
+      "stored_sha256": "6c3b3014669ac2b5735497cc10c52cb3fd6eefddbb656dba67641d9514dcbb3c",
+      "compression": "none",
+      "bytes": 952241
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed14_formal_v1\\run_seed_15\\models\\critic_agent0.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/ippo_seed14_formal_v1/run_seed_15/models/critic_agent0.pt",
+      "raw_sha256": "9811ce822b33796fef97b908d3f0e7dd8ac20898b2598d83ba01ec91ab47b213",
+      "stored_sha256": "9811ce822b33796fef97b908d3f0e7dd8ac20898b2598d83ba01ec91ab47b213",
+      "compression": "none",
+      "bytes": 941839
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed14_formal_v1\\run_seed_15\\models\\critic_agent1.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/ippo_seed14_formal_v1/run_seed_15/models/critic_agent1.pt",
+      "raw_sha256": "f34cc7bed7e146f9ac3db7e907c2d2900d128b85d003da50e5865ea3e77b3ecc",
+      "stored_sha256": "f34cc7bed7e146f9ac3db7e907c2d2900d128b85d003da50e5865ea3e77b3ecc",
+      "compression": "none",
+      "bytes": 941839
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed14_formal_v1\\run_seed_15\\models\\critic_agent2.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/ippo_seed14_formal_v1/run_seed_15/models/critic_agent2.pt",
+      "raw_sha256": "67442d846b00dce3ef031cf5219674f7c4221f0d0e617a1448565064e98b2668",
+      "stored_sha256": "67442d846b00dce3ef031cf5219674f7c4221f0d0e617a1448565064e98b2668",
+      "compression": "none",
+      "bytes": 941839
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed15_formal_v1\\run_seed_16\\models\\actor_agent0.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/ippo_seed15_formal_v1/run_seed_16/models/actor_agent0.pt",
+      "raw_sha256": "bce3cb6fd3426e65ff19d2bdb2c2508fad0d8b9362a2ebb00bb9a64bad328625",
+      "stored_sha256": "bce3cb6fd3426e65ff19d2bdb2c2508fad0d8b9362a2ebb00bb9a64bad328625",
+      "compression": "none",
+      "bytes": 952241
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed15_formal_v1\\run_seed_16\\models\\actor_agent1.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/ippo_seed15_formal_v1/run_seed_16/models/actor_agent1.pt",
+      "raw_sha256": "6129699b270665e0fd19e4a6e390ec354e16aebd799aee59fbec72df67842443",
+      "stored_sha256": "6129699b270665e0fd19e4a6e390ec354e16aebd799aee59fbec72df67842443",
+      "compression": "none",
+      "bytes": 952241
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed15_formal_v1\\run_seed_16\\models\\actor_agent2.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/ippo_seed15_formal_v1/run_seed_16/models/actor_agent2.pt",
+      "raw_sha256": "352cd53a99d6390a6abd6e3db1bfb79153f4887c55ee09670e18fde0f930844b",
+      "stored_sha256": "352cd53a99d6390a6abd6e3db1bfb79153f4887c55ee09670e18fde0f930844b",
+      "compression": "none",
+      "bytes": 952241
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed15_formal_v1\\run_seed_16\\models\\critic_agent0.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/ippo_seed15_formal_v1/run_seed_16/models/critic_agent0.pt",
+      "raw_sha256": "f4e870583026975c93ed4d8f65ff68800c869095b7b3cfd47de36aa99f19930a",
+      "stored_sha256": "f4e870583026975c93ed4d8f65ff68800c869095b7b3cfd47de36aa99f19930a",
+      "compression": "none",
+      "bytes": 941839
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed15_formal_v1\\run_seed_16\\models\\critic_agent1.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/ippo_seed15_formal_v1/run_seed_16/models/critic_agent1.pt",
+      "raw_sha256": "af8b330e5cee733956e006d5e75eae6d4b7ad687d96e4c999c6208008a90e6b4",
+      "stored_sha256": "af8b330e5cee733956e006d5e75eae6d4b7ad687d96e4c999c6208008a90e6b4",
+      "compression": "none",
+      "bytes": 941839
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed15_formal_v1\\run_seed_16\\models\\critic_agent2.pt",
+      "public_path": "external/results/MyEnv/Emergency_Replenishment_Compatibility/happo/ippo_seed15_formal_v1/run_seed_16/models/critic_agent2.pt",
+      "raw_sha256": "ddd99817f7372d681c3d84341136cecbe004d892efcc3d15cc649a1ff8987ee4",
+      "stored_sha256": "ddd99817f7372d681c3d84341136cecbe004d892efcc3d15cc649a1ff8987ee4",
+      "compression": "none",
+      "bytes": 941839
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\ippo_learning_curve\\ippo_seed11_formal_v1\\completed.json",
+      "public_path": "results/ippo_learning_curve/ippo_seed11_formal_v1/completed.json",
+      "raw_sha256": "33e9c92e8359b4dc0efd1a8a4bf942a9e02091b7ba6e1a51cfe8b7ac40b06ad3",
+      "stored_sha256": "33e9c92e8359b4dc0efd1a8a4bf942a9e02091b7ba6e1a51cfe8b7ac40b06ad3",
+      "compression": "none",
+      "bytes": 1248
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\ippo_learning_curve\\ippo_seed11_formal_v1\\completion_audit.json",
+      "public_path": "results/ippo_learning_curve/ippo_seed11_formal_v1/completion_audit.json",
+      "raw_sha256": "ee4fc2d8b8406b194e3d1161bfd1a5cb16a0f5e8e01ad45bb051315af1bcaac6",
+      "stored_sha256": "ee4fc2d8b8406b194e3d1161bfd1a5cb16a0f5e8e01ad45bb051315af1bcaac6",
+      "compression": "none",
+      "bytes": 1136
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\ippo_learning_curve\\ippo_seed11_formal_v1\\config.json",
+      "public_path": "results/ippo_learning_curve/ippo_seed11_formal_v1/config.json",
+      "raw_sha256": "2168ab7ab44792b413e89eb480961f88c061b20d768dc38902053c462eb40fb1",
+      "stored_sha256": "2168ab7ab44792b413e89eb480961f88c061b20d768dc38902053c462eb40fb1",
+      "compression": "none",
+      "bytes": 2454
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\ippo_learning_curve\\ippo_seed12_formal_v1\\completed.json",
+      "public_path": "results/ippo_learning_curve/ippo_seed12_formal_v1/completed.json",
+      "raw_sha256": "4ba718916413e612322b83cd41d5f80e66cda3f2715aaf5704c55ab962b55acd",
+      "stored_sha256": "4ba718916413e612322b83cd41d5f80e66cda3f2715aaf5704c55ab962b55acd",
+      "compression": "none",
+      "bytes": 1209
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\ippo_learning_curve\\ippo_seed12_formal_v1\\completion_audit.json",
+      "public_path": "results/ippo_learning_curve/ippo_seed12_formal_v1/completion_audit.json",
+      "raw_sha256": "1fa813514f61eaa5c8ec9d09eb3d4c58e3900a39a12e7e95cc38b18697f57601",
+      "stored_sha256": "1fa813514f61eaa5c8ec9d09eb3d4c58e3900a39a12e7e95cc38b18697f57601",
+      "compression": "none",
+      "bytes": 1127
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\ippo_learning_curve\\ippo_seed12_formal_v1\\config.json",
+      "public_path": "results/ippo_learning_curve/ippo_seed12_formal_v1/config.json",
+      "raw_sha256": "6bb8ce202924ded0e5383510258a2660e747690e66738cef223aec190573db86",
+      "stored_sha256": "6bb8ce202924ded0e5383510258a2660e747690e66738cef223aec190573db86",
+      "compression": "none",
+      "bytes": 2454
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\ippo_learning_curve\\ippo_seed13_formal_v1\\completed.json",
+      "public_path": "results/ippo_learning_curve/ippo_seed13_formal_v1/completed.json",
+      "raw_sha256": "7be182590ec36d0389739bb6df960c3dd1e97cf75612f87831abd032940e67a3",
+      "stored_sha256": "7be182590ec36d0389739bb6df960c3dd1e97cf75612f87831abd032940e67a3",
+      "compression": "none",
+      "bytes": 1236
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\ippo_learning_curve\\ippo_seed13_formal_v1\\completion_audit.json",
+      "public_path": "results/ippo_learning_curve/ippo_seed13_formal_v1/completion_audit.json",
+      "raw_sha256": "5855a07247fb0899a156bfec4f52112a43e6dd28168cbce54e6ce828db03643b",
+      "stored_sha256": "5855a07247fb0899a156bfec4f52112a43e6dd28168cbce54e6ce828db03643b",
+      "compression": "none",
+      "bytes": 1124
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\ippo_learning_curve\\ippo_seed13_formal_v1\\config.json",
+      "public_path": "results/ippo_learning_curve/ippo_seed13_formal_v1/config.json",
+      "raw_sha256": "5157cbdd83caa1799cae467f089d8181ed77b076817f8aff2a764943320dc6d4",
+      "stored_sha256": "5157cbdd83caa1799cae467f089d8181ed77b076817f8aff2a764943320dc6d4",
+      "compression": "none",
+      "bytes": 2454
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\ippo_learning_curve\\ippo_seed14_formal_v1\\completed.json",
+      "public_path": "results/ippo_learning_curve/ippo_seed14_formal_v1/completed.json",
+      "raw_sha256": "47dd1545d56f1053c29165223baa27fd9ea71c4133d50aaa8f9ad2be48e11077",
+      "stored_sha256": "47dd1545d56f1053c29165223baa27fd9ea71c4133d50aaa8f9ad2be48e11077",
+      "compression": "none",
+      "bytes": 1247
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\ippo_learning_curve\\ippo_seed14_formal_v1\\completion_audit.json",
+      "public_path": "results/ippo_learning_curve/ippo_seed14_formal_v1/completion_audit.json",
+      "raw_sha256": "8d9acd923b2385a608a20b45392498a683d831b7a3f7093c68ec032394554739",
+      "stored_sha256": "8d9acd923b2385a608a20b45392498a683d831b7a3f7093c68ec032394554739",
+      "compression": "none",
+      "bytes": 1135
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\ippo_learning_curve\\ippo_seed14_formal_v1\\config.json",
+      "public_path": "results/ippo_learning_curve/ippo_seed14_formal_v1/config.json",
+      "raw_sha256": "5165c8a379d0d96981d23a5a5b0a54f4e8068111904b4688d0ebd190606a3097",
+      "stored_sha256": "5165c8a379d0d96981d23a5a5b0a54f4e8068111904b4688d0ebd190606a3097",
+      "compression": "none",
+      "bytes": 2454
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\ippo_learning_curve\\ippo_seed15_formal_v1\\completed.json",
+      "public_path": "results/ippo_learning_curve/ippo_seed15_formal_v1/completed.json",
+      "raw_sha256": "a72290552980d0ce6dfa4653a574716cb357891a83cf0019faba7a79520ede08",
+      "stored_sha256": "a72290552980d0ce6dfa4653a574716cb357891a83cf0019faba7a79520ede08",
+      "compression": "none",
+      "bytes": 1209
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\ippo_learning_curve\\ippo_seed15_formal_v1\\completion_audit.json",
+      "public_path": "results/ippo_learning_curve/ippo_seed15_formal_v1/completion_audit.json",
+      "raw_sha256": "e96579137b62128e93af1a598226f0a86b15eca7224e13c1bad79b2c4b806023",
+      "stored_sha256": "e96579137b62128e93af1a598226f0a86b15eca7224e13c1bad79b2c4b806023",
+      "compression": "none",
+      "bytes": 1116
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\ippo_learning_curve\\ippo_seed15_formal_v1\\config.json",
+      "public_path": "results/ippo_learning_curve/ippo_seed15_formal_v1/config.json",
+      "raw_sha256": "ee79281e17f72ac8c90364bd54089a6366980ea9fc83c5c6e2468e956c6202b2",
+      "stored_sha256": "ee79281e17f72ac8c90364bd54089a6366980ea9fc83c5c6e2468e956c6202b2",
+      "compression": "none",
+      "bytes": 2454
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\collision_diagnosis.json",
+      "public_path": "results/joint_baseline_confirmation/confirmation_v1/collision_diagnosis.json",
+      "raw_sha256": "496cd338c43c1f22c23692418821b5d93e40dfc82ab60effe493e8ff02f00bae",
+      "stored_sha256": "496cd338c43c1f22c23692418821b5d93e40dfc82ab60effe493e8ff02f00bae",
+      "compression": "none",
+      "bytes": 276258
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\freeze.json",
+      "public_path": "results/joint_baseline_confirmation/confirmation_v1/freeze.json",
+      "raw_sha256": "2bef07e97eb8109627ed7c48b392086a90ff3be2bbe40dc17d920ed080c52692",
+      "stored_sha256": "2bef07e97eb8109627ed7c48b392086a90ff3be2bbe40dc17d920ed080c52692",
+      "compression": "none",
+      "bytes": 82474
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\inputs\\batch01.json",
+      "public_path": "results/joint_baseline_confirmation/confirmation_v1/inputs/batch01.json",
+      "raw_sha256": "72ce98ab397556f47b0c69498dc40c18d0cab9d7573bf50bf90a866079db26ba",
+      "stored_sha256": "72ce98ab397556f47b0c69498dc40c18d0cab9d7573bf50bf90a866079db26ba",
+      "compression": "none",
+      "bytes": 18595
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\inputs\\batch02.json",
+      "public_path": "results/joint_baseline_confirmation/confirmation_v1/inputs/batch02.json",
+      "raw_sha256": "17bea0b18667a2ada86b065ab8da1dfe70f8861f51ad6cc31187c78f2c781762",
+      "stored_sha256": "17bea0b18667a2ada86b065ab8da1dfe70f8861f51ad6cc31187c78f2c781762",
+      "compression": "none",
+      "bytes": 18067
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\inputs\\batch03.json",
+      "public_path": "results/joint_baseline_confirmation/confirmation_v1/inputs/batch03.json",
+      "raw_sha256": "04118bc2c53183d0706e0547a484eb6fd54cc343bd9a9b26a004701854e87bcc",
+      "stored_sha256": "04118bc2c53183d0706e0547a484eb6fd54cc343bd9a9b26a004701854e87bcc",
+      "compression": "none",
+      "bytes": 18581
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\inputs\\batch04.json",
+      "public_path": "results/joint_baseline_confirmation/confirmation_v1/inputs/batch04.json",
+      "raw_sha256": "6ebd035d980b3c224084f70447cb92dde6cc3696754e0c9906450cad2963ee3b",
+      "stored_sha256": "6ebd035d980b3c224084f70447cb92dde6cc3696754e0c9906450cad2963ee3b",
+      "compression": "none",
+      "bytes": 18341
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\inputs\\batch05.json",
+      "public_path": "results/joint_baseline_confirmation/confirmation_v1/inputs/batch05.json",
+      "raw_sha256": "d91915963e1f320e7aa33e0a0c8c7f03751a24f59c29d338a8726deef10ae69b",
+      "stored_sha256": "d91915963e1f320e7aa33e0a0c8c7f03751a24f59c29d338a8726deef10ae69b",
+      "compression": "none",
+      "bytes": 18205
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\inputs\\batch06.json",
+      "public_path": "results/joint_baseline_confirmation/confirmation_v1/inputs/batch06.json",
+      "raw_sha256": "92980fbe7e6a2c688c668e07fbb32a7a9c91c7fe14e6b01b6fca739edf87e554",
+      "stored_sha256": "92980fbe7e6a2c688c668e07fbb32a7a9c91c7fe14e6b01b6fca739edf87e554",
+      "compression": "none",
+      "bytes": 18679
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\inputs\\batch07.json",
+      "public_path": "results/joint_baseline_confirmation/confirmation_v1/inputs/batch07.json",
+      "raw_sha256": "80e4ad4408efe9a20791f4c1d17a67f3fd57ec73b0c862b54dd98ca62d299a6b",
+      "stored_sha256": "80e4ad4408efe9a20791f4c1d17a67f3fd57ec73b0c862b54dd98ca62d299a6b",
+      "compression": "none",
+      "bytes": 17917
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\inputs\\batch08.json",
+      "public_path": "results/joint_baseline_confirmation/confirmation_v1/inputs/batch08.json",
+      "raw_sha256": "d1d12b6ec61a4a086220fc55a62fe0b7536e3bcedc35246b0cbfd6720d2c6a75",
+      "stored_sha256": "d1d12b6ec61a4a086220fc55a62fe0b7536e3bcedc35246b0cbfd6720d2c6a75",
+      "compression": "none",
+      "bytes": 18507
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\inputs\\batch09.json",
+      "public_path": "results/joint_baseline_confirmation/confirmation_v1/inputs/batch09.json",
+      "raw_sha256": "4db0b4c56d45ae4120a0545348d53913764d8c007eb96a73eab2a0f437e9a5b6",
+      "stored_sha256": "4db0b4c56d45ae4120a0545348d53913764d8c007eb96a73eab2a0f437e9a5b6",
+      "compression": "none",
+      "bytes": 18044
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\inputs\\batch10.json",
+      "public_path": "results/joint_baseline_confirmation/confirmation_v1/inputs/batch10.json",
+      "raw_sha256": "18168f3cc086161ff5f18f386afcdfe763ac5eeeb2891ce4a2be6105e0dee7b0",
+      "stored_sha256": "18168f3cc086161ff5f18f386afcdfe763ac5eeeb2891ce4a2be6105e0dee7b0",
+      "compression": "none",
+      "bytes": 18782
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\manifest.json",
+      "public_path": "results/joint_baseline_confirmation/confirmation_v1/manifest.json",
+      "raw_sha256": "9cfe3431328cd9c76f5c0154139bbf2244f18187f6ca175fa5e0415b2720af3f",
+      "stored_sha256": "9cfe3431328cd9c76f5c0154139bbf2244f18187f6ca175fa5e0415b2720af3f",
+      "compression": "none",
+      "bytes": 740059
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\preflight.json",
+      "public_path": "results/joint_baseline_confirmation/confirmation_v1/preflight.json",
+      "raw_sha256": "fca55dea4fc27badbcdef342f54d8873da8ff5c45ab174190bcfc59526cb4bbf",
+      "stored_sha256": "fca55dea4fc27badbcdef342f54d8873da8ff5c45ab174190bcfc59526cb4bbf",
+      "compression": "none",
+      "bytes": 723577
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v1.log",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v1.log",
+      "raw_sha256": "fe845358cacf82f41c6df7d098504bb2876ebf543a4d6c3d7e446766e56fd6ff",
+      "stored_sha256": "fe845358cacf82f41c6df7d098504bb2876ebf543a4d6c3d7e446766e56fd6ff",
+      "compression": "none",
+      "bytes": 1136
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\completed.json",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/completed.json",
+      "raw_sha256": "c3024315abf287acdc720ab3a59f8eafd9c7800022585f3afc086cfa509c9ef2",
+      "stored_sha256": "c3024315abf287acdc720ab3a59f8eafd9c7800022585f3afc086cfa509c9ef2",
+      "compression": "none",
+      "bytes": 293
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\manifest.json",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/manifest.json",
+      "raw_sha256": "2a8d7e4ef0bce75bbb23d98bb6f5b0cf29b921fea47c648a3f3d345ccfce1d0b",
+      "stored_sha256": "2a8d7e4ef0bce75bbb23d98bb6f5b0cf29b921fea47c648a3f3d345ccfce1d0b",
+      "compression": "none",
+      "bytes": 71200
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed11\\calls.json",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed11/calls.json",
+      "raw_sha256": "ab9c13050d5e652d25df24e9cb8411b06aae85e68626d43d98edd200c2e8be77",
+      "stored_sha256": "ab9c13050d5e652d25df24e9cb8411b06aae85e68626d43d98edd200c2e8be77",
+      "compression": "none",
+      "bytes": 7603
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed11\\completed.json",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed11/completed.json",
+      "raw_sha256": "ca99aaf11cfbdd91ef70f4bf1c14af4dd85e93b66e93d0c3aed6c5931312fc80",
+      "stored_sha256": "ca99aaf11cfbdd91ef70f4bf1c14af4dd85e93b66e93d0c3aed6c5931312fc80",
+      "compression": "none",
+      "bytes": 1008
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed11\\delivered_reports.json",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed11/delivered_reports.json",
+      "raw_sha256": "ae63f718f5dd86a61a31f8fac1cdae4bdb64ff25e36a65a98ff2f72597adfe47",
+      "stored_sha256": "ae63f718f5dd86a61a31f8fac1cdae4bdb64ff25e36a65a98ff2f72597adfe47",
+      "compression": "none",
+      "bytes": 419682
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed11\\episodes.json",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed11/episodes.json",
+      "raw_sha256": "52413700922c6c11e486287bf659cb88230c7d9ad788684404de2607c63ec16b",
+      "stored_sha256": "52413700922c6c11e486287bf659cb88230c7d9ad788684404de2607c63ec16b",
+      "compression": "none",
+      "bytes": 5500
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed11\\happo\\logs\\events.out.tfevents.1791197271.\u77f3\u539f\u8d6b\u7684\u7535\u8111",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed11/happo/logs/events.out.tfevents.1791197271.\u77f3\u539f\u8d6b\u7684\u7535\u8111",
+      "raw_sha256": "3aebf7fc17ededd3c2bcf0a86e50e085cb43ba6d95018bbc8a48b59a057a717a",
+      "stored_sha256": "3aebf7fc17ededd3c2bcf0a86e50e085cb43ba6d95018bbc8a48b59a057a717a",
+      "compression": "none",
+      "bytes": 40
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed11\\information_audits.json",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed11/information_audits.json.gz",
+      "raw_sha256": "bb203ec4dd7b9935f5fa117537d2bc5a0cda07d4ff8ad72ea7b7fd6ae74ca321",
+      "stored_sha256": "d57442523f5907c7f22653afeb04dff3ae023f59bdccb122e71e2b1dc4f7ff39",
+      "compression": "gzip",
+      "bytes": 16058882
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed11\\ippo\\logs\\events.out.tfevents.1791197277.\u77f3\u539f\u8d6b\u7684\u7535\u8111",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed11/ippo/logs/events.out.tfevents.1791197277.\u77f3\u539f\u8d6b\u7684\u7535\u8111",
+      "raw_sha256": "589fbe3fe2eeaec5991e240aade8c920ade957e99356271c10efaf015a9f8f2f",
+      "stored_sha256": "589fbe3fe2eeaec5991e240aade8c920ade957e99356271c10efaf015a9f8f2f",
+      "compression": "none",
+      "bytes": 40
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed11\\offline_audit.json",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed11/offline_audit.json",
+      "raw_sha256": "d52f0e231d6cbc6f98ed2aa2aaa3c65c8268a973264ff4368e6ea71766e7e02a",
+      "stored_sha256": "d52f0e231d6cbc6f98ed2aa2aaa3c65c8268a973264ff4368e6ea71766e7e02a",
+      "compression": "none",
+      "bytes": 5822
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed11\\online_feedback\\logs\\events.out.tfevents.1791197283.\u77f3\u539f\u8d6b\u7684\u7535\u8111",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed11/online_feedback/logs/events.out.tfevents.1791197283.\u77f3\u539f\u8d6b\u7684\u7535\u8111",
+      "raw_sha256": "8c37ed773db650513e8b3f515387e0aff58be216fed11583943b6b64750e8c5a",
+      "stored_sha256": "8c37ed773db650513e8b3f515387e0aff58be216fed11583943b6b64750e8c5a",
+      "compression": "none",
+      "bytes": 40
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed11\\periods.csv",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed11/periods.csv",
+      "raw_sha256": "a600c38add9e0e5223a15f99d92d2737b600aba837aa5b820954749c8a5733ca",
+      "stored_sha256": "a600c38add9e0e5223a15f99d92d2737b600aba837aa5b820954749c8a5733ca",
+      "compression": "none",
+      "bytes": 657705
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed11\\runtime_failures.json",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed11/runtime_failures.json",
+      "raw_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "stored_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "compression": "none",
+      "bytes": 2
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed11\\scores.json",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed11/scores.json",
+      "raw_sha256": "d2fc2c8e4b80a3bd05f788987f41cb38a9d0332d46d4083a0e9f620b244499b5",
+      "stored_sha256": "d2fc2c8e4b80a3bd05f788987f41cb38a9d0332d46d4083a0e9f620b244499b5",
+      "compression": "none",
+      "bytes": 879923
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed12\\calls.json",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed12/calls.json",
+      "raw_sha256": "ab9c13050d5e652d25df24e9cb8411b06aae85e68626d43d98edd200c2e8be77",
+      "stored_sha256": "ab9c13050d5e652d25df24e9cb8411b06aae85e68626d43d98edd200c2e8be77",
+      "compression": "none",
+      "bytes": 7603
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed12\\completed.json",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed12/completed.json",
+      "raw_sha256": "809ddeb3e332ac48ebb0ef9c99e03e72f5effd75ebc20b76be0e5cdfefbf6a6b",
+      "stored_sha256": "809ddeb3e332ac48ebb0ef9c99e03e72f5effd75ebc20b76be0e5cdfefbf6a6b",
+      "compression": "none",
+      "bytes": 1008
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed12\\delivered_reports.json",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed12/delivered_reports.json",
+      "raw_sha256": "ae63f718f5dd86a61a31f8fac1cdae4bdb64ff25e36a65a98ff2f72597adfe47",
+      "stored_sha256": "ae63f718f5dd86a61a31f8fac1cdae4bdb64ff25e36a65a98ff2f72597adfe47",
+      "compression": "none",
+      "bytes": 419682
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed12\\episodes.json",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed12/episodes.json",
+      "raw_sha256": "3073e861271da86a48d49c66bcfab99c8632e15e0d5d93c7a70549821b83f98d",
+      "stored_sha256": "3073e861271da86a48d49c66bcfab99c8632e15e0d5d93c7a70549821b83f98d",
+      "compression": "none",
+      "bytes": 5457
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed12\\happo\\logs\\events.out.tfevents.1791197339.\u77f3\u539f\u8d6b\u7684\u7535\u8111",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed12/happo/logs/events.out.tfevents.1791197339.\u77f3\u539f\u8d6b\u7684\u7535\u8111",
+      "raw_sha256": "7403622a56903417b681cdfc87d11f288ddf1209b62e1bc01e4ee4527adbdf9e",
+      "stored_sha256": "7403622a56903417b681cdfc87d11f288ddf1209b62e1bc01e4ee4527adbdf9e",
+      "compression": "none",
+      "bytes": 40
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed12\\information_audits.json",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed12/information_audits.json.gz",
+      "raw_sha256": "e799497debf3410f3ca61b3d6fafa7592430e19a51c1d69f812495c62b5024a2",
+      "stored_sha256": "937cd3adaaafe2044a6015d98b165310cefc8992245dd17c85f5182b7bbebf33",
+      "compression": "gzip",
+      "bytes": 16057924
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed12\\ippo\\logs\\events.out.tfevents.1791197343.\u77f3\u539f\u8d6b\u7684\u7535\u8111",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed12/ippo/logs/events.out.tfevents.1791197343.\u77f3\u539f\u8d6b\u7684\u7535\u8111",
+      "raw_sha256": "2e8f771e334376a63591f8269fb01da5ce524a8e8611c3779622985fd8d0078d",
+      "stored_sha256": "2e8f771e334376a63591f8269fb01da5ce524a8e8611c3779622985fd8d0078d",
+      "compression": "none",
+      "bytes": 40
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed12\\offline_audit.json",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed12/offline_audit.json",
+      "raw_sha256": "d52f0e231d6cbc6f98ed2aa2aaa3c65c8268a973264ff4368e6ea71766e7e02a",
+      "stored_sha256": "d52f0e231d6cbc6f98ed2aa2aaa3c65c8268a973264ff4368e6ea71766e7e02a",
+      "compression": "none",
+      "bytes": 5822
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed12\\online_feedback\\logs\\events.out.tfevents.1791197349.\u77f3\u539f\u8d6b\u7684\u7535\u8111",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed12/online_feedback/logs/events.out.tfevents.1791197349.\u77f3\u539f\u8d6b\u7684\u7535\u8111",
+      "raw_sha256": "d971cf07b68260ad6f3ec02eb6ef9d46c4f957e31da12be9db8bf019ad3c256a",
+      "stored_sha256": "d971cf07b68260ad6f3ec02eb6ef9d46c4f957e31da12be9db8bf019ad3c256a",
+      "compression": "none",
+      "bytes": 40
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed12\\periods.csv",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed12/periods.csv",
+      "raw_sha256": "2d6b4e76181c0dd1871bd954eb030a28a6affd0714f954bc008ff2a46f2bf97b",
+      "stored_sha256": "2d6b4e76181c0dd1871bd954eb030a28a6affd0714f954bc008ff2a46f2bf97b",
+      "compression": "none",
+      "bytes": 655831
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed12\\runtime_failures.json",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed12/runtime_failures.json",
+      "raw_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "stored_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "compression": "none",
+      "bytes": 2
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed12\\scores.json",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed12/scores.json",
+      "raw_sha256": "fa15dc5a38eb06e39588af7ed20cf81f96d260a2dc20f7ff9bd46ee4a2c68a4f",
+      "stored_sha256": "fa15dc5a38eb06e39588af7ed20cf81f96d260a2dc20f7ff9bd46ee4a2c68a4f",
+      "compression": "none",
+      "bytes": 877032
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed13\\calls.json",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed13/calls.json",
+      "raw_sha256": "ab9c13050d5e652d25df24e9cb8411b06aae85e68626d43d98edd200c2e8be77",
+      "stored_sha256": "ab9c13050d5e652d25df24e9cb8411b06aae85e68626d43d98edd200c2e8be77",
+      "compression": "none",
+      "bytes": 7603
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed13\\completed.json",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed13/completed.json",
+      "raw_sha256": "8a9a51f98cbba27a88a4bdd9604d988ec7fcf61c68a8d2ec7c2780914bbc3641",
+      "stored_sha256": "8a9a51f98cbba27a88a4bdd9604d988ec7fcf61c68a8d2ec7c2780914bbc3641",
+      "compression": "none",
+      "bytes": 1008
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed13\\delivered_reports.json",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed13/delivered_reports.json",
+      "raw_sha256": "ae63f718f5dd86a61a31f8fac1cdae4bdb64ff25e36a65a98ff2f72597adfe47",
+      "stored_sha256": "ae63f718f5dd86a61a31f8fac1cdae4bdb64ff25e36a65a98ff2f72597adfe47",
+      "compression": "none",
+      "bytes": 419682
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed13\\episodes.json",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed13/episodes.json",
+      "raw_sha256": "bace6795ef62081b23aa720c8aeba557201abd81064202982802fdbfd446ec22",
+      "stored_sha256": "bace6795ef62081b23aa720c8aeba557201abd81064202982802fdbfd446ec22",
+      "compression": "none",
+      "bytes": 5382
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed13\\happo\\logs\\events.out.tfevents.1791197403.\u77f3\u539f\u8d6b\u7684\u7535\u8111",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed13/happo/logs/events.out.tfevents.1791197403.\u77f3\u539f\u8d6b\u7684\u7535\u8111",
+      "raw_sha256": "8261381fedd2cf81df5b21c03e6fca870be08286c5c894b8c4dcd9d4ada930a9",
+      "stored_sha256": "8261381fedd2cf81df5b21c03e6fca870be08286c5c894b8c4dcd9d4ada930a9",
+      "compression": "none",
+      "bytes": 40
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed13\\information_audits.json",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed13/information_audits.json.gz",
+      "raw_sha256": "0943cd526392cef1ede52fa92c26db81bbd9e65bee9bdc6987737affbf58011b",
+      "stored_sha256": "72cb802bf2b207d0067e3b2e4df10add0af5d6d6951d34038a95dcd2721b9932",
+      "compression": "gzip",
+      "bytes": 16058961
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed13\\ippo\\logs\\events.out.tfevents.1791197407.\u77f3\u539f\u8d6b\u7684\u7535\u8111",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed13/ippo/logs/events.out.tfevents.1791197407.\u77f3\u539f\u8d6b\u7684\u7535\u8111",
+      "raw_sha256": "85221ca88efbccb677e58407051a2d7a9b9b65856f79477db0805632e45009e3",
+      "stored_sha256": "85221ca88efbccb677e58407051a2d7a9b9b65856f79477db0805632e45009e3",
+      "compression": "none",
+      "bytes": 40
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed13\\offline_audit.json",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed13/offline_audit.json",
+      "raw_sha256": "d52f0e231d6cbc6f98ed2aa2aaa3c65c8268a973264ff4368e6ea71766e7e02a",
+      "stored_sha256": "d52f0e231d6cbc6f98ed2aa2aaa3c65c8268a973264ff4368e6ea71766e7e02a",
+      "compression": "none",
+      "bytes": 5822
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed13\\online_feedback\\logs\\events.out.tfevents.1791197413.\u77f3\u539f\u8d6b\u7684\u7535\u8111",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed13/online_feedback/logs/events.out.tfevents.1791197413.\u77f3\u539f\u8d6b\u7684\u7535\u8111",
+      "raw_sha256": "bbd44a6055ce1ebe027b7bf453457e24fe91e543cb9fa5e6ba83d6a9fc67dc87",
+      "stored_sha256": "bbd44a6055ce1ebe027b7bf453457e24fe91e543cb9fa5e6ba83d6a9fc67dc87",
+      "compression": "none",
+      "bytes": 40
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed13\\periods.csv",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed13/periods.csv",
+      "raw_sha256": "a8db86c245370084580a67a7c629e8dc3cfa2e0828ea4f9c1b51c2d344ad8bcf",
+      "stored_sha256": "a8db86c245370084580a67a7c629e8dc3cfa2e0828ea4f9c1b51c2d344ad8bcf",
+      "compression": "none",
+      "bytes": 657190
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed13\\runtime_failures.json",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed13/runtime_failures.json",
+      "raw_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "stored_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "compression": "none",
+      "bytes": 2
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed13\\scores.json",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed13/scores.json",
+      "raw_sha256": "fb233dd50df086600c826e7b408ccf95842dcce7ae862089664bc5cdcc8160f6",
+      "stored_sha256": "fb233dd50df086600c826e7b408ccf95842dcce7ae862089664bc5cdcc8160f6",
+      "compression": "none",
+      "bytes": 877241
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed14\\calls.json",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed14/calls.json",
+      "raw_sha256": "ab9c13050d5e652d25df24e9cb8411b06aae85e68626d43d98edd200c2e8be77",
+      "stored_sha256": "ab9c13050d5e652d25df24e9cb8411b06aae85e68626d43d98edd200c2e8be77",
+      "compression": "none",
+      "bytes": 7603
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed14\\completed.json",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed14/completed.json",
+      "raw_sha256": "345684c9c36a0a741018e8972f3cf8264489d68de2ce48d009557806cc215cd8",
+      "stored_sha256": "345684c9c36a0a741018e8972f3cf8264489d68de2ce48d009557806cc215cd8",
+      "compression": "none",
+      "bytes": 1008
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed14\\delivered_reports.json",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed14/delivered_reports.json",
+      "raw_sha256": "ae63f718f5dd86a61a31f8fac1cdae4bdb64ff25e36a65a98ff2f72597adfe47",
+      "stored_sha256": "ae63f718f5dd86a61a31f8fac1cdae4bdb64ff25e36a65a98ff2f72597adfe47",
+      "compression": "none",
+      "bytes": 419682
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed14\\episodes.json",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed14/episodes.json",
+      "raw_sha256": "1c0e32a74663ae94c1cd6417f647e489fe334b23f9cd33017f052362a7438969",
+      "stored_sha256": "1c0e32a74663ae94c1cd6417f647e489fe334b23f9cd33017f052362a7438969",
+      "compression": "none",
+      "bytes": 5396
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed14\\happo\\logs\\events.out.tfevents.1791197466.\u77f3\u539f\u8d6b\u7684\u7535\u8111",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed14/happo/logs/events.out.tfevents.1791197466.\u77f3\u539f\u8d6b\u7684\u7535\u8111",
+      "raw_sha256": "89feee66d3148c8877328c8a8248a271367a09819097757ef2ac873a06a6d1b6",
+      "stored_sha256": "89feee66d3148c8877328c8a8248a271367a09819097757ef2ac873a06a6d1b6",
+      "compression": "none",
+      "bytes": 40
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed14\\information_audits.json",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed14/information_audits.json.gz",
+      "raw_sha256": "7b46c34cf8edf8510b0a3f8160213eed8c25f62e45e7cca3b6c7756e553731e5",
+      "stored_sha256": "7be4411ec88e083da405847955ed4418f538f89b49c2e4f2b7025d64b3a3896e",
+      "compression": "gzip",
+      "bytes": 16058948
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed14\\ippo\\logs\\events.out.tfevents.1791197470.\u77f3\u539f\u8d6b\u7684\u7535\u8111",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed14/ippo/logs/events.out.tfevents.1791197470.\u77f3\u539f\u8d6b\u7684\u7535\u8111",
+      "raw_sha256": "05aaec40e8546344fbb30b38bdc9de20fd41646d4b0e67f182105b65c06f466a",
+      "stored_sha256": "05aaec40e8546344fbb30b38bdc9de20fd41646d4b0e67f182105b65c06f466a",
+      "compression": "none",
+      "bytes": 40
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed14\\offline_audit.json",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed14/offline_audit.json",
+      "raw_sha256": "d52f0e231d6cbc6f98ed2aa2aaa3c65c8268a973264ff4368e6ea71766e7e02a",
+      "stored_sha256": "d52f0e231d6cbc6f98ed2aa2aaa3c65c8268a973264ff4368e6ea71766e7e02a",
+      "compression": "none",
+      "bytes": 5822
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed14\\online_feedback\\logs\\events.out.tfevents.1791197475.\u77f3\u539f\u8d6b\u7684\u7535\u8111",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed14/online_feedback/logs/events.out.tfevents.1791197475.\u77f3\u539f\u8d6b\u7684\u7535\u8111",
+      "raw_sha256": "ed6fb17f31de5939621b41e296449380161aac2703468b7269ccc3237f3ba49c",
+      "stored_sha256": "ed6fb17f31de5939621b41e296449380161aac2703468b7269ccc3237f3ba49c",
+      "compression": "none",
+      "bytes": 40
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed14\\periods.csv",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed14/periods.csv",
+      "raw_sha256": "f4b621d9ebf89fc9e57fe5139c8fd9d7c61bc55e75d8c5b0d813f21d15bf626f",
+      "stored_sha256": "f4b621d9ebf89fc9e57fe5139c8fd9d7c61bc55e75d8c5b0d813f21d15bf626f",
+      "compression": "none",
+      "bytes": 656623
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed14\\runtime_failures.json",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed14/runtime_failures.json",
+      "raw_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "stored_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "compression": "none",
+      "bytes": 2
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed14\\scores.json",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed14/scores.json",
+      "raw_sha256": "d61562411a6c713595120a73e32b8c9df81e5d379bdc8be981ddef7f3afaffd0",
+      "stored_sha256": "d61562411a6c713595120a73e32b8c9df81e5d379bdc8be981ddef7f3afaffd0",
+      "compression": "none",
+      "bytes": 883846
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed15\\calls.json",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed15/calls.json",
+      "raw_sha256": "ab9c13050d5e652d25df24e9cb8411b06aae85e68626d43d98edd200c2e8be77",
+      "stored_sha256": "ab9c13050d5e652d25df24e9cb8411b06aae85e68626d43d98edd200c2e8be77",
+      "compression": "none",
+      "bytes": 7603
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed15\\completed.json",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed15/completed.json",
+      "raw_sha256": "383a97cde25dce9b734a6633b7a6e46e80c76d7608ac9edeadc30ca1cdbd8d4e",
+      "stored_sha256": "383a97cde25dce9b734a6633b7a6e46e80c76d7608ac9edeadc30ca1cdbd8d4e",
+      "compression": "none",
+      "bytes": 1009
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed15\\delivered_reports.json",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed15/delivered_reports.json",
+      "raw_sha256": "ae63f718f5dd86a61a31f8fac1cdae4bdb64ff25e36a65a98ff2f72597adfe47",
+      "stored_sha256": "ae63f718f5dd86a61a31f8fac1cdae4bdb64ff25e36a65a98ff2f72597adfe47",
+      "compression": "none",
+      "bytes": 419682
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed15\\episodes.json",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed15/episodes.json",
+      "raw_sha256": "3b8d848682448bee322a162ddf1201075462aeda0c42b6daafb470db7989a55d",
+      "stored_sha256": "3b8d848682448bee322a162ddf1201075462aeda0c42b6daafb470db7989a55d",
+      "compression": "none",
+      "bytes": 5453
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed15\\happo\\logs\\events.out.tfevents.1791197528.\u77f3\u539f\u8d6b\u7684\u7535\u8111",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed15/happo/logs/events.out.tfevents.1791197528.\u77f3\u539f\u8d6b\u7684\u7535\u8111",
+      "raw_sha256": "a20a5029f32ad36e3cd34c81a4479918d9f55cdf9289943c69d4a1fe026f9925",
+      "stored_sha256": "a20a5029f32ad36e3cd34c81a4479918d9f55cdf9289943c69d4a1fe026f9925",
+      "compression": "none",
+      "bytes": 40
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed15\\information_audits.json",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed15/information_audits.json.gz",
+      "raw_sha256": "7e6baee95d61a631f6d4580cc913caea0ebe6db0abc879dfe4ad3d91ff8d48c8",
+      "stored_sha256": "37aa2b8e1f3561da5e69de952309fe444731088f4d2cab3d00097441822ac5fb",
+      "compression": "gzip",
+      "bytes": 16059277
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed15\\ippo\\logs\\events.out.tfevents.1791197533.\u77f3\u539f\u8d6b\u7684\u7535\u8111",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed15/ippo/logs/events.out.tfevents.1791197533.\u77f3\u539f\u8d6b\u7684\u7535\u8111",
+      "raw_sha256": "25eb6930371ec469e178eaa5cda2c8872c63cb6b7484e74c367548e34bf7a183",
+      "stored_sha256": "25eb6930371ec469e178eaa5cda2c8872c63cb6b7484e74c367548e34bf7a183",
+      "compression": "none",
+      "bytes": 40
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed15\\offline_audit.json",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed15/offline_audit.json",
+      "raw_sha256": "d52f0e231d6cbc6f98ed2aa2aaa3c65c8268a973264ff4368e6ea71766e7e02a",
+      "stored_sha256": "d52f0e231d6cbc6f98ed2aa2aaa3c65c8268a973264ff4368e6ea71766e7e02a",
+      "compression": "none",
+      "bytes": 5822
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed15\\online_feedback\\logs\\events.out.tfevents.1791197539.\u77f3\u539f\u8d6b\u7684\u7535\u8111",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed15/online_feedback/logs/events.out.tfevents.1791197539.\u77f3\u539f\u8d6b\u7684\u7535\u8111",
+      "raw_sha256": "08b9b537a7cf1d4a5cf9c57dd3306bdc6b21300558e9e7c6b02a7f58cd2c6a20",
+      "stored_sha256": "08b9b537a7cf1d4a5cf9c57dd3306bdc6b21300558e9e7c6b02a7f58cd2c6a20",
+      "compression": "none",
+      "bytes": 40
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed15\\periods.csv",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed15/periods.csv",
+      "raw_sha256": "dacb0cb4a44330fc257e43ba38d9628897ea633650b0f55908a7d93bf7fb6ef2",
+      "stored_sha256": "dacb0cb4a44330fc257e43ba38d9628897ea633650b0f55908a7d93bf7fb6ef2",
+      "compression": "none",
+      "bytes": 657155
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed15\\runtime_failures.json",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed15/runtime_failures.json",
+      "raw_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "stored_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "compression": "none",
+      "bytes": 2
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\seed15\\scores.json",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/seed15/scores.json",
+      "raw_sha256": "f4ed8887fc76888a83ae3b27a5755779bfded941e202d037dbbf9d16df1a0005",
+      "stored_sha256": "f4ed8887fc76888a83ae3b27a5755779bfded941e202d037dbbf9d16df1a0005",
+      "compression": "none",
+      "bytes": 881758
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\tested_sources\\docs\\superpowers\\plans\\2026-10-05-joint-baseline-confirmation.md",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/tested_sources/docs/superpowers/plans/2026-10-05-joint-baseline-confirmation.md",
+      "raw_sha256": "2c56cc24a2348b13e342721ee43c54d19d0c378a54cbd6b33f667cbaeb0540b3",
+      "stored_sha256": "2c56cc24a2348b13e342721ee43c54d19d0c378a54cbd6b33f667cbaeb0540b3",
+      "compression": "none",
+      "bytes": 5436
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\tested_sources\\docs\\superpowers\\specs\\2026-10-05-joint-baseline-design.md",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/tested_sources/docs/superpowers/specs/2026-10-05-joint-baseline-design.md",
+      "raw_sha256": "b317bdb25ee289e2c97669289fe065512f5e682caf2aea60969f35876cb90dfa",
+      "stored_sha256": "b317bdb25ee289e2c97669289fe065512f5e682caf2aea60969f35876cb90dfa",
+      "compression": "none",
+      "bytes": 2673
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\tested_sources\\experiments\\deepseek_pilot\\rules.py",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/tested_sources/experiments/deepseek_pilot/rules.py",
+      "raw_sha256": "8de5400b739098929e760caf8bca9abd9d89a6f5e6910d9ab839119aefbc497b",
+      "stored_sha256": "8de5400b739098929e760caf8bca9abd9d89a6f5e6910d9ab839119aefbc497b",
+      "compression": "none",
+      "bytes": 4990
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\tested_sources\\experiments\\deepseek_refinement\\reports.py",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/tested_sources/experiments/deepseek_refinement/reports.py",
+      "raw_sha256": "46d4588efa0daae795e9677f4151cee66fe0d77aabe40eebc1296d4be460b154",
+      "stored_sha256": "46d4588efa0daae795e9677f4151cee66fe0d77aabe40eebc1296d4be460b154",
+      "compression": "none",
+      "bytes": 2565
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\tested_sources\\experiments\\deepseek_refinement\\run.py",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/tested_sources/experiments/deepseek_refinement/run.py",
+      "raw_sha256": "2515ab236fd015b50b5734105d9745f5f5e7c7974cc77e5fd7ebd7063bc1d4b6",
+      "stored_sha256": "2515ab236fd015b50b5734105d9745f5f5e7c7974cc77e5fd7ebd7063bc1d4b6",
+      "compression": "none",
+      "bytes": 28367
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\tested_sources\\experiments\\deepseek_refinement\\shadow.py",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/tested_sources/experiments/deepseek_refinement/shadow.py",
+      "raw_sha256": "fbf92c3c5bc5b86a52890a32e5d26d51400daef467504401838da55bbff95865",
+      "stored_sha256": "fbf92c3c5bc5b86a52890a32e5d26d51400daef467504401838da55bbff95865",
+      "compression": "none",
+      "bytes": 7526
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\tested_sources\\experiments\\formal_evaluation\\ablations.py",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/tested_sources/experiments/formal_evaluation/ablations.py",
+      "raw_sha256": "bac84d7a7b44f8416620939244fd0683334cfead5236e0c2ecbb60edc391124e",
+      "stored_sha256": "bac84d7a7b44f8416620939244fd0683334cfead5236e0c2ecbb60edc391124e",
+      "compression": "none",
+      "bytes": 353
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\tested_sources\\experiments\\joint_baseline\\frozen.py",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/tested_sources/experiments/joint_baseline/frozen.py",
+      "raw_sha256": "9f37cbcfb9d6fb60234496100acb0d3c060743064e04e9e5ef28c0a6f396f2bf",
+      "stored_sha256": "9f37cbcfb9d6fb60234496100acb0d3c060743064e04e9e5ef28c0a6f396f2bf",
+      "compression": "none",
+      "bytes": 2325
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\tested_sources\\experiments\\joint_baseline_confirmation\\analyze.py",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/tested_sources/experiments/joint_baseline_confirmation/analyze.py",
+      "raw_sha256": "cd3125d8f2c0bfe1afaf3d033bb311680623f4d0ab6d017e5ab48618c051df49",
+      "stored_sha256": "cd3125d8f2c0bfe1afaf3d033bb311680623f4d0ab6d017e5ab48618c051df49",
+      "compression": "none",
+      "bytes": 10273
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\tested_sources\\experiments\\joint_baseline_confirmation\\batch.py",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/tested_sources/experiments/joint_baseline_confirmation/batch.py",
+      "raw_sha256": "95935d9e6da4ec246eefd22724cd09101f2aff3d73711c6289e452063fb2bb24",
+      "stored_sha256": "95935d9e6da4ec246eefd22724cd09101f2aff3d73711c6289e452063fb2bb24",
+      "compression": "none",
+      "bytes": 25113
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\tested_sources\\experiments\\joint_baseline_confirmation\\build_adapter.py",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/tested_sources/experiments/joint_baseline_confirmation/build_adapter.py",
+      "raw_sha256": "05a67bbc72857dc54d3e3bffcdbc53db752a07a5daa09bd117189bc2b458ecf4",
+      "stored_sha256": "05a67bbc72857dc54d3e3bffcdbc53db752a07a5daa09bd117189bc2b458ecf4",
+      "compression": "none",
+      "bytes": 7819
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\tested_sources\\experiments\\joint_baseline_confirmation\\no_api_check.py",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/tested_sources/experiments/joint_baseline_confirmation/no_api_check.py",
+      "raw_sha256": "ab6818e8ad89f39e087700797d7af80fb471d9d0f71facc905f02478c088b8bc",
+      "stored_sha256": "ab6818e8ad89f39e087700797d7af80fb471d9d0f71facc905f02478c088b8bc",
+      "compression": "none",
+      "bytes": 5752
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\tested_sources\\experiments\\joint_baseline_confirmation\\run_online.py",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/tested_sources/experiments/joint_baseline_confirmation/run_online.py",
+      "raw_sha256": "b5d1d0f8ac1ca8831c7ecac3d343903cf1f760f719b2b4c626c76268edd4ca98",
+      "stored_sha256": "b5d1d0f8ac1ca8831c7ecac3d343903cf1f760f719b2b4c626c76268edd4ca98",
+      "compression": "none",
+      "bytes": 21397
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\tested_sources\\experiments\\online_llm\\client.py",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/tested_sources/experiments/online_llm/client.py",
+      "raw_sha256": "db7d8dd0efe1916896eefd575c50a459ed594076c3ca233449bfe2184e3af511",
+      "stored_sha256": "db7d8dd0efe1916896eefd575c50a459ed594076c3ca233449bfe2184e3af511",
+      "compression": "none",
+      "bytes": 5237
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\tested_sources\\experiments\\online_llm\\controller.py",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/tested_sources/experiments/online_llm/controller.py",
+      "raw_sha256": "4f67a4775be661f0751fd2f916baf8f961350de01430c14e5a57e12cdd54b067",
+      "stored_sha256": "4f67a4775be661f0751fd2f916baf8f961350de01430c14e5a57e12cdd54b067",
+      "compression": "none",
+      "bytes": 8445
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\tested_sources\\experiments\\online_llm\\run.py",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/tested_sources/experiments/online_llm/run.py",
+      "raw_sha256": "b266032166b74a3c640f962c9cbd13d212d5b03dca46335fd83d9464bcb7095c",
+      "stored_sha256": "b266032166b74a3c640f962c9cbd13d212d5b03dca46335fd83d9464bcb7095c",
+      "compression": "none",
+      "bytes": 16476
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\tested_sources\\external\\liu-inventory\\algorithms\\__init__.py",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/tested_sources/external/liu-inventory/algorithms/__init__.py",
+      "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stored_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compression": "none",
+      "bytes": 0
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\tested_sources\\external\\liu-inventory\\algorithms\\actor_critic.py",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/tested_sources/external/liu-inventory/algorithms/actor_critic.py",
+      "raw_sha256": "a60a097b84fd74c4027ecd0d3b0b94e9be9ed276cad85e694fddf466b6b7a9ad",
+      "stored_sha256": "a60a097b84fd74c4027ecd0d3b0b94e9be9ed276cad85e694fddf466b6b7a9ad",
+      "compression": "none",
+      "bytes": 8743
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\tested_sources\\external\\liu-inventory\\algorithms\\happo_policy.py",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/tested_sources/external/liu-inventory/algorithms/happo_policy.py",
+      "raw_sha256": "48f1915d792a000a5938718a09d897c2646cbc6d2d59529d47b8e79bd6f3161a",
+      "stored_sha256": "48f1915d792a000a5938718a09d897c2646cbc6d2d59529d47b8e79bd6f3161a",
+      "compression": "none",
+      "bytes": 7855
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\tested_sources\\external\\liu-inventory\\algorithms\\happo_trainer.py",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/tested_sources/external/liu-inventory/algorithms/happo_trainer.py",
+      "raw_sha256": "40c67b8b8f724cb0102f4766b58ea876606c7f2423b3733c41864502f53ba84a",
+      "stored_sha256": "40c67b8b8f724cb0102f4766b58ea876606c7f2423b3733c41864502f53ba84a",
+      "compression": "none",
+      "bytes": 10716
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\tested_sources\\external\\liu-inventory\\algorithms\\utils\\act.py",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/tested_sources/external/liu-inventory/algorithms/utils/act.py",
+      "raw_sha256": "dc551eb81567f591eab1ef148768439f67c236f2aca493e401171493fcc86d71",
+      "stored_sha256": "dc551eb81567f591eab1ef148768439f67c236f2aca493e401171493fcc86d71",
+      "compression": "none",
+      "bytes": 11179
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\tested_sources\\external\\liu-inventory\\algorithms\\utils\\cnn.py",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/tested_sources/external/liu-inventory/algorithms/utils/cnn.py",
+      "raw_sha256": "958c59f4828ec874934490249877b7b82d6d218ef12db2428dac7f6b325ce067",
+      "stored_sha256": "958c59f4828ec874934490249877b7b82d6d218ef12db2428dac7f6b325ce067",
+      "compression": "none",
+      "bytes": 1910
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\tested_sources\\external\\liu-inventory\\algorithms\\utils\\distributions.py",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/tested_sources/external/liu-inventory/algorithms/utils/distributions.py",
+      "raw_sha256": "f11e226e9218e954c576f80ed4043bd480de1fc5a29905bd11663d2e678d159e",
+      "stored_sha256": "f11e226e9218e954c576f80ed4043bd480de1fc5a29905bd11663d2e678d159e",
+      "compression": "none",
+      "bytes": 4682
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\tested_sources\\external\\liu-inventory\\algorithms\\utils\\mlp.py",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/tested_sources/external/liu-inventory/algorithms/utils/mlp.py",
+      "raw_sha256": "04e0ae4da416ac5352cd5d228688577903b4d0242386e19f63a0b3361af03b49",
+      "stored_sha256": "04e0ae4da416ac5352cd5d228688577903b4d0242386e19f63a0b3361af03b49",
+      "compression": "none",
+      "bytes": 2132
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\tested_sources\\external\\liu-inventory\\algorithms\\utils\\rnn.py",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/tested_sources/external/liu-inventory/algorithms/utils/rnn.py",
+      "raw_sha256": "bb6ca30a91503f012df3c45d9be9011642f9895fb9804b05530bcb49db47fe50",
+      "stored_sha256": "bb6ca30a91503f012df3c45d9be9011642f9895fb9804b05530bcb49db47fe50",
+      "compression": "none",
+      "bytes": 2929
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\tested_sources\\external\\liu-inventory\\algorithms\\utils\\util.py",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/tested_sources/external/liu-inventory/algorithms/utils/util.py",
+      "raw_sha256": "0d32cea8abf8d063bf0cd7fd8a80b3e12331be4bfa96ed18d7c51a17323c560b",
+      "stored_sha256": "0d32cea8abf8d063bf0cd7fd8a80b3e12331be4bfa96ed18d7c51a17323c560b",
+      "compression": "none",
+      "bytes": 442
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\tested_sources\\external\\liu-inventory\\config.py",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/tested_sources/external/liu-inventory/config.py",
+      "raw_sha256": "603bb1e9b04f03cd32b9d939e7d7e1f5162a3fde3f3116c0120f80fb9e93ce99",
+      "stored_sha256": "603bb1e9b04f03cd32b9d939e7d7e1f5162a3fde3f3116c0120f80fb9e93ce99",
+      "compression": "none",
+      "bytes": 11578
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\tested_sources\\external\\liu-inventory\\envs\\__init__.py",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/tested_sources/external/liu-inventory/envs/__init__.py",
+      "raw_sha256": "15c2ffe5d6790738d28363cf7101f64d7b6370a182b805284fbbbd304e6b42a1",
+      "stored_sha256": "15c2ffe5d6790738d28363cf7101f64d7b6370a182b805284fbbbd304e6b42a1",
+      "compression": "none",
+      "bytes": 90
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\tested_sources\\external\\liu-inventory\\envs\\env_wrappers.py",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/tested_sources/external/liu-inventory/envs/env_wrappers.py",
+      "raw_sha256": "1781852360c113902585d9e293016382d5fdd956ad756ea820b5697b429fa405",
+      "stored_sha256": "1781852360c113902585d9e293016382d5fdd956ad756ea820b5697b429fa405",
+      "compression": "none",
+      "bytes": 9199
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\tested_sources\\external\\liu-inventory\\envs\\generator.py",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/tested_sources/external/liu-inventory/envs/generator.py",
+      "raw_sha256": "48366755e3318751966f240c68316488a7f79066a9c3116a798d5cab46e55741",
+      "stored_sha256": "48366755e3318751966f240c68316488a7f79066a9c3116a798d5cab46e55741",
+      "compression": "none",
+      "bytes": 1630
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\tested_sources\\external\\liu-inventory\\envs\\net_2x3.py",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/tested_sources/external/liu-inventory/envs/net_2x3.py",
+      "raw_sha256": "fad67da8c575853154d6d7e22aa034cad8f6f8c1ff0fde9cd8de07729325bd24",
+      "stored_sha256": "fad67da8c575853154d6d7e22aa034cad8f6f8c1ff0fde9cd8de07729325bd24",
+      "compression": "none",
+      "bytes": 14223
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\tested_sources\\external\\liu-inventory\\envs\\serial.py",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/tested_sources/external/liu-inventory/envs/serial.py",
+      "raw_sha256": "7c73e9fe9ea5f8bf60908ee26e272e16bbb95e0acd9e074272ca8d1a95d70088",
+      "stored_sha256": "7c73e9fe9ea5f8bf60908ee26e272e16bbb95e0acd9e074272ca8d1a95d70088",
+      "compression": "none",
+      "bytes": 12262
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\tested_sources\\external\\liu-inventory\\envs\\template.py",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/tested_sources/external/liu-inventory/envs/template.py",
+      "raw_sha256": "49a2b095b30ddbe195e4790650b87d2c2d2d10f2e3ed0bec2627fec8a2d2529f",
+      "stored_sha256": "49a2b095b30ddbe195e4790650b87d2c2d2d10f2e3ed0bec2627fec8a2d2529f",
+      "compression": "none",
+      "bytes": 7271
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\tested_sources\\external\\liu-inventory\\runners\\__init__.py",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/tested_sources/external/liu-inventory/runners/__init__.py",
+      "raw_sha256": "c128749b116e135f555dc0948ea297a43316cc3cee0415e9e8e19aea7f72a9fc",
+      "stored_sha256": "c128749b116e135f555dc0948ea297a43316cc3cee0415e9e8e19aea7f72a9fc",
+      "compression": "none",
+      "bytes": 64
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\tested_sources\\external\\liu-inventory\\runners\\separated\\__init__.py",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/tested_sources/external/liu-inventory/runners/separated/__init__.py",
+      "raw_sha256": "000ace4edd2d1786448beee066ce906a8b838276066f27b63eaf19b7c3de251c",
+      "stored_sha256": "000ace4edd2d1786448beee066ce906a8b838276066f27b63eaf19b7c3de251c",
+      "compression": "none",
+      "bytes": 98
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\tested_sources\\external\\liu-inventory\\runners\\separated\\base_runner.py",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/tested_sources/external/liu-inventory/runners/separated/base_runner.py",
+      "raw_sha256": "d2d6f229dd65319ee0aeb81a376b6d80524f53070fd0c73a860c760c9570517e",
+      "stored_sha256": "d2d6f229dd65319ee0aeb81a376b6d80524f53070fd0c73a860c760c9570517e",
+      "compression": "none",
+      "bytes": 9947
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\tested_sources\\external\\liu-inventory\\runners\\separated\\runner.py",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/tested_sources/external/liu-inventory/runners/separated/runner.py",
+      "raw_sha256": "47c997beb9c2504afaa80215c89e430d15e0c75e77a0ed757551ffa6f4179fc8",
+      "stored_sha256": "47c997beb9c2504afaa80215c89e430d15e0c75e77a0ed757551ffa6f4179fc8",
+      "compression": "none",
+      "bytes": 15346
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\tested_sources\\external\\liu-inventory\\train_env.py",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/tested_sources/external/liu-inventory/train_env.py",
+      "raw_sha256": "78959c118607046478d4681f4ad8f31e239a299a0b49363fd5321d0bff8d36c9",
+      "stored_sha256": "78959c118607046478d4681f4ad8f31e239a299a0b49363fd5321d0bff8d36c9",
+      "compression": "none",
+      "bytes": 2992
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\tested_sources\\external\\liu-inventory\\utils\\__init__.py",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/tested_sources/external/liu-inventory/utils/__init__.py",
+      "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stored_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compression": "none",
+      "bytes": 0
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\tested_sources\\external\\liu-inventory\\utils\\multi_discrete.py",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/tested_sources/external/liu-inventory/utils/multi_discrete.py",
+      "raw_sha256": "7bca00aa5f47039ebe1fa1cb26e46682046cda57cf05d963f7c3ac699fa5a7a6",
+      "stored_sha256": "7bca00aa5f47039ebe1fa1cb26e46682046cda57cf05d963f7c3ac699fa5a7a6",
+      "compression": "none",
+      "bytes": 2391
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\tested_sources\\external\\liu-inventory\\utils\\popart.py",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/tested_sources/external/liu-inventory/utils/popart.py",
+      "raw_sha256": "40fdb523f10aac1d03362cc1fc6a745936743a6763003a791a962fbe8acc9bbd",
+      "stored_sha256": "40fdb523f10aac1d03362cc1fc6a745936743a6763003a791a962fbe8acc9bbd",
+      "compression": "none",
+      "bytes": 3181
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\tested_sources\\external\\liu-inventory\\utils\\separated_buffer.py",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/tested_sources/external/liu-inventory/utils/separated_buffer.py",
+      "raw_sha256": "af0f1850bc0a8101ed18a5298aea1eb8146f86eb16396d46ea4b77e9ed436051",
+      "stored_sha256": "af0f1850bc0a8101ed18a5298aea1eb8146f86eb16396d46ea4b77e9ed436051",
+      "compression": "none",
+      "bytes": 23965
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\tested_sources\\external\\liu-inventory\\utils\\util.py",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/tested_sources/external/liu-inventory/utils/util.py",
+      "raw_sha256": "7cf8ce806483e8abbc358951105a3765a734c92a15fa641595fa6ea967e1f4d7",
+      "stored_sha256": "7cf8ce806483e8abbc358951105a3765a734c92a15fa641595fa6ea967e1f4d7",
+      "compression": "none",
+      "bytes": 2304
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2\\tested_sources\\external\\liu-inventory\\utils\\valuenorm.py",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2/tested_sources/external/liu-inventory/utils/valuenorm.py",
+      "raw_sha256": "8cd48bb7e3a3d8295baec57a2cde23ca60a973d047f358f408709ef53c6a1836",
+      "stored_sha256": "8cd48bb7e3a3d8295baec57a2cde23ca60a973d047f358f408709ef53c6a1836",
+      "compression": "none",
+      "bytes": 3189
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\no_api_interface_v2.log",
+      "public_path": "results/joint_baseline_confirmation/no_api_interface_v2.log",
+      "raw_sha256": "21a0d83e3c5f09c3c71dfbda01728a3e041912634ed98db8b471092b635ffce9",
+      "stored_sha256": "21a0d83e3c5f09c3c71dfbda01728a3e041912634ed98db8b471092b635ffce9",
+      "compression": "none",
+      "bytes": 27467
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\offline_fixture_review.json",
+      "public_path": "results/joint_baseline_confirmation/offline_fixture_review.json",
+      "raw_sha256": "4a7c7b80721bb999c47b49cf25aa7c8be010b4afe6421629f85589ed2bc5e4cb",
+      "stored_sha256": "4a7c7b80721bb999c47b49cf25aa7c8be010b4afe6421629f85589ed2bc5e4cb",
+      "compression": "none",
+      "bytes": 454
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\learning_curve\\curve_seed11_until_stable_v1\\completed.json",
+      "public_path": "results/learning_curve/curve_seed11_until_stable_v1/completed.json",
+      "raw_sha256": "52f1354f75d81902d7d7acf74b1bd94a60dc2eafaacdcdca4405f2c65d70ce7f",
+      "stored_sha256": "52f1354f75d81902d7d7acf74b1bd94a60dc2eafaacdcdca4405f2c65d70ce7f",
+      "compression": "none",
+      "bytes": 1186
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\learning_curve\\curve_seed11_until_stable_v1\\completion_audit.json",
+      "public_path": "results/learning_curve/curve_seed11_until_stable_v1/completion_audit.json",
+      "raw_sha256": "063d4d26729766fd36c2ba70ad9bc355d0f86bb0f5aa548941969f0d966694f9",
+      "stored_sha256": "063d4d26729766fd36c2ba70ad9bc355d0f86bb0f5aa548941969f0d966694f9",
+      "compression": "none",
+      "bytes": 4823
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\learning_curve\\curve_seed11_until_stable_v1\\config.json",
+      "public_path": "results/learning_curve/curve_seed11_until_stable_v1/config.json",
+      "raw_sha256": "1f85f85ccaf9734833e202c8f330f1222ac33d201df7de138d79ade3cc83652a",
+      "stored_sha256": "1f85f85ccaf9734833e202c8f330f1222ac33d201df7de138d79ade3cc83652a",
+      "compression": "none",
+      "bytes": 2363
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\learning_curve\\curve_seed12_formal_v1\\completed.json",
+      "public_path": "results/learning_curve/curve_seed12_formal_v1/completed.json",
+      "raw_sha256": "afe4d8c5bd03f252553a3432a058ce64a704290023a6781930954709a4985c96",
+      "stored_sha256": "afe4d8c5bd03f252553a3432a058ce64a704290023a6781930954709a4985c96",
+      "compression": "none",
+      "bytes": 1176
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\learning_curve\\curve_seed12_formal_v1\\completion_audit.json",
+      "public_path": "results/learning_curve/curve_seed12_formal_v1/completion_audit.json",
+      "raw_sha256": "95f5a32e7bdbd099cbc3220495a3a322c1798c4812309b4498795badabd493ef",
+      "stored_sha256": "95f5a32e7bdbd099cbc3220495a3a322c1798c4812309b4498795badabd493ef",
+      "compression": "none",
+      "bytes": 1014
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\learning_curve\\curve_seed12_formal_v1\\config.json",
+      "public_path": "results/learning_curve/curve_seed12_formal_v1/config.json",
+      "raw_sha256": "c528f780f3de586c9c6c0d365b6fd0f324da3c0945417cb0cc254307cedcc615",
+      "stored_sha256": "c528f780f3de586c9c6c0d365b6fd0f324da3c0945417cb0cc254307cedcc615",
+      "compression": "none",
+      "bytes": 2357
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\learning_curve\\curve_seed13_formal_v1\\completed.json",
+      "public_path": "results/learning_curve/curve_seed13_formal_v1/completed.json",
+      "raw_sha256": "04e3b4ddb4092c11c560f772e45b3d4a7b4e264be25ab260cdc90e029b88b23d",
+      "stored_sha256": "04e3b4ddb4092c11c560f772e45b3d4a7b4e264be25ab260cdc90e029b88b23d",
+      "compression": "none",
+      "bytes": 1176
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\learning_curve\\curve_seed13_formal_v1\\completion_audit.json",
+      "public_path": "results/learning_curve/curve_seed13_formal_v1/completion_audit.json",
+      "raw_sha256": "c8e5195535abd91137da3a8becdd9cda604aa031bc4b0135b307a94868660725",
+      "stored_sha256": "c8e5195535abd91137da3a8becdd9cda604aa031bc4b0135b307a94868660725",
+      "compression": "none",
+      "bytes": 1019
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\learning_curve\\curve_seed13_formal_v1\\config.json",
+      "public_path": "results/learning_curve/curve_seed13_formal_v1/config.json",
+      "raw_sha256": "715ce905944a4b17a3451f9ef2041f013b4466e6a1beb0cf5fc74b8e6ceced0d",
+      "stored_sha256": "715ce905944a4b17a3451f9ef2041f013b4466e6a1beb0cf5fc74b8e6ceced0d",
+      "compression": "none",
+      "bytes": 2357
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\learning_curve\\curve_seed14_formal_v1\\completed.json",
+      "public_path": "results/learning_curve/curve_seed14_formal_v1/completed.json",
+      "raw_sha256": "d2f4a9d1618e50b6f7336f60829b3421793e3dc0966d9cc90a3d5ec15c6ba89b",
+      "stored_sha256": "d2f4a9d1618e50b6f7336f60829b3421793e3dc0966d9cc90a3d5ec15c6ba89b",
+      "compression": "none",
+      "bytes": 1219
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\learning_curve\\curve_seed14_formal_v1\\completion_audit.json",
+      "public_path": "results/learning_curve/curve_seed14_formal_v1/completion_audit.json",
+      "raw_sha256": "b3afccaa6024ae6f5f5d7f80ba14ecc67dab43498b86506a8bff5c5e762618fa",
+      "stored_sha256": "b3afccaa6024ae6f5f5d7f80ba14ecc67dab43498b86506a8bff5c5e762618fa",
+      "compression": "none",
+      "bytes": 1031
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\learning_curve\\curve_seed14_formal_v1\\config.json",
+      "public_path": "results/learning_curve/curve_seed14_formal_v1/config.json",
+      "raw_sha256": "3a24fb335722738ed533c5c618904abd3361bb4c413474f7539689255eed2437",
+      "stored_sha256": "3a24fb335722738ed533c5c618904abd3361bb4c413474f7539689255eed2437",
+      "compression": "none",
+      "bytes": 2357
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\learning_curve\\curve_seed15_formal_v1\\completed.json",
+      "public_path": "results/learning_curve/curve_seed15_formal_v1/completed.json",
+      "raw_sha256": "eb0430d523ed902742082e6e0f8bbc3b4ec5dda8bc0b5d7d12e8cf18806cc470",
+      "stored_sha256": "eb0430d523ed902742082e6e0f8bbc3b4ec5dda8bc0b5d7d12e8cf18806cc470",
+      "compression": "none",
+      "bytes": 1167
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\learning_curve\\curve_seed15_formal_v1\\completion_audit.json",
+      "public_path": "results/learning_curve/curve_seed15_formal_v1/completion_audit.json",
+      "raw_sha256": "d33706230317b168c4dca3ae3000a9c6a51d0f879b70e9e4a0926e32d188d53d",
+      "stored_sha256": "d33706230317b168c4dca3ae3000a9c6a51d0f879b70e9e4a0926e32d188d53d",
+      "compression": "none",
+      "bytes": 1005
+    },
+    {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\learning_curve\\curve_seed15_formal_v1\\config.json",
+      "public_path": "results/learning_curve/curve_seed15_formal_v1/config.json",
+      "raw_sha256": "97c608f6623b8a2fbf31a4c8dff2e106ef22858ae9249c802c486d07a5d5afeb",
+      "stored_sha256": "97c608f6623b8a2fbf31a4c8dff2e106ef22858ae9249c802c486d07a5d5afeb",
+      "compression": "none",
+      "bytes": 2357
+    },
+    {
+      "source": "C:\\Users\\13384\\Documents\\ChatGPT\\\u65b0\\zaiqu\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed11_until_stable_v1\\run_seed_12\\models\\actor_agent0.pt",
+      "public_path": "external_absolute/06c956595a2f/actor_agent0.pt",
+      "raw_sha256": "d74946c5d8450e6b0a4bba9326b44e7fc9c850323980011d1dd615b7aef41633",
+      "stored_sha256": "d74946c5d8450e6b0a4bba9326b44e7fc9c850323980011d1dd615b7aef41633",
+      "compression": "none",
+      "bytes": 951515
+    },
+    {
+      "source": "C:\\Users\\13384\\Documents\\ChatGPT\\\u65b0\\zaiqu\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed11_until_stable_v1\\run_seed_12\\models\\actor_agent1.pt",
+      "public_path": "external_absolute/06c956595a2f/actor_agent1.pt",
+      "raw_sha256": "10436c46cbb6a6621a7b9a23482aa051e085c4f548c40ac65d236ca000faa3e2",
+      "stored_sha256": "10436c46cbb6a6621a7b9a23482aa051e085c4f548c40ac65d236ca000faa3e2",
+      "compression": "none",
+      "bytes": 951515
+    },
+    {
+      "source": "C:\\Users\\13384\\Documents\\ChatGPT\\\u65b0\\zaiqu\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed11_until_stable_v1\\run_seed_12\\models\\actor_agent2.pt",
+      "public_path": "external_absolute/06c956595a2f/actor_agent2.pt",
+      "raw_sha256": "208c3861888eebdfdb3051f443af896f013cdd9dd25b1faa9bb04736e168bd1d",
+      "stored_sha256": "208c3861888eebdfdb3051f443af896f013cdd9dd25b1faa9bb04736e168bd1d",
+      "compression": "none",
+      "bytes": 951515
+    },
+    {
+      "source": "C:\\Users\\13384\\Documents\\ChatGPT\\\u65b0\\zaiqu\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed11_until_stable_v1\\run_seed_12\\models\\critic_agent0.pt",
+      "public_path": "external_absolute/06c956595a2f/critic_agent0.pt",
+      "raw_sha256": "1fe62d18a8b73dc2e366127cfd2ad800f4d333258a587a3d6d14860008f6e771",
+      "stored_sha256": "1fe62d18a8b73dc2e366127cfd2ad800f4d333258a587a3d6d14860008f6e771",
+      "compression": "none",
+      "bytes": 948251
+    },
+    {
+      "source": "C:\\Users\\13384\\Documents\\ChatGPT\\\u65b0\\zaiqu\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed11_until_stable_v1\\run_seed_12\\models\\critic_agent1.pt",
+      "public_path": "external_absolute/06c956595a2f/critic_agent1.pt",
+      "raw_sha256": "d9122f0eecc381d42463999049338099d7887aa64016f6797c9c0da756d9084e",
+      "stored_sha256": "d9122f0eecc381d42463999049338099d7887aa64016f6797c9c0da756d9084e",
+      "compression": "none",
+      "bytes": 948251
+    },
+    {
+      "source": "C:\\Users\\13384\\Documents\\ChatGPT\\\u65b0\\zaiqu\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed11_until_stable_v1\\run_seed_12\\models\\critic_agent2.pt",
+      "public_path": "external_absolute/06c956595a2f/critic_agent2.pt",
+      "raw_sha256": "5cef8a2ca8cfe6f1aaf09ca6baabd343af93a3469f7beac295c338efb24c4dda",
+      "stored_sha256": "5cef8a2ca8cfe6f1aaf09ca6baabd343af93a3469f7beac295c338efb24c4dda",
+      "compression": "none",
+      "bytes": 948251
+    }
+  ],
+  "files_count": 281,
+  "offline_fixture_only": true,
+  "formal_inputs_generated_after_method_freeze": true,
+  "api_calls_before_paid_launch": 0,
+  "all_registered_cases_retained": true
+}
