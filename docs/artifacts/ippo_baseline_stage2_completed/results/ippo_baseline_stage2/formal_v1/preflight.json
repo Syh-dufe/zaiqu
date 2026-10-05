@@ -1,0 +1,111 @@
+{
+  "passed": true,
+  "config_checks": {
+    "11": {
+      "experiment_name": [
+        "curve_seed11_until_stable_v1",
+        "ippo_seed11_smoke5k_v1"
+      ],
+      "num_env_steps": [
+        3000000,
+        5000
+      ],
+      "use_centralized_V": [
+        true,
+        false
+      ]
+    },
+    "12": {
+      "experiment_name": [
+        "curve_seed12_formal_v1",
+        "ippo_seed11_smoke5k_v1"
+      ],
+      "seed": [
+        [
+          12
+        ],
+        [
+          11
+        ]
+      ],
+      "num_env_steps": [
+        3000000,
+        5000
+      ],
+      "use_centralized_V": [
+        true,
+        false
+      ]
+    },
+    "13": {
+      "experiment_name": [
+        "curve_seed13_formal_v1",
+        "ippo_seed11_smoke5k_v1"
+      ],
+      "seed": [
+        [
+          13
+        ],
+        [
+          11
+        ]
+      ],
+      "num_env_steps": [
+        3000000,
+        5000
+      ],
+      "use_centralized_V": [
+        true,
+        false
+      ]
+    },
+    "14": {
+      "experiment_name": [
+        "curve_seed14_formal_v1",
+        "ippo_seed11_smoke5k_v1"
+      ],
+      "seed": [
+        [
+          14
+        ],
+        [
+          11
+        ]
+      ],
+      "num_env_steps": [
+        3000000,
+        5000
+      ],
+      "use_centralized_V": [
+        true,
+        false
+      ]
+    },
+    "15": {
+      "experiment_name": [
+        "curve_seed15_formal_v1",
+        "ippo_seed11_smoke5k_v1"
+      ],
+      "seed": [
+        [
+          15
+        ],
+        [
+          11
+        ]
+      ],
+      "num_env_steps": [
+        3000000,
+        5000
+      ],
+      "use_centralized_V": [
+        true,
+        false
+      ]
+    }
+  },
+  "syntax_passed": true,
+  "smoke_audit_passed": true,
+  "api_calls": 0,
+  "simulations": 0
+}

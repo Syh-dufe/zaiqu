@@ -1,0 +1,67 @@
+{
+  "status": "completed",
+  "independent_audit_passed": true,
+  "seeds": [
+    {
+      "seed": 11,
+      "steps": 760000,
+      "stop_reason": "empirical_plateau",
+      "stable": true,
+      "best_cost": 19.389416666666666,
+      "final_cost": 24.856083333333334,
+      "best_step": 595000,
+      "happo_normal_validation_best": 23.71875
+    },
+    {
+      "seed": 12,
+      "steps": 965000,
+      "stop_reason": "official_early_stop",
+      "stable": false,
+      "best_cost": 20.48475,
+      "final_cost": 26.995333333333335,
+      "best_step": 765000,
+      "happo_normal_validation_best": 18.83
+    },
+    {
+      "seed": 13,
+      "steps": 840000,
+      "stop_reason": "official_early_stop",
+      "stable": false,
+      "best_cost": 20.399833333333333,
+      "final_cost": 23.062,
+      "best_step": 640000,
+      "happo_normal_validation_best": 20.8315
+    },
+    {
+      "seed": 14,
+      "steps": 530000,
+      "stop_reason": "official_early_stop",
+      "stable": false,
+      "best_cost": 21.792833333333334,
+      "final_cost": 28.973333333333336,
+      "best_step": 330000,
+      "happo_normal_validation_best": 18.108416666666663
+    },
+    {
+      "seed": 15,
+      "steps": 575000,
+      "stop_reason": "official_early_stop",
+      "stable": false,
+      "best_cost": 21.51425,
+      "final_cost": 25.90975,
+      "best_step": 375000,
+      "happo_normal_validation_best": 18.09
+    }
+  ],
+  "total_steps": 3670000,
+  "wall_seconds": 17323.12932252884,
+  "api_calls": 0,
+  "mean_best_cost": 20.716216666666668,
+  "mean_final_cost": 25.959300000000002,
+  "mean_happo_normal_validation_best": 19.915733333333332,
+  "local_full_archive": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\ippo_baseline_stage2_archive\\formal_v1",
+  "local_file_count": 4615,
+  "public_file_count": 211,
+  "locally_preserved_snapshot_weight_files": 4404,
+  "scope": "Normal validation/model selection only, not unseen disaster comparison"
+}

@@ -1,0 +1,123 @@
+{
+  "status": "completed",
+  "errors": [],
+  "seeds": {
+    "11": {
+      "status": "completed",
+      "command": [
+        "C:\\Users\\13384\\.codex\\worktrees\\delivery-happo\\\u65b0\\.venv\\Scripts\\python.exe",
+        "-u",
+        "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\ippo_baseline\\run.py",
+        "--seed",
+        "11",
+        "--budget",
+        "3000000",
+        "--patience",
+        "40",
+        "--until-stable",
+        "--run-name",
+        "ippo_seed11_formal_v1"
+      ],
+      "log": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\ippo_baseline_stage2\\formal_v1\\seed11_train.log",
+      "pid": 199360,
+      "steps": 760000,
+      "stop_reason": "empirical_plateau",
+      "stable": true,
+      "official_best_cost": 19.389416666666666
+    },
+    "12": {
+      "status": "completed",
+      "command": [
+        "C:\\Users\\13384\\.codex\\worktrees\\delivery-happo\\\u65b0\\.venv\\Scripts\\python.exe",
+        "-u",
+        "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\ippo_baseline\\run.py",
+        "--seed",
+        "12",
+        "--budget",
+        "3000000",
+        "--patience",
+        "40",
+        "--until-stable",
+        "--run-name",
+        "ippo_seed12_formal_v1"
+      ],
+      "log": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\ippo_baseline_stage2\\formal_v1\\seed12_train.log",
+      "pid": 203080,
+      "steps": 965000,
+      "stop_reason": "official_early_stop",
+      "stable": false,
+      "official_best_cost": 20.48475
+    },
+    "13": {
+      "status": "completed",
+      "command": [
+        "C:\\Users\\13384\\.codex\\worktrees\\delivery-happo\\\u65b0\\.venv\\Scripts\\python.exe",
+        "-u",
+        "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\ippo_baseline\\run.py",
+        "--seed",
+        "13",
+        "--budget",
+        "3000000",
+        "--patience",
+        "40",
+        "--until-stable",
+        "--run-name",
+        "ippo_seed13_formal_v1"
+      ],
+      "log": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\ippo_baseline_stage2\\formal_v1\\seed13_train.log",
+      "pid": 201012,
+      "steps": 840000,
+      "stop_reason": "official_early_stop",
+      "stable": false,
+      "official_best_cost": 20.399833333333333
+    },
+    "14": {
+      "status": "completed",
+      "command": [
+        "C:\\Users\\13384\\.codex\\worktrees\\delivery-happo\\\u65b0\\.venv\\Scripts\\python.exe",
+        "-u",
+        "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\ippo_baseline\\run.py",
+        "--seed",
+        "14",
+        "--budget",
+        "3000000",
+        "--patience",
+        "40",
+        "--until-stable",
+        "--run-name",
+        "ippo_seed14_formal_v1"
+      ],
+      "log": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\ippo_baseline_stage2\\formal_v1\\seed14_train.log",
+      "pid": 201300,
+      "steps": 530000,
+      "stop_reason": "official_early_stop",
+      "stable": false,
+      "official_best_cost": 21.792833333333334
+    },
+    "15": {
+      "status": "completed",
+      "command": [
+        "C:\\Users\\13384\\.codex\\worktrees\\delivery-happo\\\u65b0\\.venv\\Scripts\\python.exe",
+        "-u",
+        "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\ippo_baseline\\run.py",
+        "--seed",
+        "15",
+        "--budget",
+        "3000000",
+        "--patience",
+        "40",
+        "--until-stable",
+        "--run-name",
+        "ippo_seed15_formal_v1"
+      ],
+      "log": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\ippo_baseline_stage2\\formal_v1\\seed15_train.log",
+      "pid": 203492,
+      "steps": 575000,
+      "stop_reason": "official_early_stop",
+      "stable": false,
+      "official_best_cost": 21.51425
+    }
+  },
+  "wall_seconds": 17323.12932252884,
+  "api_calls": 0
+}

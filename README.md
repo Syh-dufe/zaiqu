@@ -135,3 +135,9 @@ python experiments/emergency_compatibility/train.py --describe
 最小适配已通过 5000 步实现检查：局部 critic、重要性因子恒为 1，保留作者原混合奖励。尚未完成五种子正式基线训练，短程不表示收敛或性能优势。见 [阶段结果](docs/2026-10-05-ippo-stage1-results.md)。
 
 IPPO 五种子正式训练协议已登记：正常 Merton 需求、每种子最多 300 万步、最多两个并发，原 HAPPO 模型冻结。见 [训练协议](docs/superpowers/plans/2026-10-05-ippo-baseline-stage2.md)。本项是基线正常需求训练，尚无灾情比较结果。
+
+### IPPO 五种子训练完成（2026-10-05）
+
+五种子训练和模型审核全部完成：总计 367 万环境步，仅种子 11 达到经验稳定标准，12—15 按原无改善规则早停。全部不稳定结果和最终反弹保留。正常验证最佳成本均值 20.7162，尚无实时 LLM＋HAPPO 对 IPPO 的共同灾情测试结论。见 [完整结果与归档范围](docs/2026-10-05-ippo-stage2-results.md)。
+
+约 4 GB 的全部中间快照完整归档在本地，GitHub 保存其哈希清单、全部日志曲线及各种子的最佳和最终模型。

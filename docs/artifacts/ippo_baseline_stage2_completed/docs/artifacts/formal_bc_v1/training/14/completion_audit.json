@@ -1,0 +1,36 @@
+{
+  "seed": 14,
+  "stability_excluding_extra_final_evaluation": {
+    "stable": false,
+    "steps": 790000,
+    "minimum_steps": 100000,
+    "window": 10,
+    "median_change_limit": 0.01,
+    "recent_cv_limit": 0.05,
+    "best_change_limit": 0.01,
+    "median_change": 0.02317287067109619,
+    "best_change": 0.014575531659051233,
+    "recent_cv": 0.04683544648749187
+  },
+  "model_matches": {
+    "official_best": {
+      "sha256": "54590e6fba0eeeef7fccc7ac09fd5e22fefbe2d3bff1a2b34feb9d0a900a1c30",
+      "matching_steps": [
+        590000
+      ]
+    },
+    "final": {
+      "sha256": "69b5608a448cbae606a8b923d392be8b3a26c613f3c150777886d49e7de0074f",
+      "matching_steps": [
+        790000
+      ]
+    }
+  },
+  "evaluated_original_costs": {
+    "official_best": 18.108416666666663,
+    "final": 20.632333333333335
+  },
+  "original_eval_traces": 20,
+  "stop_reason": "official_early_stop",
+  "note": "Best selected only using original normal-demand evaluation; no disaster test data used"
+}

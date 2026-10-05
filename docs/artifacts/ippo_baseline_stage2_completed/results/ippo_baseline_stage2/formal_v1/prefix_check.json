@@ -1,0 +1,8 @@
+{
+  "seed": 11,
+  "step": 5000,
+  "formal_parameter_sha256": "601ea31787fe5c24e31d2961e302a7ddd022310d96d91641360ef74f47b4fdac",
+  "smoke_parameter_sha256": "601ea31787fe5c24e31d2961e302a7ddd022310d96d91641360ef74f47b4fdac",
+  "equal": true,
+  "note": "Same IPPO seed prefix, not equality to HAPPO parameters"
+}

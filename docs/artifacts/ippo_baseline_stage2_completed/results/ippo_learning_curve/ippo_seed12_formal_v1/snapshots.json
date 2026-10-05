@@ -1,0 +1,967 @@
+[
+  {
+    "step": 5000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_5000",
+    "parameter_sha256": "dad56beb0bef40f9f09de22b284c0861e6686dd42202e87df1f987bb34381e4a"
+  },
+  {
+    "step": 10000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_10000",
+    "parameter_sha256": "aeffb423fbcab6ef8be012fbaadf4851b9eabbf579b584d80e2584c78c5e6749"
+  },
+  {
+    "step": 15000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_15000",
+    "parameter_sha256": "4ed914b5770f25156a33d0d5c8ca7233e403c8a5db571f827e944526a65a9a1e"
+  },
+  {
+    "step": 20000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_20000",
+    "parameter_sha256": "3cceedf3fbcbfa142b278233fe36973b8bf2f56e89737737890e708beb0eca31"
+  },
+  {
+    "step": 25000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_25000",
+    "parameter_sha256": "0df0c9f5f1897e68da5dc33d4dc883baadaa1d9fc16ef9764037bbd3cc9e7e18"
+  },
+  {
+    "step": 30000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_30000",
+    "parameter_sha256": "0b9835b59059ac6df738c6c4a56a8b3e25f890a1d56d72ca4be35f9e01874423"
+  },
+  {
+    "step": 35000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_35000",
+    "parameter_sha256": "7872cede896f552a86f93dc5e3f93832c958fa974192a57e53616163587a53e7"
+  },
+  {
+    "step": 40000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_40000",
+    "parameter_sha256": "9944a498aa1bb0886a9ae3a937d98229d90eaaf62d6ae433203b35720aaf7234"
+  },
+  {
+    "step": 45000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_45000",
+    "parameter_sha256": "42ba7dda19443a455ffa325c0e74149cab91f77ceb50fe9a977c6b95ef87b360"
+  },
+  {
+    "step": 50000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_50000",
+    "parameter_sha256": "92aae1846da8828e29307e20d7e9f5c855ea80fa49ea9c5741732b15fb357151"
+  },
+  {
+    "step": 55000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_55000",
+    "parameter_sha256": "9535e2c51e448098707694480af2c1c11d4d5a5d76f9092c275a9d153b50a4f6"
+  },
+  {
+    "step": 60000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_60000",
+    "parameter_sha256": "f6f83f03ace1f024a4c824fe0d595f70efcc3a41a10d02c766c9c5e7ba701698"
+  },
+  {
+    "step": 65000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_65000",
+    "parameter_sha256": "fad36fc1eb01576b5b9dc42aa9bab6bdea832a5d557dc22f2d90584dfcf0e4a6"
+  },
+  {
+    "step": 70000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_70000",
+    "parameter_sha256": "01fa7a83c7e5f4aacaaf530f33709e7b75625c52569df4c0e6e7c808e380be53"
+  },
+  {
+    "step": 75000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_75000",
+    "parameter_sha256": "78715ef2a60148cfea8da5135b3b26efc8c5cb90ec75ad424dae664dd0bab7c9"
+  },
+  {
+    "step": 80000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_80000",
+    "parameter_sha256": "154c906e3ee20e5fc91d88910f73710524829392d945d28e55747019f3eae2cc"
+  },
+  {
+    "step": 85000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_85000",
+    "parameter_sha256": "3616755dbaad749fbf914d6e5af20aacc981552304860688f5b0a41ca1b0464e"
+  },
+  {
+    "step": 90000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_90000",
+    "parameter_sha256": "46c08abe6ee31704251992b68a639ae7e72458d7a205a460cf4f973cc33576b8"
+  },
+  {
+    "step": 95000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_95000",
+    "parameter_sha256": "61841557e5f7ee9f728bd72c5243fd6efad8addbae0d6d754d4334c8a1a858b4"
+  },
+  {
+    "step": 100000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_100000",
+    "parameter_sha256": "1074e6409b3c6fc4a7a4e362870496cb76b76fa4179f93810192d46f23bde926"
+  },
+  {
+    "step": 105000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_105000",
+    "parameter_sha256": "988341064447355dd5398900d1e2a6081b888a2e921b26795dd22e95feb076d6"
+  },
+  {
+    "step": 110000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_110000",
+    "parameter_sha256": "8fa10a5955df154e4eb9cb2035990762d3ec1497f37be5aebf443c325b04583d"
+  },
+  {
+    "step": 115000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_115000",
+    "parameter_sha256": "0eea2c18695616971614d760554faf6db10650d7360b0464b65a13a56133d5b1"
+  },
+  {
+    "step": 120000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_120000",
+    "parameter_sha256": "c8444188e4c22cb33441e951454d37a1c65702e6b94fd18016892227fb861aad"
+  },
+  {
+    "step": 125000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_125000",
+    "parameter_sha256": "7385caa4b1ae2b8b3d001b2d7a8bd7edce09e1481f12e6e497bc2d062f69b3fc"
+  },
+  {
+    "step": 130000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_130000",
+    "parameter_sha256": "0621c441281d2baadc105662dc5afbf8dc4e8d2521d90659cf4432a81a197926"
+  },
+  {
+    "step": 135000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_135000",
+    "parameter_sha256": "cf539f9795a7577a52e068bfe362e805dbedb22f6d0d8b666b2885e5b8e49dd7"
+  },
+  {
+    "step": 140000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_140000",
+    "parameter_sha256": "f440640267d1808a62ae47bb8e734817bb3a86cea8a1babb152d9a5ab1531cb1"
+  },
+  {
+    "step": 145000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_145000",
+    "parameter_sha256": "cb61f9afb4e14ebc8a4dd8db3ee729ed2686c0e868536b13d7158276bef8a188"
+  },
+  {
+    "step": 150000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_150000",
+    "parameter_sha256": "c2d7be1514ac93b17a66f2d63c3a37ffd0c135a8d10f37e148557b55a877ed45"
+  },
+  {
+    "step": 155000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_155000",
+    "parameter_sha256": "b05e182003d4d2345c40b33301f750cb97e3be379b4cedb5425c200c6f3d301f"
+  },
+  {
+    "step": 160000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_160000",
+    "parameter_sha256": "ff3e840f6090eb02edd4ab6ec9ecfd9d575bd9f695abe28c045bee57ac34b8f8"
+  },
+  {
+    "step": 165000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_165000",
+    "parameter_sha256": "b4c253c63a8177845da55e60ee249ae76f46b1c95aad4a9643a2d5a7eb0fda81"
+  },
+  {
+    "step": 170000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_170000",
+    "parameter_sha256": "9ff05fb2d0394969955c71509658a5e81d4b1c0ded34901cc1081e8fd63177fa"
+  },
+  {
+    "step": 175000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_175000",
+    "parameter_sha256": "f55f761a868a0c6a13255d1a02445848fe22009fe3720124fb5fb364e8f7bd22"
+  },
+  {
+    "step": 180000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_180000",
+    "parameter_sha256": "24f749c6b8416332fa6ba2df1ab6e312ca8f72d59a70a7a3e6bb7bce13882316"
+  },
+  {
+    "step": 185000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_185000",
+    "parameter_sha256": "72eb37b28b19353c7e8ffc46d5b06348aa952769854ba710f3023b6e06173d94"
+  },
+  {
+    "step": 190000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_190000",
+    "parameter_sha256": "e403c9070e3a87e3da61da7df1c1c5c96853c8451c50379a776348724ea9cd42"
+  },
+  {
+    "step": 195000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_195000",
+    "parameter_sha256": "61bf42d8ad58a8a38f0b496344864bf130a65ceee821219d5b7fdd023f108cc7"
+  },
+  {
+    "step": 200000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_200000",
+    "parameter_sha256": "0097c158471fbf22ebfe70250f036fbb123d6547e55352916e550aeddf9d0539"
+  },
+  {
+    "step": 205000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_205000",
+    "parameter_sha256": "b8d992cda13b2197eab89de7c543e2f5dfc77b1fa172cc7d9fc0a68ce3bdbe6d"
+  },
+  {
+    "step": 210000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_210000",
+    "parameter_sha256": "563bb5d05162178d8925045574225cdf86d81a301d43ea6dedab7ccb7eb336ab"
+  },
+  {
+    "step": 215000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_215000",
+    "parameter_sha256": "4d036d27ff4df21c846112bff458d10b414edd27d1e796190eb3ec6428269e91"
+  },
+  {
+    "step": 220000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_220000",
+    "parameter_sha256": "d976f5bb68351de3c264c39437e977a15ebee42c10e68cc164dbd02cdf568ca2"
+  },
+  {
+    "step": 225000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_225000",
+    "parameter_sha256": "ea50ac2bcffd855d548f91810e91bca83bdd04572f185f899c1c5ac3c680fb43"
+  },
+  {
+    "step": 230000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_230000",
+    "parameter_sha256": "59e031525dbaba1a2f1d3d277197aad17f08a6052292256ef5246aa4ae7e916e"
+  },
+  {
+    "step": 235000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_235000",
+    "parameter_sha256": "dda75619e59e5490fad20060a7c5e3162cf728bfa7245fc10956cb845feff364"
+  },
+  {
+    "step": 240000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_240000",
+    "parameter_sha256": "21edf6e8c340634aa00ebc83f50779bcc1aa5291b4fbe66acf1732f9fb4ee6c8"
+  },
+  {
+    "step": 245000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_245000",
+    "parameter_sha256": "52b1f347178dac9b56291e0d8b8eded780d1859ae63a94fa7f19f4edda6f4e98"
+  },
+  {
+    "step": 250000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_250000",
+    "parameter_sha256": "78080ad3ebbdd6c2355c729bc7dc0e5ad4b99bd513d1cdff7f4b718db069878c"
+  },
+  {
+    "step": 255000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_255000",
+    "parameter_sha256": "73fc79738f6a23687d13c19544e8f2ddf651aa32a46dd2af4a0b0d54fb95733f"
+  },
+  {
+    "step": 260000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_260000",
+    "parameter_sha256": "d97594869251e64991a64bb2fde858aed3d92d99960b4c5c94ea050068be3dc2"
+  },
+  {
+    "step": 265000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_265000",
+    "parameter_sha256": "9287974ef574207e3f0f48eb48215106c3d2579304a6a8476202a7265ccaa232"
+  },
+  {
+    "step": 270000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_270000",
+    "parameter_sha256": "825dde75bd325cc0feb8aed795310d3d502116763d6fa730b7ea8fd3888edbf6"
+  },
+  {
+    "step": 275000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_275000",
+    "parameter_sha256": "7b06989e994750f9d61141fd97d40fa6cd52bb37b72bd848479fa78c61a0a4b0"
+  },
+  {
+    "step": 280000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_280000",
+    "parameter_sha256": "0cb04cff2de5f1d3ad57afaeb73a57b460d18dc01bd0d175b26ac17264f166a2"
+  },
+  {
+    "step": 285000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_285000",
+    "parameter_sha256": "804228d4967c9b778581918412f571baa49db13a9c9b39a0f64cb5980082c84f"
+  },
+  {
+    "step": 290000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_290000",
+    "parameter_sha256": "b0aa49fb3bc51087d77fc1d5e342acb7c4a2ac40a7748072fab2c4f1392563a8"
+  },
+  {
+    "step": 295000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_295000",
+    "parameter_sha256": "ff60815e95920f39462a0f841bc4c9d1594c1aa8b66a66a1341c85b3a608da4f"
+  },
+  {
+    "step": 300000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_300000",
+    "parameter_sha256": "75dc8636668e117f200ece684960d2192f7f498da947fd849f16efb148c6d7c8"
+  },
+  {
+    "step": 305000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_305000",
+    "parameter_sha256": "fabd58f501bcd73e461532ad260ac97581621ca037cc1a6ff9ba0fc9ec7d0a8b"
+  },
+  {
+    "step": 310000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_310000",
+    "parameter_sha256": "28a0daa795bb0f97b70bcebbc4f00ca2bf93a38e1bbb06832699a6c22744a744"
+  },
+  {
+    "step": 315000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_315000",
+    "parameter_sha256": "25396fc602fdb98be5f9e4a88276dd042878afc6d4cbcd5b3ec9fbf7a64b8eee"
+  },
+  {
+    "step": 320000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_320000",
+    "parameter_sha256": "fa64a246c431fb27efa10ffbadb618da90d67e208db3f594c53882f55ca7cae9"
+  },
+  {
+    "step": 325000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_325000",
+    "parameter_sha256": "2c55e5c124afd04a96f9e1221ce30d5b29a5b4d733205809bddb369d2c1a6d24"
+  },
+  {
+    "step": 330000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_330000",
+    "parameter_sha256": "84a993e09237995d1a408d8387538d259630c108b39348a34c4239b0fd202daf"
+  },
+  {
+    "step": 335000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_335000",
+    "parameter_sha256": "5f5af3e9585562f7e041841c91b883c616d05427c4178c3468ee14b5aafa8dae"
+  },
+  {
+    "step": 340000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_340000",
+    "parameter_sha256": "6050c5e49baad37b8bb5d9a7354f67e3169a018a3934e5bda271aff755743a93"
+  },
+  {
+    "step": 345000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_345000",
+    "parameter_sha256": "fc635773f4e10d61cbcccbb8c08ede1c1610cc39581d4830529f9260d7e32147"
+  },
+  {
+    "step": 350000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_350000",
+    "parameter_sha256": "646e022e005fc317913aad10cb0f76a9fab0c03c7f0315ed3b79ad07390e1426"
+  },
+  {
+    "step": 355000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_355000",
+    "parameter_sha256": "4ea40c7215d8dda7ef3954375d35e28316fbbe3d6897b8d65ed77e679877d7f3"
+  },
+  {
+    "step": 360000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_360000",
+    "parameter_sha256": "720166645b0a324dab064ccee1521eb9e768893051bf5a4a8f1632dd0c4ad5ed"
+  },
+  {
+    "step": 365000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_365000",
+    "parameter_sha256": "312bf4cc7f79867f840aceca44a01996e9a91f6b4526dacef1b0c2335ed87745"
+  },
+  {
+    "step": 370000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_370000",
+    "parameter_sha256": "919b8bf13c8ad2181c35f8852d583fa6075271f55a42eb373c9b7f2ca46f57cb"
+  },
+  {
+    "step": 375000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_375000",
+    "parameter_sha256": "b5e6041a0a7ff64e7e31bde68c6ca5402dcf730bfc7d170cdbf0a3c0d139e3eb"
+  },
+  {
+    "step": 380000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_380000",
+    "parameter_sha256": "dbe6d8d1356e3113844734dd0f96ca717612ee0e1ff36a58630c2cf718d89c8d"
+  },
+  {
+    "step": 385000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_385000",
+    "parameter_sha256": "d4c8ecdaba7c62422767a9315abc01a37da553672133837c50a48a027894407a"
+  },
+  {
+    "step": 390000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_390000",
+    "parameter_sha256": "0e8b4519e43c0332fd2a9d6bd6618d78514c59bebf1ccfed2c3782d787f43ec6"
+  },
+  {
+    "step": 395000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_395000",
+    "parameter_sha256": "974db9da99d54e79144a473c1261f1b7a664405a6eed7c8cd3269d04a8f506b3"
+  },
+  {
+    "step": 400000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_400000",
+    "parameter_sha256": "498771e18c4e72e089c04065c7be9c3ff4cf9d32d3be7de1fca78f8433720286"
+  },
+  {
+    "step": 405000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_405000",
+    "parameter_sha256": "c8dd26019344e8247c5be282495f56e8724031c20eda9c3c91d4a28fa6d9c663"
+  },
+  {
+    "step": 410000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_410000",
+    "parameter_sha256": "8a0e66ac61fcac451901c3eca43e94ed72d0982996045ffa73a3b730f2d06e9e"
+  },
+  {
+    "step": 415000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_415000",
+    "parameter_sha256": "f6236af8b941da700282d61fc295324e8b4db2fe4ab68bb8e88d5f52df31a51f"
+  },
+  {
+    "step": 420000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_420000",
+    "parameter_sha256": "4f9c126a9d05c549679093de10d91c013af2f2d29782e6c8c7a6657550b2e968"
+  },
+  {
+    "step": 425000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_425000",
+    "parameter_sha256": "87dfa3ff39d6ed78d8b936c5cbb7f20320a29ffb48b2edb9fcff039958e4a2a5"
+  },
+  {
+    "step": 430000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_430000",
+    "parameter_sha256": "60935a965f6fd55c92b08df5998f4588ddc6c8a2e0f04884eabe212a89ce089d"
+  },
+  {
+    "step": 435000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_435000",
+    "parameter_sha256": "4a909337ed15d5dbc0597c7202952da6ae91bcdeed5eb9fcf4782b66f607985a"
+  },
+  {
+    "step": 440000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_440000",
+    "parameter_sha256": "b19e3a3157deb7ec74b5588d27fecda9b45d6818314a276d4c96cf8dbdf464ea"
+  },
+  {
+    "step": 445000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_445000",
+    "parameter_sha256": "0d19d397874c78ee2befb877d45b997ff66b0b9e549baa94aff9ee2358e4311d"
+  },
+  {
+    "step": 450000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_450000",
+    "parameter_sha256": "71c56a110be6ab1300938df61a5d897a638af49edec611c3f529639c6d775ca8"
+  },
+  {
+    "step": 455000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_455000",
+    "parameter_sha256": "c145616ea8be404a00a0a5b959972c6715a6ed3820fb69c75e5422463a749b1d"
+  },
+  {
+    "step": 460000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_460000",
+    "parameter_sha256": "4761bab3c21500108103e17fad915e7a0930a59529b3848d1f8c175d34e95b2a"
+  },
+  {
+    "step": 465000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_465000",
+    "parameter_sha256": "48b65c5892668d7ad775860cb14c8d4f092d227a8a6a21e7597ffd5a573d62ed"
+  },
+  {
+    "step": 470000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_470000",
+    "parameter_sha256": "296a7bf7c42a4508e2295bfb2fd1eba1c96b652181fbac600a154564b3d13f3d"
+  },
+  {
+    "step": 475000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_475000",
+    "parameter_sha256": "76c88f79f2f4896a71ab547a6a5b1a1d2fdd20bf2fe9b89c2c03a562d921796e"
+  },
+  {
+    "step": 480000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_480000",
+    "parameter_sha256": "a037b5776eb0f55e79f1e9a58b60d00286789c536e0e3629a193317f1330a114"
+  },
+  {
+    "step": 485000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_485000",
+    "parameter_sha256": "54f3c7a9e9913c0ef2d0f9c4bfb240f24590d0a3b3bee0a479bca2fe51055b2f"
+  },
+  {
+    "step": 490000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_490000",
+    "parameter_sha256": "45fb879b4f313de7bb67b56f15a0845d7159f6b60c3eff6607086f0dad078b73"
+  },
+  {
+    "step": 495000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_495000",
+    "parameter_sha256": "fba526170cb0d7c6fe1e394f37c81e385c12c20a114b9374add5a95ebfd7f253"
+  },
+  {
+    "step": 500000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_500000",
+    "parameter_sha256": "1707e729c7a9e6d3e452f1fcc399b797098ab9049ac09b59605f3f4fc9a5ab18"
+  },
+  {
+    "step": 505000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_505000",
+    "parameter_sha256": "2a8b463db84513b06f30a788dab62bee7f293fc97ec70a6ebfb6ddb83b9941b9"
+  },
+  {
+    "step": 510000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_510000",
+    "parameter_sha256": "5121a30c149792eb7cebcac13de9582ae726c1f60b8f67b6319b987d514264b3"
+  },
+  {
+    "step": 515000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_515000",
+    "parameter_sha256": "244d862641ba695778eed0c4890a979aa57bc82574b824f8af18b203692ed1ec"
+  },
+  {
+    "step": 520000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_520000",
+    "parameter_sha256": "05b1a7eeab236bc023502c56656f6ef50f71b77adb4e15312194925f0f81acfb"
+  },
+  {
+    "step": 525000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_525000",
+    "parameter_sha256": "891ef7ea53d50363fc072950556b984583c7e3a6d9075b7f5ac532f0c39bd081"
+  },
+  {
+    "step": 530000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_530000",
+    "parameter_sha256": "b69c823b4c043d95af0efbb3a5b359eaba116f3d4739b959942448e6a010e959"
+  },
+  {
+    "step": 535000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_535000",
+    "parameter_sha256": "e56ccc3eae2e262172565860d4bdc61412f0f7c6dd0d90bcf04643eeb924fe96"
+  },
+  {
+    "step": 540000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_540000",
+    "parameter_sha256": "cb5fcf17eec2a4d24380f405850be008e245d81473f6146aa8ee6114891c0f3b"
+  },
+  {
+    "step": 545000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_545000",
+    "parameter_sha256": "28d4179e4fe8ec37b04dd2c928eebc1878d1ecff7645391b65b21afbb63f72e3"
+  },
+  {
+    "step": 550000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_550000",
+    "parameter_sha256": "aeaff9fd4d48da00960f17b46cc516d2aaa50c7ab6fbad0dd73841ecf18bb1ec"
+  },
+  {
+    "step": 555000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_555000",
+    "parameter_sha256": "0301ac9a589c33b30920d75920dd3b177407422697adda39ae706c7fda55f244"
+  },
+  {
+    "step": 560000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_560000",
+    "parameter_sha256": "544817b543d4c2c04459231ad4daa0828b66530ba42475dc1244a6338b3f5589"
+  },
+  {
+    "step": 565000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_565000",
+    "parameter_sha256": "03c46fe2135624067e7d97daa06f5da7094f269b30d64d8458ad661caf520f38"
+  },
+  {
+    "step": 570000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_570000",
+    "parameter_sha256": "02a57a77876c4b278e526ea1ddd9e548f6b41a720e9617587eef140be3ceaf4d"
+  },
+  {
+    "step": 575000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_575000",
+    "parameter_sha256": "491f9258f549cba8ca929650c64b19352a52d16939fed8af390f3810078792c7"
+  },
+  {
+    "step": 580000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_580000",
+    "parameter_sha256": "edf16070c8135b349572985cc874091a8686ecf6032a2a1462e828ec22811163"
+  },
+  {
+    "step": 585000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_585000",
+    "parameter_sha256": "25edc3aca317759d339b6223ef1104a5a50789fb4331bfef55f7c7cab679a423"
+  },
+  {
+    "step": 590000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_590000",
+    "parameter_sha256": "e977792f7e03befb36ceac2a79834213273c157def16721909694565541430ff"
+  },
+  {
+    "step": 595000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_595000",
+    "parameter_sha256": "01e225b4f3fb193f6c7c430c96b9c0d49ab7cb23d7b20f47df34b44b493bf1ed"
+  },
+  {
+    "step": 600000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_600000",
+    "parameter_sha256": "2715c417a0104287e9ac80133be5dc14c375d25b163657bd68e6ee2485d6abd3"
+  },
+  {
+    "step": 605000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_605000",
+    "parameter_sha256": "a9467c209462cb1c8f31ab2a1f857e11531dd3df9be9ff61836654ee9aa3956d"
+  },
+  {
+    "step": 610000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_610000",
+    "parameter_sha256": "52fb4a7f35dd4e3ef036907a14bf14e64c8d4692bdf9b3368a142437de83f822"
+  },
+  {
+    "step": 615000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_615000",
+    "parameter_sha256": "fdb8af8152f97ce85dd84da32451ff9d92f563cd16805ae758e0b6b728088feb"
+  },
+  {
+    "step": 620000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_620000",
+    "parameter_sha256": "c53c68da0591e410c521b71c83788481ed7f31bb04cd1b5c4cd941246cceaf6d"
+  },
+  {
+    "step": 625000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_625000",
+    "parameter_sha256": "35b7be3969e7510d9f469aeb2e0b8b3cf91900d48eb77afd783f73e84410ca2e"
+  },
+  {
+    "step": 630000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_630000",
+    "parameter_sha256": "c740c34ece813cd7d53530a357730a94283d523774db76163accb34f89fe28ec"
+  },
+  {
+    "step": 635000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_635000",
+    "parameter_sha256": "32893e907ed388ad2469a4c340ca9805982e88f6e63842e4f55d350d5ac70fc1"
+  },
+  {
+    "step": 640000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_640000",
+    "parameter_sha256": "2b39c0753daa056cce0fa76dce1292d70be661a2c2118eb8f80e2192d0f1b3d3"
+  },
+  {
+    "step": 645000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_645000",
+    "parameter_sha256": "98be18055c4ba8251179e23174b829acb9932d969ad1cef0f082b86b16b23a9f"
+  },
+  {
+    "step": 650000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_650000",
+    "parameter_sha256": "460d3be7a29da000fdcfce3e444ba8e73ab314cd9135db3faaea8f49cc76e847"
+  },
+  {
+    "step": 655000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_655000",
+    "parameter_sha256": "7aeb692542317633f433f1d2b09fd8028ee5123c16ff1332990dc1ec217dd302"
+  },
+  {
+    "step": 660000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_660000",
+    "parameter_sha256": "e85d4e02cb2411fe2693a9c1ed58edeaeb21d7e983d0bfb3a9d5d3e22ff94b70"
+  },
+  {
+    "step": 665000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_665000",
+    "parameter_sha256": "a83dfbb5b1fece2c69c271e6f95ea8f5f1180def3c0c2cd71574a66e71191a36"
+  },
+  {
+    "step": 670000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_670000",
+    "parameter_sha256": "204f05ae4d2b6d21552f086dbca6cd781840ad899d64b1158724ac854139c975"
+  },
+  {
+    "step": 675000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_675000",
+    "parameter_sha256": "d8c25c99e343e42567c0b69d46c66eebd22a775acae30af229c7b64bf25e39a6"
+  },
+  {
+    "step": 680000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_680000",
+    "parameter_sha256": "adb42d22c46eeb9284417a4162e68c0f8bfe50eab6f31ae0fa74c558fef2e75d"
+  },
+  {
+    "step": 685000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_685000",
+    "parameter_sha256": "00994c3de979f59409af9c7c91482219df1860d593ee716fea115322d7dbabdb"
+  },
+  {
+    "step": 690000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_690000",
+    "parameter_sha256": "ec588d122e2b97df7acee0401feb52bef4ddb44b2736bef4bbdb89f048e7a1c1"
+  },
+  {
+    "step": 695000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_695000",
+    "parameter_sha256": "95755f03a0ebe8c00160ed7152f667284550af012c5708686eb651c284b938f0"
+  },
+  {
+    "step": 700000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_700000",
+    "parameter_sha256": "da8b51e4824f136c1a9e2181d241a3adccde73ebe5caba2086d358ef62b3d67b"
+  },
+  {
+    "step": 705000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_705000",
+    "parameter_sha256": "3bed77c31c742269a6ca30eff6640680d131c2bd620eda5abe8d4aa4e66dcf64"
+  },
+  {
+    "step": 710000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_710000",
+    "parameter_sha256": "a271bd8d33507dcd8bf578029e775d89b0fb288648f73cef6524925c340c04df"
+  },
+  {
+    "step": 715000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_715000",
+    "parameter_sha256": "c0dd81516faebd4db14581332871fb0f8bb276b6550ceae246eee36cc96b705d"
+  },
+  {
+    "step": 720000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_720000",
+    "parameter_sha256": "a33e3365885a7400f3448057f382ac7b534c1236e69acf939c95b1ac19f96900"
+  },
+  {
+    "step": 725000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_725000",
+    "parameter_sha256": "6bc5fc597ea71e26179c9a8926e7b89f91306f92edac070b6e53289a260b76d4"
+  },
+  {
+    "step": 730000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_730000",
+    "parameter_sha256": "b96d5f521f083798cfe4d87c54ff6d8569a5df9f316f50d7c0fb97878dfd0e3b"
+  },
+  {
+    "step": 735000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_735000",
+    "parameter_sha256": "467281cfd4c4076f4f6b153be59c0a8977005bbdcb71b9c77e186a1a5cd2fbd8"
+  },
+  {
+    "step": 740000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_740000",
+    "parameter_sha256": "f40d282fd0d32bb8e3f527eb28ab27f416e435554a798e04d67708673a21a612"
+  },
+  {
+    "step": 745000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_745000",
+    "parameter_sha256": "11c2f4ebe52d711891dc5c43aa4df1c0ab252038bed472b59e91830a833a9683"
+  },
+  {
+    "step": 750000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_750000",
+    "parameter_sha256": "79e6f8ca969f51ea5da56557ddc3b450e77109c7f721b4a5800495f4658a9a73"
+  },
+  {
+    "step": 755000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_755000",
+    "parameter_sha256": "301d87d99ff88ec26f7c8e660cebc33d6ce820de463557a1d472c8fd81733b44"
+  },
+  {
+    "step": 760000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_760000",
+    "parameter_sha256": "a7c461f35534f0f123b0834c690da47a65d43039515be482289d344fa8c87bd3"
+  },
+  {
+    "step": 765000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_765000",
+    "parameter_sha256": "d7807ef402d759baf6ce30fc545239e92135f92a9229ec5f840ea8f3b95cc715"
+  },
+  {
+    "step": 770000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_770000",
+    "parameter_sha256": "8317fcad664cf98223fd9c31c31f98ab04558f41cd28622b3a8ea10ee7ef741f"
+  },
+  {
+    "step": 775000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_775000",
+    "parameter_sha256": "1e98e57cc5bf0f1c77c0070e44886afdf79f77fcd606d9c01560a0d1c5a845c9"
+  },
+  {
+    "step": 780000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_780000",
+    "parameter_sha256": "b8229cb6b6259709d1ef88bfc74972ea4a426a6bb33b4ee827dcce25a16b4188"
+  },
+  {
+    "step": 785000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_785000",
+    "parameter_sha256": "3dd69f579b92f1e18d0e2088c51c8666a0119d2931bf5e3562c18e0b27e42acf"
+  },
+  {
+    "step": 790000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_790000",
+    "parameter_sha256": "379bd4cb31c58195ef90777e8d39766c6ecf880d5077da19138a77da9054e26f"
+  },
+  {
+    "step": 795000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_795000",
+    "parameter_sha256": "d0a758248a7f68dcb447a6e95817369c00d527c08047861af7a26ef237ef13e0"
+  },
+  {
+    "step": 800000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_800000",
+    "parameter_sha256": "46854f1e55a8d7d66b8f2dcadfdc1df3aa47ee30aa2a215cc241e1472e815ce4"
+  },
+  {
+    "step": 805000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_805000",
+    "parameter_sha256": "721b3377e8cc323417c219e0c900b166a01ba04a0f98d7fa655b879149ffec44"
+  },
+  {
+    "step": 810000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_810000",
+    "parameter_sha256": "ffdf54a93782af0ec89649dcdb1bbfa350af70f74412b87d44dd9dad0ff490b8"
+  },
+  {
+    "step": 815000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_815000",
+    "parameter_sha256": "81f86307bb492a0cdd5707e6f16dfaf87ea2f5d3ca074cefcb43c730932f6239"
+  },
+  {
+    "step": 820000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_820000",
+    "parameter_sha256": "43f96dc73c5b2093d28e9b6b080489777c2d12adb39f89b8c50a058d78e7c713"
+  },
+  {
+    "step": 825000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_825000",
+    "parameter_sha256": "9a5d18e6a30d4e607184832d67ca37a0bd83838d5d2463b1f62285a2a9209b08"
+  },
+  {
+    "step": 830000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_830000",
+    "parameter_sha256": "2609b3e8baac461df8f7fc1425dc7400fa228a095c02a9d202ae4dca9d40df89"
+  },
+  {
+    "step": 835000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_835000",
+    "parameter_sha256": "ba1c19377c91a33a24bc1b6de98ff2943af8f333b27d90ffdb8c9ff91aadcb7d"
+  },
+  {
+    "step": 840000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_840000",
+    "parameter_sha256": "bcd05cf2e8ae0db973defb7c101901b6ca987599254eaeb6870e97f8658e4198"
+  },
+  {
+    "step": 845000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_845000",
+    "parameter_sha256": "6cea20a8cc7773594b3962db8bef02ff46c25bb00615570bd7efa2d6ea4cdb6a"
+  },
+  {
+    "step": 850000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_850000",
+    "parameter_sha256": "c0fb53c91ee46221742ab7a0132e696a1dfff1ce0042602f3a7c7deae8ee87ec"
+  },
+  {
+    "step": 855000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_855000",
+    "parameter_sha256": "0c8c91ac11734f073564a1783b614871eb14da959e8f535146ed60db04a1f023"
+  },
+  {
+    "step": 860000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_860000",
+    "parameter_sha256": "67183830011a25079302a12b6fdb0aa97333827c7510710c65a762fe3b047ed8"
+  },
+  {
+    "step": 865000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_865000",
+    "parameter_sha256": "111b6b0710d0f6220fb630edd542b1e29a0f34bebf9beb3e7d89c3dea9d448db"
+  },
+  {
+    "step": 870000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_870000",
+    "parameter_sha256": "10918b70f8d655fd6036e91375e2468a45e01c02b77ea5bc0fb0abb33d89effc"
+  },
+  {
+    "step": 875000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_875000",
+    "parameter_sha256": "22aef8e556411962cc5d7e3a13358e7e8832697a1d466868485b07ae6dae7885"
+  },
+  {
+    "step": 880000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_880000",
+    "parameter_sha256": "7a23a20e552f1b7c4746d0ae1fd23e6896ffc2308a971a581054ddb989a36618"
+  },
+  {
+    "step": 885000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_885000",
+    "parameter_sha256": "99fd3f2ad21547cb247f90ef20ea2df622739ee894b1e27b5b7cc0d1b76854ee"
+  },
+  {
+    "step": 890000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_890000",
+    "parameter_sha256": "fa5212047d199faf6f2626df910d5af6ad37496a63183b2e3cf321de8bb8040e"
+  },
+  {
+    "step": 895000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_895000",
+    "parameter_sha256": "0ec2a79a9b4069254be87498451d4644a167dadf0abc64811ebe88425b77357a"
+  },
+  {
+    "step": 900000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_900000",
+    "parameter_sha256": "cc07009c95032b6cea12af63a46534b0ab01ebef0e154ead8ef801b5794ec66d"
+  },
+  {
+    "step": 905000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_905000",
+    "parameter_sha256": "7a48cfb62d2d7ef9fa2d5b1a6abb65c0421aa831c137ab76020e6c501260032f"
+  },
+  {
+    "step": 910000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_910000",
+    "parameter_sha256": "f6eca895de8f907f9b2cc86e42f3b5df98723b6b851bd7b9b4e3f02b583cde17"
+  },
+  {
+    "step": 915000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_915000",
+    "parameter_sha256": "2add0e322b85d30f686b46261413984af3b545291e073e94033c1a610e010252"
+  },
+  {
+    "step": 920000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_920000",
+    "parameter_sha256": "c17758400b55f4898b4f4a1d2e29e2aef219fba26aab312336249a281a04c448"
+  },
+  {
+    "step": 925000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_925000",
+    "parameter_sha256": "9ac0e3143da78172dc3c8e51606e08191206f145301a75f6ca4522c487b4dfee"
+  },
+  {
+    "step": 930000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_930000",
+    "parameter_sha256": "b7f4be7a873e8afde56ec4aab2bfdde719ea718b8218854466148812a34ff336"
+  },
+  {
+    "step": 935000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_935000",
+    "parameter_sha256": "0bc6fbada6132522319c012111cbb6783aef12fadf4915c07008d5145283cfaa"
+  },
+  {
+    "step": 940000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_940000",
+    "parameter_sha256": "8c6b026cbbe2aec65961e36df660f42673daade3ab995e69269d9a378eb68ee7"
+  },
+  {
+    "step": 945000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_945000",
+    "parameter_sha256": "9e659f6bcb48caa431aa0c511440fd3501eaafc40949e6f2a348dcf98fd0ee89"
+  },
+  {
+    "step": 950000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_950000",
+    "parameter_sha256": "2e7a885a90cab0e391478d790fd6b9fca6d1d7d06177ebdc79da7bd178f0ab1f"
+  },
+  {
+    "step": 955000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_955000",
+    "parameter_sha256": "fff4b1b9b28b0b2a9fd213eaac211f419d99877a9cc308492297a519e815de00"
+  },
+  {
+    "step": 960000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_960000",
+    "parameter_sha256": "63350bfe09ef17321198338000e7150e69ea4a1648ccceb350dbbe3b85116bfb"
+  },
+  {
+    "step": 965000,
+    "directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed12_formal_v1\\run_seed_13\\curve_snapshots\\step_965000",
+    "parameter_sha256": "1ce9528caba8b206bccaed4c6e35425e19b79278af47fd5f22f4ebf3f742230b"
+  }
+]
