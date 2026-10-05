@@ -1,0 +1,29 @@
+{
+  "actual_algorithm": "ippo",
+  "seed": 11,
+  "requested_budget": 5000,
+  "completed_steps": 5000,
+  "stop_reason": "budget",
+  "initial_eval_cost": 294.7013333333333,
+  "final_eval_cost": 302.15883333333335,
+  "best_observed_evaluation": {
+    "step": 0,
+    "phase": "evaluation",
+    "mean_actor_period_cost": 294.7013333333333
+  },
+  "official_best_cost": null,
+  "best_scheduled_evaluation": null,
+  "final_model_directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed11_smoke5k_v1\\run_seed_12\\final_models",
+  "max_reload_error": 0.0,
+  "eval_traces": 20,
+  "interpretation": "single-seed learning observation, not convergence or superiority evidence",
+  "stability": {
+    "stable": false,
+    "steps": 5000,
+    "minimum_steps": 100000,
+    "window": 10,
+    "median_change_limit": 0.01,
+    "recent_cv_limit": 0.05,
+    "best_change_limit": 0.01
+  }
+}

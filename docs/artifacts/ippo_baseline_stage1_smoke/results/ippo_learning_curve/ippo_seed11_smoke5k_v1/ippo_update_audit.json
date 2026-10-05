@@ -1,0 +1,152 @@
+[
+  {
+    "agent": 2,
+    "update_index": 0,
+    "factor_min": 1.0,
+    "factor_max": 1.0,
+    "local_dim": 7,
+    "central_dim": 21,
+    "critic_dim": 7,
+    "step_after_update": 1000
+  },
+  {
+    "agent": 0,
+    "update_index": 1,
+    "factor_min": 1.0,
+    "factor_max": 1.0,
+    "local_dim": 7,
+    "central_dim": 21,
+    "critic_dim": 7,
+    "step_after_update": 1000
+  },
+  {
+    "agent": 1,
+    "update_index": 2,
+    "factor_min": 1.0,
+    "factor_max": 1.0,
+    "local_dim": 7,
+    "central_dim": 21,
+    "critic_dim": 7,
+    "step_after_update": 1000
+  },
+  {
+    "agent": 2,
+    "update_index": 3,
+    "factor_min": 1.0,
+    "factor_max": 1.0,
+    "local_dim": 7,
+    "central_dim": 21,
+    "critic_dim": 7,
+    "step_after_update": 2000
+  },
+  {
+    "agent": 0,
+    "update_index": 4,
+    "factor_min": 1.0,
+    "factor_max": 1.0,
+    "local_dim": 7,
+    "central_dim": 21,
+    "critic_dim": 7,
+    "step_after_update": 2000
+  },
+  {
+    "agent": 1,
+    "update_index": 5,
+    "factor_min": 1.0,
+    "factor_max": 1.0,
+    "local_dim": 7,
+    "central_dim": 21,
+    "critic_dim": 7,
+    "step_after_update": 2000
+  },
+  {
+    "agent": 1,
+    "update_index": 6,
+    "factor_min": 1.0,
+    "factor_max": 1.0,
+    "local_dim": 7,
+    "central_dim": 21,
+    "critic_dim": 7,
+    "step_after_update": 3000
+  },
+  {
+    "agent": 0,
+    "update_index": 7,
+    "factor_min": 1.0,
+    "factor_max": 1.0,
+    "local_dim": 7,
+    "central_dim": 21,
+    "critic_dim": 7,
+    "step_after_update": 3000
+  },
+  {
+    "agent": 2,
+    "update_index": 8,
+    "factor_min": 1.0,
+    "factor_max": 1.0,
+    "local_dim": 7,
+    "central_dim": 21,
+    "critic_dim": 7,
+    "step_after_update": 3000
+  },
+  {
+    "agent": 2,
+    "update_index": 9,
+    "factor_min": 1.0,
+    "factor_max": 1.0,
+    "local_dim": 7,
+    "central_dim": 21,
+    "critic_dim": 7,
+    "step_after_update": 4000
+  },
+  {
+    "agent": 1,
+    "update_index": 10,
+    "factor_min": 1.0,
+    "factor_max": 1.0,
+    "local_dim": 7,
+    "central_dim": 21,
+    "critic_dim": 7,
+    "step_after_update": 4000
+  },
+  {
+    "agent": 0,
+    "update_index": 11,
+    "factor_min": 1.0,
+    "factor_max": 1.0,
+    "local_dim": 7,
+    "central_dim": 21,
+    "critic_dim": 7,
+    "step_after_update": 4000
+  },
+  {
+    "agent": 2,
+    "update_index": 12,
+    "factor_min": 1.0,
+    "factor_max": 1.0,
+    "local_dim": 7,
+    "central_dim": 21,
+    "critic_dim": 7,
+    "step_after_update": 5000
+  },
+  {
+    "agent": 1,
+    "update_index": 13,
+    "factor_min": 1.0,
+    "factor_max": 1.0,
+    "local_dim": 7,
+    "central_dim": 21,
+    "critic_dim": 7,
+    "step_after_update": 5000
+  },
+  {
+    "agent": 0,
+    "update_index": 14,
+    "factor_min": 1.0,
+    "factor_max": 1.0,
+    "local_dim": 7,
+    "central_dim": 21,
+    "critic_dim": 7,
+    "step_after_update": 5000
+  }
+]

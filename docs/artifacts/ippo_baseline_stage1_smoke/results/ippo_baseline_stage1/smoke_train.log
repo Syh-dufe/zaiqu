@@ -1,0 +1,49 @@
+all config:  Namespace(algorithm_name='happo', scenario_name='Emergency_Replenishment_Compatibility', num_landmarks=3, num_agents=3, use_single_network=False, experiment_name='ippo_seed11_smoke5k_v1', seed=[11], seed_specify=True, running_id=1, cuda=True, cuda_deterministic=True, n_training_threads=1, n_rollout_threads=5, n_eval_rollout_threads=1, n_render_rollout_threads=1, num_env_steps=5000, n_warmup_evaluations=10, n_no_improvement_thres=40, user_name='marl', env_name='MyEnv', use_obs_instead_of_state=False, episode_length=200, share_policy=False, use_centralized_V=False, stacked_frames=1, use_stacked_frames=False, hidden_size=128, layer_N=2, use_ReLU=True, use_popart=False, use_valuenorm=True, use_feature_normalization=False, use_orthogonal=True, gain=0.01, use_naive_recurrent_policy=True, use_recurrent_policy=False, recurrent_N=2, data_chunk_length=10, lr=0.0001, critic_lr=0.0001, opti_eps=1e-05, weight_decay=0, kl_threshold=0.01, ls_step=10, accept_ratio=0.5, ppo_epoch=15, use_clipped_value_loss=True, clip_param=0.2, num_mini_batch=1, entropy_coef=0.01, value_loss_coef=0.5, use_max_grad_norm=False, max_grad_norm=0.5, use_gae=True, gamma=0.95, gae_lambda=0.95, use_proper_time_limits=True, use_huber_loss=True, use_value_active_masks=False, use_policy_active_masks=False, huber_delta=10.0, use_linear_lr_decay=False, save_interval=1, log_interval=1, model_dir=None, use_eval=True, eval_interval=5, save_gifs=False, use_render=False, render_episodes=5, ifi=0.1)
+choose to use cpu...
+-------------------------------------------------Training starts for seed: 11---------------------------------------------------
+share_observation_space:  [Box(-inf, inf, (21,), float32), Box(-inf, inf, (21,), float32), Box(-inf, inf, (21,), float32)]
+observation_space:  [Box(-inf, inf, (7,), float32), Box(-inf, inf, (7,), float32), Box(-inf, inf, (7,), float32)]
+action_space:  [Discrete(21), Discrete(21), Discrete(21)]
+
+Eval average reward:  -294.7013333333333  Eval ordering fluctuation measurement (downstream to upstream):  [0.4420098538429774, 0.5990829432803714, 0.023783072418853534]
+
+ Algo happo Exp ippo_seed11_smoke5k_v1 updates 0/5 episodes, total num timesteps 1000/5000, FPS 76.
+
+Reward for thread 1: [-99.24, -77.0, -108.55] -94.93  Inventory: [0.0, 0.0, 0.0]  Order: [9.85, 10.44, 9.78] Demand: [11.835]
+Reward for thread 2: [-107.13, -94.93, -74.47] -92.18  Inventory: [317.0, 0.0, 138.0]  Order: [10.3, 9.44, 10.11] Demand: [7.82]
+Reward for thread 3: [-190.11, -110.58, -117.64] -139.44  Inventory: [0.0, 71.0, 257.0]  Order: [9.56, 9.94, 11.28] Demand: [14.145]
+Reward for thread 4: [-362.59, -153.31, -124.08] -213.33  Inventory: [0.0, 139.0, 59.0]  Order: [9.65, 10.25, 10.39] Demand: [16.39]
+Reward for thread 5: [-319.69, -141.09, -130.71] -197.16  Inventory: [0.0, 191.0, 0.0]  Order: [9.06, 10.32, 9.91] Demand: [13.685]
+
+ Algo happo Exp ippo_seed11_smoke5k_v1 updates 1/5 episodes, total num timesteps 2000/5000, FPS 98.
+
+Reward for thread 1: [-340.93, -124.19, -127.46] -197.53  Inventory: [1337.0, 21.0, 0.0]  Order: [9.74, 10.04, 9.62] Demand: [3.15]
+Reward for thread 2: [-319.97, -146.92, -117.7] -194.86  Inventory: [988.0, 0.0, 0.0]  Order: [10.42, 9.74, 9.31] Demand: [4.655]
+Reward for thread 3: [-119.42, -108.58, -72.7] -100.23  Inventory: [309.0, 0.0, 37.0]  Order: [10.23, 9.75, 9.91] Demand: [8.28]
+Reward for thread 4: [-107.81, -63.1, -73.52] -81.48  Inventory: [0.0, 0.0, 0.0]  Order: [9.43, 10.53, 9.22] Demand: [9.735]
+Reward for thread 5: [-390.37, -118.59, -119.74] -209.57  Inventory: [0.0, 58.0, 0.0]  Order: [10.09, 10.38, 10.23] Demand: [16.13]
+
+ Algo happo Exp ippo_seed11_smoke5k_v1 updates 2/5 episodes, total num timesteps 3000/5000, FPS 108.
+
+Reward for thread 1: [-98.94, -51.92, -59.71] -70.19  Inventory: [440.0, 75.0, 0.0]  Order: [9.7, 10.37, 9.89] Demand: [7.65]
+Reward for thread 2: [-258.14, -103.68, -93.07] -151.63  Inventory: [998.0, 0.0, 0.0]  Order: [10.8, 10.22, 9.89] Demand: [5.075]
+Reward for thread 3: [-96.27, -49.67, -65.56] -70.5  Inventory: [0.0, 0.0, 0.0]  Order: [9.73, 9.92, 9.46] Demand: [11.57]
+Reward for thread 4: [-292.38, -92.04, -91.42] -158.61  Inventory: [1188.0, 0.0, 0.0]  Order: [10.28, 10.19, 10.11] Demand: [4.23]
+Reward for thread 5: [-347.2, -166.65, -137.87] -217.24  Inventory: [1198.0, 95.0, 0.0]  Order: [9.38, 10.36, 9.75] Demand: [3.405]
+
+ Algo happo Exp ippo_seed11_smoke5k_v1 updates 3/5 episodes, total num timesteps 4000/5000, FPS 114.
+
+Reward for thread 1: [-133.72, -94.86, -82.5] -103.69  Inventory: [138.0, 22.0, 37.0]  Order: [10.22, 10.25, 10.36] Demand: [9.58]
+Reward for thread 2: [-103.26, -71.8, -73.17] -82.74  Inventory: [0.0, 0.0, 0.0]  Order: [10.12, 9.96, 9.49] Demand: [11.055]
+Reward for thread 3: [-273.96, -94.25, -126.09] -164.77  Inventory: [0.0, 0.0, 154.0]  Order: [10.14, 9.97, 10.61] Demand: [15.51]
+Reward for thread 4: [-234.86, -127.42, -90.48] -150.92  Inventory: [0.0, 0.0, 2.0]  Order: [10.38, 9.48, 9.44] Demand: [14.18]
+Reward for thread 5: [-122.63, -81.96, -66.04] -90.21  Inventory: [606.0, 27.0, 95.0]  Order: [9.82, 9.81, 10.16] Demand: [6.865]
+
+ Algo happo Exp ippo_seed11_smoke5k_v1 updates 4/5 episodes, total num timesteps 5000/5000, FPS 117.
+
+Reward for thread 1: [-266.73, -104.16, -124.59] -165.16  Inventory: [1049.0, 5.0, 0.0]  Order: [9.92, 10.54, 10.04] Demand: [4.645]
+Reward for thread 2: [-290.15, -120.06, -105.34] -171.85  Inventory: [0.0, 0.0, 0.0]  Order: [10.58, 10.33, 10.2] Demand: [13.41]
+Reward for thread 3: [-327.11, -122.53, -108.5] -186.05  Inventory: [980.0, 150.0, 8.0]  Order: [9.55, 10.3, 10.26] Demand: [4.78]
+Reward for thread 4: [-130.75, -52.03, -70.41] -84.4  Inventory: [464.0, 0.0, 0.0]  Order: [9.36, 9.67, 9.18] Demand: [6.97]
+Reward for thread 5: [-34.1, -34.07, -33.83] -34.0  Inventory: [0.0, 0.0, 114.0]  Order: [10.2, 9.56, 10.07] Demand: [9.795]
+LEARNING_CURVE_COMPLETED {"actual_algorithm": "ippo", "seed": 11, "requested_budget": 5000, "completed_steps": 5000, "stop_reason": "budget", "initial_eval_cost": 294.7013333333333, "final_eval_cost": 302.15883333333335, "best_observed_evaluation": {"step": 0, "phase": "evaluation", "mean_actor_period_cost": 294.7013333333333}, "official_best_cost": null, "best_scheduled_evaluation": null, "final_model_directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\ippo_seed11_smoke5k_v1\\run_seed_12\\final_models", "max_reload_error": 0.0, "eval_traces": 20, "interpretation": "single-seed learning observation, not convergence or superiority evidence", "stability": {"stable": false, "steps": 5000, "minimum_steps": 100000, "window": 10, "median_change_limit": 0.01, "recent_cv_limit": 0.05, "best_change_limit": 0.01}}

@@ -129,3 +129,7 @@ python experiments/emergency_compatibility/train.py --describe
 - [协调父代v4](docs/2026-10-04-llm-coordinated-v4-results.md)
 
 后续对比围绕纯HAPPO、旧LLM库、实时一次生成与实时反馈方法展开，重点分析预测筛选及额外信息的贡献，并验证不同突发变化、通知可靠性和计算开销。若改进机制，将本批路径登记为已用数据，使用新的未见路径确认；不通过删种子、削弱对照或反复同测试优化来制造优势。
+
+### IPPO 基线准备（2026-10-05）
+
+最小适配已通过 5000 步实现检查：局部 critic、重要性因子恒为 1，保留作者原混合奖励。尚未完成五种子正式基线训练，短程不表示收敛或性能优势。见 [阶段结果](docs/2026-10-05-ippo-stage1-results.md)。

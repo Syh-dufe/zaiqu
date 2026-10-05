@@ -1,0 +1,30 @@
+{
+  "local_shapes": [
+    [
+      7
+    ],
+    [
+      7
+    ],
+    [
+      7
+    ]
+  ],
+  "central_shapes": [
+    [
+      21
+    ],
+    [
+      21
+    ],
+    [
+      21
+    ]
+  ],
+  "centralized": false,
+  "alpha": 0.5,
+  "api_calls": 0,
+  "syntax_ok": true,
+  "cwd_requirement": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory",
+  "reward_assertions_passed": true
+}
