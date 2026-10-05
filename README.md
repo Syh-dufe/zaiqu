@@ -16,7 +16,7 @@
 
 最新研究内容位于 [`codex/llm-current-v2`](https://github.com/Syh-dufe/zaiqu/tree/codex/llm-current-v2) 分支，尚未合并到 `main`。
 
-**HAPPO／IPPO／原实时LLM共同未见路径比较已冻结登记。** 五种子、四类冲击、每类10条新路径，计划1200回合、720000节点期；注册输入与512条已用路径无精确碰撞。离线连接检查120回合通过、API调用0，正式性能尚无结论。详见[共同测试注册说明](docs/2026-10-05-joint-baseline-confirmation-registration.md)。
+**HAPPO／IPPO／原实时LLM共同未见路径比较已启动。** 五种子、四类冲击、每类10条新路径，共1200回合、720000节点期；注册输入与512条已用路径无精确碰撞。离线连接检查120回合通过、API调用0，50项合同预检及注册包推送后首次开跑，正式性能尚无结论。详见[共同测试注册说明](docs/2026-10-05-joint-baseline-confirmation-registration.md)。
 
 ## 原实时机制的独立确认（既有批次）
 
