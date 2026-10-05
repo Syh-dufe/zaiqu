@@ -1,0 +1,1 @@
+REGISTERED_COHORT_COMPLETED {"comparison": "online_feedback-minus-ippo", "cost": {"mean": -2.2554999999999996, "low": -5.015110833333334, "high": 0.6175564583333334, "coverage": 0.975, "replicates": 20000}, "backlog": {"mean": 1.2510000000000001, "low": -1.6443028124999997, "high": 4.0054525000000005, "coverage": 0.975, "replicates": 20000}, "joint_improvement_supported": false}

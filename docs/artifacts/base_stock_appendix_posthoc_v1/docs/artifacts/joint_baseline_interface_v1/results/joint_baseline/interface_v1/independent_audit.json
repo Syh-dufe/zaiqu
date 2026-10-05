@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "node_periods": 24000,
+  "episodes_recomputed": 40,
+  "normal_validation_costs_reproduced": 5,
+  "api_calls": 0,
+  "snapshot_hashes_unchanged": true,
+  "report_before_action_verified": true
+}

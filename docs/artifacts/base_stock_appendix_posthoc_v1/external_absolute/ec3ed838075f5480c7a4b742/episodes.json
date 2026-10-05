@@ -1,0 +1,90 @@
+[
+  {
+    "group": "base_stock_z08",
+    "config": "z08",
+    "batch": 10,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 25.846666666666668,
+    "downstream_backlog": 12.605,
+    "ledger_verified": true
+  },
+  {
+    "group": "base_stock_z08",
+    "config": "z08",
+    "batch": 10,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 28.221666666666668,
+    "downstream_backlog": 1.705,
+    "ledger_verified": true
+  },
+  {
+    "group": "base_stock_z08",
+    "config": "z08",
+    "batch": 10,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 30.765,
+    "downstream_backlog": 0.485,
+    "ledger_verified": true
+  },
+  {
+    "group": "base_stock_z08",
+    "config": "z08",
+    "batch": 10,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 25.643333333333334,
+    "downstream_backlog": 0.485,
+    "ledger_verified": true
+  },
+  {
+    "group": "base_stock_z08",
+    "config": "z08",
+    "batch": 10,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 28.218333333333334,
+    "downstream_backlog": 1.08,
+    "ledger_verified": true
+  },
+  {
+    "group": "base_stock_z08",
+    "config": "z08",
+    "batch": 10,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 39.41166666666667,
+    "downstream_backlog": 1.02,
+    "ledger_verified": true
+  },
+  {
+    "group": "base_stock_z08",
+    "config": "z08",
+    "batch": 10,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 27.99,
+    "downstream_backlog": 21.4,
+    "ledger_verified": true
+  },
+  {
+    "group": "base_stock_z08",
+    "config": "z08",
+    "batch": 10,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 41.14,
+    "downstream_backlog": 11.42,
+    "ledger_verified": true
+  }
+]

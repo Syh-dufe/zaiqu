@@ -1,0 +1,17 @@
+{
+  "status": "completed",
+  "phase": "posthoc_additional_baseline_comparison",
+  "posthoc": true,
+  "prospective_independent_confirmation": false,
+  "episodes": 1360,
+  "node_periods": 816000,
+  "historical_episodes": 1200,
+  "new_episodes": 160,
+  "new_node_periods": 96000,
+  "api_requests": 0,
+  "new_api_requests": 0,
+  "historical_api_requests": 1713,
+  "summary_sha256": "797c938d017ad975d4930a9c8ea828d5eb4ed97d7ca9f62cb3b85294f33b6574",
+  "audit_sha256": "954dc415f93bc5c1b7f21af5324bedaf3e840621c6ecf804340b33925e8cb10d",
+  "seconds": 82.64828889997443
+}

@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "episodes": 1200,
+  "node_periods": 720000,
+  "completed_runs": 50,
+  "api_requests": 1713,
+  "semantic_requests": 1583,
+  "summary_sha256": "b90103afd1f06e99a001d2ca5a733db2b17f2abdacaafd2f4705ffd678da0c3b",
+  "training_updates": 0,
+  "all_registered_cases_retained": true
+}

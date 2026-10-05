@@ -1,0 +1,38 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+share_observation_space:  [Box(-inf, inf, (21,), float32), Box(-inf, inf, (21,), float32), Box(-inf, inf, (21,), float32)]
+observation_space:  [Box(-inf, inf, (7,), float32), Box(-inf, inf, (7,), float32), Box(-inf, inf, (7,), float32)]
+action_space:  [Discrete(21), Discrete(21), Discrete(21)]
+EPISODE {'group': 'happo', 'scenario': 'base', 'trace': 0, 'cost': 14.455, 'downstream_backlog': 1.775, 'generation_events': 0, 'episode_http': 0, 'notification_period': None}
+EPISODE {'group': 'happo', 'scenario': 'base', 'trace': 1, 'cost': 20.093333333333334, 'downstream_backlog': 1.61, 'generation_events': 0, 'episode_http': 0, 'notification_period': None}
+EPISODE {'group': 'happo', 'scenario': 'base', 'trace': 2, 'cost': 24.433333333333334, 'downstream_backlog': 5.555, 'generation_events': 0, 'episode_http': 0, 'notification_period': None}
+EPISODE {'group': 'happo', 'scenario': 'base', 'trace': 3, 'cost': 19.858333333333334, 'downstream_backlog': 3.36, 'generation_events': 0, 'episode_http': 0, 'notification_period': None}
+EPISODE {'group': 'happo', 'scenario': 'shock', 'trace': 0, 'cost': 19.88, 'downstream_backlog': 1.93, 'generation_events': 0, 'episode_http': 0, 'notification_period': 85}
+EPISODE {'group': 'happo', 'scenario': 'shock', 'trace': 1, 'cost': 22.406666666666666, 'downstream_backlog': 2.705, 'generation_events': 0, 'episode_http': 0, 'notification_period': 75}
+EPISODE {'group': 'happo', 'scenario': 'shock', 'trace': 2, 'cost': 30.92, 'downstream_backlog': 6.965, 'generation_events': 0, 'episode_http': 0, 'notification_period': 80}
+EPISODE {'group': 'happo', 'scenario': 'shock', 'trace': 3, 'cost': 18.695, 'downstream_backlog': 2.925, 'generation_events': 0, 'episode_http': 0, 'notification_period': 85}
+share_observation_space:  [Box(-inf, inf, (21,), float32), Box(-inf, inf, (21,), float32), Box(-inf, inf, (21,), float32)]
+observation_space:  [Box(-inf, inf, (7,), float32), Box(-inf, inf, (7,), float32), Box(-inf, inf, (7,), float32)]
+action_space:  [Discrete(21), Discrete(21), Discrete(21)]
+EPISODE {'group': 'ippo', 'scenario': 'base', 'trace': 0, 'cost': 15.291666666666666, 'downstream_backlog': 1.325, 'generation_events': 0, 'episode_http': 0, 'notification_period': None}
+EPISODE {'group': 'ippo', 'scenario': 'base', 'trace': 1, 'cost': 17.363333333333333, 'downstream_backlog': 1.325, 'generation_events': 0, 'episode_http': 0, 'notification_period': None}
+EPISODE {'group': 'ippo', 'scenario': 'base', 'trace': 2, 'cost': 18.713333333333335, 'downstream_backlog': 4.14, 'generation_events': 0, 'episode_http': 0, 'notification_period': None}
+EPISODE {'group': 'ippo', 'scenario': 'base', 'trace': 3, 'cost': 15.083333333333334, 'downstream_backlog': 2.22, 'generation_events': 0, 'episode_http': 0, 'notification_period': None}
+EPISODE {'group': 'ippo', 'scenario': 'shock', 'trace': 0, 'cost': 13.528333333333334, 'downstream_backlog': 1.2, 'generation_events': 0, 'episode_http': 0, 'notification_period': 85}
+EPISODE {'group': 'ippo', 'scenario': 'shock', 'trace': 1, 'cost': 16.156666666666666, 'downstream_backlog': 2.64, 'generation_events': 0, 'episode_http': 0, 'notification_period': 75}
+EPISODE {'group': 'ippo', 'scenario': 'shock', 'trace': 2, 'cost': 19.441666666666666, 'downstream_backlog': 4.75, 'generation_events': 0, 'episode_http': 0, 'notification_period': 80}
+EPISODE {'group': 'ippo', 'scenario': 'shock', 'trace': 3, 'cost': 16.21, 'downstream_backlog': 2.18, 'generation_events': 0, 'episode_http': 0, 'notification_period': 85}
+share_observation_space:  [Box(-inf, inf, (21,), float32), Box(-inf, inf, (21,), float32), Box(-inf, inf, (21,), float32)]
+observation_space:  [Box(-inf, inf, (7,), float32), Box(-inf, inf, (7,), float32), Box(-inf, inf, (7,), float32)]
+action_space:  [Discrete(21), Discrete(21), Discrete(21)]
+EPISODE {'group': 'online_feedback', 'scenario': 'base', 'trace': 0, 'cost': 14.455, 'downstream_backlog': 1.775, 'generation_events': 0, 'episode_http': 0, 'notification_period': None}
+EPISODE {'group': 'online_feedback', 'scenario': 'base', 'trace': 1, 'cost': 20.093333333333334, 'downstream_backlog': 1.61, 'generation_events': 0, 'episode_http': 0, 'notification_period': None}
+EPISODE {'group': 'online_feedback', 'scenario': 'base', 'trace': 2, 'cost': 24.433333333333334, 'downstream_backlog': 5.555, 'generation_events': 0, 'episode_http': 0, 'notification_period': None}
+EPISODE {'group': 'online_feedback', 'scenario': 'base', 'trace': 3, 'cost': 19.858333333333334, 'downstream_backlog': 3.36, 'generation_events': 0, 'episode_http': 0, 'notification_period': None}
+EPISODE {'group': 'online_feedback', 'scenario': 'shock', 'trace': 0, 'cost': 17.908333333333335, 'downstream_backlog': 1.905, 'generation_events': 4, 'episode_http': 8, 'notification_period': 85}
+EPISODE {'group': 'online_feedback', 'scenario': 'shock', 'trace': 1, 'cost': 22.406666666666666, 'downstream_backlog': 2.705, 'generation_events': 4, 'episode_http': 9, 'notification_period': 75}
+EPISODE {'group': 'online_feedback', 'scenario': 'shock', 'trace': 2, 'cost': 30.92, 'downstream_backlog': 6.965, 'generation_events': 4, 'episode_http': 8, 'notification_period': 80}
+EPISODE {'group': 'online_feedback', 'scenario': 'shock', 'trace': 3, 'cost': 18.34, 'downstream_backlog': 2.305, 'generation_events': 4, 'episode_http': 10, 'notification_period': 85}
+ONLINE_DRAFT_COMPLETED

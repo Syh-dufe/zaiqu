@@ -1,0 +1,16 @@
+[
+  {
+    "task": "seed15_batch02",
+    "label": "seed15_batch02",
+    "exit_code": 1,
+    "fatal_http": "HTTP_402",
+    "log_sha256": "4ba7b7da4e7e3f2ed2b6153b4fd0424e50d95e2cb78c5512004bb2e64f65ff3c"
+  },
+  {
+    "task": "seed15_batch02",
+    "label": "seed15_batch02_quota_recovery1",
+    "exit_code": 1,
+    "fatal_http": "HTTP_402",
+    "log_sha256": "50a26da1a019a0a1624d3d91ca3973adc98e9c63acd1644b4c021d55979d9b4d"
+  }
+]

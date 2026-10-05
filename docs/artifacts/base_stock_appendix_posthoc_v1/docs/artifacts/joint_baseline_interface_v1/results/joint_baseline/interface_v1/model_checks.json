@@ -1,0 +1,57 @@
+[
+  {
+    "seed": 11,
+    "normal_validation_cost": 19.389416666666666,
+    "expected_cost": 19.389416666666666,
+    "original_validation_episodes": 20,
+    "replay_episodes": 8,
+    "critic_dim": 7,
+    "before": "52f0cac0638e780865cfefbad1cdad0169096091ec40a25f6ce9466a9cd8491b",
+    "after": "52f0cac0638e780865cfefbad1cdad0169096091ec40a25f6ce9466a9cd8491b",
+    "unchanged": true
+  },
+  {
+    "seed": 12,
+    "normal_validation_cost": 20.48475,
+    "expected_cost": 20.48475,
+    "original_validation_episodes": 20,
+    "replay_episodes": 8,
+    "critic_dim": 7,
+    "before": "d7807ef402d759baf6ce30fc545239e92135f92a9229ec5f840ea8f3b95cc715",
+    "after": "d7807ef402d759baf6ce30fc545239e92135f92a9229ec5f840ea8f3b95cc715",
+    "unchanged": true
+  },
+  {
+    "seed": 13,
+    "normal_validation_cost": 20.399833333333333,
+    "expected_cost": 20.399833333333333,
+    "original_validation_episodes": 20,
+    "replay_episodes": 8,
+    "critic_dim": 7,
+    "before": "24ca0de4019a9a4e012e564d88d1e33f813919e1058ad4ee8e137452563bd676",
+    "after": "24ca0de4019a9a4e012e564d88d1e33f813919e1058ad4ee8e137452563bd676",
+    "unchanged": true
+  },
+  {
+    "seed": 14,
+    "normal_validation_cost": 21.792833333333334,
+    "expected_cost": 21.792833333333334,
+    "original_validation_episodes": 20,
+    "replay_episodes": 8,
+    "critic_dim": 7,
+    "before": "b15c8b74e04ee5e76eab21e17170ac1cf0767b3ff12fd9efab439ef921053870",
+    "after": "b15c8b74e04ee5e76eab21e17170ac1cf0767b3ff12fd9efab439ef921053870",
+    "unchanged": true
+  },
+  {
+    "seed": 15,
+    "normal_validation_cost": 21.51425,
+    "expected_cost": 21.51425,
+    "original_validation_episodes": 20,
+    "replay_episodes": 8,
+    "critic_dim": 7,
+    "before": "77d48de92e97cd5394ea3884cec28a753cbc143ddd419620693d827b4e2633cf",
+    "after": "77d48de92e97cd5394ea3884cec28a753cbc143ddd419620693d827b4e2633cf",
+    "unchanged": true
+  }
+]

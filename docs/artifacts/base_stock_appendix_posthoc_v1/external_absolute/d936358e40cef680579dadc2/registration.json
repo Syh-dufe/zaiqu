@@ -1,0 +1,48 @@
+{
+  "status": "passed_no_api_audit_recovery",
+  "hashes": {
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\joint_baseline_recovery\\continue.py": "cf9d8221cdb50347fc1c3bbc11038e5f9a69b9943dd9a60999b8abbf7a0abbb8",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\superpowers\\plans\\2026-10-05-joint-baseline-audit-import-recovery.md": "e6894b449ddb470138d120ed34d399ca75daca07ca99d7a4b0d2f6c0f99f8bb4",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\failed.json": "630179e07527363d87de02461dacc7dd2eb38f6d074bfc2bfa7b48ae22039cd6",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\error.log": "03881f3807c065c64be4d8b3bd50ecd7ff375f873858f9b1b66042e108627acf",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\freeze.json": "2bef07e97eb8109627ed7c48b392086a90ff3be2bbe40dc17d920ed080c52692",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\manifest.json": "9cfe3431328cd9c76f5c0154139bbf2244f18187f6ca175fa5e0415b2720af3f",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\preflight.json": "fca55dea4fc27badbcdef342f54d8873da8ff5c45ab174190bcfc59526cb4bbf"
+  },
+  "reused_task": {
+    "seed": 11,
+    "batch": 1,
+    "run_label": "seed11_batch01",
+    "episodes": 24,
+    "node_periods": 14400,
+    "completed_sha256": "e19e580a35150db64883b483a878f21f9eaa735c78166cc1dd65dff5dbf2ff93",
+    "input_sha256": "72ce98ab397556f47b0c69498dc40c18d0cab9d7573bf50bf90a866079db26ba",
+    "runtime_failures": [],
+    "reused_completed_task": true
+  },
+  "completed_task_hashes": {
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch01\\calls.json": "ac9306369123789184d9063d380e664e6b8e0174c01c64a569dc39012d205f56",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch01\\completed.json": "e19e580a35150db64883b483a878f21f9eaa735c78166cc1dd65dff5dbf2ff93",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch01\\delivered_reports.json": "1b39f6b80c2d46faae41ab7b64769fc73d8c1e48619d2007dc510c0c1780f065",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch01\\demands.json": "72ce98ab397556f47b0c69498dc40c18d0cab9d7573bf50bf90a866079db26ba",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch01\\episodes.json": "a8620cddc804ad78dfe1e31a930d38812eef2a13e7cd3eb5a36611a95af1c1ef",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch01\\information_audits.json": "76855e30cadba7b9890d4ceb1b59bd7bd0ce0022911123b3794659dab8b051f3",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch01\\periods.csv": "28154694ceef1bb4085d361c2dad0339cfacde96e2a39a9642b8da0cce46e19e",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch01\\protocol.json": "bd40b38e6569dfec286be9138d7905fed65274709a87b14b3ff2d0f7ffe9207a",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch01\\runtime_failures.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch01\\scores.json": "3a6f9b0b03189b978f44e9dce8793c1e61b332d1e0fa7e8ced4ab146dd48548c",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch01\\happo\\logs\\events.out.tfevents.1791198398.石原赫的电脑": "db03cbda5eeb5a3abf5ab0919c8523ff725e71888027813fbf6f50cae00438c9",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch01\\ippo\\logs\\events.out.tfevents.1791198404.石原赫的电脑": "2a6764b6b7434439ce8eabc6dad3404fe96097b0a152c032253f8683a626e94b",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch01\\online_feedback\\logs\\events.out.tfevents.1791198409.石原赫的电脑": "bcb3b10b2f15d88715f1b6affa2dcb263da34d81d975e802371b09fa256bddf3"
+  },
+  "original_registration": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1",
+  "original_manifest_sha256": "9cfe3431328cd9c76f5c0154139bbf2244f18187f6ca175fa5e0415b2720af3f",
+  "simulation_source_unchanged": true,
+  "new_inputs": false,
+  "new_api_calls": 0,
+  "first_task_api_calls_preserved": 34,
+  "remaining_tasks": 49,
+  "original_caps_and_statistics_unchanged": true,
+  "root_cause": "Runner prepends online_llm to sys.path; generic import analyze resolves to online_llm/analyze.py.",
+  "repair": "Explicit file-path load and deterministic analyze module binding only; original runner/source/data untouched."
+}

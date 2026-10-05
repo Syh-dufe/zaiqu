@@ -1,0 +1,175 @@
+{
+  "status": "passed",
+  "phase": "posthoc_additional_baseline_comparison",
+  "new_api_requests": 0,
+  "historical_rl_episodes": 1200,
+  "new_base_stock_episodes": 160,
+  "total_episodes": 1360,
+  "historical_rows": 720000,
+  "new_rows": 96000,
+  "total_rows": 816000,
+  "base_stock": [
+    {
+      "config": "z02",
+      "batch": 1,
+      "rows": 4800,
+      "episodes": 8,
+      "independent_state_cost_ledger": true,
+      "numerical_boundaries": []
+    },
+    {
+      "config": "z02",
+      "batch": 2,
+      "rows": 4800,
+      "episodes": 8,
+      "independent_state_cost_ledger": true,
+      "numerical_boundaries": []
+    },
+    {
+      "config": "z02",
+      "batch": 3,
+      "rows": 4800,
+      "episodes": 8,
+      "independent_state_cost_ledger": true,
+      "numerical_boundaries": []
+    },
+    {
+      "config": "z02",
+      "batch": 4,
+      "rows": 4800,
+      "episodes": 8,
+      "independent_state_cost_ledger": true,
+      "numerical_boundaries": []
+    },
+    {
+      "config": "z02",
+      "batch": 5,
+      "rows": 4800,
+      "episodes": 8,
+      "independent_state_cost_ledger": true,
+      "numerical_boundaries": []
+    },
+    {
+      "config": "z02",
+      "batch": 6,
+      "rows": 4800,
+      "episodes": 8,
+      "independent_state_cost_ledger": true,
+      "numerical_boundaries": []
+    },
+    {
+      "config": "z02",
+      "batch": 7,
+      "rows": 4800,
+      "episodes": 8,
+      "independent_state_cost_ledger": true,
+      "numerical_boundaries": []
+    },
+    {
+      "config": "z02",
+      "batch": 8,
+      "rows": 4800,
+      "episodes": 8,
+      "independent_state_cost_ledger": true,
+      "numerical_boundaries": []
+    },
+    {
+      "config": "z02",
+      "batch": 9,
+      "rows": 4800,
+      "episodes": 8,
+      "independent_state_cost_ledger": true,
+      "numerical_boundaries": []
+    },
+    {
+      "config": "z02",
+      "batch": 10,
+      "rows": 4800,
+      "episodes": 8,
+      "independent_state_cost_ledger": true,
+      "numerical_boundaries": []
+    },
+    {
+      "config": "z08",
+      "batch": 1,
+      "rows": 4800,
+      "episodes": 8,
+      "independent_state_cost_ledger": true,
+      "numerical_boundaries": []
+    },
+    {
+      "config": "z08",
+      "batch": 2,
+      "rows": 4800,
+      "episodes": 8,
+      "independent_state_cost_ledger": true,
+      "numerical_boundaries": []
+    },
+    {
+      "config": "z08",
+      "batch": 3,
+      "rows": 4800,
+      "episodes": 8,
+      "independent_state_cost_ledger": true,
+      "numerical_boundaries": []
+    },
+    {
+      "config": "z08",
+      "batch": 4,
+      "rows": 4800,
+      "episodes": 8,
+      "independent_state_cost_ledger": true,
+      "numerical_boundaries": []
+    },
+    {
+      "config": "z08",
+      "batch": 5,
+      "rows": 4800,
+      "episodes": 8,
+      "independent_state_cost_ledger": true,
+      "numerical_boundaries": []
+    },
+    {
+      "config": "z08",
+      "batch": 6,
+      "rows": 4800,
+      "episodes": 8,
+      "independent_state_cost_ledger": true,
+      "numerical_boundaries": []
+    },
+    {
+      "config": "z08",
+      "batch": 7,
+      "rows": 4800,
+      "episodes": 8,
+      "independent_state_cost_ledger": true,
+      "numerical_boundaries": []
+    },
+    {
+      "config": "z08",
+      "batch": 8,
+      "rows": 4800,
+      "episodes": 8,
+      "independent_state_cost_ledger": true,
+      "numerical_boundaries": []
+    },
+    {
+      "config": "z08",
+      "batch": 9,
+      "rows": 4800,
+      "episodes": 8,
+      "independent_state_cost_ledger": true,
+      "numerical_boundaries": []
+    },
+    {
+      "config": "z08",
+      "batch": 10,
+      "rows": 4800,
+      "episodes": 8,
+      "independent_state_cost_ledger": true,
+      "numerical_boundaries": []
+    }
+  ],
+  "original_sources_unchanged": true,
+  "copied_history_byte_identical": true
+}

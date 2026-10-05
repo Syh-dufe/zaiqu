@@ -1,0 +1,40 @@
+{
+  "actual_algorithm": "ippo",
+  "factor_updates": 2280,
+  "factors_all_one": true,
+  "critic_dim": 7,
+  "seed": 11,
+  "stability_excluding_extra_final_evaluation": {
+    "stable": true,
+    "steps": 760000,
+    "minimum_steps": 100000,
+    "window": 10,
+    "median_change_limit": 0.01,
+    "recent_cv_limit": 0.05,
+    "best_change_limit": 0.01,
+    "median_change": 0.0033557473067860875,
+    "best_change": 0.004424846100580365,
+    "recent_cv": 0.03918857110728667
+  },
+  "model_matches": {
+    "official_best": {
+      "sha256": "52f0cac0638e780865cfefbad1cdad0169096091ec40a25f6ce9466a9cd8491b",
+      "matching_steps": [
+        595000
+      ]
+    },
+    "final": {
+      "sha256": "cb48b8d16a2630bf75355a0c180193841ccdded96c5d2e001713f8daa422a03c",
+      "matching_steps": [
+        760000
+      ]
+    }
+  },
+  "evaluated_original_costs": {
+    "official_best": 19.389416666666666,
+    "final": 24.856083333333334
+  },
+  "original_eval_traces": 20,
+  "stop_reason": "empirical_plateau",
+  "note": "Best selected only using original normal-demand evaluation; no disaster test data used"
+}

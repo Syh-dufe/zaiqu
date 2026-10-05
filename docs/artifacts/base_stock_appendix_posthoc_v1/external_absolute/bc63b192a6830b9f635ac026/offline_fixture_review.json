@@ -1,0 +1,10 @@
+{
+  "report": "docs/2026-10-05-joint-baseline-code-review.md",
+  "report_sha256": "27dbd487327213b40eb94928f9a5df2fb8b15ee23bd3c1d2e2e0bf33f2eb8777",
+  "reviewed_post_verification_changes": {
+    "experiments\\joint_baseline_confirmation\\batch.py": {
+      "tested_sha256": "95935d9e6da4ec246eefd22724cd09101f2aff3d73711c6289e452063fb2bb24",
+      "current_sha256": "ef6f44fcc5ac059f454816492ce0bd125cdb301cdace39ab1aa59758b2a187cb"
+    }
+  }
+}

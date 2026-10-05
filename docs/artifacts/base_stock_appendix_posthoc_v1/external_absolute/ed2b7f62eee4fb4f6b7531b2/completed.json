@@ -1,0 +1,13 @@
+{
+  "phase": "posthoc_additional_baseline_comparison",
+  "episodes": 8,
+  "rows": 4800,
+  "api_requests": 0,
+  "training_updates": 0,
+  "input_sha256": "17bea0b18667a2ada86b065ab8da1dfe70f8861f51ad6cc31187c78f2c781762",
+  "files_sha256": {
+    "config.json": "712c639a8086b6cfb5297a209b98b885f9e697b864410c645ad596d819348aca",
+    "episodes.json": "48b8950dd44014f8a69fa53dde8e102eb4b8f2c105f02cdb21d6bb00868bfd0f",
+    "periods.csv.gz": "84dd3605ce69ec554a2a16bd4100923c5fde6c4e97afccd08e5676159c4a1ee3"
+  }
+}

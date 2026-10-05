@@ -1,0 +1,409 @@
+{
+  "phase": "posthoc_additional_baseline_comparison",
+  "api_requests": 0,
+  "new_rl_rollouts": 0,
+  "historical_episodes": 1200,
+  "historical_rows": 720000,
+  "runs": [
+    {
+      "seed": 11,
+      "batch": 1,
+      "label": "seed11_batch01",
+      "episodes": 24,
+      "rows": 14400,
+      "completed_sha256": "e19e580a35150db64883b483a878f21f9eaa735c78166cc1dd65dff5dbf2ff93"
+    },
+    {
+      "seed": 11,
+      "batch": 2,
+      "label": "seed11_batch02",
+      "episodes": 24,
+      "rows": 14400,
+      "completed_sha256": "d01cad6c32c98b62171c8692dcb5154a81a95d4fdba8f28cb0f797b062dea5f4"
+    },
+    {
+      "seed": 11,
+      "batch": 3,
+      "label": "seed11_batch03",
+      "episodes": 24,
+      "rows": 14400,
+      "completed_sha256": "e0006048c8799f497ca9d5f26e655141ddd9c24c6ea7e0dfd54774fa665c85c5"
+    },
+    {
+      "seed": 11,
+      "batch": 4,
+      "label": "seed11_batch04",
+      "episodes": 24,
+      "rows": 14400,
+      "completed_sha256": "8298f6373da6555cd06718010571e5594357777b301dfc3ab09ab1041da8c90b"
+    },
+    {
+      "seed": 11,
+      "batch": 5,
+      "label": "seed11_batch05",
+      "episodes": 24,
+      "rows": 14400,
+      "completed_sha256": "0370ee6b10c8e3db7eb40c14aebe6871080efa7b373001c74c7b5c1c71b18012"
+    },
+    {
+      "seed": 11,
+      "batch": 6,
+      "label": "seed11_batch06",
+      "episodes": 24,
+      "rows": 14400,
+      "completed_sha256": "d7ed4970bbd56787e05edbc2d50d06432a5ef33676b4411e8e8feef3230ea5b9"
+    },
+    {
+      "seed": 11,
+      "batch": 7,
+      "label": "seed11_batch07",
+      "episodes": 24,
+      "rows": 14400,
+      "completed_sha256": "b019d49a89e9522a092e3bb42e0384448e3c336487560240f49160fcdb1521c4"
+    },
+    {
+      "seed": 11,
+      "batch": 8,
+      "label": "seed11_batch08",
+      "episodes": 24,
+      "rows": 14400,
+      "completed_sha256": "31e5111ae17e3dc7d84e110eaa178f8bcbaf3caab86f84c4e3f5623cb884b8e7"
+    },
+    {
+      "seed": 11,
+      "batch": 9,
+      "label": "seed11_batch09",
+      "episodes": 24,
+      "rows": 14400,
+      "completed_sha256": "613100ac38b2c150189c89a11c1f8866187601a716a1c791b241fc7a423c4db4"
+    },
+    {
+      "seed": 11,
+      "batch": 10,
+      "label": "seed11_batch10",
+      "episodes": 24,
+      "rows": 14400,
+      "completed_sha256": "d3ae946eddc447ccb26bb19743ab14ec86e8ec2028088e3eb3f2dec9b39adf31"
+    },
+    {
+      "seed": 12,
+      "batch": 1,
+      "label": "seed12_batch01",
+      "episodes": 24,
+      "rows": 14400,
+      "completed_sha256": "fc023777a633e4f0ba4880964984ed1d8118cc694d6e9c76cfa279e6bb18efe7"
+    },
+    {
+      "seed": 12,
+      "batch": 2,
+      "label": "seed12_batch02",
+      "episodes": 24,
+      "rows": 14400,
+      "completed_sha256": "50d9f6a9abb682fcca0713274e9b6ff5f4e968b28f6dbcf087a9ca4ae388a76c"
+    },
+    {
+      "seed": 12,
+      "batch": 3,
+      "label": "seed12_batch03",
+      "episodes": 24,
+      "rows": 14400,
+      "completed_sha256": "74f19a64e9f52e4e38ffacffec8d70076bc40b3926088d1d64172aa3bbb439cc"
+    },
+    {
+      "seed": 12,
+      "batch": 4,
+      "label": "seed12_batch04",
+      "episodes": 24,
+      "rows": 14400,
+      "completed_sha256": "4d2f5d710c8fda4c4d34838f6e9d63761592c2a9521a08f94ca3cedd30a45667"
+    },
+    {
+      "seed": 12,
+      "batch": 5,
+      "label": "seed12_batch05",
+      "episodes": 24,
+      "rows": 14400,
+      "completed_sha256": "ed55a1914b79a9afc9e14c63628fb555e41c3987cc629103662a620b34de6b47"
+    },
+    {
+      "seed": 12,
+      "batch": 6,
+      "label": "seed12_batch06",
+      "episodes": 24,
+      "rows": 14400,
+      "completed_sha256": "875b7242f5b38bcbf30af2ed9c9639cbad4d40246d4790fa609203b610c978df"
+    },
+    {
+      "seed": 12,
+      "batch": 7,
+      "label": "seed12_batch07",
+      "episodes": 24,
+      "rows": 14400,
+      "completed_sha256": "ab9990b5642e8cffb88be27becb264776073eb199f90337df7de471eabc502b8"
+    },
+    {
+      "seed": 12,
+      "batch": 8,
+      "label": "seed12_batch08",
+      "episodes": 24,
+      "rows": 14400,
+      "completed_sha256": "2557c063b734cd047666e479959591118a5764ca7d219a0d23d795cc88f07079"
+    },
+    {
+      "seed": 12,
+      "batch": 9,
+      "label": "seed12_batch09",
+      "episodes": 24,
+      "rows": 14400,
+      "completed_sha256": "c755fbfa6fb2c88239011ce077e9a0df28d9a894160e1d10c18c6d23ae3f65fa"
+    },
+    {
+      "seed": 12,
+      "batch": 10,
+      "label": "seed12_batch10",
+      "episodes": 24,
+      "rows": 14400,
+      "completed_sha256": "5c9895f35239df972c555a5648a4c07e078339ecd99c8d8af69e1838a4dedf03"
+    },
+    {
+      "seed": 13,
+      "batch": 1,
+      "label": "seed13_batch01",
+      "episodes": 24,
+      "rows": 14400,
+      "completed_sha256": "22a29c1d21f0eca7b3d340a7b89882308c1514e6432273278231458907084065"
+    },
+    {
+      "seed": 13,
+      "batch": 2,
+      "label": "seed13_batch02",
+      "episodes": 24,
+      "rows": 14400,
+      "completed_sha256": "90e609db82d698d957ce76a8c5b9ae24b2ef03087d03856010e04b4de0478069"
+    },
+    {
+      "seed": 13,
+      "batch": 3,
+      "label": "seed13_batch03",
+      "episodes": 24,
+      "rows": 14400,
+      "completed_sha256": "8528416de6f8efeb9580865733e51ed52507bba6085b1d079c4963acf8ccde2b"
+    },
+    {
+      "seed": 13,
+      "batch": 4,
+      "label": "seed13_batch04",
+      "episodes": 24,
+      "rows": 14400,
+      "completed_sha256": "fde50f97591fb5a7787ce166af5308bea227a4a23dc414b83c9b9bded33a5a63"
+    },
+    {
+      "seed": 13,
+      "batch": 5,
+      "label": "seed13_batch05",
+      "episodes": 24,
+      "rows": 14400,
+      "completed_sha256": "3cdddccc7a904d7f4a2025e56a4c4c8dc28fdd733d6df2fd2be751f99c1c9e28"
+    },
+    {
+      "seed": 13,
+      "batch": 6,
+      "label": "seed13_batch06",
+      "episodes": 24,
+      "rows": 14400,
+      "completed_sha256": "d9d2e8698e6a3174c11eaf3b303e5aebbbc8b0070263f840290959d57feda146"
+    },
+    {
+      "seed": 13,
+      "batch": 7,
+      "label": "seed13_batch07",
+      "episodes": 24,
+      "rows": 14400,
+      "completed_sha256": "81680ff3867ad0f29e259c1910ca665aa86b4294e96843002788e441272b50fc"
+    },
+    {
+      "seed": 13,
+      "batch": 8,
+      "label": "seed13_batch08",
+      "episodes": 24,
+      "rows": 14400,
+      "completed_sha256": "51ce8055cd23c58aa01ef5027268c94bbf08494e8d57c76c6bfd1d85c624fe2c"
+    },
+    {
+      "seed": 13,
+      "batch": 9,
+      "label": "seed13_batch09",
+      "episodes": 24,
+      "rows": 14400,
+      "completed_sha256": "817032e0444a6092974468b0d2f0cca993b1c32ad8619874086ba4b2666c02ab"
+    },
+    {
+      "seed": 13,
+      "batch": 10,
+      "label": "seed13_batch10",
+      "episodes": 24,
+      "rows": 14400,
+      "completed_sha256": "c6c1ccc90cfafbe7b34cbe2083ed3fbbb33d2e29d42f7e4bdb03b773022878c5"
+    },
+    {
+      "seed": 14,
+      "batch": 1,
+      "label": "seed14_batch01",
+      "episodes": 24,
+      "rows": 14400,
+      "completed_sha256": "49d817953b822c80fa0f79f70d3ebb0435df6fad0172842e8f38eebdcf9ffdb4"
+    },
+    {
+      "seed": 14,
+      "batch": 2,
+      "label": "seed14_batch02",
+      "episodes": 24,
+      "rows": 14400,
+      "completed_sha256": "4afd674dac8df29711f63814315db29371e6418231bc468306dc415611e80382"
+    },
+    {
+      "seed": 14,
+      "batch": 3,
+      "label": "seed14_batch03",
+      "episodes": 24,
+      "rows": 14400,
+      "completed_sha256": "991b449f1bc2b8fecc4a12239a3abcdb31bf22ba30b216ca5881427d5ad67968"
+    },
+    {
+      "seed": 14,
+      "batch": 4,
+      "label": "seed14_batch04",
+      "episodes": 24,
+      "rows": 14400,
+      "completed_sha256": "c1bb4eb1784ca6980454ef7c3c1fa65102106848cc2ffb32d2b179c4d5ce8412"
+    },
+    {
+      "seed": 14,
+      "batch": 5,
+      "label": "seed14_batch05",
+      "episodes": 24,
+      "rows": 14400,
+      "completed_sha256": "625639312c341306a8dbfa83955ff2c3dd4e0d9b08801992a589c6f660a68159"
+    },
+    {
+      "seed": 14,
+      "batch": 6,
+      "label": "seed14_batch06",
+      "episodes": 24,
+      "rows": 14400,
+      "completed_sha256": "d98767c7798bcab67885c80cfc98098e35b1d2e056462c2142832b20d0ae7b74"
+    },
+    {
+      "seed": 14,
+      "batch": 7,
+      "label": "seed14_batch07",
+      "episodes": 24,
+      "rows": 14400,
+      "completed_sha256": "4201e3a5f1bab443bed6aed10748183fa584a7056e2ada192704481c01d95100"
+    },
+    {
+      "seed": 14,
+      "batch": 8,
+      "label": "seed14_batch08",
+      "episodes": 24,
+      "rows": 14400,
+      "completed_sha256": "0f59467aacaa2e7cd780c940c27d74b3a7088202404c2372ee74ea11b0584410"
+    },
+    {
+      "seed": 14,
+      "batch": 9,
+      "label": "seed14_batch09",
+      "episodes": 24,
+      "rows": 14400,
+      "completed_sha256": "8f04482efd54307d3fece5ddfc4447964b046349c4a0fdac8b0d78cd28e9497a"
+    },
+    {
+      "seed": 14,
+      "batch": 10,
+      "label": "seed14_batch10",
+      "episodes": 24,
+      "rows": 14400,
+      "completed_sha256": "bd9ad1fa43eff4619c3592349b3822a77e7c3f5399dade208f1bab3f4c88e3bf"
+    },
+    {
+      "seed": 15,
+      "batch": 1,
+      "label": "seed15_batch01",
+      "episodes": 24,
+      "rows": 14400,
+      "completed_sha256": "8bad13fb8b07664c22d775087dfa8588d5e17c322a51ed7e219f526bec9881cb"
+    },
+    {
+      "seed": 15,
+      "batch": 2,
+      "label": "seed15_batch02_quota_recovery_recharge1",
+      "episodes": 24,
+      "rows": 14400,
+      "completed_sha256": "c0bfbe87d0ca0c66f916b4c98a47aa6df958bb04bbb970bebeb8a3e14cc0581e"
+    },
+    {
+      "seed": 15,
+      "batch": 3,
+      "label": "seed15_batch03",
+      "episodes": 24,
+      "rows": 14400,
+      "completed_sha256": "f78ec3b6e7d734b509f81f248f56371966de6ad414706ee698cdbd70c0f9e501"
+    },
+    {
+      "seed": 15,
+      "batch": 4,
+      "label": "seed15_batch04",
+      "episodes": 24,
+      "rows": 14400,
+      "completed_sha256": "0b7942a9d0dfc69ab72e4ce2937d226f3778b0cbe6c268cadfce64211de56fc7"
+    },
+    {
+      "seed": 15,
+      "batch": 5,
+      "label": "seed15_batch05",
+      "episodes": 24,
+      "rows": 14400,
+      "completed_sha256": "f831a24a8c7338a8e8e7a08c6f9942f1b1a2a08a9a547f92009746ecd7cbcf19"
+    },
+    {
+      "seed": 15,
+      "batch": 6,
+      "label": "seed15_batch06",
+      "episodes": 24,
+      "rows": 14400,
+      "completed_sha256": "8fb21dda6375ce34cfeb1fc9c1465403184553fdc900c0d3c11d9c9cf8d3ca4f"
+    },
+    {
+      "seed": 15,
+      "batch": 7,
+      "label": "seed15_batch07",
+      "episodes": 24,
+      "rows": 14400,
+      "completed_sha256": "846017c8174eb56524a411d4b1cb97b78b931fdb29831db59765c5189d8a34d8"
+    },
+    {
+      "seed": 15,
+      "batch": 8,
+      "label": "seed15_batch08",
+      "episodes": 24,
+      "rows": 14400,
+      "completed_sha256": "1c015e4bfb9dec4598eca9a2595979df4d87bc226f4bfa710402623fac8eeafb"
+    },
+    {
+      "seed": 15,
+      "batch": 9,
+      "label": "seed15_batch09",
+      "episodes": 24,
+      "rows": 14400,
+      "completed_sha256": "10dd834c5bc36364e06f739b862e2f813ec4015abd2e5423cd68a9ac25e3246f"
+    },
+    {
+      "seed": 15,
+      "batch": 10,
+      "label": "seed15_batch10",
+      "episodes": 24,
+      "rows": 14400,
+      "completed_sha256": "3620ae35484a09270dfcbb432c1687f90a68506c808c16de5bd62d39bb9e371b"
+    }
+  ]
+}

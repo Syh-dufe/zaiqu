@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "C:\Users\13384\.codex\worktrees\zaiqu-formal-bc\experiments\joint_baseline_recovery\continue.py", line 129, in <module>
+    register() if args.register else run()
+                                     ^^^^^
+  File "C:\Users\13384\.codex\worktrees\zaiqu-formal-bc\experiments\joint_baseline_recovery\continue.py", line 108, in run
+    raise RuntimeError(f'{task} failed: {fatal or "program/audit error"}; preserve and diagnose')
+RuntimeError: seed15_batch02 failed: HTTP_402; preserve and diagnose

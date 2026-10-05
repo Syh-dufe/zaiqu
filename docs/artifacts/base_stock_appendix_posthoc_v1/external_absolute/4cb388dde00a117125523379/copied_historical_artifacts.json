@@ -1,0 +1,2082 @@
+{
+  "no_rl_rerun": true,
+  "new_api_requests": 0,
+  "files": {
+    "runs\\seed11_batch01\\calls.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch01\\calls.json",
+      "sha256": "ac9306369123789184d9063d380e664e6b8e0174c01c64a569dc39012d205f56"
+    },
+    "runs\\seed11_batch01\\completed.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch01\\completed.json",
+      "sha256": "e19e580a35150db64883b483a878f21f9eaa735c78166cc1dd65dff5dbf2ff93"
+    },
+    "runs\\seed11_batch01\\delivered_reports.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch01\\delivered_reports.json",
+      "sha256": "1b39f6b80c2d46faae41ab7b64769fc73d8c1e48619d2007dc510c0c1780f065"
+    },
+    "runs\\seed11_batch01\\demands.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch01\\demands.json",
+      "sha256": "72ce98ab397556f47b0c69498dc40c18d0cab9d7573bf50bf90a866079db26ba"
+    },
+    "runs\\seed11_batch01\\episodes.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch01\\episodes.json",
+      "sha256": "a8620cddc804ad78dfe1e31a930d38812eef2a13e7cd3eb5a36611a95af1c1ef"
+    },
+    "runs\\seed11_batch01\\information_audits.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch01\\information_audits.json",
+      "sha256": "76855e30cadba7b9890d4ceb1b59bd7bd0ce0022911123b3794659dab8b051f3"
+    },
+    "runs\\seed11_batch01\\periods.csv": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch01\\periods.csv",
+      "sha256": "28154694ceef1bb4085d361c2dad0339cfacde96e2a39a9642b8da0cce46e19e"
+    },
+    "runs\\seed11_batch01\\protocol.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch01\\protocol.json",
+      "sha256": "bd40b38e6569dfec286be9138d7905fed65274709a87b14b3ff2d0f7ffe9207a"
+    },
+    "runs\\seed11_batch01\\runtime_failures.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch01\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "runs\\seed11_batch01\\scores.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch01\\scores.json",
+      "sha256": "3a6f9b0b03189b978f44e9dce8793c1e61b332d1e0fa7e8ced4ab146dd48548c"
+    },
+    "runs\\seed11_batch02\\calls.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch02\\calls.json",
+      "sha256": "72680892fa7edc7569e8a25c39930dbdfc63701634a1a41101e1fef3fc9aaeb5"
+    },
+    "runs\\seed11_batch02\\completed.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch02\\completed.json",
+      "sha256": "d01cad6c32c98b62171c8692dcb5154a81a95d4fdba8f28cb0f797b062dea5f4"
+    },
+    "runs\\seed11_batch02\\delivered_reports.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch02\\delivered_reports.json",
+      "sha256": "81d1a4f6ab896ad48307c0b18e56c7c4885c5f7785610dcd27f908ae13fd04ef"
+    },
+    "runs\\seed11_batch02\\demands.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch02\\demands.json",
+      "sha256": "17bea0b18667a2ada86b065ab8da1dfe70f8861f51ad6cc31187c78f2c781762"
+    },
+    "runs\\seed11_batch02\\episodes.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch02\\episodes.json",
+      "sha256": "89461021b955050b1bbb662b9d3f855e8cd211586927c8b9b27e632de0951c57"
+    },
+    "runs\\seed11_batch02\\information_audits.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch02\\information_audits.json",
+      "sha256": "040327495d50b2a3a317a12e59e992dd0739a4f8162139ea1338df7560e9e5dc"
+    },
+    "runs\\seed11_batch02\\periods.csv": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch02\\periods.csv",
+      "sha256": "1a1edd2daf47da2c7f993baf6368e8fb097e3d4a2743e0eeb406186c4d0d43c7"
+    },
+    "runs\\seed11_batch02\\protocol.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch02\\protocol.json",
+      "sha256": "11e038a1b1e6fbc28e39b7ef889eb1aaf1495edfede5857491f660b08be5f218"
+    },
+    "runs\\seed11_batch02\\runtime_failures.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch02\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "runs\\seed11_batch02\\scores.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch02\\scores.json",
+      "sha256": "cbb87f7a8078caeac81c8320d66e8254bfad373ac61e6cbc41ecac80b7b2b38a"
+    },
+    "runs\\seed11_batch03\\calls.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch03\\calls.json",
+      "sha256": "80341af978b2ed9c6e13b5b6b9949529a7567a7073c8fbfbd66b28b5f0ffee88"
+    },
+    "runs\\seed11_batch03\\completed.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch03\\completed.json",
+      "sha256": "e0006048c8799f497ca9d5f26e655141ddd9c24c6ea7e0dfd54774fa665c85c5"
+    },
+    "runs\\seed11_batch03\\delivered_reports.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch03\\delivered_reports.json",
+      "sha256": "3e2d4af1288e4d9964881b161de118936dddbe530412ed3b9586e030ab47a8cd"
+    },
+    "runs\\seed11_batch03\\demands.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch03\\demands.json",
+      "sha256": "04118bc2c53183d0706e0547a484eb6fd54cc343bd9a9b26a004701854e87bcc"
+    },
+    "runs\\seed11_batch03\\episodes.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch03\\episodes.json",
+      "sha256": "8f4d2d4d5f2bd5f62ee85df9fb0df1ae1b9c5e5da98f42d45f0dead3d1ab8724"
+    },
+    "runs\\seed11_batch03\\information_audits.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch03\\information_audits.json",
+      "sha256": "2fa5750b8693fdfa24253341051f5ea2f6711295b4636935158e9b4a90c2fadd"
+    },
+    "runs\\seed11_batch03\\periods.csv": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch03\\periods.csv",
+      "sha256": "349ea01a24bee531176d713251c6f3e1c1d84d4c4bbb19d8769429e4951e92cb"
+    },
+    "runs\\seed11_batch03\\protocol.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch03\\protocol.json",
+      "sha256": "913fd0eb6e64bee2c111036fcd08435a0f56298a65936ce3064a5d0024a4a0dc"
+    },
+    "runs\\seed11_batch03\\runtime_failures.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch03\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "runs\\seed11_batch03\\scores.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch03\\scores.json",
+      "sha256": "ac145fc0cd172aeacf44315beabe501ff2ab19afaa9005dc036f78094f152c71"
+    },
+    "runs\\seed11_batch04\\calls.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch04\\calls.json",
+      "sha256": "42cc5f3b96c7f86bb281421f4a12e6abb7d4abeaa302a7bb8f81d30765977964"
+    },
+    "runs\\seed11_batch04\\completed.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch04\\completed.json",
+      "sha256": "8298f6373da6555cd06718010571e5594357777b301dfc3ab09ab1041da8c90b"
+    },
+    "runs\\seed11_batch04\\delivered_reports.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch04\\delivered_reports.json",
+      "sha256": "63192bc73a897f54cde444e186b15ad8c5a6a2527709a04b9238cc62e89d7c74"
+    },
+    "runs\\seed11_batch04\\demands.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch04\\demands.json",
+      "sha256": "6ebd035d980b3c224084f70447cb92dde6cc3696754e0c9906450cad2963ee3b"
+    },
+    "runs\\seed11_batch04\\episodes.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch04\\episodes.json",
+      "sha256": "c471420e5f195988c7b7d9475cc67597dca177498c8fb97fc3e6626bfc7e5d64"
+    },
+    "runs\\seed11_batch04\\information_audits.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch04\\information_audits.json",
+      "sha256": "cd88c3d478279baf0309734d714c1e5069201c318dfd964e220f9641798c0ebe"
+    },
+    "runs\\seed11_batch04\\periods.csv": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch04\\periods.csv",
+      "sha256": "dcad6eb6008bd74bbd184b5f858d9009cc963e04ae80c01906d2cd99a39e2c74"
+    },
+    "runs\\seed11_batch04\\protocol.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch04\\protocol.json",
+      "sha256": "2ce010f6d765d30adf3af43edb94e4651758153f07121e8fff4e02e4dddc33e0"
+    },
+    "runs\\seed11_batch04\\runtime_failures.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch04\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "runs\\seed11_batch04\\scores.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch04\\scores.json",
+      "sha256": "465597c9bc0e4bc4add3e49db23dc79d9f625b53dc7b6cca6664149279b6b308"
+    },
+    "runs\\seed11_batch05\\calls.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch05\\calls.json",
+      "sha256": "93c571bd9b9913522d8922ca80e5b3d57996c106adde39d08845e351c7a016e4"
+    },
+    "runs\\seed11_batch05\\completed.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch05\\completed.json",
+      "sha256": "0370ee6b10c8e3db7eb40c14aebe6871080efa7b373001c74c7b5c1c71b18012"
+    },
+    "runs\\seed11_batch05\\delivered_reports.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch05\\delivered_reports.json",
+      "sha256": "7cff4292a60c8c66c9b4832ef731699f7a8b6dd988c08e4d2dd2761249f01432"
+    },
+    "runs\\seed11_batch05\\demands.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch05\\demands.json",
+      "sha256": "d91915963e1f320e7aa33e0a0c8c7f03751a24f59c29d338a8726deef10ae69b"
+    },
+    "runs\\seed11_batch05\\episodes.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch05\\episodes.json",
+      "sha256": "9dde7a92bd3edf2c36bb99e7ad5abb62d86fad59f0c48409d6a934a76b9c647b"
+    },
+    "runs\\seed11_batch05\\information_audits.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch05\\information_audits.json",
+      "sha256": "dedbe1fa8aba12a79d53a05812ba884bf593cdc8feddb714ee22b272f15937ee"
+    },
+    "runs\\seed11_batch05\\periods.csv": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch05\\periods.csv",
+      "sha256": "7729155a4378aa1add48e7ab1ce5f687aa69875ee5df7fc48eb7f00007a88b8a"
+    },
+    "runs\\seed11_batch05\\protocol.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch05\\protocol.json",
+      "sha256": "08ed5e78cacc457b945ae3812cce6acfc046693354a04d3919e7969c13032dab"
+    },
+    "runs\\seed11_batch05\\runtime_failures.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch05\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "runs\\seed11_batch05\\scores.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch05\\scores.json",
+      "sha256": "3e440ec399a8126fa541dfc4dcf220e4e022c015d07eb4580cd704de3feaafe7"
+    },
+    "runs\\seed11_batch06\\calls.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch06\\calls.json",
+      "sha256": "47d77382711041abb5678d27c531c1dea37fd8226025eb632f9a3f3cb4f8536c"
+    },
+    "runs\\seed11_batch06\\completed.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch06\\completed.json",
+      "sha256": "d7ed4970bbd56787e05edbc2d50d06432a5ef33676b4411e8e8feef3230ea5b9"
+    },
+    "runs\\seed11_batch06\\delivered_reports.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch06\\delivered_reports.json",
+      "sha256": "9b4a3a90bcdda997ee16cce6894a212e9de253e1a39761bd431521860c325d41"
+    },
+    "runs\\seed11_batch06\\demands.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch06\\demands.json",
+      "sha256": "92980fbe7e6a2c688c668e07fbb32a7a9c91c7fe14e6b01b6fca739edf87e554"
+    },
+    "runs\\seed11_batch06\\episodes.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch06\\episodes.json",
+      "sha256": "c0edd5dd4d3a4fc01acd28b97a6a68b1bbab63a71136b35ea073f5b3959e2283"
+    },
+    "runs\\seed11_batch06\\information_audits.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch06\\information_audits.json",
+      "sha256": "3588aa23ed206d00daa0d3cf167c02d44faf5a51afd2ca2de05863fe4e87956f"
+    },
+    "runs\\seed11_batch06\\periods.csv": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch06\\periods.csv",
+      "sha256": "2de5c303f905ae5781c3eb5ce8c91fe5a2426ce8a5ce25db207a05320d9138af"
+    },
+    "runs\\seed11_batch06\\protocol.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch06\\protocol.json",
+      "sha256": "876c24da460bb4dd7442f2871177c8d19a71f6b44501349d7042f87b6fbc1491"
+    },
+    "runs\\seed11_batch06\\runtime_failures.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch06\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "runs\\seed11_batch06\\scores.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch06\\scores.json",
+      "sha256": "82a9e7e0a7f54235d6ca38e2337b9bbca95198791da022472010c06e74a0e6bd"
+    },
+    "runs\\seed11_batch07\\calls.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch07\\calls.json",
+      "sha256": "0cabe6b1390e3f06492bf5fd75a54187bd5d6ce5268039d671490a2900358fcf"
+    },
+    "runs\\seed11_batch07\\completed.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch07\\completed.json",
+      "sha256": "b019d49a89e9522a092e3bb42e0384448e3c336487560240f49160fcdb1521c4"
+    },
+    "runs\\seed11_batch07\\delivered_reports.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch07\\delivered_reports.json",
+      "sha256": "185714b0024746b3923375bd4557fc3b4b9fae81053782867c653099cd12956e"
+    },
+    "runs\\seed11_batch07\\demands.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch07\\demands.json",
+      "sha256": "80e4ad4408efe9a20791f4c1d17a67f3fd57ec73b0c862b54dd98ca62d299a6b"
+    },
+    "runs\\seed11_batch07\\episodes.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch07\\episodes.json",
+      "sha256": "e3c72d88f70648f607b505b632bb2ad080aa67499f6df05bbdca0602a650c141"
+    },
+    "runs\\seed11_batch07\\information_audits.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch07\\information_audits.json",
+      "sha256": "07f63f5b95ccdde5b971c8e09dcebaad75fc3874c183ef30a693366a30c3acf9"
+    },
+    "runs\\seed11_batch07\\periods.csv": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch07\\periods.csv",
+      "sha256": "3765fbec2a8dfa4d7d6598beca44a004e0e3383e2376e4b01ce84eddcb9c5620"
+    },
+    "runs\\seed11_batch07\\protocol.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch07\\protocol.json",
+      "sha256": "c557d730abf0371f0737a48f979f64655900f2d33196bb46efb2b4b2713f1d52"
+    },
+    "runs\\seed11_batch07\\runtime_failures.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch07\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "runs\\seed11_batch07\\scores.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch07\\scores.json",
+      "sha256": "122a7f7a3100e8af25461f93bfa1c163b2aa1c3dfcf841bbb0f3b0f6aeede7f5"
+    },
+    "runs\\seed11_batch08\\calls.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch08\\calls.json",
+      "sha256": "35e0c7139bd9f5b59cfeb9cf6a059a6659a1f86ba88916e1b696b9b2494f3bd3"
+    },
+    "runs\\seed11_batch08\\completed.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch08\\completed.json",
+      "sha256": "31e5111ae17e3dc7d84e110eaa178f8bcbaf3caab86f84c4e3f5623cb884b8e7"
+    },
+    "runs\\seed11_batch08\\delivered_reports.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch08\\delivered_reports.json",
+      "sha256": "7a022d31357fdc5e6491eee6236c0fb7b1333d77cda9885871a9ea9f4135ddbd"
+    },
+    "runs\\seed11_batch08\\demands.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch08\\demands.json",
+      "sha256": "d1d12b6ec61a4a086220fc55a62fe0b7536e3bcedc35246b0cbfd6720d2c6a75"
+    },
+    "runs\\seed11_batch08\\episodes.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch08\\episodes.json",
+      "sha256": "c636c668fa3ba723d2054d6d107d64813e1cd026d1193a7d36e81bbaf08fe431"
+    },
+    "runs\\seed11_batch08\\information_audits.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch08\\information_audits.json",
+      "sha256": "6befa03ea42360400547ba8b7ee7a719cb059e04a7d4b012f8e632c1231f386d"
+    },
+    "runs\\seed11_batch08\\periods.csv": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch08\\periods.csv",
+      "sha256": "dc2c784da6f935bc2156f093df2922528026286fa8eab3cc5b22130064737064"
+    },
+    "runs\\seed11_batch08\\protocol.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch08\\protocol.json",
+      "sha256": "f644f694b84859d6ae29dbd2c0ca02c1b33e3ed6450551b3630ddde1f9f32b05"
+    },
+    "runs\\seed11_batch08\\runtime_failures.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch08\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "runs\\seed11_batch08\\scores.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch08\\scores.json",
+      "sha256": "d24ae56e0cab3c389d380a919eaac330e6e07cb920299521bc13f8dfc8605327"
+    },
+    "runs\\seed11_batch09\\calls.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch09\\calls.json",
+      "sha256": "1b34bb93ecd34c681d22b7c53c22f7c6fecf832a3bf650c1660fc392a3cb6fda"
+    },
+    "runs\\seed11_batch09\\completed.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch09\\completed.json",
+      "sha256": "613100ac38b2c150189c89a11c1f8866187601a716a1c791b241fc7a423c4db4"
+    },
+    "runs\\seed11_batch09\\delivered_reports.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch09\\delivered_reports.json",
+      "sha256": "036718058f8d20835a8c21247e9c294df85157c47f2d379df17ca8319df0b767"
+    },
+    "runs\\seed11_batch09\\demands.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch09\\demands.json",
+      "sha256": "4db0b4c56d45ae4120a0545348d53913764d8c007eb96a73eab2a0f437e9a5b6"
+    },
+    "runs\\seed11_batch09\\episodes.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch09\\episodes.json",
+      "sha256": "bad6febbb8e3479844359e97ce03f9b8cbb5179f83cde07d12d9fea611be74ff"
+    },
+    "runs\\seed11_batch09\\information_audits.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch09\\information_audits.json",
+      "sha256": "7ae1d8089e98b96204d062cd4491e5fb27a42d6b6908c237a3ee0bdecfd612dc"
+    },
+    "runs\\seed11_batch09\\periods.csv": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch09\\periods.csv",
+      "sha256": "03f6bc328960a7c21a73e38d441ccc2a8f26e3d43f9d69282d26b36fcfd7a980"
+    },
+    "runs\\seed11_batch09\\protocol.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch09\\protocol.json",
+      "sha256": "1f66b32b0be4524b145df5f5ef6fde63b2191591604f891e81a842e031ebe5ca"
+    },
+    "runs\\seed11_batch09\\runtime_failures.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch09\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "runs\\seed11_batch09\\scores.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch09\\scores.json",
+      "sha256": "547cbc96c53c6837108ba27f6d6d042969a7b15f58aa566c94c838d1d295c115"
+    },
+    "runs\\seed11_batch10\\calls.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch10\\calls.json",
+      "sha256": "ebf6bf81a12ed48db536717e75fb198269fd3036accf97be9d1c320ce7d83653"
+    },
+    "runs\\seed11_batch10\\completed.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch10\\completed.json",
+      "sha256": "d3ae946eddc447ccb26bb19743ab14ec86e8ec2028088e3eb3f2dec9b39adf31"
+    },
+    "runs\\seed11_batch10\\delivered_reports.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch10\\delivered_reports.json",
+      "sha256": "25e93396637dfe38b490f9dee7937a42a2cc4fb72e74e63fbdc9e529fa6737bb"
+    },
+    "runs\\seed11_batch10\\demands.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch10\\demands.json",
+      "sha256": "18168f3cc086161ff5f18f386afcdfe763ac5eeeb2891ce4a2be6105e0dee7b0"
+    },
+    "runs\\seed11_batch10\\episodes.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch10\\episodes.json",
+      "sha256": "e8849d1e06e568593ffb2517582ca3edfa84b1707fcb760a88f71fd160e54542"
+    },
+    "runs\\seed11_batch10\\information_audits.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch10\\information_audits.json",
+      "sha256": "9100c31354a0cfa77b7b1c5af4cc05a1fcd80bcc93540cc6235d3b17f25ea0e9"
+    },
+    "runs\\seed11_batch10\\periods.csv": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch10\\periods.csv",
+      "sha256": "41bc9a83f7c87b8cc68ab0a17ee1d5f90cb6659c87b01603435aa39851a4e43f"
+    },
+    "runs\\seed11_batch10\\protocol.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch10\\protocol.json",
+      "sha256": "6ed5b1ae053afef7e597d3e7a1bc9830f18d5d043aa1538b7e56f97cdc153c13"
+    },
+    "runs\\seed11_batch10\\runtime_failures.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch10\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "runs\\seed11_batch10\\scores.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed11_batch10\\scores.json",
+      "sha256": "fab8daf347d86c4d8e52a8ca7070b2e880b4fb032d979fa96377ec8a9b47f0dc"
+    },
+    "runs\\seed12_batch01\\calls.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch01\\calls.json",
+      "sha256": "f9ac5b6a0f7bc12c3179621782e51375cafe454874d8dbb8c2e954cb62246f76"
+    },
+    "runs\\seed12_batch01\\completed.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch01\\completed.json",
+      "sha256": "fc023777a633e4f0ba4880964984ed1d8118cc694d6e9c76cfa279e6bb18efe7"
+    },
+    "runs\\seed12_batch01\\delivered_reports.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch01\\delivered_reports.json",
+      "sha256": "1b39f6b80c2d46faae41ab7b64769fc73d8c1e48619d2007dc510c0c1780f065"
+    },
+    "runs\\seed12_batch01\\demands.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch01\\demands.json",
+      "sha256": "72ce98ab397556f47b0c69498dc40c18d0cab9d7573bf50bf90a866079db26ba"
+    },
+    "runs\\seed12_batch01\\episodes.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch01\\episodes.json",
+      "sha256": "eed26f870b3b59ff021c2a0f620cef45f90ba6c334171cced1df7429378380fd"
+    },
+    "runs\\seed12_batch01\\information_audits.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch01\\information_audits.json",
+      "sha256": "7df1a0dbcaf8c52d206461ec9818cf32683e14632bb8d25f1927f5a8cbd6fff2"
+    },
+    "runs\\seed12_batch01\\periods.csv": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch01\\periods.csv",
+      "sha256": "8c11ec43f6a6657fdf0728d59f1d00b59e1f0cc7409b7ec80e2540a2ae011174"
+    },
+    "runs\\seed12_batch01\\protocol.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch01\\protocol.json",
+      "sha256": "7a7fda99ac89db5ace0bfc2dc542b990b5b5ce7920a336b13f811ce0c514626f"
+    },
+    "runs\\seed12_batch01\\runtime_failures.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch01\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "runs\\seed12_batch01\\scores.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch01\\scores.json",
+      "sha256": "b09abe73b0454ef38f192b93ef601cd0439cabf5194e853f41f749277422b3aa"
+    },
+    "runs\\seed12_batch02\\calls.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch02\\calls.json",
+      "sha256": "65cf3356aa8f2caf0696575a5e9312f221816325eaac1af4e96b47c8b00edf30"
+    },
+    "runs\\seed12_batch02\\completed.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch02\\completed.json",
+      "sha256": "50d9f6a9abb682fcca0713274e9b6ff5f4e968b28f6dbcf087a9ca4ae388a76c"
+    },
+    "runs\\seed12_batch02\\delivered_reports.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch02\\delivered_reports.json",
+      "sha256": "81d1a4f6ab896ad48307c0b18e56c7c4885c5f7785610dcd27f908ae13fd04ef"
+    },
+    "runs\\seed12_batch02\\demands.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch02\\demands.json",
+      "sha256": "17bea0b18667a2ada86b065ab8da1dfe70f8861f51ad6cc31187c78f2c781762"
+    },
+    "runs\\seed12_batch02\\episodes.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch02\\episodes.json",
+      "sha256": "bbdcd0c7f093a4feb48e7a2fd03cc9957612f65a61d1a2b857a4f195ff03dcf6"
+    },
+    "runs\\seed12_batch02\\information_audits.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch02\\information_audits.json",
+      "sha256": "eb5e51e53e4892b615c8ee0a9a3d33671e9abe2cee3f375e7ac5202e3d11a857"
+    },
+    "runs\\seed12_batch02\\periods.csv": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch02\\periods.csv",
+      "sha256": "f0e76ead67e026f4d7356d518c187ec0cc28a2e4a174772ab73b6485ba836e87"
+    },
+    "runs\\seed12_batch02\\protocol.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch02\\protocol.json",
+      "sha256": "adec17703eae13251d822df8ee1ff06975bc6d137fbb74429fcc7de83268fe96"
+    },
+    "runs\\seed12_batch02\\runtime_failures.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch02\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "runs\\seed12_batch02\\scores.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch02\\scores.json",
+      "sha256": "a213690ee57a032f7be7b6cc00d90221ed4737a05fedfb0eae523235fc3aa68f"
+    },
+    "runs\\seed12_batch03\\calls.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch03\\calls.json",
+      "sha256": "f3b526fb54ab9dd6599aa7d415964f2423e62467291438d3137f600ed52f6f6b"
+    },
+    "runs\\seed12_batch03\\completed.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch03\\completed.json",
+      "sha256": "74f19a64e9f52e4e38ffacffec8d70076bc40b3926088d1d64172aa3bbb439cc"
+    },
+    "runs\\seed12_batch03\\delivered_reports.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch03\\delivered_reports.json",
+      "sha256": "3e2d4af1288e4d9964881b161de118936dddbe530412ed3b9586e030ab47a8cd"
+    },
+    "runs\\seed12_batch03\\demands.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch03\\demands.json",
+      "sha256": "04118bc2c53183d0706e0547a484eb6fd54cc343bd9a9b26a004701854e87bcc"
+    },
+    "runs\\seed12_batch03\\episodes.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch03\\episodes.json",
+      "sha256": "32e6731107069b74bd43ecf155dca1b7063b677fd5f917422ef26f0451f7120c"
+    },
+    "runs\\seed12_batch03\\information_audits.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch03\\information_audits.json",
+      "sha256": "c0d0af491ad289e968fcfcffceaed60b579fe8ba50207fb866c0c9349bdae534"
+    },
+    "runs\\seed12_batch03\\periods.csv": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch03\\periods.csv",
+      "sha256": "3096eda6a2f58ffcc8922f071d36c871506bd3d6d34d06e9796f292f7406e840"
+    },
+    "runs\\seed12_batch03\\protocol.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch03\\protocol.json",
+      "sha256": "44dd4cf42dfdc12f92642d4f0112de709d4f03ddc5db056e6e049bd2f7d599d9"
+    },
+    "runs\\seed12_batch03\\runtime_failures.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch03\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "runs\\seed12_batch03\\scores.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch03\\scores.json",
+      "sha256": "75bbec1bc34374e17949b8f3683f1bc8b4401eca30221a5fb2f7eb434579ba2d"
+    },
+    "runs\\seed12_batch04\\calls.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch04\\calls.json",
+      "sha256": "066d0a446006386f94af6f51866ae0b4c5f31c02950879de27276daf92cf4b34"
+    },
+    "runs\\seed12_batch04\\completed.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch04\\completed.json",
+      "sha256": "4d2f5d710c8fda4c4d34838f6e9d63761592c2a9521a08f94ca3cedd30a45667"
+    },
+    "runs\\seed12_batch04\\delivered_reports.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch04\\delivered_reports.json",
+      "sha256": "63192bc73a897f54cde444e186b15ad8c5a6a2527709a04b9238cc62e89d7c74"
+    },
+    "runs\\seed12_batch04\\demands.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch04\\demands.json",
+      "sha256": "6ebd035d980b3c224084f70447cb92dde6cc3696754e0c9906450cad2963ee3b"
+    },
+    "runs\\seed12_batch04\\episodes.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch04\\episodes.json",
+      "sha256": "da51b07241e8f3d78259785aa94b2072f4c4edf406c87e9008d9665d5b44ef04"
+    },
+    "runs\\seed12_batch04\\information_audits.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch04\\information_audits.json",
+      "sha256": "0dd8b31dea54540ceb36d2ddd31aaad4053f3d0643c684d3ecfc49441be53f47"
+    },
+    "runs\\seed12_batch04\\periods.csv": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch04\\periods.csv",
+      "sha256": "de3c0dd887e99bf07fc90bac7569b0fcba85817862dcff892272464c55be7844"
+    },
+    "runs\\seed12_batch04\\protocol.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch04\\protocol.json",
+      "sha256": "f628e14a57b5c041e4feffff470a87c5a996b0da12bd4c17a3a4db2c20459ba1"
+    },
+    "runs\\seed12_batch04\\runtime_failures.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch04\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "runs\\seed12_batch04\\scores.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch04\\scores.json",
+      "sha256": "05e4e3c758df33e7bfde6f36046574ce2870240ba1366806e16e382db778cc9c"
+    },
+    "runs\\seed12_batch05\\calls.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch05\\calls.json",
+      "sha256": "eecb97e654ffce57c763486f13ccb89d1b30651bbde3e7ec966547e74acafe1f"
+    },
+    "runs\\seed12_batch05\\completed.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch05\\completed.json",
+      "sha256": "ed55a1914b79a9afc9e14c63628fb555e41c3987cc629103662a620b34de6b47"
+    },
+    "runs\\seed12_batch05\\delivered_reports.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch05\\delivered_reports.json",
+      "sha256": "7cff4292a60c8c66c9b4832ef731699f7a8b6dd988c08e4d2dd2761249f01432"
+    },
+    "runs\\seed12_batch05\\demands.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch05\\demands.json",
+      "sha256": "d91915963e1f320e7aa33e0a0c8c7f03751a24f59c29d338a8726deef10ae69b"
+    },
+    "runs\\seed12_batch05\\episodes.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch05\\episodes.json",
+      "sha256": "515827d5374345023f614403e2d02a7c0fd3d79df4f3b1ad0f4d3101d0586369"
+    },
+    "runs\\seed12_batch05\\information_audits.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch05\\information_audits.json",
+      "sha256": "ebb61307e78b73913dca0e4a21bbf2f53a335826575328ef4443cbb3481ad0d4"
+    },
+    "runs\\seed12_batch05\\periods.csv": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch05\\periods.csv",
+      "sha256": "2d57b6a582d24741a0b4a0aa4c6b4fb69632c239bab22fbfa9cec75520d8e7e7"
+    },
+    "runs\\seed12_batch05\\protocol.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch05\\protocol.json",
+      "sha256": "bd85de224a526ac2c673a106cb6356282fe454e6b1876226bdb013f13ef7c5cd"
+    },
+    "runs\\seed12_batch05\\runtime_failures.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch05\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "runs\\seed12_batch05\\scores.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch05\\scores.json",
+      "sha256": "b812263c1f894798c0b2e80bd7b4845b50de8c4e1397d2282154632b241377a9"
+    },
+    "runs\\seed12_batch06\\calls.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch06\\calls.json",
+      "sha256": "7c412a8073141b39aaf9f586c3f6e6191ec3543f7288db0c2219491c33343b9b"
+    },
+    "runs\\seed12_batch06\\completed.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch06\\completed.json",
+      "sha256": "875b7242f5b38bcbf30af2ed9c9639cbad4d40246d4790fa609203b610c978df"
+    },
+    "runs\\seed12_batch06\\delivered_reports.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch06\\delivered_reports.json",
+      "sha256": "9b4a3a90bcdda997ee16cce6894a212e9de253e1a39761bd431521860c325d41"
+    },
+    "runs\\seed12_batch06\\demands.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch06\\demands.json",
+      "sha256": "92980fbe7e6a2c688c668e07fbb32a7a9c91c7fe14e6b01b6fca739edf87e554"
+    },
+    "runs\\seed12_batch06\\episodes.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch06\\episodes.json",
+      "sha256": "a3b36bba65158c0db1be6cf4bb3d242293df4f3b0fb33fedb456814de220f05a"
+    },
+    "runs\\seed12_batch06\\information_audits.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch06\\information_audits.json",
+      "sha256": "d47847884e4b9da8a0c0c7b3050f36115cbc0b920366a5e3aec753c972179e80"
+    },
+    "runs\\seed12_batch06\\periods.csv": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch06\\periods.csv",
+      "sha256": "abc117bd1515249bb0d2000fe5723e204480644a73937a911fcdfbe7a538a96d"
+    },
+    "runs\\seed12_batch06\\protocol.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch06\\protocol.json",
+      "sha256": "7910c2ecf603d4b3326f5605275a0aa2b497733e0281673a04fc29e16c997341"
+    },
+    "runs\\seed12_batch06\\runtime_failures.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch06\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "runs\\seed12_batch06\\scores.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch06\\scores.json",
+      "sha256": "49e62316234ab0e7388b369fac417932b6603922a069d8daf02d2971610a2724"
+    },
+    "runs\\seed12_batch07\\calls.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch07\\calls.json",
+      "sha256": "8091bb2dfb908afa8a8c01487ada88ed5e31ad79d09ec34b73d02bf0294b37d2"
+    },
+    "runs\\seed12_batch07\\completed.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch07\\completed.json",
+      "sha256": "ab9990b5642e8cffb88be27becb264776073eb199f90337df7de471eabc502b8"
+    },
+    "runs\\seed12_batch07\\delivered_reports.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch07\\delivered_reports.json",
+      "sha256": "185714b0024746b3923375bd4557fc3b4b9fae81053782867c653099cd12956e"
+    },
+    "runs\\seed12_batch07\\demands.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch07\\demands.json",
+      "sha256": "80e4ad4408efe9a20791f4c1d17a67f3fd57ec73b0c862b54dd98ca62d299a6b"
+    },
+    "runs\\seed12_batch07\\episodes.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch07\\episodes.json",
+      "sha256": "0143a0659bb208f07b4cc9c2d9e67db48c8db6549024c7c96317f1a5d8e806e0"
+    },
+    "runs\\seed12_batch07\\information_audits.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch07\\information_audits.json",
+      "sha256": "2113278ecad4ec3c5b422b8442f4fc16d08e6fa89eb36880798f9cf59c13dd1e"
+    },
+    "runs\\seed12_batch07\\periods.csv": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch07\\periods.csv",
+      "sha256": "b5d19fe22134598448f51e3fbdad770a1b586c7989f742e1a190810fab2ca608"
+    },
+    "runs\\seed12_batch07\\protocol.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch07\\protocol.json",
+      "sha256": "1dd6fae256decff685d69822443afed1012be6e7ddd137ba1d66e2129ccc296f"
+    },
+    "runs\\seed12_batch07\\runtime_failures.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch07\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "runs\\seed12_batch07\\scores.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch07\\scores.json",
+      "sha256": "98838d4d8c2a3e886c8afec3be4b99446702d56f6a7e64d31d3d25e639b5c608"
+    },
+    "runs\\seed12_batch08\\calls.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch08\\calls.json",
+      "sha256": "2bbab582225bb4cde5a42a48e90b877b960741e9b745bb4f4338db47dfbb9166"
+    },
+    "runs\\seed12_batch08\\completed.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch08\\completed.json",
+      "sha256": "2557c063b734cd047666e479959591118a5764ca7d219a0d23d795cc88f07079"
+    },
+    "runs\\seed12_batch08\\delivered_reports.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch08\\delivered_reports.json",
+      "sha256": "7a022d31357fdc5e6491eee6236c0fb7b1333d77cda9885871a9ea9f4135ddbd"
+    },
+    "runs\\seed12_batch08\\demands.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch08\\demands.json",
+      "sha256": "d1d12b6ec61a4a086220fc55a62fe0b7536e3bcedc35246b0cbfd6720d2c6a75"
+    },
+    "runs\\seed12_batch08\\episodes.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch08\\episodes.json",
+      "sha256": "327505df78177fcaa62504fc461afbf4049d2a01b47b6506739f305d4e0762cc"
+    },
+    "runs\\seed12_batch08\\information_audits.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch08\\information_audits.json",
+      "sha256": "7a645606dadd3de0496177ab5492f47272e806064de882a9a6ad7d9dfd601e78"
+    },
+    "runs\\seed12_batch08\\periods.csv": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch08\\periods.csv",
+      "sha256": "89ad50ca45bb7f99e058a87d23e54b52e5eb88c6c0fc5e37d497925ecf755049"
+    },
+    "runs\\seed12_batch08\\protocol.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch08\\protocol.json",
+      "sha256": "bb4b896ba732f2d7c3e78d4e6cd83faab84f69da3f0f4be1d972497653aaf9c5"
+    },
+    "runs\\seed12_batch08\\runtime_failures.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch08\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "runs\\seed12_batch08\\scores.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch08\\scores.json",
+      "sha256": "6d7160d930c27181e57abb6ab27d738e6e204773415411294b892b335b887101"
+    },
+    "runs\\seed12_batch09\\calls.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch09\\calls.json",
+      "sha256": "c9482117290131d32b30e016cdd4f10e918df33a1245d0410730a71d6d48cf3c"
+    },
+    "runs\\seed12_batch09\\completed.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch09\\completed.json",
+      "sha256": "c755fbfa6fb2c88239011ce077e9a0df28d9a894160e1d10c18c6d23ae3f65fa"
+    },
+    "runs\\seed12_batch09\\delivered_reports.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch09\\delivered_reports.json",
+      "sha256": "036718058f8d20835a8c21247e9c294df85157c47f2d379df17ca8319df0b767"
+    },
+    "runs\\seed12_batch09\\demands.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch09\\demands.json",
+      "sha256": "4db0b4c56d45ae4120a0545348d53913764d8c007eb96a73eab2a0f437e9a5b6"
+    },
+    "runs\\seed12_batch09\\episodes.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch09\\episodes.json",
+      "sha256": "e5d2ddfd70b9f6219edf05a567bc534bfe3bccae7cb4a75f51b49562a52c1291"
+    },
+    "runs\\seed12_batch09\\information_audits.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch09\\information_audits.json",
+      "sha256": "b02d98edc6208bb5f7849b6d1c573c1c3f5844fea210ee4d238886956cfd1ba8"
+    },
+    "runs\\seed12_batch09\\periods.csv": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch09\\periods.csv",
+      "sha256": "2757736c990296040a7b924ed8bc06cf6a97c2750e5a7bb58ec191a0562fd4b4"
+    },
+    "runs\\seed12_batch09\\protocol.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch09\\protocol.json",
+      "sha256": "7aa88d9c027610eab45476746203ff3b369ee25d388c1f781148581acb820f3b"
+    },
+    "runs\\seed12_batch09\\runtime_failures.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch09\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "runs\\seed12_batch09\\scores.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch09\\scores.json",
+      "sha256": "33201693032bb0fa052a213a3a4ba53d8b589a18d4f373b7b358b09a31b76a7e"
+    },
+    "runs\\seed12_batch10\\calls.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch10\\calls.json",
+      "sha256": "a24dc0541ce1f60c3ff37e91ae2dae68c096169e0261b39d23d4850cf96bd0cc"
+    },
+    "runs\\seed12_batch10\\completed.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch10\\completed.json",
+      "sha256": "5c9895f35239df972c555a5648a4c07e078339ecd99c8d8af69e1838a4dedf03"
+    },
+    "runs\\seed12_batch10\\delivered_reports.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch10\\delivered_reports.json",
+      "sha256": "25e93396637dfe38b490f9dee7937a42a2cc4fb72e74e63fbdc9e529fa6737bb"
+    },
+    "runs\\seed12_batch10\\demands.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch10\\demands.json",
+      "sha256": "18168f3cc086161ff5f18f386afcdfe763ac5eeeb2891ce4a2be6105e0dee7b0"
+    },
+    "runs\\seed12_batch10\\episodes.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch10\\episodes.json",
+      "sha256": "89ea27e031851fd60eeb5a1706c33bf481414bfdbaac9ee7e112cc499a81ff0a"
+    },
+    "runs\\seed12_batch10\\information_audits.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch10\\information_audits.json",
+      "sha256": "ae117412c881420fa14b98ca6639da51e95940d838cf60136a66e65ea845cbf2"
+    },
+    "runs\\seed12_batch10\\periods.csv": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch10\\periods.csv",
+      "sha256": "51f6ffe6a39e6f74c6ed6f0d63e04d90305d868efb78b62f060600a2a4e534d9"
+    },
+    "runs\\seed12_batch10\\protocol.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch10\\protocol.json",
+      "sha256": "a7d14608f5540642f9a1b7b311a8ff553d995f8f83c66028f8160be6c808e3b4"
+    },
+    "runs\\seed12_batch10\\runtime_failures.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch10\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "runs\\seed12_batch10\\scores.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed12_batch10\\scores.json",
+      "sha256": "3632ed608c3db9204158976198bc833c63643843c3b4917a1268590165e08238"
+    },
+    "runs\\seed13_batch01\\calls.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch01\\calls.json",
+      "sha256": "5261b27f957bfb9e563717f5a7e2c317d201f2e21ea0f6401f7c2e96580b071f"
+    },
+    "runs\\seed13_batch01\\completed.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch01\\completed.json",
+      "sha256": "22a29c1d21f0eca7b3d340a7b89882308c1514e6432273278231458907084065"
+    },
+    "runs\\seed13_batch01\\delivered_reports.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch01\\delivered_reports.json",
+      "sha256": "1b39f6b80c2d46faae41ab7b64769fc73d8c1e48619d2007dc510c0c1780f065"
+    },
+    "runs\\seed13_batch01\\demands.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch01\\demands.json",
+      "sha256": "72ce98ab397556f47b0c69498dc40c18d0cab9d7573bf50bf90a866079db26ba"
+    },
+    "runs\\seed13_batch01\\episodes.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch01\\episodes.json",
+      "sha256": "208760068be16c8fbe16a3fed56e63a6fd6796bc45e24e26011ae339169d2ca3"
+    },
+    "runs\\seed13_batch01\\information_audits.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch01\\information_audits.json",
+      "sha256": "1cd2aa198a41f56d217eb20e3ad3b397dc0316133b76b131780628e8aa7bf37d"
+    },
+    "runs\\seed13_batch01\\periods.csv": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch01\\periods.csv",
+      "sha256": "bc735d2e6b96a8b54ada7dd65f5cd9362a99444abab85fbcd29e33dfcf6f2d12"
+    },
+    "runs\\seed13_batch01\\protocol.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch01\\protocol.json",
+      "sha256": "24accb0d23f241cd01ddd377395ec068de4faa4bdacd71825dc99354ea390196"
+    },
+    "runs\\seed13_batch01\\runtime_failures.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch01\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "runs\\seed13_batch01\\scores.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch01\\scores.json",
+      "sha256": "8c48e8ed10982ec0c0a8e54c9ef5fa946601303f5baa351b7c41d90354873a7c"
+    },
+    "runs\\seed13_batch02\\calls.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch02\\calls.json",
+      "sha256": "076137a400799efb0fe18f2e9e86eb6a6e44c3049faf6d6cd8752fbf9b79647e"
+    },
+    "runs\\seed13_batch02\\completed.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch02\\completed.json",
+      "sha256": "90e609db82d698d957ce76a8c5b9ae24b2ef03087d03856010e04b4de0478069"
+    },
+    "runs\\seed13_batch02\\delivered_reports.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch02\\delivered_reports.json",
+      "sha256": "81d1a4f6ab896ad48307c0b18e56c7c4885c5f7785610dcd27f908ae13fd04ef"
+    },
+    "runs\\seed13_batch02\\demands.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch02\\demands.json",
+      "sha256": "17bea0b18667a2ada86b065ab8da1dfe70f8861f51ad6cc31187c78f2c781762"
+    },
+    "runs\\seed13_batch02\\episodes.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch02\\episodes.json",
+      "sha256": "08d209a373578afb520c573e7e19a9baeb3e34edb364efbbe6d2ab5c3535ed9f"
+    },
+    "runs\\seed13_batch02\\information_audits.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch02\\information_audits.json",
+      "sha256": "d671ed84c582c57668fde96f642466ef4ce72fc3d9f0cdf73ccdce8f0d0fe076"
+    },
+    "runs\\seed13_batch02\\periods.csv": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch02\\periods.csv",
+      "sha256": "4f2caaba39462aa3f297b12b1d685f46885da617de3ff431a49a129d8dcf655c"
+    },
+    "runs\\seed13_batch02\\protocol.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch02\\protocol.json",
+      "sha256": "44446e7a77d2830780419372a7e36f7e7eb2007dff4a32c1620c11adf6170fc4"
+    },
+    "runs\\seed13_batch02\\runtime_failures.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch02\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "runs\\seed13_batch02\\scores.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch02\\scores.json",
+      "sha256": "8da1f6c943099ff4497ba63f5fe00c202b72dd256841a82cf61cad1e46c54727"
+    },
+    "runs\\seed13_batch03\\calls.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch03\\calls.json",
+      "sha256": "e4bab06863b908c7864f3ad63f13e8fce9c787e23dab7e3756252e9375003857"
+    },
+    "runs\\seed13_batch03\\completed.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch03\\completed.json",
+      "sha256": "8528416de6f8efeb9580865733e51ed52507bba6085b1d079c4963acf8ccde2b"
+    },
+    "runs\\seed13_batch03\\delivered_reports.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch03\\delivered_reports.json",
+      "sha256": "3e2d4af1288e4d9964881b161de118936dddbe530412ed3b9586e030ab47a8cd"
+    },
+    "runs\\seed13_batch03\\demands.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch03\\demands.json",
+      "sha256": "04118bc2c53183d0706e0547a484eb6fd54cc343bd9a9b26a004701854e87bcc"
+    },
+    "runs\\seed13_batch03\\episodes.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch03\\episodes.json",
+      "sha256": "c17dfdf423b7a4f96e039eab614a7a4c04debbb8872934a8f41f28951112cd6a"
+    },
+    "runs\\seed13_batch03\\information_audits.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch03\\information_audits.json",
+      "sha256": "9efcf15862db7153b589179733bfed90d3ae6d82c982bb6b342665c20cc28b27"
+    },
+    "runs\\seed13_batch03\\periods.csv": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch03\\periods.csv",
+      "sha256": "146c132a9c9a240c50e591371127d8ea2024af827a0f883860db4331e912d2fe"
+    },
+    "runs\\seed13_batch03\\protocol.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch03\\protocol.json",
+      "sha256": "a8923c48e1a4aacd2f66d0d5bb959fbbd3168853d844f0060282923a9c9a1ae5"
+    },
+    "runs\\seed13_batch03\\runtime_failures.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch03\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "runs\\seed13_batch03\\scores.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch03\\scores.json",
+      "sha256": "48610c01bc883239d02ca88560dbaf67a5594c05f630c58124a5068586c62d0f"
+    },
+    "runs\\seed13_batch04\\calls.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch04\\calls.json",
+      "sha256": "84bfb73436939c5c9f758f73aaf606c99221033c32de5521601348fcf3355fbf"
+    },
+    "runs\\seed13_batch04\\completed.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch04\\completed.json",
+      "sha256": "fde50f97591fb5a7787ce166af5308bea227a4a23dc414b83c9b9bded33a5a63"
+    },
+    "runs\\seed13_batch04\\delivered_reports.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch04\\delivered_reports.json",
+      "sha256": "63192bc73a897f54cde444e186b15ad8c5a6a2527709a04b9238cc62e89d7c74"
+    },
+    "runs\\seed13_batch04\\demands.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch04\\demands.json",
+      "sha256": "6ebd035d980b3c224084f70447cb92dde6cc3696754e0c9906450cad2963ee3b"
+    },
+    "runs\\seed13_batch04\\episodes.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch04\\episodes.json",
+      "sha256": "513bad883bfe664d07d3342b309720e9235ef49372bc4f000cabb17fa31ede3b"
+    },
+    "runs\\seed13_batch04\\information_audits.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch04\\information_audits.json",
+      "sha256": "20bec1a5b8e6d7e2620a4e9a85961a53cece6db626e2eb9dba1a2772bb9540f0"
+    },
+    "runs\\seed13_batch04\\periods.csv": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch04\\periods.csv",
+      "sha256": "30fba33e1440c78655491b7b73141066c314d2377422ef95665aede1d88d281d"
+    },
+    "runs\\seed13_batch04\\protocol.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch04\\protocol.json",
+      "sha256": "24bd9276314d02f8e88b759f5e8f68be1a198c6e187afe3dd9260e4c4aecbad4"
+    },
+    "runs\\seed13_batch04\\runtime_failures.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch04\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "runs\\seed13_batch04\\scores.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch04\\scores.json",
+      "sha256": "a9c592dbb96755bbf4f7e8cc173cdbfc5f03c0ecaa2494a2e8d6fd6ae01dc4f8"
+    },
+    "runs\\seed13_batch05\\calls.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch05\\calls.json",
+      "sha256": "e0439079cbdbd5c894993817d8f18e4c733d73cdb2f41e66b353a899b297ce3e"
+    },
+    "runs\\seed13_batch05\\completed.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch05\\completed.json",
+      "sha256": "3cdddccc7a904d7f4a2025e56a4c4c8dc28fdd733d6df2fd2be751f99c1c9e28"
+    },
+    "runs\\seed13_batch05\\delivered_reports.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch05\\delivered_reports.json",
+      "sha256": "7cff4292a60c8c66c9b4832ef731699f7a8b6dd988c08e4d2dd2761249f01432"
+    },
+    "runs\\seed13_batch05\\demands.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch05\\demands.json",
+      "sha256": "d91915963e1f320e7aa33e0a0c8c7f03751a24f59c29d338a8726deef10ae69b"
+    },
+    "runs\\seed13_batch05\\episodes.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch05\\episodes.json",
+      "sha256": "e5a1f7bf9eaa59f38c045eb86a62a551a5000bee1ea76ac30b1ccd90726b1c3f"
+    },
+    "runs\\seed13_batch05\\information_audits.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch05\\information_audits.json",
+      "sha256": "626c00f6092db87d27a32ce671207f98ff05478c4095514dc6ab47627c667041"
+    },
+    "runs\\seed13_batch05\\periods.csv": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch05\\periods.csv",
+      "sha256": "c8455047076fd8e8ab0f094a75c25ae7841a14464e9332acaca7d008033f62e4"
+    },
+    "runs\\seed13_batch05\\protocol.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch05\\protocol.json",
+      "sha256": "b0dd407a00b8ed54b0ed54307bc62c011a0ed4b662391c090b4c9ffcffe64054"
+    },
+    "runs\\seed13_batch05\\runtime_failures.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch05\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "runs\\seed13_batch05\\scores.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch05\\scores.json",
+      "sha256": "08cc327971d0773f8ebea17080325b39f9bd277fc418b2d3a83106f00819562f"
+    },
+    "runs\\seed13_batch06\\calls.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch06\\calls.json",
+      "sha256": "8ec893281eb2be565e5b0f453bde77cbba51aab8fcaac3a05b58f30ffd9abaeb"
+    },
+    "runs\\seed13_batch06\\completed.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch06\\completed.json",
+      "sha256": "d9d2e8698e6a3174c11eaf3b303e5aebbbc8b0070263f840290959d57feda146"
+    },
+    "runs\\seed13_batch06\\delivered_reports.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch06\\delivered_reports.json",
+      "sha256": "9b4a3a90bcdda997ee16cce6894a212e9de253e1a39761bd431521860c325d41"
+    },
+    "runs\\seed13_batch06\\demands.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch06\\demands.json",
+      "sha256": "92980fbe7e6a2c688c668e07fbb32a7a9c91c7fe14e6b01b6fca739edf87e554"
+    },
+    "runs\\seed13_batch06\\episodes.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch06\\episodes.json",
+      "sha256": "43d7d6e1b2be736c0533a3b16c8b3a04ce1ccc906314137ca14d3b2b058aefd1"
+    },
+    "runs\\seed13_batch06\\information_audits.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch06\\information_audits.json",
+      "sha256": "69e4079082f09d199394f52d9fd2ccb2c6bb2ccb4c701c7cb81291e91ca792e2"
+    },
+    "runs\\seed13_batch06\\periods.csv": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch06\\periods.csv",
+      "sha256": "a9b4d5c4d4530b2afd084b1df81119b08c65f4e96a83235936363e8b461019c9"
+    },
+    "runs\\seed13_batch06\\protocol.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch06\\protocol.json",
+      "sha256": "3c1d22b32d7f875a30af8b3e6f4fe2542facca517c0aa5c15101a5991c0a78ef"
+    },
+    "runs\\seed13_batch06\\runtime_failures.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch06\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "runs\\seed13_batch06\\scores.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch06\\scores.json",
+      "sha256": "74ffc0168cab5914ad7a3bc813ce58e5bd2c73c29c515e80e26bf9827a492b61"
+    },
+    "runs\\seed13_batch07\\calls.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch07\\calls.json",
+      "sha256": "df00a10ca3ff1f4ebb27dc39d08d441d6bf54d277b70cdcfd09c454f87dfc85f"
+    },
+    "runs\\seed13_batch07\\completed.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch07\\completed.json",
+      "sha256": "81680ff3867ad0f29e259c1910ca665aa86b4294e96843002788e441272b50fc"
+    },
+    "runs\\seed13_batch07\\delivered_reports.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch07\\delivered_reports.json",
+      "sha256": "185714b0024746b3923375bd4557fc3b4b9fae81053782867c653099cd12956e"
+    },
+    "runs\\seed13_batch07\\demands.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch07\\demands.json",
+      "sha256": "80e4ad4408efe9a20791f4c1d17a67f3fd57ec73b0c862b54dd98ca62d299a6b"
+    },
+    "runs\\seed13_batch07\\episodes.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch07\\episodes.json",
+      "sha256": "72e95d6e4bb128bf372158382b49b0a699fad109976bcad5dc0779e417919278"
+    },
+    "runs\\seed13_batch07\\information_audits.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch07\\information_audits.json",
+      "sha256": "307860266575dccc33fb2c04226b07d0d98b7276a8ff7a87be8378b8387348a8"
+    },
+    "runs\\seed13_batch07\\periods.csv": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch07\\periods.csv",
+      "sha256": "9316bfc7a183aec76eb0b82bfad977e4a180bf783c3f0cc736f2abbdaa73e364"
+    },
+    "runs\\seed13_batch07\\protocol.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch07\\protocol.json",
+      "sha256": "264b545e70d0629636d9c63ced8a016f87e7edd99dcf64cd5a10da54f7baa53c"
+    },
+    "runs\\seed13_batch07\\runtime_failures.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch07\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "runs\\seed13_batch07\\scores.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch07\\scores.json",
+      "sha256": "f9c191aaf48a648cbdd2a6053aa4042b54d733620e4a6088b4216632a318d8f4"
+    },
+    "runs\\seed13_batch08\\calls.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch08\\calls.json",
+      "sha256": "d21eff2beec08ef69d7335c6775fd09356951f245306a7b67403a16e92971543"
+    },
+    "runs\\seed13_batch08\\completed.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch08\\completed.json",
+      "sha256": "51ce8055cd23c58aa01ef5027268c94bbf08494e8d57c76c6bfd1d85c624fe2c"
+    },
+    "runs\\seed13_batch08\\delivered_reports.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch08\\delivered_reports.json",
+      "sha256": "7a022d31357fdc5e6491eee6236c0fb7b1333d77cda9885871a9ea9f4135ddbd"
+    },
+    "runs\\seed13_batch08\\demands.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch08\\demands.json",
+      "sha256": "d1d12b6ec61a4a086220fc55a62fe0b7536e3bcedc35246b0cbfd6720d2c6a75"
+    },
+    "runs\\seed13_batch08\\episodes.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch08\\episodes.json",
+      "sha256": "f7f745ad73ab71e4db4f2e8e54a093a683da98785dacb77573b0108bd9a364d6"
+    },
+    "runs\\seed13_batch08\\information_audits.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch08\\information_audits.json",
+      "sha256": "3a654cc7c0233aa1e561d8723efaed1f4aadb9099fb59edeb6eed6eff155c41f"
+    },
+    "runs\\seed13_batch08\\periods.csv": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch08\\periods.csv",
+      "sha256": "97c6dd2246cefe0bbbf5b00c171050561b84ef16edab4190a271ec8770628913"
+    },
+    "runs\\seed13_batch08\\protocol.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch08\\protocol.json",
+      "sha256": "9a56a3ceca221c416ca961590d961536f32314d4f7997bae416d9f70da29f55b"
+    },
+    "runs\\seed13_batch08\\runtime_failures.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch08\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "runs\\seed13_batch08\\scores.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch08\\scores.json",
+      "sha256": "d67992a42dfefb1168628a7e5716dbb32a202b8a3440bfd06ca9c31dd148d159"
+    },
+    "runs\\seed13_batch09\\calls.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch09\\calls.json",
+      "sha256": "1e52e02c005fc63f4ef348f5319e8743ce77a274299bab9dbb7065803449d207"
+    },
+    "runs\\seed13_batch09\\completed.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch09\\completed.json",
+      "sha256": "817032e0444a6092974468b0d2f0cca993b1c32ad8619874086ba4b2666c02ab"
+    },
+    "runs\\seed13_batch09\\delivered_reports.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch09\\delivered_reports.json",
+      "sha256": "036718058f8d20835a8c21247e9c294df85157c47f2d379df17ca8319df0b767"
+    },
+    "runs\\seed13_batch09\\demands.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch09\\demands.json",
+      "sha256": "4db0b4c56d45ae4120a0545348d53913764d8c007eb96a73eab2a0f437e9a5b6"
+    },
+    "runs\\seed13_batch09\\episodes.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch09\\episodes.json",
+      "sha256": "4a38e1941f956bacb97ccf62fcf784e985896aefe183d032af72463d3fc8fe7a"
+    },
+    "runs\\seed13_batch09\\information_audits.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch09\\information_audits.json",
+      "sha256": "de2378a123299a22abb677307a0b740f1c440f7fe0f819fc07e6297069c24ce1"
+    },
+    "runs\\seed13_batch09\\periods.csv": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch09\\periods.csv",
+      "sha256": "eef9f92114f889cf20257c58cf64da3c3d097a90c935b7426e66715a1ce3fc55"
+    },
+    "runs\\seed13_batch09\\protocol.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch09\\protocol.json",
+      "sha256": "de6ce484b3528b286fdff32f64cded31bac814b0c1b2facc1a58fc4b2600a91f"
+    },
+    "runs\\seed13_batch09\\runtime_failures.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch09\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "runs\\seed13_batch09\\scores.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch09\\scores.json",
+      "sha256": "d2a07d53c2cfefdcd0ced9d07186a2c320ca7b1bb6dc9d42324b6f04e081e0bb"
+    },
+    "runs\\seed13_batch10\\calls.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch10\\calls.json",
+      "sha256": "e4190c062578f51e95f4f661e56b58da9fe3eaf8f47d74d840d6ce15cb82ce5d"
+    },
+    "runs\\seed13_batch10\\completed.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch10\\completed.json",
+      "sha256": "c6c1ccc90cfafbe7b34cbe2083ed3fbbb33d2e29d42f7e4bdb03b773022878c5"
+    },
+    "runs\\seed13_batch10\\delivered_reports.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch10\\delivered_reports.json",
+      "sha256": "25e93396637dfe38b490f9dee7937a42a2cc4fb72e74e63fbdc9e529fa6737bb"
+    },
+    "runs\\seed13_batch10\\demands.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch10\\demands.json",
+      "sha256": "18168f3cc086161ff5f18f386afcdfe763ac5eeeb2891ce4a2be6105e0dee7b0"
+    },
+    "runs\\seed13_batch10\\episodes.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch10\\episodes.json",
+      "sha256": "5df21cbee7fca523f5bcc3ef537ba8a58f22dbdb423550c3974223ba724ed75d"
+    },
+    "runs\\seed13_batch10\\information_audits.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch10\\information_audits.json",
+      "sha256": "3ae7023dd6447063ce2070d5b574714eafd3ae23c91cb4d81ece0b7bffaf1671"
+    },
+    "runs\\seed13_batch10\\periods.csv": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch10\\periods.csv",
+      "sha256": "4854fe4b4ea480befb483135f1a746e99114e9963496da3ffba8f6a4febd2e00"
+    },
+    "runs\\seed13_batch10\\protocol.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch10\\protocol.json",
+      "sha256": "ae089a502cdd06208a6e0198ae02de1caed7be877360639f25155ce947c07930"
+    },
+    "runs\\seed13_batch10\\runtime_failures.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch10\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "runs\\seed13_batch10\\scores.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed13_batch10\\scores.json",
+      "sha256": "e03759fe6bb08fafa4d5eed3049d944171377e9327069411ec4fe192e96fff63"
+    },
+    "runs\\seed14_batch01\\calls.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch01\\calls.json",
+      "sha256": "034e23425d3c47c3fdaed38e3ddb017879a43b305cd55bfd1632f447cfb33180"
+    },
+    "runs\\seed14_batch01\\completed.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch01\\completed.json",
+      "sha256": "49d817953b822c80fa0f79f70d3ebb0435df6fad0172842e8f38eebdcf9ffdb4"
+    },
+    "runs\\seed14_batch01\\delivered_reports.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch01\\delivered_reports.json",
+      "sha256": "1b39f6b80c2d46faae41ab7b64769fc73d8c1e48619d2007dc510c0c1780f065"
+    },
+    "runs\\seed14_batch01\\demands.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch01\\demands.json",
+      "sha256": "72ce98ab397556f47b0c69498dc40c18d0cab9d7573bf50bf90a866079db26ba"
+    },
+    "runs\\seed14_batch01\\episodes.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch01\\episodes.json",
+      "sha256": "b4550221dba4dad4f98fe476bf2ac3f5d00591caa29db052170e593dfb4844dd"
+    },
+    "runs\\seed14_batch01\\information_audits.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch01\\information_audits.json",
+      "sha256": "6240f5ab8cd34da3db0edfb1edbff59270f325b731864c4fabace4eeb3dbc155"
+    },
+    "runs\\seed14_batch01\\periods.csv": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch01\\periods.csv",
+      "sha256": "db7b7e1794bd5f5d5f15112fea196de5a7c32946e291114f35c469f9445abe01"
+    },
+    "runs\\seed14_batch01\\protocol.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch01\\protocol.json",
+      "sha256": "03a97448ac6d73345fee4007c012549c5b7e70275d49600ceac3ee7e075fb4bd"
+    },
+    "runs\\seed14_batch01\\runtime_failures.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch01\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "runs\\seed14_batch01\\scores.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch01\\scores.json",
+      "sha256": "24017006bc39d0e27fa2c2450375e0d411ac554cf420e303bf2842fe2ec43c68"
+    },
+    "runs\\seed14_batch02\\calls.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch02\\calls.json",
+      "sha256": "f029c8914276b8a0823aa1aaaec687f668b0f976bff86c7b0b2e0df4ccf6204a"
+    },
+    "runs\\seed14_batch02\\completed.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch02\\completed.json",
+      "sha256": "4afd674dac8df29711f63814315db29371e6418231bc468306dc415611e80382"
+    },
+    "runs\\seed14_batch02\\delivered_reports.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch02\\delivered_reports.json",
+      "sha256": "81d1a4f6ab896ad48307c0b18e56c7c4885c5f7785610dcd27f908ae13fd04ef"
+    },
+    "runs\\seed14_batch02\\demands.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch02\\demands.json",
+      "sha256": "17bea0b18667a2ada86b065ab8da1dfe70f8861f51ad6cc31187c78f2c781762"
+    },
+    "runs\\seed14_batch02\\episodes.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch02\\episodes.json",
+      "sha256": "183baeae853f9d80f96747908cf9bc19a14b3d886e8d7e749f0bd9dd3d98f4f9"
+    },
+    "runs\\seed14_batch02\\information_audits.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch02\\information_audits.json",
+      "sha256": "1a9d9921781529ea43b29f968c1db061ecf63ff172024ee164314283fedc1b89"
+    },
+    "runs\\seed14_batch02\\periods.csv": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch02\\periods.csv",
+      "sha256": "f9626fda26bd1f13165239d92d379093fa86f891b5c7b605508445c57a470840"
+    },
+    "runs\\seed14_batch02\\protocol.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch02\\protocol.json",
+      "sha256": "f3ac16cadea47a6d164807ed05dbeca961e28fdcb31e75838801253a0283ada4"
+    },
+    "runs\\seed14_batch02\\runtime_failures.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch02\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "runs\\seed14_batch02\\scores.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch02\\scores.json",
+      "sha256": "2682e5f30f153a8cdce11fe0a251f0be13e61ffe2188d3aaa0712b839758e807"
+    },
+    "runs\\seed14_batch03\\calls.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch03\\calls.json",
+      "sha256": "1a34f165ad7e683886eea93a9897d1474efc76dc68bae5e6926249974d63732d"
+    },
+    "runs\\seed14_batch03\\completed.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch03\\completed.json",
+      "sha256": "991b449f1bc2b8fecc4a12239a3abcdb31bf22ba30b216ca5881427d5ad67968"
+    },
+    "runs\\seed14_batch03\\delivered_reports.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch03\\delivered_reports.json",
+      "sha256": "3e2d4af1288e4d9964881b161de118936dddbe530412ed3b9586e030ab47a8cd"
+    },
+    "runs\\seed14_batch03\\demands.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch03\\demands.json",
+      "sha256": "04118bc2c53183d0706e0547a484eb6fd54cc343bd9a9b26a004701854e87bcc"
+    },
+    "runs\\seed14_batch03\\episodes.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch03\\episodes.json",
+      "sha256": "ea911a93a9d38d8915fc2612debc1391c404c8dd99c67337bec38dec57ab43a1"
+    },
+    "runs\\seed14_batch03\\information_audits.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch03\\information_audits.json",
+      "sha256": "d40a129e223cfd78d9d30a3049eb0a289b809d18ec922f9e673d93b979c5c2af"
+    },
+    "runs\\seed14_batch03\\periods.csv": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch03\\periods.csv",
+      "sha256": "17e66a5647c11720c3d95200befac4b9053e8fbeb18a55faaf3cb623904e5bae"
+    },
+    "runs\\seed14_batch03\\protocol.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch03\\protocol.json",
+      "sha256": "aa9fcd0e8319e53f9c568b13fad9ed9b7aa1cb82686b65b6aba8fa713f3b629a"
+    },
+    "runs\\seed14_batch03\\runtime_failures.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch03\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "runs\\seed14_batch03\\scores.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch03\\scores.json",
+      "sha256": "dbaca274707adb28b5faf9c9bbce54392cb5d59f62afdea16e65725072fdbaac"
+    },
+    "runs\\seed14_batch04\\calls.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch04\\calls.json",
+      "sha256": "c2e6652db0ed76ab6f1892a4f2e82ddaa75fc8fdff10a2d7bf43e368f821568a"
+    },
+    "runs\\seed14_batch04\\completed.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch04\\completed.json",
+      "sha256": "c1bb4eb1784ca6980454ef7c3c1fa65102106848cc2ffb32d2b179c4d5ce8412"
+    },
+    "runs\\seed14_batch04\\delivered_reports.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch04\\delivered_reports.json",
+      "sha256": "63192bc73a897f54cde444e186b15ad8c5a6a2527709a04b9238cc62e89d7c74"
+    },
+    "runs\\seed14_batch04\\demands.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch04\\demands.json",
+      "sha256": "6ebd035d980b3c224084f70447cb92dde6cc3696754e0c9906450cad2963ee3b"
+    },
+    "runs\\seed14_batch04\\episodes.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch04\\episodes.json",
+      "sha256": "b593c6a1ef937d7906eaa629a65140af644c4673ac44731998eba50550631009"
+    },
+    "runs\\seed14_batch04\\information_audits.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch04\\information_audits.json",
+      "sha256": "2d5918a56b27834e665c46e05af0f22a2acab873d8f6d48df215ed0bd2ef5b79"
+    },
+    "runs\\seed14_batch04\\periods.csv": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch04\\periods.csv",
+      "sha256": "9af7b142cfd91b3803ddfb7e13a3971a39e1385b89736ee7618d0484563bd463"
+    },
+    "runs\\seed14_batch04\\protocol.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch04\\protocol.json",
+      "sha256": "ed9bd4e9177d9b1e770226c8e3d66bc0b41686f597287ebca6996440c75ff894"
+    },
+    "runs\\seed14_batch04\\runtime_failures.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch04\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "runs\\seed14_batch04\\scores.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch04\\scores.json",
+      "sha256": "f98da1b79534e12c0a602e588d6af6edbadac49a6226c70a81a665c00f08730a"
+    },
+    "runs\\seed14_batch05\\calls.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch05\\calls.json",
+      "sha256": "cec41cf400e9a9612e6629d173abc659682580d8863b8d3115bcc0f7043adcee"
+    },
+    "runs\\seed14_batch05\\completed.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch05\\completed.json",
+      "sha256": "625639312c341306a8dbfa83955ff2c3dd4e0d9b08801992a589c6f660a68159"
+    },
+    "runs\\seed14_batch05\\delivered_reports.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch05\\delivered_reports.json",
+      "sha256": "7cff4292a60c8c66c9b4832ef731699f7a8b6dd988c08e4d2dd2761249f01432"
+    },
+    "runs\\seed14_batch05\\demands.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch05\\demands.json",
+      "sha256": "d91915963e1f320e7aa33e0a0c8c7f03751a24f59c29d338a8726deef10ae69b"
+    },
+    "runs\\seed14_batch05\\episodes.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch05\\episodes.json",
+      "sha256": "c9495330c0c670abb9489bdd0e93bc3416ce5d1e26825e1e30c4be142bd8afae"
+    },
+    "runs\\seed14_batch05\\information_audits.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch05\\information_audits.json",
+      "sha256": "0e0515b419e9dbcc1313d2dde3508c67a5aa5422d93b68384d950302b23cc568"
+    },
+    "runs\\seed14_batch05\\periods.csv": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch05\\periods.csv",
+      "sha256": "6db5e912a469bd9a95b63b07e544f0e33d96c0c7dfebae733826a8ef35190eac"
+    },
+    "runs\\seed14_batch05\\protocol.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch05\\protocol.json",
+      "sha256": "083a0f557914bbb815604a3943fbe17d528eaf4086918dcb1e980e8388f3abc3"
+    },
+    "runs\\seed14_batch05\\runtime_failures.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch05\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "runs\\seed14_batch05\\scores.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch05\\scores.json",
+      "sha256": "a2a4f84fc5b0224ba0f4b8ed5c6fb8462047d68c5aac22473f28d4cc80d69a93"
+    },
+    "runs\\seed14_batch06\\calls.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch06\\calls.json",
+      "sha256": "43737a6089a81194f9eedc84ad717827f2fceb3d313099d62dd24a595d621364"
+    },
+    "runs\\seed14_batch06\\completed.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch06\\completed.json",
+      "sha256": "d98767c7798bcab67885c80cfc98098e35b1d2e056462c2142832b20d0ae7b74"
+    },
+    "runs\\seed14_batch06\\delivered_reports.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch06\\delivered_reports.json",
+      "sha256": "9b4a3a90bcdda997ee16cce6894a212e9de253e1a39761bd431521860c325d41"
+    },
+    "runs\\seed14_batch06\\demands.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch06\\demands.json",
+      "sha256": "92980fbe7e6a2c688c668e07fbb32a7a9c91c7fe14e6b01b6fca739edf87e554"
+    },
+    "runs\\seed14_batch06\\episodes.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch06\\episodes.json",
+      "sha256": "e7a938ef1306553a4eef1bfcda81cf550b9350b2e52a1b4eb43d8447209d9768"
+    },
+    "runs\\seed14_batch06\\information_audits.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch06\\information_audits.json",
+      "sha256": "634dcb4fe5ed356bef13ea74e5895dfa8fe2de741f5b89552c102c21ef9c6dc5"
+    },
+    "runs\\seed14_batch06\\periods.csv": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch06\\periods.csv",
+      "sha256": "90715d48aabf90a77c214a6334750abfe19b16114ba4b36543179e6392bf803a"
+    },
+    "runs\\seed14_batch06\\protocol.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch06\\protocol.json",
+      "sha256": "11b00bafc20543ef92fdfee300f9c62cef308038e4f271bf516dc3d1f9502a4d"
+    },
+    "runs\\seed14_batch06\\runtime_failures.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch06\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "runs\\seed14_batch06\\scores.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch06\\scores.json",
+      "sha256": "e56621c376672d5ded4cae01f6ea715b9d486da77670dd2f69cfe49a701d4822"
+    },
+    "runs\\seed14_batch07\\calls.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch07\\calls.json",
+      "sha256": "8cc5e576de2b4b66aedd6bece33591459b318562ebe3884838591ee1eb5a3edc"
+    },
+    "runs\\seed14_batch07\\completed.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch07\\completed.json",
+      "sha256": "4201e3a5f1bab443bed6aed10748183fa584a7056e2ada192704481c01d95100"
+    },
+    "runs\\seed14_batch07\\delivered_reports.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch07\\delivered_reports.json",
+      "sha256": "185714b0024746b3923375bd4557fc3b4b9fae81053782867c653099cd12956e"
+    },
+    "runs\\seed14_batch07\\demands.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch07\\demands.json",
+      "sha256": "80e4ad4408efe9a20791f4c1d17a67f3fd57ec73b0c862b54dd98ca62d299a6b"
+    },
+    "runs\\seed14_batch07\\episodes.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch07\\episodes.json",
+      "sha256": "db75aa9ab956b413a1bf834bf38c2bc6c444d7c293d7ca92ea1598d480a8493b"
+    },
+    "runs\\seed14_batch07\\information_audits.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch07\\information_audits.json",
+      "sha256": "c1493351159abfc9909b855da0a150ba0720a999657399b24353d7c16bf59607"
+    },
+    "runs\\seed14_batch07\\periods.csv": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch07\\periods.csv",
+      "sha256": "8f47e8e74f687439d35fef570f9da379f19993030b079e72b9bc6b3fb59ced81"
+    },
+    "runs\\seed14_batch07\\protocol.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch07\\protocol.json",
+      "sha256": "ded7e56286007a43b55992007a49a2b1f11e68471d5421da3239b36569b4f4e4"
+    },
+    "runs\\seed14_batch07\\runtime_failures.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch07\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "runs\\seed14_batch07\\scores.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch07\\scores.json",
+      "sha256": "6f4b4c206b8395e30817ee99e41f150420d19637eb23fd05c79947051f24e17c"
+    },
+    "runs\\seed14_batch08\\calls.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch08\\calls.json",
+      "sha256": "62b827b3d8a6c02a04a7b4e28542799cfa4e5a0e6d6f6ce604720de789b763d7"
+    },
+    "runs\\seed14_batch08\\completed.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch08\\completed.json",
+      "sha256": "0f59467aacaa2e7cd780c940c27d74b3a7088202404c2372ee74ea11b0584410"
+    },
+    "runs\\seed14_batch08\\delivered_reports.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch08\\delivered_reports.json",
+      "sha256": "7a022d31357fdc5e6491eee6236c0fb7b1333d77cda9885871a9ea9f4135ddbd"
+    },
+    "runs\\seed14_batch08\\demands.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch08\\demands.json",
+      "sha256": "d1d12b6ec61a4a086220fc55a62fe0b7536e3bcedc35246b0cbfd6720d2c6a75"
+    },
+    "runs\\seed14_batch08\\episodes.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch08\\episodes.json",
+      "sha256": "50b1e33770d91628fa18f819ac88857fed943a7310cb108cfad0948c056f82d9"
+    },
+    "runs\\seed14_batch08\\information_audits.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch08\\information_audits.json",
+      "sha256": "7151197bcfe8d31609b0f5b2f1247399c26fd05e29bad53575c5fa010486be23"
+    },
+    "runs\\seed14_batch08\\periods.csv": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch08\\periods.csv",
+      "sha256": "0d01407ca10e065c82897e6bdba088f915323433cc3c9723315f9638e9dba0df"
+    },
+    "runs\\seed14_batch08\\protocol.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch08\\protocol.json",
+      "sha256": "2b66c22ba5c8d6cf6cba6c05e98b120fd104f47e1a68297cb95f097d1f160dce"
+    },
+    "runs\\seed14_batch08\\runtime_failures.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch08\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "runs\\seed14_batch08\\scores.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch08\\scores.json",
+      "sha256": "3d58d23bea874eab32838011952d1eee6a361cda2c8c8ab578b81fe98ed35dc6"
+    },
+    "runs\\seed14_batch09\\calls.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch09\\calls.json",
+      "sha256": "ce38fa3db159e359ae61616b5f06ead1dd0bcf21e9e33d23b1e8fcedf53df11c"
+    },
+    "runs\\seed14_batch09\\completed.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch09\\completed.json",
+      "sha256": "8f04482efd54307d3fece5ddfc4447964b046349c4a0fdac8b0d78cd28e9497a"
+    },
+    "runs\\seed14_batch09\\delivered_reports.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch09\\delivered_reports.json",
+      "sha256": "036718058f8d20835a8c21247e9c294df85157c47f2d379df17ca8319df0b767"
+    },
+    "runs\\seed14_batch09\\demands.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch09\\demands.json",
+      "sha256": "4db0b4c56d45ae4120a0545348d53913764d8c007eb96a73eab2a0f437e9a5b6"
+    },
+    "runs\\seed14_batch09\\episodes.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch09\\episodes.json",
+      "sha256": "9fe846a8a074884c263e4dadd9e25d88fce50e5b6c3c3f036912426df2d86a54"
+    },
+    "runs\\seed14_batch09\\information_audits.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch09\\information_audits.json",
+      "sha256": "b4eddf0c2e168f153d720af1228923ad896b32e865bdd596f479ef3ae31c0b0f"
+    },
+    "runs\\seed14_batch09\\periods.csv": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch09\\periods.csv",
+      "sha256": "34403e303bc3cb4f2885096d0ceb399c1922084f48dfc700ab6d6894bb9b7e06"
+    },
+    "runs\\seed14_batch09\\protocol.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch09\\protocol.json",
+      "sha256": "994265a8b4a1f34c1afd3cc3a5a22b2a68826c244fa5404cf8cd23db0a95555e"
+    },
+    "runs\\seed14_batch09\\runtime_failures.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch09\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "runs\\seed14_batch09\\scores.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch09\\scores.json",
+      "sha256": "48863c422c0be69dd83d4f3497b7b487313794d0840465d017bf846435ea5dcb"
+    },
+    "runs\\seed14_batch10\\calls.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch10\\calls.json",
+      "sha256": "ee21550652b5318a6da4fe938f834581e88f79a9a4bbad6923219e0c3c6e74a6"
+    },
+    "runs\\seed14_batch10\\completed.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch10\\completed.json",
+      "sha256": "bd9ad1fa43eff4619c3592349b3822a77e7c3f5399dade208f1bab3f4c88e3bf"
+    },
+    "runs\\seed14_batch10\\delivered_reports.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch10\\delivered_reports.json",
+      "sha256": "25e93396637dfe38b490f9dee7937a42a2cc4fb72e74e63fbdc9e529fa6737bb"
+    },
+    "runs\\seed14_batch10\\demands.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch10\\demands.json",
+      "sha256": "18168f3cc086161ff5f18f386afcdfe763ac5eeeb2891ce4a2be6105e0dee7b0"
+    },
+    "runs\\seed14_batch10\\episodes.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch10\\episodes.json",
+      "sha256": "acbae301e32fab1f1fc73cf40d7c440572c2d7cf3e48c2f7f51ca86ad7ba593c"
+    },
+    "runs\\seed14_batch10\\information_audits.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch10\\information_audits.json",
+      "sha256": "d2fd520dfdb5fbf8a9c059e8829045264795cf26cb61686463ba2436547bc966"
+    },
+    "runs\\seed14_batch10\\periods.csv": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch10\\periods.csv",
+      "sha256": "346d6a654e7268653c0127cc1a8b5c373f6cf1dbcf84b2d03a3c76071789554a"
+    },
+    "runs\\seed14_batch10\\protocol.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch10\\protocol.json",
+      "sha256": "2e2046cb18840aeae8bd70c4f51956dd8d33e8988fa9d9522911ea5dc1e29396"
+    },
+    "runs\\seed14_batch10\\runtime_failures.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch10\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "runs\\seed14_batch10\\scores.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed14_batch10\\scores.json",
+      "sha256": "bf5ac95b53fd4b05ceb53960f658814839f8f189eea3e4f993c71b988c4eb1cf"
+    },
+    "runs\\seed15_batch01\\calls.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch01\\calls.json",
+      "sha256": "636cba274e74c5387f55c86f5381abd0dfbad53edf399010875e265cfcf0c0c7"
+    },
+    "runs\\seed15_batch01\\completed.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch01\\completed.json",
+      "sha256": "8bad13fb8b07664c22d775087dfa8588d5e17c322a51ed7e219f526bec9881cb"
+    },
+    "runs\\seed15_batch01\\delivered_reports.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch01\\delivered_reports.json",
+      "sha256": "1b39f6b80c2d46faae41ab7b64769fc73d8c1e48619d2007dc510c0c1780f065"
+    },
+    "runs\\seed15_batch01\\demands.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch01\\demands.json",
+      "sha256": "72ce98ab397556f47b0c69498dc40c18d0cab9d7573bf50bf90a866079db26ba"
+    },
+    "runs\\seed15_batch01\\episodes.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch01\\episodes.json",
+      "sha256": "df05ab531dfda43a0985a16c22d902d9407a93c0409e83d02f40a07e3203992b"
+    },
+    "runs\\seed15_batch01\\information_audits.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch01\\information_audits.json",
+      "sha256": "4d5a40327df04d06733d70eb61a12f667ade7a061bf931ffc2d2bd24177aad7c"
+    },
+    "runs\\seed15_batch01\\periods.csv": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch01\\periods.csv",
+      "sha256": "205e166e083cc42f975a102ade16dde3b0c76027eae05752bac8803200627b32"
+    },
+    "runs\\seed15_batch01\\protocol.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch01\\protocol.json",
+      "sha256": "ff47aca14547b606f6a1e84949771ba4cb35b238611536bfc30f0e2151bcd5b3"
+    },
+    "runs\\seed15_batch01\\runtime_failures.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch01\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "runs\\seed15_batch01\\scores.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch01\\scores.json",
+      "sha256": "cf005ac0c6d326c670379aee3cd4def100ffbad8908277e6820c8c2c27e53e5d"
+    },
+    "runs\\seed15_batch02\\calls.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch02\\calls.json",
+      "sha256": "661490de6a8c94c9af8a8b5e127b426a7d776c4c311fde8d0f986c3495e47ce3"
+    },
+    "runs\\seed15_batch02\\delivered_reports.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch02\\delivered_reports.json",
+      "sha256": "d5ff6381040ad846ff7deb26a80939f8506d7d66229e09140bce4d27c4e8960f"
+    },
+    "runs\\seed15_batch02\\demands.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch02\\demands.json",
+      "sha256": "17bea0b18667a2ada86b065ab8da1dfe70f8861f51ad6cc31187c78f2c781762"
+    },
+    "runs\\seed15_batch02\\episodes.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch02\\episodes.json",
+      "sha256": "2847f1f951cdd74c0853dc0d04db3e15e13947b2b44f3f7067c354c563e0264f"
+    },
+    "runs\\seed15_batch02\\failed.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch02\\failed.json",
+      "sha256": "ef5d48db79ff38d1e533cbc457895ccdbe500e11abf2971960451d6a63949d80"
+    },
+    "runs\\seed15_batch02\\information_audits.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch02\\information_audits.json",
+      "sha256": "6df9ae134597686b79e2e17cc78ea7e34ae466709d50dda2d415390dabccb45a"
+    },
+    "runs\\seed15_batch02\\periods.csv": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch02\\periods.csv",
+      "sha256": "713e9df1f7df7e626ce01dd6bfcb6d7e771f820ad2d9bfa7ad28c980ab94a283"
+    },
+    "runs\\seed15_batch02\\protocol.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch02\\protocol.json",
+      "sha256": "b2c4262b625e9563f2f9e596ed16f5cd372f01efb5aade91e95da83d10b5e0a1"
+    },
+    "runs\\seed15_batch02\\runtime_failures.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch02\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "runs\\seed15_batch02\\scores.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch02\\scores.json",
+      "sha256": "1be6a9b38ebd6256473309179d5ddb743cbda3f497a32c8c1010ff028454d4bd"
+    },
+    "runs\\seed15_batch02_quota_recovery1\\calls.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch02_quota_recovery1\\calls.json",
+      "sha256": "28b46126a91a91821cd9bf932ce6300232d39456276c16987b1564b181b58aa7"
+    },
+    "runs\\seed15_batch02_quota_recovery1\\delivered_reports.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch02_quota_recovery1\\delivered_reports.json",
+      "sha256": "aef7f5c5ef589fff280004efd3ddd46bd7e5fa90bd1ba49b4e7dbc47d947d526"
+    },
+    "runs\\seed15_batch02_quota_recovery1\\demands.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch02_quota_recovery1\\demands.json",
+      "sha256": "17bea0b18667a2ada86b065ab8da1dfe70f8861f51ad6cc31187c78f2c781762"
+    },
+    "runs\\seed15_batch02_quota_recovery1\\episodes.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch02_quota_recovery1\\episodes.json",
+      "sha256": "1a8079110d843bd5b59aa856d424a13815d9b66cc7b4674274e20e90587d6e78"
+    },
+    "runs\\seed15_batch02_quota_recovery1\\failed.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch02_quota_recovery1\\failed.json",
+      "sha256": "ef5d48db79ff38d1e533cbc457895ccdbe500e11abf2971960451d6a63949d80"
+    },
+    "runs\\seed15_batch02_quota_recovery1\\information_audits.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch02_quota_recovery1\\information_audits.json",
+      "sha256": "5031845c9fb0d21058cb0a822c0f879f6175f6acb410c73d615c24ce379c5aca"
+    },
+    "runs\\seed15_batch02_quota_recovery1\\periods.csv": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch02_quota_recovery1\\periods.csv",
+      "sha256": "e4cb899d0cb0e99023b8b9ca24d4e8bf86b6f7de39a1068cf5dfa933f3f4a5bf"
+    },
+    "runs\\seed15_batch02_quota_recovery1\\protocol.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch02_quota_recovery1\\protocol.json",
+      "sha256": "5f68e62d74f17d70b59082b4f7cdc0d6cd333d2469719e919777cd0b81c17711"
+    },
+    "runs\\seed15_batch02_quota_recovery1\\runtime_failures.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch02_quota_recovery1\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "runs\\seed15_batch02_quota_recovery_recharge1\\calls.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch02_quota_recovery_recharge1\\calls.json",
+      "sha256": "53f387f1fa0f3261c3afb8bbbfa9a589e835b267078a3ad7c917e7f5792018bb"
+    },
+    "runs\\seed15_batch02_quota_recovery_recharge1\\completed.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch02_quota_recovery_recharge1\\completed.json",
+      "sha256": "c0bfbe87d0ca0c66f916b4c98a47aa6df958bb04bbb970bebeb8a3e14cc0581e"
+    },
+    "runs\\seed15_batch02_quota_recovery_recharge1\\delivered_reports.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch02_quota_recovery_recharge1\\delivered_reports.json",
+      "sha256": "81d1a4f6ab896ad48307c0b18e56c7c4885c5f7785610dcd27f908ae13fd04ef"
+    },
+    "runs\\seed15_batch02_quota_recovery_recharge1\\demands.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch02_quota_recovery_recharge1\\demands.json",
+      "sha256": "17bea0b18667a2ada86b065ab8da1dfe70f8861f51ad6cc31187c78f2c781762"
+    },
+    "runs\\seed15_batch02_quota_recovery_recharge1\\episodes.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch02_quota_recovery_recharge1\\episodes.json",
+      "sha256": "59d124fd381421912237c0e29f1c7e37fda6a1942483964e3a614e6bd82f7f79"
+    },
+    "runs\\seed15_batch02_quota_recovery_recharge1\\information_audits.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch02_quota_recovery_recharge1\\information_audits.json",
+      "sha256": "ba4bf23205b7cfc5441c26e7f8ea8259f26e6d3013abf7b385742457da8df5ce"
+    },
+    "runs\\seed15_batch02_quota_recovery_recharge1\\periods.csv": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch02_quota_recovery_recharge1\\periods.csv",
+      "sha256": "43c87801085e45cd12b4104cd9881da6f73bf4f9c3596aaff60d65924ba7daac"
+    },
+    "runs\\seed15_batch02_quota_recovery_recharge1\\protocol.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch02_quota_recovery_recharge1\\protocol.json",
+      "sha256": "2c36bffe9eb4b39c49272b54bacf877042ebfb006addb917f5aab2b2a848c095"
+    },
+    "runs\\seed15_batch02_quota_recovery_recharge1\\runtime_failures.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch02_quota_recovery_recharge1\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "runs\\seed15_batch02_quota_recovery_recharge1\\scores.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch02_quota_recovery_recharge1\\scores.json",
+      "sha256": "06653be721a196d876c89e3466336ed63a727a8b07ca070396be2e063ce9571f"
+    },
+    "runs\\seed15_batch03\\calls.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch03\\calls.json",
+      "sha256": "ac25e19a96354a26fa5a6c0956f25250530b012b6db7e92148a66ddd2b68cad4"
+    },
+    "runs\\seed15_batch03\\completed.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch03\\completed.json",
+      "sha256": "f78ec3b6e7d734b509f81f248f56371966de6ad414706ee698cdbd70c0f9e501"
+    },
+    "runs\\seed15_batch03\\delivered_reports.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch03\\delivered_reports.json",
+      "sha256": "3e2d4af1288e4d9964881b161de118936dddbe530412ed3b9586e030ab47a8cd"
+    },
+    "runs\\seed15_batch03\\demands.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch03\\demands.json",
+      "sha256": "04118bc2c53183d0706e0547a484eb6fd54cc343bd9a9b26a004701854e87bcc"
+    },
+    "runs\\seed15_batch03\\episodes.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch03\\episodes.json",
+      "sha256": "9b67b2ddf53cf65e9c947f591bf24d7acebd38d05fe42a2cc6e6d0c7136c7397"
+    },
+    "runs\\seed15_batch03\\information_audits.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch03\\information_audits.json",
+      "sha256": "c55456aed37636740c9a3867c4bddc2a7ad0fc23a1df2145f864a87394d68f79"
+    },
+    "runs\\seed15_batch03\\periods.csv": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch03\\periods.csv",
+      "sha256": "f333aa8361d41c8443936353ebcb41de4b489cb0a222778c66a5411fc0d1062b"
+    },
+    "runs\\seed15_batch03\\protocol.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch03\\protocol.json",
+      "sha256": "fd06ed32c7faa9e88b096916ec38ea5ea55f706e7ec393e25fa9e5a1605847c5"
+    },
+    "runs\\seed15_batch03\\runtime_failures.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch03\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "runs\\seed15_batch03\\scores.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch03\\scores.json",
+      "sha256": "d5d3c5515e0ed329746aa56c049c27c029471294b8dc8939495e31726ff98b7c"
+    },
+    "runs\\seed15_batch04\\calls.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch04\\calls.json",
+      "sha256": "8e0a5458f0779dfe90e5b30d15cabf24cf395284f138cf0208227f7785308de5"
+    },
+    "runs\\seed15_batch04\\completed.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch04\\completed.json",
+      "sha256": "0b7942a9d0dfc69ab72e4ce2937d226f3778b0cbe6c268cadfce64211de56fc7"
+    },
+    "runs\\seed15_batch04\\delivered_reports.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch04\\delivered_reports.json",
+      "sha256": "63192bc73a897f54cde444e186b15ad8c5a6a2527709a04b9238cc62e89d7c74"
+    },
+    "runs\\seed15_batch04\\demands.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch04\\demands.json",
+      "sha256": "6ebd035d980b3c224084f70447cb92dde6cc3696754e0c9906450cad2963ee3b"
+    },
+    "runs\\seed15_batch04\\episodes.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch04\\episodes.json",
+      "sha256": "2e6573f34a57053f2cd1500e4770a6049c58537a006b7cb44358acfb309897fa"
+    },
+    "runs\\seed15_batch04\\information_audits.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch04\\information_audits.json",
+      "sha256": "399e5d31637ea2727bbceeae1cc42b2725889854a19110151befed0bc1489ecc"
+    },
+    "runs\\seed15_batch04\\periods.csv": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch04\\periods.csv",
+      "sha256": "f0a6891fb23e28c1c46a3e01689ae6e9ff74ec5c1b3dd981cbc41bb70567cf38"
+    },
+    "runs\\seed15_batch04\\protocol.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch04\\protocol.json",
+      "sha256": "ca36b93d49a8ec5dfb08f875efbd9ae85fcf463ca43a7b2bc15a407f0e02147e"
+    },
+    "runs\\seed15_batch04\\runtime_failures.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch04\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "runs\\seed15_batch04\\scores.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch04\\scores.json",
+      "sha256": "d3d78e493b002e7f8e82bc7380299f1ac0342575fd486dc2da25961e21879ed2"
+    },
+    "runs\\seed15_batch05\\calls.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch05\\calls.json",
+      "sha256": "eae9ff2be3acaae0ca28b6ac05bca2fdb5a97c870fbdebc890aab423cb382fa6"
+    },
+    "runs\\seed15_batch05\\completed.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch05\\completed.json",
+      "sha256": "f831a24a8c7338a8e8e7a08c6f9942f1b1a2a08a9a547f92009746ecd7cbcf19"
+    },
+    "runs\\seed15_batch05\\delivered_reports.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch05\\delivered_reports.json",
+      "sha256": "7cff4292a60c8c66c9b4832ef731699f7a8b6dd988c08e4d2dd2761249f01432"
+    },
+    "runs\\seed15_batch05\\demands.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch05\\demands.json",
+      "sha256": "d91915963e1f320e7aa33e0a0c8c7f03751a24f59c29d338a8726deef10ae69b"
+    },
+    "runs\\seed15_batch05\\episodes.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch05\\episodes.json",
+      "sha256": "4854ce0c657199749d07adf976cb99a9c1c8f7fc5a59b652272b22fe8894577b"
+    },
+    "runs\\seed15_batch05\\information_audits.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch05\\information_audits.json",
+      "sha256": "e0b033aa77bb6fa37415fa5e665704d9bcfbded31a5e7659e08db42484c237d1"
+    },
+    "runs\\seed15_batch05\\periods.csv": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch05\\periods.csv",
+      "sha256": "9fa979873f4e35a431d2417621b449d2a50ce70ce391ac33bf158f6a73328536"
+    },
+    "runs\\seed15_batch05\\protocol.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch05\\protocol.json",
+      "sha256": "fd000b418714ce6a5fab718d056ce58be75beceb92d413832325bd6cded46bba"
+    },
+    "runs\\seed15_batch05\\runtime_failures.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch05\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "runs\\seed15_batch05\\scores.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch05\\scores.json",
+      "sha256": "74f532a32ae7d6e34cc6d53322bd21aa96ab065d646f871c63022cda1eca39d7"
+    },
+    "runs\\seed15_batch06\\calls.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch06\\calls.json",
+      "sha256": "c3ee821dce3d1e612aef7c28d40098376e4ea0b6c229e1b64f45f7249562d313"
+    },
+    "runs\\seed15_batch06\\completed.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch06\\completed.json",
+      "sha256": "8fb21dda6375ce34cfeb1fc9c1465403184553fdc900c0d3c11d9c9cf8d3ca4f"
+    },
+    "runs\\seed15_batch06\\delivered_reports.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch06\\delivered_reports.json",
+      "sha256": "9b4a3a90bcdda997ee16cce6894a212e9de253e1a39761bd431521860c325d41"
+    },
+    "runs\\seed15_batch06\\demands.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch06\\demands.json",
+      "sha256": "92980fbe7e6a2c688c668e07fbb32a7a9c91c7fe14e6b01b6fca739edf87e554"
+    },
+    "runs\\seed15_batch06\\episodes.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch06\\episodes.json",
+      "sha256": "f2c343d1b63eec6db8a14fb6d5c98414abc97de07f00ae8eca4d5eb6030a915e"
+    },
+    "runs\\seed15_batch06\\information_audits.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch06\\information_audits.json",
+      "sha256": "5c8e59d72cda1d9fd3a12b1f44bf1f80bde5256e9d411d6033e14848a32c8d7d"
+    },
+    "runs\\seed15_batch06\\periods.csv": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch06\\periods.csv",
+      "sha256": "63fadefc531b52bf6e7c7e7f687e3763eb20fd9ec5d1af9aba6389f78eb2a94c"
+    },
+    "runs\\seed15_batch06\\protocol.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch06\\protocol.json",
+      "sha256": "a3cf76621a410c65d1811fc17e17f990780f9d83ac994ce2908543237e90991c"
+    },
+    "runs\\seed15_batch06\\runtime_failures.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch06\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "runs\\seed15_batch06\\scores.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch06\\scores.json",
+      "sha256": "0149b113eab9149fa3e92495335fdebbe9ede54b50f050dccfd61e8f5d0f9b49"
+    },
+    "runs\\seed15_batch07\\calls.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch07\\calls.json",
+      "sha256": "45ec54eca93a14b8ac69340e77d14434d8c47f882187e96d09f2c566f7e11d6e"
+    },
+    "runs\\seed15_batch07\\completed.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch07\\completed.json",
+      "sha256": "846017c8174eb56524a411d4b1cb97b78b931fdb29831db59765c5189d8a34d8"
+    },
+    "runs\\seed15_batch07\\delivered_reports.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch07\\delivered_reports.json",
+      "sha256": "185714b0024746b3923375bd4557fc3b4b9fae81053782867c653099cd12956e"
+    },
+    "runs\\seed15_batch07\\demands.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch07\\demands.json",
+      "sha256": "80e4ad4408efe9a20791f4c1d17a67f3fd57ec73b0c862b54dd98ca62d299a6b"
+    },
+    "runs\\seed15_batch07\\episodes.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch07\\episodes.json",
+      "sha256": "8f4151bbb7dc2341ec57e27e1bf5633df04386f80dfd30a431310ca89b3c0b52"
+    },
+    "runs\\seed15_batch07\\information_audits.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch07\\information_audits.json",
+      "sha256": "151a40b430d9e9c3218532369b07bfbe2b2e468db8aab86875520682dea21cf4"
+    },
+    "runs\\seed15_batch07\\periods.csv": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch07\\periods.csv",
+      "sha256": "0be57a3041188b004683d3a0b434571c21c5913b9b5cf09197a17b53e4c442e6"
+    },
+    "runs\\seed15_batch07\\protocol.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch07\\protocol.json",
+      "sha256": "1f23307cef089dea7f5c28f15d2eda72281bd0abea9c54dd285f78de02e65ef5"
+    },
+    "runs\\seed15_batch07\\runtime_failures.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch07\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "runs\\seed15_batch07\\scores.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch07\\scores.json",
+      "sha256": "0a0ae75ff81c7e9a92cd0e4903bd6b87d8c2bd170fd1e4d481ceb871ee485015"
+    },
+    "runs\\seed15_batch08\\calls.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch08\\calls.json",
+      "sha256": "4c9249e9cf7bfeedbc361ec61af55fa7bf27f8e4d8ccadea1e24ef392a759a8a"
+    },
+    "runs\\seed15_batch08\\completed.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch08\\completed.json",
+      "sha256": "1c015e4bfb9dec4598eca9a2595979df4d87bc226f4bfa710402623fac8eeafb"
+    },
+    "runs\\seed15_batch08\\delivered_reports.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch08\\delivered_reports.json",
+      "sha256": "7a022d31357fdc5e6491eee6236c0fb7b1333d77cda9885871a9ea9f4135ddbd"
+    },
+    "runs\\seed15_batch08\\demands.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch08\\demands.json",
+      "sha256": "d1d12b6ec61a4a086220fc55a62fe0b7536e3bcedc35246b0cbfd6720d2c6a75"
+    },
+    "runs\\seed15_batch08\\episodes.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch08\\episodes.json",
+      "sha256": "c9a52bf37a6294126ce537372c5a8e0868980aa88c5d2b625d7299f679e0689f"
+    },
+    "runs\\seed15_batch08\\information_audits.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch08\\information_audits.json",
+      "sha256": "285bf45fdef0ec4f9f931b81d46080bd05c883c7978ff1d845cf57025e5481cc"
+    },
+    "runs\\seed15_batch08\\periods.csv": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch08\\periods.csv",
+      "sha256": "3c2f3bdcba47aac49737e4476daa42ec7c832f083629c1eacd654e0940ff3450"
+    },
+    "runs\\seed15_batch08\\protocol.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch08\\protocol.json",
+      "sha256": "cf570c990157c46f969382a0bfcab8512c67e2fa7134d9a30667e3e4d7d6ad55"
+    },
+    "runs\\seed15_batch08\\runtime_failures.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch08\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "runs\\seed15_batch08\\scores.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch08\\scores.json",
+      "sha256": "dad1ad5a890b643919f61af415abfbed75dc41a2eb84fa44b89cb3c7dc613320"
+    },
+    "runs\\seed15_batch09\\calls.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch09\\calls.json",
+      "sha256": "4597360fe35fadb18f8539f9fffd47e2d7a8e815b66da85ef96673d24aebbd2b"
+    },
+    "runs\\seed15_batch09\\completed.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch09\\completed.json",
+      "sha256": "10dd834c5bc36364e06f739b862e2f813ec4015abd2e5423cd68a9ac25e3246f"
+    },
+    "runs\\seed15_batch09\\delivered_reports.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch09\\delivered_reports.json",
+      "sha256": "036718058f8d20835a8c21247e9c294df85157c47f2d379df17ca8319df0b767"
+    },
+    "runs\\seed15_batch09\\demands.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch09\\demands.json",
+      "sha256": "4db0b4c56d45ae4120a0545348d53913764d8c007eb96a73eab2a0f437e9a5b6"
+    },
+    "runs\\seed15_batch09\\episodes.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch09\\episodes.json",
+      "sha256": "970a19d53299d1a11c77ec16b948b38423b7e8937735c57dda7a98fe531d6a8a"
+    },
+    "runs\\seed15_batch09\\information_audits.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch09\\information_audits.json",
+      "sha256": "bf6d09ee65beb7ffd61ccc26a957d7f6c3bba833a58f9aae9c6bc914a426380f"
+    },
+    "runs\\seed15_batch09\\periods.csv": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch09\\periods.csv",
+      "sha256": "2548c6499c0f66cb669889216ad1bc96d1d7c96bbad7dd1bc903039aef36c703"
+    },
+    "runs\\seed15_batch09\\protocol.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch09\\protocol.json",
+      "sha256": "81e0ffc05b4d25c87319446fc0e9f32d2d89afcc8c23f4593479eb1c2148d924"
+    },
+    "runs\\seed15_batch09\\runtime_failures.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch09\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "runs\\seed15_batch09\\scores.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch09\\scores.json",
+      "sha256": "3b88c59731d9a73b953d8f6fd326f6734314c7075e0383db3a304916fc755842"
+    },
+    "runs\\seed15_batch10\\calls.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch10\\calls.json",
+      "sha256": "71758c2ba26e479c9c97128b3bf63e212f029141db1413d9b29503aee64b2137"
+    },
+    "runs\\seed15_batch10\\completed.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch10\\completed.json",
+      "sha256": "3620ae35484a09270dfcbb432c1687f90a68506c808c16de5bd62d39bb9e371b"
+    },
+    "runs\\seed15_batch10\\delivered_reports.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch10\\delivered_reports.json",
+      "sha256": "25e93396637dfe38b490f9dee7937a42a2cc4fb72e74e63fbdc9e529fa6737bb"
+    },
+    "runs\\seed15_batch10\\demands.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch10\\demands.json",
+      "sha256": "18168f3cc086161ff5f18f386afcdfe763ac5eeeb2891ce4a2be6105e0dee7b0"
+    },
+    "runs\\seed15_batch10\\episodes.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch10\\episodes.json",
+      "sha256": "ab3907455b8d0d0aa2e7f4fe6cb8a98c1d362e9ff697b2db1226eef8682f049f"
+    },
+    "runs\\seed15_batch10\\information_audits.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch10\\information_audits.json",
+      "sha256": "60229a0e1c6b724be202ec1cb1e5ff494c91fd66480aaeb09c69a348327ce71c"
+    },
+    "runs\\seed15_batch10\\periods.csv": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch10\\periods.csv",
+      "sha256": "159fcbe3fd599e199ca99e036fceac4c08b4fe5466f38adb9abdf3584cf66c2f"
+    },
+    "runs\\seed15_batch10\\protocol.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch10\\protocol.json",
+      "sha256": "36bcf3d2ecb3890fdbdf9ee2e74bf6665e5ff626f7bf64aa277dc5c37d583402"
+    },
+    "runs\\seed15_batch10\\runtime_failures.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch10\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "runs\\seed15_batch10\\scores.json": {
+      "original": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\joint_baseline_confirmation\\confirmation_v1\\runs\\seed15_batch10\\scores.json",
+      "sha256": "136abd9512712a59a19731344eef950e6be4e06a9e93028b3aa97c7ae4b0180d"
+    }
+  }
+}
