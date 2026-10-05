@@ -1,0 +1,110 @@
+[
+  {
+    "path": "experiments\\base_stock_baseline\\audit.py",
+    "sha256": "fa9dfc43d6bfd5336eeb54e24ba685b0420af6a422fbf05b100f715fedaab0fa"
+  },
+  {
+    "path": "experiments\\base_stock_baseline\\batch.py",
+    "sha256": "bcd57a8f8daaac4e6dcc1ef6d5b8d6c11f192deb51f79c4225f65bd591ef5d04"
+  },
+  {
+    "path": "experiments\\base_stock_baseline\\policy.py",
+    "sha256": "297e24e4113dd6b2b0df48a6c133f78e03c5191190acdb44cc8648ef35a2b6d6"
+  },
+  {
+    "path": "experiments\\base_stock_baseline\\preflight.py",
+    "sha256": "3138483d2b35b91dd4896fbc92ef3d74f6e0cc17fbf8dd4a4063c4e804d32cd4"
+  },
+  {
+    "path": "external\\liu-inventory\\envs\\serial.py",
+    "sha256": "7c73e9fe9ea5f8bf60908ee26e272e16bbb95e0acd9e074272ca8d1a95d70088"
+  },
+  {
+    "path": "external\\liu-inventory\\envs\\generator.py",
+    "sha256": "48366755e3318751966f240c68316488a7f79066a9c3116a798d5cab46e55741"
+  },
+  {
+    "path": "docs\\superpowers\\plans\\2026-10-05-nonstationary-base-stock-baseline.md",
+    "sha256": "dc3d0cbb83a4729291391624fcd4fa36d98467b11dfd78a8281ef74d7a0653f2"
+  },
+  {
+    "path": "docs\\2026-10-05-base-stock-development-protocol.md",
+    "sha256": "91180bed649736133401e2ed568af20609fc4f2d2d7b1588239209aa29e5e9cf"
+  },
+  {
+    "path": "results\\online_llm_shock_types\\confirmation_v5b\\inputs\\batch01.json",
+    "sha256": "807656230345c0a53bfe09cae53955c8954a11060ab9bdf7aadce1bf5807ad4a"
+  },
+  {
+    "path": "results\\online_llm_shock_types\\confirmation_v5b\\inputs\\batch06.json",
+    "sha256": "ed4cd7bf1d9fcf23a8b55a57549555204b08a8b62e92ea09a1fe5c316c173149"
+  },
+  {
+    "path": "external\\liu-inventory\\test_data\\test_demand_merton\\0.txt",
+    "sha256": "9498a12ad1ac27e23d67f4f6a9bd03a007595395c17ab953cff0d1c23ab6aae5"
+  },
+  {
+    "path": "results\\online_llm_shock_types\\confirmation_v5b\\runs\\seed11_batch01\\episodes.json",
+    "sha256": "dd0037a1eafbd6959f2fd8e17e9dd36b3c6704f2a8df75d8067359bf8d5e7711"
+  },
+  {
+    "path": "results\\online_llm_shock_types\\confirmation_v5b\\runs\\seed11_batch06\\episodes.json",
+    "sha256": "6c2b2a6160904f1ee55c1f2681aacd478066db9d0e5c397acfb56acb4b43beaa"
+  },
+  {
+    "path": "results\\online_llm_shock_types\\confirmation_v5b\\runs\\seed12_batch01\\episodes.json",
+    "sha256": "8da1c895e319711eb06d04a5415770e8ec375db3afe12102cd4a44402aba0cf2"
+  },
+  {
+    "path": "results\\online_llm_shock_types\\confirmation_v5b\\runs\\seed12_batch06\\episodes.json",
+    "sha256": "16439259dd84a467527aaaee6714287f60fb2c2160d1ae7883b337221f655993"
+  },
+  {
+    "path": "results\\online_llm_shock_types\\confirmation_v5b\\runs\\seed13_batch01\\episodes.json",
+    "sha256": "a3f2ab57bbbed204febe89c99c03930e3a5a3da3c3a47d71c3ae76d699fd9885"
+  },
+  {
+    "path": "results\\online_llm_shock_types\\confirmation_v5b\\runs\\seed13_batch06\\episodes.json",
+    "sha256": "b28ad047ac116b9d87d30ba6fcd7396c622c4da9dde6a86ec09f978c345cdfd9"
+  },
+  {
+    "path": "results\\online_llm_shock_types\\confirmation_v5b\\runs\\seed14_batch01\\episodes.json",
+    "sha256": "54b20f9a71e1c690cbaaa0f3b8d5191f4b48c216d844a2ff1f4205827d6a533b"
+  },
+  {
+    "path": "results\\online_llm_shock_types\\confirmation_v5b\\runs\\seed14_batch06\\episodes.json",
+    "sha256": "cd71afe26cd05dff5556696bdb6a926edf51fa6d3e1d07139c6ddb14bb2dadfa"
+  },
+  {
+    "path": "results\\online_llm_shock_types\\confirmation_v5b\\runs\\seed15_batch01\\episodes.json",
+    "sha256": "cfc40cd73c6f552ca0d33f19d4fd266c9f726c05cc9ba66cd9d4c0b28e1e843c"
+  },
+  {
+    "path": "results\\online_llm_shock_types\\confirmation_v5b\\runs\\seed15_batch06\\episodes.json",
+    "sha256": "2c577c7e55bd66e87774c9537fed283b7320af45999ad5262c65369656205dc0"
+  },
+  {
+    "path": "registration/freeze.json",
+    "sha256": "3c52b1d1c3b377c38449472aa7bef3f4944d1a8fc74bbc415b6161263b95f80c"
+  },
+  {
+    "path": "registration/manifest.json",
+    "sha256": "f48e68d74c2d7201d2f14d691a3cf56faf4448415e0880e54eed22484223b8d1"
+  },
+  {
+    "path": "registration/preflight.log",
+    "sha256": "cfb925fb597dc4e663bad177514c815d3696b45c0149c1df17c262b81f862aae"
+  },
+  {
+    "path": "registration/inputs\\batch01.json",
+    "sha256": "807656230345c0a53bfe09cae53955c8954a11060ab9bdf7aadce1bf5807ad4a"
+  },
+  {
+    "path": "registration/inputs\\batch06.json",
+    "sha256": "ed4cd7bf1d9fcf23a8b55a57549555204b08a8b62e92ea09a1fe5c316c173149"
+  },
+  {
+    "path": "registration/inputs\\normal_initial_history.json",
+    "sha256": "1ab7bfe54990f01cbadb0b69b2fe488b44c0bc5c91b2be1c7529622828f4218d"
+  }
+]
