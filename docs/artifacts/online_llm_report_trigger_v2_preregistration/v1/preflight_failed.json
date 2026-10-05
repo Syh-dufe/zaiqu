@@ -1,0 +1,9 @@
+{
+  "stage": "no_API_preflight",
+  "failure": "AttributeError",
+  "cause": "verify_registration called runner.digest with manifest string instead of Path; runner.digest requires read_bytes",
+  "API_calls": 0,
+  "rollout_episodes": 0,
+  "fix": "convert manifest path to pathlib.Path in separate v2 implementation",
+  "inputs_unchanged": true
+}

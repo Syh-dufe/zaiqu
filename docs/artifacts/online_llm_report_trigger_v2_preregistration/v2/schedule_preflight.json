@@ -1,0 +1,153 @@
+{
+  "status": "passed_no_API",
+  "cases": [
+    {
+      "arguments": [
+        70,
+        70,
+        true,
+        0,
+        null,
+        null,
+        10
+      ],
+      "expected": true,
+      "observed": true
+    },
+    {
+      "arguments": [
+        70,
+        70,
+        false,
+        0,
+        null,
+        null,
+        10
+      ],
+      "expected": false,
+      "observed": false
+    },
+    {
+      "arguments": [
+        89,
+        70,
+        true,
+        1,
+        70,
+        10,
+        15
+      ],
+      "expected": false,
+      "observed": false
+    },
+    {
+      "arguments": [
+        90,
+        70,
+        true,
+        1,
+        70,
+        10,
+        12.5
+      ],
+      "expected": true,
+      "observed": true
+    },
+    {
+      "arguments": [
+        90,
+        70,
+        true,
+        1,
+        70,
+        10,
+        12.49
+      ],
+      "expected": false,
+      "observed": false
+    },
+    {
+      "arguments": [
+        90,
+        70,
+        true,
+        1,
+        70,
+        10,
+        7.5
+      ],
+      "expected": true,
+      "observed": true
+    },
+    {
+      "arguments": [
+        99,
+        70,
+        true,
+        1,
+        70,
+        10,
+        10
+      ],
+      "expected": false,
+      "observed": false
+    },
+    {
+      "arguments": [
+        100,
+        70,
+        true,
+        1,
+        70,
+        10,
+        10
+      ],
+      "expected": true,
+      "observed": true
+    },
+    {
+      "arguments": [
+        100,
+        70,
+        false,
+        1,
+        70,
+        10,
+        15
+      ],
+      "expected": false,
+      "observed": false
+    },
+    {
+      "arguments": [
+        100,
+        70,
+        true,
+        4,
+        70,
+        10,
+        15
+      ],
+      "expected": false,
+      "observed": false
+    },
+    {
+      "arguments": [
+        101,
+        70,
+        true,
+        1,
+        70,
+        10,
+        15
+      ],
+      "expected": false,
+      "observed": false
+    }
+  ],
+  "controller_v1_v2_identical": true,
+  "original_method_dispatch_identity": true,
+  "original_SYSTEM_Client_identical": true,
+  "episode_reset_verified": true,
+  "model_training_updates": 0
+}
