@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "completed_steps": 5000,
+  "agent_updates": 15,
+  "factors_all_one": true,
+  "critic_dim": 7,
+  "reward_alpha": 0.5,
+  "max_reload_error": 0,
+  "normal_validation_traces": 20,
+  "frozen_hashes_verified": 53,
+  "tracked_author_unchanged": true,
+  "stable": false,
+  "official_best_available": false,
+  "initial_cost": 294.7013333333333,
+  "final_cost": 302.15883333333335
+}

@@ -133,3 +133,5 @@ python experiments/emergency_compatibility/train.py --describe
 ### IPPO 基线准备（2026-10-05）
 
 最小适配已通过 5000 步实现检查：局部 critic、重要性因子恒为 1，保留作者原混合奖励。尚未完成五种子正式基线训练，短程不表示收敛或性能优势。见 [阶段结果](docs/2026-10-05-ippo-stage1-results.md)。
+
+IPPO 五种子正式训练协议已登记：正常 Merton 需求、每种子最多 300 万步、最多两个并发，原 HAPPO 模型冻结。见 [训练协议](docs/superpowers/plans/2026-10-05-ippo-baseline-stage2.md)。本项是基线正常需求训练，尚无灾情比较结果。
