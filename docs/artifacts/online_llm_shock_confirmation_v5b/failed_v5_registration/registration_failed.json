@@ -1,0 +1,6 @@
+{
+  "failure": "ValueError",
+  "detail": "Event envelope outside registered range",
+  "inputs_preserved": true,
+  "no_rollout": true
+}

@@ -1,0 +1,12 @@
+{
+  "status": "completed",
+  "phase": "independent_confirmation",
+  "episodes": 800,
+  "node_periods": 480000,
+  "completed_runs": 50,
+  "api_requests": 1724,
+  "semantic_requests": 1569,
+  "summary_sha256": "5957a5a6f7c729a7c2866ea6870584d585360f0a16db1f8544ea298cbc29687a",
+  "all_registered_cases_retained": true,
+  "training_updates": 0
+}

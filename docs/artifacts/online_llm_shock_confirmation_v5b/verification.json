@@ -1,0 +1,100 @@
+{
+  "status": "verified",
+  "episodes": 800,
+  "node_periods": 480000,
+  "paired_cases": 200,
+  "independently_recomputed_statistics": {
+    "cost": {
+      "mean": -0.5816583333333334,
+      "ci95": [
+        -0.9990695833333334,
+        -0.19630687500000038
+      ],
+      "secondary_shared_batch_ci95": [
+        -0.9190572916666663,
+        -0.2514650000000002
+      ]
+    },
+    "backlog": {
+      "mean": -1.039325,
+      "ci95": [
+        -1.9409043750000001,
+        -0.34694687500000043
+      ],
+      "secondary_shared_batch_ci95": [
+        -1.8899093750000002,
+        -0.36447500000000005
+      ]
+    }
+  },
+  "absolute_shocked_means": {
+    "happo": {
+      "cost": 22.046358333333334,
+      "downstream_backlog": 18.3517
+    },
+    "online_feedback": {
+      "cost": 21.4647,
+      "downstream_backlog": 17.312375
+    }
+  },
+  "independent_collision_screen": {
+    "historical_paths": 412,
+    "new_paths": 80,
+    "exact_collisions": 0
+  },
+  "normal_and_pre_notice_checks": 400,
+  "source_model_input_protocol_hashes": "passed",
+  "cost_backlog_period_recomputation": "passed",
+  "api_http": 1724,
+  "semantic_requests": 1569,
+  "token_usage": {
+    "prompt_tokens": 5632749,
+    "completion_tokens": 655246,
+    "total_tokens": 6287995,
+    "prompt_cache_hit_tokens": 3071616,
+    "prompt_cache_miss_tokens": 2561133
+  },
+  "diagnosis": {
+    "api_failures": {
+      "expected one to four rules": 60,
+      "unknown feature": 110,
+      "invalid syntax (<unknown>, line 1)": 18,
+      "Expecting ',' delimiter: line 4 column 3257 (char 3282)": 1
+    },
+    "initial_generation_failures": 31,
+    "feedback_generation_failures": 3,
+    "failed_calls_by_attempt": {
+      "1": 155,
+      "2": 34
+    },
+    "outcomes_by_seed": {
+      "11": {
+        "cost": -0.7489166666666662,
+        "backlog": -1.045375
+      },
+      "12": {
+        "cost": -0.47358333333333336,
+        "backlog": -0.4757499999999998
+      },
+      "13": {
+        "cost": -0.677041666666667,
+        "backlog": -1.7720000000000005
+      },
+      "14": {
+        "cost": -0.43391666666666656,
+        "backlog": -1.108625
+      },
+      "15": {
+        "cost": -0.5748333333333335,
+        "backlog": -0.7948750000000001
+      }
+    },
+    "screening_events": 4990,
+    "generation_events": 800
+  },
+  "runtime_failures": [],
+  "credential_absent": true,
+  "independent_confirmation": true,
+  "development_only": false,
+  "failed_v5_registration_preserved": true
+}
