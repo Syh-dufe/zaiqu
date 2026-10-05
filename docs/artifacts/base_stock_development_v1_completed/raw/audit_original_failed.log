@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "C:\Users\13384\.codex\worktrees\zaiqu-formal-bc\experiments\base_stock_baseline\audit.py", line 114, in <module>
+    run()
+  File "C:\Users\13384\.codex\worktrees\zaiqu-formal-bc\experiments\base_stock_baseline\audit.py", line 94, in run
+    cost=verify_episode(episode_rows,inputs[scenario][trace],config)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\13384\.codex\worktrees\zaiqu-formal-bc\experiments\base_stock_baseline\audit.py", line 40, in verify_episode
+    close(row[field],value)
+  File "C:\Users\13384\.codex\worktrees\zaiqu-formal-bc\experiments\base_stock_baseline\audit.py", line 15, in close
+    assert abs(float(actual)-float(expected))<1e-7, (actual,expected)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('17', 16)

@@ -1,0 +1,755 @@
+{
+  "status": "passed",
+  "episodes": 704,
+  "node_periods": 422400,
+  "configurations": 44,
+  "independent_scalar_state_cost_target": true,
+  "discrete_action_verification": "Independent statistics arithmetic except enumerated boundaries verified against registered NumPy arithmetic",
+  "freeze_files": 21,
+  "details": [
+    {
+      "config": "local_z00",
+      "episodes": 16,
+      "node_periods": 9600
+    },
+    {
+      "config": "local_z01",
+      "episodes": 16,
+      "node_periods": 9600
+    },
+    {
+      "config": "local_z02",
+      "episodes": 16,
+      "node_periods": 9600
+    },
+    {
+      "config": "local_z03",
+      "episodes": 16,
+      "node_periods": 9600
+    },
+    {
+      "config": "local_z04",
+      "episodes": 16,
+      "node_periods": 9600
+    },
+    {
+      "config": "local_z05",
+      "episodes": 16,
+      "node_periods": 9600
+    },
+    {
+      "config": "local_z06",
+      "episodes": 16,
+      "node_periods": 9600
+    },
+    {
+      "config": "local_z07",
+      "episodes": 16,
+      "node_periods": 9600
+    },
+    {
+      "config": "local_z08",
+      "episodes": 16,
+      "node_periods": 9600
+    },
+    {
+      "config": "local_z09",
+      "episodes": 16,
+      "node_periods": 9600
+    },
+    {
+      "config": "local_z10",
+      "episodes": 16,
+      "node_periods": 9600
+    },
+    {
+      "config": "local_z11",
+      "episodes": 16,
+      "node_periods": 9600
+    },
+    {
+      "config": "local_z12",
+      "episodes": 16,
+      "node_periods": 9600
+    },
+    {
+      "config": "local_z13",
+      "episodes": 16,
+      "node_periods": 9600
+    },
+    {
+      "config": "local_z14",
+      "episodes": 16,
+      "node_periods": 9600
+    },
+    {
+      "config": "local_z15",
+      "episodes": 16,
+      "node_periods": 9600
+    },
+    {
+      "config": "local_z16",
+      "episodes": 16,
+      "node_periods": 9600
+    },
+    {
+      "config": "local_z17",
+      "episodes": 16,
+      "node_periods": 9600
+    },
+    {
+      "config": "local_z18",
+      "episodes": 16,
+      "node_periods": 9600
+    },
+    {
+      "config": "local_z19",
+      "episodes": 16,
+      "node_periods": 9600
+    },
+    {
+      "config": "reference_floor",
+      "episodes": 16,
+      "node_periods": 9600
+    },
+    {
+      "config": "reference_normal_history",
+      "episodes": 16,
+      "node_periods": 9600
+    },
+    {
+      "config": "report_mean_z00",
+      "episodes": 16,
+      "node_periods": 9600
+    },
+    {
+      "config": "report_mean_z01",
+      "episodes": 16,
+      "node_periods": 9600
+    },
+    {
+      "config": "report_mean_z02",
+      "episodes": 16,
+      "node_periods": 9600
+    },
+    {
+      "config": "report_mean_z03",
+      "episodes": 16,
+      "node_periods": 9600
+    },
+    {
+      "config": "report_mean_z04",
+      "episodes": 16,
+      "node_periods": 9600
+    },
+    {
+      "config": "report_mean_z05",
+      "episodes": 16,
+      "node_periods": 9600
+    },
+    {
+      "config": "report_mean_z06",
+      "episodes": 16,
+      "node_periods": 9600
+    },
+    {
+      "config": "report_mean_z07",
+      "episodes": 16,
+      "node_periods": 9600
+    },
+    {
+      "config": "report_mean_z08",
+      "episodes": 16,
+      "node_periods": 9600
+    },
+    {
+      "config": "report_mean_z09",
+      "episodes": 16,
+      "node_periods": 9600
+    },
+    {
+      "config": "report_mean_z10",
+      "episodes": 16,
+      "node_periods": 9600
+    },
+    {
+      "config": "report_mean_z11",
+      "episodes": 16,
+      "node_periods": 9600
+    },
+    {
+      "config": "report_mean_z12",
+      "episodes": 16,
+      "node_periods": 9600
+    },
+    {
+      "config": "report_mean_z13",
+      "episodes": 16,
+      "node_periods": 9600
+    },
+    {
+      "config": "report_mean_z14",
+      "episodes": 16,
+      "node_periods": 9600
+    },
+    {
+      "config": "report_mean_z15",
+      "episodes": 16,
+      "node_periods": 9600
+    },
+    {
+      "config": "report_mean_z16",
+      "episodes": 16,
+      "node_periods": 9600
+    },
+    {
+      "config": "report_mean_z17",
+      "episodes": 16,
+      "node_periods": 9600
+    },
+    {
+      "config": "report_mean_z18",
+      "episodes": 16,
+      "node_periods": 9600
+    },
+    {
+      "config": "report_mean_z19",
+      "episodes": 16,
+      "node_periods": 9600
+    },
+    {
+      "config": "selected_floor",
+      "episodes": 16,
+      "node_periods": 9600
+    },
+    {
+      "config": "selected_normal_history",
+      "episodes": 16,
+      "node_periods": 9600
+    }
+  ],
+  "numerical_boundary_count": 40,
+  "numerical_boundaries": [
+    {
+      "config": "local_z09",
+      "batch": "1",
+      "trace": "2",
+      "scenario": "base",
+      "period": 177,
+      "node": 2,
+      "independent_target": 47.0,
+      "numpy_target": 47.00000000000001,
+      "position": 31.0,
+      "independent_action": 16,
+      "registered_action": 17
+    },
+    {
+      "config": "local_z09",
+      "batch": "1",
+      "trace": "2",
+      "scenario": "base",
+      "period": 185,
+      "node": 0,
+      "independent_target": 23.0,
+      "numpy_target": 23.000000000000004,
+      "position": 20.0,
+      "independent_action": 3,
+      "registered_action": 4
+    },
+    {
+      "config": "local_z09",
+      "batch": "1",
+      "trace": "2",
+      "scenario": "shock",
+      "period": 185,
+      "node": 0,
+      "independent_target": 23.0,
+      "numpy_target": 23.000000000000004,
+      "position": 20.0,
+      "independent_action": 3,
+      "registered_action": 4
+    },
+    {
+      "config": "local_z11",
+      "batch": "1",
+      "trace": "2",
+      "scenario": "base",
+      "period": 155,
+      "node": 2,
+      "independent_target": 18.0,
+      "numpy_target": 18.000000000000004,
+      "position": 18.0,
+      "independent_action": 0,
+      "registered_action": 1
+    },
+    {
+      "config": "local_z11",
+      "batch": "1",
+      "trace": "2",
+      "scenario": "base",
+      "period": 156,
+      "node": 2,
+      "independent_target": 18.0,
+      "numpy_target": 18.000000000000004,
+      "position": 18.0,
+      "independent_action": 0,
+      "registered_action": 1
+    },
+    {
+      "config": "local_z11",
+      "batch": "6",
+      "trace": "1",
+      "scenario": "base",
+      "period": 14,
+      "node": 0,
+      "independent_target": 61.0,
+      "numpy_target": 61.00000000000001,
+      "position": 52.0,
+      "independent_action": 9,
+      "registered_action": 10
+    },
+    {
+      "config": "local_z11",
+      "batch": "6",
+      "trace": "1",
+      "scenario": "shock",
+      "period": 14,
+      "node": 0,
+      "independent_target": 61.0,
+      "numpy_target": 61.00000000000001,
+      "position": 52.0,
+      "independent_action": 9,
+      "registered_action": 10
+    },
+    {
+      "config": "local_z14",
+      "batch": "1",
+      "trace": "0",
+      "scenario": "base",
+      "period": 150,
+      "node": 0,
+      "independent_target": 36.0,
+      "numpy_target": 36.00000000000001,
+      "position": 35.0,
+      "independent_action": 1,
+      "registered_action": 2
+    },
+    {
+      "config": "local_z14",
+      "batch": "1",
+      "trace": "0",
+      "scenario": "shock",
+      "period": 150,
+      "node": 0,
+      "independent_target": 36.0,
+      "numpy_target": 36.00000000000001,
+      "position": 35.0,
+      "independent_action": 1,
+      "registered_action": 2
+    },
+    {
+      "config": "local_z14",
+      "batch": "1",
+      "trace": "2",
+      "scenario": "base",
+      "period": 159,
+      "node": 0,
+      "independent_target": 16.0,
+      "numpy_target": 16.000000000000004,
+      "position": 16.0,
+      "independent_action": 0,
+      "registered_action": 1
+    },
+    {
+      "config": "local_z16",
+      "batch": "1",
+      "trace": "0",
+      "scenario": "base",
+      "period": 24,
+      "node": 1,
+      "independent_target": 114.0,
+      "numpy_target": 114.00000000000001,
+      "position": 106.0,
+      "independent_action": 8,
+      "registered_action": 9
+    },
+    {
+      "config": "local_z16",
+      "batch": "1",
+      "trace": "0",
+      "scenario": "base",
+      "period": 189,
+      "node": 1,
+      "independent_target": 36.0,
+      "numpy_target": 36.00000000000001,
+      "position": 34.0,
+      "independent_action": 2,
+      "registered_action": 3
+    },
+    {
+      "config": "local_z16",
+      "batch": "1",
+      "trace": "0",
+      "scenario": "shock",
+      "period": 24,
+      "node": 1,
+      "independent_target": 114.0,
+      "numpy_target": 114.00000000000001,
+      "position": 106.0,
+      "independent_action": 8,
+      "registered_action": 9
+    },
+    {
+      "config": "local_z16",
+      "batch": "1",
+      "trace": "0",
+      "scenario": "shock",
+      "period": 189,
+      "node": 1,
+      "independent_target": 36.0,
+      "numpy_target": 36.00000000000001,
+      "position": 34.0,
+      "independent_action": 2,
+      "registered_action": 3
+    },
+    {
+      "config": "local_z16",
+      "batch": "1",
+      "trace": "2",
+      "scenario": "base",
+      "period": 172,
+      "node": 1,
+      "independent_target": 32.0,
+      "numpy_target": 32.00000000000001,
+      "position": 24.0,
+      "independent_action": 8,
+      "registered_action": 9
+    },
+    {
+      "config": "local_z16",
+      "batch": "6",
+      "trace": "1",
+      "scenario": "base",
+      "period": 132,
+      "node": 1,
+      "independent_target": 102.0,
+      "numpy_target": 102.00000000000001,
+      "position": 96.0,
+      "independent_action": 6,
+      "registered_action": 7
+    },
+    {
+      "config": "local_z19",
+      "batch": "1",
+      "trace": "0",
+      "scenario": "base",
+      "period": 150,
+      "node": 0,
+      "independent_target": 44.0,
+      "numpy_target": 44.00000000000001,
+      "position": 43.0,
+      "independent_action": 1,
+      "registered_action": 2
+    },
+    {
+      "config": "local_z19",
+      "batch": "1",
+      "trace": "0",
+      "scenario": "shock",
+      "period": 150,
+      "node": 0,
+      "independent_target": 44.0,
+      "numpy_target": 44.00000000000001,
+      "position": 43.0,
+      "independent_action": 1,
+      "registered_action": 2
+    },
+    {
+      "config": "local_z19",
+      "batch": "1",
+      "trace": "2",
+      "scenario": "base",
+      "period": 159,
+      "node": 0,
+      "independent_target": 20.0,
+      "numpy_target": 20.000000000000004,
+      "position": 20.0,
+      "independent_action": 0,
+      "registered_action": 1
+    },
+    {
+      "config": "report_mean_z00",
+      "batch": "1",
+      "trace": "0",
+      "scenario": "base",
+      "period": 24,
+      "node": 0,
+      "independent_target": 35.0,
+      "numpy_target": 35.00000000000001,
+      "position": 32.0,
+      "independent_action": 3,
+      "registered_action": 4
+    },
+    {
+      "config": "report_mean_z00",
+      "batch": "1",
+      "trace": "0",
+      "scenario": "base",
+      "period": 25,
+      "node": 0,
+      "independent_target": 35.0,
+      "numpy_target": 35.00000000000001,
+      "position": 31.0,
+      "independent_action": 4,
+      "registered_action": 5
+    },
+    {
+      "config": "report_mean_z00",
+      "batch": "1",
+      "trace": "0",
+      "scenario": "base",
+      "period": 26,
+      "node": 0,
+      "independent_target": 35.0,
+      "numpy_target": 35.00000000000001,
+      "position": 31.0,
+      "independent_action": 4,
+      "registered_action": 5
+    },
+    {
+      "config": "report_mean_z00",
+      "batch": "1",
+      "trace": "0",
+      "scenario": "shock",
+      "period": 24,
+      "node": 0,
+      "independent_target": 35.0,
+      "numpy_target": 35.00000000000001,
+      "position": 32.0,
+      "independent_action": 3,
+      "registered_action": 4
+    },
+    {
+      "config": "report_mean_z00",
+      "batch": "1",
+      "trace": "0",
+      "scenario": "shock",
+      "period": 25,
+      "node": 0,
+      "independent_target": 35.0,
+      "numpy_target": 35.00000000000001,
+      "position": 31.0,
+      "independent_action": 4,
+      "registered_action": 5
+    },
+    {
+      "config": "report_mean_z00",
+      "batch": "1",
+      "trace": "0",
+      "scenario": "shock",
+      "period": 26,
+      "node": 0,
+      "independent_target": 35.0,
+      "numpy_target": 35.00000000000001,
+      "position": 31.0,
+      "independent_action": 4,
+      "registered_action": 5
+    },
+    {
+      "config": "report_mean_z00",
+      "batch": "6",
+      "trace": "1",
+      "scenario": "base",
+      "period": 33,
+      "node": 0,
+      "independent_target": 41.0,
+      "numpy_target": 41.00000000000001,
+      "position": 30.0,
+      "independent_action": 11,
+      "registered_action": 12
+    },
+    {
+      "config": "report_mean_z00",
+      "batch": "6",
+      "trace": "1",
+      "scenario": "base",
+      "period": 34,
+      "node": 0,
+      "independent_target": 41.0,
+      "numpy_target": 41.00000000000001,
+      "position": 30.0,
+      "independent_action": 11,
+      "registered_action": 12
+    },
+    {
+      "config": "report_mean_z00",
+      "batch": "6",
+      "trace": "1",
+      "scenario": "base",
+      "period": 35,
+      "node": 0,
+      "independent_target": 41.0,
+      "numpy_target": 41.00000000000001,
+      "position": 31.0,
+      "independent_action": 10,
+      "registered_action": 11
+    },
+    {
+      "config": "report_mean_z00",
+      "batch": "6",
+      "trace": "1",
+      "scenario": "base",
+      "period": 39,
+      "node": 0,
+      "independent_target": 42.0,
+      "numpy_target": 42.00000000000001,
+      "position": 31.0,
+      "independent_action": 11,
+      "registered_action": 12
+    },
+    {
+      "config": "report_mean_z00",
+      "batch": "6",
+      "trace": "1",
+      "scenario": "base",
+      "period": 40,
+      "node": 0,
+      "independent_target": 42.0,
+      "numpy_target": 42.00000000000001,
+      "position": 32.0,
+      "independent_action": 10,
+      "registered_action": 11
+    },
+    {
+      "config": "report_mean_z00",
+      "batch": "6",
+      "trace": "1",
+      "scenario": "base",
+      "period": 41,
+      "node": 0,
+      "independent_target": 42.0,
+      "numpy_target": 42.00000000000001,
+      "position": 31.0,
+      "independent_action": 11,
+      "registered_action": 12
+    },
+    {
+      "config": "report_mean_z00",
+      "batch": "6",
+      "trace": "1",
+      "scenario": "shock",
+      "period": 33,
+      "node": 0,
+      "independent_target": 41.0,
+      "numpy_target": 41.00000000000001,
+      "position": 30.0,
+      "independent_action": 11,
+      "registered_action": 12
+    },
+    {
+      "config": "report_mean_z00",
+      "batch": "6",
+      "trace": "1",
+      "scenario": "shock",
+      "period": 34,
+      "node": 0,
+      "independent_target": 41.0,
+      "numpy_target": 41.00000000000001,
+      "position": 30.0,
+      "independent_action": 11,
+      "registered_action": 12
+    },
+    {
+      "config": "report_mean_z00",
+      "batch": "6",
+      "trace": "1",
+      "scenario": "shock",
+      "period": 35,
+      "node": 0,
+      "independent_target": 41.0,
+      "numpy_target": 41.00000000000001,
+      "position": 31.0,
+      "independent_action": 10,
+      "registered_action": 11
+    },
+    {
+      "config": "report_mean_z00",
+      "batch": "6",
+      "trace": "1",
+      "scenario": "shock",
+      "period": 39,
+      "node": 0,
+      "independent_target": 42.0,
+      "numpy_target": 42.00000000000001,
+      "position": 31.0,
+      "independent_action": 11,
+      "registered_action": 12
+    },
+    {
+      "config": "report_mean_z00",
+      "batch": "6",
+      "trace": "1",
+      "scenario": "shock",
+      "period": 40,
+      "node": 0,
+      "independent_target": 42.0,
+      "numpy_target": 42.00000000000001,
+      "position": 32.0,
+      "independent_action": 10,
+      "registered_action": 11
+    },
+    {
+      "config": "report_mean_z00",
+      "batch": "6",
+      "trace": "1",
+      "scenario": "shock",
+      "period": 41,
+      "node": 0,
+      "independent_target": 42.0,
+      "numpy_target": 42.00000000000001,
+      "position": 31.0,
+      "independent_action": 11,
+      "registered_action": 12
+    },
+    {
+      "config": "report_mean_z00",
+      "batch": "6",
+      "trace": "3",
+      "scenario": "base",
+      "period": 99,
+      "node": 0,
+      "independent_target": 69.0,
+      "numpy_target": 69.00000000000001,
+      "position": 51.0,
+      "independent_action": 18,
+      "registered_action": 19
+    },
+    {
+      "config": "report_mean_z00",
+      "batch": "6",
+      "trace": "3",
+      "scenario": "base",
+      "period": 100,
+      "node": 0,
+      "independent_target": 69.0,
+      "numpy_target": 69.00000000000001,
+      "position": 52.0,
+      "independent_action": 17,
+      "registered_action": 18
+    },
+    {
+      "config": "report_mean_z00",
+      "batch": "6",
+      "trace": "3",
+      "scenario": "base",
+      "period": 101,
+      "node": 0,
+      "independent_target": 69.0,
+      "numpy_target": 69.00000000000001,
+      "position": 52.0,
+      "independent_action": 17,
+      "registered_action": 18
+    }
+  ],
+  "audit_note": "At enumerated integer boundaries verify registered NumPy arithmetic; preserve original strict audit failure"
+}

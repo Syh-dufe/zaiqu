@@ -1,0 +1,7042 @@
+[
+  {
+    "config": "local_z00",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 8.953333333333333,
+    "downstream_backlog": 7.445,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z00",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 9.176666666666666,
+    "downstream_backlog": 7.805,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z00",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 32.22666666666667,
+    "downstream_backlog": 40.76,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z00",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 33.07833333333333,
+    "downstream_backlog": 42.1,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z00",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 6.805,
+    "downstream_backlog": 4.79,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z00",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 7.613333333333333,
+    "downstream_backlog": 5.82,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z00",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 19.381666666666668,
+    "downstream_backlog": 19.61,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z00",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 30.915,
+    "downstream_backlog": 26.495,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z00",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 17.06,
+    "downstream_backlog": 20.5,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z00",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 18.423333333333332,
+    "downstream_backlog": 21.94,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z00",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 15.52,
+    "downstream_backlog": 16.53,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z00",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 13.186666666666667,
+    "downstream_backlog": 14.77,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z00",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 10.383333333333333,
+    "downstream_backlog": 11.87,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z00",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 11.538333333333334,
+    "downstream_backlog": 13.49,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z00",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 44.57333333333333,
+    "downstream_backlog": 64.67,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z00",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 59.74166666666667,
+    "downstream_backlog": 79.91,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z01",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 9.383333333333333,
+    "downstream_backlog": 5.49,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z01",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 9.24,
+    "downstream_backlog": 5.46,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z01",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 26.86,
+    "downstream_backlog": 31.06,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z01",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 27.47,
+    "downstream_backlog": 32.2,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z01",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 7.19,
+    "downstream_backlog": 3.26,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z01",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 7.608333333333333,
+    "downstream_backlog": 3.57,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z01",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 19.55,
+    "downstream_backlog": 14.92,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z01",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 35.86666666666667,
+    "downstream_backlog": 21.43,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z01",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 14.483333333333333,
+    "downstream_backlog": 14.825,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z01",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 15.591666666666667,
+    "downstream_backlog": 15.93,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z01",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 13.52,
+    "downstream_backlog": 11.465,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z01",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 10.995,
+    "downstream_backlog": 9.585,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z01",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 9.558333333333334,
+    "downstream_backlog": 8.795,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z01",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 10.31,
+    "downstream_backlog": 9.395,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z01",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 36.471666666666664,
+    "downstream_backlog": 53.02,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z01",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 53.75,
+    "downstream_backlog": 69.075,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z02",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 10.583333333333334,
+    "downstream_backlog": 4.08,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z02",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 9.88,
+    "downstream_backlog": 3.51,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z02",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 22.555,
+    "downstream_backlog": 22.53,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z02",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 22.856666666666666,
+    "downstream_backlog": 23.165,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z02",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 8.291666666666666,
+    "downstream_backlog": 2.285,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z02",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 8.748333333333333,
+    "downstream_backlog": 2.42,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z02",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 21.425,
+    "downstream_backlog": 11.405,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z02",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 43.19166666666667,
+    "downstream_backlog": 17.845,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z02",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 13.671666666666667,
+    "downstream_backlog": 10.78,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z02",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 14.135,
+    "downstream_backlog": 11.115,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z02",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 12.415,
+    "downstream_backlog": 7.12,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z02",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 9.855,
+    "downstream_backlog": 5.39,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z02",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 9.535,
+    "downstream_backlog": 6.255,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z02",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 10.835,
+    "downstream_backlog": 6.825,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z02",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 29.466666666666665,
+    "downstream_backlog": 42.325,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z02",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 48.41166666666667,
+    "downstream_backlog": 58.93,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z03",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 12.111666666666666,
+    "downstream_backlog": 2.89,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z03",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 10.821666666666667,
+    "downstream_backlog": 1.8,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z03",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 19.62,
+    "downstream_backlog": 15.17,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z03",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 19.35,
+    "downstream_backlog": 15.085,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z03",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 9.956666666666667,
+    "downstream_backlog": 1.63,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z03",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 10.315,
+    "downstream_backlog": 1.655,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z03",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 24.511666666666667,
+    "downstream_backlog": 8.555,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z03",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 51.12,
+    "downstream_backlog": 14.8,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z03",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 13.988333333333333,
+    "downstream_backlog": 7.82,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z03",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 13.98,
+    "downstream_backlog": 7.405,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z03",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 13.041666666666666,
+    "downstream_backlog": 4.175,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z03",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 10.555,
+    "downstream_backlog": 2.865,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z03",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 10.371666666666666,
+    "downstream_backlog": 4.44,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z03",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 12.173333333333334,
+    "downstream_backlog": 4.91,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z03",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 24.025,
+    "downstream_backlog": 33.05,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z03",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 44.141666666666666,
+    "downstream_backlog": 49.925,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z04",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 13.993333333333334,
+    "downstream_backlog": 1.925,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z04",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 12.626666666666667,
+    "downstream_backlog": 0.66,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z04",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 18.381666666666668,
+    "downstream_backlog": 9.56,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z04",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 18.296666666666667,
+    "downstream_backlog": 9.44,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z04",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 11.885,
+    "downstream_backlog": 1.24,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z04",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 12.141666666666667,
+    "downstream_backlog": 1.105,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z04",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 28.626666666666665,
+    "downstream_backlog": 6.195,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z04",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 59.02333333333333,
+    "downstream_backlog": 11.995,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z04",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 15.06,
+    "downstream_backlog": 5.585,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z04",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 14.996666666666666,
+    "downstream_backlog": 4.975,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z04",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 14.995,
+    "downstream_backlog": 2.41,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z04",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 12.693333333333333,
+    "downstream_backlog": 1.76,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z04",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 11.685,
+    "downstream_backlog": 3.075,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z04",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 13.933333333333334,
+    "downstream_backlog": 3.37,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z04",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 19.903333333333332,
+    "downstream_backlog": 25.345,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z04",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 40.005,
+    "downstream_backlog": 40.825,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z05",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 16.378333333333334,
+    "downstream_backlog": 1.22,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z05",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 15.085,
+    "downstream_backlog": 0.18,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z05",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 19.261666666666667,
+    "downstream_backlog": 6.01,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z05",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 19.52,
+    "downstream_backlog": 6.02,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z05",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 14.028333333333334,
+    "downstream_backlog": 0.91,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z05",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 14.236666666666666,
+    "downstream_backlog": 0.735,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z05",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 33.538333333333334,
+    "downstream_backlog": 4.275,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z05",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 67.26,
+    "downstream_backlog": 9.54,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z05",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 17.038333333333334,
+    "downstream_backlog": 3.665,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z05",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 17.02,
+    "downstream_backlog": 3.035,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z05",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 17.885,
+    "downstream_backlog": 1.45,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z05",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 15.69,
+    "downstream_backlog": 1.1,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z05",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 13.433333333333334,
+    "downstream_backlog": 1.89,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z05",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 16.301666666666666,
+    "downstream_backlog": 2.19,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z05",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 16.573333333333334,
+    "downstream_backlog": 18.375,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z05",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 36.19,
+    "downstream_backlog": 32.08,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z06",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 19.14,
+    "downstream_backlog": 0.75,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z06",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 17.958333333333332,
+    "downstream_backlog": 0.055,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z06",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 21.865,
+    "downstream_backlog": 3.51,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z06",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 22.518333333333334,
+    "downstream_backlog": 3.705,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z06",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 16.386666666666667,
+    "downstream_backlog": 0.715,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z06",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 16.565,
+    "downstream_backlog": 0.49,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z06",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 39.36666666666667,
+    "downstream_backlog": 2.785,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z06",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 75.31333333333333,
+    "downstream_backlog": 7.24,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z06",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 19.611666666666668,
+    "downstream_backlog": 2.315,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z06",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 19.528333333333332,
+    "downstream_backlog": 1.725,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z06",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 21.523333333333333,
+    "downstream_backlog": 0.875,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z06",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 18.676666666666666,
+    "downstream_backlog": 0.71,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z06",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 15.455,
+    "downstream_backlog": 1.235,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z06",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 19.225,
+    "downstream_backlog": 1.445,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z06",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 14.373333333333333,
+    "downstream_backlog": 12.85,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z06",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 32.86,
+    "downstream_backlog": 23.965,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z07",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 22.616666666666667,
+    "downstream_backlog": 0.39,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z07",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 21.438333333333333,
+    "downstream_backlog": 0.035,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z07",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 24.901666666666667,
+    "downstream_backlog": 1.75,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z07",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 26.088333333333335,
+    "downstream_backlog": 2.335,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z07",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 19.136666666666667,
+    "downstream_backlog": 0.455,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z07",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 19.30666666666667,
+    "downstream_backlog": 0.325,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z07",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 45.68333333333333,
+    "downstream_backlog": 1.75,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z07",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 83.74666666666667,
+    "downstream_backlog": 5.5,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z07",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 22.975,
+    "downstream_backlog": 1.355,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z07",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 23.356666666666666,
+    "downstream_backlog": 1.03,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z07",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 25.72833333333333,
+    "downstream_backlog": 0.63,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z07",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 22.311666666666667,
+    "downstream_backlog": 0.55,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z07",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 18.393333333333334,
+    "downstream_backlog": 0.63,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z07",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 22.648333333333333,
+    "downstream_backlog": 0.725,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z07",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 12.585,
+    "downstream_backlog": 7.25,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z07",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 29.791666666666668,
+    "downstream_backlog": 15.32,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z08",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 25.996666666666666,
+    "downstream_backlog": 0.16,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z08",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 24.831666666666667,
+    "downstream_backlog": 0.03,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z08",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 28.661666666666665,
+    "downstream_backlog": 0.72,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z08",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 30.015,
+    "downstream_backlog": 1.05,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z08",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 21.905,
+    "downstream_backlog": 0.335,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z08",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 22.106666666666666,
+    "downstream_backlog": 0.195,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z08",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 53.315,
+    "downstream_backlog": 1.35,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z08",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 93.01,
+    "downstream_backlog": 4.19,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z08",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 27.195,
+    "downstream_backlog": 0.605,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z08",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 27.876666666666665,
+    "downstream_backlog": 0.515,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z08",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 30.773333333333333,
+    "downstream_backlog": 0.52,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z08",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 26.703333333333333,
+    "downstream_backlog": 0.5,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z08",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 21.205,
+    "downstream_backlog": 0.225,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z08",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 26.44333333333333,
+    "downstream_backlog": 0.31,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z08",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 13.36,
+    "downstream_backlog": 3.795,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z08",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 30.903333333333332,
+    "downstream_backlog": 9.875,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z09",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 30.56833333333333,
+    "downstream_backlog": 0.08,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z09",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 29.246666666666666,
+    "downstream_backlog": 0.03,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z09",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 33.82833333333333,
+    "downstream_backlog": 0.275,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z09",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 35.086666666666666,
+    "downstream_backlog": 0.275,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z09",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 25.515,
+    "downstream_backlog": 0.205,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z09",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 25.60333333333333,
+    "downstream_backlog": 0.12,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z09",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 61.33833333333333,
+    "downstream_backlog": 1.1,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z09",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 102.40666666666667,
+    "downstream_backlog": 3.095,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z09",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 32.21333333333333,
+    "downstream_backlog": 0.18,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z09",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 32.61,
+    "downstream_backlog": 0.17,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z09",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 35.43,
+    "downstream_backlog": 0.475,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z09",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 30.543333333333333,
+    "downstream_backlog": 0.475,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z09",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 24.97,
+    "downstream_backlog": 0.05,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z09",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 31.338333333333335,
+    "downstream_backlog": 0.135,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z09",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 16.243333333333332,
+    "downstream_backlog": 2.195,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z09",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 35.07333333333333,
+    "downstream_backlog": 6.825,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z10",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 36.156666666666666,
+    "downstream_backlog": 0.05,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z10",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 33.41166666666667,
+    "downstream_backlog": 0.025,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z10",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 38.95333333333333,
+    "downstream_backlog": 0.07,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z10",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 40.215,
+    "downstream_backlog": 0.045,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z10",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 29.188333333333333,
+    "downstream_backlog": 0.14,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z10",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 29.445,
+    "downstream_backlog": 0.095,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z10",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 69.96166666666667,
+    "downstream_backlog": 0.88,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z10",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 112.805,
+    "downstream_backlog": 2.35,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z10",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 37.75,
+    "downstream_backlog": 0.005,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z10",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 38.291666666666664,
+    "downstream_backlog": 0.01,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z10",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 41.07,
+    "downstream_backlog": 0.44,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z10",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 35.16166666666667,
+    "downstream_backlog": 0.44,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z10",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 29.413333333333334,
+    "downstream_backlog": 0.035,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z10",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 36.76833333333333,
+    "downstream_backlog": 0.03,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z10",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 20.358333333333334,
+    "downstream_backlog": 1.795,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z10",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 40.94833333333333,
+    "downstream_backlog": 4.98,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z11",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 42.3,
+    "downstream_backlog": 0.025,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z11",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 37.93,
+    "downstream_backlog": 0.025,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z11",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 44.525,
+    "downstream_backlog": 0.0,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z11",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 46.04333333333334,
+    "downstream_backlog": 0.005,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z11",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 34.195,
+    "downstream_backlog": 0.11,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z11",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 33.873333333333335,
+    "downstream_backlog": 0.075,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z11",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 77.16666666666667,
+    "downstream_backlog": 0.72,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z11",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 122.05166666666666,
+    "downstream_backlog": 1.74,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z11",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 44.10166666666667,
+    "downstream_backlog": 0.005,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z11",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 44.333333333333336,
+    "downstream_backlog": 0.005,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z11",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 47.041666666666664,
+    "downstream_backlog": 0.42,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z11",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 40.34166666666667,
+    "downstream_backlog": 0.42,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z11",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 33.428333333333335,
+    "downstream_backlog": 0.03,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z11",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 41.86666666666667,
+    "downstream_backlog": 0.03,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z11",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 24.78,
+    "downstream_backlog": 1.635,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z11",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 47.343333333333334,
+    "downstream_backlog": 3.585,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z12",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 48.53333333333333,
+    "downstream_backlog": 0.025,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z12",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 42.748333333333335,
+    "downstream_backlog": 0.025,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z12",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 49.681666666666665,
+    "downstream_backlog": 0.0,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z12",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 51.35166666666667,
+    "downstream_backlog": 0.0,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z12",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 40.47,
+    "downstream_backlog": 0.095,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z12",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 39.285,
+    "downstream_backlog": 0.05,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z12",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 84.71333333333334,
+    "downstream_backlog": 0.575,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z12",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 131.95666666666668,
+    "downstream_backlog": 1.205,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z12",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 50.525,
+    "downstream_backlog": 0.005,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z12",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 50.57666666666667,
+    "downstream_backlog": 0.005,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z12",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 52.405,
+    "downstream_backlog": 0.395,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z12",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 44.79833333333333,
+    "downstream_backlog": 0.395,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z12",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 38.64,
+    "downstream_backlog": 0.03,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z12",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 48.0,
+    "downstream_backlog": 0.03,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z12",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 29.216666666666665,
+    "downstream_backlog": 1.61,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z12",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 53.708333333333336,
+    "downstream_backlog": 2.42,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z13",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 54.94166666666667,
+    "downstream_backlog": 0.025,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z13",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 47.68833333333333,
+    "downstream_backlog": 0.025,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z13",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 54.55166666666667,
+    "downstream_backlog": 0.0,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z13",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 57.27166666666667,
+    "downstream_backlog": 0.0,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z13",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 47.903333333333336,
+    "downstream_backlog": 0.07,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z13",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 45.05166666666667,
+    "downstream_backlog": 0.035,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z13",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 92.9,
+    "downstream_backlog": 0.46,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z13",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 141.36166666666668,
+    "downstream_backlog": 0.87,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z13",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 57.975,
+    "downstream_backlog": 0.005,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z13",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 57.723333333333336,
+    "downstream_backlog": 0.005,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z13",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 57.52166666666667,
+    "downstream_backlog": 0.38,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z13",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 48.895,
+    "downstream_backlog": 0.38,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z13",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 44.39666666666667,
+    "downstream_backlog": 0.03,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z13",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 55.7,
+    "downstream_backlog": 0.03,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z13",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 34.25333333333333,
+    "downstream_backlog": 1.6,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z13",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 60.791666666666664,
+    "downstream_backlog": 1.33,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z14",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 62.16833333333334,
+    "downstream_backlog": 0.025,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z14",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 52.78666666666667,
+    "downstream_backlog": 0.025,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z14",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 60.165,
+    "downstream_backlog": 0.0,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z14",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 63.221666666666664,
+    "downstream_backlog": 0.0,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z14",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 58.13,
+    "downstream_backlog": 0.065,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z14",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 52.67,
+    "downstream_backlog": 0.025,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z14",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 100.91166666666666,
+    "downstream_backlog": 0.385,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z14",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 151.385,
+    "downstream_backlog": 0.655,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z14",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 65.185,
+    "downstream_backlog": 0.005,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z14",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 65.26,
+    "downstream_backlog": 0.005,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z14",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 63.66833333333334,
+    "downstream_backlog": 0.365,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z14",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 53.365,
+    "downstream_backlog": 0.365,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z14",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 50.505,
+    "downstream_backlog": 0.025,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z14",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 63.36333333333334,
+    "downstream_backlog": 0.025,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z14",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 39.71,
+    "downstream_backlog": 1.58,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z14",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 68.11333333333333,
+    "downstream_backlog": 0.815,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z15",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 68.78833333333333,
+    "downstream_backlog": 0.025,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z15",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 58.38166666666667,
+    "downstream_backlog": 0.025,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z15",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 64.89,
+    "downstream_backlog": 0.0,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z15",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 69.50166666666667,
+    "downstream_backlog": 0.0,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z15",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 65.935,
+    "downstream_backlog": 0.055,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z15",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 58.596666666666664,
+    "downstream_backlog": 0.015,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z15",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 108.42833333333333,
+    "downstream_backlog": 0.345,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z15",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 160.62166666666667,
+    "downstream_backlog": 0.49,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z15",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 73.02166666666666,
+    "downstream_backlog": 0.005,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z15",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 72.64666666666666,
+    "downstream_backlog": 0.005,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z15",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 69.88333333333334,
+    "downstream_backlog": 0.355,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z15",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 57.31166666666667,
+    "downstream_backlog": 0.355,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z15",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 56.693333333333335,
+    "downstream_backlog": 0.025,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z15",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 70.345,
+    "downstream_backlog": 0.025,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z15",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 44.446666666666665,
+    "downstream_backlog": 1.575,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z15",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 75.69833333333334,
+    "downstream_backlog": 0.34,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z16",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 76.175,
+    "downstream_backlog": 0.025,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z16",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 65.26833333333333,
+    "downstream_backlog": 0.025,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z16",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 70.56333333333333,
+    "downstream_backlog": 0.0,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z16",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 75.27833333333334,
+    "downstream_backlog": 0.0,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z16",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 76.35166666666667,
+    "downstream_backlog": 0.04,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z16",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 67.86833333333334,
+    "downstream_backlog": 0.01,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z16",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 116.99,
+    "downstream_backlog": 0.31,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z16",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 171.37666666666667,
+    "downstream_backlog": 0.38,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z16",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 81.53666666666666,
+    "downstream_backlog": 0.005,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z16",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 81.87666666666667,
+    "downstream_backlog": 0.005,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z16",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 74.59833333333333,
+    "downstream_backlog": 0.35,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z16",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 62.13166666666667,
+    "downstream_backlog": 0.35,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z16",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 63.84,
+    "downstream_backlog": 0.025,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z16",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 79.035,
+    "downstream_backlog": 0.025,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z16",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 49.455,
+    "downstream_backlog": 1.57,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z16",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 83.195,
+    "downstream_backlog": 0.02,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z17",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 85.49333333333334,
+    "downstream_backlog": 0.025,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z17",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 71.43333333333334,
+    "downstream_backlog": 0.025,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z17",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 74.4,
+    "downstream_backlog": 0.0,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z17",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 80.85166666666667,
+    "downstream_backlog": 0.0,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z17",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 86.025,
+    "downstream_backlog": 0.03,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z17",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 77.46666666666667,
+    "downstream_backlog": 0.005,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z17",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 125.07833333333333,
+    "downstream_backlog": 0.3,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z17",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 181.6,
+    "downstream_backlog": 0.315,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z17",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 89.915,
+    "downstream_backlog": 0.005,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z17",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 89.51166666666667,
+    "downstream_backlog": 0.005,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z17",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 80.98166666666667,
+    "downstream_backlog": 0.345,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z17",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 66.09166666666667,
+    "downstream_backlog": 0.345,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z17",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 71.62,
+    "downstream_backlog": 0.025,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z17",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 87.97333333333333,
+    "downstream_backlog": 0.025,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z17",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 53.68,
+    "downstream_backlog": 1.56,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z17",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 90.76833333333333,
+    "downstream_backlog": 0.02,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z18",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 92.835,
+    "downstream_backlog": 0.025,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z18",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 78.005,
+    "downstream_backlog": 0.025,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z18",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 81.26,
+    "downstream_backlog": 0.0,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z18",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 87.60166666666667,
+    "downstream_backlog": 0.0,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z18",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 96.025,
+    "downstream_backlog": 0.02,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z18",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 87.54,
+    "downstream_backlog": 0.005,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z18",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 132.99166666666667,
+    "downstream_backlog": 0.295,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z18",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 191.73166666666665,
+    "downstream_backlog": 0.295,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z18",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 98.905,
+    "downstream_backlog": 0.005,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z18",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 98.09166666666667,
+    "downstream_backlog": 0.005,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z18",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 87.38666666666667,
+    "downstream_backlog": 0.345,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z18",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 71.49166666666666,
+    "downstream_backlog": 0.345,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z18",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 77.125,
+    "downstream_backlog": 0.025,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z18",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 96.515,
+    "downstream_backlog": 0.025,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z18",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 59.05,
+    "downstream_backlog": 1.56,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z18",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 99.62666666666667,
+    "downstream_backlog": 0.02,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z19",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 100.84333333333333,
+    "downstream_backlog": 0.025,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z19",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 85.20166666666667,
+    "downstream_backlog": 0.025,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z19",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 85.38333333333334,
+    "downstream_backlog": 0.0,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z19",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 91.1,
+    "downstream_backlog": 0.0,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z19",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 106.325,
+    "downstream_backlog": 0.01,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z19",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 97.46166666666667,
+    "downstream_backlog": 0.005,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z19",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 139.865,
+    "downstream_backlog": 0.29,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z19",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 201.65,
+    "downstream_backlog": 0.29,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z19",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 107.22,
+    "downstream_backlog": 0.005,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z19",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 105.7,
+    "downstream_backlog": 0.005,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z19",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 93.50666666666666,
+    "downstream_backlog": 0.34,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z19",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 74.73333333333333,
+    "downstream_backlog": 0.34,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z19",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 84.95833333333333,
+    "downstream_backlog": 0.025,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z19",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 103.85666666666667,
+    "downstream_backlog": 0.025,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z19",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 65.04,
+    "downstream_backlog": 1.56,
+    "ledger_verified": true
+  },
+  {
+    "config": "local_z19",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 108.90333333333334,
+    "downstream_backlog": 0.02,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z00",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 9.301666666666666,
+    "downstream_backlog": 7.56,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z00",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 9.495,
+    "downstream_backlog": 7.925,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z00",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 32.77333333333333,
+    "downstream_backlog": 41.32,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z00",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 33.62,
+    "downstream_backlog": 42.735,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z00",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 6.901666666666666,
+    "downstream_backlog": 4.71,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z00",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 7.611666666666666,
+    "downstream_backlog": 5.64,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z00",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 19.655,
+    "downstream_backlog": 19.675,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z00",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 31.108333333333334,
+    "downstream_backlog": 26.46,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z00",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 17.188333333333333,
+    "downstream_backlog": 20.64,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z00",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 18.598333333333333,
+    "downstream_backlog": 22.12,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z00",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 15.788333333333334,
+    "downstream_backlog": 16.57,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z00",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 13.421666666666667,
+    "downstream_backlog": 14.795,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z00",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 10.533333333333333,
+    "downstream_backlog": 11.91,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z00",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 11.795,
+    "downstream_backlog": 13.615,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z00",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 45.065,
+    "downstream_backlog": 65.33,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z00",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 59.605,
+    "downstream_backlog": 79.39,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z01",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 9.73,
+    "downstream_backlog": 5.83,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z01",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 9.686666666666667,
+    "downstream_backlog": 5.935,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z01",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 27.61,
+    "downstream_backlog": 32.195,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z01",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 28.46,
+    "downstream_backlog": 33.59,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z01",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 7.42,
+    "downstream_backlog": 3.485,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z01",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 7.633333333333334,
+    "downstream_backlog": 3.66,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z01",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 20.02,
+    "downstream_backlog": 15.625,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z01",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 36.045,
+    "downstream_backlog": 22.0,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z01",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 14.915,
+    "downstream_backlog": 15.5,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z01",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 16.01,
+    "downstream_backlog": 16.595,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z01",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 13.978333333333333,
+    "downstream_backlog": 12.06,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z01",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 11.381666666666666,
+    "downstream_backlog": 10.2,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z01",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 9.925,
+    "downstream_backlog": 9.275,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z01",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 10.611666666666666,
+    "downstream_backlog": 9.875,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z01",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 37.29,
+    "downstream_backlog": 54.22,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z01",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 54.123333333333335,
+    "downstream_backlog": 69.205,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z02",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 10.97,
+    "downstream_backlog": 4.71,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z02",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 10.303333333333333,
+    "downstream_backlog": 4.28,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z02",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 23.436666666666667,
+    "downstream_backlog": 24.075,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z02",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 23.831666666666667,
+    "downstream_backlog": 24.935,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z02",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 8.45,
+    "downstream_backlog": 2.645,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z02",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 8.81,
+    "downstream_backlog": 2.735,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z02",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 21.713333333333335,
+    "downstream_backlog": 12.445,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z02",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 43.07333333333333,
+    "downstream_backlog": 18.715,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z02",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 13.85,
+    "downstream_backlog": 11.455,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z02",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 14.665,
+    "downstream_backlog": 12.23,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z02",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 12.925,
+    "downstream_backlog": 8.105,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z02",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 9.926666666666666,
+    "downstream_backlog": 6.055,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z02",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 10.081666666666667,
+    "downstream_backlog": 7.165,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z02",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 11.035,
+    "downstream_backlog": 7.515,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z02",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 30.97,
+    "downstream_backlog": 44.72,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z02",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 49.385,
+    "downstream_backlog": 59.71,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z03",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 12.618333333333334,
+    "downstream_backlog": 3.73,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z03",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 11.166666666666666,
+    "downstream_backlog": 2.705,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z03",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 20.256666666666668,
+    "downstream_backlog": 16.865,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z03",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 20.421666666666667,
+    "downstream_backlog": 17.415,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z03",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 9.843333333333334,
+    "downstream_backlog": 2.01,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z03",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 10.211666666666666,
+    "downstream_backlog": 2.085,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z03",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 24.451666666666668,
+    "downstream_backlog": 9.665,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z03",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 50.821666666666665,
+    "downstream_backlog": 15.66,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z03",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 14.301666666666666,
+    "downstream_backlog": 8.83,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z03",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 14.416666666666666,
+    "downstream_backlog": 8.75,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z03",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 13.386666666666667,
+    "downstream_backlog": 5.375,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z03",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 10.328333333333333,
+    "downstream_backlog": 3.64,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z03",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 10.93,
+    "downstream_backlog": 5.67,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z03",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 12.381666666666666,
+    "downstream_backlog": 5.8,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z03",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 26.475,
+    "downstream_backlog": 36.88,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z03",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 45.98833333333334,
+    "downstream_backlog": 51.835,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z04",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 14.591666666666667,
+    "downstream_backlog": 2.8,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z04",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 12.6,
+    "downstream_backlog": 1.445,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z04",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 18.93,
+    "downstream_backlog": 11.365,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z04",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 19.061666666666667,
+    "downstream_backlog": 11.735,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z04",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 11.693333333333333,
+    "downstream_backlog": 1.64,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z04",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 11.92,
+    "downstream_backlog": 1.51,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z04",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 28.35333333333333,
+    "downstream_backlog": 7.44,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z04",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 58.538333333333334,
+    "downstream_backlog": 13.075,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z04",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 15.448333333333334,
+    "downstream_backlog": 6.8,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z04",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 15.426666666666666,
+    "downstream_backlog": 6.445,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z04",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 14.626666666666667,
+    "downstream_backlog": 3.345,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z04",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 11.758333333333333,
+    "downstream_backlog": 2.24,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z04",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 12.151666666666667,
+    "downstream_backlog": 4.22,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z04",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 14.175,
+    "downstream_backlog": 4.425,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z04",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 23.708333333333332,
+    "downstream_backlog": 30.79,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z04",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 42.43833333333333,
+    "downstream_backlog": 43.655,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z05",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 17.063333333333333,
+    "downstream_backlog": 2.105,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z05",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 14.583333333333334,
+    "downstream_backlog": 0.58,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z05",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 19.741666666666667,
+    "downstream_backlog": 7.98,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z05",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 19.963333333333335,
+    "downstream_backlog": 8.21,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z05",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 13.936666666666667,
+    "downstream_backlog": 1.385,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z05",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 14.121666666666666,
+    "downstream_backlog": 1.125,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z05",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 32.586666666666666,
+    "downstream_backlog": 5.35,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z05",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 66.16333333333333,
+    "downstream_backlog": 10.655,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z05",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 17.268333333333334,
+    "downstream_backlog": 5.215,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z05",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 17.336666666666666,
+    "downstream_backlog": 4.89,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z05",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 17.035,
+    "downstream_backlog": 2.065,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z05",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 14.131666666666666,
+    "downstream_backlog": 1.48,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z05",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 13.88,
+    "downstream_backlog": 3.205,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z05",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 16.26,
+    "downstream_backlog": 3.225,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z05",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 21.766666666666666,
+    "downstream_backlog": 25.585,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z05",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 38.96333333333333,
+    "downstream_backlog": 35.68,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z06",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 19.953333333333333,
+    "downstream_backlog": 1.41,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z06",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 17.116666666666667,
+    "downstream_backlog": 0.165,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z06",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 21.62,
+    "downstream_backlog": 5.29,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z06",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 22.471666666666668,
+    "downstream_backlog": 6.1,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z06",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 16.208333333333332,
+    "downstream_backlog": 1.055,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z06",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 16.335,
+    "downstream_backlog": 0.775,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z06",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 37.80833333333333,
+    "downstream_backlog": 3.74,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z06",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 74.18166666666667,
+    "downstream_backlog": 8.325,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z06",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 19.541666666666668,
+    "downstream_backlog": 3.7,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z06",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 19.673333333333332,
+    "downstream_backlog": 3.465,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z06",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 20.06833333333333,
+    "downstream_backlog": 1.415,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z06",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 16.93166666666667,
+    "downstream_backlog": 1.1,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z06",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 15.77,
+    "downstream_backlog": 2.225,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z06",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 19.12,
+    "downstream_backlog": 2.4,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z06",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 19.988333333333333,
+    "downstream_backlog": 20.49,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z06",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 35.195,
+    "downstream_backlog": 27.24,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z07",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 22.991666666666667,
+    "downstream_backlog": 0.9,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z07",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 20.235,
+    "downstream_backlog": 0.08,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z07",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 24.005,
+    "downstream_backlog": 3.315,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z07",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 25.243333333333332,
+    "downstream_backlog": 4.32,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z07",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 18.84,
+    "downstream_backlog": 0.965,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z07",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 18.911666666666665,
+    "downstream_backlog": 0.57,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z07",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 43.96333333333333,
+    "downstream_backlog": 2.88,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z07",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 82.74833333333333,
+    "downstream_backlog": 6.64,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z07",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 22.438333333333333,
+    "downstream_backlog": 2.605,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z07",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 22.736666666666668,
+    "downstream_backlog": 2.405,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z07",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 23.566666666666666,
+    "downstream_backlog": 1.04,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z07",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 19.791666666666668,
+    "downstream_backlog": 0.865,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z07",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 18.345,
+    "downstream_backlog": 1.665,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z07",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 22.35,
+    "downstream_backlog": 1.57,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z07",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 19.005,
+    "downstream_backlog": 16.37,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z07",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 32.06666666666667,
+    "downstream_backlog": 19.205,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z08",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 27.023333333333333,
+    "downstream_backlog": 0.53,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z08",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 23.688333333333333,
+    "downstream_backlog": 0.055,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z08",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 27.188333333333333,
+    "downstream_backlog": 1.86,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z08",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 28.61,
+    "downstream_backlog": 3.145,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z08",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 21.563333333333333,
+    "downstream_backlog": 0.72,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z08",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 21.83,
+    "downstream_backlog": 0.355,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z08",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 50.681666666666665,
+    "downstream_backlog": 2.315,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z08",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 91.16166666666666,
+    "downstream_backlog": 5.25,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z08",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 26.115,
+    "downstream_backlog": 1.765,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z08",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 26.445,
+    "downstream_backlog": 1.73,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z08",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 27.708333333333332,
+    "downstream_backlog": 0.845,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z08",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 23.428333333333335,
+    "downstream_backlog": 0.745,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z08",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 21.34,
+    "downstream_backlog": 1.065,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z08",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 26.085,
+    "downstream_backlog": 1.08,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z08",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 16.953333333333333,
+    "downstream_backlog": 10.9,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z08",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 31.065,
+    "downstream_backlog": 12.495,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z09",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 31.913333333333334,
+    "downstream_backlog": 0.29,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z09",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 27.371666666666666,
+    "downstream_backlog": 0.045,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z09",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 30.888333333333332,
+    "downstream_backlog": 1.09,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z09",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 32.14,
+    "downstream_backlog": 2.24,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z09",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 24.683333333333334,
+    "downstream_backlog": 0.62,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z09",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 25.053333333333335,
+    "downstream_backlog": 0.235,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z09",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 57.51166666666666,
+    "downstream_backlog": 2.01,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z09",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 99.38833333333334,
+    "downstream_backlog": 4.09,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z09",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 30.401666666666667,
+    "downstream_backlog": 1.21,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z09",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 30.72,
+    "downstream_backlog": 1.16,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z09",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 31.776666666666667,
+    "downstream_backlog": 0.77,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z09",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 26.775,
+    "downstream_backlog": 0.73,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z09",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 24.561666666666667,
+    "downstream_backlog": 0.56,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z09",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 30.273333333333333,
+    "downstream_backlog": 0.725,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z09",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 16.55,
+    "downstream_backlog": 6.92,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z09",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 32.446666666666665,
+    "downstream_backlog": 8.36,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z10",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 37.086666666666666,
+    "downstream_backlog": 0.175,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z10",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 31.656666666666666,
+    "downstream_backlog": 0.045,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z10",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 34.985,
+    "downstream_backlog": 0.63,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z10",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 35.40833333333333,
+    "downstream_backlog": 1.375,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z10",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 28.445,
+    "downstream_backlog": 0.465,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z10",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 28.49,
+    "downstream_backlog": 0.175,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z10",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 63.416666666666664,
+    "downstream_backlog": 1.795,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z10",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 107.87,
+    "downstream_backlog": 3.45,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z10",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 35.19833333333333,
+    "downstream_backlog": 0.545,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z10",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 35.61666666666667,
+    "downstream_backlog": 0.595,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z10",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 36.005,
+    "downstream_backlog": 0.735,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z10",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 30.388333333333332,
+    "downstream_backlog": 0.725,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z10",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 28.215,
+    "downstream_backlog": 0.275,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z10",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 35.126666666666665,
+    "downstream_backlog": 0.47,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z10",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 17.401666666666667,
+    "downstream_backlog": 4.685,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z10",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 36.818333333333335,
+    "downstream_backlog": 6.565,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z11",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 43.038333333333334,
+    "downstream_backlog": 0.11,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z11",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 35.85666666666667,
+    "downstream_backlog": 0.045,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z11",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 38.81,
+    "downstream_backlog": 0.255,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z11",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 38.403333333333336,
+    "downstream_backlog": 0.76,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z11",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 33.36833333333333,
+    "downstream_backlog": 0.315,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z11",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 32.56333333333333,
+    "downstream_backlog": 0.115,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z11",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 70.21666666666667,
+    "downstream_backlog": 1.68,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z11",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 116.61,
+    "downstream_backlog": 2.89,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z11",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 40.87166666666667,
+    "downstream_backlog": 0.12,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z11",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 41.06,
+    "downstream_backlog": 0.38,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z11",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 40.64,
+    "downstream_backlog": 0.725,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z11",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 34.093333333333334,
+    "downstream_backlog": 0.725,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z11",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 32.44833333333333,
+    "downstream_backlog": 0.13,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z11",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 40.21333333333333,
+    "downstream_backlog": 0.215,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z11",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 19.095,
+    "downstream_backlog": 2.72,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z11",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 41.79333333333334,
+    "downstream_backlog": 5.105,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z12",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 48.89333333333333,
+    "downstream_backlog": 0.075,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z12",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 39.998333333333335,
+    "downstream_backlog": 0.045,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z12",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 42.71666666666667,
+    "downstream_backlog": 0.045,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z12",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 42.395,
+    "downstream_backlog": 0.14,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z12",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 38.70333333333333,
+    "downstream_backlog": 0.205,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z12",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 36.861666666666665,
+    "downstream_backlog": 0.09,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z12",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 77.52333333333333,
+    "downstream_backlog": 1.63,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z12",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 126.66666666666667,
+    "downstream_backlog": 2.39,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z12",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 47.17666666666667,
+    "downstream_backlog": 0.035,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z12",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 46.57333333333333,
+    "downstream_backlog": 0.035,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z12",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 45.196666666666665,
+    "downstream_backlog": 0.725,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z12",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 37.64833333333333,
+    "downstream_backlog": 0.725,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z12",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 36.64666666666667,
+    "downstream_backlog": 0.085,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z12",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 46.13,
+    "downstream_backlog": 0.07,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z12",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 21.236666666666668,
+    "downstream_backlog": 1.845,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z12",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 46.52,
+    "downstream_backlog": 4.01,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z13",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 54.805,
+    "downstream_backlog": 0.065,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z13",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 43.876666666666665,
+    "downstream_backlog": 0.045,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z13",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 45.818333333333335,
+    "downstream_backlog": 0.0,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z13",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 45.76,
+    "downstream_backlog": 0.0,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z13",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 45.75666666666667,
+    "downstream_backlog": 0.145,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z13",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 42.01833333333333,
+    "downstream_backlog": 0.06,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z13",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 85.04,
+    "downstream_backlog": 1.57,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z13",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 135.25,
+    "downstream_backlog": 1.96,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z13",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 53.708333333333336,
+    "downstream_backlog": 0.005,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z13",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 52.16,
+    "downstream_backlog": 0.005,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z13",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 50.233333333333334,
+    "downstream_backlog": 0.725,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z13",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 41.685,
+    "downstream_backlog": 0.725,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z13",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 41.53666666666667,
+    "downstream_backlog": 0.07,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z13",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 51.685,
+    "downstream_backlog": 0.05,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z13",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 23.201666666666668,
+    "downstream_backlog": 1.57,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z13",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 51.346666666666664,
+    "downstream_backlog": 3.17,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z14",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 61.28333333333333,
+    "downstream_backlog": 0.05,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z14",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 48.45666666666666,
+    "downstream_backlog": 0.045,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z14",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 50.29666666666667,
+    "downstream_backlog": 0.0,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z14",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 50.335,
+    "downstream_backlog": 0.0,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z14",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 52.431666666666665,
+    "downstream_backlog": 0.105,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z14",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 47.205,
+    "downstream_backlog": 0.045,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z14",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 92.58333333333333,
+    "downstream_backlog": 1.525,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z14",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 145.665,
+    "downstream_backlog": 1.77,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z14",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 60.14833333333333,
+    "downstream_backlog": 0.005,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z14",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 58.605,
+    "downstream_backlog": 0.005,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z14",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 55.233333333333334,
+    "downstream_backlog": 0.725,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z14",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 45.58833333333333,
+    "downstream_backlog": 0.725,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z14",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 47.065,
+    "downstream_backlog": 0.055,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z14",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 58.43666666666667,
+    "downstream_backlog": 0.05,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z14",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 26.551666666666666,
+    "downstream_backlog": 1.47,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z14",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 56.61833333333333,
+    "downstream_backlog": 2.58,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z15",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 67.92333333333333,
+    "downstream_backlog": 0.045,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z15",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 52.91166666666667,
+    "downstream_backlog": 0.045,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z15",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 53.635,
+    "downstream_backlog": 0.0,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z15",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 54.93833333333333,
+    "downstream_backlog": 0.0,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z15",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 60.666666666666664,
+    "downstream_backlog": 0.095,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z15",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 53.62166666666667,
+    "downstream_backlog": 0.03,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z15",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 99.81666666666666,
+    "downstream_backlog": 1.5,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z15",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 154.785,
+    "downstream_backlog": 1.61,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z15",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 67.86166666666666,
+    "downstream_backlog": 0.005,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z15",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 65.40333333333334,
+    "downstream_backlog": 0.005,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z15",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 60.035,
+    "downstream_backlog": 0.725,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z15",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 49.39833333333333,
+    "downstream_backlog": 0.725,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z15",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 52.33,
+    "downstream_backlog": 0.05,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z15",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 65.895,
+    "downstream_backlog": 0.05,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z15",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 30.833333333333332,
+    "downstream_backlog": 1.455,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z15",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 62.295,
+    "downstream_backlog": 2.205,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z16",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 74.56833333333333,
+    "downstream_backlog": 0.045,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z16",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 58.09,
+    "downstream_backlog": 0.045,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z16",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 57.641666666666666,
+    "downstream_backlog": 0.0,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z16",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 59.315,
+    "downstream_backlog": 0.0,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z16",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 69.42833333333333,
+    "downstream_backlog": 0.095,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z16",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 61.00666666666667,
+    "downstream_backlog": 0.015,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z16",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 107.19,
+    "downstream_backlog": 1.49,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z16",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 163.76666666666668,
+    "downstream_backlog": 1.525,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z16",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 74.985,
+    "downstream_backlog": 0.005,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z16",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 72.24,
+    "downstream_backlog": 0.005,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z16",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 65.415,
+    "downstream_backlog": 0.725,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z16",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 53.10166666666667,
+    "downstream_backlog": 0.725,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z16",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 58.31166666666667,
+    "downstream_backlog": 0.05,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z16",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 73.16,
+    "downstream_backlog": 0.05,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z16",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 34.96333333333333,
+    "downstream_backlog": 1.43,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z16",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 68.43666666666667,
+    "downstream_backlog": 1.74,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z17",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 81.97666666666667,
+    "downstream_backlog": 0.045,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z17",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 63.56166666666667,
+    "downstream_backlog": 0.045,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z17",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 61.82,
+    "downstream_backlog": 0.0,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z17",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 63.946666666666665,
+    "downstream_backlog": 0.0,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z17",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 78.37333333333333,
+    "downstream_backlog": 0.075,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z17",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 69.76666666666667,
+    "downstream_backlog": 0.01,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z17",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 115.25,
+    "downstream_backlog": 1.48,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z17",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 173.08,
+    "downstream_backlog": 1.48,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z17",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 83.02333333333333,
+    "downstream_backlog": 0.005,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z17",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 80.41333333333333,
+    "downstream_backlog": 0.005,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z17",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 70.58833333333334,
+    "downstream_backlog": 0.725,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z17",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 57.27,
+    "downstream_backlog": 0.725,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z17",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 64.61166666666666,
+    "downstream_backlog": 0.05,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z17",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 81.11833333333334,
+    "downstream_backlog": 0.05,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z17",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 39.14833333333333,
+    "downstream_backlog": 1.42,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z17",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 74.91333333333333,
+    "downstream_backlog": 1.375,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z18",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 89.855,
+    "downstream_backlog": 0.045,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z18",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 68.63833333333334,
+    "downstream_backlog": 0.045,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z18",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 66.66333333333333,
+    "downstream_backlog": 0.0,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z18",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 69.19666666666667,
+    "downstream_backlog": 0.0,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z18",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 87.11166666666666,
+    "downstream_backlog": 0.075,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z18",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 78.40833333333333,
+    "downstream_backlog": 0.005,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z18",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 122.64666666666666,
+    "downstream_backlog": 1.48,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z18",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 184.30166666666668,
+    "downstream_backlog": 1.48,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z18",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 90.52833333333334,
+    "downstream_backlog": 0.005,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z18",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 87.59,
+    "downstream_backlog": 0.005,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z18",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 75.58666666666667,
+    "downstream_backlog": 0.725,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z18",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 61.16166666666667,
+    "downstream_backlog": 0.725,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z18",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 71.36833333333334,
+    "downstream_backlog": 0.05,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z18",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 88.93666666666667,
+    "downstream_backlog": 0.05,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z18",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 43.32333333333333,
+    "downstream_backlog": 1.4,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z18",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 80.36,
+    "downstream_backlog": 1.01,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z19",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 97.755,
+    "downstream_backlog": 0.045,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z19",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 72.23,
+    "downstream_backlog": 0.045,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z19",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 70.48333333333333,
+    "downstream_backlog": 0.0,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z19",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 76.25666666666666,
+    "downstream_backlog": 0.0,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z19",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 96.88166666666666,
+    "downstream_backlog": 0.065,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z19",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 87.67,
+    "downstream_backlog": 0.005,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z19",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 129.54166666666666,
+    "downstream_backlog": 1.48,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z19",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 191.89,
+    "downstream_backlog": 1.48,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z19",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 100.42333333333333,
+    "downstream_backlog": 0.005,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z19",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 95.705,
+    "downstream_backlog": 0.005,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z19",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 81.69166666666666,
+    "downstream_backlog": 0.725,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z19",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 66.375,
+    "downstream_backlog": 0.725,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z19",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 77.58166666666666,
+    "downstream_backlog": 0.05,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z19",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 96.37666666666667,
+    "downstream_backlog": 0.05,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z19",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 48.11666666666667,
+    "downstream_backlog": 1.39,
+    "ledger_verified": true
+  },
+  {
+    "config": "report_mean_z19",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 87.33,
+    "downstream_backlog": 0.655,
+    "ledger_verified": true
+  },
+  {
+    "config": "reference_floor",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 24.97,
+    "downstream_backlog": 0.26,
+    "ledger_verified": true
+  },
+  {
+    "config": "reference_floor",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 23.718333333333334,
+    "downstream_backlog": 0.035,
+    "ledger_verified": true
+  },
+  {
+    "config": "reference_floor",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 27.74,
+    "downstream_backlog": 0.91,
+    "ledger_verified": true
+  },
+  {
+    "config": "reference_floor",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 29.161666666666665,
+    "downstream_backlog": 1.32,
+    "ledger_verified": true
+  },
+  {
+    "config": "reference_floor",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 20.915,
+    "downstream_backlog": 0.47,
+    "ledger_verified": true
+  },
+  {
+    "config": "reference_floor",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 21.066666666666666,
+    "downstream_backlog": 0.28,
+    "ledger_verified": true
+  },
+  {
+    "config": "reference_floor",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 52.32833333333333,
+    "downstream_backlog": 1.485,
+    "ledger_verified": true
+  },
+  {
+    "config": "reference_floor",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 92.205,
+    "downstream_backlog": 4.475,
+    "ledger_verified": true
+  },
+  {
+    "config": "reference_floor",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 26.288333333333334,
+    "downstream_backlog": 0.915,
+    "ledger_verified": true
+  },
+  {
+    "config": "reference_floor",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 26.89666666666667,
+    "downstream_backlog": 0.695,
+    "ledger_verified": true
+  },
+  {
+    "config": "reference_floor",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 29.641666666666666,
+    "downstream_backlog": 0.59,
+    "ledger_verified": true
+  },
+  {
+    "config": "reference_floor",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 25.548333333333332,
+    "downstream_backlog": 0.53,
+    "ledger_verified": true
+  },
+  {
+    "config": "reference_floor",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 20.388333333333332,
+    "downstream_backlog": 0.455,
+    "ledger_verified": true
+  },
+  {
+    "config": "reference_floor",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 25.488333333333333,
+    "downstream_backlog": 0.44,
+    "ledger_verified": true
+  },
+  {
+    "config": "reference_floor",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 13.126666666666667,
+    "downstream_backlog": 4.58,
+    "ledger_verified": true
+  },
+  {
+    "config": "reference_floor",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 30.44,
+    "downstream_backlog": 10.595,
+    "ledger_verified": true
+  },
+  {
+    "config": "reference_normal_history",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 49.24333333333333,
+    "downstream_backlog": 0.09,
+    "ledger_verified": true
+  },
+  {
+    "config": "reference_normal_history",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 45.64333333333333,
+    "downstream_backlog": 0.0,
+    "ledger_verified": true
+  },
+  {
+    "config": "reference_normal_history",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 39.041666666666664,
+    "downstream_backlog": 0.795,
+    "ledger_verified": true
+  },
+  {
+    "config": "reference_normal_history",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 39.97833333333333,
+    "downstream_backlog": 1.05,
+    "ledger_verified": true
+  },
+  {
+    "config": "reference_normal_history",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 50.35,
+    "downstream_backlog": 0.255,
+    "ledger_verified": true
+  },
+  {
+    "config": "reference_normal_history",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 44.39333333333333,
+    "downstream_backlog": 0.19,
+    "ledger_verified": true
+  },
+  {
+    "config": "reference_normal_history",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 51.47833333333333,
+    "downstream_backlog": 0.15,
+    "ledger_verified": true
+  },
+  {
+    "config": "reference_normal_history",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 91.88666666666667,
+    "downstream_backlog": 3.595,
+    "ledger_verified": true
+  },
+  {
+    "config": "reference_normal_history",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 46.098333333333336,
+    "downstream_backlog": 0.585,
+    "ledger_verified": true
+  },
+  {
+    "config": "reference_normal_history",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 46.141666666666666,
+    "downstream_backlog": 0.51,
+    "ledger_verified": true
+  },
+  {
+    "config": "reference_normal_history",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 35.513333333333335,
+    "downstream_backlog": 0.02,
+    "ledger_verified": true
+  },
+  {
+    "config": "reference_normal_history",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 31.358333333333334,
+    "downstream_backlog": 0.0,
+    "ledger_verified": true
+  },
+  {
+    "config": "reference_normal_history",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 38.07666666666667,
+    "downstream_backlog": 0.145,
+    "ledger_verified": true
+  },
+  {
+    "config": "reference_normal_history",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 42.391666666666666,
+    "downstream_backlog": 0.145,
+    "ledger_verified": true
+  },
+  {
+    "config": "reference_normal_history",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 23.505,
+    "downstream_backlog": 2.99,
+    "ledger_verified": true
+  },
+  {
+    "config": "reference_normal_history",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 41.01,
+    "downstream_backlog": 9.07,
+    "ledger_verified": true
+  },
+  {
+    "config": "selected_floor",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 10.415,
+    "downstream_backlog": 4.85,
+    "ledger_verified": true
+  },
+  {
+    "config": "selected_floor",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 9.82,
+    "downstream_backlog": 4.39,
+    "ledger_verified": true
+  },
+  {
+    "config": "selected_floor",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 23.026666666666667,
+    "downstream_backlog": 23.98,
+    "ledger_verified": true
+  },
+  {
+    "config": "selected_floor",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 23.606666666666666,
+    "downstream_backlog": 24.9,
+    "ledger_verified": true
+  },
+  {
+    "config": "selected_floor",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 8.075,
+    "downstream_backlog": 2.975,
+    "ledger_verified": true
+  },
+  {
+    "config": "selected_floor",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 8.426666666666666,
+    "downstream_backlog": 3.035,
+    "ledger_verified": true
+  },
+  {
+    "config": "selected_floor",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 21.57,
+    "downstream_backlog": 12.54,
+    "ledger_verified": true
+  },
+  {
+    "config": "selected_floor",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 43.193333333333335,
+    "downstream_backlog": 18.83,
+    "ledger_verified": true
+  },
+  {
+    "config": "selected_floor",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 13.881666666666666,
+    "downstream_backlog": 11.98,
+    "ledger_verified": true
+  },
+  {
+    "config": "selected_floor",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 14.48,
+    "downstream_backlog": 12.465,
+    "ledger_verified": true
+  },
+  {
+    "config": "selected_floor",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 12.601666666666667,
+    "downstream_backlog": 8.34,
+    "ledger_verified": true
+  },
+  {
+    "config": "selected_floor",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 9.901666666666667,
+    "downstream_backlog": 6.46,
+    "ledger_verified": true
+  },
+  {
+    "config": "selected_floor",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 9.601666666666667,
+    "downstream_backlog": 7.28,
+    "ledger_verified": true
+  },
+  {
+    "config": "selected_floor",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 10.761666666666667,
+    "downstream_backlog": 7.725,
+    "ledger_verified": true
+  },
+  {
+    "config": "selected_floor",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 31.013333333333332,
+    "downstream_backlog": 44.815,
+    "ledger_verified": true
+  },
+  {
+    "config": "selected_floor",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 49.39,
+    "downstream_backlog": 60.84,
+    "ledger_verified": true
+  },
+  {
+    "config": "selected_normal_history",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 15.271666666666667,
+    "downstream_backlog": 4.015,
+    "ledger_verified": true
+  },
+  {
+    "config": "selected_normal_history",
+    "batch": 1,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 14.621666666666666,
+    "downstream_backlog": 3.52,
+    "ledger_verified": true
+  },
+  {
+    "config": "selected_normal_history",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 24.741666666666667,
+    "downstream_backlog": 21.055,
+    "ledger_verified": true
+  },
+  {
+    "config": "selected_normal_history",
+    "batch": 1,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 25.64666666666667,
+    "downstream_backlog": 22.24,
+    "ledger_verified": true
+  },
+  {
+    "config": "selected_normal_history",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 11.988333333333333,
+    "downstream_backlog": 2.245,
+    "ledger_verified": true
+  },
+  {
+    "config": "selected_normal_history",
+    "batch": 1,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 12.59,
+    "downstream_backlog": 2.415,
+    "ledger_verified": true
+  },
+  {
+    "config": "selected_normal_history",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 17.253333333333334,
+    "downstream_backlog": 5.515,
+    "ledger_verified": true
+  },
+  {
+    "config": "selected_normal_history",
+    "batch": 1,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 39.205,
+    "downstream_backlog": 12.15,
+    "ledger_verified": true
+  },
+  {
+    "config": "selected_normal_history",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "base",
+    "cost": 18.24,
+    "downstream_backlog": 10.775,
+    "ledger_verified": true
+  },
+  {
+    "config": "selected_normal_history",
+    "batch": 6,
+    "trace": 0,
+    "type": "single_surge",
+    "scenario": "shock",
+    "cost": 18.701666666666668,
+    "downstream_backlog": 11.11,
+    "ledger_verified": true
+  },
+  {
+    "config": "selected_normal_history",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "base",
+    "cost": 12.878333333333334,
+    "downstream_backlog": 4.71,
+    "ledger_verified": true
+  },
+  {
+    "config": "selected_normal_history",
+    "batch": 6,
+    "trace": 1,
+    "type": "sustained_surge",
+    "scenario": "shock",
+    "cost": 10.341666666666667,
+    "downstream_backlog": 3.005,
+    "ledger_verified": true
+  },
+  {
+    "config": "selected_normal_history",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "base",
+    "cost": 13.188333333333333,
+    "downstream_backlog": 6.19,
+    "ledger_verified": true
+  },
+  {
+    "config": "selected_normal_history",
+    "batch": 6,
+    "trace": 2,
+    "type": "double_surge",
+    "scenario": "shock",
+    "cost": 14.548333333333334,
+    "downstream_backlog": 6.8,
+    "ledger_verified": true
+  },
+  {
+    "config": "selected_normal_history",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "base",
+    "cost": 32.59166666666667,
+    "downstream_backlog": 41.835,
+    "ledger_verified": true
+  },
+  {
+    "config": "selected_normal_history",
+    "batch": 6,
+    "trace": 3,
+    "type": "surge_then_drop",
+    "scenario": "shock",
+    "cost": 51.60666666666667,
+    "downstream_backlog": 58.51,
+    "ledger_verified": true
+  }
+]
