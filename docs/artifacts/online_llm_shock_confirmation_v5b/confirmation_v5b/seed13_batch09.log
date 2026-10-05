@@ -1,0 +1,27 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+share_observation_space:  [Box(-inf, inf, (21,), float32), Box(-inf, inf, (21,), float32), Box(-inf, inf, (21,), float32)]
+observation_space:  [Box(-inf, inf, (7,), float32), Box(-inf, inf, (7,), float32), Box(-inf, inf, (7,), float32)]
+action_space:  [Discrete(21), Discrete(21), Discrete(21)]
+EPISODE {'group': 'happo', 'scenario': 'base', 'trace': 0, 'cost': 17.918333333333333, 'downstream_backlog': 4.35, 'generation_events': 0, 'episode_http': 0, 'notification_period': None}
+EPISODE {'group': 'happo', 'scenario': 'base', 'trace': 1, 'cost': 18.641666666666666, 'downstream_backlog': 12.105, 'generation_events': 0, 'episode_http': 0, 'notification_period': None}
+EPISODE {'group': 'happo', 'scenario': 'base', 'trace': 2, 'cost': 15.033333333333333, 'downstream_backlog': 4.18, 'generation_events': 0, 'episode_http': 0, 'notification_period': None}
+EPISODE {'group': 'happo', 'scenario': 'base', 'trace': 3, 'cost': 18.255, 'downstream_backlog': 2.51, 'generation_events': 0, 'episode_http': 0, 'notification_period': None}
+EPISODE {'group': 'happo', 'scenario': 'shock', 'trace': 0, 'cost': 18.30666666666667, 'downstream_backlog': 6.675, 'generation_events': 0, 'episode_http': 0, 'notification_period': 89}
+EPISODE {'group': 'happo', 'scenario': 'shock', 'trace': 1, 'cost': 18.496666666666666, 'downstream_backlog': 11.885, 'generation_events': 0, 'episode_http': 0, 'notification_period': 79}
+EPISODE {'group': 'happo', 'scenario': 'shock', 'trace': 2, 'cost': 19.348333333333333, 'downstream_backlog': 11.97, 'generation_events': 0, 'episode_http': 0, 'notification_period': 84}
+EPISODE {'group': 'happo', 'scenario': 'shock', 'trace': 3, 'cost': 24.906666666666666, 'downstream_backlog': 3.83, 'generation_events': 0, 'episode_http': 0, 'notification_period': 89}
+share_observation_space:  [Box(-inf, inf, (21,), float32), Box(-inf, inf, (21,), float32), Box(-inf, inf, (21,), float32)]
+observation_space:  [Box(-inf, inf, (7,), float32), Box(-inf, inf, (7,), float32), Box(-inf, inf, (7,), float32)]
+action_space:  [Discrete(21), Discrete(21), Discrete(21)]
+EPISODE {'group': 'online_feedback', 'scenario': 'base', 'trace': 0, 'cost': 17.918333333333333, 'downstream_backlog': 4.35, 'generation_events': 0, 'episode_http': 0, 'notification_period': None}
+EPISODE {'group': 'online_feedback', 'scenario': 'base', 'trace': 1, 'cost': 18.641666666666666, 'downstream_backlog': 12.105, 'generation_events': 0, 'episode_http': 0, 'notification_period': None}
+EPISODE {'group': 'online_feedback', 'scenario': 'base', 'trace': 2, 'cost': 15.033333333333333, 'downstream_backlog': 4.18, 'generation_events': 0, 'episode_http': 0, 'notification_period': None}
+EPISODE {'group': 'online_feedback', 'scenario': 'base', 'trace': 3, 'cost': 18.255, 'downstream_backlog': 2.51, 'generation_events': 0, 'episode_http': 0, 'notification_period': None}
+EPISODE {'group': 'online_feedback', 'scenario': 'shock', 'trace': 0, 'cost': 18.641666666666666, 'downstream_backlog': 6.195, 'generation_events': 4, 'episode_http': 8, 'notification_period': 89}
+EPISODE {'group': 'online_feedback', 'scenario': 'shock', 'trace': 1, 'cost': 18.575, 'downstream_backlog': 11.235, 'generation_events': 4, 'episode_http': 8, 'notification_period': 79}
+EPISODE {'group': 'online_feedback', 'scenario': 'shock', 'trace': 2, 'cost': 19.598333333333333, 'downstream_backlog': 10.36, 'generation_events': 4, 'episode_http': 9, 'notification_period': 84}
+EPISODE {'group': 'online_feedback', 'scenario': 'shock', 'trace': 3, 'cost': 25.413333333333334, 'downstream_backlog': 3.75, 'generation_events': 4, 'episode_http': 9, 'notification_period': 89}
+ONLINE_DRAFT_COMPLETED

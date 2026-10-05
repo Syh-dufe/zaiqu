@@ -1,0 +1,27 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+share_observation_space:  [Box(-inf, inf, (21,), float32), Box(-inf, inf, (21,), float32), Box(-inf, inf, (21,), float32)]
+observation_space:  [Box(-inf, inf, (7,), float32), Box(-inf, inf, (7,), float32), Box(-inf, inf, (7,), float32)]
+action_space:  [Discrete(21), Discrete(21), Discrete(21)]
+EPISODE {'group': 'happo', 'scenario': 'base', 'trace': 0, 'cost': 22.725, 'downstream_backlog': 30.47, 'generation_events': 0, 'episode_http': 0, 'notification_period': None}
+EPISODE {'group': 'happo', 'scenario': 'base', 'trace': 1, 'cost': 39.836666666666666, 'downstream_backlog': 83.86, 'generation_events': 0, 'episode_http': 0, 'notification_period': None}
+EPISODE {'group': 'happo', 'scenario': 'base', 'trace': 2, 'cost': 18.933333333333334, 'downstream_backlog': 6.895, 'generation_events': 0, 'episode_http': 0, 'notification_period': None}
+EPISODE {'group': 'happo', 'scenario': 'base', 'trace': 3, 'cost': 14.838333333333333, 'downstream_backlog': 8.595, 'generation_events': 0, 'episode_http': 0, 'notification_period': None}
+EPISODE {'group': 'happo', 'scenario': 'shock', 'trace': 0, 'cost': 23.56833333333333, 'downstream_backlog': 34.845, 'generation_events': 0, 'episode_http': 0, 'notification_period': 91}
+EPISODE {'group': 'happo', 'scenario': 'shock', 'trace': 1, 'cost': 51.515, 'downstream_backlog': 121.88, 'generation_events': 0, 'episode_http': 0, 'notification_period': 81}
+EPISODE {'group': 'happo', 'scenario': 'shock', 'trace': 2, 'cost': 20.875, 'downstream_backlog': 12.505, 'generation_events': 0, 'episode_http': 0, 'notification_period': 86}
+EPISODE {'group': 'happo', 'scenario': 'shock', 'trace': 3, 'cost': 27.138333333333332, 'downstream_backlog': 15.98, 'generation_events': 0, 'episode_http': 0, 'notification_period': 91}
+share_observation_space:  [Box(-inf, inf, (21,), float32), Box(-inf, inf, (21,), float32), Box(-inf, inf, (21,), float32)]
+observation_space:  [Box(-inf, inf, (7,), float32), Box(-inf, inf, (7,), float32), Box(-inf, inf, (7,), float32)]
+action_space:  [Discrete(21), Discrete(21), Discrete(21)]
+EPISODE {'group': 'online_feedback', 'scenario': 'base', 'trace': 0, 'cost': 22.725, 'downstream_backlog': 30.47, 'generation_events': 0, 'episode_http': 0, 'notification_period': None}
+EPISODE {'group': 'online_feedback', 'scenario': 'base', 'trace': 1, 'cost': 39.836666666666666, 'downstream_backlog': 83.86, 'generation_events': 0, 'episode_http': 0, 'notification_period': None}
+EPISODE {'group': 'online_feedback', 'scenario': 'base', 'trace': 2, 'cost': 18.933333333333334, 'downstream_backlog': 6.895, 'generation_events': 0, 'episode_http': 0, 'notification_period': None}
+EPISODE {'group': 'online_feedback', 'scenario': 'base', 'trace': 3, 'cost': 14.838333333333333, 'downstream_backlog': 8.595, 'generation_events': 0, 'episode_http': 0, 'notification_period': None}
+EPISODE {'group': 'online_feedback', 'scenario': 'shock', 'trace': 0, 'cost': 23.918333333333333, 'downstream_backlog': 34.335, 'generation_events': 4, 'episode_http': 8, 'notification_period': 91}
+EPISODE {'group': 'online_feedback', 'scenario': 'shock', 'trace': 1, 'cost': 43.33833333333333, 'downstream_backlog': 100.1, 'generation_events': 4, 'episode_http': 10, 'notification_period': 81}
+EPISODE {'group': 'online_feedback', 'scenario': 'shock', 'trace': 2, 'cost': 22.738333333333333, 'downstream_backlog': 14.715, 'generation_events': 4, 'episode_http': 9, 'notification_period': 86}
+EPISODE {'group': 'online_feedback', 'scenario': 'shock', 'trace': 3, 'cost': 26.835, 'downstream_backlog': 15.885, 'generation_events': 4, 'episode_http': 8, 'notification_period': 91}
+ONLINE_DRAFT_COMPLETED
