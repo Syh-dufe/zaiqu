@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "episodes": 48,
+  "unique_node_periods": 28800,
+  "raw_cost_recomputed": true,
+  "models_frozen": true,
+  "causal_reports": true,
+  "method_budget_checked": true,
+  "offline_fixture": true,
+  "actual_changed_decisions": {
+    "happo": 0,
+    "online_feedback": 0,
+    "no_feedback": 0,
+    "no_review": 0,
+    "first_only": 0,
+    "deterministic_search": 137
+  },
+  "shock_decisions": {
+    "happo": 800,
+    "online_feedback": 800,
+    "no_feedback": 800,
+    "no_review": 800,
+    "first_only": 800,
+    "deterministic_search": 800
+  },
+  "raw_sha256": {
+    "calls.json": "4b004e5a6c32bdaed12620039439dd01d1e60ee56e95afe8c654759dee610c82",
+    "completed.json": "a3c86a1c7b2c41cab1b30ce821329a73604be2fdb0c3cc0c245d585badaf1aad",
+    "delivered_reports.json": "b8a28bf49c31b5ba526c6cc3b319cf8552e35c4ca1045de3f7364f0db7d7b950",
+    "demands.json": "72ce98ab397556f47b0c69498dc40c18d0cab9d7573bf50bf90a866079db26ba",
+    "episodes.json": "ef2b77460f9c9a71761987aaff71124dddaeab84525cd93e56a4650da7409e23",
+    "information_audits.json": "0b9e3b0a7747e572d420d10f9edf7eda980f2aa97f42e0ce38c81f32cc7fd78c",
+    "periods.csv": "fb0c030ca926c51ed609ef32297e2c8de19b3c26b1103d99dc85723e47a0435c",
+    "protocol.json": "a783a620c4979b0e9d4762e15c5a1a3d36cb1a0f4961ba2f4bf8272d265e0f19",
+    "runtime_failures.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "scores.json": "59e392de1005995e54af59dbb5f6b47389f7e7f3715c87060ec24b3af7cf9d48"
+  }
+}

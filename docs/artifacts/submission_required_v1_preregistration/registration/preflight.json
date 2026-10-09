@@ -1,0 +1,141 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "seed": 11,
+      "phase": "development",
+      "methods": [
+        "happo",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "input_sha256": "72ce98ab397556f47b0c69498dc40c18d0cab9d7573bf50bf90a866079db26ba"
+    },
+    {
+      "seed": 11,
+      "phase": "confirmation",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "input_sha256": "99e4995eccfbe6c50f2d46b41e167769f69d6cdb61c9a75d84b264c7860a3bb8"
+    },
+    {
+      "seed": 11,
+      "phase": "sensitivity",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "input_sha256": "8450259e07464e154ec476a0b83e17d098f74251bfe32879c6e9e90a96521f3e"
+    },
+    {
+      "seed": 12,
+      "phase": "development",
+      "methods": [
+        "happo",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "input_sha256": "72ce98ab397556f47b0c69498dc40c18d0cab9d7573bf50bf90a866079db26ba"
+    },
+    {
+      "seed": 12,
+      "phase": "confirmation",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "input_sha256": "99e4995eccfbe6c50f2d46b41e167769f69d6cdb61c9a75d84b264c7860a3bb8"
+    },
+    {
+      "seed": 12,
+      "phase": "sensitivity",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "input_sha256": "8450259e07464e154ec476a0b83e17d098f74251bfe32879c6e9e90a96521f3e"
+    },
+    {
+      "seed": 13,
+      "phase": "confirmation",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "input_sha256": "99e4995eccfbe6c50f2d46b41e167769f69d6cdb61c9a75d84b264c7860a3bb8"
+    },
+    {
+      "seed": 13,
+      "phase": "sensitivity",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "input_sha256": "8450259e07464e154ec476a0b83e17d098f74251bfe32879c6e9e90a96521f3e"
+    },
+    {
+      "seed": 14,
+      "phase": "confirmation",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "input_sha256": "99e4995eccfbe6c50f2d46b41e167769f69d6cdb61c9a75d84b264c7860a3bb8"
+    },
+    {
+      "seed": 14,
+      "phase": "sensitivity",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "input_sha256": "8450259e07464e154ec476a0b83e17d098f74251bfe32879c6e9e90a96521f3e"
+    },
+    {
+      "seed": 15,
+      "phase": "confirmation",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "input_sha256": "99e4995eccfbe6c50f2d46b41e167769f69d6cdb61c9a75d84b264c7860a3bb8"
+    },
+    {
+      "seed": 15,
+      "phase": "sensitivity",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "input_sha256": "8450259e07464e154ec476a0b83e17d098f74251bfe32879c6e9e90a96521f3e"
+    }
+  ],
+  "manifest_sha256": "f262ae292961073995a38e594210074891bd8cbb6924abdae71cd4ff4aa16aec",
+  "paid_calls": 0
+}

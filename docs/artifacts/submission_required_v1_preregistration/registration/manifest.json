@@ -1,0 +1,2910 @@
+{
+  "inputs": {
+    "development01": {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\submission_required\\v1\\inputs\\development01.json",
+      "sha256": "72ce98ab397556f47b0c69498dc40c18d0cab9d7573bf50bf90a866079db26ba",
+      "phase": "development"
+    },
+    "confirmation01_main": {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\submission_required\\v1\\inputs\\confirmation01_main.json",
+      "sha256": "99e4995eccfbe6c50f2d46b41e167769f69d6cdb61c9a75d84b264c7860a3bb8",
+      "phase": "confirmation"
+    },
+    "confirmation02_main": {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\submission_required\\v1\\inputs\\confirmation02_main.json",
+      "sha256": "36879c7d554f1651218ba3597053687587490b8715853ee0fb157d38dd375880",
+      "phase": "confirmation"
+    },
+    "confirmation03_main": {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\submission_required\\v1\\inputs\\confirmation03_main.json",
+      "sha256": "91f7d728372eef6f8e4b9456e6e0ae4dc028354994b7d811828404af63991d87",
+      "phase": "confirmation"
+    },
+    "confirmation04_main": {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\submission_required\\v1\\inputs\\confirmation04_main.json",
+      "sha256": "a748b56107f2aaadb29ae4a536d3fd1c5a8def804356379c18869b676129e879",
+      "phase": "confirmation"
+    },
+    "confirmation05_main": {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\submission_required\\v1\\inputs\\confirmation05_main.json",
+      "sha256": "7c3e947fd49a012f8e6c50cd3ecf1223b0c499a41572751d75bd0c253cbeb306",
+      "phase": "confirmation"
+    },
+    "confirmation06_main": {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\submission_required\\v1\\inputs\\confirmation06_main.json",
+      "sha256": "e844235048990abec32c495bd7b46ef3bcfac6036e2760076a7118de61b3200d",
+      "phase": "confirmation"
+    },
+    "confirmation07_main": {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\submission_required\\v1\\inputs\\confirmation07_main.json",
+      "sha256": "dfb7099dc406da35ea5fccea9f9435cd320271033202fcc0b56bfe57c7757c3a",
+      "phase": "confirmation"
+    },
+    "confirmation08_main": {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\submission_required\\v1\\inputs\\confirmation08_main.json",
+      "sha256": "082218a33759d552c2ca72c850f68cdb7ebf58057ff08075c9e6b3257ba088af",
+      "phase": "confirmation"
+    },
+    "confirmation09_main": {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\submission_required\\v1\\inputs\\confirmation09_main.json",
+      "sha256": "bb527f317bd02ff8cd987696366b115274cec6212aaf5b877a8470f125f47fc0",
+      "phase": "confirmation"
+    },
+    "confirmation10_main": {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\submission_required\\v1\\inputs\\confirmation10_main.json",
+      "sha256": "9da6f1c92baf52fbcd85d31d90cc162a2bbccf002ac7c4ce54a6351c26ba28b8",
+      "phase": "confirmation"
+    },
+    "sensitivity01_strength110": {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\submission_required\\v1\\inputs\\sensitivity01_strength110.json",
+      "sha256": "8450259e07464e154ec476a0b83e17d098f74251bfe32879c6e9e90a96521f3e",
+      "phase": "sensitivity"
+    },
+    "sensitivity01_strength125_timing0": {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\submission_required\\v1\\inputs\\sensitivity01_strength125_timing0.json",
+      "sha256": "8bfb3a24b3375a9a34f4cfbbafd8f04708a733194d5e0296ec213ed4aba89c05",
+      "phase": "sensitivity"
+    },
+    "sensitivity01_strength150": {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\submission_required\\v1\\inputs\\sensitivity01_strength150.json",
+      "sha256": "f2b392ebc45cdd27f16e288fb673bbd5b824ba50009d4aa0f2a27aaacfa7d437",
+      "phase": "sensitivity"
+    },
+    "sensitivity01_timing_early": {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\submission_required\\v1\\inputs\\sensitivity01_timing_early.json",
+      "sha256": "5e31db74e58884708aa0a3a51b555bcdba9c4b120da5f8d80bb4174eae86a3d1",
+      "phase": "sensitivity"
+    },
+    "sensitivity01_timing_late": {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\submission_required\\v1\\inputs\\sensitivity01_timing_late.json",
+      "sha256": "ddff101f05fb91dc08d975c2be50c16f888af792879cde2a8b661380afa80aee",
+      "phase": "sensitivity"
+    },
+    "sensitivity02_strength110": {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\submission_required\\v1\\inputs\\sensitivity02_strength110.json",
+      "sha256": "b994ccebcfcae3db0a0421e0ae76cd223b5e3e88fb8257a17ee8f6037e0d2b77",
+      "phase": "sensitivity"
+    },
+    "sensitivity02_strength125_timing0": {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\submission_required\\v1\\inputs\\sensitivity02_strength125_timing0.json",
+      "sha256": "dd51ca3f821f230fa3f228be3933133fdf66486609f196d989ed73aa7691cb78",
+      "phase": "sensitivity"
+    },
+    "sensitivity02_strength150": {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\submission_required\\v1\\inputs\\sensitivity02_strength150.json",
+      "sha256": "6bdc3c3579dd28d94a6d260878334e3106a88b1d7d17d3a048af273ad3e9b5b0",
+      "phase": "sensitivity"
+    },
+    "sensitivity02_timing_early": {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\submission_required\\v1\\inputs\\sensitivity02_timing_early.json",
+      "sha256": "ea6a906a15e16480e25967c9f2090d823b942745141d4f1e9b37d535c76ac6dc",
+      "phase": "sensitivity"
+    },
+    "sensitivity02_timing_late": {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\submission_required\\v1\\inputs\\sensitivity02_timing_late.json",
+      "sha256": "1989cf868e9ef0b94f213b4b03bafeabacb54e5ad473c7f2791b37214fc202fd",
+      "phase": "sensitivity"
+    },
+    "sensitivity03_strength110": {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\submission_required\\v1\\inputs\\sensitivity03_strength110.json",
+      "sha256": "e596f6f0430fe8d6e5f394e600b29a2be83c1ec8e6ec1518448c60b141b46eaf",
+      "phase": "sensitivity"
+    },
+    "sensitivity03_strength125_timing0": {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\submission_required\\v1\\inputs\\sensitivity03_strength125_timing0.json",
+      "sha256": "860f402d6c66ca2e59b51d2438b6309c2831f95bf52e4610c4a2aca2100f488f",
+      "phase": "sensitivity"
+    },
+    "sensitivity03_strength150": {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\submission_required\\v1\\inputs\\sensitivity03_strength150.json",
+      "sha256": "ceedd2bc01ad94c6dc33bd929a747f86be73fe4444aeb5d3395a01a32e3731c6",
+      "phase": "sensitivity"
+    },
+    "sensitivity03_timing_early": {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\submission_required\\v1\\inputs\\sensitivity03_timing_early.json",
+      "sha256": "de0d1020130c2fba1a86857689f29ad004a2969888ca8609e98117009bd2df69",
+      "phase": "sensitivity"
+    },
+    "sensitivity03_timing_late": {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\submission_required\\v1\\inputs\\sensitivity03_timing_late.json",
+      "sha256": "8feb5c9c498ba0890863fb2b2e25d49ac35b0ca8a9154e978e66fae7e0b569d6",
+      "phase": "sensitivity"
+    },
+    "sensitivity04_strength110": {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\submission_required\\v1\\inputs\\sensitivity04_strength110.json",
+      "sha256": "17aaff5409d6d5462fcc9a5d6176dedf70416c22cc855fe1fbff92ccea14ccd0",
+      "phase": "sensitivity"
+    },
+    "sensitivity04_strength125_timing0": {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\submission_required\\v1\\inputs\\sensitivity04_strength125_timing0.json",
+      "sha256": "b3859c5272941613bfb380f4e2ea2eb609d281afa1268a9389968bc78785619f",
+      "phase": "sensitivity"
+    },
+    "sensitivity04_strength150": {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\submission_required\\v1\\inputs\\sensitivity04_strength150.json",
+      "sha256": "d59e659cde5c3853765493e3aea0f5ce2c26f40f7290af96815ac069ebcf83d0",
+      "phase": "sensitivity"
+    },
+    "sensitivity04_timing_early": {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\submission_required\\v1\\inputs\\sensitivity04_timing_early.json",
+      "sha256": "fe49b34f6316bcb8217d30479966df56dc35d4e5466999e169637ef98dd8ce9b",
+      "phase": "sensitivity"
+    },
+    "sensitivity04_timing_late": {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\submission_required\\v1\\inputs\\sensitivity04_timing_late.json",
+      "sha256": "a402d3173656b27666aab5f969ea0e384dfa60758cd65c1b61fd86bee93ac8e8",
+      "phase": "sensitivity"
+    },
+    "sensitivity05_strength110": {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\submission_required\\v1\\inputs\\sensitivity05_strength110.json",
+      "sha256": "952d12464f5ba6d355d2aa1bb803f8dbb0c77e3de2b90a83474235e862a3efc0",
+      "phase": "sensitivity"
+    },
+    "sensitivity05_strength125_timing0": {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\submission_required\\v1\\inputs\\sensitivity05_strength125_timing0.json",
+      "sha256": "3d1842d68f433f0a138d704760411ddd9a28d82bac360eef2191aa3f0ab05736",
+      "phase": "sensitivity"
+    },
+    "sensitivity05_strength150": {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\submission_required\\v1\\inputs\\sensitivity05_strength150.json",
+      "sha256": "e912c7f9d83cc018f95f453bbdbe7a77eff88682814e1be96464461accf2a34a",
+      "phase": "sensitivity"
+    },
+    "sensitivity05_timing_early": {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\submission_required\\v1\\inputs\\sensitivity05_timing_early.json",
+      "sha256": "68cb1f2db6acb9b23637f044dfb15123e2c39ffedbd0a89eacde4de0b1926471",
+      "phase": "sensitivity"
+    },
+    "sensitivity05_timing_late": {
+      "path": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\submission_required\\v1\\inputs\\sensitivity05_timing_late.json",
+      "sha256": "f21dd3f9d94cf049f75b67063bb144d7e64a5966fffec9210f27016c13332029",
+      "phase": "sensitivity"
+    }
+  },
+  "tasks": [
+    {
+      "phase": "development",
+      "seed": 11,
+      "path_batch": 1,
+      "input_id": "development01",
+      "methods": [
+        "happo",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "task": "development_seed11",
+      "max_http": 112,
+      "max_semantic": 56
+    },
+    {
+      "phase": "development",
+      "seed": 12,
+      "path_batch": 1,
+      "input_id": "development01",
+      "methods": [
+        "happo",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "task": "development_seed12",
+      "max_http": 112,
+      "max_semantic": 56
+    },
+    {
+      "phase": "confirmation",
+      "seed": 11,
+      "path_batch": 1,
+      "input_id": "confirmation01_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation01_main_seed11",
+      "max_http": 176,
+      "max_semantic": 88
+    },
+    {
+      "phase": "confirmation",
+      "seed": 12,
+      "path_batch": 1,
+      "input_id": "confirmation01_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation01_main_seed12",
+      "max_http": 176,
+      "max_semantic": 88
+    },
+    {
+      "phase": "confirmation",
+      "seed": 13,
+      "path_batch": 1,
+      "input_id": "confirmation01_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation01_main_seed13",
+      "max_http": 176,
+      "max_semantic": 88
+    },
+    {
+      "phase": "confirmation",
+      "seed": 14,
+      "path_batch": 1,
+      "input_id": "confirmation01_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation01_main_seed14",
+      "max_http": 176,
+      "max_semantic": 88
+    },
+    {
+      "phase": "confirmation",
+      "seed": 15,
+      "path_batch": 1,
+      "input_id": "confirmation01_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation01_main_seed15",
+      "max_http": 176,
+      "max_semantic": 88
+    },
+    {
+      "phase": "confirmation",
+      "seed": 11,
+      "path_batch": 2,
+      "input_id": "confirmation02_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation02_main_seed11",
+      "max_http": 176,
+      "max_semantic": 88
+    },
+    {
+      "phase": "confirmation",
+      "seed": 12,
+      "path_batch": 2,
+      "input_id": "confirmation02_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation02_main_seed12",
+      "max_http": 176,
+      "max_semantic": 88
+    },
+    {
+      "phase": "confirmation",
+      "seed": 13,
+      "path_batch": 2,
+      "input_id": "confirmation02_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation02_main_seed13",
+      "max_http": 176,
+      "max_semantic": 88
+    },
+    {
+      "phase": "confirmation",
+      "seed": 14,
+      "path_batch": 2,
+      "input_id": "confirmation02_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation02_main_seed14",
+      "max_http": 176,
+      "max_semantic": 88
+    },
+    {
+      "phase": "confirmation",
+      "seed": 15,
+      "path_batch": 2,
+      "input_id": "confirmation02_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation02_main_seed15",
+      "max_http": 176,
+      "max_semantic": 88
+    },
+    {
+      "phase": "confirmation",
+      "seed": 11,
+      "path_batch": 3,
+      "input_id": "confirmation03_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation03_main_seed11",
+      "max_http": 176,
+      "max_semantic": 88
+    },
+    {
+      "phase": "confirmation",
+      "seed": 12,
+      "path_batch": 3,
+      "input_id": "confirmation03_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation03_main_seed12",
+      "max_http": 176,
+      "max_semantic": 88
+    },
+    {
+      "phase": "confirmation",
+      "seed": 13,
+      "path_batch": 3,
+      "input_id": "confirmation03_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation03_main_seed13",
+      "max_http": 176,
+      "max_semantic": 88
+    },
+    {
+      "phase": "confirmation",
+      "seed": 14,
+      "path_batch": 3,
+      "input_id": "confirmation03_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation03_main_seed14",
+      "max_http": 176,
+      "max_semantic": 88
+    },
+    {
+      "phase": "confirmation",
+      "seed": 15,
+      "path_batch": 3,
+      "input_id": "confirmation03_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation03_main_seed15",
+      "max_http": 176,
+      "max_semantic": 88
+    },
+    {
+      "phase": "confirmation",
+      "seed": 11,
+      "path_batch": 4,
+      "input_id": "confirmation04_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation04_main_seed11",
+      "max_http": 176,
+      "max_semantic": 88
+    },
+    {
+      "phase": "confirmation",
+      "seed": 12,
+      "path_batch": 4,
+      "input_id": "confirmation04_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation04_main_seed12",
+      "max_http": 176,
+      "max_semantic": 88
+    },
+    {
+      "phase": "confirmation",
+      "seed": 13,
+      "path_batch": 4,
+      "input_id": "confirmation04_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation04_main_seed13",
+      "max_http": 176,
+      "max_semantic": 88
+    },
+    {
+      "phase": "confirmation",
+      "seed": 14,
+      "path_batch": 4,
+      "input_id": "confirmation04_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation04_main_seed14",
+      "max_http": 176,
+      "max_semantic": 88
+    },
+    {
+      "phase": "confirmation",
+      "seed": 15,
+      "path_batch": 4,
+      "input_id": "confirmation04_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation04_main_seed15",
+      "max_http": 176,
+      "max_semantic": 88
+    },
+    {
+      "phase": "confirmation",
+      "seed": 11,
+      "path_batch": 5,
+      "input_id": "confirmation05_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation05_main_seed11",
+      "max_http": 176,
+      "max_semantic": 88
+    },
+    {
+      "phase": "confirmation",
+      "seed": 12,
+      "path_batch": 5,
+      "input_id": "confirmation05_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation05_main_seed12",
+      "max_http": 176,
+      "max_semantic": 88
+    },
+    {
+      "phase": "confirmation",
+      "seed": 13,
+      "path_batch": 5,
+      "input_id": "confirmation05_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation05_main_seed13",
+      "max_http": 176,
+      "max_semantic": 88
+    },
+    {
+      "phase": "confirmation",
+      "seed": 14,
+      "path_batch": 5,
+      "input_id": "confirmation05_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation05_main_seed14",
+      "max_http": 176,
+      "max_semantic": 88
+    },
+    {
+      "phase": "confirmation",
+      "seed": 15,
+      "path_batch": 5,
+      "input_id": "confirmation05_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation05_main_seed15",
+      "max_http": 176,
+      "max_semantic": 88
+    },
+    {
+      "phase": "confirmation",
+      "seed": 11,
+      "path_batch": 6,
+      "input_id": "confirmation06_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation06_main_seed11",
+      "max_http": 176,
+      "max_semantic": 88
+    },
+    {
+      "phase": "confirmation",
+      "seed": 12,
+      "path_batch": 6,
+      "input_id": "confirmation06_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation06_main_seed12",
+      "max_http": 176,
+      "max_semantic": 88
+    },
+    {
+      "phase": "confirmation",
+      "seed": 13,
+      "path_batch": 6,
+      "input_id": "confirmation06_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation06_main_seed13",
+      "max_http": 176,
+      "max_semantic": 88
+    },
+    {
+      "phase": "confirmation",
+      "seed": 14,
+      "path_batch": 6,
+      "input_id": "confirmation06_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation06_main_seed14",
+      "max_http": 176,
+      "max_semantic": 88
+    },
+    {
+      "phase": "confirmation",
+      "seed": 15,
+      "path_batch": 6,
+      "input_id": "confirmation06_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation06_main_seed15",
+      "max_http": 176,
+      "max_semantic": 88
+    },
+    {
+      "phase": "confirmation",
+      "seed": 11,
+      "path_batch": 7,
+      "input_id": "confirmation07_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation07_main_seed11",
+      "max_http": 176,
+      "max_semantic": 88
+    },
+    {
+      "phase": "confirmation",
+      "seed": 12,
+      "path_batch": 7,
+      "input_id": "confirmation07_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation07_main_seed12",
+      "max_http": 176,
+      "max_semantic": 88
+    },
+    {
+      "phase": "confirmation",
+      "seed": 13,
+      "path_batch": 7,
+      "input_id": "confirmation07_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation07_main_seed13",
+      "max_http": 176,
+      "max_semantic": 88
+    },
+    {
+      "phase": "confirmation",
+      "seed": 14,
+      "path_batch": 7,
+      "input_id": "confirmation07_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation07_main_seed14",
+      "max_http": 176,
+      "max_semantic": 88
+    },
+    {
+      "phase": "confirmation",
+      "seed": 15,
+      "path_batch": 7,
+      "input_id": "confirmation07_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation07_main_seed15",
+      "max_http": 176,
+      "max_semantic": 88
+    },
+    {
+      "phase": "confirmation",
+      "seed": 11,
+      "path_batch": 8,
+      "input_id": "confirmation08_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation08_main_seed11",
+      "max_http": 176,
+      "max_semantic": 88
+    },
+    {
+      "phase": "confirmation",
+      "seed": 12,
+      "path_batch": 8,
+      "input_id": "confirmation08_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation08_main_seed12",
+      "max_http": 176,
+      "max_semantic": 88
+    },
+    {
+      "phase": "confirmation",
+      "seed": 13,
+      "path_batch": 8,
+      "input_id": "confirmation08_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation08_main_seed13",
+      "max_http": 176,
+      "max_semantic": 88
+    },
+    {
+      "phase": "confirmation",
+      "seed": 14,
+      "path_batch": 8,
+      "input_id": "confirmation08_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation08_main_seed14",
+      "max_http": 176,
+      "max_semantic": 88
+    },
+    {
+      "phase": "confirmation",
+      "seed": 15,
+      "path_batch": 8,
+      "input_id": "confirmation08_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation08_main_seed15",
+      "max_http": 176,
+      "max_semantic": 88
+    },
+    {
+      "phase": "confirmation",
+      "seed": 11,
+      "path_batch": 9,
+      "input_id": "confirmation09_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation09_main_seed11",
+      "max_http": 176,
+      "max_semantic": 88
+    },
+    {
+      "phase": "confirmation",
+      "seed": 12,
+      "path_batch": 9,
+      "input_id": "confirmation09_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation09_main_seed12",
+      "max_http": 176,
+      "max_semantic": 88
+    },
+    {
+      "phase": "confirmation",
+      "seed": 13,
+      "path_batch": 9,
+      "input_id": "confirmation09_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation09_main_seed13",
+      "max_http": 176,
+      "max_semantic": 88
+    },
+    {
+      "phase": "confirmation",
+      "seed": 14,
+      "path_batch": 9,
+      "input_id": "confirmation09_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation09_main_seed14",
+      "max_http": 176,
+      "max_semantic": 88
+    },
+    {
+      "phase": "confirmation",
+      "seed": 15,
+      "path_batch": 9,
+      "input_id": "confirmation09_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation09_main_seed15",
+      "max_http": 176,
+      "max_semantic": 88
+    },
+    {
+      "phase": "confirmation",
+      "seed": 11,
+      "path_batch": 10,
+      "input_id": "confirmation10_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation10_main_seed11",
+      "max_http": 176,
+      "max_semantic": 88
+    },
+    {
+      "phase": "confirmation",
+      "seed": 12,
+      "path_batch": 10,
+      "input_id": "confirmation10_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation10_main_seed12",
+      "max_http": 176,
+      "max_semantic": 88
+    },
+    {
+      "phase": "confirmation",
+      "seed": 13,
+      "path_batch": 10,
+      "input_id": "confirmation10_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation10_main_seed13",
+      "max_http": 176,
+      "max_semantic": 88
+    },
+    {
+      "phase": "confirmation",
+      "seed": 14,
+      "path_batch": 10,
+      "input_id": "confirmation10_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation10_main_seed14",
+      "max_http": 176,
+      "max_semantic": 88
+    },
+    {
+      "phase": "confirmation",
+      "seed": 15,
+      "path_batch": 10,
+      "input_id": "confirmation10_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation10_main_seed15",
+      "max_http": 176,
+      "max_semantic": 88
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 11,
+      "path_batch": 1,
+      "input_id": "sensitivity01_strength110",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength110",
+      "task": "sensitivity01_strength110_seed11",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 12,
+      "path_batch": 1,
+      "input_id": "sensitivity01_strength110",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength110",
+      "task": "sensitivity01_strength110_seed12",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 13,
+      "path_batch": 1,
+      "input_id": "sensitivity01_strength110",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength110",
+      "task": "sensitivity01_strength110_seed13",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 14,
+      "path_batch": 1,
+      "input_id": "sensitivity01_strength110",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength110",
+      "task": "sensitivity01_strength110_seed14",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 15,
+      "path_batch": 1,
+      "input_id": "sensitivity01_strength110",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength110",
+      "task": "sensitivity01_strength110_seed15",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 11,
+      "path_batch": 1,
+      "input_id": "sensitivity01_strength125_timing0",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength125_timing0",
+      "task": "sensitivity01_strength125_timing0_seed11",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 12,
+      "path_batch": 1,
+      "input_id": "sensitivity01_strength125_timing0",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength125_timing0",
+      "task": "sensitivity01_strength125_timing0_seed12",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 13,
+      "path_batch": 1,
+      "input_id": "sensitivity01_strength125_timing0",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength125_timing0",
+      "task": "sensitivity01_strength125_timing0_seed13",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 14,
+      "path_batch": 1,
+      "input_id": "sensitivity01_strength125_timing0",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength125_timing0",
+      "task": "sensitivity01_strength125_timing0_seed14",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 15,
+      "path_batch": 1,
+      "input_id": "sensitivity01_strength125_timing0",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength125_timing0",
+      "task": "sensitivity01_strength125_timing0_seed15",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 11,
+      "path_batch": 1,
+      "input_id": "sensitivity01_strength150",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength150",
+      "task": "sensitivity01_strength150_seed11",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 12,
+      "path_batch": 1,
+      "input_id": "sensitivity01_strength150",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength150",
+      "task": "sensitivity01_strength150_seed12",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 13,
+      "path_batch": 1,
+      "input_id": "sensitivity01_strength150",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength150",
+      "task": "sensitivity01_strength150_seed13",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 14,
+      "path_batch": 1,
+      "input_id": "sensitivity01_strength150",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength150",
+      "task": "sensitivity01_strength150_seed14",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 15,
+      "path_batch": 1,
+      "input_id": "sensitivity01_strength150",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength150",
+      "task": "sensitivity01_strength150_seed15",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 11,
+      "path_batch": 1,
+      "input_id": "sensitivity01_timing_early",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "timing_early",
+      "task": "sensitivity01_timing_early_seed11",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 12,
+      "path_batch": 1,
+      "input_id": "sensitivity01_timing_early",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "timing_early",
+      "task": "sensitivity01_timing_early_seed12",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 13,
+      "path_batch": 1,
+      "input_id": "sensitivity01_timing_early",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "timing_early",
+      "task": "sensitivity01_timing_early_seed13",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 14,
+      "path_batch": 1,
+      "input_id": "sensitivity01_timing_early",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "timing_early",
+      "task": "sensitivity01_timing_early_seed14",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 15,
+      "path_batch": 1,
+      "input_id": "sensitivity01_timing_early",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "timing_early",
+      "task": "sensitivity01_timing_early_seed15",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 11,
+      "path_batch": 1,
+      "input_id": "sensitivity01_timing_late",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "timing_late",
+      "task": "sensitivity01_timing_late_seed11",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 12,
+      "path_batch": 1,
+      "input_id": "sensitivity01_timing_late",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "timing_late",
+      "task": "sensitivity01_timing_late_seed12",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 13,
+      "path_batch": 1,
+      "input_id": "sensitivity01_timing_late",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "timing_late",
+      "task": "sensitivity01_timing_late_seed13",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 14,
+      "path_batch": 1,
+      "input_id": "sensitivity01_timing_late",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "timing_late",
+      "task": "sensitivity01_timing_late_seed14",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 15,
+      "path_batch": 1,
+      "input_id": "sensitivity01_timing_late",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "timing_late",
+      "task": "sensitivity01_timing_late_seed15",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 11,
+      "path_batch": 2,
+      "input_id": "sensitivity02_strength110",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength110",
+      "task": "sensitivity02_strength110_seed11",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 12,
+      "path_batch": 2,
+      "input_id": "sensitivity02_strength110",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength110",
+      "task": "sensitivity02_strength110_seed12",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 13,
+      "path_batch": 2,
+      "input_id": "sensitivity02_strength110",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength110",
+      "task": "sensitivity02_strength110_seed13",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 14,
+      "path_batch": 2,
+      "input_id": "sensitivity02_strength110",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength110",
+      "task": "sensitivity02_strength110_seed14",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 15,
+      "path_batch": 2,
+      "input_id": "sensitivity02_strength110",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength110",
+      "task": "sensitivity02_strength110_seed15",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 11,
+      "path_batch": 2,
+      "input_id": "sensitivity02_strength125_timing0",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength125_timing0",
+      "task": "sensitivity02_strength125_timing0_seed11",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 12,
+      "path_batch": 2,
+      "input_id": "sensitivity02_strength125_timing0",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength125_timing0",
+      "task": "sensitivity02_strength125_timing0_seed12",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 13,
+      "path_batch": 2,
+      "input_id": "sensitivity02_strength125_timing0",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength125_timing0",
+      "task": "sensitivity02_strength125_timing0_seed13",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 14,
+      "path_batch": 2,
+      "input_id": "sensitivity02_strength125_timing0",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength125_timing0",
+      "task": "sensitivity02_strength125_timing0_seed14",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 15,
+      "path_batch": 2,
+      "input_id": "sensitivity02_strength125_timing0",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength125_timing0",
+      "task": "sensitivity02_strength125_timing0_seed15",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 11,
+      "path_batch": 2,
+      "input_id": "sensitivity02_strength150",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength150",
+      "task": "sensitivity02_strength150_seed11",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 12,
+      "path_batch": 2,
+      "input_id": "sensitivity02_strength150",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength150",
+      "task": "sensitivity02_strength150_seed12",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 13,
+      "path_batch": 2,
+      "input_id": "sensitivity02_strength150",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength150",
+      "task": "sensitivity02_strength150_seed13",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 14,
+      "path_batch": 2,
+      "input_id": "sensitivity02_strength150",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength150",
+      "task": "sensitivity02_strength150_seed14",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 15,
+      "path_batch": 2,
+      "input_id": "sensitivity02_strength150",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength150",
+      "task": "sensitivity02_strength150_seed15",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 11,
+      "path_batch": 2,
+      "input_id": "sensitivity02_timing_early",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "timing_early",
+      "task": "sensitivity02_timing_early_seed11",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 12,
+      "path_batch": 2,
+      "input_id": "sensitivity02_timing_early",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "timing_early",
+      "task": "sensitivity02_timing_early_seed12",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 13,
+      "path_batch": 2,
+      "input_id": "sensitivity02_timing_early",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "timing_early",
+      "task": "sensitivity02_timing_early_seed13",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 14,
+      "path_batch": 2,
+      "input_id": "sensitivity02_timing_early",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "timing_early",
+      "task": "sensitivity02_timing_early_seed14",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 15,
+      "path_batch": 2,
+      "input_id": "sensitivity02_timing_early",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "timing_early",
+      "task": "sensitivity02_timing_early_seed15",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 11,
+      "path_batch": 2,
+      "input_id": "sensitivity02_timing_late",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "timing_late",
+      "task": "sensitivity02_timing_late_seed11",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 12,
+      "path_batch": 2,
+      "input_id": "sensitivity02_timing_late",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "timing_late",
+      "task": "sensitivity02_timing_late_seed12",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 13,
+      "path_batch": 2,
+      "input_id": "sensitivity02_timing_late",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "timing_late",
+      "task": "sensitivity02_timing_late_seed13",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 14,
+      "path_batch": 2,
+      "input_id": "sensitivity02_timing_late",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "timing_late",
+      "task": "sensitivity02_timing_late_seed14",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 15,
+      "path_batch": 2,
+      "input_id": "sensitivity02_timing_late",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "timing_late",
+      "task": "sensitivity02_timing_late_seed15",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 11,
+      "path_batch": 3,
+      "input_id": "sensitivity03_strength110",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength110",
+      "task": "sensitivity03_strength110_seed11",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 12,
+      "path_batch": 3,
+      "input_id": "sensitivity03_strength110",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength110",
+      "task": "sensitivity03_strength110_seed12",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 13,
+      "path_batch": 3,
+      "input_id": "sensitivity03_strength110",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength110",
+      "task": "sensitivity03_strength110_seed13",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 14,
+      "path_batch": 3,
+      "input_id": "sensitivity03_strength110",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength110",
+      "task": "sensitivity03_strength110_seed14",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 15,
+      "path_batch": 3,
+      "input_id": "sensitivity03_strength110",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength110",
+      "task": "sensitivity03_strength110_seed15",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 11,
+      "path_batch": 3,
+      "input_id": "sensitivity03_strength125_timing0",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength125_timing0",
+      "task": "sensitivity03_strength125_timing0_seed11",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 12,
+      "path_batch": 3,
+      "input_id": "sensitivity03_strength125_timing0",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength125_timing0",
+      "task": "sensitivity03_strength125_timing0_seed12",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 13,
+      "path_batch": 3,
+      "input_id": "sensitivity03_strength125_timing0",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength125_timing0",
+      "task": "sensitivity03_strength125_timing0_seed13",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 14,
+      "path_batch": 3,
+      "input_id": "sensitivity03_strength125_timing0",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength125_timing0",
+      "task": "sensitivity03_strength125_timing0_seed14",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 15,
+      "path_batch": 3,
+      "input_id": "sensitivity03_strength125_timing0",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength125_timing0",
+      "task": "sensitivity03_strength125_timing0_seed15",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 11,
+      "path_batch": 3,
+      "input_id": "sensitivity03_strength150",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength150",
+      "task": "sensitivity03_strength150_seed11",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 12,
+      "path_batch": 3,
+      "input_id": "sensitivity03_strength150",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength150",
+      "task": "sensitivity03_strength150_seed12",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 13,
+      "path_batch": 3,
+      "input_id": "sensitivity03_strength150",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength150",
+      "task": "sensitivity03_strength150_seed13",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 14,
+      "path_batch": 3,
+      "input_id": "sensitivity03_strength150",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength150",
+      "task": "sensitivity03_strength150_seed14",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 15,
+      "path_batch": 3,
+      "input_id": "sensitivity03_strength150",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength150",
+      "task": "sensitivity03_strength150_seed15",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 11,
+      "path_batch": 3,
+      "input_id": "sensitivity03_timing_early",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "timing_early",
+      "task": "sensitivity03_timing_early_seed11",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 12,
+      "path_batch": 3,
+      "input_id": "sensitivity03_timing_early",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "timing_early",
+      "task": "sensitivity03_timing_early_seed12",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 13,
+      "path_batch": 3,
+      "input_id": "sensitivity03_timing_early",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "timing_early",
+      "task": "sensitivity03_timing_early_seed13",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 14,
+      "path_batch": 3,
+      "input_id": "sensitivity03_timing_early",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "timing_early",
+      "task": "sensitivity03_timing_early_seed14",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 15,
+      "path_batch": 3,
+      "input_id": "sensitivity03_timing_early",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "timing_early",
+      "task": "sensitivity03_timing_early_seed15",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 11,
+      "path_batch": 3,
+      "input_id": "sensitivity03_timing_late",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "timing_late",
+      "task": "sensitivity03_timing_late_seed11",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 12,
+      "path_batch": 3,
+      "input_id": "sensitivity03_timing_late",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "timing_late",
+      "task": "sensitivity03_timing_late_seed12",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 13,
+      "path_batch": 3,
+      "input_id": "sensitivity03_timing_late",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "timing_late",
+      "task": "sensitivity03_timing_late_seed13",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 14,
+      "path_batch": 3,
+      "input_id": "sensitivity03_timing_late",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "timing_late",
+      "task": "sensitivity03_timing_late_seed14",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 15,
+      "path_batch": 3,
+      "input_id": "sensitivity03_timing_late",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "timing_late",
+      "task": "sensitivity03_timing_late_seed15",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 11,
+      "path_batch": 4,
+      "input_id": "sensitivity04_strength110",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength110",
+      "task": "sensitivity04_strength110_seed11",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 12,
+      "path_batch": 4,
+      "input_id": "sensitivity04_strength110",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength110",
+      "task": "sensitivity04_strength110_seed12",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 13,
+      "path_batch": 4,
+      "input_id": "sensitivity04_strength110",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength110",
+      "task": "sensitivity04_strength110_seed13",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 14,
+      "path_batch": 4,
+      "input_id": "sensitivity04_strength110",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength110",
+      "task": "sensitivity04_strength110_seed14",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 15,
+      "path_batch": 4,
+      "input_id": "sensitivity04_strength110",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength110",
+      "task": "sensitivity04_strength110_seed15",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 11,
+      "path_batch": 4,
+      "input_id": "sensitivity04_strength125_timing0",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength125_timing0",
+      "task": "sensitivity04_strength125_timing0_seed11",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 12,
+      "path_batch": 4,
+      "input_id": "sensitivity04_strength125_timing0",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength125_timing0",
+      "task": "sensitivity04_strength125_timing0_seed12",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 13,
+      "path_batch": 4,
+      "input_id": "sensitivity04_strength125_timing0",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength125_timing0",
+      "task": "sensitivity04_strength125_timing0_seed13",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 14,
+      "path_batch": 4,
+      "input_id": "sensitivity04_strength125_timing0",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength125_timing0",
+      "task": "sensitivity04_strength125_timing0_seed14",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 15,
+      "path_batch": 4,
+      "input_id": "sensitivity04_strength125_timing0",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength125_timing0",
+      "task": "sensitivity04_strength125_timing0_seed15",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 11,
+      "path_batch": 4,
+      "input_id": "sensitivity04_strength150",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength150",
+      "task": "sensitivity04_strength150_seed11",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 12,
+      "path_batch": 4,
+      "input_id": "sensitivity04_strength150",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength150",
+      "task": "sensitivity04_strength150_seed12",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 13,
+      "path_batch": 4,
+      "input_id": "sensitivity04_strength150",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength150",
+      "task": "sensitivity04_strength150_seed13",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 14,
+      "path_batch": 4,
+      "input_id": "sensitivity04_strength150",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength150",
+      "task": "sensitivity04_strength150_seed14",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 15,
+      "path_batch": 4,
+      "input_id": "sensitivity04_strength150",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength150",
+      "task": "sensitivity04_strength150_seed15",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 11,
+      "path_batch": 4,
+      "input_id": "sensitivity04_timing_early",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "timing_early",
+      "task": "sensitivity04_timing_early_seed11",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 12,
+      "path_batch": 4,
+      "input_id": "sensitivity04_timing_early",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "timing_early",
+      "task": "sensitivity04_timing_early_seed12",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 13,
+      "path_batch": 4,
+      "input_id": "sensitivity04_timing_early",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "timing_early",
+      "task": "sensitivity04_timing_early_seed13",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 14,
+      "path_batch": 4,
+      "input_id": "sensitivity04_timing_early",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "timing_early",
+      "task": "sensitivity04_timing_early_seed14",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 15,
+      "path_batch": 4,
+      "input_id": "sensitivity04_timing_early",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "timing_early",
+      "task": "sensitivity04_timing_early_seed15",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 11,
+      "path_batch": 4,
+      "input_id": "sensitivity04_timing_late",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "timing_late",
+      "task": "sensitivity04_timing_late_seed11",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 12,
+      "path_batch": 4,
+      "input_id": "sensitivity04_timing_late",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "timing_late",
+      "task": "sensitivity04_timing_late_seed12",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 13,
+      "path_batch": 4,
+      "input_id": "sensitivity04_timing_late",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "timing_late",
+      "task": "sensitivity04_timing_late_seed13",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 14,
+      "path_batch": 4,
+      "input_id": "sensitivity04_timing_late",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "timing_late",
+      "task": "sensitivity04_timing_late_seed14",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 15,
+      "path_batch": 4,
+      "input_id": "sensitivity04_timing_late",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "timing_late",
+      "task": "sensitivity04_timing_late_seed15",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 11,
+      "path_batch": 5,
+      "input_id": "sensitivity05_strength110",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength110",
+      "task": "sensitivity05_strength110_seed11",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 12,
+      "path_batch": 5,
+      "input_id": "sensitivity05_strength110",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength110",
+      "task": "sensitivity05_strength110_seed12",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 13,
+      "path_batch": 5,
+      "input_id": "sensitivity05_strength110",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength110",
+      "task": "sensitivity05_strength110_seed13",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 14,
+      "path_batch": 5,
+      "input_id": "sensitivity05_strength110",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength110",
+      "task": "sensitivity05_strength110_seed14",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 15,
+      "path_batch": 5,
+      "input_id": "sensitivity05_strength110",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength110",
+      "task": "sensitivity05_strength110_seed15",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 11,
+      "path_batch": 5,
+      "input_id": "sensitivity05_strength125_timing0",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength125_timing0",
+      "task": "sensitivity05_strength125_timing0_seed11",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 12,
+      "path_batch": 5,
+      "input_id": "sensitivity05_strength125_timing0",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength125_timing0",
+      "task": "sensitivity05_strength125_timing0_seed12",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 13,
+      "path_batch": 5,
+      "input_id": "sensitivity05_strength125_timing0",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength125_timing0",
+      "task": "sensitivity05_strength125_timing0_seed13",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 14,
+      "path_batch": 5,
+      "input_id": "sensitivity05_strength125_timing0",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength125_timing0",
+      "task": "sensitivity05_strength125_timing0_seed14",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 15,
+      "path_batch": 5,
+      "input_id": "sensitivity05_strength125_timing0",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength125_timing0",
+      "task": "sensitivity05_strength125_timing0_seed15",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 11,
+      "path_batch": 5,
+      "input_id": "sensitivity05_strength150",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength150",
+      "task": "sensitivity05_strength150_seed11",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 12,
+      "path_batch": 5,
+      "input_id": "sensitivity05_strength150",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength150",
+      "task": "sensitivity05_strength150_seed12",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 13,
+      "path_batch": 5,
+      "input_id": "sensitivity05_strength150",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength150",
+      "task": "sensitivity05_strength150_seed13",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 14,
+      "path_batch": 5,
+      "input_id": "sensitivity05_strength150",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength150",
+      "task": "sensitivity05_strength150_seed14",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 15,
+      "path_batch": 5,
+      "input_id": "sensitivity05_strength150",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "strength150",
+      "task": "sensitivity05_strength150_seed15",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 11,
+      "path_batch": 5,
+      "input_id": "sensitivity05_timing_early",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "timing_early",
+      "task": "sensitivity05_timing_early_seed11",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 12,
+      "path_batch": 5,
+      "input_id": "sensitivity05_timing_early",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "timing_early",
+      "task": "sensitivity05_timing_early_seed12",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 13,
+      "path_batch": 5,
+      "input_id": "sensitivity05_timing_early",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "timing_early",
+      "task": "sensitivity05_timing_early_seed13",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 14,
+      "path_batch": 5,
+      "input_id": "sensitivity05_timing_early",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "timing_early",
+      "task": "sensitivity05_timing_early_seed14",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 15,
+      "path_batch": 5,
+      "input_id": "sensitivity05_timing_early",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "timing_early",
+      "task": "sensitivity05_timing_early_seed15",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 11,
+      "path_batch": 5,
+      "input_id": "sensitivity05_timing_late",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "timing_late",
+      "task": "sensitivity05_timing_late_seed11",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 12,
+      "path_batch": 5,
+      "input_id": "sensitivity05_timing_late",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "timing_late",
+      "task": "sensitivity05_timing_late_seed12",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 13,
+      "path_batch": 5,
+      "input_id": "sensitivity05_timing_late",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "timing_late",
+      "task": "sensitivity05_timing_late_seed13",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 14,
+      "path_batch": 5,
+      "input_id": "sensitivity05_timing_late",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "timing_late",
+      "task": "sensitivity05_timing_late_seed14",
+      "max_http": 64,
+      "max_semantic": 32
+    },
+    {
+      "phase": "sensitivity",
+      "seed": 15,
+      "path_batch": 5,
+      "input_id": "sensitivity05_timing_late",
+      "methods": [
+        "happo",
+        "online_feedback"
+      ],
+      "setting": "timing_late",
+      "task": "sensitivity05_timing_late_seed15",
+      "max_http": 64,
+      "max_semantic": 32
+    }
+  ],
+  "expected_episodes": 4480,
+  "expected_node_periods": 2688000,
+  "source_freeze_sha256": "ca3fb671bfebb6ce9d09d1d6e14d1126d0ad7255de16fd579ae4b583633fe6dc",
+  "collision_sha256": "c182e28ecc13d4c61f29120c27b9d7ededc884b644d4215cb75e16885fd84018",
+  "phase_counts": {
+    "development": 80,
+    "confirmation": 2400,
+    "sensitivity": 2000
+  },
+  "phase_first_pass_caps": {
+    "development": [
+      224,
+      112
+    ],
+    "confirmation": [
+      8800,
+      4400
+    ],
+    "sensitivity": [
+      8000,
+      4000
+    ]
+  },
+  "phase_cumulative_caps": {
+    "development": [
+      448,
+      224
+    ],
+    "confirmation": [
+      17600,
+      8800
+    ],
+    "sensitivity": [
+      16000,
+      8000
+    ]
+  },
+  "no_training": true,
+  "no_test_tuning": true,
+  "all_cases_retained": true,
+  "bootstrap_seed": 20271652,
+  "bootstrap_replicates": 20000
+}
