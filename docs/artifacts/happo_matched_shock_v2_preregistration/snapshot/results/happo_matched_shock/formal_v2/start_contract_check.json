@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "validation_counts": {
+    "normal": 20,
+    "single": 20,
+    "sustained": 20,
+    "double": 20,
+    "drop": 20
+  },
+  "original_test_paths_excluded": 80,
+  "old_model_files": 60,
+  "frozen_files": 92,
+  "api_calls": 0,
+  "training_steps": 0,
+  "adapter_validation_binding": true,
+  "inventory_parameters_unchanged": true
+}

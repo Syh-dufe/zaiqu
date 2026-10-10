@@ -1,0 +1,543 @@
+{
+  "files": [
+    {
+      "source": "docs/superpowers/plans/2026-10-10-matched-shock-happo.md",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/docs/superpowers/plans/2026-10-10-matched-shock-happo.md",
+      "sha256": "f96ad75385d121c3cda0df9a5c4228b098bca5194f2b2587d886dcc95d40c5ca"
+    },
+    {
+      "source": "docs/superpowers/specs/2026-10-10-matched-shock-happo-design.md",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/docs/superpowers/specs/2026-10-10-matched-shock-happo-design.md",
+      "sha256": "44fa91388d0814500dbad892cb16f22a5362244dd04601b2f659b96270758dd4"
+    },
+    {
+      "source": "experiments/emergency_compatibility/train.py",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/experiments/emergency_compatibility/train.py",
+      "sha256": "3b986e441c5e73dcb18da20c8fb96197bfa1f3731e21495a1de87a9162a7b030"
+    },
+    {
+      "source": "experiments/formal_evaluation/audit_training.py",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/experiments/formal_evaluation/audit_training.py",
+      "sha256": "0ea2a45addaca2841341eafaa10392f848f3217ca8aa59dba1aa3fb62f88490e"
+    },
+    {
+      "source": "experiments/happo_matched_shock/batch.py",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/experiments/happo_matched_shock/batch.py",
+      "sha256": "e9cd550cddb703a2297c10feab1122170cdd5a4cfa565a0cde53be3f02d62618"
+    },
+    {
+      "source": "experiments/happo_matched_shock/demand.py",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/experiments/happo_matched_shock/demand.py",
+      "sha256": "912926ec7bb45a50d865042a4e2ec662f038729c779dc3f4c7452b76bb0112cd"
+    },
+    {
+      "source": "experiments/happo_matched_shock/entry.py",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/experiments/happo_matched_shock/entry.py",
+      "sha256": "d6b517a1f34c59102e6f398376a7a76397863362d2bd4fa871ce49e6c5417d85"
+    },
+    {
+      "source": "experiments/happo_seed_extension/batch.py",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/experiments/happo_seed_extension/batch.py",
+      "sha256": "f4eb5a7dce88758c43357b2e0fbdce61e8625e433a409c18667207f5095a6acd"
+    },
+    {
+      "source": "experiments/joint_baseline_confirmation/batch.py",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/experiments/joint_baseline_confirmation/batch.py",
+      "sha256": "ef6f44fcc5ac059f454816492ce0bd125cdb301cdace39ab1aa59758b2a187cb"
+    },
+    {
+      "source": "experiments/learning_curve/run.py",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/experiments/learning_curve/run.py",
+      "sha256": "efe476c01dc2e663177e1b1ee43e211382f5644eb5b94c392289d8b5513479d0"
+    },
+    {
+      "source": "external/liu-inventory/algorithms/__init__.py",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/external/liu-inventory/algorithms/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "external/liu-inventory/algorithms/actor_critic.py",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/external/liu-inventory/algorithms/actor_critic.py",
+      "sha256": "a60a097b84fd74c4027ecd0d3b0b94e9be9ed276cad85e694fddf466b6b7a9ad"
+    },
+    {
+      "source": "external/liu-inventory/algorithms/happo_policy.py",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/external/liu-inventory/algorithms/happo_policy.py",
+      "sha256": "48f1915d792a000a5938718a09d897c2646cbc6d2d59529d47b8e79bd6f3161a"
+    },
+    {
+      "source": "external/liu-inventory/algorithms/happo_trainer.py",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/external/liu-inventory/algorithms/happo_trainer.py",
+      "sha256": "40c67b8b8f724cb0102f4766b58ea876606c7f2423b3733c41864502f53ba84a"
+    },
+    {
+      "source": "external/liu-inventory/algorithms/utils/act.py",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/external/liu-inventory/algorithms/utils/act.py",
+      "sha256": "dc551eb81567f591eab1ef148768439f67c236f2aca493e401171493fcc86d71"
+    },
+    {
+      "source": "external/liu-inventory/algorithms/utils/cnn.py",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/external/liu-inventory/algorithms/utils/cnn.py",
+      "sha256": "958c59f4828ec874934490249877b7b82d6d218ef12db2428dac7f6b325ce067"
+    },
+    {
+      "source": "external/liu-inventory/algorithms/utils/distributions.py",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/external/liu-inventory/algorithms/utils/distributions.py",
+      "sha256": "f11e226e9218e954c576f80ed4043bd480de1fc5a29905bd11663d2e678d159e"
+    },
+    {
+      "source": "external/liu-inventory/algorithms/utils/mlp.py",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/external/liu-inventory/algorithms/utils/mlp.py",
+      "sha256": "04e0ae4da416ac5352cd5d228688577903b4d0242386e19f63a0b3361af03b49"
+    },
+    {
+      "source": "external/liu-inventory/algorithms/utils/rnn.py",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/external/liu-inventory/algorithms/utils/rnn.py",
+      "sha256": "bb6ca30a91503f012df3c45d9be9011642f9895fb9804b05530bcb49db47fe50"
+    },
+    {
+      "source": "external/liu-inventory/algorithms/utils/util.py",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/external/liu-inventory/algorithms/utils/util.py",
+      "sha256": "0d32cea8abf8d063bf0cd7fd8a80b3e12331be4bfa96ed18d7c51a17323c560b"
+    },
+    {
+      "source": "external/liu-inventory/config.py",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/external/liu-inventory/config.py",
+      "sha256": "603bb1e9b04f03cd32b9d939e7d7e1f5162a3fde3f3116c0120f80fb9e93ce99"
+    },
+    {
+      "source": "external/liu-inventory/envs/__init__.py",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/external/liu-inventory/envs/__init__.py",
+      "sha256": "15c2ffe5d6790738d28363cf7101f64d7b6370a182b805284fbbbd304e6b42a1"
+    },
+    {
+      "source": "external/liu-inventory/envs/env_wrappers.py",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/external/liu-inventory/envs/env_wrappers.py",
+      "sha256": "1781852360c113902585d9e293016382d5fdd956ad756ea820b5697b429fa405"
+    },
+    {
+      "source": "external/liu-inventory/envs/generator.py",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/external/liu-inventory/envs/generator.py",
+      "sha256": "48366755e3318751966f240c68316488a7f79066a9c3116a798d5cab46e55741"
+    },
+    {
+      "source": "external/liu-inventory/envs/net_2x3.py",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/external/liu-inventory/envs/net_2x3.py",
+      "sha256": "fad67da8c575853154d6d7e22aa034cad8f6f8c1ff0fde9cd8de07729325bd24"
+    },
+    {
+      "source": "external/liu-inventory/envs/serial.py",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/external/liu-inventory/envs/serial.py",
+      "sha256": "7c73e9fe9ea5f8bf60908ee26e272e16bbb95e0acd9e074272ca8d1a95d70088"
+    },
+    {
+      "source": "external/liu-inventory/envs/template.py",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/external/liu-inventory/envs/template.py",
+      "sha256": "49a2b095b30ddbe195e4790650b87d2c2d2d10f2e3ed0bec2627fec8a2d2529f"
+    },
+    {
+      "source": "external/liu-inventory/runners/__init__.py",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/external/liu-inventory/runners/__init__.py",
+      "sha256": "c128749b116e135f555dc0948ea297a43316cc3cee0415e9e8e19aea7f72a9fc"
+    },
+    {
+      "source": "external/liu-inventory/runners/separated/__init__.py",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/external/liu-inventory/runners/separated/__init__.py",
+      "sha256": "000ace4edd2d1786448beee066ce906a8b838276066f27b63eaf19b7c3de251c"
+    },
+    {
+      "source": "external/liu-inventory/runners/separated/base_runner.py",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/external/liu-inventory/runners/separated/base_runner.py",
+      "sha256": "d2d6f229dd65319ee0aeb81a376b6d80524f53070fd0c73a860c760c9570517e"
+    },
+    {
+      "source": "external/liu-inventory/runners/separated/runner.py",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/external/liu-inventory/runners/separated/runner.py",
+      "sha256": "47c997beb9c2504afaa80215c89e430d15e0c75e77a0ed757551ffa6f4179fc8"
+    },
+    {
+      "source": "external/liu-inventory/test_data/test_demand_merton/0.txt",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/external/liu-inventory/test_data/test_demand_merton/0.txt",
+      "sha256": "9498a12ad1ac27e23d67f4f6a9bd03a007595395c17ab953cff0d1c23ab6aae5"
+    },
+    {
+      "source": "external/liu-inventory/test_data/test_demand_merton/1.txt",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/external/liu-inventory/test_data/test_demand_merton/1.txt",
+      "sha256": "2352617b9255ca38cdafa3c2cfddc95e3d993eebff892e6d897a9a3ad6b03989"
+    },
+    {
+      "source": "external/liu-inventory/test_data/test_demand_merton/10.txt",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/external/liu-inventory/test_data/test_demand_merton/10.txt",
+      "sha256": "73da8005d2ed8ce668a7b8207f0e836a1916691eee83b1b51639dbcc112a4344"
+    },
+    {
+      "source": "external/liu-inventory/test_data/test_demand_merton/11.txt",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/external/liu-inventory/test_data/test_demand_merton/11.txt",
+      "sha256": "513054f67f0ca8d5c3123ac3f4ca40dad3e4dba9a3b7b7eff677893bfad2875f"
+    },
+    {
+      "source": "external/liu-inventory/test_data/test_demand_merton/12.txt",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/external/liu-inventory/test_data/test_demand_merton/12.txt",
+      "sha256": "e7b907381e86e60a4643390594c02287f88e078e88d72b3e15e5973577ebf0b2"
+    },
+    {
+      "source": "external/liu-inventory/test_data/test_demand_merton/13.txt",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/external/liu-inventory/test_data/test_demand_merton/13.txt",
+      "sha256": "c3d20499e48da360ded21a6be78a552fc0243b55360152b48b549fa2ee178292"
+    },
+    {
+      "source": "external/liu-inventory/test_data/test_demand_merton/14.txt",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/external/liu-inventory/test_data/test_demand_merton/14.txt",
+      "sha256": "6315abf3c87b80028e844c236e26380f4d046b5fd564866638981837c7361935"
+    },
+    {
+      "source": "external/liu-inventory/test_data/test_demand_merton/15.txt",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/external/liu-inventory/test_data/test_demand_merton/15.txt",
+      "sha256": "5db287c9242cdef54927e1211c3b03a7bcfee3270b6b62ea79f0d6dedf659fd7"
+    },
+    {
+      "source": "external/liu-inventory/test_data/test_demand_merton/16.txt",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/external/liu-inventory/test_data/test_demand_merton/16.txt",
+      "sha256": "f787492a4de4e6c79be2ea130c1f14a2e43dd61131fa1c8d3a182a6f4aeb1baf"
+    },
+    {
+      "source": "external/liu-inventory/test_data/test_demand_merton/17.txt",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/external/liu-inventory/test_data/test_demand_merton/17.txt",
+      "sha256": "ef635ab3d96ece77b900efc7ded7e8925428b82b8323cc0e0b143b337304ee76"
+    },
+    {
+      "source": "external/liu-inventory/test_data/test_demand_merton/18.txt",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/external/liu-inventory/test_data/test_demand_merton/18.txt",
+      "sha256": "a2ba31fcd22db5d515659b915e2f02072f1f41b108efb1f223a8d18837a02f1e"
+    },
+    {
+      "source": "external/liu-inventory/test_data/test_demand_merton/19.txt",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/external/liu-inventory/test_data/test_demand_merton/19.txt",
+      "sha256": "571c0f32b8eeb898d5e5a307ec09ac99bfce7f2f92bcdef14c1e47c9162ec84f"
+    },
+    {
+      "source": "external/liu-inventory/test_data/test_demand_merton/2.txt",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/external/liu-inventory/test_data/test_demand_merton/2.txt",
+      "sha256": "7411b52fcfe7c0f472f57aa26589cf022b45f9a46a040c5876c8e28bd9975b0a"
+    },
+    {
+      "source": "external/liu-inventory/test_data/test_demand_merton/3.txt",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/external/liu-inventory/test_data/test_demand_merton/3.txt",
+      "sha256": "e35b6d931453add0cd31520527ceb0f71a429a7fdaab1911c88181c7ec1580ff"
+    },
+    {
+      "source": "external/liu-inventory/test_data/test_demand_merton/4.txt",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/external/liu-inventory/test_data/test_demand_merton/4.txt",
+      "sha256": "4b04858ad88f89a0ac679e10dd8ba99d417172ddd2cd8a98b18256fde27a3a20"
+    },
+    {
+      "source": "external/liu-inventory/test_data/test_demand_merton/5.txt",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/external/liu-inventory/test_data/test_demand_merton/5.txt",
+      "sha256": "8c7cb937311ed131319bbc2e31cb3568ca20fc967475beae85993b88354adc93"
+    },
+    {
+      "source": "external/liu-inventory/test_data/test_demand_merton/6.txt",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/external/liu-inventory/test_data/test_demand_merton/6.txt",
+      "sha256": "67769b5daf19193fc97603c2b3075b0b58e81766fd8ba9af926022fe2aa2ec1b"
+    },
+    {
+      "source": "external/liu-inventory/test_data/test_demand_merton/7.txt",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/external/liu-inventory/test_data/test_demand_merton/7.txt",
+      "sha256": "56e7d199ace8deb464bcb58022a7c55659d7cfda0efc42b86f668698e5b8db90"
+    },
+    {
+      "source": "external/liu-inventory/test_data/test_demand_merton/8.txt",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/external/liu-inventory/test_data/test_demand_merton/8.txt",
+      "sha256": "9a5e0866e729e22ae432a0be3995e64a3982408bf6ddba9abc8017ded4987c3a"
+    },
+    {
+      "source": "external/liu-inventory/test_data/test_demand_merton/9.txt",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/external/liu-inventory/test_data/test_demand_merton/9.txt",
+      "sha256": "eae741e9e2b7fadc030689d1da13fbfc81f52acecefef066a1afcb34eaa49d3b"
+    },
+    {
+      "source": "external/liu-inventory/train_env.py",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/external/liu-inventory/train_env.py",
+      "sha256": "78959c118607046478d4681f4ad8f31e239a299a0b49363fd5321d0bff8d36c9"
+    },
+    {
+      "source": "external/liu-inventory/utils/__init__.py",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/external/liu-inventory/utils/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "external/liu-inventory/utils/multi_discrete.py",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/external/liu-inventory/utils/multi_discrete.py",
+      "sha256": "7bca00aa5f47039ebe1fa1cb26e46682046cda57cf05d963f7c3ac699fa5a7a6"
+    },
+    {
+      "source": "external/liu-inventory/utils/popart.py",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/external/liu-inventory/utils/popart.py",
+      "sha256": "40fdb523f10aac1d03362cc1fc6a745936743a6763003a791a962fbe8acc9bbd"
+    },
+    {
+      "source": "external/liu-inventory/utils/separated_buffer.py",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/external/liu-inventory/utils/separated_buffer.py",
+      "sha256": "af0f1850bc0a8101ed18a5298aea1eb8146f86eb16396d46ea4b77e9ed436051"
+    },
+    {
+      "source": "external/liu-inventory/utils/util.py",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/external/liu-inventory/utils/util.py",
+      "sha256": "7cf8ce806483e8abbc358951105a3765a734c92a15fa641595fa6ea967e1f4d7"
+    },
+    {
+      "source": "external/liu-inventory/utils/valuenorm.py",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/external/liu-inventory/utils/valuenorm.py",
+      "sha256": "8cd48bb7e3a3d8295baec57a2cde23ca60a973d047f358f408709ef53c6a1836"
+    },
+    {
+      "source": "results/happo_matched_shock/formal_v2/collision_inventory.json",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/results/happo_matched_shock/formal_v2/collision_inventory.json",
+      "sha256": "44f7305f50cb73c713d5d33a9157122c2befd96f71c31834e62a617f6a58962b"
+    },
+    {
+      "source": "results/happo_matched_shock/formal_v2/manifest.json",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/results/happo_matched_shock/formal_v2/manifest.json",
+      "sha256": "97d9ce8b473f1a7e05bf3fe4cb573f42f9cd9d29d6c0f7a21ab8d86291c292e1"
+    },
+    {
+      "source": "results/happo_matched_shock/formal_v2/preflight.json",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/results/happo_matched_shock/formal_v2/preflight.json",
+      "sha256": "fbb94647fe60a9a6ce211a318286f78d66aa5b6f212fa2999bf166122e04465a"
+    },
+    {
+      "source": "results/happo_matched_shock/formal_v2/start_contract_check.json",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/results/happo_matched_shock/formal_v2/start_contract_check.json",
+      "sha256": "82610cac3dcc5f5beac305c060cba9e70c6aaef42f76bfbf2302b3ae882ca59e"
+    },
+    {
+      "source": "results/happo_matched_shock/formal_v2/validation.json",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/results/happo_matched_shock/formal_v2/validation.json",
+      "sha256": "77795ca653669d5de690eb97f4f559385007e430df9a23e0114fb4fe68e95f47"
+    },
+    {
+      "source": "results/joint_baseline_confirmation/confirmation_v1/inputs/batch01.json",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/results/joint_baseline_confirmation/confirmation_v1/inputs/batch01.json",
+      "sha256": "72ce98ab397556f47b0c69498dc40c18d0cab9d7573bf50bf90a866079db26ba"
+    },
+    {
+      "source": "results/joint_baseline_confirmation/confirmation_v1/inputs/batch02.json",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/results/joint_baseline_confirmation/confirmation_v1/inputs/batch02.json",
+      "sha256": "17bea0b18667a2ada86b065ab8da1dfe70f8861f51ad6cc31187c78f2c781762"
+    },
+    {
+      "source": "results/joint_baseline_confirmation/confirmation_v1/inputs/batch03.json",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/results/joint_baseline_confirmation/confirmation_v1/inputs/batch03.json",
+      "sha256": "04118bc2c53183d0706e0547a484eb6fd54cc343bd9a9b26a004701854e87bcc"
+    },
+    {
+      "source": "results/joint_baseline_confirmation/confirmation_v1/inputs/batch04.json",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/results/joint_baseline_confirmation/confirmation_v1/inputs/batch04.json",
+      "sha256": "6ebd035d980b3c224084f70447cb92dde6cc3696754e0c9906450cad2963ee3b"
+    },
+    {
+      "source": "results/joint_baseline_confirmation/confirmation_v1/inputs/batch05.json",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/results/joint_baseline_confirmation/confirmation_v1/inputs/batch05.json",
+      "sha256": "d91915963e1f320e7aa33e0a0c8c7f03751a24f59c29d338a8726deef10ae69b"
+    },
+    {
+      "source": "results/joint_baseline_confirmation/confirmation_v1/inputs/batch06.json",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/results/joint_baseline_confirmation/confirmation_v1/inputs/batch06.json",
+      "sha256": "92980fbe7e6a2c688c668e07fbb32a7a9c91c7fe14e6b01b6fca739edf87e554"
+    },
+    {
+      "source": "results/joint_baseline_confirmation/confirmation_v1/inputs/batch07.json",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/results/joint_baseline_confirmation/confirmation_v1/inputs/batch07.json",
+      "sha256": "80e4ad4408efe9a20791f4c1d17a67f3fd57ec73b0c862b54dd98ca62d299a6b"
+    },
+    {
+      "source": "results/joint_baseline_confirmation/confirmation_v1/inputs/batch08.json",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/results/joint_baseline_confirmation/confirmation_v1/inputs/batch08.json",
+      "sha256": "d1d12b6ec61a4a086220fc55a62fe0b7536e3bcedc35246b0cbfd6720d2c6a75"
+    },
+    {
+      "source": "results/joint_baseline_confirmation/confirmation_v1/inputs/batch09.json",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/results/joint_baseline_confirmation/confirmation_v1/inputs/batch09.json",
+      "sha256": "4db0b4c56d45ae4120a0545348d53913764d8c007eb96a73eab2a0f437e9a5b6"
+    },
+    {
+      "source": "results/joint_baseline_confirmation/confirmation_v1/inputs/batch10.json",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/results/joint_baseline_confirmation/confirmation_v1/inputs/batch10.json",
+      "sha256": "18168f3cc086161ff5f18f386afcdfe763ac5eeeb2891ce4a2be6105e0dee7b0"
+    },
+    {
+      "source": "results/joint_baseline_confirmation/confirmation_v1/summary.json",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/results/joint_baseline_confirmation/confirmation_v1/summary.json",
+      "sha256": "b90103afd1f06e99a001d2ca5a733db2b17f2abdacaafd2f4705ffd678da0c3b"
+    },
+    {
+      "source": "results/learning_curve/curve_seed11_until_stable_v1/completed.json",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/results/learning_curve/curve_seed11_until_stable_v1/completed.json",
+      "sha256": "52f1354f75d81902d7d7acf74b1bd94a60dc2eafaacdcdca4405f2c65d70ce7f"
+    },
+    {
+      "source": "results/learning_curve/curve_seed11_until_stable_v1/config.json",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/results/learning_curve/curve_seed11_until_stable_v1/config.json",
+      "sha256": "1f85f85ccaf9734833e202c8f330f1222ac33d201df7de138d79ade3cc83652a"
+    },
+    {
+      "source": "results/learning_curve/curve_seed12_formal_v1/completed.json",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/results/learning_curve/curve_seed12_formal_v1/completed.json",
+      "sha256": "afe4d8c5bd03f252553a3432a058ce64a704290023a6781930954709a4985c96"
+    },
+    {
+      "source": "results/learning_curve/curve_seed12_formal_v1/config.json",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/results/learning_curve/curve_seed12_formal_v1/config.json",
+      "sha256": "c528f780f3de586c9c6c0d365b6fd0f324da3c0945417cb0cc254307cedcc615"
+    },
+    {
+      "source": "results/learning_curve/curve_seed13_formal_v1/completed.json",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/results/learning_curve/curve_seed13_formal_v1/completed.json",
+      "sha256": "04e3b4ddb4092c11c560f772e45b3d4a7b4e264be25ab260cdc90e029b88b23d"
+    },
+    {
+      "source": "results/learning_curve/curve_seed13_formal_v1/config.json",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/results/learning_curve/curve_seed13_formal_v1/config.json",
+      "sha256": "715ce905944a4b17a3451f9ef2041f013b4466e6a1beb0cf5fc74b8e6ceced0d"
+    },
+    {
+      "source": "results/learning_curve/curve_seed14_formal_v1/completed.json",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/results/learning_curve/curve_seed14_formal_v1/completed.json",
+      "sha256": "d2f4a9d1618e50b6f7336f60829b3421793e3dc0966d9cc90a3d5ec15c6ba89b"
+    },
+    {
+      "source": "results/learning_curve/curve_seed14_formal_v1/config.json",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/results/learning_curve/curve_seed14_formal_v1/config.json",
+      "sha256": "3a24fb335722738ed533c5c618904abd3361bb4c413474f7539689255eed2437"
+    },
+    {
+      "source": "results/learning_curve/curve_seed15_formal_v1/completed.json",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/results/learning_curve/curve_seed15_formal_v1/completed.json",
+      "sha256": "eb0430d523ed902742082e6e0f8bbc3b4ec5dda8bc0b5d7d12e8cf18806cc470"
+    },
+    {
+      "source": "results/learning_curve/curve_seed15_formal_v1/config.json",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/results/learning_curve/curve_seed15_formal_v1/config.json",
+      "sha256": "97c608f6623b8a2fbf31a4c8dff2e106ef22858ae9249c802c486d07a5d5afeb"
+    },
+    {
+      "source": "results/learning_curve/curve_seed16_extension_v1/completed.json",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/results/learning_curve/curve_seed16_extension_v1/completed.json",
+      "sha256": "51d8bb4a1eba2da562d1c009883be456cd69828d5b71b092417d7d28e6fd6873"
+    },
+    {
+      "source": "results/learning_curve/curve_seed16_extension_v1/config.json",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/results/learning_curve/curve_seed16_extension_v1/config.json",
+      "sha256": "02eb181fcbd89496598018af93fccd86b5ce2f0c276ec4cd61488ca231d1bac4"
+    },
+    {
+      "source": "results/learning_curve/curve_seed17_extension_v1/completed.json",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/results/learning_curve/curve_seed17_extension_v1/completed.json",
+      "sha256": "eb2c4b1f57e3561b0caec49c6aabc4bdf642a407dcd1b66744946cc196ec777a"
+    },
+    {
+      "source": "results/learning_curve/curve_seed17_extension_v1/config.json",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/results/learning_curve/curve_seed17_extension_v1/config.json",
+      "sha256": "393a1c0f022e6f49021c8ccfa2cae84407037311c4310b7df7b98f0c0d75c6a6"
+    },
+    {
+      "source": "results/learning_curve/curve_seed18_extension_v1/completed.json",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/results/learning_curve/curve_seed18_extension_v1/completed.json",
+      "sha256": "9fb54f601281e646883357bd50d7f25effc0d3057fb88dda5a0389e8e7975d01"
+    },
+    {
+      "source": "results/learning_curve/curve_seed18_extension_v1/config.json",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/results/learning_curve/curve_seed18_extension_v1/config.json",
+      "sha256": "4d16948e4225fa03a41f801ad191db52a2f1935feb3cf42bf12bf6be84e0d581"
+    },
+    {
+      "source": "results/learning_curve/curve_seed19_extension_v1/completed.json",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/results/learning_curve/curve_seed19_extension_v1/completed.json",
+      "sha256": "abf132c615f7a7d0345ae879642d4e60829c01add6ed0a000d4e8cd716de6342"
+    },
+    {
+      "source": "results/learning_curve/curve_seed19_extension_v1/config.json",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/results/learning_curve/curve_seed19_extension_v1/config.json",
+      "sha256": "1daee92760ef0381edf6b428fd3def03bccd6a46530b1da6893f3682693aee3b"
+    },
+    {
+      "source": "results/learning_curve/curve_seed20_extension_v1/completed.json",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/results/learning_curve/curve_seed20_extension_v1/completed.json",
+      "sha256": "ad97717a80ff1cd86e52e9891156b9be7538b72ef0f1bbe270bf3ab839265abb"
+    },
+    {
+      "source": "results/learning_curve/curve_seed20_extension_v1/config.json",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/results/learning_curve/curve_seed20_extension_v1/config.json",
+      "sha256": "771bf0bd3ac83338a87186870b3f4598606a0bbec22cf9a45c24638748431ad5"
+    },
+    {
+      "source": "scripts/plot_learning_curve.py",
+      "archive": "docs/artifacts/happo_matched_shock_v2_preregistration/snapshot/scripts/plot_learning_curve.py",
+      "sha256": "c707c728715b8068097d86e4d1c86546aadaadde86389838fb3f454154547e80"
+    }
+  ],
+  "training_steps": 0,
+  "api_calls": 0,
+  "old_models_hash_only": {
+    "C:\\Users\\13384\\Documents\\ChatGPT\\\u65b0\\zaiqu\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed11_until_stable_v1\\run_seed_12\\models\\actor_agent0.pt": "d74946c5d8450e6b0a4bba9326b44e7fc9c850323980011d1dd615b7aef41633",
+    "C:\\Users\\13384\\Documents\\ChatGPT\\\u65b0\\zaiqu\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed11_until_stable_v1\\run_seed_12\\models\\actor_agent1.pt": "10436c46cbb6a6621a7b9a23482aa051e085c4f548c40ac65d236ca000faa3e2",
+    "C:\\Users\\13384\\Documents\\ChatGPT\\\u65b0\\zaiqu\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed11_until_stable_v1\\run_seed_12\\models\\actor_agent2.pt": "208c3861888eebdfdb3051f443af896f013cdd9dd25b1faa9bb04736e168bd1d",
+    "C:\\Users\\13384\\Documents\\ChatGPT\\\u65b0\\zaiqu\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed11_until_stable_v1\\run_seed_12\\models\\critic_agent0.pt": "1fe62d18a8b73dc2e366127cfd2ad800f4d333258a587a3d6d14860008f6e771",
+    "C:\\Users\\13384\\Documents\\ChatGPT\\\u65b0\\zaiqu\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed11_until_stable_v1\\run_seed_12\\models\\critic_agent1.pt": "d9122f0eecc381d42463999049338099d7887aa64016f6797c9c0da756d9084e",
+    "C:\\Users\\13384\\Documents\\ChatGPT\\\u65b0\\zaiqu\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed11_until_stable_v1\\run_seed_12\\models\\critic_agent2.pt": "5cef8a2ca8cfe6f1aaf09ca6baabd343af93a3469f7beac295c338efb24c4dda",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed12_formal_v1\\run_seed_13\\models\\actor_agent0.pt": "e8c7702ab8e1c56290977ac00a02d948b30261daec19a75062d2f585351b61b4",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed12_formal_v1\\run_seed_13\\models\\actor_agent1.pt": "68eee61f31bc6827e8911e787abcc94af5b52d6f59fa10fa438ea720032aaa27",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed12_formal_v1\\run_seed_13\\models\\actor_agent2.pt": "a459eddca9069aed8c681906555d8da2f31a1ae29e46576b5bde71da59228a9d",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed12_formal_v1\\run_seed_13\\models\\critic_agent0.pt": "624dbc98a35e7d60db932d99d82e3c42a367019ac375edff420a1ca7e484125d",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed12_formal_v1\\run_seed_13\\models\\critic_agent1.pt": "a632c4380790626512172897113dd2cee8070a71f61f30627fd32565b2932413",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed12_formal_v1\\run_seed_13\\models\\critic_agent2.pt": "c603a09046f95a1edcb3e37ab26f954e0dabeab684b6ecf24da567fbc43bd725",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed13_formal_v1\\run_seed_14\\models\\actor_agent0.pt": "0f5449b66d1e53c0afdb40f597b752c71a1a86f5dd2818688a24154f89a5ed21",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed13_formal_v1\\run_seed_14\\models\\actor_agent1.pt": "16b9802a599822a2d502dfa103fed996a98ec617c3a84b609bd54a65c2163c43",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed13_formal_v1\\run_seed_14\\models\\actor_agent2.pt": "3c4b31829fd32b47b6140d290d8391d03c38006cb2521932095dd898312d52b9",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed13_formal_v1\\run_seed_14\\models\\critic_agent0.pt": "196b9e228967242ce9fb053b9a7814fcc81565a8d6ea5d59f46e30373ead22e7",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed13_formal_v1\\run_seed_14\\models\\critic_agent1.pt": "7218a0d4e3cb18c7a61b6e404d31929d0d57926a7260e8c1672af3d7f2bc7563",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed13_formal_v1\\run_seed_14\\models\\critic_agent2.pt": "bf59c86f9b040f4ceac9f676cabc4d37dae3d2a2365a2cbf891f1189efc01f23",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed14_formal_v1\\run_seed_15\\models\\actor_agent0.pt": "fca99f01d0408ed10c6ee3382b7e635f7c13b9f7e9b5e233e7d51ba2b7bf23f8",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed14_formal_v1\\run_seed_15\\models\\actor_agent1.pt": "ac23c5f124466989aa07d0b88f71f0b3eb8cb9507ac09c2e1a4f56032e7a46c2",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed14_formal_v1\\run_seed_15\\models\\actor_agent2.pt": "f76b97c534eca73f86581bd5cf878d87e5565e81180cb698faab6c2531609fa0",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed14_formal_v1\\run_seed_15\\models\\critic_agent0.pt": "89f927e2df33e91d19a21414fa75321f6ea6cc18f344afe23dba2ddcef46d72a",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed14_formal_v1\\run_seed_15\\models\\critic_agent1.pt": "b39318789a6066ec44365dd82b42a129a9513faae8731b230e6c3fac5decae9b",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed14_formal_v1\\run_seed_15\\models\\critic_agent2.pt": "5ed8b35be3a5f0f7f4aa75d66dafb5cb30acabb008128418686a233df65a7fc0",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed15_formal_v1\\run_seed_16\\models\\actor_agent0.pt": "d6f131179a0a3af9cbb769f4e1727ca048c54381172bbcd7119ca0c31d34bb08",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed15_formal_v1\\run_seed_16\\models\\actor_agent1.pt": "41cdb149b07576e311f325c55b2f0d67bc1273487bbe77abba5cdfdcc4caee86",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed15_formal_v1\\run_seed_16\\models\\actor_agent2.pt": "58069eb8e3e7d2352cbec6c697f49ba3ab9df0cffcf815f80e40fc69b36bca61",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed15_formal_v1\\run_seed_16\\models\\critic_agent0.pt": "990bf94d6be2582f564218338084bc46150bcc4a31588b559a2eaba87dec4ffa",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed15_formal_v1\\run_seed_16\\models\\critic_agent1.pt": "5f693c77354ccaa2a3ab63ab5bbb60c562b3aee430597440595f7abcbceb935a",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed15_formal_v1\\run_seed_16\\models\\critic_agent2.pt": "e7c4c16c3eba10931df96954b7920991ecec44cab973b8ec167da8d62e0b4ae5",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed16_extension_v1\\run_seed_17\\models\\actor_agent0.pt": "86fb972362da1513edb96b60f173bef70fe2c2562a215b2ca1bc9a1b5aa78c54",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed16_extension_v1\\run_seed_17\\models\\actor_agent1.pt": "b82f773d95f0a53ded57a1e0b10d5000fcc9198b62353694d28dd16d64c66c9c",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed16_extension_v1\\run_seed_17\\models\\actor_agent2.pt": "59cccd36be617f852c438a403481c11250df01454fdc3165794f983fdd2c0b66",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed16_extension_v1\\run_seed_17\\models\\critic_agent0.pt": "641e0fe873237bc6ce7645bd7ab1b1851e5becc4032d63d747202bb347dd0f35",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed16_extension_v1\\run_seed_17\\models\\critic_agent1.pt": "03768dbf7d70d73f444c17add10e39a7047896630c424f116f9c5d900066fbc3",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed16_extension_v1\\run_seed_17\\models\\critic_agent2.pt": "5993ee4a3ec42ff975c223ae7399c8d1bab6a3ebf25d89e0fa39bc858e725042",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed17_extension_v1\\run_seed_18\\models\\actor_agent0.pt": "8d12bac27518bee1784c73a7cbcbdbc573bb007164bab9d1345d07d32fe0c9f9",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed17_extension_v1\\run_seed_18\\models\\actor_agent1.pt": "e5e4b2118ccafc4dc62c0b38603729bc99e757151ae06063d2088d709535ece5",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed17_extension_v1\\run_seed_18\\models\\actor_agent2.pt": "2dc827d7f4b3bcb4c3e7ada56e4c9788f93d07bc0b27df1ba378e34e02981c70",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed17_extension_v1\\run_seed_18\\models\\critic_agent0.pt": "35f144241bab7a5f6700ef6349e763608eed4498b933cb5c434403e7a4f465b4",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed17_extension_v1\\run_seed_18\\models\\critic_agent1.pt": "b604e03e88ee1feca2dcc44639f334ee7ca10a0c05dedceae835edf8ec8d8d27",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed17_extension_v1\\run_seed_18\\models\\critic_agent2.pt": "17762d8d2f4e64d1334e85c22e2673f65ab9f505986af27ae306457aa9a97716",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed18_extension_v1\\run_seed_19\\models\\actor_agent0.pt": "a3276502b97a36d341731d2ac9d1ae20455c18dcd4b5c8280e28846a68fd3f36",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed18_extension_v1\\run_seed_19\\models\\actor_agent1.pt": "0b821af49f9d93e96e252a0f5a78fedd73dfd915607767f6f07df82eb54fd1a2",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed18_extension_v1\\run_seed_19\\models\\actor_agent2.pt": "96af4eff94738503abc449e3887e796414b1cf5a68431b55c25b22254d4eac25",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed18_extension_v1\\run_seed_19\\models\\critic_agent0.pt": "ffce7611146e971c62dfc15040df776a5234ef41931f5155c0ea03d6b2412652",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed18_extension_v1\\run_seed_19\\models\\critic_agent1.pt": "35bc9db470626693a4cb11aecd17abc5355c856064452e8b1b4e51707fdb20ad",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed18_extension_v1\\run_seed_19\\models\\critic_agent2.pt": "d6cbb6e34b49c910807a360f36a8e878e4f5cd2e80d393c9a3b3ae1ea224647c",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed19_extension_v1\\run_seed_20\\models\\actor_agent0.pt": "9a6fdbc2a905cb151d5d3cb150e422ff3fe97458e9a37979970837504958461d",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed19_extension_v1\\run_seed_20\\models\\actor_agent1.pt": "d221a91519410ed609697cb0fa5fb94e61c92256a0e3219e0f00254168cd3651",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed19_extension_v1\\run_seed_20\\models\\actor_agent2.pt": "c95bc19b9b091c2c064759b129b919d14e0878056067323d9e0e965cdee02ee8",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed19_extension_v1\\run_seed_20\\models\\critic_agent0.pt": "c04cd3a679e204863ee8d79f0309e93127339785b5e988f8ee80a04ca8cf6311",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed19_extension_v1\\run_seed_20\\models\\critic_agent1.pt": "fe5c06a68e6d1ee6b86c715a963e4ba72f8efdf058c006a353a81da7bdae1df6",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed19_extension_v1\\run_seed_20\\models\\critic_agent2.pt": "dafca2052e9c9fe471065237a4abdba04b0e517174565ab07dd6f011b78c9d9a",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed20_extension_v1\\run_seed_21\\models\\actor_agent0.pt": "d56083d77887bd4de892db1776839289d601bf5f9fe94a3598da24fff703d183",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed20_extension_v1\\run_seed_21\\models\\actor_agent1.pt": "5776317743cbe8d9d28ac56ae35d1b1de8350b896dd946c86b96ea5be66ecee7",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed20_extension_v1\\run_seed_21\\models\\actor_agent2.pt": "cd337dd0685d3217612442d66f2750fcd6feeb4d1f02775d8956ba2d381162c3",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed20_extension_v1\\run_seed_21\\models\\critic_agent0.pt": "8921d73fa24f5a8a1eb4532b352b06b09eedf78d1bc5ec83d2558e51d63d50a3",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed20_extension_v1\\run_seed_21\\models\\critic_agent1.pt": "3f545fc427212cf403fa8a207c28bfd4e26ef2371c272412cfea8a7b6cc38cf4",
+    "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed20_extension_v1\\run_seed_21\\models\\critic_agent2.pt": "d64a6f2de14c4e29bb20be03a6966cc1a133bc7adb200c9db8889e355439a9e4"
+  }
+}
