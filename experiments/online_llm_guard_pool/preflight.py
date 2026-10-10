@@ -7,7 +7,8 @@ from runner import ROOT,HERE,METHODS,core,original,module
 auditor=module('guard_pool_fixture_auditor',HERE/'audit.py')
 audit=auditor.audit
 
-OUTPUT=ROOT/'results/online_llm_guard_pool/offline_fixture_v2'
+OUTPUT=ROOT/'results/online_llm_guard_pool/offline_fixture_v3_cached'
+RUN_METHODS=('revision_guard','pool_review','guard_pool')
 
 def run():
     if OUTPUT.exists():raise RuntimeError('Preserve existing fixture')
@@ -18,6 +19,7 @@ def run():
     assert core.SYSTEM==original_runner.SYSTEM and core.Client is original_runner.Client
     input_file=ROOT/'results/submission_required/v1/inputs/confirmation01_main.json'
     data=core.read(input_file)
+    core.METHODS=RUN_METHODS
     saved_contracts=core.contracts
     def contracts(*args,**kwargs):
         kwargs['require_key']=False;return saved_contracts(*args,**kwargs)
@@ -47,14 +49,15 @@ def run():
     options=argparse.Namespace(input_file=input_file,operator_library=core.LIBRARY,training_directory=core.training(11),phase='development')
     try:
         core.evaluate(options,OUTPUT,contract,data)
-        result=audit(OUTPUT,data,contract['expected_parameter_sha256'],offline=True)
+        cached=ROOT/'results/submission_required/v1/runs/confirmation01_main_seed11'
+        result=audit(OUTPUT,data,contract['expected_parameter_sha256'],offline=True,methods=RUN_METHODS,cached=cached)
         old=core.read(ROOT/'results/submission_required/v1/runs/confirmation01_main_seed11/episodes.json')
         for episode in core.read(OUTPUT/'episodes.json'):
             if episode['group']=='happo':
                 prior=next(e for e in old if e['group']=='happo' and e['scenario']==episode['scenario'] and e['trace']==episode['trace'])
                 assert abs(episode['cost']-prior['cost'])<1e-9
         core.write(OUTPUT/'preflight_passed.json',dict(**result,network_requests=0,original_prompt_client_identical=True,
-            original_happo_replay_exact=True,full_original_controller_identity=True,not_performance_evidence=True))
+            original_happo_replay_exact='happo' in RUN_METHODS,full_original_controller_identity=True,not_performance_evidence=True))
         print('GUARD_POOL_REAL_DEPLOYMENT_FIXTURE_PASSED',flush=True)
     except Exception as exc:
         core.write(OUTPUT/'preflight_failed.json',dict(error=type(exc).__name__,detail=str(exc),preserved=True,network_requests=0));raise

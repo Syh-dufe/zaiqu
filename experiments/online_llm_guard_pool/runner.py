@@ -1,5 +1,6 @@
 """Independent deployment adapter; preserves original controller and client objects."""
 import importlib.util
+import inspect
 from pathlib import Path
 import sys
 
@@ -40,5 +41,17 @@ def contracts(*args,**kwargs):
         max_pool_selection_score_calls=8,max_guard_extra_score_calls_per_event=1)
     return value
 core.contracts=contracts
+
+# A variant-only run still checks common normal/pre-notice prefixes. Its normal
+# actions are additionally compared to the cached frozen HAPPO by the auditor.
+evaluate_source=inspect.getsource(core.evaluate)
+needle="r['group']=='happo' and r['scenario']==scenario"
+assert evaluate_source.count(needle)==1
+evaluate_source=evaluate_source.replace(needle,"r['group']==METHODS[0] and r['scenario']==scenario")
+def evaluate(*args,**kwargs):
+    namespace=dict(core.__dict__)
+    exec(compile(evaluate_source,str(Path(__file__)),'exec'),namespace)
+    return namespace['evaluate'](*args,**kwargs)
+core.evaluate=evaluate
 
 if __name__=='__main__':core.main()
