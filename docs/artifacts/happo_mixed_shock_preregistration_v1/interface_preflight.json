@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "validation_count": 100,
+  "actor_observation": 7,
+  "critic_observation": 21,
+  "action_count": 21,
+  "optimizer_steps": 0,
+  "simulation_steps": 0,
+  "api_calls": 0
+}

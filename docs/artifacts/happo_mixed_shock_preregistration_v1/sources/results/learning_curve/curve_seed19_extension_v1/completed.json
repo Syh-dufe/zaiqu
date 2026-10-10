@@ -1,0 +1,35 @@
+{
+  "seed": 19,
+  "requested_budget": 3000000,
+  "completed_steps": 670000,
+  "stop_reason": "official_early_stop",
+  "initial_eval_cost": 300.64283333333333,
+  "final_eval_cost": 21.671833333333336,
+  "best_observed_evaluation": {
+    "step": 470000,
+    "phase": "evaluation",
+    "mean_actor_period_cost": 18.87325
+  },
+  "official_best_cost": 18.87325,
+  "best_scheduled_evaluation": {
+    "step": 470000,
+    "phase": "evaluation",
+    "mean_actor_period_cost": 18.87325
+  },
+  "final_model_directory": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\results\\MyEnv\\Emergency_Replenishment_Compatibility\\happo\\curve_seed19_extension_v1\\run_seed_20\\final_models",
+  "max_reload_error": 0.0,
+  "eval_traces": 20,
+  "interpretation": "single-seed learning observation, not convergence or superiority evidence",
+  "stability": {
+    "stable": false,
+    "steps": 670000,
+    "minimum_steps": 100000,
+    "window": 10,
+    "median_change_limit": 0.01,
+    "recent_cv_limit": 0.05,
+    "best_change_limit": 0.01,
+    "median_change": 0.21808822373264147,
+    "best_change": 0.009600781956830793,
+    "recent_cv": 0.3442317836483237
+  }
+}
