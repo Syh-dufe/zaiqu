@@ -12,15 +12,15 @@ namespace=dict(legacy.__dict__)
 exec(compile(source,str(Path(__file__)),'exec'),namespace)
 raw_audit=namespace['audit']
 
-def audit(directory,data,expected_hash,offline=False):
+def audit(directory,data,expected_hash,offline=False,methods=METHODS,cached=None):
     directory=Path(directory)
-    result=raw_audit(directory,METHODS,data,expected_hash,offline)
+    result=raw_audit(directory,methods,data,expected_hash,offline)
     scores=legacy.read(directory/'scores.json')
     guarded=reviews=0
     for record in scores:
         if record.get('execution_failure'):continue
         method=record['group']
-        assert method in METHODS
+        assert method in methods
         if method in ('revision_guard','guard_pool') and record.get('generation_event'):
             decision=record.get('revision_guard_audit')
             if decision:
@@ -46,5 +46,18 @@ def audit(directory,data,expected_hash,offline=False):
             reviews+=len(actual)
     result.update(revision_decisions_recomputed=guarded,pool_candidate_reviews_recomputed=reviews,
         upgrade_decisions_checked=True,status='passed')
+    if cached:
+        import csv
+        cached=Path(cached)
+        assert legacy.read(cached/'demands.json')==data
+        assert legacy.read(cached/'completed.json')['parameter_checks']['happo']['after']==expected_hash
+        with (cached/'periods.csv').open(encoding='utf-8',newline='') as stream:
+            base={(r['scenario'],int(r['trace']),int(r['period']),int(r['node'])):r for r in csv.DictReader(stream) if r['group']=='happo'}
+        with (directory/'periods.csv').open(encoding='utf-8',newline='') as stream:
+            for r in csv.DictReader(stream):
+                scenario,t,p,n=r['scenario'],int(r['trace']),int(r['period']),int(r['node'])
+                if scenario=='base' or p<data['events'][t]['start_index']+3:
+                    assert all(r[k]==base[scenario,t,p,n][k] for k in ('cost','inventory','backlog','policy_order','actual_order'))
+        result.update(cached_happo_normal_and_pre_notice_exact=True,cached_directory=str(cached))
     legacy.write(directory/'audit.json',result)
     return result

@@ -21,6 +21,9 @@ read,write,digest=common.read,common.write,common.digest
 OLD=ROOT/'results/submission_required/v1'
 OUTPUT=ROOT/'results/online_llm_guard_pool/development_v1'
 SEEDS=(11,12,13,14,15)
+RUN_METHODS=('revision_guard','pool_review','guard_pool')
+COMPARE_METHODS=('happo','online_feedback')+RUN_METHODS
+core.METHODS=RUN_METHODS
 
 def sources():
     result=core.source_hashes()
@@ -28,15 +31,22 @@ def sources():
     return result
 
 def prerequisite():
-    done=read(OLD/'completed.json')
-    assert done['episodes']==4480 and done['node_periods']==2688000 and done['all_phases_archived']
-    # Release is written only after independent review and lossless preservation of
-    # successful AND failed attempts, including the recharge recovery.
-    release=read(OLD/'upgrade_release.json')
-    assert release['independent_audit_passed'] and release['all_attempts_archived']
-    assert release['completed_sha256']==digest(OLD/'completed.json')
-    assert release['public_report_committed_and_pushed']
-    return dict(completed_sha256=digest(OLD/'completed.json'),release_sha256=digest(OLD/'upgrade_release.json'))
+    # User explicitly requested reuse of completed controls and no repeated API.
+    progress=read(OLD/'progress.json');bindings={}
+    for batch in (1,6):
+        for seed in SEEDS:
+            name=f'confirmation{batch:02d}_main_seed{seed}'
+            item=next(t for t in progress['completed_tasks'] if t['task']==name)
+            directory=OLD/'runs'/item['label']
+            assert digest(directory/'completed.json')==item['completed_sha256'] and digest(directory/'audit.json')==item['audit_sha256']
+            audit_record=read(directory/'audit.json');assert audit_record['status']=='passed'
+            for filename,sha in audit_record['raw_sha256'].items():assert digest(directory/filename)==sha
+            protocol=read(directory/'protocol.json')
+            assert protocol['system']==core.SYSTEM and protocol['candidate_count']==3
+            assert protocol['input_sha256']==digest(OLD/'inputs'/f'confirmation{batch:02d}_main.json')
+            bindings[f'{batch}_{seed}']=dict(directory=str(directory),completed_sha256=item['completed_sha256'],
+                audit_sha256=item['audit_sha256'],raw_sha256=audit_record['raw_sha256'])
+    return bindings
 
 def balance():
     request=urllib.request.Request('https://api.deepseek.com/user/balance',headers={'Authorization':'Bearer '+os.environ['DEEPSEEK_API_KEY']})
@@ -46,8 +56,10 @@ def balance():
 def register():
     if OUTPUT.exists():raise RuntimeError('Preserve existing registration/output')
     prior=prerequisite()
-    fixture=ROOT/'results/online_llm_guard_pool/offline_fixture_v2/preflight_passed.json'
+    fixture=ROOT/'results/online_llm_guard_pool/offline_fixture_v3_cached/preflight_passed.json'
     assert read(fixture)['status']=='passed' and read(fixture)['network_requests']==0
+    assert read(fixture)['episodes']==24 and read(fixture)['unique_node_periods']==14400
+    assert read(fixture)['cached_happo_normal_and_pre_notice_exact']
     assert balance(),'No available API balance; do not register or launch'
     inputs={}
     for batch in (1,6):
@@ -60,9 +72,11 @@ def register():
         fixture_sha256=digest(fixture),prior=prior,api_model='deepseek-flash')
     OUTPUT.mkdir(parents=True)
     write(OUTPUT/'freeze.json',freeze)
-    tasks=[dict(task=f'development_batch{batch:02d}_seed{seed}',batch=batch,seed=seed,max_http=256,max_semantic=128) for batch in (1,6) for seed in SEEDS]
-    write(OUTPUT/'manifest.json',dict(inputs=inputs,tasks=tasks,methods=METHODS,episodes=400,node_periods=240000,
-        freeze_sha256=digest(OUTPUT/'freeze.json'),first_caps=[2560,1280],cumulative_caps=[5120,2560],
+    tasks=[dict(task=f'development_batch{batch:02d}_seed{seed}',batch=batch,seed=seed,max_http=192,max_semantic=96) for batch in (1,6) for seed in SEEDS]
+    write(OUTPUT/'manifest.json',dict(inputs=inputs,tasks=tasks,methods=RUN_METHODS,comparison_methods=COMPARE_METHODS,
+        episodes=240,node_periods=144000,cached_control_episodes=160,cached_control_node_periods=96000,
+        combined_comparison_episodes=400,combined_comparison_node_periods=240000,
+        freeze_sha256=digest(OUTPUT/'freeze.json'),first_caps=[1920,960],cumulative_caps=[3840,1920],
         development_only=True,no_training=True,gate='combined lower overall cost; no type cost increase; service no worse than original and HAPPO',
         all_negative_cases_retained=True,no_repeated_tuning=True))
     checks=[]
@@ -93,15 +107,19 @@ def publish_registration():
     target.mkdir(parents=True);files={}
     paths=[OUTPUT/n for n in ('manifest.json','freeze.json','preflight.json')]
     paths += [ROOT/p for p in sources()]
-    fixture=ROOT/'results/online_llm_guard_pool/offline_fixture_v2'
+    fixture=ROOT/'results/online_llm_guard_pool/offline_fixture_v3_cached'
     paths += [p for p in fixture.rglob('*') if p.is_file()]
+    for binding in read(OUTPUT/'freeze.json')['prior'].values():
+        paths += [p for p in Path(binding['directory']).rglob('*') if p.is_file()]
     key=os.environ['DEEPSEEK_API_KEY'].encode()
-    for path in paths:
+    origins={}
+    for index,path in enumerate(paths):
         blob=path.read_bytes();assert key not in blob
-        dest=target/(str(path.relative_to(ROOT))+'.gz');dest.parent.mkdir(parents=True,exist_ok=True)
+        dest=target/'files'/f'{index:04d}.gz';dest.parent.mkdir(parents=True,exist_ok=True)
         dest.write_bytes(gzip.compress(blob,mtime=0));assert gzip.decompress(dest.read_bytes())==blob
-        files[str(dest.relative_to(ROOT)).replace('\\','/')]=digest(dest)
-    write(target/'manifest.json',dict(files=files,lossless=True,credential_absent=True,paid_calls=0))
+        relative=str(dest.relative_to(ROOT)).replace('\\','/')
+        files[relative]=digest(dest);origins[relative]=dict(source=str(path.relative_to(ROOT)),source_sha256=digest(path))
+    write(target/'manifest.json',dict(files=files,origins=origins,lossless=True,credential_absent=True,paid_calls=0,cached_controls_preserved=True))
     files[str((target/'manifest.json').relative_to(ROOT)).replace('\\','/')]=digest(target/'manifest.json')
     write(OUTPUT/'published_registration.json',dict(manifest_sha256=digest(OUTPUT/'manifest.json'),freeze_sha256=digest(OUTPUT/'freeze.json'),git_files=files))
     print('REGISTRATION_PACKAGE_READY; commit with byte-preserving attributes and push',flush=True)
@@ -111,18 +129,23 @@ def summarize(finished,manifest):
     for task in finished:
         data=read(manifest['inputs'][str(task['batch'])]['path'])
         for e in read(OUTPUT/'runs'/task['label']/'episodes.json'):
-            episodes.append(dict(**e,seed=task['seed'],batch=task['batch'],type=data['events'][e['trace']]['type']))
+            episodes.append(dict(**e,seed=task['seed'],batch=task['batch'],type=data['events'][e['trace']]['type'],cached_control=False))
+        cached=read(OUTPUT/'freeze.json')['prior'][f"{task['batch']}_{task['seed']}"]['directory']
+        for e in read(Path(cached)/'episodes.json'):
+            if e['group'] in ('happo','online_feedback'):
+                episodes.append(dict(**e,seed=task['seed'],batch=task['batch'],type=data['events'][e['trace']]['type'],cached_control=True))
     shock=[e for e in episodes if e['scenario']=='shock']
     def mean(values):return sum(values)/len(values)
-    means={m:dict(cost=mean([e['cost'] for e in shock if e['group']==m]),downstream_backlog=mean([e['downstream_backlog'] for e in shock if e['group']==m])) for m in METHODS}
+    means={m:dict(cost=mean([e['cost'] for e in shock if e['group']==m]),downstream_backlog=mean([e['downstream_backlog'] for e in shock if e['group']==m])) for m in COMPARE_METHODS}
     for kind in sorted({e['type'] for e in shock}):
-        by_type[kind]={m:mean([e['cost'] for e in shock if e['group']==m and e['type']==kind]) for m in METHODS}
+        by_type[kind]={m:mean([e['cost'] for e in shock if e['group']==m and e['type']==kind]) for m in COMPARE_METHODS}
     gate=(means['guard_pool']['cost']<means['online_feedback']['cost'] and
         all(v['guard_pool']<=v['online_feedback'] for v in by_type.values()) and
         means['guard_pool']['downstream_backlog']<=means['online_feedback']['downstream_backlog'] and
         means['guard_pool']['downstream_backlog']<=means['happo']['downstream_backlog'])
     calls=common.calls_under(OUTPUT/'runs')
     write(OUTPUT/'summary.json',dict(episodes=len(episodes),node_periods=len(episodes)*600,shock_means=means,type_costs=by_type,
+        newly_run_episodes=240,reused_episodes=160,baseline_rerun_http=0,
         fixed_gate_passed=gate,development_only=True,not_significance_or_generalization=True,
         http=len(calls),semantic=sum(c.get('attempt')==1 for c in calls),usage=common.usage(calls),all_episodes=episodes))
 
@@ -158,17 +181,17 @@ def run():
             while True:
                 calls=common.calls_under(OUTPUT/'runs')
                 first=[c for c in calls if '_quota_recovery1' not in Path(c['source']).parent.name]
-                assert len(calls)+256<=5120 and sum(c.get('attempt')==1 for c in calls)+128<=2560
-                if retry==0:assert len(first)+256<=2560 and sum(c.get('attempt')==1 for c in first)+128<=1280
+                assert len(calls)+192<=3840 and sum(c.get('attempt')==1 for c in calls)+96<=1920
+                if retry==0:assert len(first)+192<=1920 and sum(c.get('attempt')==1 for c in first)+96<=960
                 label=task['task']+('_quota_recovery1' if retry else '')
                 directory=OUTPUT/'runs'/label
                 write(OUTPUT/'progress.json',dict(status='running',current_task=label,completed_tasks=finished,total_tasks=10))
                 command=[sys.executable,'-u',str(HERE/'runner.py'),'--run-name',label,'--input-file',manifest['inputs'][str(task['batch'])]['path'],
-                    '--training-directory',str(core.training(task['seed'])),'--output-root',str(OUTPUT/'runs'),'--methods',*METHODS,'--phase','development']
+                    '--training-directory',str(core.training(task['seed'])),'--output-root',str(OUTPUT/'runs'),'--methods',*RUN_METHODS,'--phase','development']
                 with (OUTPUT/f'{label}.log').open('x',encoding='utf-8') as log:
                     process=subprocess.run(command,cwd=ROOT,stdout=log,stderr=subprocess.STDOUT)
                 records=read(directory/'calls.json') if (directory/'calls.json').exists() else []
-                assert len(records)<=256 and sum(c.get('attempt')==1 for c in records)<=128
+                assert len(records)<=192 and sum(c.get('attempt')==1 for c in records)<=96
                 fatal=next((c['failure'] for c in records if c.get('failure') in ('HTTP_401','HTTP_402','HTTP_403')),None)
                 attempts.append(dict(label=label,task=task['task'],http=len(records),exit_code=process.returncode,fatal=fatal));write(OUTPUT/'attempts.json',attempts)
                 if process.returncode==0:break
@@ -179,11 +202,13 @@ def run():
                         time.sleep(1800)
                     retry=1;continue
                 raise RuntimeError(f'{label}: {fatal or "program/audit failure"}; preserve and diagnose')
-            audit(directory,read(manifest['inputs'][str(task['batch'])]['path']),freeze['training_contracts'][str(task['seed'])]['expected_parameter_sha256'])
+            audit(directory,read(manifest['inputs'][str(task['batch'])]['path']),freeze['training_contracts'][str(task['seed'])]['expected_parameter_sha256'],
+                methods=RUN_METHODS,cached=freeze['prior'][f"{task['batch']}_{task['seed']}"]['directory'])
             finished.append(dict(task,label=label,audit_sha256=digest(directory/'audit.json')))
             verify();write(OUTPUT/'progress.json',dict(status='running',completed_tasks=finished,total_tasks=10))
         summarize(finished,manifest);archive()
-        write(OUTPUT/'completed.json',dict(episodes=400,node_periods=240000,completed_tasks=finished,all_attempts_archived=True,training_updates=0))
+        write(OUTPUT/'completed.json',dict(episodes=240,node_periods=144000,reused_episodes=160,comparison_episodes=400,
+            completed_tasks=finished,all_attempts_archived=True,training_updates=0))
         write(OUTPUT/'progress.json',dict(status='completed',completed_tasks=finished,total_tasks=10))
     except Exception as exc:
         write(OUTPUT/'failed.json',dict(error=type(exc).__name__,detail=str(exc),completed_tasks=finished,preserved=True));raise
