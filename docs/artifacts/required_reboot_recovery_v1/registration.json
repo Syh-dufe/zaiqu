@@ -1,0 +1,1351 @@
+{
+  "original_source_sha256": "8ad5ee0f3c51d5564146234266f0c82f2f1663e96bef473bd2b228c420b05e40",
+  "recovery_source_sha256": "b1705206c9a8be2bf0cefa519181c74739faeec39cc36915467021dc8a4a8f5f",
+  "plan_sha256": "19e80ef53d17191143275afe79553a7b33dc9eac22047fe08359a0ca781da0a0",
+  "diagnosis_sha256": "39a4adaa32be2c81caf0e1d8699bc5073d875f8230358c14ac8f319191f01b51",
+  "adapted_run_sha256": "dab272c686d3e94338bb4320df6f1387d351bd491525744e6ee6769659bdaaec",
+  "reused_tasks": [
+    {
+      "phase": "development",
+      "seed": 11,
+      "path_batch": 1,
+      "input_id": "development01",
+      "methods": [
+        "happo",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "task": "development_seed11",
+      "max_http": 112,
+      "max_semantic": 56,
+      "label": "development_seed11",
+      "completed_sha256": "01c48c5fd9985379031e5a80850083579becf0d335e138fa09425b26ac748cdd",
+      "audit_sha256": "059c89a8a89bd8e0e3d473b1cbdfcbfc8cfb325bf06908d148e9f7bd8b8f011e"
+    },
+    {
+      "phase": "development",
+      "seed": 12,
+      "path_batch": 1,
+      "input_id": "development01",
+      "methods": [
+        "happo",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "task": "development_seed12",
+      "max_http": 112,
+      "max_semantic": 56,
+      "label": "development_seed12",
+      "completed_sha256": "274cf9ff82b5a4a4466d79d4477a82d12b4b97bf1de5205859c8a058f1d14597",
+      "audit_sha256": "eb8ca42590ad00e3229e9e4a5541d02f6c4aa710f12d14bcabaceee5f4e98dce"
+    },
+    {
+      "phase": "confirmation",
+      "seed": 11,
+      "path_batch": 1,
+      "input_id": "confirmation01_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation01_main_seed11",
+      "max_http": 176,
+      "max_semantic": 88,
+      "label": "confirmation01_main_seed11",
+      "completed_sha256": "197cd13369e82997ebbfd9c81233a9efe36e7d460e7d50188efdda76820bbef7",
+      "audit_sha256": "dc215696cbc69d8fa3197f4e0476ec83b4a990c021547e39503c6a01d907dbcd"
+    },
+    {
+      "phase": "confirmation",
+      "seed": 12,
+      "path_batch": 1,
+      "input_id": "confirmation01_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation01_main_seed12",
+      "max_http": 176,
+      "max_semantic": 88,
+      "label": "confirmation01_main_seed12",
+      "completed_sha256": "0adb562346a4a2ae62c277b20cecd15ff19d835cb746849318c207b2c9786f08",
+      "audit_sha256": "ac56b7cb30a2cb97b1b6a8037e68705b6bad1cda5e503d4816f01e173ae5bc99"
+    },
+    {
+      "phase": "confirmation",
+      "seed": 13,
+      "path_batch": 1,
+      "input_id": "confirmation01_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation01_main_seed13",
+      "max_http": 176,
+      "max_semantic": 88,
+      "label": "confirmation01_main_seed13",
+      "completed_sha256": "73adcb6b2eb67ceb523e58c011f67bdfd72a112360349c96b52aa82c7d77ed21",
+      "audit_sha256": "f8ad2c933d9e892c48f126d0f62b1583c046f685e672e026b6d2d71346452282"
+    },
+    {
+      "phase": "confirmation",
+      "seed": 14,
+      "path_batch": 1,
+      "input_id": "confirmation01_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation01_main_seed14",
+      "max_http": 176,
+      "max_semantic": 88,
+      "label": "confirmation01_main_seed14",
+      "completed_sha256": "384091cc826789fe800bec23202600b16fcdf136d806ad44d2519ef93ce98c11",
+      "audit_sha256": "efb21d51406b459856ea2173f0889e7c5d731e0c3e5ca0f0d6ca5e820712b4f8"
+    },
+    {
+      "phase": "confirmation",
+      "seed": 15,
+      "path_batch": 1,
+      "input_id": "confirmation01_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation01_main_seed15",
+      "max_http": 176,
+      "max_semantic": 88,
+      "label": "confirmation01_main_seed15",
+      "completed_sha256": "b38cca86c73c8db1ecb42d2f98ed3ab7746fbcfbb5d0314839f60b00a5199779",
+      "audit_sha256": "54beaebf5d4cb1e75eb4cc7e093209293f0d5050a6fd17271fd23372158a32a4"
+    },
+    {
+      "phase": "confirmation",
+      "seed": 11,
+      "path_batch": 2,
+      "input_id": "confirmation02_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation02_main_seed11",
+      "max_http": 176,
+      "max_semantic": 88,
+      "label": "confirmation02_main_seed11",
+      "completed_sha256": "a3db43af5fe60a43406a78e3f4b47907433608b97f29b362e22b9e518b92ffec",
+      "audit_sha256": "b3e7653d2daf085cdf116cc5ed6c1ecb8b914d844485afa6da397d237fa5b5e1"
+    },
+    {
+      "phase": "confirmation",
+      "seed": 12,
+      "path_batch": 2,
+      "input_id": "confirmation02_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation02_main_seed12",
+      "max_http": 176,
+      "max_semantic": 88,
+      "label": "confirmation02_main_seed12",
+      "completed_sha256": "571779570586f3729eedcfd8c0d8c64bc318d78ca3187b6749328be2212defab",
+      "audit_sha256": "a2c8904d4e725581262f644260bd559c73cf03a85004f556d45d2c3c5f9d62eb"
+    },
+    {
+      "phase": "confirmation",
+      "seed": 13,
+      "path_batch": 2,
+      "input_id": "confirmation02_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation02_main_seed13",
+      "max_http": 176,
+      "max_semantic": 88,
+      "label": "confirmation02_main_seed13",
+      "completed_sha256": "b593239b01bfceaa68990360c1fd604697ca09f043456b10fdaac9fb9de179d6",
+      "audit_sha256": "1ebe895374c1214b06b631d155222737fe6d2af461149ea876eff1ee7591e704"
+    },
+    {
+      "phase": "confirmation",
+      "seed": 14,
+      "path_batch": 2,
+      "input_id": "confirmation02_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation02_main_seed14",
+      "max_http": 176,
+      "max_semantic": 88,
+      "label": "confirmation02_main_seed14",
+      "completed_sha256": "08fed594f2323c6a2c837dc70ec80f7955af63031334261ce94cc4eeffacd041",
+      "audit_sha256": "a8b91410a5a2776f33cc26f6fe6d8441e5b2ffb7b38b02b7e850c62391feccbc"
+    },
+    {
+      "phase": "confirmation",
+      "seed": 15,
+      "path_batch": 2,
+      "input_id": "confirmation02_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation02_main_seed15",
+      "max_http": 176,
+      "max_semantic": 88,
+      "label": "confirmation02_main_seed15",
+      "completed_sha256": "b91e18d2c0c24ea57c495fab66c4369f7f19f5befad2ad377eda4e4ea25f6d02",
+      "audit_sha256": "918c1ddf983cf268c812c7212f70f2f227ad9cd4fcb42924aa66786abee6690b"
+    },
+    {
+      "phase": "confirmation",
+      "seed": 11,
+      "path_batch": 3,
+      "input_id": "confirmation03_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation03_main_seed11",
+      "max_http": 176,
+      "max_semantic": 88,
+      "label": "confirmation03_main_seed11",
+      "completed_sha256": "2fd7e380b1807a197f24b6e636999e0d2596281d332d245aeb77bf994d5c792a",
+      "audit_sha256": "8650714d1d9ae79d498aac0bd5ae73810006b3ca539bf56fbe6601957da0ba4d"
+    },
+    {
+      "phase": "confirmation",
+      "seed": 12,
+      "path_batch": 3,
+      "input_id": "confirmation03_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation03_main_seed12",
+      "max_http": 176,
+      "max_semantic": 88,
+      "label": "confirmation03_main_seed12",
+      "completed_sha256": "c53e3c2b3ff0749ac6eb8cc14dd00bc09aed47e952181f05f82c926e2418dbe1",
+      "audit_sha256": "675002df7605a6166351a81bbbbad40df2bc540cb137991c843037d1be477c85"
+    },
+    {
+      "phase": "confirmation",
+      "seed": 13,
+      "path_batch": 3,
+      "input_id": "confirmation03_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation03_main_seed13",
+      "max_http": 176,
+      "max_semantic": 88,
+      "label": "confirmation03_main_seed13",
+      "completed_sha256": "f52ca9459abe973fa12b349e414facb3ce2a55a2e4c8a26a780319aa59b2c5df",
+      "audit_sha256": "02bf741be4a8ad8609cc3f2c0addbf4751ff09db6f77038afa9dfc66e4e6581a"
+    },
+    {
+      "phase": "confirmation",
+      "seed": 14,
+      "path_batch": 3,
+      "input_id": "confirmation03_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation03_main_seed14",
+      "max_http": 176,
+      "max_semantic": 88,
+      "label": "confirmation03_main_seed14",
+      "completed_sha256": "8f8d3d853b75f98965c7eb3b4b2ebd20d7ae8d151b9744464d250b102fcffe34",
+      "audit_sha256": "3b14591e313f27ba351ff9f99ab8fd4f5c31fb7b0b232879bc58e3ec761f9eaa"
+    },
+    {
+      "phase": "confirmation",
+      "seed": 15,
+      "path_batch": 3,
+      "input_id": "confirmation03_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation03_main_seed15",
+      "max_http": 176,
+      "max_semantic": 88,
+      "label": "confirmation03_main_seed15",
+      "completed_sha256": "c4bf61d7abc285ac92fe3e24b6e0e56a958d39ac69e576bd7742b7d5fef9ef40",
+      "audit_sha256": "5935b3cc1f76be715a3573050db22577c50bea2187a895c526597a7758711bb3"
+    },
+    {
+      "phase": "confirmation",
+      "seed": 11,
+      "path_batch": 4,
+      "input_id": "confirmation04_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation04_main_seed11",
+      "max_http": 176,
+      "max_semantic": 88,
+      "label": "confirmation04_main_seed11",
+      "completed_sha256": "d1ffd26031c1a380169cef5c958034eed4a877efd69f1ba337fcdbb346b826ae",
+      "audit_sha256": "1005987abf946d4175bc8f5618d4c2a82c1347f224831c8e9aca8b89371fd84e"
+    },
+    {
+      "phase": "confirmation",
+      "seed": 12,
+      "path_batch": 4,
+      "input_id": "confirmation04_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation04_main_seed12",
+      "max_http": 176,
+      "max_semantic": 88,
+      "label": "confirmation04_main_seed12",
+      "completed_sha256": "f6f5f3c30bf2c2ebb198881be6994a35162bfcbfb04c3890177b3751a2084297",
+      "audit_sha256": "6a847135fefe081748cee97cdf796086cee681f5f5c0d794be525d2d9718139a"
+    },
+    {
+      "phase": "confirmation",
+      "seed": 13,
+      "path_batch": 4,
+      "input_id": "confirmation04_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation04_main_seed13",
+      "max_http": 176,
+      "max_semantic": 88,
+      "label": "confirmation04_main_seed13",
+      "completed_sha256": "48123a1ac748db0ecf535e14f354465b782ba12485738a71690870ab484a805b",
+      "audit_sha256": "6419b672dc2f2ba20f5006161a5e52a937f2fccaa467a85cf006792868da724f"
+    },
+    {
+      "phase": "confirmation",
+      "seed": 14,
+      "path_batch": 4,
+      "input_id": "confirmation04_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation04_main_seed14",
+      "max_http": 176,
+      "max_semantic": 88,
+      "label": "confirmation04_main_seed14_quota_recovery1",
+      "completed_sha256": "91a6af27c526c22a509ad0ba26cf984d0e2c5af59f65cf098926ac7acacc9e16",
+      "audit_sha256": "679373e4a8adab8c3ea99292099598d275807dd6d44b9c025d12f5f744a098a2"
+    },
+    {
+      "phase": "confirmation",
+      "seed": 15,
+      "path_batch": 4,
+      "input_id": "confirmation04_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation04_main_seed15",
+      "max_http": 176,
+      "max_semantic": 88,
+      "label": "confirmation04_main_seed15",
+      "completed_sha256": "339dd9d502d6252993296e91f0b209dff4ad5a782d9fd2037baf6f4e3571feac",
+      "audit_sha256": "b351d6fa620cd0392507e1ddd100043820c27de3a85d310eb6a9bbbaa8dd1b8c"
+    },
+    {
+      "phase": "confirmation",
+      "seed": 11,
+      "path_batch": 5,
+      "input_id": "confirmation05_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation05_main_seed11",
+      "max_http": 176,
+      "max_semantic": 88,
+      "label": "confirmation05_main_seed11",
+      "completed_sha256": "50e13e8b353425c1f57520d2edb260bd54f8cf315fb6f37211e115095f5529eb",
+      "audit_sha256": "b5840fbc62962f69dec77db270a1123536937084aab27b239e311a0e7cac6cee"
+    },
+    {
+      "phase": "confirmation",
+      "seed": 12,
+      "path_batch": 5,
+      "input_id": "confirmation05_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation05_main_seed12",
+      "max_http": 176,
+      "max_semantic": 88,
+      "label": "confirmation05_main_seed12",
+      "completed_sha256": "170cf9704db773cbaf618274172f2886aa5f5c9856d756ee8e075ca2e7f83256",
+      "audit_sha256": "247a3a80b5eee3efce60d4ad4a55ec22b0429b68faa0ee6917fcc8678857548c"
+    },
+    {
+      "phase": "confirmation",
+      "seed": 13,
+      "path_batch": 5,
+      "input_id": "confirmation05_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation05_main_seed13",
+      "max_http": 176,
+      "max_semantic": 88,
+      "label": "confirmation05_main_seed13",
+      "completed_sha256": "3ae4ff203560d76f973b762246e205e774102d252758a51167da0dee4b4c98f4",
+      "audit_sha256": "38582351a082ad3a46d57c7771084835d1888b947b9355b38a272b95f48f5ce7"
+    },
+    {
+      "phase": "confirmation",
+      "seed": 14,
+      "path_batch": 5,
+      "input_id": "confirmation05_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation05_main_seed14",
+      "max_http": 176,
+      "max_semantic": 88,
+      "label": "confirmation05_main_seed14",
+      "completed_sha256": "c0bc87ba3b3a942af684b1fdac274de76fbb7e06637901a4466a25f90ba936f9",
+      "audit_sha256": "479db945552b201a024d7d4927071cbc9ff0fad13fb7d805807c5687d8e0a421"
+    },
+    {
+      "phase": "confirmation",
+      "seed": 15,
+      "path_batch": 5,
+      "input_id": "confirmation05_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation05_main_seed15",
+      "max_http": 176,
+      "max_semantic": 88,
+      "label": "confirmation05_main_seed15",
+      "completed_sha256": "d923f52b215a23191922cef3bce413c6ff6277ab369c432d0e44110a19984e9e",
+      "audit_sha256": "3e1172ad5fcb12b5ddf1863071b690c1b34703f39b13cc5d96f3d54ed67134dd"
+    },
+    {
+      "phase": "confirmation",
+      "seed": 11,
+      "path_batch": 6,
+      "input_id": "confirmation06_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation06_main_seed11",
+      "max_http": 176,
+      "max_semantic": 88,
+      "label": "confirmation06_main_seed11",
+      "completed_sha256": "5ec9f6291ef41e027bcc622d93cf0e4d06427f64ca92c0da9efe0f9a9df05d8f",
+      "audit_sha256": "8cec4b67fc73cc4452d55c06e7f5c3528dd75930824acf746cb81f1a9018391c"
+    },
+    {
+      "phase": "confirmation",
+      "seed": 12,
+      "path_batch": 6,
+      "input_id": "confirmation06_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation06_main_seed12",
+      "max_http": 176,
+      "max_semantic": 88,
+      "label": "confirmation06_main_seed12",
+      "completed_sha256": "4ed0c031356581f9fa84dba25008c501fa02e57c78ce8452ea64382703e411f0",
+      "audit_sha256": "4f2d388c31b170f0ddbee8f5ff69da9bdbcf75b483da1bbea80409fdf76b27cf"
+    },
+    {
+      "phase": "confirmation",
+      "seed": 13,
+      "path_batch": 6,
+      "input_id": "confirmation06_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation06_main_seed13",
+      "max_http": 176,
+      "max_semantic": 88,
+      "label": "confirmation06_main_seed13",
+      "completed_sha256": "964f6b66befff89934328c1a13d26ee213eec76245b75c605ae1d7c93f7357c8",
+      "audit_sha256": "3cf95d0f794ea1289c21a2c106f90704faf8693cadff4a58ea10ad75bb1a488c"
+    },
+    {
+      "phase": "confirmation",
+      "seed": 14,
+      "path_batch": 6,
+      "input_id": "confirmation06_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation06_main_seed14",
+      "max_http": 176,
+      "max_semantic": 88,
+      "label": "confirmation06_main_seed14",
+      "completed_sha256": "e1d42b0a8193f34de008eedfa722983aad92e90a43d46b9df7645c042bb41010",
+      "audit_sha256": "c41804b394be8521cc19d81bae6ca42eefa80a8ba4aada64e7fb3f5a6bd4f935"
+    },
+    {
+      "phase": "confirmation",
+      "seed": 15,
+      "path_batch": 6,
+      "input_id": "confirmation06_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation06_main_seed15",
+      "max_http": 176,
+      "max_semantic": 88,
+      "label": "confirmation06_main_seed15",
+      "completed_sha256": "d7fb1847b3f8c2b0d16c24c3c7d6175b1b8fcaf2d0b536eba5ab4e1c9a1cbf9e",
+      "audit_sha256": "8e8c347845f483f1d8e67fff6929ad0c926c5e400c3a7b9ccfc8c8ae147533a6"
+    },
+    {
+      "phase": "confirmation",
+      "seed": 11,
+      "path_batch": 7,
+      "input_id": "confirmation07_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation07_main_seed11",
+      "max_http": 176,
+      "max_semantic": 88,
+      "label": "confirmation07_main_seed11",
+      "completed_sha256": "ae4d2e94bcdf650d70360ef7b9b109dfe4f14b901c08dfcc62305a8b56747fbd",
+      "audit_sha256": "e36f1cc250e26f766c07b674323288cbe4350b40efb03cd4f3c491c1c0288154"
+    },
+    {
+      "phase": "confirmation",
+      "seed": 12,
+      "path_batch": 7,
+      "input_id": "confirmation07_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation07_main_seed12",
+      "max_http": 176,
+      "max_semantic": 88,
+      "label": "confirmation07_main_seed12",
+      "completed_sha256": "f647e8161eaddf8644ee4e8a1e975d78acb958113d4299e87c79f1539ee9e617",
+      "audit_sha256": "4b57db4222f2ce476ff66edd4718f7287821338e558b1e09822b42b705a47d26"
+    },
+    {
+      "phase": "confirmation",
+      "seed": 13,
+      "path_batch": 7,
+      "input_id": "confirmation07_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation07_main_seed13",
+      "max_http": 176,
+      "max_semantic": 88,
+      "label": "confirmation07_main_seed13",
+      "completed_sha256": "e387e8ea287cb017be5e457abf4d8d37e23f5e70bb8015556d377ee3e7540e7a",
+      "audit_sha256": "172f91108ba4c0d0f402297a683979391f11c5eccea88147c5f89cc7d20f804d"
+    },
+    {
+      "phase": "confirmation",
+      "seed": 14,
+      "path_batch": 7,
+      "input_id": "confirmation07_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation07_main_seed14",
+      "max_http": 176,
+      "max_semantic": 88,
+      "label": "confirmation07_main_seed14",
+      "completed_sha256": "615c2e95d33ea3e4b43c10306fe369dd7baf05fd49cafaa42e983dea7594b7ec",
+      "audit_sha256": "0e49675b1e7408207a17e8ffe6909f94178fe46f069003f8e377f18535bee799"
+    },
+    {
+      "phase": "confirmation",
+      "seed": 15,
+      "path_batch": 7,
+      "input_id": "confirmation07_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation07_main_seed15",
+      "max_http": 176,
+      "max_semantic": 88,
+      "label": "confirmation07_main_seed15",
+      "completed_sha256": "b74ab67310247d8cc3fbc085c1b3c2d51a04a48a5678a2f31e51c0ba1b2f9e57",
+      "audit_sha256": "79479006dfdc91c60295aa535c712562dd071910b3df0a2daa99d60f82935146"
+    },
+    {
+      "phase": "confirmation",
+      "seed": 11,
+      "path_batch": 8,
+      "input_id": "confirmation08_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation08_main_seed11",
+      "max_http": 176,
+      "max_semantic": 88,
+      "label": "confirmation08_main_seed11",
+      "completed_sha256": "0effd526d6e26e09ac5f3beb32518b591c2b2d38168f25f738690b575e0fdc24",
+      "audit_sha256": "d7a3eca837bc0f05a07ba30bff3de3d6fc7faefa17e04b3d34c780ddee24b291"
+    },
+    {
+      "phase": "confirmation",
+      "seed": 12,
+      "path_batch": 8,
+      "input_id": "confirmation08_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation08_main_seed12",
+      "max_http": 176,
+      "max_semantic": 88,
+      "label": "confirmation08_main_seed12",
+      "completed_sha256": "f6bf5848c90df992c4e6cd6eba00452889b5b0849d5dea1cfa342214e31ef764",
+      "audit_sha256": "7699cfbc48235ec47c9931ad0cc26bba29c39ac93abcdf9ab11459a3291a2328"
+    },
+    {
+      "phase": "confirmation",
+      "seed": 13,
+      "path_batch": 8,
+      "input_id": "confirmation08_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation08_main_seed13",
+      "max_http": 176,
+      "max_semantic": 88,
+      "label": "confirmation08_main_seed13",
+      "completed_sha256": "d56a7052201f9c14a4678736aa383e59804e2d6384d3c8c5ad701b565b8ea999",
+      "audit_sha256": "2e757f95e8435a9b7530bec8128bc1b9106c7368529299c27040aa4852ebe0f0"
+    },
+    {
+      "phase": "confirmation",
+      "seed": 14,
+      "path_batch": 8,
+      "input_id": "confirmation08_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation08_main_seed14",
+      "max_http": 176,
+      "max_semantic": 88,
+      "label": "confirmation08_main_seed14",
+      "completed_sha256": "2bd07b744ecab1b8d49ba06dfc739c5821d23619c09054b2afa3fd77bd3fb480",
+      "audit_sha256": "e112a7c56e55000e1f438b16e58f6eb049bdec49ab03953992bc22a489d3b291"
+    },
+    {
+      "phase": "confirmation",
+      "seed": 15,
+      "path_batch": 8,
+      "input_id": "confirmation08_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation08_main_seed15",
+      "max_http": 176,
+      "max_semantic": 88,
+      "label": "confirmation08_main_seed15",
+      "completed_sha256": "af71df5a48e95a8f4d5b5eb87ab4401de5938e7af249194c42b7638eba16b5e0",
+      "audit_sha256": "09c7cc0cfbe99a00af320c991306508c4b690da8696becee004ad1818b1e6b32"
+    },
+    {
+      "phase": "confirmation",
+      "seed": 11,
+      "path_batch": 9,
+      "input_id": "confirmation09_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation09_main_seed11",
+      "max_http": 176,
+      "max_semantic": 88,
+      "label": "confirmation09_main_seed11",
+      "completed_sha256": "e99f57d6ad352f1219ce5015e250adea0cff91c74e9a1c784016606f8aa46671",
+      "audit_sha256": "a9a62ea44f09d9ff7ba46a457010f6bec1f5272f4f0bba1c65177367b2146ac7"
+    },
+    {
+      "phase": "confirmation",
+      "seed": 12,
+      "path_batch": 9,
+      "input_id": "confirmation09_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation09_main_seed12",
+      "max_http": 176,
+      "max_semantic": 88,
+      "label": "confirmation09_main_seed12",
+      "completed_sha256": "6a705b6f7be0899380cd0671d02209be05d997e25623fbdf52cbfdb68d797b8a",
+      "audit_sha256": "6f815c57cbaebb7d72c5c4bea114b66fdd7f147de9b527af22362bc04cd9e3f9"
+    },
+    {
+      "phase": "confirmation",
+      "seed": 13,
+      "path_batch": 9,
+      "input_id": "confirmation09_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation09_main_seed13",
+      "max_http": 176,
+      "max_semantic": 88,
+      "label": "confirmation09_main_seed13",
+      "completed_sha256": "7fa7b9362aa8e362cf1e85a5d27b5641b8d83afea5c1f3472f506090360b4e95",
+      "audit_sha256": "967ccf6fa00a7b4225996f5819091fd10c330f8e27ec990b998471d516f7f997"
+    },
+    {
+      "phase": "confirmation",
+      "seed": 14,
+      "path_batch": 9,
+      "input_id": "confirmation09_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation09_main_seed14",
+      "max_http": 176,
+      "max_semantic": 88,
+      "label": "confirmation09_main_seed14",
+      "completed_sha256": "f15cc87683ee2de7f7fccc47988ae699aee3945daf0e4b5afe215d65b5bb6ff7",
+      "audit_sha256": "80dac61c2c46d694c6c6d0e04439bb90876e28d0a70a3ef1d060a3653d33fb50"
+    },
+    {
+      "phase": "confirmation",
+      "seed": 15,
+      "path_batch": 9,
+      "input_id": "confirmation09_main",
+      "methods": [
+        "happo",
+        "online_feedback",
+        "no_feedback",
+        "no_review",
+        "first_only",
+        "deterministic_search"
+      ],
+      "setting": "main",
+      "task": "confirmation09_main_seed15",
+      "max_http": 176,
+      "max_semantic": 88,
+      "label": "confirmation09_main_seed15",
+      "completed_sha256": "c2fbb151621929b5d51fc50349c2cfdf093f11b092d65d1467c7e8ecac1ef44f",
+      "audit_sha256": "3fb9d60c209c799d3cc0fc477408be8b0abc008e7aaa28f71810764072460465"
+    }
+  ],
+  "pending": "confirmation10_main_seed11",
+  "prior_attempts": [
+    {
+      "task": "development_seed11",
+      "label": "development_seed11",
+      "exit_code": 0,
+      "fatal": null,
+      "http": 60
+    },
+    {
+      "task": "development_seed12",
+      "label": "development_seed12",
+      "exit_code": 0,
+      "fatal": null,
+      "http": 63
+    },
+    {
+      "task": "confirmation01_main_seed11",
+      "label": "confirmation01_main_seed11",
+      "exit_code": 0,
+      "fatal": null,
+      "http": 96
+    },
+    {
+      "task": "confirmation01_main_seed12",
+      "label": "confirmation01_main_seed12",
+      "exit_code": 0,
+      "fatal": null,
+      "http": 97
+    },
+    {
+      "task": "confirmation01_main_seed13",
+      "label": "confirmation01_main_seed13",
+      "exit_code": 0,
+      "fatal": null,
+      "http": 94
+    },
+    {
+      "task": "confirmation01_main_seed14",
+      "label": "confirmation01_main_seed14",
+      "exit_code": 0,
+      "fatal": null,
+      "http": 97
+    },
+    {
+      "task": "confirmation01_main_seed15",
+      "label": "confirmation01_main_seed15",
+      "exit_code": 0,
+      "fatal": null,
+      "http": 93
+    },
+    {
+      "task": "confirmation02_main_seed11",
+      "label": "confirmation02_main_seed11",
+      "exit_code": 0,
+      "fatal": null,
+      "http": 95
+    },
+    {
+      "task": "confirmation02_main_seed12",
+      "label": "confirmation02_main_seed12",
+      "exit_code": 0,
+      "fatal": null,
+      "http": 94
+    },
+    {
+      "task": "confirmation02_main_seed13",
+      "label": "confirmation02_main_seed13",
+      "exit_code": 0,
+      "fatal": null,
+      "http": 93
+    },
+    {
+      "task": "confirmation02_main_seed14",
+      "label": "confirmation02_main_seed14",
+      "exit_code": 0,
+      "fatal": null,
+      "http": 94
+    },
+    {
+      "task": "confirmation02_main_seed15",
+      "label": "confirmation02_main_seed15",
+      "exit_code": 0,
+      "fatal": null,
+      "http": 91
+    },
+    {
+      "task": "confirmation03_main_seed11",
+      "label": "confirmation03_main_seed11",
+      "exit_code": 0,
+      "fatal": null,
+      "http": 96
+    },
+    {
+      "task": "confirmation03_main_seed12",
+      "label": "confirmation03_main_seed12",
+      "exit_code": 0,
+      "fatal": null,
+      "http": 99
+    },
+    {
+      "task": "confirmation03_main_seed13",
+      "label": "confirmation03_main_seed13",
+      "exit_code": 0,
+      "fatal": null,
+      "http": 95
+    },
+    {
+      "task": "confirmation03_main_seed14",
+      "label": "confirmation03_main_seed14",
+      "exit_code": 0,
+      "fatal": null,
+      "http": 94
+    },
+    {
+      "task": "confirmation03_main_seed15",
+      "label": "confirmation03_main_seed15",
+      "exit_code": 0,
+      "fatal": null,
+      "http": 93
+    },
+    {
+      "task": "confirmation04_main_seed11",
+      "label": "confirmation04_main_seed11",
+      "exit_code": 0,
+      "fatal": null,
+      "http": 96
+    },
+    {
+      "task": "confirmation04_main_seed12",
+      "label": "confirmation04_main_seed12",
+      "exit_code": 0,
+      "fatal": null,
+      "http": 94
+    },
+    {
+      "task": "confirmation04_main_seed13",
+      "label": "confirmation04_main_seed13",
+      "exit_code": 0,
+      "fatal": null,
+      "http": 93
+    },
+    {
+      "task": "confirmation04_main_seed14",
+      "label": "confirmation04_main_seed14",
+      "exit_code": 1,
+      "fatal": "HTTP_402",
+      "http": 64
+    },
+    {
+      "task": "confirmation04_main_seed14",
+      "label": "confirmation04_main_seed14_quota_recovery1",
+      "exit_code": 0,
+      "fatal": null,
+      "http": 98
+    },
+    {
+      "task": "confirmation04_main_seed15",
+      "label": "confirmation04_main_seed15",
+      "exit_code": 0,
+      "fatal": null,
+      "http": 95
+    },
+    {
+      "task": "confirmation05_main_seed11",
+      "label": "confirmation05_main_seed11",
+      "exit_code": 0,
+      "fatal": null,
+      "http": 93
+    },
+    {
+      "task": "confirmation05_main_seed12",
+      "label": "confirmation05_main_seed12",
+      "exit_code": 0,
+      "fatal": null,
+      "http": 93
+    },
+    {
+      "task": "confirmation05_main_seed13",
+      "label": "confirmation05_main_seed13",
+      "exit_code": 0,
+      "fatal": null,
+      "http": 92
+    },
+    {
+      "task": "confirmation05_main_seed14",
+      "label": "confirmation05_main_seed14",
+      "exit_code": 0,
+      "fatal": null,
+      "http": 94
+    },
+    {
+      "task": "confirmation05_main_seed15",
+      "label": "confirmation05_main_seed15",
+      "exit_code": 0,
+      "fatal": null,
+      "http": 97
+    },
+    {
+      "task": "confirmation06_main_seed11",
+      "label": "confirmation06_main_seed11",
+      "exit_code": 0,
+      "fatal": null,
+      "http": 98
+    },
+    {
+      "task": "confirmation06_main_seed12",
+      "label": "confirmation06_main_seed12",
+      "exit_code": 0,
+      "fatal": null,
+      "http": 95
+    },
+    {
+      "task": "confirmation06_main_seed13",
+      "label": "confirmation06_main_seed13",
+      "exit_code": 0,
+      "fatal": null,
+      "http": 91
+    },
+    {
+      "task": "confirmation06_main_seed14",
+      "label": "confirmation06_main_seed14",
+      "exit_code": 0,
+      "fatal": null,
+      "http": 95
+    },
+    {
+      "task": "confirmation06_main_seed15",
+      "label": "confirmation06_main_seed15",
+      "exit_code": 0,
+      "fatal": null,
+      "http": 95
+    },
+    {
+      "task": "confirmation07_main_seed11",
+      "label": "confirmation07_main_seed11",
+      "exit_code": 0,
+      "fatal": null,
+      "http": 99
+    },
+    {
+      "task": "confirmation07_main_seed12",
+      "label": "confirmation07_main_seed12",
+      "exit_code": 0,
+      "fatal": null,
+      "http": 89
+    },
+    {
+      "task": "confirmation07_main_seed13",
+      "label": "confirmation07_main_seed13",
+      "exit_code": 0,
+      "fatal": null,
+      "http": 95
+    },
+    {
+      "task": "confirmation07_main_seed14",
+      "label": "confirmation07_main_seed14",
+      "exit_code": 0,
+      "fatal": null,
+      "http": 95
+    },
+    {
+      "task": "confirmation07_main_seed15",
+      "label": "confirmation07_main_seed15",
+      "exit_code": 0,
+      "fatal": null,
+      "http": 93
+    },
+    {
+      "task": "confirmation08_main_seed11",
+      "label": "confirmation08_main_seed11",
+      "exit_code": 0,
+      "fatal": null,
+      "http": 97
+    },
+    {
+      "task": "confirmation08_main_seed12",
+      "label": "confirmation08_main_seed12",
+      "exit_code": 0,
+      "fatal": null,
+      "http": 95
+    },
+    {
+      "task": "confirmation08_main_seed13",
+      "label": "confirmation08_main_seed13",
+      "exit_code": 0,
+      "fatal": null,
+      "http": 96
+    },
+    {
+      "task": "confirmation08_main_seed14",
+      "label": "confirmation08_main_seed14",
+      "exit_code": 0,
+      "fatal": null,
+      "http": 99
+    },
+    {
+      "task": "confirmation08_main_seed15",
+      "label": "confirmation08_main_seed15",
+      "exit_code": 0,
+      "fatal": null,
+      "http": 96
+    },
+    {
+      "task": "confirmation09_main_seed11",
+      "label": "confirmation09_main_seed11",
+      "exit_code": 0,
+      "fatal": null,
+      "http": 91
+    },
+    {
+      "task": "confirmation09_main_seed12",
+      "label": "confirmation09_main_seed12",
+      "exit_code": 0,
+      "fatal": null,
+      "http": 95
+    },
+    {
+      "task": "confirmation09_main_seed13",
+      "label": "confirmation09_main_seed13",
+      "exit_code": 0,
+      "fatal": null,
+      "http": 94
+    },
+    {
+      "task": "confirmation09_main_seed14",
+      "label": "confirmation09_main_seed14",
+      "exit_code": 0,
+      "fatal": null,
+      "http": 98
+    },
+    {
+      "task": "confirmation09_main_seed15",
+      "label": "confirmation09_main_seed15",
+      "exit_code": 0,
+      "fatal": null,
+      "http": 92
+    },
+    {
+      "task": "confirmation10_main_seed11",
+      "label": "confirmation10_main_seed11",
+      "exit_code": null,
+      "fatal": "computer_reboot",
+      "http": null,
+      "reserved_http_upper_bound": 176,
+      "reserved_semantic_upper_bound": 88,
+      "usage_unknown": true,
+      "partial_excluded_from_performance": true
+    }
+  ],
+  "interrupted_task_reserved_http": 176,
+  "interrupted_task_reserved_semantic": 88,
+  "interrupted_usage_unknown": true,
+  "new_inputs": false,
+  "new_models": false,
+  "prompt_or_selection_changes": false,
+  "paid_calls": 0,
+  "remaining_first_and_cumulative_caps_unchanged": true,
+  "crash_replay_limit": 1
+}

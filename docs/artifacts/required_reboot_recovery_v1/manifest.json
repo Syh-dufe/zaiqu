@@ -1,0 +1,145 @@
+{
+  "files": {
+    "docs/artifacts/required_reboot_recovery_v1/files/0000.gz": {
+      "source": "experiments\\submission_required_reboot_recovery\\resume.py",
+      "sha256": "8b0872f989f6214b6f50201722d3b72b0e9689c27bdd70e35dff2bd517cbbb37"
+    },
+    "docs/artifacts/required_reboot_recovery_v1/files/0001.gz": {
+      "source": "docs\\superpowers\\plans\\2026-10-10-required-reboot-recovery.md",
+      "sha256": "4dbf1ecb537860e506073c0662fb4d27d3e0789d086e5e1f6342dbebc0153bf9"
+    },
+    "docs/artifacts/required_reboot_recovery_v1/files/0002.gz": {
+      "source": "experiments\\online_llm_artifacts\\diagnose_reboot_20261010.py",
+      "sha256": "cc3d0d7ca6947e24e06632969b4600a1d803ca4daf4af29de9c40368c1f6b66f"
+    },
+    "docs/artifacts/required_reboot_recovery_v1/files/0003.gz": {
+      "source": "results\\reboot_diagnosis\\20261010_v1\\diagnosis.json",
+      "sha256": "9bd216cc9172c092d088112e59dcf401511ecc534a217ffe7828dbcda2e1b5ad"
+    },
+    "docs/artifacts/required_reboot_recovery_v1/files/0004.gz": {
+      "source": "results\\reboot_diagnosis\\20261010_v1\\preserved\\results\\online_llm_guard_pool\\offline_fixture_v1\\calls.json.gz",
+      "sha256": "a78f0cdd86051bbbc7368f6fa5ccc3540a49cc0205cdc40a9427e241b9b76053"
+    },
+    "docs/artifacts/required_reboot_recovery_v1/files/0005.gz": {
+      "source": "results\\reboot_diagnosis\\20261010_v1\\preserved\\results\\online_llm_guard_pool\\offline_fixture_v1\\delivered_reports.json.gz",
+      "sha256": "9403313f3277c9284053a70023144f10ef7c6a05c24e2997adf2ed308f370ca6"
+    },
+    "docs/artifacts/required_reboot_recovery_v1/files/0006.gz": {
+      "source": "results\\reboot_diagnosis\\20261010_v1\\preserved\\results\\online_llm_guard_pool\\offline_fixture_v1\\demands.json.gz",
+      "sha256": "217fc055db3601a757b5ee505721ce8e29aba952f082f5778c3c873100538eee"
+    },
+    "docs/artifacts/required_reboot_recovery_v1/files/0007.gz": {
+      "source": "results\\reboot_diagnosis\\20261010_v1\\preserved\\results\\online_llm_guard_pool\\offline_fixture_v1\\episodes.json.gz",
+      "sha256": "ee61bdda3494dcd5089742ac1aa6c6ec2053f0de9001c58db3151724c7db04b8"
+    },
+    "docs/artifacts/required_reboot_recovery_v1/files/0008.gz": {
+      "source": "results\\reboot_diagnosis\\20261010_v1\\preserved\\results\\online_llm_guard_pool\\offline_fixture_v1\\information_audits.json.gz",
+      "sha256": "f707588c5a989f169213892e6b9622b2f28a18fd80c8e6a0bffcb2571af0d59f"
+    },
+    "docs/artifacts/required_reboot_recovery_v1/files/0009.gz": {
+      "source": "results\\reboot_diagnosis\\20261010_v1\\preserved\\results\\online_llm_guard_pool\\offline_fixture_v1\\periods.csv.gz",
+      "sha256": "91b55425dddc5b276f30f92b1f00390ead2d7c7b42941753fd9f561b02e63f7b"
+    },
+    "docs/artifacts/required_reboot_recovery_v1/files/0010.gz": {
+      "source": "results\\reboot_diagnosis\\20261010_v1\\preserved\\results\\online_llm_guard_pool\\offline_fixture_v1\\protocol.json.gz",
+      "sha256": "b51e40b70af37a8f906fe366c84c49eb488d7b8b70366e26b377c0774971c43b"
+    },
+    "docs/artifacts/required_reboot_recovery_v1/files/0011.gz": {
+      "source": "results\\reboot_diagnosis\\20261010_v1\\preserved\\results\\online_llm_guard_pool\\offline_fixture_v1\\runtime_failures.json.gz",
+      "sha256": "43edd45a3348f4ae62fc73a7ef0ab37f6eaee6c161fa86e9f382322bdf5d5339"
+    },
+    "docs/artifacts/required_reboot_recovery_v1/files/0012.gz": {
+      "source": "results\\reboot_diagnosis\\20261010_v1\\preserved\\results\\online_llm_guard_pool\\offline_fixture_v1\\scores.json.gz",
+      "sha256": "da8792156e17bf2a0c9cc926669230942e067d993d2d0a3cc42a4b24284b33af"
+    },
+    "docs/artifacts/required_reboot_recovery_v1/files/0013.gz": {
+      "source": "results\\reboot_diagnosis\\20261010_v1\\preserved\\results\\online_llm_guard_pool\\offline_fixture_v1\\guard_pool\\logs\\events.out.tfevents.1791565281.\u77f3\u539f\u8d6b\u7684\u7535\u8111.gz",
+      "sha256": "e644b9e4a21884ef9e9a3b3c4044db37d82222389729af47da1455a94582009c"
+    },
+    "docs/artifacts/required_reboot_recovery_v1/files/0014.gz": {
+      "source": "results\\reboot_diagnosis\\20261010_v1\\preserved\\results\\online_llm_guard_pool\\offline_fixture_v1\\happo\\logs\\events.out.tfevents.1791565104.\u77f3\u539f\u8d6b\u7684\u7535\u8111.gz",
+      "sha256": "3d22bdd6e830a74e72169236e866290d05e82797b301703387f65e771f35f414"
+    },
+    "docs/artifacts/required_reboot_recovery_v1/files/0015.gz": {
+      "source": "results\\reboot_diagnosis\\20261010_v1\\preserved\\results\\online_llm_guard_pool\\offline_fixture_v1\\online_feedback\\logs\\events.out.tfevents.1791565110.\u77f3\u539f\u8d6b\u7684\u7535\u8111.gz",
+      "sha256": "dd15da9ff63bc902941719305f39da4cf967043c64ede663d8a5a0f874c1089a"
+    },
+    "docs/artifacts/required_reboot_recovery_v1/files/0016.gz": {
+      "source": "results\\reboot_diagnosis\\20261010_v1\\preserved\\results\\online_llm_guard_pool\\offline_fixture_v1\\pool_review\\logs\\events.out.tfevents.1791565227.\u77f3\u539f\u8d6b\u7684\u7535\u8111.gz",
+      "sha256": "477913dd7c3f97b9c25a240b0156ae1edbea7f2ef013463b0bafe36bcde90629"
+    },
+    "docs/artifacts/required_reboot_recovery_v1/files/0017.gz": {
+      "source": "results\\reboot_diagnosis\\20261010_v1\\preserved\\results\\online_llm_guard_pool\\offline_fixture_v1\\revision_guard\\logs\\events.out.tfevents.1791565166.\u77f3\u539f\u8d6b\u7684\u7535\u8111.gz",
+      "sha256": "341812f78b493962355fa521277a0584b86d11843fcef87fa7c98360efaac82c"
+    },
+    "docs/artifacts/required_reboot_recovery_v1/files/0018.gz": {
+      "source": "results\\reboot_diagnosis\\20261010_v1\\preserved\\results\\submission_required\\v1\\attempts.json.gz",
+      "sha256": "faa0769eb336276193acaf23d241d9c925b44a28ceaa7b2e24f9a99102f46d4f"
+    },
+    "docs/artifacts/required_reboot_recovery_v1/files/0019.gz": {
+      "source": "results\\reboot_diagnosis\\20261010_v1\\preserved\\results\\submission_required\\v1\\progress.json.gz",
+      "sha256": "5b5edd2ee7bcabfaab2ec6e1e4ac06bdfa818065495516b9b6c69b6ce0d128dc"
+    },
+    "docs/artifacts/required_reboot_recovery_v1/files/0020.gz": {
+      "source": "results\\reboot_diagnosis\\20261010_v1\\preserved\\results\\submission_required\\v1\\runs\\confirmation10_main_seed11\\calls.json.gz",
+      "sha256": "7a1afedc8ff33d55f6557f6d947e28b264d6776b81bedb1adad51c7e468b71db"
+    },
+    "docs/artifacts/required_reboot_recovery_v1/files/0021.gz": {
+      "source": "results\\reboot_diagnosis\\20261010_v1\\preserved\\results\\submission_required\\v1\\runs\\confirmation10_main_seed11\\delivered_reports.json.gz",
+      "sha256": "d17c31bf913fd414f768fc922a301d09d5bdd5673c06aedca10aa2c5ef7e97af"
+    },
+    "docs/artifacts/required_reboot_recovery_v1/files/0022.gz": {
+      "source": "results\\reboot_diagnosis\\20261010_v1\\preserved\\results\\submission_required\\v1\\runs\\confirmation10_main_seed11\\demands.json.gz",
+      "sha256": "d5a2fd62b90317d97a438d406cdf996f8c90e8aaf003a3dea52de2147e266005"
+    },
+    "docs/artifacts/required_reboot_recovery_v1/files/0023.gz": {
+      "source": "results\\reboot_diagnosis\\20261010_v1\\preserved\\results\\submission_required\\v1\\runs\\confirmation10_main_seed11\\episodes.json.gz",
+      "sha256": "afc7f72034a68b980ea0d94fd51ea9f863aced69c80cd3680cc5f420e3098698"
+    },
+    "docs/artifacts/required_reboot_recovery_v1/files/0024.gz": {
+      "source": "results\\reboot_diagnosis\\20261010_v1\\preserved\\results\\submission_required\\v1\\runs\\confirmation10_main_seed11\\information_audits.json.gz",
+      "sha256": "3d60c5ed336f769c2f3bc0704200086e0f2e7adaf06ccc3977b5f1b5dd093267"
+    },
+    "docs/artifacts/required_reboot_recovery_v1/files/0025.gz": {
+      "source": "results\\reboot_diagnosis\\20261010_v1\\preserved\\results\\submission_required\\v1\\runs\\confirmation10_main_seed11\\periods.csv.gz",
+      "sha256": "f3e68bd582f5cb15fab1d753a710923f6f3c10dc18cd574dc595ec17aeb445b1"
+    },
+    "docs/artifacts/required_reboot_recovery_v1/files/0026.gz": {
+      "source": "results\\reboot_diagnosis\\20261010_v1\\preserved\\results\\submission_required\\v1\\runs\\confirmation10_main_seed11\\protocol.json.gz",
+      "sha256": "10888290fcfa99e4c0e7e6d2bea303fedb92568ae174ac7b3af6d18f51a69ab5"
+    },
+    "docs/artifacts/required_reboot_recovery_v1/files/0027.gz": {
+      "source": "results\\reboot_diagnosis\\20261010_v1\\preserved\\results\\submission_required\\v1\\runs\\confirmation10_main_seed11\\runtime_failures.json.gz",
+      "sha256": "43edd45a3348f4ae62fc73a7ef0ab37f6eaee6c161fa86e9f382322bdf5d5339"
+    },
+    "docs/artifacts/required_reboot_recovery_v1/files/0028.gz": {
+      "source": "results\\reboot_diagnosis\\20261010_v1\\preserved\\results\\submission_required\\v1\\runs\\confirmation10_main_seed11\\scores.json.gz",
+      "sha256": "3f9d9cc24e871dc9fa29474317b960081d794f58111c4ea4231e8a59028dd04b"
+    },
+    "docs/artifacts/required_reboot_recovery_v1/files/0029.gz": {
+      "source": "results\\reboot_diagnosis\\20261010_v1\\preserved\\results\\submission_required\\v1\\runs\\confirmation10_main_seed11\\first_only\\logs\\events.out.tfevents.1791565291.\u77f3\u539f\u8d6b\u7684\u7535\u8111.gz",
+      "sha256": "e644b9e4a21884ef9e9a3b3c4044db37d82222389729af47da1455a94582009c"
+    },
+    "docs/artifacts/required_reboot_recovery_v1/files/0030.gz": {
+      "source": "results\\reboot_diagnosis\\20261010_v1\\preserved\\results\\submission_required\\v1\\runs\\confirmation10_main_seed11\\happo\\logs\\events.out.tfevents.1791564959.\u77f3\u539f\u8d6b\u7684\u7535\u8111.gz",
+      "sha256": "7690fe18890d0385b067ebc170b80389a5e846bfa124a54a6e3718bb07a9ea6e"
+    },
+    "docs/artifacts/required_reboot_recovery_v1/files/0031.gz": {
+      "source": "results\\reboot_diagnosis\\20261010_v1\\preserved\\results\\submission_required\\v1\\runs\\confirmation10_main_seed11\\no_feedback\\logs\\events.out.tfevents.1791565082.\u77f3\u539f\u8d6b\u7684\u7535\u8111.gz",
+      "sha256": "45a80cc18dfd482af4e2e824b7e0d890573d258c967fc9d0fc47123cc2c9fabc"
+    },
+    "docs/artifacts/required_reboot_recovery_v1/files/0032.gz": {
+      "source": "results\\reboot_diagnosis\\20261010_v1\\preserved\\results\\submission_required\\v1\\runs\\confirmation10_main_seed11\\no_review\\logs\\events.out.tfevents.1791565174.\u77f3\u539f\u8d6b\u7684\u7535\u8111.gz",
+      "sha256": "b202c095b19ea8009e455824eec8b69ee237dfdb9b47b05fb5fc5608a91b08ca"
+    },
+    "docs/artifacts/required_reboot_recovery_v1/files/0033.gz": {
+      "source": "results\\reboot_diagnosis\\20261010_v1\\preserved\\results\\submission_required\\v1\\runs\\confirmation10_main_seed11\\online_feedback\\logs\\events.out.tfevents.1791564965.\u77f3\u539f\u8d6b\u7684\u7535\u8111.gz",
+      "sha256": "70ef23241cdb8a4c36113facb58dde29e5627a17d3640fa3bd4c3868ccc7c366"
+    }
+  },
+  "lossless": true,
+  "credential_absent": true,
+  "unknown_interrupted_api_usage": true,
+  "conservative_reserved_http": 176,
+  "conservative_reserved_semantic": 88
+}
