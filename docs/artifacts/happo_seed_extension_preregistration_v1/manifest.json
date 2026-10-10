@@ -1,0 +1,332 @@
+{
+  "000.gz": {
+    "source": "manifest.json",
+    "source_sha256": "189628b949caf02441b7ae7997a1b7694af425fc758b011ec31a832971b3e25d",
+    "gzip_sha256": "fc54eaf5962e0fa0e7bc61c68457d80805f7bac6b2796ddf54eee3db53cccd1d"
+  },
+  "001.gz": {
+    "source": "preflight.json",
+    "source_sha256": "e53d6ac05d6bc3de3f95df47c068b394f487eecbb7471fb70ffd49e3251613e2",
+    "gzip_sha256": "766198fe3bd3fe8669b569f5aa6cba2eb0c04a46ee98ec5bb1eb6fc7623d5520"
+  },
+  "002.gz": {
+    "source": "sources\\docs_artifacts_formal_bc_v1_training_11_completed.json",
+    "source_sha256": "52f1354f75d81902d7d7acf74b1bd94a60dc2eafaacdcdca4405f2c65d70ce7f",
+    "gzip_sha256": "30f191001dfd5489025384a0a1a6137298e2c6c5d79a31a6d46cc456773025b8"
+  },
+  "003.gz": {
+    "source": "sources\\docs_artifacts_formal_bc_v1_training_11_config.json",
+    "source_sha256": "1f85f85ccaf9734833e202c8f330f1222ac33d201df7de138d79ade3cc83652a",
+    "gzip_sha256": "661f214eb6d1b5f4e5582de35cbe91d1da7b1010657a3a1f433af3eaad44582b"
+  },
+  "004.gz": {
+    "source": "sources\\docs_artifacts_formal_bc_v1_training_12_completed.json",
+    "source_sha256": "afe4d8c5bd03f252553a3432a058ce64a704290023a6781930954709a4985c96",
+    "gzip_sha256": "ce1a39649a9977e2b0ec510c03dfd5a44824b02ec52fe0e0e7fb5b0b931e736e"
+  },
+  "005.gz": {
+    "source": "sources\\docs_artifacts_formal_bc_v1_training_12_config.json",
+    "source_sha256": "c528f780f3de586c9c6c0d365b6fd0f324da3c0945417cb0cc254307cedcc615",
+    "gzip_sha256": "87d625bfba34e08e6e22a0ffbdac8e9c3f8e78ee8abb03b5d2e5084896705274"
+  },
+  "006.gz": {
+    "source": "sources\\docs_artifacts_formal_bc_v1_training_13_completed.json",
+    "source_sha256": "04e3b4ddb4092c11c560f772e45b3d4a7b4e264be25ab260cdc90e029b88b23d",
+    "gzip_sha256": "27a82d7fc3097e97cf83fcc45949292acd22068578326602ab76672f789779d8"
+  },
+  "007.gz": {
+    "source": "sources\\docs_artifacts_formal_bc_v1_training_13_config.json",
+    "source_sha256": "715ce905944a4b17a3451f9ef2041f013b4466e6a1beb0cf5fc74b8e6ceced0d",
+    "gzip_sha256": "c5ebb49e37ac9ea44194265e9bc82f8c43ff5deb14693ef54dd067dc499bc913"
+  },
+  "008.gz": {
+    "source": "sources\\docs_artifacts_formal_bc_v1_training_14_completed.json",
+    "source_sha256": "d2f4a9d1618e50b6f7336f60829b3421793e3dc0966d9cc90a3d5ec15c6ba89b",
+    "gzip_sha256": "b427b0bb0dee24e9929e11f329f05f5110708c6c7a8251c4fcf51ce9d2d19c01"
+  },
+  "009.gz": {
+    "source": "sources\\docs_artifacts_formal_bc_v1_training_14_config.json",
+    "source_sha256": "3a24fb335722738ed533c5c618904abd3361bb4c413474f7539689255eed2437",
+    "gzip_sha256": "a1acc404f4706ec71d58b51f2f93b12c2c6863f3d9823f94c12e211a8b10b3bb"
+  },
+  "010.gz": {
+    "source": "sources\\docs_artifacts_formal_bc_v1_training_15_completed.json",
+    "source_sha256": "eb0430d523ed902742082e6e0f8bbc3b4ec5dda8bc0b5d7d12e8cf18806cc470",
+    "gzip_sha256": "360c4fced1accbb0071a7d95c767d9a1f6be637be13007908597dc363c0c5fab"
+  },
+  "011.gz": {
+    "source": "sources\\docs_artifacts_formal_bc_v1_training_15_config.json",
+    "source_sha256": "97c608f6623b8a2fbf31a4c8dff2e106ef22858ae9249c802c486d07a5d5afeb",
+    "gzip_sha256": "97c8003a3eb4f30296a50c203b0d7a3b7de523050a9594b895afcb2468c7e984"
+  },
+  "012.gz": {
+    "source": "sources\\docs_superpowers_plans_2026-10-10-happo-seeds16-20.md",
+    "source_sha256": "57d2ecd3af01e5889a9d96c05fbdc76176e8d583e1a8c0d7c5db902f301c1f84",
+    "gzip_sha256": "48ce898d6588dca097d8cfb20f7b666b2de3d0c4b07bfbdc671a5193cbd4edc2"
+  },
+  "013.gz": {
+    "source": "sources\\experiments_emergency_compatibility_train.py",
+    "source_sha256": "3b986e441c5e73dcb18da20c8fb96197bfa1f3731e21495a1de87a9162a7b030",
+    "gzip_sha256": "08b4e456a3dc4856fdb129a662d17793253f6825849950d289d703e3acbf8bb4"
+  },
+  "014.gz": {
+    "source": "sources\\experiments_formal_evaluation_audit_training.py",
+    "source_sha256": "0ea2a45addaca2841341eafaa10392f848f3217ca8aa59dba1aa3fb62f88490e",
+    "gzip_sha256": "8629036871e6b598197108185c4423e5cd170a4c37ac5526db3aff3e390fb972"
+  },
+  "015.gz": {
+    "source": "sources\\experiments_happo_seed_extension_batch.py",
+    "source_sha256": "f4eb5a7dce88758c43357b2e0fbdce61e8625e433a409c18667207f5095a6acd",
+    "gzip_sha256": "d4149fc4c34588576d7ba5f9ea2b37902cbfe69aa3876cbafd5f3780bf7f6946"
+  },
+  "016.gz": {
+    "source": "sources\\experiments_learning_curve_run.py",
+    "source_sha256": "efe476c01dc2e663177e1b1ee43e211382f5644eb5b94c392289d8b5513479d0",
+    "gzip_sha256": "f34c8905acb62c231dde63e93c97d540030e60542596ca18ab88f69d7b07d280"
+  },
+  "017.gz": {
+    "source": "sources\\external_liu-inventory_algorithms___init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "gzip_sha256": "46b50c321b39e89a491b6727a01628c34245605a30beb3e7414c5e01cff90e6e"
+  },
+  "018.gz": {
+    "source": "sources\\external_liu-inventory_algorithms_actor_critic.py",
+    "source_sha256": "a60a097b84fd74c4027ecd0d3b0b94e9be9ed276cad85e694fddf466b6b7a9ad",
+    "gzip_sha256": "14900e0e3c32f57f7936e168f83d999d41792cea1b53da6121eb19165eaa955a"
+  },
+  "019.gz": {
+    "source": "sources\\external_liu-inventory_algorithms_happo_policy.py",
+    "source_sha256": "48f1915d792a000a5938718a09d897c2646cbc6d2d59529d47b8e79bd6f3161a",
+    "gzip_sha256": "818e377017f1ffcc76c2d5ad203a5eb7953bfb910fe62d6b7c69f1107f706475"
+  },
+  "020.gz": {
+    "source": "sources\\external_liu-inventory_algorithms_happo_trainer.py",
+    "source_sha256": "40c67b8b8f724cb0102f4766b58ea876606c7f2423b3733c41864502f53ba84a",
+    "gzip_sha256": "215c690ffccc71df5be76f3e13a9d2928f5fc3e5e2ea91a5dacdd31ad1c380c2"
+  },
+  "021.gz": {
+    "source": "sources\\external_liu-inventory_algorithms_utils_act.py",
+    "source_sha256": "dc551eb81567f591eab1ef148768439f67c236f2aca493e401171493fcc86d71",
+    "gzip_sha256": "e21eb223f0520bce48e0fc73b70edad0d24f2fa429b6a2ed6ff991e18b864e7e"
+  },
+  "022.gz": {
+    "source": "sources\\external_liu-inventory_algorithms_utils_cnn.py",
+    "source_sha256": "958c59f4828ec874934490249877b7b82d6d218ef12db2428dac7f6b325ce067",
+    "gzip_sha256": "0b01b22b4425f3a3bd1c9fab086e5da83747876cb48817e26cd1e3cb2152cfff"
+  },
+  "023.gz": {
+    "source": "sources\\external_liu-inventory_algorithms_utils_distributions.py",
+    "source_sha256": "f11e226e9218e954c576f80ed4043bd480de1fc5a29905bd11663d2e678d159e",
+    "gzip_sha256": "0233f0f8c1245f8564cb756123b9b97031efd88fd97f30764883e171b9149435"
+  },
+  "024.gz": {
+    "source": "sources\\external_liu-inventory_algorithms_utils_mlp.py",
+    "source_sha256": "04e0ae4da416ac5352cd5d228688577903b4d0242386e19f63a0b3361af03b49",
+    "gzip_sha256": "bb36c1eb59aa4a0921a4d94ad03b720c25d72321a5f741c36a0481e0c9e8acd7"
+  },
+  "025.gz": {
+    "source": "sources\\external_liu-inventory_algorithms_utils_rnn.py",
+    "source_sha256": "bb6ca30a91503f012df3c45d9be9011642f9895fb9804b05530bcb49db47fe50",
+    "gzip_sha256": "a2d06204bb2a268b778cc5f3107569746b86461722ce6e6364230e5e67622802"
+  },
+  "026.gz": {
+    "source": "sources\\external_liu-inventory_algorithms_utils_util.py",
+    "source_sha256": "0d32cea8abf8d063bf0cd7fd8a80b3e12331be4bfa96ed18d7c51a17323c560b",
+    "gzip_sha256": "4dbafd138e34b9d5ee97a19286f05cb46878d68e1b89bc337f2ae0636f7ff66d"
+  },
+  "027.gz": {
+    "source": "sources\\external_liu-inventory_config.py",
+    "source_sha256": "603bb1e9b04f03cd32b9d939e7d7e1f5162a3fde3f3116c0120f80fb9e93ce99",
+    "gzip_sha256": "4e3be6a5fcac094b8b1c3047bf894bf78157569bfe18011d4bc8247652abd3d9"
+  },
+  "028.gz": {
+    "source": "sources\\external_liu-inventory_envs___init__.py",
+    "source_sha256": "15c2ffe5d6790738d28363cf7101f64d7b6370a182b805284fbbbd304e6b42a1",
+    "gzip_sha256": "1255808c691ee958e5f2ccd740b76251fbca76fc4e560d0b5f5b70ed7e485536"
+  },
+  "029.gz": {
+    "source": "sources\\external_liu-inventory_envs_env_wrappers.py",
+    "source_sha256": "1781852360c113902585d9e293016382d5fdd956ad756ea820b5697b429fa405",
+    "gzip_sha256": "f84a9bd45a9e6268c37b2a73e917af7707a65454a805513172871a37c50cb899"
+  },
+  "030.gz": {
+    "source": "sources\\external_liu-inventory_envs_generator.py",
+    "source_sha256": "48366755e3318751966f240c68316488a7f79066a9c3116a798d5cab46e55741",
+    "gzip_sha256": "a22c58733b49a093981c7218d0237886ec80f928c85a04e1e712787973291c09"
+  },
+  "031.gz": {
+    "source": "sources\\external_liu-inventory_envs_net_2x3.py",
+    "source_sha256": "fad67da8c575853154d6d7e22aa034cad8f6f8c1ff0fde9cd8de07729325bd24",
+    "gzip_sha256": "3ba09d28b95729313173418b784991b27c53b2c73637611af4aa365252e3b463"
+  },
+  "032.gz": {
+    "source": "sources\\external_liu-inventory_envs_serial.py",
+    "source_sha256": "7c73e9fe9ea5f8bf60908ee26e272e16bbb95e0acd9e074272ca8d1a95d70088",
+    "gzip_sha256": "d50a7ddc8d2174f6bae6e223e8b8317dbb72368993f63078303dd0a27f1212b9"
+  },
+  "033.gz": {
+    "source": "sources\\external_liu-inventory_envs_template.py",
+    "source_sha256": "49a2b095b30ddbe195e4790650b87d2c2d2d10f2e3ed0bec2627fec8a2d2529f",
+    "gzip_sha256": "5124b63eacff3f36d50dd7aaecf3622cef24979aa13eb07cbdf905181df88587"
+  },
+  "034.gz": {
+    "source": "sources\\external_liu-inventory_runners___init__.py",
+    "source_sha256": "c128749b116e135f555dc0948ea297a43316cc3cee0415e9e8e19aea7f72a9fc",
+    "gzip_sha256": "facd064c96dafd5816c81582f602ed3fe6cbcfae45dd0fad827ccdfc234eae78"
+  },
+  "035.gz": {
+    "source": "sources\\external_liu-inventory_runners_separated___init__.py",
+    "source_sha256": "000ace4edd2d1786448beee066ce906a8b838276066f27b63eaf19b7c3de251c",
+    "gzip_sha256": "06d2449dd88726c299129874e5261c3927191464e9b96d2eb9237f8aaab95958"
+  },
+  "036.gz": {
+    "source": "sources\\external_liu-inventory_runners_separated_base_runner.py",
+    "source_sha256": "d2d6f229dd65319ee0aeb81a376b6d80524f53070fd0c73a860c760c9570517e",
+    "gzip_sha256": "057b93ec203bcf2215515453930dd3b976d627896a3d97515500731ae4233d1b"
+  },
+  "037.gz": {
+    "source": "sources\\external_liu-inventory_runners_separated_runner.py",
+    "source_sha256": "47c997beb9c2504afaa80215c89e430d15e0c75e77a0ed757551ffa6f4179fc8",
+    "gzip_sha256": "d30fd90d15cb4138f6bfb3fb27c0cbc65c72d910d7efcc25ae7d4adaf45895b0"
+  },
+  "038.gz": {
+    "source": "sources\\external_liu-inventory_test_data_test_demand_merton_0.txt",
+    "source_sha256": "9498a12ad1ac27e23d67f4f6a9bd03a007595395c17ab953cff0d1c23ab6aae5",
+    "gzip_sha256": "6f967553985d26bbd4a17ebad4c76a616947475a171d960c11afe3959ab057a1"
+  },
+  "039.gz": {
+    "source": "sources\\external_liu-inventory_test_data_test_demand_merton_1.txt",
+    "source_sha256": "2352617b9255ca38cdafa3c2cfddc95e3d993eebff892e6d897a9a3ad6b03989",
+    "gzip_sha256": "bec5b6b78e62488b8b5e308403f7de8d2e387262b2b24a892d7ad8b519a3fbcc"
+  },
+  "040.gz": {
+    "source": "sources\\external_liu-inventory_test_data_test_demand_merton_10.txt",
+    "source_sha256": "73da8005d2ed8ce668a7b8207f0e836a1916691eee83b1b51639dbcc112a4344",
+    "gzip_sha256": "aef2a3c2bcc824a815990c4279429a051d9bd72b68a33da29103c8c03808746e"
+  },
+  "041.gz": {
+    "source": "sources\\external_liu-inventory_test_data_test_demand_merton_11.txt",
+    "source_sha256": "513054f67f0ca8d5c3123ac3f4ca40dad3e4dba9a3b7b7eff677893bfad2875f",
+    "gzip_sha256": "8f8c1abf6eb8bbd4ebf766d643b329dbbb1eff2b2aa07e7464f0d1b00c1a68ae"
+  },
+  "042.gz": {
+    "source": "sources\\external_liu-inventory_test_data_test_demand_merton_12.txt",
+    "source_sha256": "e7b907381e86e60a4643390594c02287f88e078e88d72b3e15e5973577ebf0b2",
+    "gzip_sha256": "525e5ac3ae320cd098c154cf387775907379a0a39dabcf021020c24f00a7be48"
+  },
+  "043.gz": {
+    "source": "sources\\external_liu-inventory_test_data_test_demand_merton_13.txt",
+    "source_sha256": "c3d20499e48da360ded21a6be78a552fc0243b55360152b48b549fa2ee178292",
+    "gzip_sha256": "8126825dce7a09d941b75898dcdf5e467a4edb84e4c9a5150f792d68c4eee825"
+  },
+  "044.gz": {
+    "source": "sources\\external_liu-inventory_test_data_test_demand_merton_14.txt",
+    "source_sha256": "6315abf3c87b80028e844c236e26380f4d046b5fd564866638981837c7361935",
+    "gzip_sha256": "37d93d4139a84ec0fac1118b764f776974cee741045ad254878c6c59ba320839"
+  },
+  "045.gz": {
+    "source": "sources\\external_liu-inventory_test_data_test_demand_merton_15.txt",
+    "source_sha256": "5db287c9242cdef54927e1211c3b03a7bcfee3270b6b62ea79f0d6dedf659fd7",
+    "gzip_sha256": "c028a4f87b5c8ab6fc8e3043738aae38399aee5fbb0a0aa8a687413a055ede7a"
+  },
+  "046.gz": {
+    "source": "sources\\external_liu-inventory_test_data_test_demand_merton_16.txt",
+    "source_sha256": "f787492a4de4e6c79be2ea130c1f14a2e43dd61131fa1c8d3a182a6f4aeb1baf",
+    "gzip_sha256": "6a8850d58ff2eebdd3bbd410cb28350921eadddfe734b1e0f4abe0dddc52b9a9"
+  },
+  "047.gz": {
+    "source": "sources\\external_liu-inventory_test_data_test_demand_merton_17.txt",
+    "source_sha256": "ef635ab3d96ece77b900efc7ded7e8925428b82b8323cc0e0b143b337304ee76",
+    "gzip_sha256": "51449a03fd94a0178f4add2ec5c27ec697a66ff4f4d8335c0152aff221228e81"
+  },
+  "048.gz": {
+    "source": "sources\\external_liu-inventory_test_data_test_demand_merton_18.txt",
+    "source_sha256": "a2ba31fcd22db5d515659b915e2f02072f1f41b108efb1f223a8d18837a02f1e",
+    "gzip_sha256": "157a86ace8fe7756444423d30521ad545147738ec94a727788c1fce192e0a968"
+  },
+  "049.gz": {
+    "source": "sources\\external_liu-inventory_test_data_test_demand_merton_19.txt",
+    "source_sha256": "571c0f32b8eeb898d5e5a307ec09ac99bfce7f2f92bcdef14c1e47c9162ec84f",
+    "gzip_sha256": "c1cf7577862842e4391b9eba3ed2078d40fadaeb7c59eadb8220411e13a17584"
+  },
+  "050.gz": {
+    "source": "sources\\external_liu-inventory_test_data_test_demand_merton_2.txt",
+    "source_sha256": "7411b52fcfe7c0f472f57aa26589cf022b45f9a46a040c5876c8e28bd9975b0a",
+    "gzip_sha256": "426a3eb21719536628bbb63677b2a365580919747b91611dd2dbc7f1b3cca486"
+  },
+  "051.gz": {
+    "source": "sources\\external_liu-inventory_test_data_test_demand_merton_3.txt",
+    "source_sha256": "e35b6d931453add0cd31520527ceb0f71a429a7fdaab1911c88181c7ec1580ff",
+    "gzip_sha256": "626c569cba7974f49a5ac4c1a47283c513def051330326e7d0d78d0dd89cbe08"
+  },
+  "052.gz": {
+    "source": "sources\\external_liu-inventory_test_data_test_demand_merton_4.txt",
+    "source_sha256": "4b04858ad88f89a0ac679e10dd8ba99d417172ddd2cd8a98b18256fde27a3a20",
+    "gzip_sha256": "094fa38f690de450b0c7a94f48efc2af4099282d46cd2a835df94a8f5afcfd60"
+  },
+  "053.gz": {
+    "source": "sources\\external_liu-inventory_test_data_test_demand_merton_5.txt",
+    "source_sha256": "8c7cb937311ed131319bbc2e31cb3568ca20fc967475beae85993b88354adc93",
+    "gzip_sha256": "1da7859911bc56d93fb4a5df07fd796422c9ca715cc339d913d6402145bdfe74"
+  },
+  "054.gz": {
+    "source": "sources\\external_liu-inventory_test_data_test_demand_merton_6.txt",
+    "source_sha256": "67769b5daf19193fc97603c2b3075b0b58e81766fd8ba9af926022fe2aa2ec1b",
+    "gzip_sha256": "4c97f65a489090c3bc913e1578fdfcc428a849163af8de9e960fa1476f4af9ba"
+  },
+  "055.gz": {
+    "source": "sources\\external_liu-inventory_test_data_test_demand_merton_7.txt",
+    "source_sha256": "56e7d199ace8deb464bcb58022a7c55659d7cfda0efc42b86f668698e5b8db90",
+    "gzip_sha256": "69fbeada1df13792297d1889b434c11214ead2be7384075b71a5aa5e3921dba3"
+  },
+  "056.gz": {
+    "source": "sources\\external_liu-inventory_test_data_test_demand_merton_8.txt",
+    "source_sha256": "9a5e0866e729e22ae432a0be3995e64a3982408bf6ddba9abc8017ded4987c3a",
+    "gzip_sha256": "9fa62d875d1dfbe6b9c185377b522ec46afb432af500e05a5fed01f830cc1586"
+  },
+  "057.gz": {
+    "source": "sources\\external_liu-inventory_test_data_test_demand_merton_9.txt",
+    "source_sha256": "eae741e9e2b7fadc030689d1da13fbfc81f52acecefef066a1afcb34eaa49d3b",
+    "gzip_sha256": "3d5ccc8388575468f8ad8e5f36569636a1d865ce50fc01ae561eb8eb5b45fe50"
+  },
+  "058.gz": {
+    "source": "sources\\external_liu-inventory_train_env.py",
+    "source_sha256": "78959c118607046478d4681f4ad8f31e239a299a0b49363fd5321d0bff8d36c9",
+    "gzip_sha256": "4e70ec15e542d453eaa11d1cd54a82049405a248e9065f4af03c78f0b9d8e706"
+  },
+  "059.gz": {
+    "source": "sources\\external_liu-inventory_utils___init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "gzip_sha256": "46b50c321b39e89a491b6727a01628c34245605a30beb3e7414c5e01cff90e6e"
+  },
+  "060.gz": {
+    "source": "sources\\external_liu-inventory_utils_multi_discrete.py",
+    "source_sha256": "7bca00aa5f47039ebe1fa1cb26e46682046cda57cf05d963f7c3ac699fa5a7a6",
+    "gzip_sha256": "b4bf85fbd6111cd470a331d477a8caa1c15af61573b74bf63132530e9aa8000c"
+  },
+  "061.gz": {
+    "source": "sources\\external_liu-inventory_utils_popart.py",
+    "source_sha256": "40fdb523f10aac1d03362cc1fc6a745936743a6763003a791a962fbe8acc9bbd",
+    "gzip_sha256": "fd233993c69684ec3a9d0258a648df767be76928617fb18c62048f8384895a99"
+  },
+  "062.gz": {
+    "source": "sources\\external_liu-inventory_utils_separated_buffer.py",
+    "source_sha256": "af0f1850bc0a8101ed18a5298aea1eb8146f86eb16396d46ea4b77e9ed436051",
+    "gzip_sha256": "bd9bca4001a14f8abccfaf990484435e91475ad925c46944ce3c903f1323ed35"
+  },
+  "063.gz": {
+    "source": "sources\\external_liu-inventory_utils_util.py",
+    "source_sha256": "7cf8ce806483e8abbc358951105a3765a734c92a15fa641595fa6ea967e1f4d7",
+    "gzip_sha256": "683876985a73ac0ff73e4d0a4bf32eb40eb63661d5fb554f32ff7fb51f12d2d5"
+  },
+  "064.gz": {
+    "source": "sources\\external_liu-inventory_utils_valuenorm.py",
+    "source_sha256": "8cd48bb7e3a3d8295baec57a2cde23ca60a973d047f358f408709ef53c6a1836",
+    "gzip_sha256": "2e1a698e17fea3317b354d50f80c2a52d20b451003aaa5c6a6fdf919f80bc133"
+  },
+  "065.gz": {
+    "source": "sources\\scripts_plot_learning_curve.py",
+    "source_sha256": "c707c728715b8068097d86e4d1c86546aadaadde86389838fb3f454154547e80",
+    "gzip_sha256": "730de0f61aa36a718eb6a974123bc8d083e00605481da5e8c927e92b88a096ce"
+  }
+}
