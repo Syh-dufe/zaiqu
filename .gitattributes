@@ -51,3 +51,5 @@ docs/artifacts/joint_baseline_recharge_recovery_v1/** -text whitespace=cr-at-eol
 /docs/2026-10-10-online-guard-pool-readiness.md -text whitespace=cr-at-eol
 /experiments/online_llm_artifacts/archive_guard_pool_readiness.py -text whitespace=cr-at-eol
 /experiments/online_llm_artifacts/diagnose_reboot_20261010.py -text whitespace=cr-at-eol
+/docs/artifacts/online_llm_guard_pool_development_v1_preregistration/** -text whitespace=cr-at-eol
+/docs/2026-10-10-online-guard-pool-cache-reuse.md -text whitespace=cr-at-eol
