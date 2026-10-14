@@ -1,0 +1,138 @@
+{
+  "files": {
+    "docs/artifacts/sundial_matured_calibration_v1/files/0000.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_matured_calibration\\v1\\cached_audits.json",
+      "source_sha256": "3b2db06d9ca6348ee2ac3b322698e36340f6d09441ba54a69f422b4fe5fb0966",
+      "gzip_sha256": "57d219577e7afb521fffdadad172228aca8d5448f0790885189fff68760a6d0e"
+    },
+    "docs/artifacts/sundial_matured_calibration_v1/files/0001.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_matured_calibration\\v1\\cached_metrics.json",
+      "source_sha256": "1be87ca45e20f8615f8d84cf2505f2163fe2a96ae2e7be21176332260e43207b",
+      "gzip_sha256": "4ea8398bd6221e83b1143fd48d28b634f6ffff9d6273fd43ea5e3ec2cc790b9b"
+    },
+    "docs/artifacts/sundial_matured_calibration_v1/files/0002.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_matured_calibration\\v1\\cached_scoring.json",
+      "source_sha256": "a6f5569bb6e9b19fba178c1035f416c285c79b7e0be0ac27163ec1dbab80702d",
+      "gzip_sha256": "2bc45d50dcf459af3e0b56bb64567fd72d78b0b16ccb3cc94ebff1e75200a1b3"
+    },
+    "docs/artifacts/sundial_matured_calibration_v1/files/0003.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_matured_calibration\\v1\\cached_windows.json",
+      "source_sha256": "bcf0f88634c25364bcf5e0feeb145d6e6a40eeb7a4f5a1d447c503c547deb774",
+      "gzip_sha256": "6b522a8c18653aa41e8449daaae669533b4826f672c4d0e3055b81928d04200b"
+    },
+    "docs/artifacts/sundial_matured_calibration_v1/files/0004.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_matured_calibration\\v1\\completed.json",
+      "source_sha256": "1c198243f4898808d04f30100f371a4c3d62cbf9a7b227896cd0d15508ff349a",
+      "gzip_sha256": "32ffc2360d6a2a62fd148d0710a8c64e7cc7a461e49a8171c8b07cec4c5c239d"
+    },
+    "docs/artifacts/sundial_matured_calibration_v1/files/0005.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_matured_calibration\\v1\\freeze.json",
+      "source_sha256": "335ef0c1624319c05067d18af0798e0b2b1c5dceff5bd2f84fd112569beed083",
+      "gzip_sha256": "238fdcee214286709044659788a2e9ef9049bf98ac680ad69383bad8efd01ff0"
+    },
+    "docs/artifacts/sundial_matured_calibration_v1/files/0006.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_matured_calibration\\v1\\generation_attempts.json",
+      "source_sha256": "648fb900ae7b22df559d822e453afbfc9f7add0123a553b24fa5cf0fcb1b0145",
+      "gzip_sha256": "b5580dfc34a6a9df6d15b5309f5d8594a3512be1fb2614ac6caceefebaba1a44"
+    },
+    "docs/artifacts/sundial_matured_calibration_v1/files/0007.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_matured_calibration\\v1\\historical.json",
+      "source_sha256": "333319d1498b444b95562624589b1c63539c00cf1d37d545d856dbb2c0cff1d7",
+      "gzip_sha256": "c2066083399173f693e2251a46877dcb23c5eb3c003a34301318959919faf290"
+    },
+    "docs/artifacts/sundial_matured_calibration_v1/files/0008.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_matured_calibration\\v1\\independent_verification.json",
+      "source_sha256": "d03aa55f39371b5a33dd5d4442aceb4bf61a13b4e634c1c830bc4623d3c47f9a",
+      "gzip_sha256": "d871e10409fe45ef5983b6ce3606816d1c1b796048885d6a9574a8db0b1c28af"
+    },
+    "docs/artifacts/sundial_matured_calibration_v1/files/0009.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_matured_calibration\\v1\\model_checks.json",
+      "source_sha256": "d731ed3a10969b1848c26a5a72fc8efd5b535e524e2454453e3e13981eb6bd7e",
+      "gzip_sha256": "054b1ad451a4c6444235de3b2ec54084214aa2937225abc50906fe020d7ccfde"
+    },
+    "docs/artifacts/sundial_matured_calibration_v1/files/0010.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_matured_calibration\\v1\\started.lock",
+      "source_sha256": "28eadfb80916be2c20f2e6fca75bede311754e2a9f84a18512398dfda5a8cae7",
+      "gzip_sha256": "e5f600fb4140458a1633d5021981272be74697c6709044e9a06492c73dfffcde"
+    },
+    "docs/artifacts/sundial_matured_calibration_v1/files/0011.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_matured_calibration\\v1\\validation_audits.json",
+      "source_sha256": "481eeda2d83d57d3474aa8db78247555c169b008ceb85f46bc70bcc9ed1423b1",
+      "gzip_sha256": "fa813de691f73d9c97d0c651d6834214d02fe5bc19f30cf8d2b7d8ff05ae0d2c"
+    },
+    "docs/artifacts/sundial_matured_calibration_v1/files/0012.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_matured_calibration\\v1\\validation_inputs.json",
+      "source_sha256": "de6f03eed334efabba56cc1cc1308f1f779440808a0ad7272a8b2b51fb0ee505",
+      "gzip_sha256": "0b0af40305efcf4d93394db89d8996f079763afcf8711a15477e8b4fb23c87da"
+    },
+    "docs/artifacts/sundial_matured_calibration_v1/files/0013.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_matured_calibration\\v1\\validation_metrics.json",
+      "source_sha256": "0241b4821c22306d964a89b0047a657a955685c705bf5e3323d41fbfca7bfe8b",
+      "gzip_sha256": "53c7a549af7a2bfb474f7b493865c1306f7932c61e53f55831cfe75d95b70b3b"
+    },
+    "docs/artifacts/sundial_matured_calibration_v1/files/0014.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_matured_calibration\\v1\\validation_predictions.json",
+      "source_sha256": "cc16cd705e2c2bf7f1357a5f4a547f2acffb082a4e5a00f5a47f37b3bc9d42aa",
+      "gzip_sha256": "a3f6fb0548bb7645558b03fb404d4e277656fd56657f9cccfabd7dd049cf8684"
+    },
+    "docs/artifacts/sundial_matured_calibration_v1/files/0015.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_matured_calibration\\v1\\validation_registration.json",
+      "source_sha256": "3ca9fd6ae414bbb94eea6d2745ccac6cec6b98b4710b66be7f58a77697195852",
+      "gzip_sha256": "fc44db2bdfa2c372ba324a0c29566c9c6f5949a9514b02e8fafaf992916e806c"
+    },
+    "docs/artifacts/sundial_matured_calibration_v1/files/0016.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_matured_calibration\\v1\\validation_scoring.json",
+      "source_sha256": "dd7ca64c8b3e226b8ba64ecbd53af3b1dd324341118fee76fd4a7400fb9498b0",
+      "gzip_sha256": "96131cff4308e2cf5f6820d0681ebd5dbab4618013e1c3f8d579dccb7e0b4cec"
+    },
+    "docs/artifacts/sundial_matured_calibration_v1/files/0017.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_matured_calibration\\v1\\validation_windows.json",
+      "source_sha256": "64bf14ae83db989b4b77927de065f679e272176b76da519495303257e7c6db9f",
+      "gzip_sha256": "e86e2807a99cc93f3233fb1d915d3d9a1b0280d7e8562be459da671bfc5d2228"
+    },
+    "docs/artifacts/sundial_matured_calibration_v1/files/0018.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_matured_calibration\\calibration.py",
+      "source_sha256": "4db999ccb6976deffb97c9d6875bfee1cb007d9ad1ef57d4b9827c00f598ea06",
+      "gzip_sha256": "ff69c79fe1cec5a62397ee6ec3bcb954e441128c6e76de02345ef279fa6c2c11"
+    },
+    "docs/artifacts/sundial_matured_calibration_v1/files/0019.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_matured_calibration\\run.py",
+      "source_sha256": "3a20cdad60190f804cffb84930d4e41b658dcd628b0778c7b50975e87a6f1918",
+      "gzip_sha256": "78db866cd38695b66944af0155613b7003c4394a9a5d66576580d381a9fb6381"
+    },
+    "docs/artifacts/sundial_matured_calibration_v1/files/0020.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_matured_calibration\\score.py",
+      "source_sha256": "4378e5b7afb7279b8d08f054798f3d164c20f301c7db9602b2a2d3681d0be502",
+      "gzip_sha256": "31c6c99221b7bb619e87fba7f6d57b37186cf638f2a980e3e7581935e313234d"
+    },
+    "docs/artifacts/sundial_matured_calibration_v1/files/0021.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_matured_calibration\\verify.py",
+      "source_sha256": "62df107461e15f6b864f17b72a954bd9ce642b2a28ad8d096c23495f7fd4d735",
+      "gzip_sha256": "1eb5c76d87ef4561e2f2b86f52514e59a6e84a8b39b251ef4be44132b15e5286"
+    },
+    "docs/artifacts/sundial_matured_calibration_v1/files/0022.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\superpowers\\specs\\2026-10-14-sundial-matured-calibration-design.md",
+      "source_sha256": "d02468b9a263afb62e59910e7b22458c110b35730f054bfd83dc35e02b903786",
+      "gzip_sha256": "4ce07d8e44d3475f10fc23d0de933e80322279d1715c33f38dc775878f11c8d4"
+    },
+    "docs/artifacts/sundial_matured_calibration_v1/files/0023.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\superpowers\\plans\\2026-10-14-sundial-matured-calibration.md",
+      "source_sha256": "276a2c9ce7a790ffc6bba77579f88fe3857ea1ac4d759ed8d5dc220421677bb0",
+      "gzip_sha256": "698ce6c9881f66fa7e24cc094d330999dad504d043f8735523af5a3b54337d77"
+    },
+    "docs/artifacts/sundial_matured_calibration_v1/files/0024.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_matured_calibration_run_v1.log",
+      "source_sha256": "458ffaf5fe77d67ea7ae036b918d22ceb4ed27520d5f82ead26ecbb46055623f",
+      "gzip_sha256": "6bc7aaf66073c860580938e1992ac67a3a941bf8522abfc7295da640b6b87790"
+    },
+    "docs/artifacts/sundial_matured_calibration_v1/files/0025.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\online_llm_artifacts\\archive_sundial_matured.py",
+      "source_sha256": "7e11f2f6db7ddc0b8a550c7c78c083aa8dc2a89b1f856db58d2901796046e6ca",
+      "gzip_sha256": "48144d5bf8c2e0ac3f78a78209c9036b7d6f2148fd1372adcd3914845e9727d2"
+    }
+  },
+  "lossless": true,
+  "credential_absent": true,
+  "negative_and_partial_results_preserved": true,
+  "pretrained_weights_local_only": true
+}

@@ -105,3 +105,7 @@ docs/artifacts/sundial_scenario_development_v1/** -text
 experiments/sundial_closed_loop_development/** -text
 docs/artifacts/sundial_closed_loop_development_v2_preregistration/** -text
 experiments/sundial_closed_loop_float_audit_recovery/** -text
+experiments/sundial_matured_calibration/** -text
+experiments/online_llm_artifacts/archive_sundial_matured.py -text
+docs/artifacts/sundial_matured_calibration_v1/** -text
+docs/artifacts/sundial_closed_loop_stopped_v2/** -text
