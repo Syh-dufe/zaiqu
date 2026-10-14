@@ -109,3 +109,7 @@ experiments/sundial_matured_calibration/** -text
 experiments/online_llm_artifacts/archive_sundial_matured.py -text
 docs/artifacts/sundial_matured_calibration_v1/** -text
 docs/artifacts/sundial_closed_loop_stopped_v2/** -text
+experiments/sundial_focus_completion/** -text
+docs/artifacts/sundial_focus_completion_v1_preregistration/** -text
+docs/artifacts/sundial_focus_completion_v1_completed/** -text
+experiments/online_llm_artifacts/archive_sundial_focus.py -text
