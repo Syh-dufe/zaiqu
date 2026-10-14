@@ -1,0 +1,9 @@
+# Sundial闭环无API浮点审核修复登记
+
+完整fixture的Sundial原始样本为float32；JSON没有dtype，原审核直接np.asarray默认float64，导致适配器均值/特征重算与实际float32计算产生约5.24e-6差异，严格array_equal会误报。诊断使用记录的原样本分别按float32/64重算，不调整指标或门槛，不改变执行预测器、24参数、规则、路径、预算或测试范围。
+
+旧experiments/sundial_closed_loop_development及development_v2 freeze、no_api_fixture_v1全部保存不修改。新独立experiments/sundial_closed_loop_float_audit_recovery仅把审核重建raw明确dtype=np.float32，与冻结CPU模型输出合同一致。其余成本、动作、因果、守卫、32路径、allocation核验原样执行。完整无API32回合原始文件复制到audit_recovery_v1/fixture_copy，每复制SHA核对，旧失败和部分audit也保留。使用正确dtype审核并独立复现一条模型原样本，不再次仿真，不增加API。
+
+正式任务仍development_v2的15任务480回合/288000节点期，源部署与输入不变。新包装驱动明确加载旧batch和新审核器；注册加入所有新源码、本方案及原fixture全部文件SHA，运行前后持续核对，公开包同时包含原失败、新审核通过、setup失败。旧batch register/publish/run未改，注册函数只明确选择新审核通过记录。注册、无损gzip、密钥缺席、Git字节及push后唯一首次启动新包装驱动；不启动原batch run或覆盖旧输出。
+
+该修复仅审核数值类型一致性，不把float32/64误差称算法提升。原部署在Sundialfloat32样本上做均值，adapter权重float64；训练记录采用存储后float64样本，数值差异如实披露。保持所有实际成本和不利结果，旧开发门槛不修改。402/401/403/程序/hash/预算停止政策和3840/1920首轮、7680/3840累计上限均不变。

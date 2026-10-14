@@ -1,0 +1,604 @@
+{
+  "files": {
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0000.gz": "7f3d4a0fb9b339a2782e10291f988652111e60c283260ea93c3189484ce1a5b2",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0001.gz": "f3b2bdae148954f4821597fe7415fefb51b03484f2093bc86242ac88e6d52068",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0002.gz": "78538a8bc16470bcb759df624659c9c3f8768e654e7ed9266690bd035c51aa73",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0003.gz": "3306edd01e7b693f405b969a909acdf6361c2a6d59fc7cc8756f73ca65a9eb24",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0004.gz": "24a6442bbc7e11c4a9f9913712391d408c70065b3a399572348b3745a5969b97",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0005.gz": "324651ff58b6150d36ba78193a9d12930a213870a54b8b3c5604f8215c519dbe",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0006.gz": "afbfb26b67713934e4ec55b63742db3dee87f5ee297ff264545107e136ef4967",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0007.gz": "b7a4bab254eb1d56d96f24f77ca227e108cbd7714dd10316eb8c87f506cfdfa8",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0008.gz": "4216a6a6fc6b778c04e8bbe7366a22aa3f16cb730646b184f6aeba1da6965332",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0009.gz": "5bd99d5af0375e90bdd98c262b54325e92cc7e9fb575661c93e28666b02f238e",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0010.gz": "d458385d0ede929183f2def7cee80b45da496ca3518f722a816c9a107637f0e6",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0011.gz": "0edf78d912b29a2300574e5bcb12ce1e29b045f533bf874ebf90fd67d6a512ef",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0012.gz": "a9191b0ddd32ebbfb7234d17d7d88ccfc9bc467fa9f8c65f3d4470b767c39a35",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0013.gz": "e66fb1d29449013a8888a6a881300b121063f7dd6bd7b819072ef27469034ba8",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0014.gz": "081d190143009c35f00f9e6410b07cb6b62980dd13c742db2cdd0d15a756512c",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0015.gz": "095ef75bc69a7417e9777c740e7c38594c83ea327418ae5445cf7b50f47ebedc",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0016.gz": "7b1bc1e36c8be2647dfed573a6be3e89b475b1fe898a652cc569d5829383fb5a",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0017.gz": "c47cf7b397ff81ee5f10ec86476f281dc7a6412b9eddcd75bbe27bda2bc8b9cd",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0018.gz": "c569993c76c46a567f1c6c2831fea5dec2f1a93c0153977b0b0c1380ebaf8ee5",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0019.gz": "ba4526eb0adb507d8b3d36dbd979be9e638cf264c7f84be3d4b3e7b2dd8917fe",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0020.gz": "88a88203129c7b326bb1cc38ae137eca06701c7b8f23b90fd0805ec43826335e",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0021.gz": "4e3be6a5fcac094b8b1c3047bf894bf78157569bfe18011d4bc8247652abd3d9",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0022.gz": "4e70ec15e542d453eaa11d1cd54a82049405a248e9065f4af03c78f0b9d8e706",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0023.gz": "14900e0e3c32f57f7936e168f83d999d41792cea1b53da6121eb19165eaa955a",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0024.gz": "818e377017f1ffcc76c2d5ad203a5eb7953bfb910fe62d6b7c69f1107f706475",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0025.gz": "215c690ffccc71df5be76f3e13a9d2928f5fc3e5e2ea91a5dacdd31ad1c380c2",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0026.gz": "46b50c321b39e89a491b6727a01628c34245605a30beb3e7414c5e01cff90e6e",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0027.gz": "f84a9bd45a9e6268c37b2a73e917af7707a65454a805513172871a37c50cb899",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0028.gz": "a22c58733b49a093981c7218d0237886ec80f928c85a04e1e712787973291c09",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0029.gz": "3ba09d28b95729313173418b784991b27c53b2c73637611af4aa365252e3b463",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0030.gz": "d50a7ddc8d2174f6bae6e223e8b8317dbb72368993f63078303dd0a27f1212b9",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0031.gz": "5124b63eacff3f36d50dd7aaecf3622cef24979aa13eb07cbdf905181df88587",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0032.gz": "1255808c691ee958e5f2ccd740b76251fbca76fc4e560d0b5f5b70ed7e485536",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0033.gz": "facd064c96dafd5816c81582f602ed3fe6cbcfae45dd0fad827ccdfc234eae78",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0034.gz": "b4bf85fbd6111cd470a331d477a8caa1c15af61573b74bf63132530e9aa8000c",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0035.gz": "fd233993c69684ec3a9d0258a648df767be76928617fb18c62048f8384895a99",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0036.gz": "bd9bca4001a14f8abccfaf990484435e91475ad925c46944ce3c903f1323ed35",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0037.gz": "683876985a73ac0ff73e4d0a4bf32eb40eb63661d5fb554f32ff7fb51f12d2d5",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0038.gz": "2e1a698e17fea3317b354d50f80c2a52d20b451003aaa5c6a6fdf919f80bc133",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0039.gz": "46b50c321b39e89a491b6727a01628c34245605a30beb3e7414c5e01cff90e6e",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0040.gz": "e21eb223f0520bce48e0fc73b70edad0d24f2fa429b6a2ed6ff991e18b864e7e",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0041.gz": "0b01b22b4425f3a3bd1c9fab086e5da83747876cb48817e26cd1e3cb2152cfff",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0042.gz": "0233f0f8c1245f8564cb756123b9b97031efd88fd97f30764883e171b9149435",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0043.gz": "bb36c1eb59aa4a0921a4d94ad03b720c25d72321a5f741c36a0481e0c9e8acd7",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0044.gz": "a2d06204bb2a268b778cc5f3107569746b86461722ce6e6364230e5e67622802",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0045.gz": "4dbafd138e34b9d5ee97a19286f05cb46878d68e1b89bc337f2ae0636f7ff66d",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0046.gz": "057b93ec203bcf2215515453930dd3b976d627896a3d97515500731ae4233d1b",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0047.gz": "d30fd90d15cb4138f6bfb3fb27c0cbc65c72d910d7efcc25ae7d4adaf45895b0",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0048.gz": "06d2449dd88726c299129874e5261c3927191464e9b96d2eb9237f8aaab95958",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0049.gz": "9dcb8fc43dfd8f084e02bd7eb726998f5c0dff96b679d599abf6af7eca1fb406",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0050.gz": "1d802fc4a6a3146b903bde1c99276b7900e233c8461a5475aa0afa9c2d640248",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0051.gz": "f45653fce89fdaa9800a45f402e620eaf66a292708e9ad693908d8ec9cc31a34",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0052.gz": "cd3c8e3e6c455651ff36b770075ffec700d4308e3bbf72e9f02e8efd2ad59077",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0053.gz": "3915f92072303903c1b55acad59b974cac1a7c392115faa6ab0690b48187ea70",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0054.gz": "d3bd4f7406b02fe2903a124a2292e01b2988a053dccc32455261568dfdb035d8",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0055.gz": "8abd1028ac47fa6923bf969bc7e32fa1d7228ce91063d0851df265433b339670",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0056.gz": "3475e72b16b4867af0124c87c4ba2e962f85b9292c55b6290cceab03ad4cacbd",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0057.gz": "2b90529e14af06e6bd8d9a7693f4c528dcb63d3fd954e98b04478ac06302a378",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0058.gz": "daaaf288a7a430ca8bc62a94bfca338997d095f309662e5f7fcd8d2b48bc8c14",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0059.gz": "3e529a69fabca1ea217d4ef05ef415626427d9c076e8cc5959289bdcb4ebccad",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0060.gz": "e640e14d2f9331eabb49ff03b7b9612948677e21fa944315860b4a21ba6acf8e",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0061.gz": "95c83264df3cd2261ae530dfde7ba0e446484db6a1523122b02203eeaad52b98",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0062.gz": "81a2103db675272b31f0a4ed3b10a5bcebbffdb2b29d89493fef158d742804c5",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0063.gz": "5a335f1e293ede30be2fceaf204e628920821e0551cdbc24b81cf5a05007842f",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0064.gz": "660619e38b79da0a431f54eb3fae8eb5997dc0f78a7f41938dd3a9dab5cea799",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0065.gz": "4fd590f9bc6ef7c746c518c13aa47cf5fc07ed1a77e94c8636e407c4a03f81a9",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0066.gz": "ede011f6cff6a6166705e7e5b2c70168cefc87fbf71a452fd52fc9f962a6e2cd",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0067.gz": "317fe538c641f0a67fd9ddddc1e1cec84a9d4fedc1777ae3a9197b669fcac1e1",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0068.gz": "bdfd844ba393b0ce56ceafb8eae28d57d4ad2ae41af9c9ec809b47a50e49a242",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0069.gz": "b9199d12525b6da86a31562933b9543668729cc622ec061f09f7fd7f43a33f4e",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0070.gz": "de57f926b7bbd570c6acf2e3382e6bfef2beb8d6888541c3642e2be88b95ff3c",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0071.gz": "81ad370ee5b1108c0f9cc26cd67e57f4d35404f2d7f321f5f655ac77aa1f5708",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0072.gz": "85d6c1896931dd955c4a030eab8af4e51c4c3d62db0a21650822ae4591860b08",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0073.gz": "795f421c654ed3c61bb39eda2773517bef4ef599d074f89a8222c01a85abe614",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0074.gz": "700cce82034d42061f0c5279d4db1041012b424abcb60ff7ff994c1657c757e5",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0075.gz": "35dfeccd2ddac0859983a25cafe8282c0e1bd708d14e418c3c3b943bf1b7c7d0",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0076.gz": "0b998fd9ca7d4e3206e9db3069e2921e662803968615b78ff6be1f7c592d89bc",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0077.gz": "7531631370354b12243d2adfb8e82f876079f23317c8ea5744a9482469bbf32f",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0078.gz": "59df1c0daaa6bf5a6905b89342d6d609256291aa413ecd734a1c279437cb3b18",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0079.gz": "823c9afa985824915b37cc6347e3a4b22bd7458a39fda03f042f15234674f893",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0080.gz": "e81b1b0fd1b7cba7f296f0f93f38b839532a91babf2a8fc2aac2a3d82b75fcf6",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0081.gz": "795f421c654ed3c61bb39eda2773517bef4ef599d074f89a8222c01a85abe614",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0082.gz": "f11a93a39d1dbe1c5aae3a81b636a1e996090472d35c1f6278e3c9f4c2103250",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0083.gz": "dab8c3b264b1c4c8647febcbfefef472bb799fcedcfdd7989a0e6c9ece396be0",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0084.gz": "e838df30afb677d7de19a2046b835dd3ae5a5dd15f351e510af65f4ade514c96",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0085.gz": "30629eb4950af132eee96c77c6a53b1a54c23be238afcc8cef953696124d2ae8",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0086.gz": "a7c00c6c407d81091d9328e50178a4c325eee1317298f8779539bbfa0c3e0a01",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0087.gz": "af225c2f44d95577fa1f9fd38e01674ddce0dc12be88c4f97d32810509d09563",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0088.gz": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0089.gz": "6f87c70a7650868dfac70568b67fbfa224534e3ef4833e0c2346c0c6a9173df5",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0090.gz": "7e0bc93c9aa56bed387f47b7ec00e8ff4eb7a329488b4d316a0f692df0b66441",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0091.gz": "85c54e26c14d10ad04bda614cc07f498a6e54efe57ae722ee4a8fc418ccf91cc",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0092.gz": "6b4b4044718e3cf5457f4654f8d3373d3ace6361d8b6c7065cdd64a1a8e03b3f",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0093.gz": "7a3d33076988151b208a32c33d4abec6efc9a42030db2dcab7d86c7fedd0b896",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/recovery/0000.gz": "1da7c1bd59e8e2a872a7e0d64a925f342b61ac6af26ced41db1cc0ad5bb01453",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/recovery/0001.gz": "4b519890caabd0c578a94d818521d0694da43d768bfeb76e0681b1e6832f7248",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/recovery/0002.gz": "1cc16f4bbe4fcd73dc7bed33d143a636b72a826c2225563395a7ea22a8ed1efc",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/recovery/0003.gz": "71de9471c18a8381f6e94182d557f30315ff6621283d42889b64d0ebbc008a93",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/recovery/0004.gz": "c1302387010c29203899e770acfada0064c1dc12a1f35a2e1d399392e716d52b",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/recovery/0005.gz": "c4c45ba6249a6bd7667a6acfb1a09e76dadc920def54994802f255b3dc77f215",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/recovery/0006.gz": "59df1c0daaa6bf5a6905b89342d6d609256291aa413ecd734a1c279437cb3b18",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/recovery/0007.gz": "823c9afa985824915b37cc6347e3a4b22bd7458a39fda03f042f15234674f893",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/recovery/0008.gz": "e81b1b0fd1b7cba7f296f0f93f38b839532a91babf2a8fc2aac2a3d82b75fcf6",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/recovery/0009.gz": "795f421c654ed3c61bb39eda2773517bef4ef599d074f89a8222c01a85abe614",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/recovery/0010.gz": "f11a93a39d1dbe1c5aae3a81b636a1e996090472d35c1f6278e3c9f4c2103250",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/recovery/0011.gz": "dab8c3b264b1c4c8647febcbfefef472bb799fcedcfdd7989a0e6c9ece396be0",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/recovery/0012.gz": "e838df30afb677d7de19a2046b835dd3ae5a5dd15f351e510af65f4ade514c96",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/recovery/0013.gz": "7531631370354b12243d2adfb8e82f876079f23317c8ea5744a9482469bbf32f",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/recovery/0014.gz": "30629eb4950af132eee96c77c6a53b1a54c23be238afcc8cef953696124d2ae8",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/recovery/0015.gz": "a7c00c6c407d81091d9328e50178a4c325eee1317298f8779539bbfa0c3e0a01",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/recovery/0016.gz": "af225c2f44d95577fa1f9fd38e01674ddce0dc12be88c4f97d32810509d09563",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/recovery/0017.gz": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/recovery/0018.gz": "6f87c70a7650868dfac70568b67fbfa224534e3ef4833e0c2346c0c6a9173df5",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/recovery/0019.gz": "7e0bc93c9aa56bed387f47b7ec00e8ff4eb7a329488b4d316a0f692df0b66441",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/recovery/0020.gz": "85c54e26c14d10ad04bda614cc07f498a6e54efe57ae722ee4a8fc418ccf91cc",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/recovery/0021.gz": "6b4b4044718e3cf5457f4654f8d3373d3ace6361d8b6c7065cdd64a1a8e03b3f",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/recovery/0022.gz": "7a3d33076988151b208a32c33d4abec6efc9a42030db2dcab7d86c7fedd0b896",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/recovery/0023.gz": "5463a16e388dc7f4a9181b56464cd3a72258260ad97e6cb9f53b063fa8db4a2e",
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/recovery/0024.gz": "b1220ddbd580c90353143238f50c2c3ed7e5d7b67dd9319404a4fd614201b0a9"
+  },
+  "origins": {
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0000.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\submission_required\\audit.py",
+      "sha256": "02865b5b96a7ead2e9892830b7e54a48d0cc1f5005fc4c2776f847f92652ca32"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0001.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\submission_required\\build.py",
+      "sha256": "44cb141e2186c9ea37a338fb1ce88f1b0e567d45ce6f84bf9017e91d7ba7330e"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0002.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\submission_required\\common.py",
+      "sha256": "786fb78150826d5451731bbfa078eed0fc3495abf46a27622d03ac3ea76f7b1e"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0003.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\submission_required\\component.py",
+      "sha256": "2e558f65d95cc4ccbc43aac46565932ffbe499d09d0e5d9ef80e037fbdd56153"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0004.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\submission_required\\preflight.py",
+      "sha256": "024c19694b15010c96a8ed065076585ea24b7d0d82f1355095982c1abc1a9762"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0005.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\submission_required\\reliability.py",
+      "sha256": "f3c625747efad8ed26f10f0e618ac6c83a35d96a44314771463fc6f139b15060"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0006.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\submission_required\\run_online.py",
+      "sha256": "04dfe6de7a53fe14eed4bb0baa35bdbc9d57fc6c46b32a2b34a8a0869bfc6522"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0007.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\joint_baseline_confirmation\\run_online.py",
+      "sha256": "b5d1d0f8ac1ca8831c7ecac3d343903cf1f760f719b2b4c626c76268edd4ca98"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0008.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\superpowers\\specs\\2026-10-09-required-experiments-design.md",
+      "sha256": "06621e7e33212d276d968acb801f99e7283b009dfd837798bba0df2188b2be7e"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0009.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\superpowers\\plans\\2026-10-09-required-experiments.md",
+      "sha256": "39693adb03143982ae2c63ae46cdc9a9629e7c5febb114abec849be850757fbd"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0010.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\deepseek_refinement\\run.py",
+      "sha256": "2515ab236fd015b50b5734105d9745f5f5e7c7974cc77e5fd7ebd7063bc1d4b6"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0011.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\deepseek_refinement\\shadow.py",
+      "sha256": "fbf92c3c5bc5b86a52890a32e5d26d51400daef467504401838da55bbff95865"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0012.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\deepseek_refinement\\reports.py",
+      "sha256": "46d4588efa0daae795e9677f4151cee66fe0d77aabe40eebc1296d4be460b154"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0013.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\deepseek_pilot\\rules.py",
+      "sha256": "8de5400b739098929e760caf8bca9abd9d89a6f5e6910d9ab839119aefbc497b"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0014.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\formal_evaluation\\ablations.py",
+      "sha256": "bac84d7a7b44f8416620939244fd0683334cfead5236e0c2ecbb60edc391124e"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0015.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\online_llm\\run.py",
+      "sha256": "b266032166b74a3c640f962c9cbd13d212d5b03dca46335fd83d9464bcb7095c"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0016.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\online_llm\\client.py",
+      "sha256": "db7d8dd0efe1916896eefd575c50a459ed594076c3ca233449bfe2184e3af511"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0017.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\online_llm\\controller.py",
+      "sha256": "4f67a4775be661f0751fd2f916baf8f961350de01430c14e5a57e12cdd54b067"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0018.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\joint_baseline\\frozen.py",
+      "sha256": "9f37cbcfb9d6fb60234496100acb0d3c060743064e04e9e5ef28c0a6f396f2bf"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0019.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\superpowers\\plans\\2026-10-05-joint-baseline-confirmation.md",
+      "sha256": "2c56cc24a2348b13e342721ee43c54d19d0c378a54cbd6b33f667cbaeb0540b3"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0020.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\superpowers\\specs\\2026-10-05-joint-baseline-design.md",
+      "sha256": "b317bdb25ee289e2c97669289fe065512f5e682caf2aea60969f35876cb90dfa"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0021.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\config.py",
+      "sha256": "603bb1e9b04f03cd32b9d939e7d7e1f5162a3fde3f3116c0120f80fb9e93ce99"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0022.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\train_env.py",
+      "sha256": "78959c118607046478d4681f4ad8f31e239a299a0b49363fd5321d0bff8d36c9"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0023.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\algorithms\\actor_critic.py",
+      "sha256": "a60a097b84fd74c4027ecd0d3b0b94e9be9ed276cad85e694fddf466b6b7a9ad"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0024.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\algorithms\\happo_policy.py",
+      "sha256": "48f1915d792a000a5938718a09d897c2646cbc6d2d59529d47b8e79bd6f3161a"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0025.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\algorithms\\happo_trainer.py",
+      "sha256": "40c67b8b8f724cb0102f4766b58ea876606c7f2423b3733c41864502f53ba84a"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0026.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\algorithms\\__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0027.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\envs\\env_wrappers.py",
+      "sha256": "1781852360c113902585d9e293016382d5fdd956ad756ea820b5697b429fa405"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0028.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\envs\\generator.py",
+      "sha256": "48366755e3318751966f240c68316488a7f79066a9c3116a798d5cab46e55741"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0029.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\envs\\net_2x3.py",
+      "sha256": "fad67da8c575853154d6d7e22aa034cad8f6f8c1ff0fde9cd8de07729325bd24"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0030.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\envs\\serial.py",
+      "sha256": "7c73e9fe9ea5f8bf60908ee26e272e16bbb95e0acd9e074272ca8d1a95d70088"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0031.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\envs\\template.py",
+      "sha256": "49a2b095b30ddbe195e4790650b87d2c2d2d10f2e3ed0bec2627fec8a2d2529f"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0032.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\envs\\__init__.py",
+      "sha256": "15c2ffe5d6790738d28363cf7101f64d7b6370a182b805284fbbbd304e6b42a1"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0033.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\runners\\__init__.py",
+      "sha256": "c128749b116e135f555dc0948ea297a43316cc3cee0415e9e8e19aea7f72a9fc"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0034.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\utils\\multi_discrete.py",
+      "sha256": "7bca00aa5f47039ebe1fa1cb26e46682046cda57cf05d963f7c3ac699fa5a7a6"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0035.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\utils\\popart.py",
+      "sha256": "40fdb523f10aac1d03362cc1fc6a745936743a6763003a791a962fbe8acc9bbd"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0036.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\utils\\separated_buffer.py",
+      "sha256": "af0f1850bc0a8101ed18a5298aea1eb8146f86eb16396d46ea4b77e9ed436051"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0037.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\utils\\util.py",
+      "sha256": "7cf8ce806483e8abbc358951105a3765a734c92a15fa641595fa6ea967e1f4d7"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0038.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\utils\\valuenorm.py",
+      "sha256": "8cd48bb7e3a3d8295baec57a2cde23ca60a973d047f358f408709ef53c6a1836"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0039.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\utils\\__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0040.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\algorithms\\utils\\act.py",
+      "sha256": "dc551eb81567f591eab1ef148768439f67c236f2aca493e401171493fcc86d71"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0041.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\algorithms\\utils\\cnn.py",
+      "sha256": "958c59f4828ec874934490249877b7b82d6d218ef12db2428dac7f6b325ce067"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0042.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\algorithms\\utils\\distributions.py",
+      "sha256": "f11e226e9218e954c576f80ed4043bd480de1fc5a29905bd11663d2e678d159e"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0043.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\algorithms\\utils\\mlp.py",
+      "sha256": "04e0ae4da416ac5352cd5d228688577903b4d0242386e19f63a0b3361af03b49"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0044.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\algorithms\\utils\\rnn.py",
+      "sha256": "bb6ca30a91503f012df3c45d9be9011642f9895fb9804b05530bcb49db47fe50"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0045.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\algorithms\\utils\\util.py",
+      "sha256": "0d32cea8abf8d063bf0cd7fd8a80b3e12331be4bfa96ed18d7c51a17323c560b"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0046.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\runners\\separated\\base_runner.py",
+      "sha256": "d2d6f229dd65319ee0aeb81a376b6d80524f53070fd0c73a860c760c9570517e"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0047.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\runners\\separated\\runner.py",
+      "sha256": "47c997beb9c2504afaa80215c89e430d15e0c75e77a0ed757551ffa6f4179fc8"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0048.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\runners\\separated\\__init__.py",
+      "sha256": "000ace4edd2d1786448beee066ce906a8b838276066f27b63eaf19b7c3de251c"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0049.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\online_llm_guard_pool\\audit.py",
+      "sha256": "1efc265edfce1d2041f6fa8568e9acc2160bdbea99867cd113b8bd4c6d766b16"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0050.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\online_llm_guard_pool\\check.py",
+      "sha256": "d9ab24204b44cfaefc801ff43923b22d8c684b5cb2933ab51e4fc9f60fe0acf1"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0051.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\online_llm_guard_pool\\check_controller.py",
+      "sha256": "dad3ec6220ccbd5b29b4fe61218ee7c509bd912b225a82d1e2cf205afc5345e1"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0052.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\online_llm_guard_pool\\controller.py",
+      "sha256": "a291d659726b6fbdfe221af1862be5f35473f74c8154846aaabfaf40a81d57cc"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0053.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\online_llm_guard_pool\\policy.py",
+      "sha256": "f73c136a44a77104044a055dd2aafb5a759786abb555cb78a1c4e2bbe88057c2"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0054.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\online_llm_guard_pool\\preflight.py",
+      "sha256": "6c6d4d0f645eb38a70b8ac0a4c8f7f4a53f7e9b504016edd43318bf349708622"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0055.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\online_llm_guard_pool\\runner.py",
+      "sha256": "576d68903f2bba41da70aef0674fc7af0671dc242b7f13b162bbce03959b4caf"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0056.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\superpowers\\specs\\2026-10-10-online-guard-pool-design.md",
+      "sha256": "756d37f5a76d340dd707a53c15a29c18553d234c4a5fefad697761f7f995abc6"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0057.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\superpowers\\plans\\2026-10-10-online-guard-pool.md",
+      "sha256": "331dfea3c68b51ef9bc4da6e63585e0f766ab031c943dd8a48cab8cf29dfaff4"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0058.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_closed_loop_development\\analyze.py",
+      "sha256": "920dade22861c6b90e32b59c05e92a3e3526f745d3b60c1cbcde1ee28dc935f5"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0059.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_closed_loop_development\\audit.py",
+      "sha256": "639d536a3335b7e3906c54ac6808902af549814c8cb3459e5b94fbcee9fbecdb"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0060.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_closed_loop_development\\batch.py",
+      "sha256": "fe2fd2e55cafa49b9cf64364919a3c4a0b07a1ce5c0db5d854c86b5b20b089db"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0061.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_closed_loop_development\\controller.py",
+      "sha256": "44a91599ddb41526d7a8ebf359cc374a0acd68c249e00fecf30ad185d203f938"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0062.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_closed_loop_development\\predictor.py",
+      "sha256": "35995a095f0b86464d4250d87f549aed5b21c30b2c9f4db95cb3ace64d99d6ec"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0063.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_closed_loop_development\\preflight.py",
+      "sha256": "7178c53561a288ab6275d71eb45d2bc4b7e818358ff5de22c52e85a03650f039"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0064.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_closed_loop_development\\prepare.py",
+      "sha256": "afd74c563b627d9dc1a281e41185e3134679e0bce1a904c490de80ad079817af"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0065.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_closed_loop_development\\runner.py",
+      "sha256": "647e52ff372d3e2abb948d52666a68cf541116ee562a6fa26a8d5a25f7380192"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0066.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\timesfm_path_development\\paths.py",
+      "sha256": "69facda6e611bd57d363e36205b300fe15c15ed39253706694c72f4a7e15c2c4"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0067.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_adapter_development\\adapter.py",
+      "sha256": "875a1352e2ec3f9d3f940d48ebf7a2afe110bb27a804df32a08499a8268d66b3"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0068.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\superpowers\\specs\\2026-10-14-sundial-closed-loop-design.md",
+      "sha256": "b636c973d240690baa7501e6eb9de85556686d77bc06aa0848a80000ddbf8185"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0069.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\superpowers\\plans\\2026-10-14-sundial-closed-loop.md",
+      "sha256": "5c7c4a04c749863b30604348ccf992465bedb4e550b4271a8b1d9192e97727df"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0070.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_closed_loop_development\\development_v2\\freeze.json",
+      "sha256": "c6f7ac791cd2e50c322a98bc9ec45d72830bbacc5818b697dbf9d4bd7bb03021"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0071.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_closed_loop_development\\development_v2\\manifest.json",
+      "sha256": "5f8ac256316195efacd5064fff7ae0320427bfcbaff4a012334ef8ba5496fcd1"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0072.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_closed_loop_development\\development_v2\\registration.json",
+      "sha256": "d618ec1d8244def599c708698d773526b017976170f8ca333c5629183cdae6b4"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0073.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_closed_loop_development\\development_v2\\inputs\\stationary.json",
+      "sha256": "ef733fb0f29b44a777ccedc6734ea1821c84ea181b43aae8db25801cb8a73a47"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0074.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_closed_loop_development\\development_v2\\inputs\\trend.json",
+      "sha256": "e7f8b124565d3f4b15c7b6214d2a7f05180c6bd5c2cde8ccb1c9893c49acead7"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0075.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_closed_loop_development\\development_v2\\inputs\\periodic.json",
+      "sha256": "0f427c1a488f6660b7ff8cf0aeaf4f694b261161efb2552e61d86ce87f4f29f2"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0076.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_adapter_development\\v1\\best_adapter.json",
+      "sha256": "d9c756f221c4c22a970ef87a9ecf3c45fd6e8a60c780dbbe8e0e44fc537b9255"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0077.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_closed_loop_development\\no_api_fixture_v1\\audit.json",
+      "sha256": "536e255c34ee9142595613f8642dad3acc58e686eb555e0d7b9e7571c2f67b8f"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0078.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_closed_loop_development\\no_api_fixture_v1\\calls.json",
+      "sha256": "6dea4964c3582de903194370e4f1bac0c783f4b0c2f0c1c6a3963fb9cbebdaa4"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0079.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_closed_loop_development\\no_api_fixture_v1\\completed.json",
+      "sha256": "c304769b47e5e083bb525dbe1ee0148875fa6903838b49b2c49a0934a1f2a923"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0080.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_closed_loop_development\\no_api_fixture_v1\\delivered_reports.json",
+      "sha256": "1239d4f6e34e157250b86a7700c0122c5de6cd2836f55c55498b7c36d280005f"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0081.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_closed_loop_development\\no_api_fixture_v1\\demands.json",
+      "sha256": "ef733fb0f29b44a777ccedc6734ea1821c84ea181b43aae8db25801cb8a73a47"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0082.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_closed_loop_development\\no_api_fixture_v1\\episodes.json",
+      "sha256": "b5139aac5997bb375bc58daf9a9b1732f8185356ad54986efcb145e17fa1e039"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0083.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_closed_loop_development\\no_api_fixture_v1\\forecast_model_checks.json",
+      "sha256": "cce00c4e37b3a290e8aa3204dbd5389e5f00bae70b0c290576ebc3286bdb0143"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0084.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_closed_loop_development\\no_api_fixture_v1\\information_audits.json",
+      "sha256": "4a0d3cf6f1acb7607e35364097ec24a714586858f3e7da33c7af1807c3429e99"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0085.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_closed_loop_development\\no_api_fixture_v1\\periods.csv",
+      "sha256": "c0f987c69737f3eecd71869835691fd93fbe07ac9ebcf5b24be559b98b4ca505"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0086.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_closed_loop_development\\no_api_fixture_v1\\preflight_failed.json",
+      "sha256": "45f734417963861d96d5c7700e7489e362c37a4fa78026fd6b8ee1b5f11e3d5d"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0087.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_closed_loop_development\\no_api_fixture_v1\\protocol.json",
+      "sha256": "7de27ace3150e12a114f51381cce17c5a72190c50d6c41da59335d956185f268"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0088.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_closed_loop_development\\no_api_fixture_v1\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0089.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_closed_loop_development\\no_api_fixture_v1\\scores.json",
+      "sha256": "df102c5409a68bf715c3e522daaac849a116e81c9fc303ae33bfd0628ea47a74"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0090.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_closed_loop_development\\no_api_fixture_v1\\adapted_sundial\\logs\\events.out.tfevents.1791990007.石原赫的电脑",
+      "sha256": "4cbb50c7d9223e136b5a507b04f8dcaf91ba1fb0b686037780395fae1c52ed7f"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0091.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_closed_loop_development\\no_api_fixture_v1\\center_naive\\logs\\events.out.tfevents.1791989834.石原赫的电脑",
+      "sha256": "cfdb3366f8596a604a948de5d2d743c6d136ab850ebc11c41818b8f7c374fe45"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0092.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_closed_loop_development\\no_api_fixture_v1\\native_sundial\\logs\\events.out.tfevents.1791989883.石原赫的电脑",
+      "sha256": "43b77062ec8e23d7725dbb1a10ba645cd83f3cc436deec821ebe20565f27c3dd"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/files/0093.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_closed_loop_development\\no_api_fixture_v1\\original_merton\\logs\\events.out.tfevents.1791989786.石原赫的电脑",
+      "sha256": "58ce62045d05b57824e1b3c4be011dbee2eedb286fde022c83216a82f3019d78"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/recovery/0000.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_closed_loop_float_audit_recovery\\audit.py",
+      "sha256": "ee0c407034ee664d62821ebb398679f25d5201fb9adfb4f9daa8af9cf85e6244"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/recovery/0001.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_closed_loop_float_audit_recovery\\continue.py",
+      "sha256": "3295feec5cbf8512d3e154b4e797a02a596ee4f4a0a9b8ff4244987c46a1e3ad"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/recovery/0002.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\superpowers\\plans\\2026-10-14-sundial-closed-loop-float-audit-recovery.md",
+      "sha256": "23e4faf8bcc4b7820355b3adaa98f8be18c3f6bd5b8844a1001a848563cf7907"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/recovery/0003.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_closed_loop_development\\audit_recovery_v1\\preflight_recovery_passed.json",
+      "sha256": "354035af2aa2ff624a45198c95757a2bc2167b8099f4568e1088ccca3e406a99"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/recovery/0004.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_closed_loop_development\\audit_recovery_v1\\registration.json",
+      "sha256": "d3d074c51110c76d2704cad1ae1940a61843be166bdfe0b308c223d9819619b2"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/recovery/0005.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_closed_loop_development\\audit_recovery_v1\\fixture_copy\\audit.json",
+      "sha256": "accc54397be87f71229c2dbed4d4467c77e3f04abdbf2bdbb91a2d4182533fd8"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/recovery/0006.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_closed_loop_development\\audit_recovery_v1\\fixture_copy\\calls.json",
+      "sha256": "6dea4964c3582de903194370e4f1bac0c783f4b0c2f0c1c6a3963fb9cbebdaa4"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/recovery/0007.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_closed_loop_development\\audit_recovery_v1\\fixture_copy\\completed.json",
+      "sha256": "c304769b47e5e083bb525dbe1ee0148875fa6903838b49b2c49a0934a1f2a923"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/recovery/0008.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_closed_loop_development\\audit_recovery_v1\\fixture_copy\\delivered_reports.json",
+      "sha256": "1239d4f6e34e157250b86a7700c0122c5de6cd2836f55c55498b7c36d280005f"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/recovery/0009.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_closed_loop_development\\audit_recovery_v1\\fixture_copy\\demands.json",
+      "sha256": "ef733fb0f29b44a777ccedc6734ea1821c84ea181b43aae8db25801cb8a73a47"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/recovery/0010.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_closed_loop_development\\audit_recovery_v1\\fixture_copy\\episodes.json",
+      "sha256": "b5139aac5997bb375bc58daf9a9b1732f8185356ad54986efcb145e17fa1e039"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/recovery/0011.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_closed_loop_development\\audit_recovery_v1\\fixture_copy\\forecast_model_checks.json",
+      "sha256": "cce00c4e37b3a290e8aa3204dbd5389e5f00bae70b0c290576ebc3286bdb0143"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/recovery/0012.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_closed_loop_development\\audit_recovery_v1\\fixture_copy\\information_audits.json",
+      "sha256": "4a0d3cf6f1acb7607e35364097ec24a714586858f3e7da33c7af1807c3429e99"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/recovery/0013.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_closed_loop_development\\audit_recovery_v1\\fixture_copy\\original_partial_audit.json",
+      "sha256": "536e255c34ee9142595613f8642dad3acc58e686eb555e0d7b9e7571c2f67b8f"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/recovery/0014.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_closed_loop_development\\audit_recovery_v1\\fixture_copy\\periods.csv",
+      "sha256": "c0f987c69737f3eecd71869835691fd93fbe07ac9ebcf5b24be559b98b4ca505"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/recovery/0015.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_closed_loop_development\\audit_recovery_v1\\fixture_copy\\preflight_failed.json",
+      "sha256": "45f734417963861d96d5c7700e7489e362c37a4fa78026fd6b8ee1b5f11e3d5d"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/recovery/0016.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_closed_loop_development\\audit_recovery_v1\\fixture_copy\\protocol.json",
+      "sha256": "7de27ace3150e12a114f51381cce17c5a72190c50d6c41da59335d956185f268"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/recovery/0017.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_closed_loop_development\\audit_recovery_v1\\fixture_copy\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/recovery/0018.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_closed_loop_development\\audit_recovery_v1\\fixture_copy\\scores.json",
+      "sha256": "df102c5409a68bf715c3e522daaac849a116e81c9fc303ae33bfd0628ea47a74"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/recovery/0019.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_closed_loop_development\\audit_recovery_v1\\fixture_copy\\adapted_sundial\\logs\\events.out.tfevents.1791990007.石原赫的电脑",
+      "sha256": "4cbb50c7d9223e136b5a507b04f8dcaf91ba1fb0b686037780395fae1c52ed7f"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/recovery/0020.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_closed_loop_development\\audit_recovery_v1\\fixture_copy\\center_naive\\logs\\events.out.tfevents.1791989834.石原赫的电脑",
+      "sha256": "cfdb3366f8596a604a948de5d2d743c6d136ab850ebc11c41818b8f7c374fe45"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/recovery/0021.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_closed_loop_development\\audit_recovery_v1\\fixture_copy\\native_sundial\\logs\\events.out.tfevents.1791989883.石原赫的电脑",
+      "sha256": "43b77062ec8e23d7725dbb1a10ba645cd83f3cc436deec821ebe20565f27c3dd"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/recovery/0022.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_closed_loop_development\\audit_recovery_v1\\fixture_copy\\original_merton\\logs\\events.out.tfevents.1791989786.石原赫的电脑",
+      "sha256": "58ce62045d05b57824e1b3c4be011dbee2eedb286fde022c83216a82f3019d78"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/recovery/0023.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_closed_loop_development\\development_v1\\prepare_at_setup_failure.py",
+      "sha256": "1ce01a36f12b71ccb63ec296351f5668f15b3cb910dc5039deda578901a8bfd8"
+    },
+    "docs/artifacts/sundial_closed_loop_development_v2_preregistration/recovery/0024.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_closed_loop_development\\development_v1\\setup_failed.json",
+      "sha256": "42b8b75e90e5d4f5e41fc9399df59e4f9093ca17cb2d59dbaab0dea31d933905"
+    }
+  },
+  "lossless": true,
+  "credential_absent": true,
+  "checkpoint_local_only": true
+}

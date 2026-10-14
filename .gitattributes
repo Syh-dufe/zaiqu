@@ -100,3 +100,8 @@ docs/artifacts/sundial_adapter_development_v1/** -text
 experiments/sundial_scenario_development/** -text
 experiments/online_llm_artifacts/archive_sundial_scenarios.py -text
 docs/artifacts/sundial_scenario_development_v1/** -text
+
+# Sundial closed-loop immutable experiment bytes
+experiments/sundial_closed_loop_development/** -text
+docs/artifacts/sundial_closed_loop_development_v2_preregistration/** -text
+experiments/sundial_closed_loop_float_audit_recovery/** -text
