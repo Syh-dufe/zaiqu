@@ -85,3 +85,8 @@ docs/superpowers/specs/*sundial* -text
 docs/superpowers/plans/*sundial* -text
 docs/artifacts/sundial_forecast_pilot_v1/** -text
 docs/artifacts/timesfm_closed_loop_development_v1_completed/** -text
+
+# Expanded Sundial validation frozen bytes
+experiments/sundial_expanded_validation/** -text
+experiments/online_llm_artifacts/archive_sundial_expanded.py -text
+docs/artifacts/sundial_expanded_validation_v1/** -text

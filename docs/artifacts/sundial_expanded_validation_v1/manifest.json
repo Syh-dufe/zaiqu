@@ -1,0 +1,139 @@
+{
+  "files": {
+    "docs/artifacts/sundial_expanded_validation_v1/files/0000.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_expanded_validation\\v1\\additional_verification.json",
+      "source_sha256": "55419eb0d8ffc67ea75bbce30702774650e147c16e7a62a9e4c21c2571a435bd",
+      "gzip_sha256": "8f5c4f87db8e4d6eff09c8e46624d45f8c3f3771536505d1af05987d928217f7"
+    },
+    "docs/artifacts/sundial_expanded_validation_v1/files/0001.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_expanded_validation\\v1\\cases.json",
+      "source_sha256": "476e1101492a14a0aa1a3a32e08fb3af7c45918e2f744b3197bcc8b595c02c43",
+      "gzip_sha256": "65d61609ab37e76e16ef16489f7290e1ab0e5f80e9ba7d44ebacc9c53bce22ed"
+    },
+    "docs/artifacts/sundial_expanded_validation_v1/files/0002.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_expanded_validation\\v1\\completed.json",
+      "source_sha256": "c27dd76f19352c7e466ee4993116e31ceb727d5824402878697df5949362efff",
+      "gzip_sha256": "9782332e2e2f7b751a4aaaca4e146f0ee5bc53ed65b175b4df2432f63dfdb774"
+    },
+    "docs/artifacts/sundial_expanded_validation_v1/files/0003.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_expanded_validation\\v1\\freeze.json",
+      "source_sha256": "806d1e09bdff8f837ad693374d5fe8939eb115e78712308657e1ef9f2a909947",
+      "gzip_sha256": "ada69a8b967c4b30b5ff0c1bfac163421338311258ce585829aed7787f0b9ecb"
+    },
+    "docs/artifacts/sundial_expanded_validation_v1/files/0004.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_expanded_validation\\v1\\generation_log.json",
+      "source_sha256": "ab014820a58af0204a05c093ad02b1a2f0c145046899f8589ae1500f1e958377",
+      "gzip_sha256": "9906af6bd1076721ee86f7fa6c6946d36447cc4fda28e626cdd7a2fc8d2148bc"
+    },
+    "docs/artifacts/sundial_expanded_validation_v1/files/0005.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_expanded_validation\\v1\\historical_paths.json",
+      "source_sha256": "307e46aac34d95a45a7e1e1f975d5f23656ecbe91b01c6bef15665b3b39e2a7c",
+      "gzip_sha256": "890e73269cab0ecb1395c6dec16506308fb79bd0868dc341e101e2d6acea8085"
+    },
+    "docs/artifacts/sundial_expanded_validation_v1/files/0006.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_expanded_validation\\v1\\inputs.json",
+      "source_sha256": "dbbf4e4b20746a1c68e6d660f55e43e92fd9816da9afc2c389d1846520b21f15",
+      "gzip_sha256": "ee2a363d2add8906dbe11503a5145ff1f03112994c58f53a7f6df9de0cec6fbe"
+    },
+    "docs/artifacts/sundial_expanded_validation_v1/files/0007.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_expanded_validation\\v1\\metrics.json",
+      "source_sha256": "20515902c8e494afe229fc9c92305afc859cef85f760fa8e6198ef1e8507968e",
+      "gzip_sha256": "62fc2d96ab42317ecc0ea693685aab2efecdfc3341c5344a791737a9e1bc75c6"
+    },
+    "docs/artifacts/sundial_expanded_validation_v1/files/0008.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_expanded_validation\\v1\\model_loaded.json",
+      "source_sha256": "2cdf4b118d89e41688805c075da2a5270874f938c307ed6f7fc97b07859c6d58",
+      "gzip_sha256": "0522c8736ae0b69a353060e06fc051b17d97bfbdb64e82b1b3e18687ae0a8ccc"
+    },
+    "docs/artifacts/sundial_expanded_validation_v1/files/0009.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_expanded_validation\\v1\\predictions.json",
+      "source_sha256": "1dd241354907cbf8111bcd60071f74f52a42ad50db44a984b40a36b7210b2680",
+      "gzip_sha256": "7c2c9a33a7bb36479ca78a1123a344e5de28f967f39e334cfbdd8054ab78c6cc"
+    },
+    "docs/artifacts/sundial_expanded_validation_v1/files/0010.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_expanded_validation\\v1\\prepared.json",
+      "source_sha256": "81922937ebbeda6bf1e40d71d05ecdc418d6b57e4342045763257a1cf09b4f77",
+      "gzip_sha256": "f4844eefb5f2ac971453735432e201cc5a868a386d3191b009ddda0015e75cb6"
+    },
+    "docs/artifacts/sundial_expanded_validation_v1/files/0011.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_expanded_validation\\v1\\progress.json",
+      "source_sha256": "4f92b9223c848ef8a6880d3d940979311016e6bfb7b4d7db5016e67182d15b27",
+      "gzip_sha256": "df7adb068b0274a6d65987fcc79bf5eb3044c83f2b5971ac9c58e4d77e5b9fbd"
+    },
+    "docs/artifacts/sundial_expanded_validation_v1/files/0012.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_expanded_validation\\v1\\report.md",
+      "source_sha256": "bb3fe17407f7bc4621e2b749704fd90fec8ea51bae34d26dab82f9e90b9897b5",
+      "gzip_sha256": "0044273e681a2d8f7a06e5ebb3e12a328b3c49451344e06928e7035884cc0bd1"
+    },
+    "docs/artifacts/sundial_expanded_validation_v1/files/0013.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_expanded_validation\\v1\\run_finished.json",
+      "source_sha256": "b9d4ff381abfd8277efcbcea97f58403fe01486af22df9be6140f8b2574b4cd3",
+      "gzip_sha256": "b082fa53b20f3758a5f7e8387ff2caaddd9b690a067c89313b0132ea0e8dbe98"
+    },
+    "docs/artifacts/sundial_expanded_validation_v1/files/0014.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_expanded_validation\\v1\\scoring_values.json",
+      "source_sha256": "41bd95295da8a4d1071ded03d1bda7e0f4812a17e720c025243ce48b7c415545",
+      "gzip_sha256": "45fd3d60e4295d8b4d49f05346a3ae7eb14fe9dce7ff0d20b6d8e93aa8b0a894"
+    },
+    "docs/artifacts/sundial_expanded_validation_v1/files/0015.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_expanded_validation\\v1\\started.lock",
+      "source_sha256": "4bdbda31dc2cf52982fc84cf5e2946e70e7303757221c92c377d71553145fdd6",
+      "gzip_sha256": "f48a1c8c330bbb6a36e419f8ce455995bc7683bd5054489cc6beecab0a4afbd8"
+    },
+    "docs/artifacts/sundial_expanded_validation_v1/files/0016.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_expanded_validation\\analyze.py",
+      "source_sha256": "996fd723fbe052b1ccd9f99891365ac2d5e6d23fcd4585265563612091df4609",
+      "gzip_sha256": "e952c3acbb02c20591cdae47e26ebe50a3fe2de1ee81b1d850e126c143bf5365"
+    },
+    "docs/artifacts/sundial_expanded_validation_v1/files/0017.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_expanded_validation\\common.py",
+      "source_sha256": "17fc61afaf4ff09d1f3259ec4239d335848edfadec4a666494c42e23752390f1",
+      "gzip_sha256": "17d37ad49b07d4fc915d2a94718ae7fedd0e532525815aaada9231f8d8730f2b"
+    },
+    "docs/artifacts/sundial_expanded_validation_v1/files/0018.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_expanded_validation\\prepare.py",
+      "source_sha256": "622a25aecaa94e38060674cc0e69944191c5842474865728ecd33c094b50b69f",
+      "gzip_sha256": "415416ff7f030636a046a6de90d48fc25bd08608aa64eb48909c7c6b81eb8eec"
+    },
+    "docs/artifacts/sundial_expanded_validation_v1/files/0019.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_expanded_validation\\run.py",
+      "source_sha256": "341fe9791f2dd46e9671311821c32bf305c5951694480bb46bcde6346f397c50",
+      "gzip_sha256": "4de9852b40d232280031b29a6b1f70678af3b982a24c61f29b1cbf808a7df32e"
+    },
+    "docs/artifacts/sundial_expanded_validation_v1/files/0020.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_expanded_validation\\verify.py",
+      "source_sha256": "3a0cd0e6acdfa6fd5731c776ac8597abd3adf8716f3e3a5510fb62ed17c4a021",
+      "gzip_sha256": "2bee6311eeac66d05297b55e5498aa39ce3b64bde51db238b551d1cb8dddea0a"
+    },
+    "docs/artifacts/sundial_expanded_validation_v1/files/0021.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_expanded_prepare_v1.log",
+      "source_sha256": "ed47cd051a9be518a638d72864555d05a9255815700a5518410b832de94a3c37",
+      "gzip_sha256": "aa477257da788614105c6256cc840e0d19a2d2bcac5f227c5d4bf0585e508562"
+    },
+    "docs/artifacts/sundial_expanded_validation_v1/files/0022.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_expanded_inference_v1.log",
+      "source_sha256": "e22b32cc3760104662e4b7c7904da970477c14f73609a993de3ff26f10c7233a",
+      "gzip_sha256": "e02c605df8aa93ee6e000c85a5f637d6f8d49362240810f9a46923a10d369a5d"
+    },
+    "docs/artifacts/sundial_expanded_validation_v1/files/0023.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\superpowers\\specs\\2026-10-14-sundial-expanded-design.md",
+      "source_sha256": "0693021a5fcb0acfa70a288001fb8c783a78de2734bf62d230d18ba795f142d6",
+      "gzip_sha256": "37c4fd96a0fbe82956495bea499a020e89766735f1d20594f45ab7f8e5fcf940"
+    },
+    "docs/artifacts/sundial_expanded_validation_v1/files/0024.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\superpowers\\plans\\2026-10-14-sundial-expanded.md",
+      "source_sha256": "10604b2e76759225f9cff6fa9bfae3ffa52943a0acb4a26f87fb4ce227d9314b",
+      "gzip_sha256": "45046bed3f8a631781c3423b35bb8a822cfab5e66d8aa7fa5f3d2fc9eaabdee3"
+    },
+    "docs/artifacts/sundial_expanded_validation_v1/files/0025.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\online_llm_artifacts\\archive_sundial_expanded.py",
+      "source_sha256": "768f4575700e6e175fe0ff909a352680a136ecf455a5d61ddaab34c972e00f20",
+      "gzip_sha256": "d67f3c493c743667463c72d638750c05de6d409cfb7116722533e42fadcd1eb2"
+    }
+  },
+  "lossless": true,
+  "credential_absent": true,
+  "checkpoint_local_only": true,
+  "api": 0,
+  "training": 0
+}
