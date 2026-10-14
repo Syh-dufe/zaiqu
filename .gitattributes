@@ -75,3 +75,13 @@ docs/*timesfm* -text
 docs/superpowers/specs/*timesfm* -text
 docs/superpowers/plans/*timesfm* -text
 docs/artifacts/timesfm_closed_loop_development_v1_preregistration/** -text
+
+# Completed prediction-development byte preservation
+experiments/sundial_forecast_pilot/** -text
+experiments/online_llm_artifacts/archive_sundial_pilot.py -text
+experiments/online_llm_artifacts/archive_timesfm_closed_loop.py -text
+docs/*sundial* -text
+docs/superpowers/specs/*sundial* -text
+docs/superpowers/plans/*sundial* -text
+docs/artifacts/sundial_forecast_pilot_v1/** -text
+docs/artifacts/timesfm_closed_loop_development_v1_completed/** -text

@@ -182,3 +182,9 @@ IPPO 五种子正式训练协议已登记：正常 Merton 需求、每种子最�
 ### TimesFM预测路径与闭环开发（2026-10-14）
 
 冻结TimesFM2.5在48已暴露窗口的点预测及路径分布开发门槛通过；尚不能称订货成本改善。四完整系统无API部署接线32回合/19200节点期通过，实际DSL动作、路径、报告与模型hash独立核验。现登记五seed×两批×四类型×四方法×normal/shock的320回合开发，源码与预算冻结后首次启动；通过固定门槛才进入另行登记的新路径确认。参见[完整设计](docs/superpowers/specs/2026-10-14-timesfm-closed-loop-design.md)、[执行补充登记](docs/superpowers/plans/2026-10-14-timesfm-continuation-registration.md)、[阶段A结果](docs/2026-10-14-timesfm-path-development-results.md)。
+
+### TimesFM闭环开发收尾与Sundial无API试用（2026-10-14）
+
+TimesFM320回合/192000节点期全部完成审核，平均成本22.293125对原Merton22.272708、Merton中心22.409875、最新值22.207250，预登记门槛未通过，不启动该版本确认。1357HTTP/1260语义/4872537tokens，无402、重跑或执行回退，全部负例和格式失败公开保留。见[完整成本与归档](docs/2026-10-14-timesfm-closed-loop-development-results.md)。
+
+Sundial官方128M冻结CPU零样本预测48窗口，完整三期报告块均值MAE2.666378略低于TimesFM路径2.686234，CRPS2.178675高于TimesFM1.919706及最新值2.160676，门槛未通过，无API训练或闭环。双峰预测较好，但不能据单类表现宣称整体有效；8暴露路径上的重叠窗口不作独立泛化证据。见[Sundial完整试用](docs/2026-10-14-sundial-pilot-results.md)。模型权重仅本地；GitHub公开原始预测/样本/完整审核/源与模型revision、SHA，不称含权重。

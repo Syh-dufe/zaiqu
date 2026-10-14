@@ -1,0 +1,885 @@
+{
+  "files": {
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/attempts.json.gz": "28d2861a09dc7034df5422d07d349c703bdf6f3e4a09d42d554ff0b7c4814fd1",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/batch01_seed11.log.gz": "dff13831a75cc75f047442849c323856436f78a06169ee85b55a4f312cea106e",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/batch01_seed12.log.gz": "d5b28492e14638c3f5e2eb60203c434b1dfdf9c6dd9884eaca630bb76f29d74e",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/batch01_seed13.log.gz": "c23fce86fd27e16ab1c08118dd1ccf2f3d238e65cfde9a054daeddba2fbd29a5",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/batch01_seed14.log.gz": "4fe0e07906ec662ab1569745838bc4e442cf5c0956df41c97ef66e08cb8e6647",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/batch01_seed15.log.gz": "f2da4c72cc914c6b28b4ba5e5f8e81fe7b0050cf4a91635a80372aa036afa755",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/batch06_seed11.log.gz": "0f4d00494f03f494629f6235de1298142284f7902c122e7c5f99c44fb00c3d50",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/batch06_seed12.log.gz": "d4593f5f8a2c76b95223d289ab02f42a69f868a713753e0dddb6f451a0dc6a67",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/batch06_seed13.log.gz": "6551a53dc2febdca2ce9abb94269981afdaf73123613a98ce75cfaa47bab5943",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/batch06_seed14.log.gz": "d2b5adeb4f59b5897c79895e864946c4e87a41e2ddfd2a37f46409751eebedd7",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/batch06_seed15.log.gz": "d972df014042c3306f6849104beaa5895a423517267b8e0971f581d594cd7dc0",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/completed.json.gz": "29c55487be78aeee52ca82c83bb3f40cfd8b3694f70ab59f6d13fc4a1c5a9baf",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/driver.log.gz": "46b50c321b39e89a491b6727a01628c34245605a30beb3e7414c5e01cff90e6e",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/error.log.gz": "46b50c321b39e89a491b6727a01628c34245605a30beb3e7414c5e01cff90e6e",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/freeze.json.gz": "bcee376f10be0e642c2a49a94033e82f695db8812e43cc0412d915d7f71cad19",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/launch.json.gz": "4366085e97fb28a6e3e89951d80667ae55202136a826a4d76faa67d42257cc0c",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/manifest.json.gz": "829465318f19f3b5c4a000917219c080f02b57d50607e9e1a2dac59af34f9e80",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/preflight.json.gz": "ef1d7b46252ad98cfc7f54c3e284b3dbaac9e5a4f8e621a099940c003ac944de",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/progress.json.gz": "a8d7b203284a4081b63965a74dbd8a1f4186079fd43100238aca24d17943fa3f",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/publication.json.gz": "45bb4afa3a9788ec04de1035583fe087a1ca996efbc2a6f8905a87fdad4b3f8d",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/publication_verification.json.gz": "d3e70081f91af52df422807a9e168365eb66d7af2dec212067dd6c3b91847a3c",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/report.md.gz": "c3c21680809a4740873a57673e165a12a00cbb5d256694d51163efd075fe2043",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/started.lock.gz": "298a7487cbe69cfd0f356df11344b8cfb68600a78edea02e0a4f8b601d360d14",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/summary.json.gz": "fa1efc64a7a37acc3cda904d794edbbe8bfb4ae94653d675f1c84fb4ed92818e",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/wrapper_launch.json.gz": "4d353dbc34d4f1b2b2f24bfa53a17e0d683a032da34990c3adff7b7acb7a566b",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed11/audit.json.gz": "282342d72d9e2444f33289eb65bd4ac7fcaf16cbeaa564ab6f31efe015416fa1",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed11/calls.json.gz": "a513e839766f5452056db0a0e0010d4beb9bf47ff86bf4b806dc9a3573aa641f",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed11/completed.json.gz": "e58b7ec21ae53ec644f85f58bfd6dd152aaa09e72c77690915f360e780192c0e",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed11/delivered_reports.json.gz": "3b1e282e958304a8a7dfc0555576541e63299e623203bc16ba0bad0f8c2ff400",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed11/demands.json.gz": "823cfe42c2b8db108fc047a83f5ecae833bfff94c162ca875e7b19746bf21a71",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed11/episodes.json.gz": "42528530fb21c0cdb4e8870587eabfed50617bf97433420d2ef6ca8fb85fa958",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed11/information_audits.json.gz": "1e45121039005a51bd2290c879343f034804b2700000169aaf8be1af2db2a2af",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed11/periods.csv.gz": "0b71e55ce86cf56b25c2c4e07ff8d0d938b5319201be509312be4fc3a955e1c0",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed11/protocol.json.gz": "89336de6decbd16f6b00c25c37709b2fdd42ccb2226f069a94f36f6312289822",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed11/runtime_failures.json.gz": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed11/scores.json.gz": "a7c7997c4648ee3140351604cf367a02477320bca9b2df96380a9ade1780a6fe",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed12/audit.json.gz": "c67a8f708ed997179e0ebeb11a0c2bfb8c239a0cd1181fd2ef4385e6ed9fb9c2",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed12/calls.json.gz": "5157d80d864d2f9f4e23b0b5747945781e662de65e999dbffa52111c6fa1d445",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed12/completed.json.gz": "01183ab156a0abd3dde497fe132a7bbb98245001f042cc559292648558b471b9",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed12/delivered_reports.json.gz": "3b1e282e958304a8a7dfc0555576541e63299e623203bc16ba0bad0f8c2ff400",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed12/demands.json.gz": "823cfe42c2b8db108fc047a83f5ecae833bfff94c162ca875e7b19746bf21a71",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed12/episodes.json.gz": "843abb22d722fb9a262d2db806010e90eba1136f50fb9e2d9e83a177539655d9",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed12/information_audits.json.gz": "669416c9f7364361199e4c4dfdbe849e53c8e2acfe11846889a0671a5cc30f16",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed12/periods.csv.gz": "c2d5e4924cd3527f85c279c8215578043b9f1cab26e9ec2e613ab82b82250033",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed12/protocol.json.gz": "ab5bd01a1a871c0428a36e1371cf938ad11f222a487b6934f28f42aabddb32c6",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed12/runtime_failures.json.gz": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed12/scores.json.gz": "ace8246a9295654480b62f19ccc3f2fbda449f47f258c8bbc366f8e7d1e241b8",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed13/audit.json.gz": "341be9a8c9bce43888bd16b32a8df3c89400a644f23137d4d2935e8843c00c33",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed13/calls.json.gz": "dcfc233810e5a46091c0d2b4b8b948b21c6582b697913931cb810115d17b21f2",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed13/completed.json.gz": "5abb51faa7d662070337d0eb5e20e6b3a520e7376a03866131be5f07b0c29737",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed13/delivered_reports.json.gz": "3b1e282e958304a8a7dfc0555576541e63299e623203bc16ba0bad0f8c2ff400",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed13/demands.json.gz": "823cfe42c2b8db108fc047a83f5ecae833bfff94c162ca875e7b19746bf21a71",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed13/episodes.json.gz": "1bd3ed1e9e5c8a9f3f6b4017e9372b67d31d06a91f2150cb2468acd1820575a1",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed13/information_audits.json.gz": "d0d19a2723c7dffe62f31e6b39ccb6d38fc6dfca0b634a05aea35da9a80bf267",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed13/periods.csv.gz": "d8d6478bb171ba19f364398c4e4f5ee97ee83a5b5d26a6a079bd1d98fa60977d",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed13/protocol.json.gz": "6fa1e2876b48698b11a2b061e0c942c2bd56adbbd9a0719db4b3ede4821d0154",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed13/runtime_failures.json.gz": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed13/scores.json.gz": "5072e7bcaed3a08131e4554f6e32650c193e48986abb58d179b2dbc74bc45095",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed14/audit.json.gz": "5f624c69864b92abacf6996dca597fca6cc626cbaad65d66ff415d10c1db1d74",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed14/calls.json.gz": "9c9bf542d397e99402d4d3f882b476ad3454ef1f9cd9888a6eb0b62cf0f7f6e1",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed14/completed.json.gz": "d18e8518fcb68aa3249707b390879612766a22405d7a0ed3deec18b6c1f40fbb",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed14/delivered_reports.json.gz": "3b1e282e958304a8a7dfc0555576541e63299e623203bc16ba0bad0f8c2ff400",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed14/demands.json.gz": "823cfe42c2b8db108fc047a83f5ecae833bfff94c162ca875e7b19746bf21a71",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed14/episodes.json.gz": "a63c9f6d7476695bb37014c476915d15e863c0c859c2415bb8ed55537633b5b0",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed14/information_audits.json.gz": "7a3745cf9470b0f8bde09c1dae1e0472c71d305a93f11619e4665c4c40f3a640",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed14/periods.csv.gz": "488539287b9fec2b17880643c1d1a31dca295ce84d334a9b4595f9188f2413aa",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed14/protocol.json.gz": "174440a4217c232c46f1057b349375d8c7bb3d39ca041fa42198e2c1cfc800b9",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed14/runtime_failures.json.gz": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed14/scores.json.gz": "880ddc63d1fc5a6b29cdd5320af8356f4f3f79f1c1d1dc400c4e4c89c9487bca",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed15/audit.json.gz": "7205828d01638b71d36421f9b59b12ea6175f9770aef9292eaecacbf6910192b",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed15/calls.json.gz": "2d97afa8cae77985fd4b600e0e97b80dcdac9732c25e56ab7bff3fad672cb965",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed15/completed.json.gz": "ae15fd5e15ede3c519ad260355adb4073848096789b73f6664285b346acf27a1",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed15/delivered_reports.json.gz": "3b1e282e958304a8a7dfc0555576541e63299e623203bc16ba0bad0f8c2ff400",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed15/demands.json.gz": "823cfe42c2b8db108fc047a83f5ecae833bfff94c162ca875e7b19746bf21a71",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed15/episodes.json.gz": "b45c25325716125aaf6e80ac54b0a3b8c1039d725281af654945f9fccf3be3c7",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed15/information_audits.json.gz": "b9191b80ca14e006da056d0c0477b5ab8abc7debff65bd5ee4e982557d48a149",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed15/periods.csv.gz": "8ba3b1051ac2098daeafb82f661bf43fdc8c7fe5892237caaf233bdce174a8a5",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed15/protocol.json.gz": "a458445cb71a286a0cb8ee51535284fa913e2d1d7c8bb442f9e3d1428e63a6cf",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed15/runtime_failures.json.gz": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed15/scores.json.gz": "84072ed72e6dd99ede46c798a204d680812007b5f566076dfb713124e15ac251",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed11/audit.json.gz": "86c2693ef6c49a1a6d3b2a8d5fe214d0619d5a6e3f2e8af8c655113f2be21120",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed11/calls.json.gz": "ccfe88a82b2dc8bbb7ddc89a514d40613fa5958febe44450746f656aec031d51",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed11/completed.json.gz": "fc48084aafbc54d12b4dd2fd5a87c2dc9e079891cc11be6ccf73394ca392bb7f",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed11/delivered_reports.json.gz": "a7606432e46cb12d0c4ba96707c14eab44c3b545180d57fadd2758201f6fd947",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed11/demands.json.gz": "961b47e7f51c06a62e782b89bc9a5e43adc10df2019c1a92b6054ce6d87f5aae",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed11/episodes.json.gz": "a21443ed75326ccd3f7d098d65aa93a3daf641f85d6338741708137d476ac0e3",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed11/information_audits.json.gz": "9e02c43dc8bb587ba958d7d689226a037f476914273316275b8434d2edb6cc89",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed11/periods.csv.gz": "08156c0ea8e4100139463f81b7ff9e6d4869acd665d0ad5320e7f7e7b1f28515",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed11/protocol.json.gz": "6218f647e26910810a4d295c5fb914e3d92a5d24f9c6d74789fcd9741a89ba3f",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed11/runtime_failures.json.gz": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed11/scores.json.gz": "807712c2ba2315b550bbe78fd296822426e5a1e6f899b7a7e73b06f88399748e",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed12/audit.json.gz": "bfc8019ac2d41cbb5365447a3e57c50a9098d23105365897381f358624cecfad",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed12/calls.json.gz": "ce41982fdfba3611d606d0e58b46b8263aa777ccc4d8f2b34c6b31a502347930",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed12/completed.json.gz": "2d39aa0757ec5843da9970fb9de5b5315e0a5b377f806c995243086c03a8a340",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed12/delivered_reports.json.gz": "a7606432e46cb12d0c4ba96707c14eab44c3b545180d57fadd2758201f6fd947",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed12/demands.json.gz": "961b47e7f51c06a62e782b89bc9a5e43adc10df2019c1a92b6054ce6d87f5aae",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed12/episodes.json.gz": "7686782a9b75bdfdbb9036e111506bb9fc0a65f9b826c5594478b272827988c3",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed12/information_audits.json.gz": "1fc8db3eafaf90c95289035926b8875e1acab99559252fb51242460a594f6064",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed12/periods.csv.gz": "fd43a65165f512a22815b653659687bfefb69da351021201c043a5137d535a9d",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed12/protocol.json.gz": "ebb4aa6515fc2d1f1e817bfca52d45016a33156ec8095b4ca62623e338448b39",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed12/runtime_failures.json.gz": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed12/scores.json.gz": "e38e4d3a85e25737f2ce020571a1518ab22e5e1420aacd168e4538f6e5f33694",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed13/audit.json.gz": "3034d9ed47244b59d262b2ee46b9984598341ec6c5ee6a4c126eeeabfde19901",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed13/calls.json.gz": "e88e9582b50fb35b4220a23cb198f163fda175eb4ca6475859399683a77f764c",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed13/completed.json.gz": "523b3370b733f78556c9612f1e5e89467f17119c4edde1c81b57c1c347ad36af",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed13/delivered_reports.json.gz": "a7606432e46cb12d0c4ba96707c14eab44c3b545180d57fadd2758201f6fd947",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed13/demands.json.gz": "961b47e7f51c06a62e782b89bc9a5e43adc10df2019c1a92b6054ce6d87f5aae",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed13/episodes.json.gz": "97e22eeb6f80745ab0dd8ad4427d77a633906353dcb77c52fdd087c60a33a154",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed13/information_audits.json.gz": "66dd0c729f16e5d95ecbb538f10ef2f6a7d5ca7b8453446ece2195e0d63b3b0d",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed13/periods.csv.gz": "d1756246258a90d6f63f0d47aa41db2f1638cd1df19b330fd201ba5cb81d3cc8",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed13/protocol.json.gz": "dedcaf1bbdea0d6dbb32184d5086739e79de582dda5ea777f0ac153f4d4efe81",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed13/runtime_failures.json.gz": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed13/scores.json.gz": "0d357104f7e8bfb0f741cf95b0d49c22e5293014a9a9e8e1ea4b6764b0bb7ab1",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed14/audit.json.gz": "80dc78a867e6fb2a7cc71c7d98a05f30482da40952b8c14970ae5243a43024b4",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed14/calls.json.gz": "064437d4b7e420b1ecaac5b9a7cde44ed86ecf127cdd1ee4f6d328df5d1f8777",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed14/completed.json.gz": "e0d595b0b79ac1028ae3f21b6c8109ef70b550ba529294f51480537e54f7c244",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed14/delivered_reports.json.gz": "a7606432e46cb12d0c4ba96707c14eab44c3b545180d57fadd2758201f6fd947",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed14/demands.json.gz": "961b47e7f51c06a62e782b89bc9a5e43adc10df2019c1a92b6054ce6d87f5aae",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed14/episodes.json.gz": "5232001efce347e5d02b36c43f06b1db988cd70841c33b9d96b506f87bddfe23",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed14/information_audits.json.gz": "c1fdff27e5145c1d0e410ed5f120b5118820f98b5e9bb8e5bba15deafa681e04",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed14/periods.csv.gz": "b23f684d0482db2a9ab803bc3d9d436c537114fad4a1fd23c7a006579cc8934c",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed14/protocol.json.gz": "2274d5c80d21e6d15f4f60cb02dda445738bff3ff955ee44463819ab6717aee1",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed14/runtime_failures.json.gz": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed14/scores.json.gz": "492d46c5291ad81e8ca6e23e1707da8f4f33d35c135026b6a638e66faf608681",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed15/audit.json.gz": "66b43287a12a24ae3c7b0fe7c2ffa37c6344fda0a9f562e571bc7f48e40fbfb5",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed15/calls.json.gz": "4236d56e93257f8363ed8cb0d275c9046f949b62905b1ede6f12cb81b5a58c30",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed15/completed.json.gz": "6431ae21238173843d07299a479961ad7b31d82a33851e1bd0d27eac3957b5c9",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed15/delivered_reports.json.gz": "a7606432e46cb12d0c4ba96707c14eab44c3b545180d57fadd2758201f6fd947",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed15/demands.json.gz": "961b47e7f51c06a62e782b89bc9a5e43adc10df2019c1a92b6054ce6d87f5aae",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed15/episodes.json.gz": "00394018927914616212c12f6ecb782f0f37a7db64c241cf842377653d9e43a9",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed15/information_audits.json.gz": "f22e655404aaecd0f20de53f98222808b0f5ea5ffb8c5ab7a81834c180536a81",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed15/periods.csv.gz": "5a56a52b031cc68cf9bf103907f174e21962492c2ca181ee1a13daaa6ca4874b",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed15/protocol.json.gz": "5c1bac30f71688076481d8688e566a07f16c242bb9125763c56abe88dbad9af1",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed15/runtime_failures.json.gz": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed15/scores.json.gz": "28b94c57f985a9235dd29be87d8a817b07bc84879dfb44103fcea9b1e2dd0a51",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed11/center_merton/logs/events.out.tfevents.1791966659.石原赫的电脑.gz": "4b1b9f81f6a6bd61edfd892d317a85d80f57e0a8f389774d87a7e655d291626e",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed11/center_naive/logs/events.out.tfevents.1791966785.石原赫的电脑.gz": "2c2851b26b5e40e379666aaa69f35939e1f13663e888d0fd72ab9ef886502d71",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed11/center_timesfm/logs/events.out.tfevents.1791966919.石原赫的电脑.gz": "03d97252bc5ed78ff769688ac7925c025fde47699f182c7806c5584b301662c6",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed11/original_merton/logs/events.out.tfevents.1791966545.石原赫的电脑.gz": "6042844cb1eee0647e52d6e99099de3b915b602bcdfdd28e7967217843cd5de7",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed12/center_merton/logs/events.out.tfevents.1791967220.石原赫的电脑.gz": "98f437f2f9303aa8050599fd1f32ee15629a99f31d6276d467fcb21f04eb197a",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed12/center_naive/logs/events.out.tfevents.1791967347.石原赫的电脑.gz": "5cf6dab7571e50b2452dd32c10f621f0746ced482f30adf7bff594f668234559",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed12/center_timesfm/logs/events.out.tfevents.1791967481.石原赫的电脑.gz": "0856f688f61d2b660963b8875d4be24d26eb9655c82a07aeb45a83eab8b7500c",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed12/original_merton/logs/events.out.tfevents.1791967095.石原赫的电脑.gz": "9f8f5bc2d086c1b31351e173170b540679aac0752fba535c001a49354cc83137",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed13/center_merton/logs/events.out.tfevents.1791967767.石原赫的电脑.gz": "8bedd9cb723e2cc768a427af0b289086486b604888a602c1191c2e86092b8abc",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed13/center_naive/logs/events.out.tfevents.1791967919.石原赫的电脑.gz": "1c0d47e455be61c2332c244cea8637beab67224a73f988ef6df6aa337ce31d50",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed13/center_timesfm/logs/events.out.tfevents.1791968072.石原赫的电脑.gz": "5f3029646101e4d786f3b1f060fe70a1353a27c9ef49fba29d112cdab72cc2a5",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed13/original_merton/logs/events.out.tfevents.1791967647.石原赫的电脑.gz": "783c3d5b2a59d62e14e1828630ce89397b57be0ee2e487d60a811c723306595a",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed14/center_merton/logs/events.out.tfevents.1791968397.石原赫的电脑.gz": "117934e40e9de6ffc38ba05615106d9832944f13547920caa400262964e68b1f",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed14/center_naive/logs/events.out.tfevents.1791968524.石原赫的电脑.gz": "c666ceed62aa2958d28f1ab9098ce26ed9a0b43475c674aa493cf29779e79dc7",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed14/center_timesfm/logs/events.out.tfevents.1791968657.石原赫的电脑.gz": "c3e34ff53d04912638204125e9f6c5f1f33de829feb80a9d7e0c96ad67138338",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed14/original_merton/logs/events.out.tfevents.1791968257.石原赫的电脑.gz": "9363e3283122c0470ef98860e0f1229e3dd96793f481e9b4403b28665447c1b5",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed15/center_merton/logs/events.out.tfevents.1791968957.石原赫的电脑.gz": "344dcea3defa27361fe5a822128bcc36327e0f9f3913af0288541eb0a96b35f3",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed15/center_naive/logs/events.out.tfevents.1791969100.石原赫的电脑.gz": "b11380131d7ba66afef5f82eb96388fd0150ee7f36f0781cf10bbafa9538c285",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed15/center_timesfm/logs/events.out.tfevents.1791969229.石原赫的电脑.gz": "7954c04a7960602b32de1ddec1b600462e55ec14ed7d572ef5528aa039390de8",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed15/original_merton/logs/events.out.tfevents.1791968835.石原赫的电脑.gz": "daa82412a87eb25acc4de1b6080dc5a8bf83305719db4dd4e13de0ef31e7dfcb",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed11/center_merton/logs/events.out.tfevents.1791969528.石原赫的电脑.gz": "2c3cb44f8a2412273adf4ea39d881b328b944fdf92cf470222c46b9827b1f63d",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed11/center_naive/logs/events.out.tfevents.1791969658.石原赫的电脑.gz": "adac79dce47154ad864f9bf372e1e94cba0029acc212339df32658fd0e63a9b7",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed11/center_timesfm/logs/events.out.tfevents.1791969788.石原赫的电脑.gz": "992db1f391efabc52120211a539b6d33cea5302696d4bd367521eb6aeabe1964",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed11/original_merton/logs/events.out.tfevents.1791969409.石原赫的电脑.gz": "6e9d804aeef915995251597a8283a0177453609c19fdf0ef6b03d4aa25df5dc1",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed12/center_merton/logs/events.out.tfevents.1791970076.石原赫的电脑.gz": "24a3af20900c430aac749b3160240255f8546104594c7f7227ee616475e9c857",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed12/center_naive/logs/events.out.tfevents.1791970207.石原赫的电脑.gz": "542f5196b0b5bc0a53e5b43b81d599b41c4cb1de40d90b12647360a3da53c8f5",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed12/center_timesfm/logs/events.out.tfevents.1791970335.石原赫的电脑.gz": "25147ce688de30e78f71a307c63fe036e5b5892370ef309e77a418a8ee2f7ae5",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed12/original_merton/logs/events.out.tfevents.1791969959.石原赫的电脑.gz": "697c0277369a065089bb16ee684d1a95326894863827558b74bcffeed3b9c1ec",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed13/center_merton/logs/events.out.tfevents.1791970624.石原赫的电脑.gz": "22a9edb2fd4f5cf9bc9848feb3a32f40e5b8cd6890f01307af0f23f4118853c7",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed13/center_naive/logs/events.out.tfevents.1791970747.石原赫的电脑.gz": "77cde7fcb4079f653a6c7818ac5f63e6ddb288fc85e1e45caab34870e70655c2",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed13/center_timesfm/logs/events.out.tfevents.1791970872.石原赫的电脑.gz": "057004c57036e6038369f329cd906b3055f28df2e51c28a1f82b4999728830bc",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed13/original_merton/logs/events.out.tfevents.1791970506.石原赫的电脑.gz": "77cc36709743e782cc2be0d7090bdfe61ac22af095158d00286dbf049d216d9d",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed14/center_merton/logs/events.out.tfevents.1791971156.石原赫的电脑.gz": "3f237ffb9e2421c48b4db77f37d93a34f268155182a8cd3f65875a8121bcb6dc",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed14/center_naive/logs/events.out.tfevents.1791971275.石原赫的电脑.gz": "1436c8a013ba241cc9b7089435bd930489d670225b70e5e5c6f00c1c8402d10c",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed14/center_timesfm/logs/events.out.tfevents.1791971404.石原赫的电脑.gz": "49ad6b382924c10e42a86ddf83d771f1315f392516df113918cb089c1ee99e4e",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed14/original_merton/logs/events.out.tfevents.1791971035.石原赫的电脑.gz": "6956cfa77e5ca744ec0ad29ee21731ebc6404754498246b971ea799bfbc9bada",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed15/center_merton/logs/events.out.tfevents.1791971692.石原赫的电脑.gz": "5eb911ae06f3917d13e7b8e995d51fa1768779bf815481988eb278df0c32e85e",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed15/center_naive/logs/events.out.tfevents.1791971825.石原赫的电脑.gz": "d9cc12c0be45b7cb712d00891fa2305ee5239ceb1741d2ebfab29b76701c1708",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed15/center_timesfm/logs/events.out.tfevents.1791971950.石原赫的电脑.gz": "73d98989003c0e9cd746c4493c99595eb2a692efccc793b6f469b7b0f02eb036",
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed15/original_merton/logs/events.out.tfevents.1791971571.石原赫的电脑.gz": "d71c93742926c09f50f1eb61b90f29482c030ff53742ef342b688d9f03cd2656"
+  },
+  "origins": {
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/attempts.json.gz": {
+      "source_sha256": "647c667e57df1d9e71aad9c068a8a614bc825f2ced055a3b1dacad1b241c47d8",
+      "gzip_sha256": "28d2861a09dc7034df5422d07d349c703bdf6f3e4a09d42d554ff0b7c4814fd1"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/batch01_seed11.log.gz": {
+      "source_sha256": "db7471c5ce7e584d2af9c6635661660db3505f9fa06c4197bd925015d37afa3a",
+      "gzip_sha256": "dff13831a75cc75f047442849c323856436f78a06169ee85b55a4f312cea106e"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/batch01_seed12.log.gz": {
+      "source_sha256": "7d25f2710ce36c3008230a9f5931386fb69b7bdb085047d2de13ddfe22ce9187",
+      "gzip_sha256": "d5b28492e14638c3f5e2eb60203c434b1dfdf9c6dd9884eaca630bb76f29d74e"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/batch01_seed13.log.gz": {
+      "source_sha256": "eaf9629b3e2e7184bb9ef5b1a39552553baf822d99988cf8bea098fb122f8759",
+      "gzip_sha256": "c23fce86fd27e16ab1c08118dd1ccf2f3d238e65cfde9a054daeddba2fbd29a5"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/batch01_seed14.log.gz": {
+      "source_sha256": "047d119b5e0add2fd08cdae82acd07da71b50a91576dd22a1272dfdee1502dde",
+      "gzip_sha256": "4fe0e07906ec662ab1569745838bc4e442cf5c0956df41c97ef66e08cb8e6647"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/batch01_seed15.log.gz": {
+      "source_sha256": "1372c107c8034fc58bce18d705e957c79bbffb7bf1ea45a93a7b4ad4b6981ceb",
+      "gzip_sha256": "f2da4c72cc914c6b28b4ba5e5f8e81fe7b0050cf4a91635a80372aa036afa755"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/batch06_seed11.log.gz": {
+      "source_sha256": "dc1b938024531ed8bfe4c250ed3a20b36af764fc4c571da8bd190d01a47918a9",
+      "gzip_sha256": "0f4d00494f03f494629f6235de1298142284f7902c122e7c5f99c44fb00c3d50"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/batch06_seed12.log.gz": {
+      "source_sha256": "647b4bd70f53e5116f05d2e8981b8b8c65b84b735a87a3b946d149a45ea1326b",
+      "gzip_sha256": "d4593f5f8a2c76b95223d289ab02f42a69f868a713753e0dddb6f451a0dc6a67"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/batch06_seed13.log.gz": {
+      "source_sha256": "32038bb7b79c178c9cfcd78afdbd3b2e0d521e555edf86a2084a10b48ac8a848",
+      "gzip_sha256": "6551a53dc2febdca2ce9abb94269981afdaf73123613a98ce75cfaa47bab5943"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/batch06_seed14.log.gz": {
+      "source_sha256": "f57d777abd7a1cc217ab5bb0d6a9f7ff7f09d76a51059390ba71c3cddc5bec6d",
+      "gzip_sha256": "d2b5adeb4f59b5897c79895e864946c4e87a41e2ddfd2a37f46409751eebedd7"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/batch06_seed15.log.gz": {
+      "source_sha256": "54dfa746acfb73278aaa63570ffefff26b12a0a0f911eece86756be8ba6843aa",
+      "gzip_sha256": "d972df014042c3306f6849104beaa5895a423517267b8e0971f581d594cd7dc0"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/completed.json.gz": {
+      "source_sha256": "bcbbce83ac8904772f038e813cd19e978ea4db732f9d6fa81f009e674d6b978c",
+      "gzip_sha256": "29c55487be78aeee52ca82c83bb3f40cfd8b3694f70ab59f6d13fc4a1c5a9baf"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/driver.log.gz": {
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gzip_sha256": "46b50c321b39e89a491b6727a01628c34245605a30beb3e7414c5e01cff90e6e"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/error.log.gz": {
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gzip_sha256": "46b50c321b39e89a491b6727a01628c34245605a30beb3e7414c5e01cff90e6e"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/freeze.json.gz": {
+      "source_sha256": "aa556f5a0ec706bf588d1f4107835b57f11371130e492c67a27a1c296da4107b",
+      "gzip_sha256": "bcee376f10be0e642c2a49a94033e82f695db8812e43cc0412d915d7f71cad19"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/launch.json.gz": {
+      "source_sha256": "8ff9d8b2bc75faf0a4cd13eb2ff5fceb00a678136b89fc053cce3036a9c2d28b",
+      "gzip_sha256": "4366085e97fb28a6e3e89951d80667ae55202136a826a4d76faa67d42257cc0c"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/manifest.json.gz": {
+      "source_sha256": "3bf987b05c9370cd0584ff42cbd15abdc455aaf55c941c295533d7f263ff5a7b",
+      "gzip_sha256": "829465318f19f3b5c4a000917219c080f02b57d50607e9e1a2dac59af34f9e80"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/preflight.json.gz": {
+      "source_sha256": "45a26fc70ea3d781037d95fe030703577ffe04a6747f6fd0622f51ee10e4e816",
+      "gzip_sha256": "ef1d7b46252ad98cfc7f54c3e284b3dbaac9e5a4f8e621a099940c003ac944de"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/progress.json.gz": {
+      "source_sha256": "bd216d5d009abbfd3d645b2d4a2f0488d84ad95c3ccf79f5b03740aae39ce65f",
+      "gzip_sha256": "a8d7b203284a4081b63965a74dbd8a1f4186079fd43100238aca24d17943fa3f"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/publication.json.gz": {
+      "source_sha256": "730604250f4541083d781de936a611cce044c01c176323d2d0b320e1750f3b4e",
+      "gzip_sha256": "45bb4afa3a9788ec04de1035583fe087a1ca996efbc2a6f8905a87fdad4b3f8d"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/publication_verification.json.gz": {
+      "source_sha256": "6f063bcd711b5796086b029a8840aefaedfbf848151dd791f89956ca1459f55a",
+      "gzip_sha256": "d3e70081f91af52df422807a9e168365eb66d7af2dec212067dd6c3b91847a3c"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/report.md.gz": {
+      "source_sha256": "8b6a6bdc81dee69e6baca8c4dd219bea639fe888fe62bf08dd3d9244737c63b3",
+      "gzip_sha256": "c3c21680809a4740873a57673e165a12a00cbb5d256694d51163efd075fe2043"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/started.lock.gz": {
+      "source_sha256": "3e6ea6702421d57f807a550eb6ea8fa95923a77d61067d182b28908a81dbc539",
+      "gzip_sha256": "298a7487cbe69cfd0f356df11344b8cfb68600a78edea02e0a4f8b601d360d14"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/summary.json.gz": {
+      "source_sha256": "4692a2507376a3c25185f2d32e9927cf89b904c520ffccced01a7010e7a18399",
+      "gzip_sha256": "fa1efc64a7a37acc3cda904d794edbbe8bfb4ae94653d675f1c84fb4ed92818e"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/wrapper_launch.json.gz": {
+      "source_sha256": "80376fcbbcddef2daa1fd5c737ef6a5e20941409f5f0dafc82541c491e3c83c8",
+      "gzip_sha256": "4d353dbc34d4f1b2b2f24bfa53a17e0d683a032da34990c3adff7b7acb7a566b"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed11/audit.json.gz": {
+      "source_sha256": "660a37f220024e4233d3e9fae7590182b34a295e1c7c52c965c273e50dc3d70e",
+      "gzip_sha256": "282342d72d9e2444f33289eb65bd4ac7fcaf16cbeaa564ab6f31efe015416fa1"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed11/calls.json.gz": {
+      "source_sha256": "12eef02e51f3f8e2a3ea16f079171f33eaf4d1759b7e281306ffe266f32814cf",
+      "gzip_sha256": "a513e839766f5452056db0a0e0010d4beb9bf47ff86bf4b806dc9a3573aa641f"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed11/completed.json.gz": {
+      "source_sha256": "a016d5eabb705a5d43902bc85ec328dbe83ebcca92c9b60f5b9c56ef78ae3c8c",
+      "gzip_sha256": "e58b7ec21ae53ec644f85f58bfd6dd152aaa09e72c77690915f360e780192c0e"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed11/delivered_reports.json.gz": {
+      "source_sha256": "bd7a37e66e0aa282c0f804bbca3096fe479d7a933833f949ea6184fdd4025edf",
+      "gzip_sha256": "3b1e282e958304a8a7dfc0555576541e63299e623203bc16ba0bad0f8c2ff400"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed11/demands.json.gz": {
+      "source_sha256": "99e4995eccfbe6c50f2d46b41e167769f69d6cdb61c9a75d84b264c7860a3bb8",
+      "gzip_sha256": "823cfe42c2b8db108fc047a83f5ecae833bfff94c162ca875e7b19746bf21a71"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed11/episodes.json.gz": {
+      "source_sha256": "cb01e3358d826ea9ee3b08eec397410ade8648601ead198ea217e08801a52d56",
+      "gzip_sha256": "42528530fb21c0cdb4e8870587eabfed50617bf97433420d2ef6ca8fb85fa958"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed11/information_audits.json.gz": {
+      "source_sha256": "0a00150b4d316af8b213da0ebbf35cd37305923c1ab4f308278406e87c6f5218",
+      "gzip_sha256": "1e45121039005a51bd2290c879343f034804b2700000169aaf8be1af2db2a2af"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed11/periods.csv.gz": {
+      "source_sha256": "72916393dd24b4029c6e1c38e6363c89c9223c761032bde43c9479892a91839b",
+      "gzip_sha256": "0b71e55ce86cf56b25c2c4e07ff8d0d938b5319201be509312be4fc3a955e1c0"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed11/protocol.json.gz": {
+      "source_sha256": "4f11d55bd070bf7732f84e977eae18f0ab54ef88e045fe353eff04b58fe8cae6",
+      "gzip_sha256": "89336de6decbd16f6b00c25c37709b2fdd42ccb2226f069a94f36f6312289822"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed11/runtime_failures.json.gz": {
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed11/scores.json.gz": {
+      "source_sha256": "477cf0828d05b9b55b9737bcd0e530fd1877f0c08bc34e6c6beebc8544e2be04",
+      "gzip_sha256": "a7c7997c4648ee3140351604cf367a02477320bca9b2df96380a9ade1780a6fe"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed12/audit.json.gz": {
+      "source_sha256": "18ebc58521a11bb7d505eff24786fc5b09f17e7a6fc87b0fa4f4252dfa78f157",
+      "gzip_sha256": "c67a8f708ed997179e0ebeb11a0c2bfb8c239a0cd1181fd2ef4385e6ed9fb9c2"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed12/calls.json.gz": {
+      "source_sha256": "8062fa48cbba77ed5b7f18c6dc4091884f74c5da9c3aa9e1fac66a5c4df82972",
+      "gzip_sha256": "5157d80d864d2f9f4e23b0b5747945781e662de65e999dbffa52111c6fa1d445"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed12/completed.json.gz": {
+      "source_sha256": "32d2a716ff3579d1a43d54579434c50939acad6331e63dacb9ffbecc4e782101",
+      "gzip_sha256": "01183ab156a0abd3dde497fe132a7bbb98245001f042cc559292648558b471b9"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed12/delivered_reports.json.gz": {
+      "source_sha256": "bd7a37e66e0aa282c0f804bbca3096fe479d7a933833f949ea6184fdd4025edf",
+      "gzip_sha256": "3b1e282e958304a8a7dfc0555576541e63299e623203bc16ba0bad0f8c2ff400"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed12/demands.json.gz": {
+      "source_sha256": "99e4995eccfbe6c50f2d46b41e167769f69d6cdb61c9a75d84b264c7860a3bb8",
+      "gzip_sha256": "823cfe42c2b8db108fc047a83f5ecae833bfff94c162ca875e7b19746bf21a71"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed12/episodes.json.gz": {
+      "source_sha256": "fc29525a3bcb510515897670e1ff239c898045fd04306ec4524d87b5f18e3dba",
+      "gzip_sha256": "843abb22d722fb9a262d2db806010e90eba1136f50fb9e2d9e83a177539655d9"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed12/information_audits.json.gz": {
+      "source_sha256": "7c90d56d42e52c41d442cb45f4f49200a330bfe588f9e541dfa3732a58220fde",
+      "gzip_sha256": "669416c9f7364361199e4c4dfdbe849e53c8e2acfe11846889a0671a5cc30f16"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed12/periods.csv.gz": {
+      "source_sha256": "06a8f147554757c4c29cd645154d1589ae98ba9de79750cc5db385353cc6d180",
+      "gzip_sha256": "c2d5e4924cd3527f85c279c8215578043b9f1cab26e9ec2e613ab82b82250033"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed12/protocol.json.gz": {
+      "source_sha256": "48b0b4cec55d2983cf7845bb9c8a4bc8977ae78c311c7ba06e7805b4e817b719",
+      "gzip_sha256": "ab5bd01a1a871c0428a36e1371cf938ad11f222a487b6934f28f42aabddb32c6"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed12/runtime_failures.json.gz": {
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed12/scores.json.gz": {
+      "source_sha256": "6f1e5debae1a5cd3db6c52c0f268e83e6e837e5517773b467260854b8d634527",
+      "gzip_sha256": "ace8246a9295654480b62f19ccc3f2fbda449f47f258c8bbc366f8e7d1e241b8"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed13/audit.json.gz": {
+      "source_sha256": "8a38efe536f0d3f892d6136ac026749beaf620e3e1a02ec8f3c662f6804a8c98",
+      "gzip_sha256": "341be9a8c9bce43888bd16b32a8df3c89400a644f23137d4d2935e8843c00c33"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed13/calls.json.gz": {
+      "source_sha256": "2a39c0c06c8053939eaf773097d76cbce7c7ec27f4ec54972d2a2d769d5d2e18",
+      "gzip_sha256": "dcfc233810e5a46091c0d2b4b8b948b21c6582b697913931cb810115d17b21f2"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed13/completed.json.gz": {
+      "source_sha256": "efa59adc93a2bf906791a937009433bd0b05977e8d3fd319ffa4bb43728da79d",
+      "gzip_sha256": "5abb51faa7d662070337d0eb5e20e6b3a520e7376a03866131be5f07b0c29737"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed13/delivered_reports.json.gz": {
+      "source_sha256": "bd7a37e66e0aa282c0f804bbca3096fe479d7a933833f949ea6184fdd4025edf",
+      "gzip_sha256": "3b1e282e958304a8a7dfc0555576541e63299e623203bc16ba0bad0f8c2ff400"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed13/demands.json.gz": {
+      "source_sha256": "99e4995eccfbe6c50f2d46b41e167769f69d6cdb61c9a75d84b264c7860a3bb8",
+      "gzip_sha256": "823cfe42c2b8db108fc047a83f5ecae833bfff94c162ca875e7b19746bf21a71"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed13/episodes.json.gz": {
+      "source_sha256": "0f17d2e0f7d829472281bb893da2d5c59534a3469a9bf077518f7c9a12b785c4",
+      "gzip_sha256": "1bd3ed1e9e5c8a9f3f6b4017e9372b67d31d06a91f2150cb2468acd1820575a1"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed13/information_audits.json.gz": {
+      "source_sha256": "a1835a5b290eb8bfd5510a5c90a680196c35d9906ae6c879324fa85f89187d7a",
+      "gzip_sha256": "d0d19a2723c7dffe62f31e6b39ccb6d38fc6dfca0b634a05aea35da9a80bf267"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed13/periods.csv.gz": {
+      "source_sha256": "ea3caaf98757a7dfda3de0dab8eba34d0c497728fd471efffd7e3cd336f3dc24",
+      "gzip_sha256": "d8d6478bb171ba19f364398c4e4f5ee97ee83a5b5d26a6a079bd1d98fa60977d"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed13/protocol.json.gz": {
+      "source_sha256": "324212240a99f8cc1ea72214a4ee7374dcda900ec21b946355778baead0fda40",
+      "gzip_sha256": "6fa1e2876b48698b11a2b061e0c942c2bd56adbbd9a0719db4b3ede4821d0154"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed13/runtime_failures.json.gz": {
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed13/scores.json.gz": {
+      "source_sha256": "949190ba5678542aafbda88d48e39f281603a303f83834cd24d532bce140a44e",
+      "gzip_sha256": "5072e7bcaed3a08131e4554f6e32650c193e48986abb58d179b2dbc74bc45095"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed14/audit.json.gz": {
+      "source_sha256": "b874236525219d97ffa249d24f2d38210e6ceaee1e737f8b8751f79c8ae6ac78",
+      "gzip_sha256": "5f624c69864b92abacf6996dca597fca6cc626cbaad65d66ff415d10c1db1d74"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed14/calls.json.gz": {
+      "source_sha256": "4d90c201d322f0cf75ff614b79daafa9acb01fb81405e1bb7fe4ba2c6de0d5a5",
+      "gzip_sha256": "9c9bf542d397e99402d4d3f882b476ad3454ef1f9cd9888a6eb0b62cf0f7f6e1"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed14/completed.json.gz": {
+      "source_sha256": "4e328556a56310422813e86fa47ffd87df4004f698d7ecb6cd9000afe17fbb11",
+      "gzip_sha256": "d18e8518fcb68aa3249707b390879612766a22405d7a0ed3deec18b6c1f40fbb"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed14/delivered_reports.json.gz": {
+      "source_sha256": "bd7a37e66e0aa282c0f804bbca3096fe479d7a933833f949ea6184fdd4025edf",
+      "gzip_sha256": "3b1e282e958304a8a7dfc0555576541e63299e623203bc16ba0bad0f8c2ff400"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed14/demands.json.gz": {
+      "source_sha256": "99e4995eccfbe6c50f2d46b41e167769f69d6cdb61c9a75d84b264c7860a3bb8",
+      "gzip_sha256": "823cfe42c2b8db108fc047a83f5ecae833bfff94c162ca875e7b19746bf21a71"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed14/episodes.json.gz": {
+      "source_sha256": "fe29e32e91c09fe9bec043eced901c64c1681e7cf36a319e3146578db9245783",
+      "gzip_sha256": "a63c9f6d7476695bb37014c476915d15e863c0c859c2415bb8ed55537633b5b0"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed14/information_audits.json.gz": {
+      "source_sha256": "57c47d499566ac4caebc354a251dfc8adc578ff49d889b86c900e6977de3da27",
+      "gzip_sha256": "7a3745cf9470b0f8bde09c1dae1e0472c71d305a93f11619e4665c4c40f3a640"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed14/periods.csv.gz": {
+      "source_sha256": "3e0d0cac0842ca9b90e61faa9b0076e78e4f9663a82962a9785d1b924585755d",
+      "gzip_sha256": "488539287b9fec2b17880643c1d1a31dca295ce84d334a9b4595f9188f2413aa"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed14/protocol.json.gz": {
+      "source_sha256": "c5ded9637607d8550082b9d8f61095bdcffc3251313af409d62be5d35f21c2d6",
+      "gzip_sha256": "174440a4217c232c46f1057b349375d8c7bb3d39ca041fa42198e2c1cfc800b9"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed14/runtime_failures.json.gz": {
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed14/scores.json.gz": {
+      "source_sha256": "4a86bdfc1308914218290f721f5a9074b1b6c7ba86ff61ae4645d9cc9f985c90",
+      "gzip_sha256": "880ddc63d1fc5a6b29cdd5320af8356f4f3f79f1c1d1dc400c4e4c89c9487bca"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed15/audit.json.gz": {
+      "source_sha256": "3f4c3b5bca2906edae74b7dfdea298919c2abc0faefd8a56692e4502be411ed1",
+      "gzip_sha256": "7205828d01638b71d36421f9b59b12ea6175f9770aef9292eaecacbf6910192b"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed15/calls.json.gz": {
+      "source_sha256": "c97a8d00d85a9f80c89aced530bcb2e808290702bebbeee3cf8b0c1a6bb5f97e",
+      "gzip_sha256": "2d97afa8cae77985fd4b600e0e97b80dcdac9732c25e56ab7bff3fad672cb965"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed15/completed.json.gz": {
+      "source_sha256": "8932ce4ae76218cd2a3ddda171f15b3cccb22da0544eef95bc5a06275f210ff5",
+      "gzip_sha256": "ae15fd5e15ede3c519ad260355adb4073848096789b73f6664285b346acf27a1"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed15/delivered_reports.json.gz": {
+      "source_sha256": "bd7a37e66e0aa282c0f804bbca3096fe479d7a933833f949ea6184fdd4025edf",
+      "gzip_sha256": "3b1e282e958304a8a7dfc0555576541e63299e623203bc16ba0bad0f8c2ff400"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed15/demands.json.gz": {
+      "source_sha256": "99e4995eccfbe6c50f2d46b41e167769f69d6cdb61c9a75d84b264c7860a3bb8",
+      "gzip_sha256": "823cfe42c2b8db108fc047a83f5ecae833bfff94c162ca875e7b19746bf21a71"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed15/episodes.json.gz": {
+      "source_sha256": "09896ce03ea309521541a02f4287fd97e30e48dbdee12bc631328a9a04e40e3a",
+      "gzip_sha256": "b45c25325716125aaf6e80ac54b0a3b8c1039d725281af654945f9fccf3be3c7"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed15/information_audits.json.gz": {
+      "source_sha256": "fa78a7a56cb07d7f9d376fac9054e063e0daaf41d255d3b71f8bec3cad8bfdab",
+      "gzip_sha256": "b9191b80ca14e006da056d0c0477b5ab8abc7debff65bd5ee4e982557d48a149"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed15/periods.csv.gz": {
+      "source_sha256": "ee812bb0571343e6d0c95495848c8995fe37d690d9575549049be4b1e3d3f793",
+      "gzip_sha256": "8ba3b1051ac2098daeafb82f661bf43fdc8c7fe5892237caaf233bdce174a8a5"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed15/protocol.json.gz": {
+      "source_sha256": "dd3f38b7f12e17f7847e3be1cda2ba856699b7f13a77308bc1ee7542bd0cae3b",
+      "gzip_sha256": "a458445cb71a286a0cb8ee51535284fa913e2d1d7c8bb442f9e3d1428e63a6cf"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed15/runtime_failures.json.gz": {
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed15/scores.json.gz": {
+      "source_sha256": "3498f786a5d8a709136f6b03ffb41c171b784a58361dbcaefac0fa2e5e62747b",
+      "gzip_sha256": "84072ed72e6dd99ede46c798a204d680812007b5f566076dfb713124e15ac251"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed11/audit.json.gz": {
+      "source_sha256": "f2cbb54965706fbbe7cddd2732fc633a8e1cff3169f505a263f21c030930b9f8",
+      "gzip_sha256": "86c2693ef6c49a1a6d3b2a8d5fe214d0619d5a6e3f2e8af8c655113f2be21120"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed11/calls.json.gz": {
+      "source_sha256": "41701871717ef08b8ce09e9049cedcc56a4d5790313c6706b4970dd05437b165",
+      "gzip_sha256": "ccfe88a82b2dc8bbb7ddc89a514d40613fa5958febe44450746f656aec031d51"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed11/completed.json.gz": {
+      "source_sha256": "d8b49c57a31723484bf3a2617b9b5e24425c70206ead27a2f846526cc0262765",
+      "gzip_sha256": "fc48084aafbc54d12b4dd2fd5a87c2dc9e079891cc11be6ccf73394ca392bb7f"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed11/delivered_reports.json.gz": {
+      "source_sha256": "79bf718e8ff360897c331b2168ea531c394014862be098a50884c2a222ff5b0d",
+      "gzip_sha256": "a7606432e46cb12d0c4ba96707c14eab44c3b545180d57fadd2758201f6fd947"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed11/demands.json.gz": {
+      "source_sha256": "e844235048990abec32c495bd7b46ef3bcfac6036e2760076a7118de61b3200d",
+      "gzip_sha256": "961b47e7f51c06a62e782b89bc9a5e43adc10df2019c1a92b6054ce6d87f5aae"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed11/episodes.json.gz": {
+      "source_sha256": "62b11ef09a6b43de8fa9a0647bc09a89cbbdea39449c806ec5686e1250daf66f",
+      "gzip_sha256": "a21443ed75326ccd3f7d098d65aa93a3daf641f85d6338741708137d476ac0e3"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed11/information_audits.json.gz": {
+      "source_sha256": "d5ce5ecfbcffcff3ed7cbc9c21b09ad016b5c5d76e4721fa28bd2e53d83eeb7c",
+      "gzip_sha256": "9e02c43dc8bb587ba958d7d689226a037f476914273316275b8434d2edb6cc89"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed11/periods.csv.gz": {
+      "source_sha256": "634cc18dfaddf470ae8909df14da17b568bd76e955a541d8dfc3a91732907134",
+      "gzip_sha256": "08156c0ea8e4100139463f81b7ff9e6d4869acd665d0ad5320e7f7e7b1f28515"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed11/protocol.json.gz": {
+      "source_sha256": "5dee487034d240a7359436bbf5a2e4b3943ee41130fbc835343c38bab5b2270c",
+      "gzip_sha256": "6218f647e26910810a4d295c5fb914e3d92a5d24f9c6d74789fcd9741a89ba3f"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed11/runtime_failures.json.gz": {
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed11/scores.json.gz": {
+      "source_sha256": "a1e949f8f40ba2556fa694d71a0023043631a95291bdbd819809a87f04c98772",
+      "gzip_sha256": "807712c2ba2315b550bbe78fd296822426e5a1e6f899b7a7e73b06f88399748e"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed12/audit.json.gz": {
+      "source_sha256": "808c626de6315acad4c7d7a2e5841739dec93be7fc06e12e484c17f1b249d455",
+      "gzip_sha256": "bfc8019ac2d41cbb5365447a3e57c50a9098d23105365897381f358624cecfad"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed12/calls.json.gz": {
+      "source_sha256": "a154232433167294cf2dc8f288f4dc5ec99df47b494d8e2afa71b9ebe16fb687",
+      "gzip_sha256": "ce41982fdfba3611d606d0e58b46b8263aa777ccc4d8f2b34c6b31a502347930"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed12/completed.json.gz": {
+      "source_sha256": "4bf614e3aa840610c2685e880564cedb94dc5038e48fd2f39dc2cfac5da0ddca",
+      "gzip_sha256": "2d39aa0757ec5843da9970fb9de5b5315e0a5b377f806c995243086c03a8a340"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed12/delivered_reports.json.gz": {
+      "source_sha256": "79bf718e8ff360897c331b2168ea531c394014862be098a50884c2a222ff5b0d",
+      "gzip_sha256": "a7606432e46cb12d0c4ba96707c14eab44c3b545180d57fadd2758201f6fd947"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed12/demands.json.gz": {
+      "source_sha256": "e844235048990abec32c495bd7b46ef3bcfac6036e2760076a7118de61b3200d",
+      "gzip_sha256": "961b47e7f51c06a62e782b89bc9a5e43adc10df2019c1a92b6054ce6d87f5aae"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed12/episodes.json.gz": {
+      "source_sha256": "96270cc097ad769135127db259ffd0888df6b72301f94db3ea70538b37d476f8",
+      "gzip_sha256": "7686782a9b75bdfdbb9036e111506bb9fc0a65f9b826c5594478b272827988c3"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed12/information_audits.json.gz": {
+      "source_sha256": "8a99c7ee44446819b9fa3ce62f6eb9ce072eeab37ba7d02e958d760d9cc25d42",
+      "gzip_sha256": "1fc8db3eafaf90c95289035926b8875e1acab99559252fb51242460a594f6064"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed12/periods.csv.gz": {
+      "source_sha256": "de01294ee897402b7bde1b2dd4dee4656c511a19420cd236048638f7928dfc1d",
+      "gzip_sha256": "fd43a65165f512a22815b653659687bfefb69da351021201c043a5137d535a9d"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed12/protocol.json.gz": {
+      "source_sha256": "6ebd838bca683c4a02f19f4d3f7bb33c5ce4a6551c3995715de87af5cef748c0",
+      "gzip_sha256": "ebb4aa6515fc2d1f1e817bfca52d45016a33156ec8095b4ca62623e338448b39"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed12/runtime_failures.json.gz": {
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed12/scores.json.gz": {
+      "source_sha256": "0658a9745297486ba6c3e3af680bd66582c99e0fc35b04faa0017d232b17f1e6",
+      "gzip_sha256": "e38e4d3a85e25737f2ce020571a1518ab22e5e1420aacd168e4538f6e5f33694"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed13/audit.json.gz": {
+      "source_sha256": "e28abe791f8eb4757dcb27a8bfca2b1c26f75e314f815f534bfd565131f4648b",
+      "gzip_sha256": "3034d9ed47244b59d262b2ee46b9984598341ec6c5ee6a4c126eeeabfde19901"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed13/calls.json.gz": {
+      "source_sha256": "36f786fda5b97de562461db381106114cea89da321a37002bd933e3c779c0154",
+      "gzip_sha256": "e88e9582b50fb35b4220a23cb198f163fda175eb4ca6475859399683a77f764c"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed13/completed.json.gz": {
+      "source_sha256": "e705e27534e2a28231186d3b9493764be301ac0b5af279af379611f54c56552c",
+      "gzip_sha256": "523b3370b733f78556c9612f1e5e89467f17119c4edde1c81b57c1c347ad36af"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed13/delivered_reports.json.gz": {
+      "source_sha256": "79bf718e8ff360897c331b2168ea531c394014862be098a50884c2a222ff5b0d",
+      "gzip_sha256": "a7606432e46cb12d0c4ba96707c14eab44c3b545180d57fadd2758201f6fd947"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed13/demands.json.gz": {
+      "source_sha256": "e844235048990abec32c495bd7b46ef3bcfac6036e2760076a7118de61b3200d",
+      "gzip_sha256": "961b47e7f51c06a62e782b89bc9a5e43adc10df2019c1a92b6054ce6d87f5aae"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed13/episodes.json.gz": {
+      "source_sha256": "004ed08ab7a77e7da0dc107c18e8161d89e82ae7dc13f82729cc68ac92a64700",
+      "gzip_sha256": "97e22eeb6f80745ab0dd8ad4427d77a633906353dcb77c52fdd087c60a33a154"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed13/information_audits.json.gz": {
+      "source_sha256": "1b2df595e074851aafd24ad138869f78bdc5d3843b870578fb9f2095342d2c95",
+      "gzip_sha256": "66dd0c729f16e5d95ecbb538f10ef2f6a7d5ca7b8453446ece2195e0d63b3b0d"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed13/periods.csv.gz": {
+      "source_sha256": "6c9876224cd69d97b4d8d473fe972b322376f753548938b7800572466b711f01",
+      "gzip_sha256": "d1756246258a90d6f63f0d47aa41db2f1638cd1df19b330fd201ba5cb81d3cc8"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed13/protocol.json.gz": {
+      "source_sha256": "1a69ab4652cc31503c2848022477966d70fca4bb6a97256018ff9b8e2ebdce44",
+      "gzip_sha256": "dedcaf1bbdea0d6dbb32184d5086739e79de582dda5ea777f0ac153f4d4efe81"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed13/runtime_failures.json.gz": {
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed13/scores.json.gz": {
+      "source_sha256": "de03caa841724b96a62045c4187d18269eabf103309bbf5a067bcabf780b79f4",
+      "gzip_sha256": "0d357104f7e8bfb0f741cf95b0d49c22e5293014a9a9e8e1ea4b6764b0bb7ab1"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed14/audit.json.gz": {
+      "source_sha256": "8c73c776af6686c2e2d5bc8b768a82d76794128de8e76c9f9d391151e5ae7570",
+      "gzip_sha256": "80dc78a867e6fb2a7cc71c7d98a05f30482da40952b8c14970ae5243a43024b4"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed14/calls.json.gz": {
+      "source_sha256": "0bd84d0703f1928c538a3c6c9ee39c42ff660fad989fabd27e804a4195767aa7",
+      "gzip_sha256": "064437d4b7e420b1ecaac5b9a7cde44ed86ecf127cdd1ee4f6d328df5d1f8777"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed14/completed.json.gz": {
+      "source_sha256": "349c28f344c57f7d7b404965ecc709fa79a637b8570e369ddbb9f5beae9aa0c1",
+      "gzip_sha256": "e0d595b0b79ac1028ae3f21b6c8109ef70b550ba529294f51480537e54f7c244"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed14/delivered_reports.json.gz": {
+      "source_sha256": "79bf718e8ff360897c331b2168ea531c394014862be098a50884c2a222ff5b0d",
+      "gzip_sha256": "a7606432e46cb12d0c4ba96707c14eab44c3b545180d57fadd2758201f6fd947"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed14/demands.json.gz": {
+      "source_sha256": "e844235048990abec32c495bd7b46ef3bcfac6036e2760076a7118de61b3200d",
+      "gzip_sha256": "961b47e7f51c06a62e782b89bc9a5e43adc10df2019c1a92b6054ce6d87f5aae"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed14/episodes.json.gz": {
+      "source_sha256": "5f28917ac9c3fd179a06a708c1ff6194d2862889434db80dcff36c6b31810ca0",
+      "gzip_sha256": "5232001efce347e5d02b36c43f06b1db988cd70841c33b9d96b506f87bddfe23"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed14/information_audits.json.gz": {
+      "source_sha256": "54c9dfebf3eff21da66655cc528ad8707222e540f69f6407c984e5d767ea509c",
+      "gzip_sha256": "c1fdff27e5145c1d0e410ed5f120b5118820f98b5e9bb8e5bba15deafa681e04"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed14/periods.csv.gz": {
+      "source_sha256": "3b659eb7e0001dd965e7993d0c8f0688c90bc0155361d36e81da6f148b228623",
+      "gzip_sha256": "b23f684d0482db2a9ab803bc3d9d436c537114fad4a1fd23c7a006579cc8934c"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed14/protocol.json.gz": {
+      "source_sha256": "900d2d5e208eed966174ea32fece1a12254faaaa2b5d81b7de8964635ec9cb0c",
+      "gzip_sha256": "2274d5c80d21e6d15f4f60cb02dda445738bff3ff955ee44463819ab6717aee1"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed14/runtime_failures.json.gz": {
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed14/scores.json.gz": {
+      "source_sha256": "ea4d73876777f64f17f550b92d0c3ceba9cd9ffed2b73bd525d37d196938f5be",
+      "gzip_sha256": "492d46c5291ad81e8ca6e23e1707da8f4f33d35c135026b6a638e66faf608681"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed15/audit.json.gz": {
+      "source_sha256": "a964371980761b0ddad6743b641e31b401fad46a79d7bef00ad58a2b841f3e29",
+      "gzip_sha256": "66b43287a12a24ae3c7b0fe7c2ffa37c6344fda0a9f562e571bc7f48e40fbfb5"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed15/calls.json.gz": {
+      "source_sha256": "cde4d5a6e804a43c881f3d1656a14c48629e567bc44eddf977de3668f102f07f",
+      "gzip_sha256": "4236d56e93257f8363ed8cb0d275c9046f949b62905b1ede6f12cb81b5a58c30"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed15/completed.json.gz": {
+      "source_sha256": "376d4813702ac283b1ccbd6f34192a6a655f6d61bb40f85871ca7e4aa9c2a17a",
+      "gzip_sha256": "6431ae21238173843d07299a479961ad7b31d82a33851e1bd0d27eac3957b5c9"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed15/delivered_reports.json.gz": {
+      "source_sha256": "79bf718e8ff360897c331b2168ea531c394014862be098a50884c2a222ff5b0d",
+      "gzip_sha256": "a7606432e46cb12d0c4ba96707c14eab44c3b545180d57fadd2758201f6fd947"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed15/demands.json.gz": {
+      "source_sha256": "e844235048990abec32c495bd7b46ef3bcfac6036e2760076a7118de61b3200d",
+      "gzip_sha256": "961b47e7f51c06a62e782b89bc9a5e43adc10df2019c1a92b6054ce6d87f5aae"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed15/episodes.json.gz": {
+      "source_sha256": "ba16abcc60a430c6e6dbbdf79494a27aff9eb29e85efcf12ae25a534e68c4ba1",
+      "gzip_sha256": "00394018927914616212c12f6ecb782f0f37a7db64c241cf842377653d9e43a9"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed15/information_audits.json.gz": {
+      "source_sha256": "497ad8165c02d8b9a2cab7b6c8035891aa80432fa4ff6bc53fc6ce99efc7b1c1",
+      "gzip_sha256": "f22e655404aaecd0f20de53f98222808b0f5ea5ffb8c5ab7a81834c180536a81"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed15/periods.csv.gz": {
+      "source_sha256": "42e339e5e68fdb2ebd3a37b3e87cda670b068665a782201135629f447f958af4",
+      "gzip_sha256": "5a56a52b031cc68cf9bf103907f174e21962492c2ca181ee1a13daaa6ca4874b"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed15/protocol.json.gz": {
+      "source_sha256": "60a772158c7fbef2723e54943cdf6b40fc8a27c0d5ec5670b68ae7ebc087bb8b",
+      "gzip_sha256": "5c1bac30f71688076481d8688e566a07f16c242bb9125763c56abe88dbad9af1"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed15/runtime_failures.json.gz": {
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed15/scores.json.gz": {
+      "source_sha256": "fa1debac13e3a626675ba4a5a9a2f2cbbf3b6a25b60ee1dab46d47045260761a",
+      "gzip_sha256": "28b94c57f985a9235dd29be87d8a817b07bc84879dfb44103fcea9b1e2dd0a51"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed11/center_merton/logs/events.out.tfevents.1791966659.石原赫的电脑.gz": {
+      "source_sha256": "4bf4b8eba747d4fdbb5aa5e70b17a14c1957b7560fbea60cb83c875a53bc3b48",
+      "gzip_sha256": "4b1b9f81f6a6bd61edfd892d317a85d80f57e0a8f389774d87a7e655d291626e"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed11/center_naive/logs/events.out.tfevents.1791966785.石原赫的电脑.gz": {
+      "source_sha256": "4b2c78306d7ae33f999fcf5a5dc03fd8a315f73e9ac91fb836227700a840caf5",
+      "gzip_sha256": "2c2851b26b5e40e379666aaa69f35939e1f13663e888d0fd72ab9ef886502d71"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed11/center_timesfm/logs/events.out.tfevents.1791966919.石原赫的电脑.gz": {
+      "source_sha256": "4eef167545478d17b95911886482181003bd548c8e83d8e3e7a508a8f52078c2",
+      "gzip_sha256": "03d97252bc5ed78ff769688ac7925c025fde47699f182c7806c5584b301662c6"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed11/original_merton/logs/events.out.tfevents.1791966545.石原赫的电脑.gz": {
+      "source_sha256": "f7855216fd399a9ac3dcf45785fa6a67987a2646805745148dcaad2e6e60cd67",
+      "gzip_sha256": "6042844cb1eee0647e52d6e99099de3b915b602bcdfdd28e7967217843cd5de7"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed12/center_merton/logs/events.out.tfevents.1791967220.石原赫的电脑.gz": {
+      "source_sha256": "88781ca3ea6cd6c94195ffdd18d3ee490d632aa0ffefcb07b68cbbb1b63ad87b",
+      "gzip_sha256": "98f437f2f9303aa8050599fd1f32ee15629a99f31d6276d467fcb21f04eb197a"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed12/center_naive/logs/events.out.tfevents.1791967347.石原赫的电脑.gz": {
+      "source_sha256": "fc20b76c045f30fcba1b0ca868c2d9d5fd4c236bb8923ebe043c072c3b22e940",
+      "gzip_sha256": "5cf6dab7571e50b2452dd32c10f621f0746ced482f30adf7bff594f668234559"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed12/center_timesfm/logs/events.out.tfevents.1791967481.石原赫的电脑.gz": {
+      "source_sha256": "a5916a9446f720520723a7ece6b0134b2435db0f1b466d0b870a37d39325992f",
+      "gzip_sha256": "0856f688f61d2b660963b8875d4be24d26eb9655c82a07aeb45a83eab8b7500c"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed12/original_merton/logs/events.out.tfevents.1791967095.石原赫的电脑.gz": {
+      "source_sha256": "3a10a514786c791378cf9410ec0927883ce345979d9f35baf7b5439f507f1bdf",
+      "gzip_sha256": "9f8f5bc2d086c1b31351e173170b540679aac0752fba535c001a49354cc83137"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed13/center_merton/logs/events.out.tfevents.1791967767.石原赫的电脑.gz": {
+      "source_sha256": "b9a924dd1d729352c2a7567bbcf0dd6ead4e853ce9fe2f3ed3522549ad4f2aaa",
+      "gzip_sha256": "8bedd9cb723e2cc768a427af0b289086486b604888a602c1191c2e86092b8abc"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed13/center_naive/logs/events.out.tfevents.1791967919.石原赫的电脑.gz": {
+      "source_sha256": "3315af2814c893b0c79d3b317507dbbaed0129e08977e968a6f356caab356df8",
+      "gzip_sha256": "1c0d47e455be61c2332c244cea8637beab67224a73f988ef6df6aa337ce31d50"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed13/center_timesfm/logs/events.out.tfevents.1791968072.石原赫的电脑.gz": {
+      "source_sha256": "1b835989bc18a4fbd73eab41352e23fccc84852483675688f0fa403cf1744eb1",
+      "gzip_sha256": "5f3029646101e4d786f3b1f060fe70a1353a27c9ef49fba29d112cdab72cc2a5"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed13/original_merton/logs/events.out.tfevents.1791967647.石原赫的电脑.gz": {
+      "source_sha256": "b285add4693fedfecce914beca917c9bd2fb1b37da04dff70c1d36a5652bd3ad",
+      "gzip_sha256": "783c3d5b2a59d62e14e1828630ce89397b57be0ee2e487d60a811c723306595a"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed14/center_merton/logs/events.out.tfevents.1791968397.石原赫的电脑.gz": {
+      "source_sha256": "68ee67c80ee8d196b0d4c37cc7ba0148104f9a546d9a6087b1bf7162d7b7614d",
+      "gzip_sha256": "117934e40e9de6ffc38ba05615106d9832944f13547920caa400262964e68b1f"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed14/center_naive/logs/events.out.tfevents.1791968524.石原赫的电脑.gz": {
+      "source_sha256": "ba3965b73dd5527c5029a4fa4daf5dac0372a8081d62456785282124fef85d80",
+      "gzip_sha256": "c666ceed62aa2958d28f1ab9098ce26ed9a0b43475c674aa493cf29779e79dc7"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed14/center_timesfm/logs/events.out.tfevents.1791968657.石原赫的电脑.gz": {
+      "source_sha256": "f5a88c5458a9c1ec781e66ef11f9346194f56b8de8e9267fd779ee6a7bd6ea02",
+      "gzip_sha256": "c3e34ff53d04912638204125e9f6c5f1f33de829feb80a9d7e0c96ad67138338"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed14/original_merton/logs/events.out.tfevents.1791968257.石原赫的电脑.gz": {
+      "source_sha256": "406456a469a590e9b8f5c4b8dbdb613a491be6e459d73ad012f39e7cd4a96f5f",
+      "gzip_sha256": "9363e3283122c0470ef98860e0f1229e3dd96793f481e9b4403b28665447c1b5"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed15/center_merton/logs/events.out.tfevents.1791968957.石原赫的电脑.gz": {
+      "source_sha256": "5029a6c4fb0135fa7204f509caab40a833b75a799cb10662757fe123e4b2e800",
+      "gzip_sha256": "344dcea3defa27361fe5a822128bcc36327e0f9f3913af0288541eb0a96b35f3"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed15/center_naive/logs/events.out.tfevents.1791969100.石原赫的电脑.gz": {
+      "source_sha256": "6de40a34070db94204648adfe484ef174ccbb5e67cf0ee1a8bdc4c92f110e2d5",
+      "gzip_sha256": "b11380131d7ba66afef5f82eb96388fd0150ee7f36f0781cf10bbafa9538c285"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed15/center_timesfm/logs/events.out.tfevents.1791969229.石原赫的电脑.gz": {
+      "source_sha256": "9af7d236bc5d2b5daf48952921a1b6ec9489e1ba22c1a435dfea4fc99878ac80",
+      "gzip_sha256": "7954c04a7960602b32de1ddec1b600462e55ec14ed7d572ef5528aa039390de8"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch01_seed15/original_merton/logs/events.out.tfevents.1791968835.石原赫的电脑.gz": {
+      "source_sha256": "b4e6091651c2bc507e1e7c8ddc2b7f3084ee5c0b38dc8f1427cc6375051d69fe",
+      "gzip_sha256": "daa82412a87eb25acc4de1b6080dc5a8bf83305719db4dd4e13de0ef31e7dfcb"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed11/center_merton/logs/events.out.tfevents.1791969528.石原赫的电脑.gz": {
+      "source_sha256": "2410594902b293fa9bbdcbf0ed7afad357bfc71d797c5cd5d8ae716edc0a94f4",
+      "gzip_sha256": "2c3cb44f8a2412273adf4ea39d881b328b944fdf92cf470222c46b9827b1f63d"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed11/center_naive/logs/events.out.tfevents.1791969658.石原赫的电脑.gz": {
+      "source_sha256": "b9ca28cef91ad78787a8d0316ffc0cf898c2fc7f144dcd676a606f9784a391af",
+      "gzip_sha256": "adac79dce47154ad864f9bf372e1e94cba0029acc212339df32658fd0e63a9b7"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed11/center_timesfm/logs/events.out.tfevents.1791969788.石原赫的电脑.gz": {
+      "source_sha256": "4df6fc0366493453e5dbfab29fe0d6c3feec2b6a0a97dc7e31056bfa0ef9987a",
+      "gzip_sha256": "992db1f391efabc52120211a539b6d33cea5302696d4bd367521eb6aeabe1964"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed11/original_merton/logs/events.out.tfevents.1791969409.石原赫的电脑.gz": {
+      "source_sha256": "c20703a1b939b424722382f1ddb2a5b2c9fa52e0e2b21948fcb1a26d5ebeff0a",
+      "gzip_sha256": "6e9d804aeef915995251597a8283a0177453609c19fdf0ef6b03d4aa25df5dc1"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed12/center_merton/logs/events.out.tfevents.1791970076.石原赫的电脑.gz": {
+      "source_sha256": "f8ede07e0709f282043dc0b2d8897e85d86165e63acbfbba1b2633d23530661d",
+      "gzip_sha256": "24a3af20900c430aac749b3160240255f8546104594c7f7227ee616475e9c857"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed12/center_naive/logs/events.out.tfevents.1791970207.石原赫的电脑.gz": {
+      "source_sha256": "e544b983667fa61cc0adeb81164c6b04e7c62160ad291867f70fb9f9455b7b64",
+      "gzip_sha256": "542f5196b0b5bc0a53e5b43b81d599b41c4cb1de40d90b12647360a3da53c8f5"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed12/center_timesfm/logs/events.out.tfevents.1791970335.石原赫的电脑.gz": {
+      "source_sha256": "b30ee7df097f86f4f439cdcab313f344b0daeda140b443584daa4e8e0e193921",
+      "gzip_sha256": "25147ce688de30e78f71a307c63fe036e5b5892370ef309e77a418a8ee2f7ae5"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed12/original_merton/logs/events.out.tfevents.1791969959.石原赫的电脑.gz": {
+      "source_sha256": "9da93cfcc5fedf092f226a141943fdc3f1428760cf88d0bfc2bfa7380216f748",
+      "gzip_sha256": "697c0277369a065089bb16ee684d1a95326894863827558b74bcffeed3b9c1ec"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed13/center_merton/logs/events.out.tfevents.1791970624.石原赫的电脑.gz": {
+      "source_sha256": "b9f270031535fa73f1ed31d30cef3839601f9bb6ee6f5fea8cbd402030ebf024",
+      "gzip_sha256": "22a9edb2fd4f5cf9bc9848feb3a32f40e5b8cd6890f01307af0f23f4118853c7"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed13/center_naive/logs/events.out.tfevents.1791970747.石原赫的电脑.gz": {
+      "source_sha256": "fb84e8d932e4e1d6f6fc516d7acc1350b62fcc4929e7a7ad78c7bb0916345535",
+      "gzip_sha256": "77cde7fcb4079f653a6c7818ac5f63e6ddb288fc85e1e45caab34870e70655c2"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed13/center_timesfm/logs/events.out.tfevents.1791970872.石原赫的电脑.gz": {
+      "source_sha256": "641a002b3094bba292503b5fd3ec91d94dff37473261a05f11315c985d680806",
+      "gzip_sha256": "057004c57036e6038369f329cd906b3055f28df2e51c28a1f82b4999728830bc"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed13/original_merton/logs/events.out.tfevents.1791970506.石原赫的电脑.gz": {
+      "source_sha256": "58c6244a05543a077df0447a95d2bb80330cc76275cc3a6dc1c2bf7dbdda7c9f",
+      "gzip_sha256": "77cc36709743e782cc2be0d7090bdfe61ac22af095158d00286dbf049d216d9d"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed14/center_merton/logs/events.out.tfevents.1791971156.石原赫的电脑.gz": {
+      "source_sha256": "2d6402505d5da66a23fd09cb4c3184afa884bbb55e914813f691cea85f84ca07",
+      "gzip_sha256": "3f237ffb9e2421c48b4db77f37d93a34f268155182a8cd3f65875a8121bcb6dc"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed14/center_naive/logs/events.out.tfevents.1791971275.石原赫的电脑.gz": {
+      "source_sha256": "2f471c840d373d53f4177780ddc5caacf342dd1d9a86fed69eac482c9dcb82bc",
+      "gzip_sha256": "1436c8a013ba241cc9b7089435bd930489d670225b70e5e5c6f00c1c8402d10c"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed14/center_timesfm/logs/events.out.tfevents.1791971404.石原赫的电脑.gz": {
+      "source_sha256": "a138df97df8ec1d60542a56fe313576b7b0a8ea1ad45562ee3772749f922c03b",
+      "gzip_sha256": "49ad6b382924c10e42a86ddf83d771f1315f392516df113918cb089c1ee99e4e"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed14/original_merton/logs/events.out.tfevents.1791971035.石原赫的电脑.gz": {
+      "source_sha256": "a03f88878b4b5ba66f27d517d2fdb853aa4bbfa848f076a1daec69567e9388b5",
+      "gzip_sha256": "6956cfa77e5ca744ec0ad29ee21731ebc6404754498246b971ea799bfbc9bada"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed15/center_merton/logs/events.out.tfevents.1791971692.石原赫的电脑.gz": {
+      "source_sha256": "d7dc4cadf93b949a92916fbfc7547a0512bef8c60523cabdd108325c9137bd1b",
+      "gzip_sha256": "5eb911ae06f3917d13e7b8e995d51fa1768779bf815481988eb278df0c32e85e"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed15/center_naive/logs/events.out.tfevents.1791971825.石原赫的电脑.gz": {
+      "source_sha256": "213a2eefdd3959de238066b42b656c078890fc37d6d2fd1364099bc2b0a47258",
+      "gzip_sha256": "d9cc12c0be45b7cb712d00891fa2305ee5239ceb1741d2ebfab29b76701c1708"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed15/center_timesfm/logs/events.out.tfevents.1791971950.石原赫的电脑.gz": {
+      "source_sha256": "42a071397f25ca744e8c07765c9b1294eef550c9601cbca4e49546306b83e2f7",
+      "gzip_sha256": "73d98989003c0e9cd746c4493c99595eb2a692efccc793b6f469b7b0f02eb036"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_completed/files/runs/batch06_seed15/original_merton/logs/events.out.tfevents.1791971571.石原赫的电脑.gz": {
+      "source_sha256": "e9e11cdc0db91d33ee408e88c64fa2be979bf773145a1e6c84844fc797662c88",
+      "gzip_sha256": "d71c93742926c09f50f1eb61b90f29482c030ff53742ef342b688d9f03cd2656"
+    }
+  },
+  "lossless": true,
+  "credential_absent": true,
+  "all_attempts_preserved": true,
+  "large_model_weights_public_revision_sha_only": true
+}
