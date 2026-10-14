@@ -1,0 +1,213 @@
+{
+  "files": {
+    "docs/artifacts/sundial_scenario_development_v1/files/0000.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_scenario_development\\v1\\completed.json",
+      "source_sha256": "e2fe73e5ccde8cf5372f882d9ad4d4411a8ae5c1e4114e7192eb6a8e5a3e6981",
+      "gzip_sha256": "cf6c7db8de341f29bcbb3056d090fb5b9df193615737468b78acd6912549fd6c"
+    },
+    "docs/artifacts/sundial_scenario_development_v1/files/0001.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_scenario_development\\v1\\freeze.json",
+      "source_sha256": "ceb76cdf976ef2d4efa1ed0221a7925da079ca48d973c740a2dc0fb883aeb1ae",
+      "gzip_sha256": "4aa52f1a21cefef6900c511bc8af870b6f53c86fcb22dcc42a028b639f613de9"
+    },
+    "docs/artifacts/sundial_scenario_development_v1/files/0002.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_scenario_development\\v1\\generation_log.json",
+      "source_sha256": "ca997cdbd4636ce47043672427d115ec3e279528f1c3e6d64bd3abfbea4a77a6",
+      "gzip_sha256": "d839810014d88edc6462c608cb243bc7e501b5760fec654658141c03676607b7"
+    },
+    "docs/artifacts/sundial_scenario_development_v1/files/0003.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_scenario_development\\v1\\historical.json",
+      "source_sha256": "eb390b1ee1ca200d6f8f29c51599264655a6c533f2707eeee3e7c51940da9572",
+      "gzip_sha256": "4588fb5ed8c57580a0c4cbfd0fe3deb67eaef801e3450999045b48b96a2ea113"
+    },
+    "docs/artifacts/sundial_scenario_development_v1/files/0004.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_scenario_development\\v1\\independent_verification.json",
+      "source_sha256": "b08034b0ab6c721f368fe391b95fd06279f145e7d94cfd696d4ae0e7da0f8594",
+      "gzip_sha256": "14ccf81117e48796bb1d574fa5571fc9277d02c1a8f198d32f80daedd49671f7"
+    },
+    "docs/artifacts/sundial_scenario_development_v1/files/0005.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_scenario_development\\v1\\inputs.json",
+      "source_sha256": "0cc70941124bda5d57de7adafb67c4496745f8ddb0757f7624a00860d887b77a",
+      "gzip_sha256": "4701661a8527e42d03532733fff9267ca85bba77af5ff2e0cdbdab5a3147ed25"
+    },
+    "docs/artifacts/sundial_scenario_development_v1/files/0006.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_scenario_development\\v1\\metrics.json",
+      "source_sha256": "2c3475490cb458ed14d1611fd36b167366f470423bbb163a3070a7d9c8e035af",
+      "gzip_sha256": "36571bd896ae84bc5e7d5e7b0923b260678512d06802308d1f157de9d1c841a6"
+    },
+    "docs/artifacts/sundial_scenario_development_v1/files/0007.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_scenario_development\\v1\\scoring_values.json",
+      "source_sha256": "8956fd8199d2000a568f7d126dd8da1c9370db53a8e1458e29785192e0ac65fb",
+      "gzip_sha256": "52da025de776f685a94f5d167c631906ed2a1f8468ca8ca1a047a62c93b6838c"
+    },
+    "docs/artifacts/sundial_scenario_development_v1/files/0008.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_scenario_development\\v1\\started.lock",
+      "source_sha256": "00b6c96fb206a6c72a818bb295abfc9ca289a838282afecb022f65bfc104e34e",
+      "gzip_sha256": "72486185261d237c97fede5a685432a4cbb33c3f4018629df71c1d83bca5824d"
+    },
+    "docs/artifacts/sundial_scenario_development_v1/files/0009.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_scenario_development\\v1\\test_cases.json",
+      "source_sha256": "a4fab423dd2c531a86d0462364d3dc96fa7c8360f94e86cafcd1f744781c1e9e",
+      "gzip_sha256": "b5e89fbfaaae73c240ce2498050f6f56315949a20077299b1898ed510de68c5f"
+    },
+    "docs/artifacts/sundial_scenario_development_v1/files/0010.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_scenario_development\\v1\\test_forecast.lock",
+      "source_sha256": "fe3d9548cfb0417e15a77f1842fadac4a5a675e1df1baa001d3182486b928aad",
+      "gzip_sha256": "4080a85d9eaccb19c6dfc2ab37ef4cf0e7fdca737655e6af432326b3828328ef"
+    },
+    "docs/artifacts/sundial_scenario_development_v1/files/0011.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_scenario_development\\v1\\test_forecast_completed.json",
+      "source_sha256": "db10d0288ddcb5fde110f926db6b3247b538487fa57668ebbc8bedc5e9ada55c",
+      "gzip_sha256": "bfca2bdb5ab249e5b6f291844bc87613b84706fa0e87cf0c0bb2be4294b6b93e"
+    },
+    "docs/artifacts/sundial_scenario_development_v1/files/0012.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_scenario_development\\v1\\test_predictions.json",
+      "source_sha256": "fe82a002e24f61268a51ef5a1f76dc931ee75cc7c9101385579eb72941d421d0",
+      "gzip_sha256": "544b2fff66dee3a4f6e49736884eb9530d9589e026ce6b43c0032c67c6649672"
+    },
+    "docs/artifacts/sundial_scenario_development_v1/files/0013.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_scenario_development\\v1\\test_prepared.json",
+      "source_sha256": "d0c5b68a370068d73d003cc5939985fdb1c52307100e0412bab06d7d92409c1b",
+      "gzip_sha256": "35904b29ea030557ec9398737e2910b8a5df832d9b432cca8464632ef9303636"
+    },
+    "docs/artifacts/sundial_scenario_development_v1/files/0014.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_scenario_development\\run.py",
+      "source_sha256": "81067a7dec8a715ebe0765903bb6d671abaf40029b9bb6c92d9d8c1b37b07078",
+      "gzip_sha256": "38952579e599b169af164d60f8ef234b77230fa23bb1b7e4d94914a3f60b921e"
+    },
+    "docs/artifacts/sundial_scenario_development_v1/files/0015.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_scenario_development\\verify.py",
+      "source_sha256": "85ef1be77e3f1f7f460536c2bc4f89fc7b00f248317e49df71a9ebc955423009",
+      "gzip_sha256": "2211c404f4aaf3bd274bb77c8b8bd9cbce9fab477cdd7fadad76d9d4ee43f2c6"
+    },
+    "docs/artifacts/sundial_scenario_development_v1/files/0016.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\superpowers\\specs\\2026-10-14-sundial-scenarios-design.md",
+      "source_sha256": "fda8ae61c45a277388b2bb6c475101bb016a814062a23cd977863950f612c6ae",
+      "gzip_sha256": "221a660e1164443ab4b1c646722fea901fb0958f1e6268f1445740a2e59fe826"
+    },
+    "docs/artifacts/sundial_scenario_development_v1/files/0017.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\superpowers\\plans\\2026-10-14-sundial-scenarios.md",
+      "source_sha256": "a620ae877f3cb89500c17666c415d8259395a27fdf1a4ae23a4eba18e857c864",
+      "gzip_sha256": "040003fedfb96ffd76cbbf86fd12b0df8053f25de1f04ec1ae677fef25c92aac"
+    },
+    "docs/artifacts/sundial_scenario_development_v1/files/0018.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\online_llm_artifacts\\archive_sundial_scenarios.py",
+      "source_sha256": "73c5d26723ee6c45ecfbd1bb721dfeeaff425ddf2e50b427b8c9a948da99cc22",
+      "gzip_sha256": "a288264ac0d1ba97a0f79bf4f2f869fb199b74f10bf24374e071e0b395700536"
+    },
+    "docs/artifacts/sundial_scenario_development_v1/files/0019.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_forecast_pilot\\analyze.py",
+      "source_sha256": "dd62bf2de9afb7523eb54f427fd8993279f1b457a9cfe882c607bc79106b48a3",
+      "gzip_sha256": "d0c3d9f220a8f0fe84684f0e4306ade0a07c3ad46518fe31ea5ee0bcb31528d1"
+    },
+    "docs/artifacts/sundial_scenario_development_v1/files/0020.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_forecast_pilot\\download.py",
+      "source_sha256": "dbff63bd0921564ac109df15b947fba2a544a92d9fc8e0bb2545353aaf934517",
+      "gzip_sha256": "3b5b711e2a8c118d88192373dee15a54156395405afd4c22037884542c984a1b"
+    },
+    "docs/artifacts/sundial_scenario_development_v1/files/0021.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_forecast_pilot\\run.py",
+      "source_sha256": "91c450201678da1fd4432992d73d5d01e4a7990690d0328fcf42077d0bb48910",
+      "gzip_sha256": "f0702b613d83eb4166de2a12e0ca26e11ce32be3d528e65da54704ba03750833"
+    },
+    "docs/artifacts/sundial_scenario_development_v1/files/0022.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_forecast_pilot\\verify_report.py",
+      "source_sha256": "f2e8bd6a505b7674b28021dd5673469f2946440ab4b0a94ef3f2b0eb46463a45",
+      "gzip_sha256": "e01988d95f9dfec573d587c677b543994c71f697b8ab2f8486283bd95fbc6ce0"
+    },
+    "docs/artifacts/sundial_scenario_development_v1/files/0023.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\timesfm_forecast_pilot\\development_v1\\cases.json",
+      "source_sha256": "f773d81f9325e969216c10184bbe8f3ebe75a35f5297e808c10169c6289474d5",
+      "gzip_sha256": "e271c7c76d16c61bb24adaf72abde0106365b134c06f7d2a8368aa11a19c7cf1"
+    },
+    "docs/artifacts/sundial_scenario_development_v1/files/0024.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\timesfm_path_development\\development_v1\\paths.json",
+      "source_sha256": "a24e6a20a69d1c87e935cc67648ea409114b695e1d34ccf2c01e29ec138a8a28",
+      "gzip_sha256": "87cfca0f4617e912d93d85419bcb7270cccab375b906714c728ced41b6122cb0"
+    },
+    "docs/artifacts/sundial_scenario_development_v1/files/0025.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\superpowers\\specs\\2026-10-14-sundial-pilot-design.md",
+      "source_sha256": "b6d1c228294bf3b979243dee3fe4ed0621c36a44780cf7bc0ca0171696b564c1",
+      "gzip_sha256": "76ab09ecddde73b6f6add1bb9f0bca8b5e2432685b770a5ba740669822eac983"
+    },
+    "docs/artifacts/sundial_scenario_development_v1/files/0026.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\superpowers\\plans\\2026-10-14-sundial-pilot.md",
+      "source_sha256": "ac4d8bb44cfac91bd6e3a497fc13527e1059354a442b3a04b70497cc4551ba34",
+      "gzip_sha256": "8e03c746719d6e32658b12c3261d874574216f496dfc2d4cef0baca2f4d5630c"
+    },
+    "docs/artifacts/sundial_scenario_development_v1/files/0027.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_adapter_development\\adapter.py",
+      "source_sha256": "875a1352e2ec3f9d3f940d48ebf7a2afe110bb27a804df32a08499a8268d66b3",
+      "gzip_sha256": "317fe538c641f0a67fd9ddddc1e1cec84a9d4fedc1777ae3a9197b669fcac1e1"
+    },
+    "docs/artifacts/sundial_scenario_development_v1/files/0028.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_adapter_development\\common.py",
+      "source_sha256": "f8ba45122a6bb8f887413b046c21b10ec5701460d50d904b5415062084cb331a",
+      "gzip_sha256": "fef51f7bb6aff0fb0a3022146af4ee0b8acf8266a9041b4482b1efbccde949d2"
+    },
+    "docs/artifacts/sundial_scenario_development_v1/files/0029.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_adapter_development\\evaluate.py",
+      "source_sha256": "f8bd68e5db793d0cb6938183d0f7b01d94301dfa630b994fb9f19fe74e85a875",
+      "gzip_sha256": "578e46fefc816492e0000a149afa7ad30213950592275b04f24ffe99a919b280"
+    },
+    "docs/artifacts/sundial_scenario_development_v1/files/0030.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_adapter_development\\fit.py",
+      "source_sha256": "205fc4b9c671eefd5bf6ad5a819832a6efc45effd1b092f01face3bd5acebaa0",
+      "gzip_sha256": "97d26e4128ad95607b5c8edf6475ee589e0a0b7af8f7de86a0a6e02ca7e2dc2c"
+    },
+    "docs/artifacts/sundial_scenario_development_v1/files/0031.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_adapter_development\\forecast.py",
+      "source_sha256": "f2600979d1e935fb2e30883ca1bf6ef7f07e6099e6d23d9048f890719df9d996",
+      "gzip_sha256": "6b86f7f412b4e71cd52e35763694db01ea76b457f9a0e6a9aa90e0a9d000194a"
+    },
+    "docs/artifacts/sundial_scenario_development_v1/files/0032.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_adapter_development\\prepare.py",
+      "source_sha256": "aa3d1fec454e00ae4b673af957ef152024e3066e4fa153f4b8b9e6bfffabf971",
+      "gzip_sha256": "5c8b4712c24e83b8e60d75ad162b3d391c5f1a8a80fbfa8597abffe82f80b7ca"
+    },
+    "docs/artifacts/sundial_scenario_development_v1/files/0033.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_adapter_development\\verify.py",
+      "source_sha256": "bf71c8a5a1836b4751a4cc82744ef197996a29b0465320981fc84eaf005f2305",
+      "gzip_sha256": "ce19f03578be7cd676d138719056530d615ace08a46e12569ebce139ab3e465e"
+    },
+    "docs/artifacts/sundial_scenario_development_v1/files/0034.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\superpowers\\specs\\2026-10-14-sundial-adapter-design.md",
+      "source_sha256": "679c84d8c85ccbcbb917abefa221ec09ec439f5cb195bccf31d0652aecdb953e",
+      "gzip_sha256": "7b3828305270d8af6b1cfc1745eedd6808be55b312a92a996bd142d6daae5fde"
+    },
+    "docs/artifacts/sundial_scenario_development_v1/files/0035.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\superpowers\\plans\\2026-10-14-sundial-adapter.md",
+      "source_sha256": "81a3d699450b23ac61441e99b58ee85fb1e48098f50b5a6f754b418232b105e5",
+      "gzip_sha256": "7276310ad7e84fe18c378be59e3625179663c2c01ef32f40976f08c7419c25c7"
+    },
+    "docs/artifacts/sundial_scenario_development_v1/files/0036.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\timesfm_path_development\\paths.py",
+      "source_sha256": "69facda6e611bd57d363e36205b300fe15c15ed39253706694c72f4a7e15c2c4",
+      "gzip_sha256": "ede011f6cff6a6166705e7e5b2c70168cefc87fbf71a452fd52fc9f962a6e2cd"
+    },
+    "docs/artifacts/sundial_scenario_development_v1/files/0037.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\joint_baseline_confirmation\\batch.py",
+      "source_sha256": "ef6f44fcc5ac059f454816492ce0bd125cdb301cdace39ab1aa59758b2a187cb",
+      "gzip_sha256": "df67ae17491b84d39dc0150fdacfe871a6cf1e4fb04b21d5b76547eef6a1ea38"
+    },
+    "docs/artifacts/sundial_scenario_development_v1/files/0038.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\envs\\generator.py",
+      "source_sha256": "48366755e3318751966f240c68316488a7f79066a9c3116a798d5cab46e55741",
+      "gzip_sha256": "a22c58733b49a093981c7218d0237886ec80f928c85a04e1e712787973291c09"
+    },
+    "docs/artifacts/sundial_scenario_development_v1/files/0039.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\deepseek_refinement\\reports.py",
+      "source_sha256": "46d4588efa0daae795e9677f4151cee66fe0d77aabe40eebc1296d4be460b154",
+      "gzip_sha256": "a9191b0ddd32ebbfb7234d17d7d88ccfc9bc467fa9f8c65f3d4470b767c39a35"
+    },
+    "docs/artifacts/sundial_scenario_development_v1/files/0040.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_adapter_development\\v1\\best_adapter.json",
+      "source_sha256": "d9c756f221c4c22a970ef87a9ecf3c45fd6e8a60c780dbbe8e0e44fc537b9255",
+      "gzip_sha256": "0b998fd9ca7d4e3206e9db3069e2921e662803968615b78ff6be1f7c592d89bc"
+    }
+  },
+  "lossless": true,
+  "credential_absent": true,
+  "all_negative_cases_kept": true,
+  "checkpoint_weights_local_only": true
+}

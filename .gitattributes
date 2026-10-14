@@ -95,3 +95,8 @@ docs/artifacts/sundial_expanded_validation_v1/** -text
 experiments/sundial_adapter_development/** -text
 experiments/online_llm_artifacts/archive_sundial_adapter.py -text
 docs/artifacts/sundial_adapter_development_v1/** -text
+
+# Sundial scenario development exact bytes
+experiments/sundial_scenario_development/** -text
+experiments/online_llm_artifacts/archive_sundial_scenarios.py -text
+docs/artifacts/sundial_scenario_development_v1/** -text
