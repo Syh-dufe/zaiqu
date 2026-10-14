@@ -178,3 +178,7 @@ IPPO 五种子正式训练协议已登记：正常 Merton 需求、每种子最�
 ### 冲击训练HAPPO同输入补充比较（2026-10-12）
 
 新训练11—15五模型全部完成，在原共同测试40条冲击路径及正常配对上新增400回合、240000节点期，复用原对照，新增API为0。冲击平均成本：原实时LLM＋HAPPO 20.242033，冲击训练HAPPO 20.552008，正常训练HAPPO 20.742775，IPPO 22.497533。LLM组合比冲击训练HAPPO平均低1.5082%，但配对95%区间跨零，不能称显著优越。五种子及全部不利结果保留；种子15早停未稳定。原测试已观察，属于补充比较。见[完整结果](docs/2026-10-12-matched-shock-happo-comparison-results.md)。
+
+### TimesFM预测路径与闭环开发（2026-10-14）
+
+冻结TimesFM2.5在48已暴露窗口的点预测及路径分布开发门槛通过；尚不能称订货成本改善。四完整系统无API部署接线32回合/19200节点期通过，实际DSL动作、路径、报告与模型hash独立核验。现登记五seed×两批×四类型×四方法×normal/shock的320回合开发，源码与预算冻结后首次启动；通过固定门槛才进入另行登记的新路径确认。参见[完整设计](docs/superpowers/specs/2026-10-14-timesfm-closed-loop-design.md)、[执行补充登记](docs/superpowers/plans/2026-10-14-timesfm-continuation-registration.md)、[阶段A结果](docs/2026-10-14-timesfm-path-development-results.md)。

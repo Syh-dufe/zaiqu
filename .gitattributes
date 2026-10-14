@@ -66,3 +66,12 @@ docs/artifacts/joint_baseline_recharge_recovery_v1/** -text whitespace=cr-at-eol
 /docs/2026-10-12-matched-shock-happo-comparison-results.md -text whitespace=cr-at-eol
 /experiments/online_llm_artifacts/archive_matched_evaluation.py -text whitespace=cr-at-eol
 /docs/artifacts/happo_matched_evaluation_completed_v1/** -text whitespace=cr-at-eol
+
+# Byte-preserving TimesFM preregistered artifacts
+experiments/timesfm_forecast_pilot/** -text
+experiments/timesfm_path_development/** -text
+experiments/timesfm_closed_loop_development/** -text
+docs/*timesfm* -text
+docs/superpowers/specs/*timesfm* -text
+docs/superpowers/plans/*timesfm* -text
+docs/artifacts/timesfm_closed_loop_development_v1_preregistration/** -text

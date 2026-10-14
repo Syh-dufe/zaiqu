@@ -1,0 +1,102 @@
+{
+  "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/prior-diagnostics/0000.gz": {
+    "source": "results\\timesfm_closed_loop_development_preflight_v1.log",
+    "sha256": "1ce93559459dc97a09d829a72083d22e915e7c891f3debf04cb4b1cc978a15da"
+  },
+  "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/prior-diagnostics/0001.gz": {
+    "source": "results\\timesfm_forecast_pilot\\development_v1\\additional_verification.json",
+    "sha256": "ff4128ace15bf7fac124ad8c5428403fbaa6a8152f3fc08bd2aeb6d933455b9c"
+  },
+  "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/prior-diagnostics/0002.gz": {
+    "source": "results\\timesfm_forecast_pilot\\development_v1\\cases.json",
+    "sha256": "f773d81f9325e969216c10184bbe8f3ebe75a35f5297e808c10169c6289474d5"
+  },
+  "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/prior-diagnostics/0003.gz": {
+    "source": "results\\timesfm_forecast_pilot\\development_v1\\completed.json",
+    "sha256": "40a6a988058b4fdb8da02c3cb3841cdb4e2c6b332a84382714715a5fe2c876f3"
+  },
+  "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/prior-diagnostics/0004.gz": {
+    "source": "results\\timesfm_forecast_pilot\\development_v1\\freeze.json",
+    "sha256": "d8254358b78088fccae625376ba540face4ed3c511de7cc17d93461ed8a914e1"
+  },
+  "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/prior-diagnostics/0005.gz": {
+    "source": "results\\timesfm_forecast_pilot\\development_v1\\metrics.json",
+    "sha256": "08a9bb22f178f865329dea2e31679b28ccd07cb4ea068919758a554438281ddd"
+  },
+  "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/prior-diagnostics/0006.gz": {
+    "source": "results\\timesfm_forecast_pilot\\development_v1\\model_loaded.json",
+    "sha256": "58f0cf3dad153ce16c13899c9b4b3966611a720b1e927f7375f900d6f75e8e5b"
+  },
+  "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/prior-diagnostics/0007.gz": {
+    "source": "results\\timesfm_forecast_pilot\\development_v1\\period_predictions.csv",
+    "sha256": "31cce01deff8af68ca7d86a8f9b0d043d94f0a236be82a089e44a6acd4056be1"
+  },
+  "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/prior-diagnostics/0008.gz": {
+    "source": "results\\timesfm_forecast_pilot\\development_v1\\predictions.json",
+    "sha256": "e7f964aaa45a45b8526b97aacf87cceb6c7c807a4f3da1e69bfcf3b12daec08b"
+  },
+  "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/prior-diagnostics/0009.gz": {
+    "source": "results\\timesfm_forecast_pilot\\development_v1\\prepared.json",
+    "sha256": "a571188bc9238d4656d3b50519135941510274761baab89a91067564e220d4f5"
+  },
+  "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/prior-diagnostics/0010.gz": {
+    "source": "results\\timesfm_forecast_pilot\\development_v1\\progress.json",
+    "sha256": "b4d0ae2eb8a8f63b83227b4c39c0b4bfe680687764f9ee6eaff532202a0fb473"
+  },
+  "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/prior-diagnostics/0011.gz": {
+    "source": "results\\timesfm_forecast_pilot\\development_v1\\report.md",
+    "sha256": "a7b77a5287f0016811eaf8c761df6fd732ec27c8a544d98b8807a594605c3fc4"
+  },
+  "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/prior-diagnostics/0012.gz": {
+    "source": "results\\timesfm_forecast_pilot\\development_v1\\run_finished.json",
+    "sha256": "38c8581e519ebb440d834fd33364b54b521d3b26dd526d83bd3f37fa6fb0bdf0"
+  },
+  "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/prior-diagnostics/0013.gz": {
+    "source": "results\\timesfm_forecast_pilot\\development_v1\\started.lock",
+    "sha256": "ddebffc1c02dcdc79c51d182f0b501e1cf7be7b69d2c88831442d08aa44034d6"
+  },
+  "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/prior-diagnostics/0014.gz": {
+    "source": "results\\timesfm_path_development\\development_v1\\additional_verification.json",
+    "sha256": "e8dafe8bddf9897b25604189fd27c73aa72ec2211306ef547d73eed7c5c49b24"
+  },
+  "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/prior-diagnostics/0015.gz": {
+    "source": "results\\timesfm_path_development\\development_v1\\completed.json",
+    "sha256": "c5845bb0ec0e6e633d2dbc8a398868d37336c45d04532d4e6e96470136cf908c"
+  },
+  "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/prior-diagnostics/0016.gz": {
+    "source": "results\\timesfm_path_development\\development_v1\\freeze.json",
+    "sha256": "52b835de91486c0e93e46ff8f058350432f45f738cc27aa8f0f89d5872999bc8"
+  },
+  "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/prior-diagnostics/0017.gz": {
+    "source": "results\\timesfm_path_development\\development_v1\\generated.json",
+    "sha256": "73cad4d7508b605a69506a3046139657b96efc432b3c3f54df297712c90e3344"
+  },
+  "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/prior-diagnostics/0018.gz": {
+    "source": "results\\timesfm_path_development\\development_v1\\metrics.json",
+    "sha256": "0b9645b7a63c7349a97cfb3f172ed9ffcc3544a6c3d870c0a408f224307cb9e7"
+  },
+  "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/prior-diagnostics/0019.gz": {
+    "source": "results\\timesfm_path_development\\development_v1\\paths.json",
+    "sha256": "a24e6a20a69d1c87e935cc67648ea409114b695e1d34ccf2c01e29ec138a8a28"
+  },
+  "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/prior-diagnostics/0020.gz": {
+    "source": "results\\timesfm_path_development\\development_v1\\report.md",
+    "sha256": "db2aa3ed6e114aa24f21e24ec1134bc4969f6716b1318372338193cab8c6c939"
+  },
+  "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/prior-diagnostics/0021.gz": {
+    "source": "results\\timesfm_path_development\\development_v1\\started.lock",
+    "sha256": "306e11aedd4caaa93d5d1959929851d140c699ec0149d14e299959a9ecc0cc30"
+  },
+  "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/prior-diagnostics/0022.gz": {
+    "source": "results\\timesfm_path_development\\readiness_v1\\readiness.json",
+    "sha256": "47b3c7ec49d8a9ad014b3a9efd758f8f648a48c84d7c9bac2ac86b93dff14981"
+  },
+  "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/prior-diagnostics/0023.gz": {
+    "source": "results\\timesfm_forecast_pilot\\setup_v1\\download_completed.json",
+    "sha256": "64eb524d7a28c00e4f20c268a73e96845139a486c977b15eb3c6ace6c845aac3"
+  },
+  "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/prior-diagnostics/0024.gz": {
+    "source": "results\\timesfm_forecast_pilot\\setup_v1\\progress.json",
+    "sha256": "1379d0c8aff56ff4f917f22e38d3b94c62ffe7d0c44983ae9a2c124d5ccca46e"
+  }
+}

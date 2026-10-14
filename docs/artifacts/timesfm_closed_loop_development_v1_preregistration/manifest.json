@@ -1,0 +1,454 @@
+{
+  "files": {
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0000.gz": "7f3d4a0fb9b339a2782e10291f988652111e60c283260ea93c3189484ce1a5b2",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0001.gz": "f3b2bdae148954f4821597fe7415fefb51b03484f2093bc86242ac88e6d52068",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0002.gz": "78538a8bc16470bcb759df624659c9c3f8768e654e7ed9266690bd035c51aa73",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0003.gz": "3306edd01e7b693f405b969a909acdf6361c2a6d59fc7cc8756f73ca65a9eb24",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0004.gz": "24a6442bbc7e11c4a9f9913712391d408c70065b3a399572348b3745a5969b97",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0005.gz": "324651ff58b6150d36ba78193a9d12930a213870a54b8b3c5604f8215c519dbe",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0006.gz": "afbfb26b67713934e4ec55b63742db3dee87f5ee297ff264545107e136ef4967",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0007.gz": "b7a4bab254eb1d56d96f24f77ca227e108cbd7714dd10316eb8c87f506cfdfa8",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0008.gz": "4216a6a6fc6b778c04e8bbe7366a22aa3f16cb730646b184f6aeba1da6965332",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0009.gz": "5bd99d5af0375e90bdd98c262b54325e92cc7e9fb575661c93e28666b02f238e",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0010.gz": "d458385d0ede929183f2def7cee80b45da496ca3518f722a816c9a107637f0e6",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0011.gz": "0edf78d912b29a2300574e5bcb12ce1e29b045f533bf874ebf90fd67d6a512ef",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0012.gz": "a9191b0ddd32ebbfb7234d17d7d88ccfc9bc467fa9f8c65f3d4470b767c39a35",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0013.gz": "e66fb1d29449013a8888a6a881300b121063f7dd6bd7b819072ef27469034ba8",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0014.gz": "081d190143009c35f00f9e6410b07cb6b62980dd13c742db2cdd0d15a756512c",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0015.gz": "095ef75bc69a7417e9777c740e7c38594c83ea327418ae5445cf7b50f47ebedc",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0016.gz": "7b1bc1e36c8be2647dfed573a6be3e89b475b1fe898a652cc569d5829383fb5a",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0017.gz": "c47cf7b397ff81ee5f10ec86476f281dc7a6412b9eddcd75bbe27bda2bc8b9cd",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0018.gz": "c569993c76c46a567f1c6c2831fea5dec2f1a93c0153977b0b0c1380ebaf8ee5",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0019.gz": "ba4526eb0adb507d8b3d36dbd979be9e638cf264c7f84be3d4b3e7b2dd8917fe",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0020.gz": "88a88203129c7b326bb1cc38ae137eca06701c7b8f23b90fd0805ec43826335e",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0021.gz": "4e3be6a5fcac094b8b1c3047bf894bf78157569bfe18011d4bc8247652abd3d9",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0022.gz": "4e70ec15e542d453eaa11d1cd54a82049405a248e9065f4af03c78f0b9d8e706",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0023.gz": "14900e0e3c32f57f7936e168f83d999d41792cea1b53da6121eb19165eaa955a",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0024.gz": "818e377017f1ffcc76c2d5ad203a5eb7953bfb910fe62d6b7c69f1107f706475",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0025.gz": "215c690ffccc71df5be76f3e13a9d2928f5fc3e5e2ea91a5dacdd31ad1c380c2",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0026.gz": "46b50c321b39e89a491b6727a01628c34245605a30beb3e7414c5e01cff90e6e",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0027.gz": "f84a9bd45a9e6268c37b2a73e917af7707a65454a805513172871a37c50cb899",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0028.gz": "a22c58733b49a093981c7218d0237886ec80f928c85a04e1e712787973291c09",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0029.gz": "3ba09d28b95729313173418b784991b27c53b2c73637611af4aa365252e3b463",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0030.gz": "d50a7ddc8d2174f6bae6e223e8b8317dbb72368993f63078303dd0a27f1212b9",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0031.gz": "5124b63eacff3f36d50dd7aaecf3622cef24979aa13eb07cbdf905181df88587",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0032.gz": "1255808c691ee958e5f2ccd740b76251fbca76fc4e560d0b5f5b70ed7e485536",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0033.gz": "facd064c96dafd5816c81582f602ed3fe6cbcfae45dd0fad827ccdfc234eae78",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0034.gz": "b4bf85fbd6111cd470a331d477a8caa1c15af61573b74bf63132530e9aa8000c",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0035.gz": "fd233993c69684ec3a9d0258a648df767be76928617fb18c62048f8384895a99",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0036.gz": "bd9bca4001a14f8abccfaf990484435e91475ad925c46944ce3c903f1323ed35",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0037.gz": "683876985a73ac0ff73e4d0a4bf32eb40eb63661d5fb554f32ff7fb51f12d2d5",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0038.gz": "2e1a698e17fea3317b354d50f80c2a52d20b451003aaa5c6a6fdf919f80bc133",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0039.gz": "46b50c321b39e89a491b6727a01628c34245605a30beb3e7414c5e01cff90e6e",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0040.gz": "e21eb223f0520bce48e0fc73b70edad0d24f2fa429b6a2ed6ff991e18b864e7e",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0041.gz": "0b01b22b4425f3a3bd1c9fab086e5da83747876cb48817e26cd1e3cb2152cfff",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0042.gz": "0233f0f8c1245f8564cb756123b9b97031efd88fd97f30764883e171b9149435",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0043.gz": "bb36c1eb59aa4a0921a4d94ad03b720c25d72321a5f741c36a0481e0c9e8acd7",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0044.gz": "a2d06204bb2a268b778cc5f3107569746b86461722ce6e6364230e5e67622802",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0045.gz": "4dbafd138e34b9d5ee97a19286f05cb46878d68e1b89bc337f2ae0636f7ff66d",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0046.gz": "057b93ec203bcf2215515453930dd3b976d627896a3d97515500731ae4233d1b",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0047.gz": "d30fd90d15cb4138f6bfb3fb27c0cbc65c72d910d7efcc25ae7d4adaf45895b0",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0048.gz": "06d2449dd88726c299129874e5261c3927191464e9b96d2eb9237f8aaab95958",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0049.gz": "9dcb8fc43dfd8f084e02bd7eb726998f5c0dff96b679d599abf6af7eca1fb406",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0050.gz": "1d802fc4a6a3146b903bde1c99276b7900e233c8461a5475aa0afa9c2d640248",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0051.gz": "f45653fce89fdaa9800a45f402e620eaf66a292708e9ad693908d8ec9cc31a34",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0052.gz": "cd3c8e3e6c455651ff36b770075ffec700d4308e3bbf72e9f02e8efd2ad59077",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0053.gz": "3915f92072303903c1b55acad59b974cac1a7c392115faa6ab0690b48187ea70",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0054.gz": "d3bd4f7406b02fe2903a124a2292e01b2988a053dccc32455261568dfdb035d8",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0055.gz": "8abd1028ac47fa6923bf969bc7e32fa1d7228ce91063d0851df265433b339670",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0056.gz": "3475e72b16b4867af0124c87c4ba2e962f85b9292c55b6290cceab03ad4cacbd",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0057.gz": "2b90529e14af06e6bd8d9a7693f4c528dcb63d3fd954e98b04478ac06302a378",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0058.gz": "5c28c22341ce108ee8a0d70865a8054d1cc5c39d1c957d24c396665f9f5a4581",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0059.gz": "3401569534fed0194c5a3e239469ae346215589f1b9b441e1b9a4eb7816603cd",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0060.gz": "9cb4a3d40b5b84d4ee2a2c8ba98f0bb5dab579351caccca0cac8f2706e6f8ec2",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0061.gz": "21ff50d427f4b9d555fc88d313baaa68b5d0550fab6df912b3cfa32f7a9d0832",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0062.gz": "a3db7a9c5a63e5bfccb0ec7a409f3fcac9043531161a1e5e3cb82278a2c5a5dc",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0063.gz": "c3ac715d2045e5b2e8c55d0d6428ca488f2528cf8e42d590fd6135b1d9b9f838",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0064.gz": "1d97d2d1b653bd2f2a68613a62073c715665c509ee774f56b55250a28273677c",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0065.gz": "ede011f6cff6a6166705e7e5b2c70168cefc87fbf71a452fd52fc9f962a6e2cd",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0066.gz": "30fe51f182dfec5e8d1e6a4227354b55f3a0840c4862a1d7e85b5c67531036a2",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0067.gz": "ce31b9a222621afcacfa18dd40229b0a1f376b7a48a0c67e9eb21008d41464e7",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0068.gz": "829465318f19f3b5c4a000917219c080f02b57d50607e9e1a2dac59af34f9e80",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0069.gz": "bcee376f10be0e642c2a49a94033e82f695db8812e43cc0412d915d7f71cad19",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0070.gz": "ef1d7b46252ad98cfc7f54c3e284b3dbaac9e5a4f8e621a099940c003ac944de",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0071.gz": "823cfe42c2b8db108fc047a83f5ecae833bfff94c162ca875e7b19746bf21a71",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0072.gz": "961b47e7f51c06a62e782b89bc9a5e43adc10df2019c1a92b6054ce6d87f5aae",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0073.gz": "60e4ff6b4276a601f03dad4285cddd8c2fb64d8841ed248521d99d5847b5e49e",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0074.gz": "c4fc14aeff79f94e2d410421b1ebf5386af050d68df0f4ba9256ba48d7c0202b",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0075.gz": "0cb220bbb700ff921142c60f313470037a9b330b31ad36c17d587b92b2268445",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0076.gz": "3b1e282e958304a8a7dfc0555576541e63299e623203bc16ba0bad0f8c2ff400",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0077.gz": "823cfe42c2b8db108fc047a83f5ecae833bfff94c162ca875e7b19746bf21a71",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0078.gz": "8a2f0c2f0f38e31106b91139554179cccf9009fcb241ff67f65cdda56a8ea5da",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0079.gz": "d50cc91b052ec98b23847a13c84c23f47c721e13fdb008ea0a6be9f9e722a305",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0080.gz": "b2a7a4c6e96796f82ad98cdd27aea1f73d1e6ba6e445f3fd88e31840aea3a7ff",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0081.gz": "5d1e8bd1980e0c5b8f8d919890758efb66b2569479fa80281b669b421abe8801",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0082.gz": "da1dd021208544b301ea72cba90585f7d5d8be5ab60c2ce9af1b5bb35d94b69a",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0083.gz": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0084.gz": "66382ba387fdf5c8db0cb5160e680f0c63d437d60acc220882063187505f35af",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0085.gz": "af286ec94d16040e2acd4d9fcdac1841445740297b4cc74286ac3b3912f61f4c",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0086.gz": "214a578afcb1fd8e450d12b9bb3fa4ee2c26dededbbdb9627efd7af9e341df6d",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0087.gz": "d3d0e8d78fbdaccb65988007a810e81469494cac070e9a87fbba1f92248ad6f7",
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0088.gz": "ef4a5eb6e3ea2dbc26ce765719d9bf00ae80ba9af7f5f304b4533a7a51492cbd"
+  },
+  "origins": {
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0000.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\submission_required\\audit.py",
+      "sha256": "02865b5b96a7ead2e9892830b7e54a48d0cc1f5005fc4c2776f847f92652ca32"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0001.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\submission_required\\build.py",
+      "sha256": "44cb141e2186c9ea37a338fb1ce88f1b0e567d45ce6f84bf9017e91d7ba7330e"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0002.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\submission_required\\common.py",
+      "sha256": "786fb78150826d5451731bbfa078eed0fc3495abf46a27622d03ac3ea76f7b1e"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0003.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\submission_required\\component.py",
+      "sha256": "2e558f65d95cc4ccbc43aac46565932ffbe499d09d0e5d9ef80e037fbdd56153"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0004.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\submission_required\\preflight.py",
+      "sha256": "024c19694b15010c96a8ed065076585ea24b7d0d82f1355095982c1abc1a9762"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0005.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\submission_required\\reliability.py",
+      "sha256": "f3c625747efad8ed26f10f0e618ac6c83a35d96a44314771463fc6f139b15060"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0006.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\submission_required\\run_online.py",
+      "sha256": "04dfe6de7a53fe14eed4bb0baa35bdbc9d57fc6c46b32a2b34a8a0869bfc6522"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0007.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\joint_baseline_confirmation\\run_online.py",
+      "sha256": "b5d1d0f8ac1ca8831c7ecac3d343903cf1f760f719b2b4c626c76268edd4ca98"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0008.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\superpowers\\specs\\2026-10-09-required-experiments-design.md",
+      "sha256": "06621e7e33212d276d968acb801f99e7283b009dfd837798bba0df2188b2be7e"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0009.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\superpowers\\plans\\2026-10-09-required-experiments.md",
+      "sha256": "39693adb03143982ae2c63ae46cdc9a9629e7c5febb114abec849be850757fbd"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0010.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\deepseek_refinement\\run.py",
+      "sha256": "2515ab236fd015b50b5734105d9745f5f5e7c7974cc77e5fd7ebd7063bc1d4b6"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0011.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\deepseek_refinement\\shadow.py",
+      "sha256": "fbf92c3c5bc5b86a52890a32e5d26d51400daef467504401838da55bbff95865"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0012.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\deepseek_refinement\\reports.py",
+      "sha256": "46d4588efa0daae795e9677f4151cee66fe0d77aabe40eebc1296d4be460b154"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0013.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\deepseek_pilot\\rules.py",
+      "sha256": "8de5400b739098929e760caf8bca9abd9d89a6f5e6910d9ab839119aefbc497b"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0014.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\formal_evaluation\\ablations.py",
+      "sha256": "bac84d7a7b44f8416620939244fd0683334cfead5236e0c2ecbb60edc391124e"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0015.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\online_llm\\run.py",
+      "sha256": "b266032166b74a3c640f962c9cbd13d212d5b03dca46335fd83d9464bcb7095c"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0016.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\online_llm\\client.py",
+      "sha256": "db7d8dd0efe1916896eefd575c50a459ed594076c3ca233449bfe2184e3af511"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0017.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\online_llm\\controller.py",
+      "sha256": "4f67a4775be661f0751fd2f916baf8f961350de01430c14e5a57e12cdd54b067"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0018.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\joint_baseline\\frozen.py",
+      "sha256": "9f37cbcfb9d6fb60234496100acb0d3c060743064e04e9e5ef28c0a6f396f2bf"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0019.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\superpowers\\plans\\2026-10-05-joint-baseline-confirmation.md",
+      "sha256": "2c56cc24a2348b13e342721ee43c54d19d0c378a54cbd6b33f667cbaeb0540b3"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0020.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\superpowers\\specs\\2026-10-05-joint-baseline-design.md",
+      "sha256": "b317bdb25ee289e2c97669289fe065512f5e682caf2aea60969f35876cb90dfa"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0021.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\config.py",
+      "sha256": "603bb1e9b04f03cd32b9d939e7d7e1f5162a3fde3f3116c0120f80fb9e93ce99"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0022.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\train_env.py",
+      "sha256": "78959c118607046478d4681f4ad8f31e239a299a0b49363fd5321d0bff8d36c9"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0023.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\algorithms\\actor_critic.py",
+      "sha256": "a60a097b84fd74c4027ecd0d3b0b94e9be9ed276cad85e694fddf466b6b7a9ad"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0024.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\algorithms\\happo_policy.py",
+      "sha256": "48f1915d792a000a5938718a09d897c2646cbc6d2d59529d47b8e79bd6f3161a"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0025.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\algorithms\\happo_trainer.py",
+      "sha256": "40c67b8b8f724cb0102f4766b58ea876606c7f2423b3733c41864502f53ba84a"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0026.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\algorithms\\__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0027.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\envs\\env_wrappers.py",
+      "sha256": "1781852360c113902585d9e293016382d5fdd956ad756ea820b5697b429fa405"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0028.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\envs\\generator.py",
+      "sha256": "48366755e3318751966f240c68316488a7f79066a9c3116a798d5cab46e55741"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0029.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\envs\\net_2x3.py",
+      "sha256": "fad67da8c575853154d6d7e22aa034cad8f6f8c1ff0fde9cd8de07729325bd24"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0030.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\envs\\serial.py",
+      "sha256": "7c73e9fe9ea5f8bf60908ee26e272e16bbb95e0acd9e074272ca8d1a95d70088"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0031.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\envs\\template.py",
+      "sha256": "49a2b095b30ddbe195e4790650b87d2c2d2d10f2e3ed0bec2627fec8a2d2529f"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0032.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\envs\\__init__.py",
+      "sha256": "15c2ffe5d6790738d28363cf7101f64d7b6370a182b805284fbbbd304e6b42a1"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0033.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\runners\\__init__.py",
+      "sha256": "c128749b116e135f555dc0948ea297a43316cc3cee0415e9e8e19aea7f72a9fc"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0034.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\utils\\multi_discrete.py",
+      "sha256": "7bca00aa5f47039ebe1fa1cb26e46682046cda57cf05d963f7c3ac699fa5a7a6"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0035.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\utils\\popart.py",
+      "sha256": "40fdb523f10aac1d03362cc1fc6a745936743a6763003a791a962fbe8acc9bbd"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0036.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\utils\\separated_buffer.py",
+      "sha256": "af0f1850bc0a8101ed18a5298aea1eb8146f86eb16396d46ea4b77e9ed436051"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0037.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\utils\\util.py",
+      "sha256": "7cf8ce806483e8abbc358951105a3765a734c92a15fa641595fa6ea967e1f4d7"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0038.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\utils\\valuenorm.py",
+      "sha256": "8cd48bb7e3a3d8295baec57a2cde23ca60a973d047f358f408709ef53c6a1836"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0039.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\utils\\__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0040.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\algorithms\\utils\\act.py",
+      "sha256": "dc551eb81567f591eab1ef148768439f67c236f2aca493e401171493fcc86d71"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0041.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\algorithms\\utils\\cnn.py",
+      "sha256": "958c59f4828ec874934490249877b7b82d6d218ef12db2428dac7f6b325ce067"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0042.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\algorithms\\utils\\distributions.py",
+      "sha256": "f11e226e9218e954c576f80ed4043bd480de1fc5a29905bd11663d2e678d159e"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0043.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\algorithms\\utils\\mlp.py",
+      "sha256": "04e0ae4da416ac5352cd5d228688577903b4d0242386e19f63a0b3361af03b49"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0044.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\algorithms\\utils\\rnn.py",
+      "sha256": "bb6ca30a91503f012df3c45d9be9011642f9895fb9804b05530bcb49db47fe50"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0045.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\algorithms\\utils\\util.py",
+      "sha256": "0d32cea8abf8d063bf0cd7fd8a80b3e12331be4bfa96ed18d7c51a17323c560b"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0046.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\runners\\separated\\base_runner.py",
+      "sha256": "d2d6f229dd65319ee0aeb81a376b6d80524f53070fd0c73a860c760c9570517e"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0047.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\runners\\separated\\runner.py",
+      "sha256": "47c997beb9c2504afaa80215c89e430d15e0c75e77a0ed757551ffa6f4179fc8"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0048.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\external\\liu-inventory\\runners\\separated\\__init__.py",
+      "sha256": "000ace4edd2d1786448beee066ce906a8b838276066f27b63eaf19b7c3de251c"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0049.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\online_llm_guard_pool\\audit.py",
+      "sha256": "1efc265edfce1d2041f6fa8568e9acc2160bdbea99867cd113b8bd4c6d766b16"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0050.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\online_llm_guard_pool\\check.py",
+      "sha256": "d9ab24204b44cfaefc801ff43923b22d8c684b5cb2933ab51e4fc9f60fe0acf1"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0051.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\online_llm_guard_pool\\check_controller.py",
+      "sha256": "dad3ec6220ccbd5b29b4fe61218ee7c509bd912b225a82d1e2cf205afc5345e1"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0052.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\online_llm_guard_pool\\controller.py",
+      "sha256": "a291d659726b6fbdfe221af1862be5f35473f74c8154846aaabfaf40a81d57cc"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0053.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\online_llm_guard_pool\\policy.py",
+      "sha256": "f73c136a44a77104044a055dd2aafb5a759786abb555cb78a1c4e2bbe88057c2"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0054.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\online_llm_guard_pool\\preflight.py",
+      "sha256": "6c6d4d0f645eb38a70b8ac0a4c8f7f4a53f7e9b504016edd43318bf349708622"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0055.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\online_llm_guard_pool\\runner.py",
+      "sha256": "576d68903f2bba41da70aef0674fc7af0671dc242b7f13b162bbce03959b4caf"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0056.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\superpowers\\specs\\2026-10-10-online-guard-pool-design.md",
+      "sha256": "756d37f5a76d340dd707a53c15a29c18553d234c4a5fefad697761f7f995abc6"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0057.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\superpowers\\plans\\2026-10-10-online-guard-pool.md",
+      "sha256": "331dfea3c68b51ef9bc4da6e63585e0f766ab031c943dd8a48cab8cf29dfaff4"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0058.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\timesfm_closed_loop_development\\analyze.py",
+      "sha256": "dbbf53083af2145b5e1c919af44fe7462bce9068f98db7f2df9fc5dcf4dd26e4"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0059.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\timesfm_closed_loop_development\\audit.py",
+      "sha256": "e13e89508a52161308a63a8e9b633494fbbc6f118962623b6c90fb3c180d8adf"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0060.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\timesfm_closed_loop_development\\batch.py",
+      "sha256": "a9f530a2a75c9414ae9434cd77875f450fcfe346388625023dfa7be0205ca5a6"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0061.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\timesfm_closed_loop_development\\controller.py",
+      "sha256": "8fbaabb22b976962120331d779cd52e353e3e36a85e511f9e1386c4d4b2d18c4"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0062.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\timesfm_closed_loop_development\\predictor.py",
+      "sha256": "4dc1ab8538507b5b694b960ec79643c3711d5c17042780e9bac38dfeeedb74c1"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0063.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\timesfm_closed_loop_development\\preflight.py",
+      "sha256": "8ec4800ff32be7d40a55a03d9bd908c377306bfb86c9e15ef4211d497ca91ed6"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0064.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\timesfm_closed_loop_development\\runner.py",
+      "sha256": "2c8ddf82025d17f678cca8df5c7049a07c11f6ebfb998bc9c219d5f4ffed8106"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0065.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\timesfm_path_development\\paths.py",
+      "sha256": "69facda6e611bd57d363e36205b300fe15c15ed39253706694c72f4a7e15c2c4"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0066.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\superpowers\\specs\\2026-10-14-timesfm-closed-loop-design.md",
+      "sha256": "c809d32dfd5f29f820eb1a4241ecfd1f6deee40d1bcd5bbe8a7a4354b4c3f160"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0067.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\superpowers\\plans\\2026-10-14-timesfm-closed-loop.md",
+      "sha256": "43d72ee573ed7dbd722c7e8ddd5e974baccdc883d9e87ed421706100691fe976"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0068.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\timesfm_closed_loop_development\\development_v1\\manifest.json",
+      "sha256": "3bf987b05c9370cd0584ff42cbd15abdc455aaf55c941c295533d7f263ff5a7b"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0069.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\timesfm_closed_loop_development\\development_v1\\freeze.json",
+      "sha256": "aa556f5a0ec706bf588d1f4107835b57f11371130e492c67a27a1c296da4107b"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0070.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\timesfm_closed_loop_development\\development_v1\\preflight.json",
+      "sha256": "45a26fc70ea3d781037d95fe030703577ffe04a6747f6fd0622f51ee10e4e816"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0071.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\submission_required\\v1\\inputs\\confirmation01_main.json",
+      "sha256": "99e4995eccfbe6c50f2d46b41e167769f69d6cdb61c9a75d84b264c7860a3bb8"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0072.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\submission_required\\v1\\inputs\\confirmation06_main.json",
+      "sha256": "e844235048990abec32c495bd7b46ef3bcfac6036e2760076a7118de61b3200d"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0073.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\timesfm_closed_loop_development\\no_api_fixture_v1\\audit.json",
+      "sha256": "ef1526453fc5497321ee52a1bed48dac2cb33345641ffa5c59f38b17deb2e992"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0074.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\timesfm_closed_loop_development\\no_api_fixture_v1\\calls.json",
+      "sha256": "4f8d70bdb3a43c421c0342c3e476bf955e4a9441e161c8d7872a511e64bc766c"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0075.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\timesfm_closed_loop_development\\no_api_fixture_v1\\completed.json",
+      "sha256": "1e29da0829ce09b0828d94590e26f9d9cd6b21892c7853e0fb61d3fd97be3d24"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0076.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\timesfm_closed_loop_development\\no_api_fixture_v1\\delivered_reports.json",
+      "sha256": "bd7a37e66e0aa282c0f804bbca3096fe479d7a933833f949ea6184fdd4025edf"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0077.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\timesfm_closed_loop_development\\no_api_fixture_v1\\demands.json",
+      "sha256": "99e4995eccfbe6c50f2d46b41e167769f69d6cdb61c9a75d84b264c7860a3bb8"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0078.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\timesfm_closed_loop_development\\no_api_fixture_v1\\episodes.json",
+      "sha256": "5497bc1fc3a54f47eb8f5553a5465d4140b83db4319e41effbdbc0b75ed74b8a"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0079.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\timesfm_closed_loop_development\\no_api_fixture_v1\\information_audits.json",
+      "sha256": "389c18fc911bb4bfa2e2f751253a50bdbc3b7a48a83c04c09bfc6330dca31e66"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0080.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\timesfm_closed_loop_development\\no_api_fixture_v1\\periods.csv",
+      "sha256": "b29f5f33a3bf1fb0906df0e9c4111c28db115c59a49679f5a48168aca3cf5ca5"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0081.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\timesfm_closed_loop_development\\no_api_fixture_v1\\preflight_passed.json",
+      "sha256": "ab624a2c56518754d325277231bc0d41f1460248906f66af172784a78e5b904f"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0082.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\timesfm_closed_loop_development\\no_api_fixture_v1\\protocol.json",
+      "sha256": "d52dfe7deb5932fa44b893c220c3af99eae056fab6a19e3b29f0a9f3fcfa709c"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0083.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\timesfm_closed_loop_development\\no_api_fixture_v1\\runtime_failures.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0084.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\timesfm_closed_loop_development\\no_api_fixture_v1\\scores.json",
+      "sha256": "d50d208d59703d97554add47e2b0e8e436891877b3c3ae959af394a2c9b8f0ff"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0085.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\timesfm_closed_loop_development\\no_api_fixture_v1\\center_merton\\logs\\events.out.tfevents.1791965911.石原赫的电脑",
+      "sha256": "ed233d6cc5fbc6a2a081f3f8bf4467b82bd35b93f58ca7dad0e6830eaa36b077"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0086.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\timesfm_closed_loop_development\\no_api_fixture_v1\\center_naive\\logs\\events.out.tfevents.1791965961.石原赫的电脑",
+      "sha256": "c3ef0cc3e37b6f4b3c14d1fe254f639c5004eed57ce930898cff7fb1d5b6fe01"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0087.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\timesfm_closed_loop_development\\no_api_fixture_v1\\center_timesfm\\logs\\events.out.tfevents.1791966019.石原赫的电脑",
+      "sha256": "d67a5050d87a58ac0ce7f71db18ef8b78c955764d3f6487ecdf2336797f81137"
+    },
+    "docs/artifacts/timesfm_closed_loop_development_v1_preregistration/files/0088.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\timesfm_closed_loop_development\\no_api_fixture_v1\\original_merton\\logs\\events.out.tfevents.1791965863.石原赫的电脑",
+      "sha256": "48785b211f80e0712b61d20f4330d298eef482995ef0f3810c8b6d947db4e27e"
+    }
+  },
+  "credential_absent": true,
+  "lossless": true,
+  "large_model_public_revision_only": true
+}
