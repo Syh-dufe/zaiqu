@@ -1,0 +1,218 @@
+{
+  "files": {
+    "docs/artifacts/sundial_adapter_development_v1/files/0000.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_adapter_development\\v1\\additional_verification.json",
+      "source_sha256": "2dff4222b7e99c8e5ef8b45096dcdbf5984fcc38fe048ca9156893715bc2aa8d",
+      "gzip_sha256": "65f460c1614bada5544f80441e1e59a0752bbddde9b29119faef2b7d2ee6bf7e"
+    },
+    "docs/artifacts/sundial_adapter_development_v1/files/0001.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_adapter_development\\v1\\best_adapter.json",
+      "source_sha256": "d9c756f221c4c22a970ef87a9ecf3c45fd6e8a60c780dbbe8e0e44fc537b9255",
+      "gzip_sha256": "0b998fd9ca7d4e3206e9db3069e2921e662803968615b78ff6be1f7c592d89bc"
+    },
+    "docs/artifacts/sundial_adapter_development_v1/files/0002.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_adapter_development\\v1\\completed.json",
+      "source_sha256": "b8839f3b227a7c38b5cb52a2b5095efa751e77021ec236a2508c2a4e061e110c",
+      "gzip_sha256": "203d816046ef2caf7edee34a38bd4d74345f2970a2eb3cfc42a653a7dd816228"
+    },
+    "docs/artifacts/sundial_adapter_development_v1/files/0003.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_adapter_development\\v1\\development_cases.json",
+      "source_sha256": "6f9d7be05f368b6629a595f82c329127a99e12f9389559eaa30dd190bcb90512",
+      "gzip_sha256": "845b115b2a60654a73f01bde24932791d055b5dc672b9d074d0ff8db2e1bfe6b"
+    },
+    "docs/artifacts/sundial_adapter_development_v1/files/0004.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_adapter_development\\v1\\development_forecast.lock",
+      "source_sha256": "fe3d9548cfb0417e15a77f1842fadac4a5a675e1df1baa001d3182486b928aad",
+      "gzip_sha256": "4080a85d9eaccb19c6dfc2ab37ef4cf0e7fdca737655e6af432326b3828328ef"
+    },
+    "docs/artifacts/sundial_adapter_development_v1/files/0005.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_adapter_development\\v1\\development_forecast_completed.json",
+      "source_sha256": "ee95e87aab943081efd30964b56a91c4e2ead28d7049e1d80112757895a5bcaf",
+      "gzip_sha256": "5518d7e0a31a981f9354c3369e1e6c557b0be46d75ba8cab00ab0c8e34ca8628"
+    },
+    "docs/artifacts/sundial_adapter_development_v1/files/0006.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_adapter_development\\v1\\development_generation_log.json",
+      "source_sha256": "95244467a2c8e2deebf7a48c67c98bf2f31040a070a1f2714e2cd421e0d1a666",
+      "gzip_sha256": "38978e5c91255977605743517cc3b6fb838e3da456c277f25547b8867a770127"
+    },
+    "docs/artifacts/sundial_adapter_development_v1/files/0007.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_adapter_development\\v1\\development_inputs.json",
+      "source_sha256": "229b1e05511d05dc50d46786203f99149dcb2eb6c8c3eae1f0bb5d229a0f8811",
+      "gzip_sha256": "922ba38a2e314790ff8c8c365994db072e54243053aa637f5d56493dd2276fbe"
+    },
+    "docs/artifacts/sundial_adapter_development_v1/files/0008.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_adapter_development\\v1\\development_predictions.json",
+      "source_sha256": "75179dc41b608095243059c47203e9462f8c12cabf4c65ecf5d5ae928dcc645a",
+      "gzip_sha256": "ec82531b23abfc493f21742cee977f7ec54df963cd25fae0f8d45958adf06463"
+    },
+    "docs/artifacts/sundial_adapter_development_v1/files/0009.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_adapter_development\\v1\\final_adapter.json",
+      "source_sha256": "cb78925d419f14e1e01c2ce57f4fb2e65dda9ce73a51cd8ffa225df330e4e8f7",
+      "gzip_sha256": "e2932686239fa17ac447c10c1fc24e93954107156177ba9e3d16708d1576dbc5"
+    },
+    "docs/artifacts/sundial_adapter_development_v1/files/0010.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_adapter_development\\v1\\fit.lock",
+      "source_sha256": "96a70d838001ef12e0862ec9459dbe23b46d716fd34e6991d4c243c4be7d017e",
+      "gzip_sha256": "4fa78dc41dafb0e019fbbce97721a71189dee121d3cec614edecfc391fcbfcca"
+    },
+    "docs/artifacts/sundial_adapter_development_v1/files/0011.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_adapter_development\\v1\\fit_completed.json",
+      "source_sha256": "47ed44c184514d551d0c74b49fa1b4aaebe6b0145dbacd3be9be5a60815079ec",
+      "gzip_sha256": "04a56167fbcd82bf465577c674504a976f766bc5628a52df74fe1dbc7f19fddb"
+    },
+    "docs/artifacts/sundial_adapter_development_v1/files/0012.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_adapter_development\\v1\\fit_curve.json",
+      "source_sha256": "ec5a12f602a0d3503d6e9e6f391520893fc3d0fd6f55daf6bd195f31459aad59",
+      "gzip_sha256": "3018617555ed1e3a355263146964af5253bfccf03a6b615df8d17a7fc12e93d2"
+    },
+    "docs/artifacts/sundial_adapter_development_v1/files/0013.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_adapter_development\\v1\\freeze.json",
+      "source_sha256": "9475638b0be55ab69aaa2c10d51dcd226fd4349e3d80af8137c68967ec15f546",
+      "gzip_sha256": "b8c7559e91a3b375b7f8ac2fba09d01035865011eb3ac6ab0ccceaf3b16151b9"
+    },
+    "docs/artifacts/sundial_adapter_development_v1/files/0014.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_adapter_development\\v1\\historical.json",
+      "source_sha256": "d3402fe1320b6d368da9f37daad8369bae1554ec120a0a2c63e57930209f98a3",
+      "gzip_sha256": "2fe276193dee6a2184e0f5b0f93b6280bd48c02d81115b8debf97e6b4126656b"
+    },
+    "docs/artifacts/sundial_adapter_development_v1/files/0015.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_adapter_development\\v1\\metrics.json",
+      "source_sha256": "cafe7ec73a5e64921e01d4f2de5d77b4bfd6df9c2be446f77e3ed50da9c994f3",
+      "gzip_sha256": "d63337eada1e565c4adef5e4c55e53a424c54175718b084240106d18f51e0c08"
+    },
+    "docs/artifacts/sundial_adapter_development_v1/files/0016.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_adapter_development\\v1\\prepared.json",
+      "source_sha256": "2eaaf781d44acabd0f19b63e0035cdfc049604ecda8f1871852daf07ddd17aff",
+      "gzip_sha256": "2fb4e460761d691b4d1db6900bac5d8796b74dd604c3a4a0a09666a7f48763e2"
+    },
+    "docs/artifacts/sundial_adapter_development_v1/files/0017.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_adapter_development\\v1\\report.md",
+      "source_sha256": "c09277245e0bcedff18e7704083a0ea6a9e6532a466fd4e797978ce4a1bd3d35",
+      "gzip_sha256": "38eb9dbf453fff3e8c3fbe3ac8ad40327d8fcb54f5dc5ca494873f396b6c874b"
+    },
+    "docs/artifacts/sundial_adapter_development_v1/files/0018.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_adapter_development\\v1\\scoring_values.json",
+      "source_sha256": "962d222b6880acf57be2aef739f7755ab25b82f5b8aef63ba9763901133a9324",
+      "gzip_sha256": "85c69edef0dce11474b1664b5c0a753298a7b5439dae635f9bed31ae71bfc037"
+    },
+    "docs/artifacts/sundial_adapter_development_v1/files/0019.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_adapter_development\\v1\\test_cases.json",
+      "source_sha256": "0633e81e0b19d5cc0d5c0b486c7085ea91ade41ccc01e997702cf0cd3690d469",
+      "gzip_sha256": "dc01d5e82c1ec40a36d3369b95cae662b4aa194a2616476a41fadd1db3ba5de8"
+    },
+    "docs/artifacts/sundial_adapter_development_v1/files/0020.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_adapter_development\\v1\\test_forecast.lock",
+      "source_sha256": "fe3d9548cfb0417e15a77f1842fadac4a5a675e1df1baa001d3182486b928aad",
+      "gzip_sha256": "4080a85d9eaccb19c6dfc2ab37ef4cf0e7fdca737655e6af432326b3828328ef"
+    },
+    "docs/artifacts/sundial_adapter_development_v1/files/0021.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_adapter_development\\v1\\test_forecast_completed.json",
+      "source_sha256": "e6d9f86f336d94f878f1d7f47e2c3669c75794815b71730ffc433c8268ecd1dc",
+      "gzip_sha256": "e6171239a5ec45223a3185490925730a167611c49c0ac906e67191d465656da5"
+    },
+    "docs/artifacts/sundial_adapter_development_v1/files/0022.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_adapter_development\\v1\\test_generation_log.json",
+      "source_sha256": "a5e65e09bde97eb2d2d1ca3553ddb50e5e98f661bdd2d590d80f778987279fbf",
+      "gzip_sha256": "f99db6759fdbf51ae6cb73e982575ec75e4ec45f783dd5cf5fe546bb05324bf5"
+    },
+    "docs/artifacts/sundial_adapter_development_v1/files/0023.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_adapter_development\\v1\\test_inputs.json",
+      "source_sha256": "228c2caf3dd545d87e678946b798cf9b0bd11f203ce25c213af2bde04f4143aa",
+      "gzip_sha256": "8aee7d6968b16f4b0d42210bf196154a6ebfc6dc51b847edac6e61a4d44acb9b"
+    },
+    "docs/artifacts/sundial_adapter_development_v1/files/0024.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_adapter_development\\v1\\test_predictions.json",
+      "source_sha256": "79e0b0fd987722d10f2d0956916b36227f3926aacd489281cdaaca0c01ceca26",
+      "gzip_sha256": "1e75f62aac98b6054310b1d3df84afa6574fae076c8dcd2030a09f19eed6016f"
+    },
+    "docs/artifacts/sundial_adapter_development_v1/files/0025.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_adapter_development\\v1\\test_prepared.json",
+      "source_sha256": "ec2e5b03520d7eab00a0add8a5623d99368bccd1e058ba2e5645991503419651",
+      "gzip_sha256": "9342712e2726ac3bcb75cace86d6c9dac8cd2639ea3f70e71f9d70fedee58edd"
+    },
+    "docs/artifacts/sundial_adapter_development_v1/files/0026.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_adapter_development\\v1\\test_registration.json",
+      "source_sha256": "2397bb93ff768dc630c96d1d69c35f93aaeb1e614a365192d84ff99a60810c0a",
+      "gzip_sha256": "11bf8b3f45768ecbbdf65b9a4c68cf3da30476a8f70bc3ae547afa040f0e82e5"
+    },
+    "docs/artifacts/sundial_adapter_development_v1/files/0027.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_adapter_development\\adapter.py",
+      "source_sha256": "875a1352e2ec3f9d3f940d48ebf7a2afe110bb27a804df32a08499a8268d66b3",
+      "gzip_sha256": "317fe538c641f0a67fd9ddddc1e1cec84a9d4fedc1777ae3a9197b669fcac1e1"
+    },
+    "docs/artifacts/sundial_adapter_development_v1/files/0028.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_adapter_development\\common.py",
+      "source_sha256": "f8ba45122a6bb8f887413b046c21b10ec5701460d50d904b5415062084cb331a",
+      "gzip_sha256": "fef51f7bb6aff0fb0a3022146af4ee0b8acf8266a9041b4482b1efbccde949d2"
+    },
+    "docs/artifacts/sundial_adapter_development_v1/files/0029.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_adapter_development\\evaluate.py",
+      "source_sha256": "f8bd68e5db793d0cb6938183d0f7b01d94301dfa630b994fb9f19fe74e85a875",
+      "gzip_sha256": "578e46fefc816492e0000a149afa7ad30213950592275b04f24ffe99a919b280"
+    },
+    "docs/artifacts/sundial_adapter_development_v1/files/0030.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_adapter_development\\fit.py",
+      "source_sha256": "205fc4b9c671eefd5bf6ad5a819832a6efc45effd1b092f01face3bd5acebaa0",
+      "gzip_sha256": "97d26e4128ad95607b5c8edf6475ee589e0a0b7af8f7de86a0a6e02ca7e2dc2c"
+    },
+    "docs/artifacts/sundial_adapter_development_v1/files/0031.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_adapter_development\\forecast.py",
+      "source_sha256": "f2600979d1e935fb2e30883ca1bf6ef7f07e6099e6d23d9048f890719df9d996",
+      "gzip_sha256": "6b86f7f412b4e71cd52e35763694db01ea76b457f9a0e6a9aa90e0a9d000194a"
+    },
+    "docs/artifacts/sundial_adapter_development_v1/files/0032.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_adapter_development\\prepare.py",
+      "source_sha256": "aa3d1fec454e00ae4b673af957ef152024e3066e4fa153f4b8b9e6bfffabf971",
+      "gzip_sha256": "5c8b4712c24e83b8e60d75ad162b3d391c5f1a8a80fbfa8597abffe82f80b7ca"
+    },
+    "docs/artifacts/sundial_adapter_development_v1/files/0033.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_adapter_development\\verify.py",
+      "source_sha256": "bf71c8a5a1836b4751a4cc82744ef197996a29b0465320981fc84eaf005f2305",
+      "gzip_sha256": "ce19f03578be7cd676d138719056530d615ace08a46e12569ebce139ab3e465e"
+    },
+    "docs/artifacts/sundial_adapter_development_v1/files/0034.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\superpowers\\specs\\2026-10-14-sundial-adapter-design.md",
+      "source_sha256": "679c84d8c85ccbcbb917abefa221ec09ec439f5cb195bccf31d0652aecdb953e",
+      "gzip_sha256": "7b3828305270d8af6b1cfc1745eedd6808be55b312a92a996bd142d6daae5fde"
+    },
+    "docs/artifacts/sundial_adapter_development_v1/files/0035.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\superpowers\\plans\\2026-10-14-sundial-adapter.md",
+      "source_sha256": "81a3d699450b23ac61441e99b58ee85fb1e48098f50b5a6f754b418232b105e5",
+      "gzip_sha256": "7276310ad7e84fe18c378be59e3625179663c2c01ef32f40976f08c7419c25c7"
+    },
+    "docs/artifacts/sundial_adapter_development_v1/files/0036.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\online_llm_artifacts\\archive_sundial_adapter.py",
+      "source_sha256": "5d2fc84c6961acce8f748ef5ddd33be859620c44e005a41afb903728a4f8beb0",
+      "gzip_sha256": "224636f0ed49d1ed13f26b387b7edf381a9023b4053238aaeaea11597709f500"
+    },
+    "docs/artifacts/sundial_adapter_development_v1/files/0037.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_adapter_development_inference_v1.log",
+      "source_sha256": "2b13392db10f42313e9612e79cae25eee4f0a06bddde14a6ff1b272057759da3",
+      "gzip_sha256": "160f777feddcae74ab63fa326620979352d597b0e9c186674e421e3916390e19"
+    },
+    "docs/artifacts/sundial_adapter_development_v1/files/0038.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_adapter_fit_v1.log",
+      "source_sha256": "9afacbc491f519e5bae8436b016b80a615e86741ba215347da63063c556dda2e",
+      "gzip_sha256": "1f0a18a1ad93244bcb35d467c64dc357f001a9e7193313ddb3cb7019bd7764cd"
+    },
+    "docs/artifacts/sundial_adapter_development_v1/files/0039.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_adapter_prepare_v1.log",
+      "source_sha256": "3e201b64f33939c8a502aa32c9421c5d8b0bbb00cf1e0189388cda9371b345ae",
+      "gzip_sha256": "f6d787b26e02659882191b6150cfabe52a5dcd20377e620c81ae0ef336fce857"
+    },
+    "docs/artifacts/sundial_adapter_development_v1/files/0040.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_adapter_test_inference_v1.log",
+      "source_sha256": "074b2f9a1f6f592875b0f88f43755137da7f0015f677262241559535e8190b64",
+      "gzip_sha256": "f6c8da17a809115bba895e885120d568d7e18c90f200716d62a0de4a5235d9c8"
+    },
+    "docs/artifacts/sundial_adapter_development_v1/files/0041.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_adapter_test_prepare_v1.log",
+      "source_sha256": "1529b9dd8d41a9e8e8d56cc3e9356c9f126e75a4235d8fd73d22cedd9012b6d0",
+      "gzip_sha256": "9e4dacc8007def77f28dac4fd58185e91d0e140fb9330bfc6d1c58d393186dce"
+    }
+  },
+  "lossless": true,
+  "credential_absent": true,
+  "all_curves_negative_cases_kept": true,
+  "checkpoint_weights_local_only": true
+}

@@ -90,3 +90,8 @@ docs/artifacts/timesfm_closed_loop_development_v1_completed/** -text
 experiments/sundial_expanded_validation/** -text
 experiments/online_llm_artifacts/archive_sundial_expanded.py -text
 docs/artifacts/sundial_expanded_validation_v1/** -text
+
+# Sundial adapter fixed experimental bytes
+experiments/sundial_adapter_development/** -text
+experiments/online_llm_artifacts/archive_sundial_adapter.py -text
+docs/artifacts/sundial_adapter_development_v1/** -text
