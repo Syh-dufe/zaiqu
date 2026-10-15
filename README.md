@@ -293,3 +293,8 @@ Sundial128M冻结，仅训练24参数门控位置/尺度校正：24新训练路�
 ### 双峰LLM执行解释补充（2026-10-15）
 
 五模型Sundial规则实际修正85个节点期：第一峰3、间隔10、第二峰0、第二峰后72；第二峰全部chosen=zero、actual=actor proposal。不能将第二峰成本降低直接归因为该峰内LLM订货干预，也不能由预测误差改善证明周期识别。早期库存/在途状态及Merton干预不同可能影响后期成本。见[执行核对与解释限定](docs/2026-10-15-sundial-double-llm-execution-clarification.md)，API0。
+
+
+### 双峰时间位置敏感性比较已启动（2026-10-15，当前活动批）
+
+用户要求改变双峰位置，固定原confirmation01的正常trace2、幅度1.5、峰宽20/间隔20，预定偏移-5/+10/+25（实际第61—80/101—120，第76—95/116—135，第91—110/131—150期）。两预测器均6条规则完整guard_pool，另有纯HAPPO，11..15模型，90回合54000节点期，480HTTP240语义上限，无自动任务重跑。输入是同背景的相关时间变换，不算三条独立新路径、不按成绩选位置。18回合10800节点期六零规则无网络fixture及全部成本/DSL/报告/守卫/预测重构审核通过，113份gzip密钥缺席及Git字节核验，登记a617661推送后唯一run_double_timing_batch.py启动。状态results/sundial_double_timing/development_v1，当前seed11。旧4/6规则比较仅历史背景，不池化成公平新对照。见[固定方案](docs/superpowers/plans/2026-10-15-sundial-double-timing.md)。
