@@ -1,0 +1,167 @@
+{
+  "files": {
+    "docs/artifacts/sundial_response_audit_recovery_v1/000.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_change_response_recovery\\continue.py",
+      "source_sha256": "22bbde457436d7179101c3b977a0546e06f06ccce67a8b8cbe90a0937d4592a5",
+      "gzip_sha256": "fb8d80f37e4896da45b126f0563715b5c42871702aa1cdb2d2091204bcd4888d"
+    },
+    "docs/artifacts/sundial_response_audit_recovery_v1/001.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\superpowers\\plans\\2026-10-15-sundial-response-audit-recovery.md",
+      "source_sha256": "e815eb12f45db439482649b3d8c091afaed77cb55b88f9ea9c58aebc221a215e",
+      "gzip_sha256": "7dd0d5ba046efe687a5a6690b43a17d4f59daec42c60d97f147970f820a5d840"
+    },
+    "docs/artifacts/sundial_response_audit_recovery_v1/002.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_change_response\\v1\\failed.json",
+      "source_sha256": "d6825f5026a0cc356abeefa5f1b2dabda4bf0bd99a473829a3b485061d9321d8",
+      "gzip_sha256": "2291999c1a23a5f8d597eb34dae8a1c784d144b79f762a2c9e59072439701280"
+    },
+    "docs/artifacts/sundial_response_audit_recovery_v1/003.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_change_response\\v1\\progress.json",
+      "source_sha256": "377a3dfb40543c9d9657cd30a1292de3c90cb2562ee68c4dcb88c9aff0e53081",
+      "gzip_sha256": "4037ec6312a1255cc65b7a5cc64d5d9ad2be461f1d58b0bfbc207f2dd0f76837"
+    },
+    "docs/artifacts/sundial_response_audit_recovery_v1/004.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_change_response_recovery\\v1\\registration.json",
+      "source_sha256": "345c1e97a1e2c6ec59e07ce9d152eccfc67fceb10063b6aa20bd0a00fc9cfa45",
+      "gzip_sha256": "72492ab75db94d116086dd5918cdf886316585d96483ddc4b62e3ff52e1ea65d"
+    },
+    "docs/artifacts/sundial_response_audit_recovery_v1/005.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_change_response_recovery\\v1\\reused_summary.json",
+      "source_sha256": "a3ccf3eb6c263e373e8bc8ccd7ea0bf84b3336802429ce058a089cfdf5131e64",
+      "gzip_sha256": "3840d95a0e9d46cdcf2c50e238954fbc3baccfe29f3f9accc51a41dc7f19a712"
+    },
+    "docs/artifacts/sundial_response_audit_recovery_v1/006.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_change_response\\v1\\runs\\seed11_zero\\calls.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/sundial_response_audit_recovery_v1/007.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_change_response\\v1\\runs\\seed11_zero\\completed.json",
+      "source_sha256": "68f5cbcce53d88d6987ff83d480e3fc2f07fd4cce8f9eeb17fd2931c096561c8",
+      "gzip_sha256": "8d90c67cbde1ceb48096e84c5cb6bba3128cc41899392998f4487ad71632e53f"
+    },
+    "docs/artifacts/sundial_response_audit_recovery_v1/008.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_change_response\\v1\\runs\\seed11_zero\\delivered_reports.json",
+      "source_sha256": "e6494c7cf07ad7bd23c291ecfe389873d0739991426b15f1eecbe5b6cdeb7334",
+      "gzip_sha256": "fbee5b7d1ecf27e40d2b96b7e062756d216943585fcf6d1a08ce0cb24abd0757"
+    },
+    "docs/artifacts/sundial_response_audit_recovery_v1/009.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_change_response\\v1\\runs\\seed11_zero\\demands.json",
+      "source_sha256": "00cee712ebd1d2e1651457dc3a9b5d40fd0b0fd11ae084bc16050a86c0a2b617",
+      "gzip_sha256": "377385814137dc58e6a0f5456af9b31b4cf60b22be6880e55fb296a0a2357ddd"
+    },
+    "docs/artifacts/sundial_response_audit_recovery_v1/010.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_change_response\\v1\\runs\\seed11_zero\\episodes.json",
+      "source_sha256": "8809bc61dd50b2768e3a7434d06e2c843ccfa72e2c10d9b0c34d81a0c5bcc072",
+      "gzip_sha256": "112a71385747b87b5d1a4d57dc9eface8dc7d523f8f77618264e5e45ea365743"
+    },
+    "docs/artifacts/sundial_response_audit_recovery_v1/011.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_change_response\\v1\\runs\\seed11_zero\\forecast_model_checks.json",
+      "source_sha256": "69b8b0045b136dd1cdb98b0ff2c9e3a67c662fad3295e0e8ce26670f1dc402dd",
+      "gzip_sha256": "38fd5f5230d165a3f2c522712bdb9ffd31d3b11b59fd531e4b68d6233a6390e2"
+    },
+    "docs/artifacts/sundial_response_audit_recovery_v1/012.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_change_response\\v1\\runs\\seed11_zero\\independent_audit.json",
+      "source_sha256": "91617d0653a5a3de9a2fc313d94c63db6abcffc52740493479a55241689f430d",
+      "gzip_sha256": "385bdb2dae92bafb196669c46cea734789234516fde5681b243d3d345b670cd6"
+    },
+    "docs/artifacts/sundial_response_audit_recovery_v1/013.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_change_response\\v1\\runs\\seed11_zero\\information_audits.json",
+      "source_sha256": "1dc86b11f262ebc76c31515b6d3a7b25b45031a2c3e53d20b5f9bd156a1df046",
+      "gzip_sha256": "85d79f641488064361f6ed99f2dea8b45a07536e40735d7091b30347af339488"
+    },
+    "docs/artifacts/sundial_response_audit_recovery_v1/014.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_change_response\\v1\\runs\\seed11_zero\\periods.csv",
+      "source_sha256": "6d7373ddfe0a266ee2145121745fb249dc4a90f5af34c36e76abb6f63bfd8bde",
+      "gzip_sha256": "b6fc9d1741aa2cea51c662d4d059c4b8a7a257c341b2badac0b6a104059e8e7b"
+    },
+    "docs/artifacts/sundial_response_audit_recovery_v1/015.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_change_response\\v1\\runs\\seed11_zero\\protocol.json",
+      "source_sha256": "7c78828e4257c442ab05d95ca583e4811edad7be14b7353111d10731086ec1b8",
+      "gzip_sha256": "48fba652837be3f9317e500d3931327ef5c7c545163403259e2410bf6b5532c4"
+    },
+    "docs/artifacts/sundial_response_audit_recovery_v1/016.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_change_response\\v1\\runs\\seed11_zero\\runtime_failures.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/sundial_response_audit_recovery_v1/017.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_change_response\\v1\\runs\\seed11_zero\\scores.json",
+      "source_sha256": "29e569c6d9c795437b10e06bb3857218fd5d380031c1800bd9769070b3f2dc28",
+      "gzip_sha256": "c9812a504a1458f782d9d474e4014c602b21ac91bf09192544c4c7ce31b8b4f4"
+    },
+    "docs/artifacts/sundial_response_audit_recovery_v1/018.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_change_response\\v1\\runs\\seed11_zero\\adapted_sundial\\logs\\events.out.tfevents.1792045126.\u77f3\u539f\u8d6b\u7684\u7535\u8111",
+      "source_sha256": "5c3dc78704992d74651253e07a21c1eefb805fb032ffe24329dc63c6bcbe7c2e",
+      "gzip_sha256": "869bbbea6235accd57bb44f0514c4c7d7f36a630c5b46454a3350e7dbdbe03e1"
+    },
+    "docs/artifacts/sundial_response_audit_recovery_v1/019.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_change_response\\v1\\runs\\seed14_zero\\calls.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/sundial_response_audit_recovery_v1/020.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_change_response\\v1\\runs\\seed14_zero\\completed.json",
+      "source_sha256": "a0c4cab8240e09c04c3417110f633cd091d48bdba2b4411792471d80d028a954",
+      "gzip_sha256": "50ff5d01fe6df22af4becc1542f83a5d81baf5992af7a6ea34583474a10bcf45"
+    },
+    "docs/artifacts/sundial_response_audit_recovery_v1/021.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_change_response\\v1\\runs\\seed14_zero\\delivered_reports.json",
+      "source_sha256": "e6494c7cf07ad7bd23c291ecfe389873d0739991426b15f1eecbe5b6cdeb7334",
+      "gzip_sha256": "fbee5b7d1ecf27e40d2b96b7e062756d216943585fcf6d1a08ce0cb24abd0757"
+    },
+    "docs/artifacts/sundial_response_audit_recovery_v1/022.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_change_response\\v1\\runs\\seed14_zero\\demands.json",
+      "source_sha256": "00cee712ebd1d2e1651457dc3a9b5d40fd0b0fd11ae084bc16050a86c0a2b617",
+      "gzip_sha256": "377385814137dc58e6a0f5456af9b31b4cf60b22be6880e55fb296a0a2357ddd"
+    },
+    "docs/artifacts/sundial_response_audit_recovery_v1/023.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_change_response\\v1\\runs\\seed14_zero\\episodes.json",
+      "source_sha256": "f86846e98aff4a8192e13975792bbfb5a059ff2d97d1ee8ae60ac4ccf8f3ba74",
+      "gzip_sha256": "bb0e34a44319c566bd2f00caf755611311cb65606ae6a5f022545841b3ea4c59"
+    },
+    "docs/artifacts/sundial_response_audit_recovery_v1/024.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_change_response\\v1\\runs\\seed14_zero\\forecast_model_checks.json",
+      "source_sha256": "69b8b0045b136dd1cdb98b0ff2c9e3a67c662fad3295e0e8ce26670f1dc402dd",
+      "gzip_sha256": "38fd5f5230d165a3f2c522712bdb9ffd31d3b11b59fd531e4b68d6233a6390e2"
+    },
+    "docs/artifacts/sundial_response_audit_recovery_v1/025.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_change_response\\v1\\runs\\seed14_zero\\independent_audit.json",
+      "source_sha256": "91617d0653a5a3de9a2fc313d94c63db6abcffc52740493479a55241689f430d",
+      "gzip_sha256": "385bdb2dae92bafb196669c46cea734789234516fde5681b243d3d345b670cd6"
+    },
+    "docs/artifacts/sundial_response_audit_recovery_v1/026.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_change_response\\v1\\runs\\seed14_zero\\information_audits.json",
+      "source_sha256": "adf6bd3d2ac4d7119f7d7702dc019932c444fb2e4a499807312e4d894ee39bc4",
+      "gzip_sha256": "e6281f18164b90eb2dd8dda3d0374f3f93ae7dba5e17254751b63a79d9b92ac8"
+    },
+    "docs/artifacts/sundial_response_audit_recovery_v1/027.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_change_response\\v1\\runs\\seed14_zero\\periods.csv",
+      "source_sha256": "4a300d033a8c92c07db26b3b8fe818448c5e9138a065d07a5187029f321b5734",
+      "gzip_sha256": "3df43a28164903100fbdfa9d4837ead45b7946c3c5402732f68072445eb40948"
+    },
+    "docs/artifacts/sundial_response_audit_recovery_v1/028.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_change_response\\v1\\runs\\seed14_zero\\protocol.json",
+      "source_sha256": "7b7b91c81488cddf6db4e468092fc229e3cd68bb15fc195a9545741846a24e16",
+      "gzip_sha256": "0b3d6b00ee21b9026732dafad7125edab04a0a51f9c3d5e65d27ecb4b9ad2302"
+    },
+    "docs/artifacts/sundial_response_audit_recovery_v1/029.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_change_response\\v1\\runs\\seed14_zero\\runtime_failures.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/sundial_response_audit_recovery_v1/030.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_change_response\\v1\\runs\\seed14_zero\\scores.json",
+      "source_sha256": "37ed5649c4a93f382634e6888fc1d77a78e32e1e39d8657e4b523c7c178a0a12",
+      "gzip_sha256": "00b0762ed9b5f6899810c4a2a4b9f15a5a40dca89cfe867fa3fa94b59b271ced"
+    },
+    "docs/artifacts/sundial_response_audit_recovery_v1/031.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_change_response\\v1\\runs\\seed14_zero\\adapted_sundial\\logs\\events.out.tfevents.1792045126.\u77f3\u539f\u8d6b\u7684\u7535\u8111",
+      "source_sha256": "5c3dc78704992d74651253e07a21c1eefb805fb032ffe24329dc63c6bcbe7c2e",
+      "gzip_sha256": "869bbbea6235accd57bb44f0514c4c7d7f36a630c5b46454a3350e7dbdbe03e1"
+    }
+  },
+  "lossless": true,
+  "credential_absent": true,
+  "api": 0
+}
