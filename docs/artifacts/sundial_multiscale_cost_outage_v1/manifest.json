@@ -1,0 +1,218 @@
+{
+  "files": {
+    "docs/artifacts/sundial_multiscale_cost_outage_v1/files/000.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_cost\\v1\\attempts.json",
+      "source_sha256": "a71de06dfcca1d9205d917ed7a8307514c9529a046e374f359f7eba98e23715f",
+      "gzip_sha256": "c8c8bb8446272237e1612691ed73bcf083e09cd98c1386e41f81a7440007a35d"
+    },
+    "docs/artifacts/sundial_multiscale_cost_outage_v1/files/001.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_cost\\v1\\dispatch_stopped_for_timeout_diagnosis.json",
+      "source_sha256": "3851597d03c3afd3d40121b90088f25e1c350f15c78694375e806be3747584e6",
+      "gzip_sha256": "12a537d95f2690fce9a97eaa84ed58fb3bdbb9dc0659f8f68be915f28da2e8f4"
+    },
+    "docs/artifacts/sundial_multiscale_cost_outage_v1/files/002.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_cost\\v1\\driver.log",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gzip_sha256": "46b50c321b39e89a491b6727a01628c34245605a30beb3e7414c5e01cff90e6e"
+    },
+    "docs/artifacts/sundial_multiscale_cost_outage_v1/files/003.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_cost\\v1\\error.log",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gzip_sha256": "46b50c321b39e89a491b6727a01628c34245605a30beb3e7414c5e01cff90e6e"
+    },
+    "docs/artifacts/sundial_multiscale_cost_outage_v1/files/004.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_cost\\v1\\freeze.json",
+      "source_sha256": "2ec823845e1b64a3bffc0fed91264179a3b60ecded0b6d84ceb8e9a52e3c1b3b",
+      "gzip_sha256": "9c99eeb574a40483563d4526fa98e1454bb4af59c8ace3d80aa0a771187909cf"
+    },
+    "docs/artifacts/sundial_multiscale_cost_outage_v1/files/005.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_cost\\v1\\launch.json",
+      "source_sha256": "a72df3a73d03695bf9d2a1bed93c12d50a9c94e379abd29e820c05ef455b2ff3",
+      "gzip_sha256": "77ba5e04872df807740c73dcbb3b91292a365388fd312a97b92cc9c2dbf2aeef"
+    },
+    "docs/artifacts/sundial_multiscale_cost_outage_v1/files/006.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_cost\\v1\\manifest.json",
+      "source_sha256": "159f9041fdb801f47a6cc791fe9ed2e2103bfda84ad012f1f48d2d7745063ec3",
+      "gzip_sha256": "a481e992dc8ac8b9f34a7cad4c69af799dc4b9127fb41244140e58e77d4879cf"
+    },
+    "docs/artifacts/sundial_multiscale_cost_outage_v1/files/007.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_cost\\v1\\official_service_outage_evidence.json",
+      "source_sha256": "3e31828915cb58b52ecee91b33aceef81d9cbd872f68ecfbc05ce863bc4db169",
+      "gzip_sha256": "c0e79b917c14bc8e05e5dc98418372f3da4dcbdfc7eb7f5e9ea6752025d5cb2c"
+    },
+    "docs/artifacts/sundial_multiscale_cost_outage_v1/files/008.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_cost\\v1\\progress.json",
+      "source_sha256": "e5c7d8e901698b9b01fb8fc826b2c559345ecd490db794eb8cd5fb540a1e0a86",
+      "gzip_sha256": "17f5e94ee979ceaa20a57532c54b24c95eeb6ba8451b13478f414226c56d9d01"
+    },
+    "docs/artifacts/sundial_multiscale_cost_outage_v1/files/009.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_cost\\v1\\progress_before_service_outage_stop.json",
+      "source_sha256": "59c211d29d3d26e996475ed0bb005254e65c36d3ed0f805bf7146f3902cd3eaf",
+      "gzip_sha256": "1ee55acc92f31b7328af4bec9cbd7af803568d831f238eed1fa8c2ad6e3fb683"
+    },
+    "docs/artifacts/sundial_multiscale_cost_outage_v1/files/010.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_cost\\v1\\publication.json",
+      "source_sha256": "ebfa3eddd72afb73dcdb9cde7fc71abca3d2d602710f69b84eb03f59229a6a9a",
+      "gzip_sha256": "af28d50b1a02272955b9c8c9d36e3a8b06ea0f6f1d85b1ed52a4378156e86ac2"
+    },
+    "docs/artifacts/sundial_multiscale_cost_outage_v1/files/011.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_cost\\v1\\seed14_double.log",
+      "source_sha256": "6cf235b6f0e07cfde9047d46792637d7dbbd65763e000f3c902b9837a712d489",
+      "gzip_sha256": "42e9ae6bd6b2338416b75c24fcf14124b02f620c2e83706b9c41c4ca7c408798"
+    },
+    "docs/artifacts/sundial_multiscale_cost_outage_v1/files/012.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_cost\\v1\\seed15_double.log",
+      "source_sha256": "7b1f56de00308e9a8dc8e11d61a185441477e9b5975f9e237576cd7017ce17dd",
+      "gzip_sha256": "2159ee2bc2bf1d8bfaa1ec3684f45c512270c191e5906e2db357bb291d011dcc"
+    },
+    "docs/artifacts/sundial_multiscale_cost_outage_v1/files/013.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_cost\\v1\\seed15_outage_process_snapshot.json",
+      "source_sha256": "66d1b799e3a5fd0f9b5c65630597db2c2a69c0e97aa101c2cb0f4612cab966ca",
+      "gzip_sha256": "3f1aeb2806872571e3824665fd10a31933a2fb9e4117366d127bac42ba208f21"
+    },
+    "docs/artifacts/sundial_multiscale_cost_outage_v1/files/014.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_cost\\v1\\service_outage_blocked.json",
+      "source_sha256": "02a2548e28630c14868297419fc229def17933f583f8d7ab6dc55ad000d3c3ba",
+      "gzip_sha256": "ef877a6f02f121b5dee8786986c4697b5f523dfc3b5bbaea8023a726ed0dd650"
+    },
+    "docs/artifacts/sundial_multiscale_cost_outage_v1/files/015.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_cost\\v1\\started.lock",
+      "source_sha256": "fac563cbd21080a2c322c39360dc021f02da0612a52ec60a0bf7405561cbb39c",
+      "gzip_sha256": "c538d9f3830c9da1960f57080e151103eda4f5bed575927b045e64e2eb4cfbc7"
+    },
+    "docs/artifacts/sundial_multiscale_cost_outage_v1/files/016.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_cost\\v1\\wrapper_launch.json",
+      "source_sha256": "5624a80eadc057c51113940c698883fd0de19bbcf7516ff8366e10f1ed16c708",
+      "gzip_sha256": "2c0807791b8c1ec45e69b387a3c10ee629d78c600c0b92c22ead1c99f6aaf145"
+    },
+    "docs/artifacts/sundial_multiscale_cost_outage_v1/files/017.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_cost\\v1\\runs\\seed14_double\\audit.json",
+      "source_sha256": "024689769d60bc2cee9193197dc0e573a53bb67c20510173df11edb35681bca0",
+      "gzip_sha256": "459752ac892d2b5e36737a480e4ca40f7c4780de2eae1c75b4554747d019bdc7"
+    },
+    "docs/artifacts/sundial_multiscale_cost_outage_v1/files/018.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_cost\\v1\\runs\\seed14_double\\calls.json",
+      "source_sha256": "cd736676eeb23ff4ca510e5e1d1a1fa62a9460923b224a4e399398ee0e124ecf",
+      "gzip_sha256": "3d108cc39d10a789ab8996590ec3e6a6f32ea9f1d89ec7de5e0610f3eabd4121"
+    },
+    "docs/artifacts/sundial_multiscale_cost_outage_v1/files/019.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_cost\\v1\\runs\\seed14_double\\completed.json",
+      "source_sha256": "46279c341b6fa8d222a5f4172e598c96abeca3db5dba350831b5fd80294c7823",
+      "gzip_sha256": "692d4a1707517f2215f849ea57196188e801b2dcca20094d9ac55b4a4f87cb03"
+    },
+    "docs/artifacts/sundial_multiscale_cost_outage_v1/files/020.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_cost\\v1\\runs\\seed14_double\\delivered_reports.json",
+      "source_sha256": "921944e91f4935cf4a6bea15e0f23e8c6fd2bd04eaeb17f42a677dad2476e564",
+      "gzip_sha256": "eb77e1e53167dad3cb52cec849798231a2632de425c018f026528b699b78ef16"
+    },
+    "docs/artifacts/sundial_multiscale_cost_outage_v1/files/021.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_cost\\v1\\runs\\seed14_double\\demands.json",
+      "source_sha256": "ef733fb0f29b44a777ccedc6734ea1821c84ea181b43aae8db25801cb8a73a47",
+      "gzip_sha256": "795f421c654ed3c61bb39eda2773517bef4ef599d074f89a8222c01a85abe614"
+    },
+    "docs/artifacts/sundial_multiscale_cost_outage_v1/files/022.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_cost\\v1\\runs\\seed14_double\\episodes.json",
+      "source_sha256": "280c295db5b40f0b1d7ce634c8283111a772ad4a28a273e2d72e3ef84985aa96",
+      "gzip_sha256": "e9c0ca851d97acb1dfe2c1079af6db29e3b8376d52ef0df51f98d2ba17724a9c"
+    },
+    "docs/artifacts/sundial_multiscale_cost_outage_v1/files/023.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_cost\\v1\\runs\\seed14_double\\forecast_model_checks.json",
+      "source_sha256": "cc06cbd391dfd5e3f747e6a6dbb4ee49e239957f1beff55e87788f4abc5a5097",
+      "gzip_sha256": "80e492a9b4f0d2152438ea9d030a033f20cd9adc7e253e3ae8f4a98b26bed54d"
+    },
+    "docs/artifacts/sundial_multiscale_cost_outage_v1/files/024.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_cost\\v1\\runs\\seed14_double\\information_audits.json",
+      "source_sha256": "85204383a1f3c8f18e6e1de1b8b667a96e32f6df9baebd8fb9f2bc6aa8037a77",
+      "gzip_sha256": "b1686e7b8973e765d849015fbbe5aa92cfba31522bb03e10c54c2272b6c6baa1"
+    },
+    "docs/artifacts/sundial_multiscale_cost_outage_v1/files/025.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_cost\\v1\\runs\\seed14_double\\periods.csv",
+      "source_sha256": "6def5026dd3cafaa7accacf2db93a38af2cb933d197b0701859553f81c3a24ea",
+      "gzip_sha256": "9f7b56c9f4911c56738c6833b61b971ddfa0f5edb20d1703821f9f1633944864"
+    },
+    "docs/artifacts/sundial_multiscale_cost_outage_v1/files/026.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_cost\\v1\\runs\\seed14_double\\protocol.json",
+      "source_sha256": "edaf0236c4c71b7c8390e29cc0d9a91d6a3052d40b6466cdedfa458466c4cbac",
+      "gzip_sha256": "021d73df2aee25a6667e8c4fbe9ded14cebfab26a038858ecf03dafbefeb29af"
+    },
+    "docs/artifacts/sundial_multiscale_cost_outage_v1/files/027.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_cost\\v1\\runs\\seed14_double\\runtime_failures.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/sundial_multiscale_cost_outage_v1/files/028.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_cost\\v1\\runs\\seed14_double\\scores.json",
+      "source_sha256": "bd1a169d7a9380c5530724c38cf0b5a560f8da90b6c702b4114663c721ffbace",
+      "gzip_sha256": "f986b27d380f40ae5cf482aa5ec190bb73ed54ddb8cbdabd87075096509d7003"
+    },
+    "docs/artifacts/sundial_multiscale_cost_outage_v1/files/029.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_cost\\v1\\runs\\seed15_double\\calls.json",
+      "source_sha256": "a505fd339f66e1957632ae9a0605457a7be34329b094728c6baadcf0c483c9cc",
+      "gzip_sha256": "2e9c78c502b8b0e7387c6146504e6f31366df73d4fa249ad1b2a3e1828e4c932"
+    },
+    "docs/artifacts/sundial_multiscale_cost_outage_v1/files/030.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_cost\\v1\\runs\\seed15_double\\delivered_reports.json",
+      "source_sha256": "f1079ba6e5cd643fc93142ec28380183d599016b99200855ea9131690894a470",
+      "gzip_sha256": "ed697d7e99c218f7bdfafc0f8dd6d1a914701e1433d438e0b8017957a5851749"
+    },
+    "docs/artifacts/sundial_multiscale_cost_outage_v1/files/031.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_cost\\v1\\runs\\seed15_double\\demands.json",
+      "source_sha256": "ef733fb0f29b44a777ccedc6734ea1821c84ea181b43aae8db25801cb8a73a47",
+      "gzip_sha256": "795f421c654ed3c61bb39eda2773517bef4ef599d074f89a8222c01a85abe614"
+    },
+    "docs/artifacts/sundial_multiscale_cost_outage_v1/files/032.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_cost\\v1\\runs\\seed15_double\\episodes.json",
+      "source_sha256": "73f7fd8cca16336d5906f5dfc5105dcd4154c4279913e7791b246352c4b65e82",
+      "gzip_sha256": "247824a1baf38d245b251f0c53a3ebf8103342177e8a0ca52f2724115bc9f6f8"
+    },
+    "docs/artifacts/sundial_multiscale_cost_outage_v1/files/033.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_cost\\v1\\runs\\seed15_double\\information_audits.json",
+      "source_sha256": "d28c980a0b7d99dc726f0c5dad337f4d46249ef3d11a5fa557b7c48270bdbfa7",
+      "gzip_sha256": "e54e5e089463d8e9fd9594b9d5db325fd40430b7e175d9eff0f85cb079f9481a"
+    },
+    "docs/artifacts/sundial_multiscale_cost_outage_v1/files/034.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_cost\\v1\\runs\\seed15_double\\periods.csv",
+      "source_sha256": "223f67ad19e2ecadfa49910312dd30392a55ff3c0e1f60ba08198e50c371317b",
+      "gzip_sha256": "27310749b790a7572a5b59adde69ec587154059abd6036073810d0e9aa8d41ef"
+    },
+    "docs/artifacts/sundial_multiscale_cost_outage_v1/files/035.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_cost\\v1\\runs\\seed15_double\\protocol.json",
+      "source_sha256": "ab444a011dd0ad09ee6a34aad42c394a2f4fa088c318d0aef85647abbe5584d3",
+      "gzip_sha256": "775a6a39cefbdd70e8e3b4d289073494eaaf71d265cf55eb82851551ec23c5e6"
+    },
+    "docs/artifacts/sundial_multiscale_cost_outage_v1/files/036.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_cost\\v1\\runs\\seed15_double\\runtime_failures.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/sundial_multiscale_cost_outage_v1/files/037.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_cost\\v1\\runs\\seed15_double\\scores.json",
+      "source_sha256": "4024ba78bf5435f7d1fc840d31d474e9ddf2b2cd0f5dce4e691067cbcc3c70ad",
+      "gzip_sha256": "05ee70b84529191b98a3465f22afe7b76df369d748bc4096f55c83e5c4d16405"
+    },
+    "docs/artifacts/sundial_multiscale_cost_outage_v1/files/038.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_cost\\v1\\runs\\seed14_double\\adapted_sundial\\logs\\events.out.tfevents.1792036268.石原赫的电脑",
+      "source_sha256": "8bfe8234f4b239e3736e268046a835d640dc710658505a504f794f0258c14c8f",
+      "gzip_sha256": "1b8c10b75597b2c96a8c59d0bdfe6dcb0d7544736cdfaca66ae5e00e22868bde"
+    },
+    "docs/artifacts/sundial_multiscale_cost_outage_v1/files/039.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_cost\\v1\\runs\\seed15_double\\adapted_sundial\\logs\\events.out.tfevents.1792036424.石原赫的电脑",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gzip_sha256": "46b50c321b39e89a491b6727a01628c34245605a30beb3e7414c5e01cff90e6e"
+    },
+    "docs/artifacts/sundial_multiscale_cost_outage_v1/files/040.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\2026-10-15-multiscale-cost-service-outage.md",
+      "source_sha256": "59866aa429a15c0accc3ccddfe2338dc2d4f6ccb1fb3e3561806d070b08fbd77",
+      "gzip_sha256": "0df000880033c1523210db3b6f31fdf60e027fe8447d0c47de0b67ffdebef031"
+    },
+    "docs/artifacts/sundial_multiscale_cost_outage_v1/files/041.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\online_llm_artifacts\\archive_multiscale_outage.py",
+      "source_sha256": "c9e7993e66efd6bb429d4d41219d60b4f01ace5b5350f83772c2b4c7800e4bd5",
+      "gzip_sha256": "dec845a888be6ad45d189b09f52c116b87c8996388c6082fb97f4207a00c43fb"
+    }
+  },
+  "credential_absent": true,
+  "lossless": true,
+  "attempted_http": 6,
+  "valid_live_llm_comparisons": 0
+}
