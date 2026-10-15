@@ -263,3 +263,8 @@ Sundial128M冻结，仅训练24参数门控位置/尺度校正：24新训练路�
 ### 上述匹配批次已因格式校验停止（2026-10-15，当前状态）
 
 实际首次生成及原一次格式修复共2HTTP均返回候选规则数4/5/6，违反冻结DSL每候选1..4条规则；已自动停止，无完整冲击成本、seed12未启动、无自动重试。不是余额/网络错误，不能算Sundial效果退化。原回复/费用/正常回合/失败均保留，不截断规则或挑有效候选吞错。见[完整诊断归档](docs/2026-10-15-sundial-matched-guard-pool-format-stop.md)。
+
+
+### 用户授权6条规则版本已启动（2026-10-15，当前活动批）
+
+新目录sundial_six_rules将每候选规则数1..4独立扩展为1..6，并同步两处提示上限；原表达式白名单、first-match、修正/动作范围和原冻结文件保持。6条零规则的8回合4800节点期无网络完整接线与审核通过，原失败4/5/6候选在新编译器均接受。188份无损gzip/密钥缺席核验及Git字节核验，b9e82c0登记推送后唯一run_six_rules_sundial_batch.py启动。11/12模型、confirmation01原路径、16回合9600节点期、128HTTP64语义，无自动重跑。旧guard_pool Merton为4条上限，新Sundial6条，因此仅完整版本比较，不单独归因预测器；不新增Merton任务。旧2次格式失败及历史费用保留。状态results/sundial_six_rules/development_v1，见[6条版本协议](docs/superpowers/plans/2026-10-15-sundial-six-rules.md)。
