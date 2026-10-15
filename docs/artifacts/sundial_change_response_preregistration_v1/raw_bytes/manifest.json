@@ -1,0 +1,47 @@
+{
+  "files": {
+    "docs/artifacts/sundial_change_response_preregistration_v1/raw_bytes/00.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\artifacts\\sundial_change_response_preregistration_v1\\calibration_inputs.json",
+      "raw_sha256": "00cee712ebd1d2e1651457dc3a9b5d40fd0b0fd11ae084bc16050a86c0a2b617",
+      "gzip_sha256": "377385814137dc58e6a0f5456af9b31b4cf60b22be6880e55fb296a0a2357ddd"
+    },
+    "docs/artifacts/sundial_change_response_preregistration_v1/raw_bytes/01.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\artifacts\\sundial_change_response_preregistration_v1\\registration.json",
+      "raw_sha256": "5ff8c9376c1b7c65c121cae5baac7a6af7291d5d2f7d8bb02e302a468ca3cfc1",
+      "gzip_sha256": "c3aa0aed666a4a93f8b9c2b1593dc2b1da42835b30ae3eb0d244715e05029a99"
+    },
+    "docs/artifacts/sundial_change_response_preregistration_v1/raw_bytes/02.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\artifacts\\sundial_change_response_preregistration_v1\\reserved_validation_inputs.json",
+      "raw_sha256": "3501f052f1edcae62979141e9d3aa471588d42a7093d7f5b668a4e3d865a116e",
+      "gzip_sha256": "2d1eb5c0c97350ae95360bc4a2acf0f00359b600fadd44ca578c1abf34593c83"
+    },
+    "docs/artifacts/sundial_change_response_preregistration_v1/raw_bytes/03.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_change_response\\audit.py",
+      "raw_sha256": "aa21fcf592a08f4d85fd8590e386cfaadf5da80a8923d1d126dcc039fb2bf9e3",
+      "gzip_sha256": "1f5314f649dfdd0f7b5aaad0fc3992c9df720294b6a7920f169b5f85cbef76df"
+    },
+    "docs/artifacts/sundial_change_response_preregistration_v1/raw_bytes/04.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_change_response\\batch.py",
+      "raw_sha256": "f2c4a666786faf2e347e6129c5323f18ab67789bac5736513e78b08d1012cf50",
+      "gzip_sha256": "787130f41ea3309880031d41c3f3968065aae43f144761966bb48ff99790f932"
+    },
+    "docs/artifacts/sundial_change_response_preregistration_v1/raw_bytes/05.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_change_response\\predictor.py",
+      "raw_sha256": "b7e8eef2ec3b7f4e1a229e9305fdd4ff0534a8a762ff0bf076ca16c1832ffe43",
+      "gzip_sha256": "2f35bae50a8a13f8380c64357481f50c1c160fea5e7c1ba50c576346215112cc"
+    },
+    "docs/artifacts/sundial_change_response_preregistration_v1/raw_bytes/06.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_change_response\\response.py",
+      "raw_sha256": "d6b232856446f38fbc4b4c5d5f90ed12af9ecf6798dfeffb069062196907b3d9",
+      "gzip_sha256": "d4b48c939fceeafa92544c10ef6c47b068ad6737219af94bbe6deb68630738f3"
+    },
+    "docs/artifacts/sundial_change_response_preregistration_v1/raw_bytes/07.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_change_response\\runner.py",
+      "raw_sha256": "f73a94802f3588d4f5d935407c9fad25fb955524c648aee10edc3bf4b03b8020",
+      "gzip_sha256": "5ee2476458df5e4b312df87b7c8bd5753d1e603ffad8f97c214ab8c3f432cdad"
+    }
+  },
+  "credential_absent": true,
+  "lossless": true,
+  "reason": "JSON text copies normalized CRLF to LF in Git; raw gzip is authoritative byte-preserving registration. Runtime input/source/model bytes and hashes unchanged."
+}
