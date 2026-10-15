@@ -1,0 +1,42 @@
+{
+  "files": {
+    "docs/artifacts/sundial_multiscale_adapter_preregistration_v1/files/000.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_multiscale_adapter\\common.py",
+      "source_sha256": "85e44c500f1c1e3b29d80310f515f9f5d5beb5cf754face0705effc10324fb84",
+      "gzip_sha256": "6fb9afebb409ca56250b99386c3555437ce70a190d40daf233b1c608e2628ed4"
+    },
+    "docs/artifacts/sundial_multiscale_adapter_preregistration_v1/files/001.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_multiscale_adapter\\pipeline.py",
+      "source_sha256": "69fa6cf766f7e995ffe1597ae429154ad5711b0c5d09bfdde97075b26ad2487d",
+      "gzip_sha256": "3d6d6d3539a33c3b3a23e0e2773343631b6d6c0d2cd39bd0626001decf51dbc9"
+    },
+    "docs/artifacts/sundial_multiscale_adapter_preregistration_v1/files/002.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_multiscale_adapter\\prepare.py",
+      "source_sha256": "a562bdccd9262741975c155b8a81d2dbf26d15b5238ec02f9aa0a3036617fc4c",
+      "gzip_sha256": "1f003d53801d0dcd884a00db14fd9c5363deb0164777fa5b41824485c4218bfd"
+    },
+    "docs/artifacts/sundial_multiscale_adapter_preregistration_v1/files/003.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\superpowers\\specs\\2026-10-15-sundial-multiscale-adapter-design.md",
+      "source_sha256": "b0c895b38bfe6467d1ab93a39b335ab1233abb4e79d53aacff58e96bc80f4e43",
+      "gzip_sha256": "b46193538c2151ea3e637c0042b068e96df1c830dd8e4d12aaac84ef24d863dc"
+    },
+    "docs/artifacts/sundial_multiscale_adapter_preregistration_v1/files/004.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\superpowers\\plans\\2026-10-15-sundial-multiscale-adapter.md",
+      "source_sha256": "efaa40351130184fb7a75630207c66f22a920f639574632746d39a7f79875a4b",
+      "gzip_sha256": "4ac97485fab7f6185c81886d9fb113d0879c399767fc8885d5714fad8ee7cb63"
+    },
+    "docs/artifacts/sundial_multiscale_adapter_preregistration_v1/files/005.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_adapter_development\\v1\\best_adapter.json",
+      "source_sha256": "d9c756f221c4c22a970ef87a9ecf3c45fd6e8a60c780dbbe8e0e44fc537b9255",
+      "gzip_sha256": "0b998fd9ca7d4e3206e9db3069e2921e662803968615b78ff6be1f7c592d89bc"
+    },
+    "docs/artifacts/sundial_multiscale_adapter_preregistration_v1/files/007.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_adapter\\v1\\freeze.json",
+      "source_sha256": "1fe8dfc65f66183cb4d468a61eb4943c38cf0b64b6c3f91246042ba54666c003",
+      "gzip_sha256": "c8bfc73c049156fda7bd0a888e831ec5e7af53917d5af7bbc1b43fa2f9ffa6d4"
+    }
+  },
+  "api": 0,
+  "checkpoint_weights_local_only": true,
+  "credential_absent": true
+}
