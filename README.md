@@ -240,3 +240,7 @@ Sundial128M冻结，仅训练24参数门控位置/尺度校正：24新训练路�
 ### 因果需求变化响应校准启动（2026-10-15）
 
 用户选定新方向后恢复原随机分配，冻结HAPPO/Sundial/multiscale24，只用已送达报告划分上升/下降/平稳状态，按5个固定配置进行有界位置响应。StageA用原适配器训练集的4条stationary冲击路径（非旧四条成本测试）和预定11、14模型校准，10任务80回合48000节点期，最多2进程，API0。至少比零响应降低1%才另登记全五模型验证；不将校准子集冒充五种子完整结论。注册cfafcef已推送，当前零响应两模型运行中，尚无完整成本结论。JSON在Git中行尾归一化，补充raw_bytes无损gzip作为原始字节依据，运行输入/源/权重未改变。见[固定设计](docs/superpowers/specs/2026-10-15-sundial-change-response-design.md)。
+
+### 真实LLM＋响应Sundial开发试验启动（2026-10-15）
+
+用户授权恢复真实API测试，采用校准选定all_half，未将其称已通过五模型验证。11/14模型、四条reserved adapter-dev路径，两系统original_merton/响应适配Sundial，共32回合19200节点期，首轮256HTTP128语义、无自动重跑。原LLM提示/解析/修复/修订守卫/池复核保持，实际预测器写审计，历史Merton提示描述的限制披露。完整无网络16回合9600节点期固定零规则接线及尾段审核通过，登记e29c15a已推送后唯一串行驱动启动；首个真实请求有效，用时约3.3秒。尚无完整成本结果，不预设Sundial胜出。此前故障批保持停止，历史六次超时/在途请求另列。见[当前协议](docs/superpowers/specs/2026-10-15-sundial-response-live-api-design.md)及[响应校准结果](docs/2026-10-15-sundial-change-response-calibration-results.md)。
