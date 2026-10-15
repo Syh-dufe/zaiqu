@@ -273,3 +273,8 @@ Sundial128M冻结，仅训练24参数门控位置/尺度校正：24新训练路�
 ### 六条规则Sundial批已全部完成（2026-10-15，更新运行状态）
 
 11/12模型、confirmation01原路径16回合9600节点期完成并审核，68HTTP64语义（64有效＋4格式失败，均含费用）。完整Merton4条成本27.565833，新Sundial6条27.753958（上升0.682%），纯HAPPO29.184583；双峰改善4.736%，其余三类平均退化，无总体优势。两种子同四条物理路径，不能宣称显著泛化，6/4条差异不能单归因Sundial。完整原始数据/费用/源码/fixture无损归档，见[全部配对结果](docs/2026-10-15-sundial-six-rules-results.md)。
+
+
+### 六条规则Sundial补齐13—15号模型已启动（2026-10-15）
+
+用户要求其余种子全部补齐，独立seed-only wrapper复用冻结六条规则引擎及完整审核器、已通过的8回合六条零规则无网络fixture；13/14/15正常best配置/模型合同、59旧源hash、旧guard_pool原始数据及SYSTEM/模型核对通过。原confirmation01路径不变，新24回合14400节点期，192HTTP96语义，无自动任务重跑。11/12已完成16回合68HTTP只读复用不重跑，最终合并五模型40回合24000节点期，所有负面配对保留。241份注册gzip精确字节/秘密缺席核验，登记2b44f98推送后唯一run_six_rules_extension_batch.py启动，状态results/sundial_six_rules_extension/v1，当前seed13。Merton旧4条与Sundial新6条仍仅完整版本比较，见[扩展协议](docs/superpowers/plans/2026-10-15-sundial-six-rules-extension.md)。
