@@ -1,0 +1,1109 @@
+{
+  "files": {
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/000.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\launch.json",
+      "source_sha256": "b5fa2f50c994c02d345bb25a53cc704365b56efac6bbd9490145c5b33820434d",
+      "gzip_sha256": "2e0fcea11fe0daa46c51c92ffd6cecbefe7673ae167702f85c254e53da598827"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/001.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\progress.json",
+      "source_sha256": "60a721efc837cf4fef5ba375e55b16cd4ea2f76cec5287f4e4353e6c3e84967a",
+      "gzip_sha256": "65ced29012470a89796fae077e8b5edcec2b4a904fa9d328e1d48b3467b83ae2"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/002.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\progress_before_user_stop.json",
+      "source_sha256": "fb49f153be65807d20fd4aa3f5601a71fb7037d10cb9bf14a712b977b04b7bd4",
+      "gzip_sha256": "288e722f499dca1fa92bd3df86b5a6354b6651c81b8a234283a9fc7620e9d35a"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/003.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\registration.json",
+      "source_sha256": "778a76bcf52bc78e86c6e67e4ce4b1b7db558364e46b9b940d68be93392fb07f",
+      "gzip_sha256": "d5d139a920c818430439d2573a631e9f740e486e9ce3dab64fd39f68a17b66d7"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/004.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\seed11_trace0.log",
+      "source_sha256": "7b32bf36d3768d563da71afd4d4b089a8dce590154fc44985b8f1dc6a316e752",
+      "gzip_sha256": "699b1125e80e173328d121ff67c69f9ac14ecf3f35814789746c55b673b50dc8"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/005.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\seed11_trace1.log",
+      "source_sha256": "4070e6ef6ee33e70cdec0945c3dd022a85b1eebd832c036678616046240a39f4",
+      "gzip_sha256": "770c3e99f05b2627ae542c21191044b312e613bf5e93f1441d0116a1e35120dd"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/006.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\seed11_trace2.log",
+      "source_sha256": "a387b6eb5197b13d90577d28c1c90c1c18699ba1a6c5d1cff1717036e0d25ddf",
+      "gzip_sha256": "99b208e20dd78aa2ef17969617d4f2d473afce853898fa4233c5123d8258f610"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/007.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\seed11_trace3.log",
+      "source_sha256": "539f6cf2516f9262290f5b8dfb9c8567cc4446d100f03af98a3d7b1a2309618d",
+      "gzip_sha256": "143e9fd3efe9ffabd81d7bb7144a849410daa7f12f2984f64241b3b26222184f"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/008.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\seed12_trace0.log",
+      "source_sha256": "609fbdb99827051eda77fcf47c43486361b605cde9e04ac71ce568d4a9561cb3",
+      "gzip_sha256": "ee775d8919c5e6140479e97b15531dfbeb20dc915800b932cfce033145a14c43"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/009.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\seed12_trace1.log",
+      "source_sha256": "d80b484f6719529bd7d8fe0df0311f22f640c924165bf3d4e4786378f9debce3",
+      "gzip_sha256": "27e7835181ada22634571dbeebb048eeaf516b23c613db72508c2f1a9b911fe3"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/010.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\seed12_trace2.log",
+      "source_sha256": "c6469fa2f9dc64e1d7f9a5430f2ef2643bd3724debd688555759a0d8738fd887",
+      "gzip_sha256": "3a1aac45095425c30e71fadb26298a2b86bd7bbf9e197375fcc71c5230aabe96"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/011.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\seed12_trace3.log",
+      "source_sha256": "d4533ffe34fbd1feaa0c7a42b5413f9e6c5e9b57ef327e2b0bf0819294b11766",
+      "gzip_sha256": "0ed5a5a5e083fc9d4e3c7d1d2e94a2748b0da993281bc2afd6d15068bf375e8b"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/012.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\seed13_trace0.log",
+      "source_sha256": "108b114a91e2e305b3b57108a3531714751dcffdbeffe9732fdd448365130144",
+      "gzip_sha256": "34d8bcc9f8e19bbd46a282995e796515583ac0bab209a5c20b2efdfda71d2a57"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/013.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\seed13_trace1.log",
+      "source_sha256": "d4f7a74a9540959e984ff45efff4b8e58730421da481156736e41c0c6b544f35",
+      "gzip_sha256": "9196ed99a7762d79639ebea79770e61c9ea263c0586270c777488446bbb05044"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/014.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\seed13_trace2.log",
+      "source_sha256": "22b2e84dbf596404649b9a2ad1e8c653cba4a11deb21985ef7241171800c840b",
+      "gzip_sha256": "8dfe4855b14ef75bcad93d31719d7eef7e3c10a648f67608313d0767324569d3"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/015.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\seed13_trace3.log",
+      "source_sha256": "aa749312d1cdb3bd80727cbaa0cfd7b414fe767badce0348155745b17eb22b0f",
+      "gzip_sha256": "9c3eb4bc1960b5296396ef9c8a61918c2e0b5fee476b8538405d6142f88f0535"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/016.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\seed14_trace0.log",
+      "source_sha256": "db8fc19dfad5e1ef2a5e126be82f40036c1f0bd0d949d1493ebfb9c7db09c45d",
+      "gzip_sha256": "28ecff1e6e9d9297308bc12b95056584653215e68988d4ee77b027b224626ea7"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/017.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\seed14_trace1.log",
+      "source_sha256": "74c4ef3883146f223dbb979defad5954fe57a6e22b54768cb13e9a0768dfe57f",
+      "gzip_sha256": "f6fc8ca86ae99affc22f1a24159f6a618fddf8cabf16b768acef28ea3128049f"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/018.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\seed14_trace2.log",
+      "source_sha256": "c3d09eebaf952ccf3a192d97aed086c6113d8a67def0e14820f910982e68a3c4",
+      "gzip_sha256": "6235f562b8746035ee83589163c66b4687036a51d9366bff060fbda3034b367e"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/019.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\started.lock",
+      "source_sha256": "b013c9505de81a84f5fcd745f645fbc3e59c04e7a5d4478e1e75f60156a9e1de",
+      "gzip_sha256": "4e668caf647f9f20f0a6c1c8827c4d2bf09ad8616d7f035b6ffb1f3e690911ba"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/020.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\summary.json",
+      "source_sha256": "6ea454902afa3804c0750b8dcd80ad924e4683174335790434a15c989948626e",
+      "gzip_sha256": "acb895b82fe360b4762f6484a49826629c7b4248205a58013c4370fbe6c11512"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/021.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\user_stop_process_snapshot.json",
+      "source_sha256": "41f9d44cef83229198aa0555ccfc2cf4930063b27b76cfd834bc67f599f18d77",
+      "gzip_sha256": "e4756882b06c54c3bc1f0e0e1ee0e95d16474b1a6e9f7594ce0b192615f38fef"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/022.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed11_trace0\\calls.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/023.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed11_trace0\\completed.json",
+      "source_sha256": "f121239a9b8fe382fdbce24e2996de9c2c36630c3b1343ee890501e39e7d46e2",
+      "gzip_sha256": "fa84b42baa7f027e1830fdb0f746c011a6639871eeaffa041e8d86a481e02827"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/024.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed11_trace0\\delivered_reports.json",
+      "source_sha256": "8c607b6aeccc78aff78c49fb8acb96e501292c7a733ffc95722e7d0cd06d42fa",
+      "gzip_sha256": "8c3bcf0c301e8741f50a39dff3baaf3f38cd72d02840a5f98b873e59a9632992"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/025.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed11_trace0\\demands.json",
+      "source_sha256": "ef733fb0f29b44a777ccedc6734ea1821c84ea181b43aae8db25801cb8a73a47",
+      "gzip_sha256": "795f421c654ed3c61bb39eda2773517bef4ef599d074f89a8222c01a85abe614"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/026.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed11_trace0\\episodes.json",
+      "source_sha256": "733e834973e5225cc75835d13fe9bdd63246628cc77523809a96fcb656c3b2d0",
+      "gzip_sha256": "54496c5d9768884aa63ea58e4c4a7df66646c8acd4e26511c597408e5f3fd007"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/027.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed11_trace0\\forecast_model_checks.json",
+      "source_sha256": "ffc5585db6fbb8ea6ac6b97179facb01047f3f88d96fab3e34178489fc1ba402",
+      "gzip_sha256": "fc2b6c994e9e0cb37f770926649e4908ab87f8692e4f7429e7490ff9e7ecc19e"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/028.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed11_trace0\\independent_audit.json",
+      "source_sha256": "61aff0d98639455b80bf42f05ddbdfb0d42ab9420ef09f91142eb34340f1587e",
+      "gzip_sha256": "fa3dbada4ca7777ffd8308751d391f9fede6eb038571646dd5a2bf657d15f108"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/029.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed11_trace0\\information_audits.json",
+      "source_sha256": "219a751b6e9307d30032dd29a5e39285a76dd5f07085bf2c314d4dac570425fa",
+      "gzip_sha256": "72ea8cf82bae8e6b1a19638d7faa624e5941b62b70d9a20b0d0999362f27a886"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/030.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed11_trace0\\periods.csv",
+      "source_sha256": "f1734006e19217781c38a8e94bef266067a27c2c8110fa0ae15a81fde33d6d4b",
+      "gzip_sha256": "db1b9d47cc972535be061596503826fd2e2b6bbf2ad87ebd5d195fef9ff4ba08"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/031.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed11_trace0\\protocol.json",
+      "source_sha256": "1c291dfc533e2835cc8f16ddba59d4906f9e3ff8dc21d6bbcd117e4855e6bfa6",
+      "gzip_sha256": "3cf304f5ec7b30160330ede80a99776ff9ec96c222ed1d012056768515bb6f13"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/032.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed11_trace0\\runtime_failures.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/033.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed11_trace0\\scores.json",
+      "source_sha256": "90c39685afd1f9ae0bc3809ff4b7561eaee3b0d9e43bd71ffbcf5cdf5dcaedea",
+      "gzip_sha256": "1cb76eefe94ef01438d48e472fee27e11d23530518a79eed35f9f73baf305d6e"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/034.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed11_trace1\\calls.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/035.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed11_trace1\\completed.json",
+      "source_sha256": "b7283add944f16ad1c65192a0c10c14225b31181b3ec2350d7942c1d73cf2be5",
+      "gzip_sha256": "ca0726475e9e2f47a3d0f179f854228c25f0f5b1d42d5f980e4c59464a21787c"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/036.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed11_trace1\\delivered_reports.json",
+      "source_sha256": "9acb6e66fd39f8177a4fc66a092f18488bc64b3097b0037c47579baf1ce08626",
+      "gzip_sha256": "725ed64f288f8a8b9b638e94d78999998534cbd2fba016248e2c216514b3f127"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/037.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed11_trace1\\demands.json",
+      "source_sha256": "ef733fb0f29b44a777ccedc6734ea1821c84ea181b43aae8db25801cb8a73a47",
+      "gzip_sha256": "795f421c654ed3c61bb39eda2773517bef4ef599d074f89a8222c01a85abe614"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/038.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed11_trace1\\episodes.json",
+      "source_sha256": "5661938adee325f4f1a569b3c2cf91c9d1195fc0837876f0571ac0ebea30d313",
+      "gzip_sha256": "81525e232689f86f37ee3f8e4f8276fc86fe5bff9013ca2fdfe98ac10865f9e0"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/039.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed11_trace1\\forecast_model_checks.json",
+      "source_sha256": "ffc5585db6fbb8ea6ac6b97179facb01047f3f88d96fab3e34178489fc1ba402",
+      "gzip_sha256": "fc2b6c994e9e0cb37f770926649e4908ab87f8692e4f7429e7490ff9e7ecc19e"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/040.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed11_trace1\\independent_audit.json",
+      "source_sha256": "6d53e5102ca80905e56cd13857b2d6b44f930fe99ecf891e40e947f587f4d705",
+      "gzip_sha256": "09fc25da55811802d6c27df031f396462fa516ecd22517fcb0ddea65befca50c"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/041.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed11_trace1\\information_audits.json",
+      "source_sha256": "9d47d69ce55b2b62bbd73a5ef93961db14693aae165e511627ff887a67ec61c2",
+      "gzip_sha256": "4d11c8aab1b71f445406a17f3ff1f8c66ed47c1b46f02dd8a51df4e62b4c2941"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/042.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed11_trace1\\periods.csv",
+      "source_sha256": "892886f5e8c02cfd9a2d1186b2a0ddeaa1c6c93cfa801ceac3e0bba7294c47f0",
+      "gzip_sha256": "020872d43944f88430ad239381493bde31ec5e9c121961ddd10fd7afc5b9c1ee"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/043.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed11_trace1\\protocol.json",
+      "source_sha256": "8b9c457fd1d672b85f78a0beced61358711581869f34548f35a1e66f32e2b81b",
+      "gzip_sha256": "12732b5475a5fc66d4b24f1a6f281cd05bdb6b1744cff29e252e60bb2df05ce5"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/044.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed11_trace1\\runtime_failures.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/045.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed11_trace1\\scores.json",
+      "source_sha256": "9a6e5a155dcc2ab218c032620e8aad496cb3e0b0e41e3dccc211d39b5ffcdafe",
+      "gzip_sha256": "50f9496f8ab9db75419f8151267fd1b2e53f4cdb714ecf33adf2a84ffec3a1fa"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/046.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed11_trace2\\calls.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/047.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed11_trace2\\completed.json",
+      "source_sha256": "64b606088a8f0fb46530fdb4d1fd27ec1ec6a4dc7a8819cc8e70ed1aca7279e9",
+      "gzip_sha256": "64b377096d7241da5ba947467f032f629ce3e5e22f3ede2895977c7be8c6c506"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/048.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed11_trace2\\delivered_reports.json",
+      "source_sha256": "921944e91f4935cf4a6bea15e0f23e8c6fd2bd04eaeb17f42a677dad2476e564",
+      "gzip_sha256": "eb77e1e53167dad3cb52cec849798231a2632de425c018f026528b699b78ef16"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/049.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed11_trace2\\demands.json",
+      "source_sha256": "ef733fb0f29b44a777ccedc6734ea1821c84ea181b43aae8db25801cb8a73a47",
+      "gzip_sha256": "795f421c654ed3c61bb39eda2773517bef4ef599d074f89a8222c01a85abe614"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/050.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed11_trace2\\episodes.json",
+      "source_sha256": "38009d1cf2490e381b9d80578c53f303c64b8978a4bce6367ee4af9fef821d18",
+      "gzip_sha256": "4ce23548ab152cf3f67e6463ef2431db2b7f68450050c62a40472d760f1956f6"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/051.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed11_trace2\\forecast_model_checks.json",
+      "source_sha256": "ffc5585db6fbb8ea6ac6b97179facb01047f3f88d96fab3e34178489fc1ba402",
+      "gzip_sha256": "fc2b6c994e9e0cb37f770926649e4908ab87f8692e4f7429e7490ff9e7ecc19e"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/052.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed11_trace2\\independent_audit.json",
+      "source_sha256": "142d01d390bb08956a78991c7d9b213deda870220c10dd45e95a7e2d2bdf7201",
+      "gzip_sha256": "124437640b2f3fc73f135e40cbe73c2dd9a7647ad9bd37f0932f4af04e064572"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/053.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed11_trace2\\information_audits.json",
+      "source_sha256": "4f62a2204c43ccad163b2517470a47f06f2b3ad0dce2ee0c4e279c6d6c053f26",
+      "gzip_sha256": "5f110f4e3d0a4ffd2f4aec46d4b0953b10736f6ed532a6eb93c17a60aed56c6c"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/054.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed11_trace2\\periods.csv",
+      "source_sha256": "3a241062ac067a1e45a287fe4b8120035912028f9e4c61ab200939a409330011",
+      "gzip_sha256": "3961f087598496d1d70828f0f46809b4e734ea73e88cff1f3243ed0c4f7d23c4"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/055.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed11_trace2\\protocol.json",
+      "source_sha256": "4df2c087da8d392930ba06ec26e46620223590175e8aa5092c282b6dfeacb0fa",
+      "gzip_sha256": "943e7ffd3e50b79d087aebdcb453166aa76ebe6b921d589aa9998e34dfd467c0"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/056.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed11_trace2\\runtime_failures.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/057.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed11_trace2\\scores.json",
+      "source_sha256": "13e1f1483e605f89f6e47c1ae24b3358c6bc23424b675bbe8c0b083012b20bf8",
+      "gzip_sha256": "8de3d8612833634c7f33efc78c56277697c8fd86baf8a23f2bf6ed4908b23c3c"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/058.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed11_trace3\\calls.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/059.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed11_trace3\\completed.json",
+      "source_sha256": "569c06c66636e42d572f3ec3947456162c1cb75d7ee729316e14cf5117091135",
+      "gzip_sha256": "fbbb1ee2ad8008d2168542ba81d48043bb5518b40576a531fb8a8c709b45e40f"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/060.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed11_trace3\\delivered_reports.json",
+      "source_sha256": "fc8e9435b1a5274efa4990e95df78d432545d487a0152f00e63d2323192d699b",
+      "gzip_sha256": "afbff4dd2319f6c672b75a82aaff44a08137e5cb161d2dc797d3ce296979a910"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/061.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed11_trace3\\demands.json",
+      "source_sha256": "ef733fb0f29b44a777ccedc6734ea1821c84ea181b43aae8db25801cb8a73a47",
+      "gzip_sha256": "795f421c654ed3c61bb39eda2773517bef4ef599d074f89a8222c01a85abe614"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/062.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed11_trace3\\episodes.json",
+      "source_sha256": "c258646df24ccb4196d51c4c374bcbc1b526a00eb0ce358e1d2f0bae5325dcb5",
+      "gzip_sha256": "20a7857b2af07b11747a0b2219012203e036263a5cf585c82e66af9e251ac527"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/063.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed11_trace3\\forecast_model_checks.json",
+      "source_sha256": "ffc5585db6fbb8ea6ac6b97179facb01047f3f88d96fab3e34178489fc1ba402",
+      "gzip_sha256": "fc2b6c994e9e0cb37f770926649e4908ab87f8692e4f7429e7490ff9e7ecc19e"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/064.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed11_trace3\\independent_audit.json",
+      "source_sha256": "61aff0d98639455b80bf42f05ddbdfb0d42ab9420ef09f91142eb34340f1587e",
+      "gzip_sha256": "fa3dbada4ca7777ffd8308751d391f9fede6eb038571646dd5a2bf657d15f108"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/065.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed11_trace3\\information_audits.json",
+      "source_sha256": "fe646472a7b983a011f5ea3eb8f8328fd70bbc1e9eb079d4339550184bc015d2",
+      "gzip_sha256": "09bbdd7a51dfb29c3204e0c8a7b8c118850abd5aed9132120f29ec63ad1f3628"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/066.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed11_trace3\\periods.csv",
+      "source_sha256": "3808d4cd3aba6ad795ec11146523f3a3484564ddb40480dd27e8b35a5a01b5aa",
+      "gzip_sha256": "7b907e21de53e809fcf2425cc2fb037075b5cb38e8465a0164a643416c4c0407"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/067.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed11_trace3\\protocol.json",
+      "source_sha256": "98fc62114a7f4a8518daaed7757f102b6f90c6e45504d8a43e927acc180f10dd",
+      "gzip_sha256": "02f5f7f1920cd69d77e418f4cadc5baea0247c91f63d5e475cacb1e8086630b4"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/068.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed11_trace3\\runtime_failures.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/069.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed11_trace3\\scores.json",
+      "source_sha256": "84720ab6fea92d1bb4fe350aac57a9b3838e5178413b46a8eccde2844337a858",
+      "gzip_sha256": "a3a76659ca071c79519a7ccb5a70df41e36079c1e24392fe6e343e2db1d96e34"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/070.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed12_trace0\\calls.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/071.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed12_trace0\\completed.json",
+      "source_sha256": "5a26cd264ab7600ac39695c323b28bef9de20b1d210bb10de2ece8c8bd7c643b",
+      "gzip_sha256": "1ddaee13b7e3ba7f67a4b7196fd598a33917bc663174f6decc7cec92651d2fb1"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/072.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed12_trace0\\delivered_reports.json",
+      "source_sha256": "8c607b6aeccc78aff78c49fb8acb96e501292c7a733ffc95722e7d0cd06d42fa",
+      "gzip_sha256": "8c3bcf0c301e8741f50a39dff3baaf3f38cd72d02840a5f98b873e59a9632992"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/073.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed12_trace0\\demands.json",
+      "source_sha256": "ef733fb0f29b44a777ccedc6734ea1821c84ea181b43aae8db25801cb8a73a47",
+      "gzip_sha256": "795f421c654ed3c61bb39eda2773517bef4ef599d074f89a8222c01a85abe614"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/074.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed12_trace0\\episodes.json",
+      "source_sha256": "fa14bc3dcdc26b58a7eebbb0d31b1f505329f4ec318861e73ab0651c4ce0f4f6",
+      "gzip_sha256": "b6affffd74a6543a3f37e249d3c52e7badc0625786788418a11f5c3835d4bc1f"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/075.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed12_trace0\\forecast_model_checks.json",
+      "source_sha256": "ffc5585db6fbb8ea6ac6b97179facb01047f3f88d96fab3e34178489fc1ba402",
+      "gzip_sha256": "fc2b6c994e9e0cb37f770926649e4908ab87f8692e4f7429e7490ff9e7ecc19e"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/076.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed12_trace0\\independent_audit.json",
+      "source_sha256": "61aff0d98639455b80bf42f05ddbdfb0d42ab9420ef09f91142eb34340f1587e",
+      "gzip_sha256": "fa3dbada4ca7777ffd8308751d391f9fede6eb038571646dd5a2bf657d15f108"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/077.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed12_trace0\\information_audits.json",
+      "source_sha256": "6cf0b38fa77bb30886a7bf3c1806973df38763a4c87fbaaed1a1c6b0690f5bda",
+      "gzip_sha256": "4ebd72b834a77de187abb0ec6716dfc28a36def22d152bd99be92d91e4c9f06f"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/078.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed12_trace0\\periods.csv",
+      "source_sha256": "478cca556188d1eec021d0ec14b6bb895604d8799424fec770655b1bc803801e",
+      "gzip_sha256": "093b47e232106cfbc5f9742febe0210bf85006b79a19bc81700c1e2e282a4a4d"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/079.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed12_trace0\\protocol.json",
+      "source_sha256": "ebd6897ead29bf0315d9e1edac5482534ef1d3882cfaad8f03ff071312bab9bc",
+      "gzip_sha256": "b7d515ac88de9a97a2ba2607e78539f38209a4d554533391bb4757722dbffe4e"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/080.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed12_trace0\\runtime_failures.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/081.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed12_trace0\\scores.json",
+      "source_sha256": "cfd3181e7b3534ec85601f5c4c5678ff40709ca90772fab37289bd8406d719e0",
+      "gzip_sha256": "24db659a41abc5e4121fda5066207d40034ed2f851da23b6fcdfa6296b2a59e3"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/082.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed12_trace1\\calls.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/083.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed12_trace1\\completed.json",
+      "source_sha256": "b5a8cfdc198b57a671cce886e99430ce8f29545c9059526ece79731192d59999",
+      "gzip_sha256": "efdaf87e3773769c31a242a6285ded6afaa828fb01255504d90dcf9626f36552"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/084.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed12_trace1\\delivered_reports.json",
+      "source_sha256": "9acb6e66fd39f8177a4fc66a092f18488bc64b3097b0037c47579baf1ce08626",
+      "gzip_sha256": "725ed64f288f8a8b9b638e94d78999998534cbd2fba016248e2c216514b3f127"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/085.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed12_trace1\\demands.json",
+      "source_sha256": "ef733fb0f29b44a777ccedc6734ea1821c84ea181b43aae8db25801cb8a73a47",
+      "gzip_sha256": "795f421c654ed3c61bb39eda2773517bef4ef599d074f89a8222c01a85abe614"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/086.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed12_trace1\\episodes.json",
+      "source_sha256": "55e2199c2d5d95fe09f292a22683f5c12239a13b7e38dd00146977ab8800f0f1",
+      "gzip_sha256": "6f80c6903d59d396986e997c595b5a149c53074a9ccb6767c2e9092f0b07d12b"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/087.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed12_trace1\\forecast_model_checks.json",
+      "source_sha256": "ffc5585db6fbb8ea6ac6b97179facb01047f3f88d96fab3e34178489fc1ba402",
+      "gzip_sha256": "fc2b6c994e9e0cb37f770926649e4908ab87f8692e4f7429e7490ff9e7ecc19e"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/088.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed12_trace1\\independent_audit.json",
+      "source_sha256": "6d53e5102ca80905e56cd13857b2d6b44f930fe99ecf891e40e947f587f4d705",
+      "gzip_sha256": "09fc25da55811802d6c27df031f396462fa516ecd22517fcb0ddea65befca50c"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/089.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed12_trace1\\information_audits.json",
+      "source_sha256": "c1f872b3f8869008cc5b7688974e2559a9fc8e49e20470b102f32439b6a0eb44",
+      "gzip_sha256": "9834eb849eac63f0dbd339b4d23d52a09df50f93c1dd8ebe2b464e27c66383b2"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/090.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed12_trace1\\periods.csv",
+      "source_sha256": "b698cf98bffc6442197938a824b45659c0fb3af9b0d51c767a9aa03ec4c0b148",
+      "gzip_sha256": "8305178220daafb74be87db9375d14ec2ac8ebd1c4dc80b6c1566e054012dcd8"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/091.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed12_trace1\\protocol.json",
+      "source_sha256": "20732a6e86255d43e0b4aad22c08c687024de4b788a250ca2b9ba6486a04a2e4",
+      "gzip_sha256": "7179a21c012b9c5d36b7d3adf9845e4b8286d268cd763dd37542c2f12b2c4710"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/092.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed12_trace1\\runtime_failures.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/093.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed12_trace1\\scores.json",
+      "source_sha256": "ba0380c16a2156fbcf48f6798fa16fc3376de4af590245bb37ca318b28153d27",
+      "gzip_sha256": "ed245bffbd51d70e94bcfac1cf55234ad30a2f69139bcb427aa78f344ed06d03"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/094.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed12_trace2\\calls.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/095.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed12_trace2\\completed.json",
+      "source_sha256": "23d110fb3cb63cd5f782f549f0fd6249632f457bbc5e1e41a7c91dbb91308bfa",
+      "gzip_sha256": "fe7ac603fa08064efe87abbf39144bf8b856cafc70ccfb5d4dba2398a341125d"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/096.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed12_trace2\\delivered_reports.json",
+      "source_sha256": "921944e91f4935cf4a6bea15e0f23e8c6fd2bd04eaeb17f42a677dad2476e564",
+      "gzip_sha256": "eb77e1e53167dad3cb52cec849798231a2632de425c018f026528b699b78ef16"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/097.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed12_trace2\\demands.json",
+      "source_sha256": "ef733fb0f29b44a777ccedc6734ea1821c84ea181b43aae8db25801cb8a73a47",
+      "gzip_sha256": "795f421c654ed3c61bb39eda2773517bef4ef599d074f89a8222c01a85abe614"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/098.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed12_trace2\\episodes.json",
+      "source_sha256": "82545b1f58b6f4c1c5dd03ff09f7f4726fbb0e25c764a9a304a01f6d13caa81d",
+      "gzip_sha256": "8e8bd692828cd9d3096c962dafb47b9ae24af9efebe8ec459c2a2faf624c54eb"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/099.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed12_trace2\\forecast_model_checks.json",
+      "source_sha256": "ffc5585db6fbb8ea6ac6b97179facb01047f3f88d96fab3e34178489fc1ba402",
+      "gzip_sha256": "fc2b6c994e9e0cb37f770926649e4908ab87f8692e4f7429e7490ff9e7ecc19e"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/100.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed12_trace2\\independent_audit.json",
+      "source_sha256": "142d01d390bb08956a78991c7d9b213deda870220c10dd45e95a7e2d2bdf7201",
+      "gzip_sha256": "124437640b2f3fc73f135e40cbe73c2dd9a7647ad9bd37f0932f4af04e064572"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/101.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed12_trace2\\information_audits.json",
+      "source_sha256": "141cd13ac36c3661038d304ecec6ee3d04651ad7fc051334ae4e01708f302b65",
+      "gzip_sha256": "5e3ce4ef3aa4346d2a15582fbdfc0cc4396e6f97911a1520b95db27c45c0f092"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/102.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed12_trace2\\periods.csv",
+      "source_sha256": "cb19b2bf1ddf14797dcf3a8703e9a4bfd2c222dfb4c660912aa18d8af27a576f",
+      "gzip_sha256": "e9d3f16062bca7c2d00b74578ce6cf739efc42fbded40c1cbe0e84af27bc59f8"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/103.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed12_trace2\\protocol.json",
+      "source_sha256": "df18b02b93a6b322ee1f9e6a4ebadfea7e51b7c6e0a9db35455033059e10a92d",
+      "gzip_sha256": "1dba90866698f3247abbece7798e2ac38c73219b4fd72ec6b613db78cd456b9d"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/104.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed12_trace2\\runtime_failures.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/105.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed12_trace2\\scores.json",
+      "source_sha256": "e779198e13e34fecbcc466d2df6604dbc9f3df56a5508ad39752ce500d188815",
+      "gzip_sha256": "7189cefc274954eaceb2750dbebb21ee81b3a4f07e16cb7011b67e525747a987"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/106.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed12_trace3\\calls.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/107.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed12_trace3\\completed.json",
+      "source_sha256": "2efaa6268db15c89982dfffc4dc04e4e0a9046c6555eeb645465b805eeddab58",
+      "gzip_sha256": "cfaf094c33cff0ed8a4e14897b0c4ac66c57635463d28f0fcdc35de75d6d25b1"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/108.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed12_trace3\\delivered_reports.json",
+      "source_sha256": "fc8e9435b1a5274efa4990e95df78d432545d487a0152f00e63d2323192d699b",
+      "gzip_sha256": "afbff4dd2319f6c672b75a82aaff44a08137e5cb161d2dc797d3ce296979a910"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/109.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed12_trace3\\demands.json",
+      "source_sha256": "ef733fb0f29b44a777ccedc6734ea1821c84ea181b43aae8db25801cb8a73a47",
+      "gzip_sha256": "795f421c654ed3c61bb39eda2773517bef4ef599d074f89a8222c01a85abe614"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/110.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed12_trace3\\episodes.json",
+      "source_sha256": "b6a0d360b760a6e43152147e2c37fa4492cd949d9c55f13fccb25b9e292fa5b2",
+      "gzip_sha256": "930dc1764c288d4c8dde6f7bbfc53b56a1c7a30dbff68c487eb308128c87d43f"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/111.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed12_trace3\\forecast_model_checks.json",
+      "source_sha256": "ffc5585db6fbb8ea6ac6b97179facb01047f3f88d96fab3e34178489fc1ba402",
+      "gzip_sha256": "fc2b6c994e9e0cb37f770926649e4908ab87f8692e4f7429e7490ff9e7ecc19e"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/112.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed12_trace3\\independent_audit.json",
+      "source_sha256": "61aff0d98639455b80bf42f05ddbdfb0d42ab9420ef09f91142eb34340f1587e",
+      "gzip_sha256": "fa3dbada4ca7777ffd8308751d391f9fede6eb038571646dd5a2bf657d15f108"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/113.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed12_trace3\\information_audits.json",
+      "source_sha256": "5a78ed02388c1e47e8d8714b5eb7c3af92955d2b99ba587dfff8b72071de6b2e",
+      "gzip_sha256": "525aff695642605c9131b2e057b04067af2991aaedf6b748c05afffd1e8ea0cb"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/114.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed12_trace3\\periods.csv",
+      "source_sha256": "6f0fc3691ab27d36a84cadfef4e710b403010fbc354a3a3fde284f199a77eead",
+      "gzip_sha256": "c313aa17d4d92b4452e3cd7cc4f7cc05a78d7a9e2a5981c5ab787afc54749115"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/115.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed12_trace3\\protocol.json",
+      "source_sha256": "531b0f83bd7269eae0f5e0bb31ef4d1afd37ec9b8b91d6a682fd59160ada19d4",
+      "gzip_sha256": "9fd99faacac774fb40e740f513fdff5284adaf5a799d5b40713df93681914ef7"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/116.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed12_trace3\\runtime_failures.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/117.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed12_trace3\\scores.json",
+      "source_sha256": "463b6782f38aee9a36f873c72302963b9c6c59c83d78494e920b10e9a74a04c1",
+      "gzip_sha256": "9d29a2e4324867bdecff3b45e71bea21636cbf348b3ef20fe489d5e4c2f2095c"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/118.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed13_trace0\\calls.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/119.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed13_trace0\\completed.json",
+      "source_sha256": "f3a1d301dcd69ba64c5ef11a149b83dda92485bd08422de9bcb38fe2bd131bc0",
+      "gzip_sha256": "cd6aed116776ed7ba006a732457d95e5b9bc9c5ba17131196e37016030651f70"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/120.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed13_trace0\\delivered_reports.json",
+      "source_sha256": "8c607b6aeccc78aff78c49fb8acb96e501292c7a733ffc95722e7d0cd06d42fa",
+      "gzip_sha256": "8c3bcf0c301e8741f50a39dff3baaf3f38cd72d02840a5f98b873e59a9632992"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/121.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed13_trace0\\demands.json",
+      "source_sha256": "ef733fb0f29b44a777ccedc6734ea1821c84ea181b43aae8db25801cb8a73a47",
+      "gzip_sha256": "795f421c654ed3c61bb39eda2773517bef4ef599d074f89a8222c01a85abe614"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/122.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed13_trace0\\episodes.json",
+      "source_sha256": "e355533a88c581302fc6143f5a31ef070165558f70a3a34383abce13db31a699",
+      "gzip_sha256": "5466343ef0769d5fc48747372eb795823c3174224a9d0af08af9043026a48fe0"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/123.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed13_trace0\\forecast_model_checks.json",
+      "source_sha256": "ffc5585db6fbb8ea6ac6b97179facb01047f3f88d96fab3e34178489fc1ba402",
+      "gzip_sha256": "fc2b6c994e9e0cb37f770926649e4908ab87f8692e4f7429e7490ff9e7ecc19e"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/124.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed13_trace0\\independent_audit.json",
+      "source_sha256": "61aff0d98639455b80bf42f05ddbdfb0d42ab9420ef09f91142eb34340f1587e",
+      "gzip_sha256": "fa3dbada4ca7777ffd8308751d391f9fede6eb038571646dd5a2bf657d15f108"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/125.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed13_trace0\\information_audits.json",
+      "source_sha256": "9ec5abe92ffac18062c4efdb1e3e4c2eff536c14b015d6279732636cfa48cb92",
+      "gzip_sha256": "0bdec1a3bf5c162288911ad7ae60d60310a10444bd834b768f6d4b60d6089884"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/126.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed13_trace0\\periods.csv",
+      "source_sha256": "178a3d16b27d8e5a0f98294f2b4b73c74fcd85b974ff82fd7b24f3b6cd8297c7",
+      "gzip_sha256": "fcd02e8530d46ce56ac93db3a6162e2895f81a9dcbba1cf0321bc02d372ad458"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/127.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed13_trace0\\protocol.json",
+      "source_sha256": "9fca230e28c89fd20cc2054f5aefec2284992990f2265e5e7165c94e544d3a7d",
+      "gzip_sha256": "1b6ddb36054eb956e49f62263639b7e7388b7eae68761d7b2d5b802a83479aec"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/128.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed13_trace0\\runtime_failures.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/129.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed13_trace0\\scores.json",
+      "source_sha256": "daa61cc452132281b7db1b976f9d3c985fe688cf50b6b29814befb3a4dcc018d",
+      "gzip_sha256": "08d05185cc13e38b5d2afc076bd082dd9bb4b34b9a0aaaa952dd91a6d1b565e5"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/130.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed13_trace1\\calls.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/131.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed13_trace1\\completed.json",
+      "source_sha256": "c58c478d4f7d41f9ccde2883b13d684130193a3b3e0357e544f3310ca321fe84",
+      "gzip_sha256": "209fb4d296d8bd621dc9bef2526fe012898fea624f79b079e89c0bdda032acf4"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/132.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed13_trace1\\delivered_reports.json",
+      "source_sha256": "9acb6e66fd39f8177a4fc66a092f18488bc64b3097b0037c47579baf1ce08626",
+      "gzip_sha256": "725ed64f288f8a8b9b638e94d78999998534cbd2fba016248e2c216514b3f127"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/133.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed13_trace1\\demands.json",
+      "source_sha256": "ef733fb0f29b44a777ccedc6734ea1821c84ea181b43aae8db25801cb8a73a47",
+      "gzip_sha256": "795f421c654ed3c61bb39eda2773517bef4ef599d074f89a8222c01a85abe614"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/134.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed13_trace1\\episodes.json",
+      "source_sha256": "cfff46445d8240f530592e719e87fc5bed236baf104ef332768408e0ffd94b09",
+      "gzip_sha256": "518332124e74ede8b567f2d451de693c47a81000d8b07a1f36638eeaf9d91ebd"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/135.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed13_trace1\\forecast_model_checks.json",
+      "source_sha256": "ffc5585db6fbb8ea6ac6b97179facb01047f3f88d96fab3e34178489fc1ba402",
+      "gzip_sha256": "fc2b6c994e9e0cb37f770926649e4908ab87f8692e4f7429e7490ff9e7ecc19e"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/136.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed13_trace1\\independent_audit.json",
+      "source_sha256": "6d53e5102ca80905e56cd13857b2d6b44f930fe99ecf891e40e947f587f4d705",
+      "gzip_sha256": "09fc25da55811802d6c27df031f396462fa516ecd22517fcb0ddea65befca50c"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/137.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed13_trace1\\information_audits.json",
+      "source_sha256": "da52f08f9bffb7036b0191c0803151170f29d8bf6e5821ad885ffdee2776d87e",
+      "gzip_sha256": "d5b4de7a728f739cad9aab7b026451e27d2cc034df98bf1d6869b9c5a9d8fca1"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/138.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed13_trace1\\periods.csv",
+      "source_sha256": "ecd14d501da94b9971c6eed61e28438e61526da205ae1fe72b4318e7af6c45bb",
+      "gzip_sha256": "c85bed42e8aca72bf03d4a66f8949d9521eb23a6070b5400b14b83969c2a9120"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/139.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed13_trace1\\protocol.json",
+      "source_sha256": "a22b42ddbb79ac75b58fb070bd32632542f30d27c064f7f4d8c0c559b39c4490",
+      "gzip_sha256": "44d350c35ba814a1ee37ea1452d9044e52e86e12c3f2ccb077883e0d3b0e6cac"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/140.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed13_trace1\\runtime_failures.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/141.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed13_trace1\\scores.json",
+      "source_sha256": "5e975087d251b0760815fe064a788825df41232987aac000b093d7f97bda4f03",
+      "gzip_sha256": "924d8b29399f85c823a3344836a0a921d9612f120e982d4951da644dc0206862"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/142.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed13_trace2\\calls.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/143.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed13_trace2\\completed.json",
+      "source_sha256": "1cebcaee679a70701d04904bd52e7f12580f5b2c58ef575c45eda7b033ec38c1",
+      "gzip_sha256": "34075c03ecc93c409e1759490349cdbd272f9f891425ea018d4eeda00f55b3f6"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/144.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed13_trace2\\delivered_reports.json",
+      "source_sha256": "921944e91f4935cf4a6bea15e0f23e8c6fd2bd04eaeb17f42a677dad2476e564",
+      "gzip_sha256": "eb77e1e53167dad3cb52cec849798231a2632de425c018f026528b699b78ef16"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/145.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed13_trace2\\demands.json",
+      "source_sha256": "ef733fb0f29b44a777ccedc6734ea1821c84ea181b43aae8db25801cb8a73a47",
+      "gzip_sha256": "795f421c654ed3c61bb39eda2773517bef4ef599d074f89a8222c01a85abe614"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/146.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed13_trace2\\episodes.json",
+      "source_sha256": "60c5e17c0a01119ddfa12ad13966334f9c0c4c68df19a757066f04e9e6c2bb3c",
+      "gzip_sha256": "870010d98b3105066a3aaecddbfb73ac8e4e4794440697937244aa57bf3b9eb0"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/147.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed13_trace2\\forecast_model_checks.json",
+      "source_sha256": "ffc5585db6fbb8ea6ac6b97179facb01047f3f88d96fab3e34178489fc1ba402",
+      "gzip_sha256": "fc2b6c994e9e0cb37f770926649e4908ab87f8692e4f7429e7490ff9e7ecc19e"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/148.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed13_trace2\\independent_audit.json",
+      "source_sha256": "142d01d390bb08956a78991c7d9b213deda870220c10dd45e95a7e2d2bdf7201",
+      "gzip_sha256": "124437640b2f3fc73f135e40cbe73c2dd9a7647ad9bd37f0932f4af04e064572"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/149.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed13_trace2\\information_audits.json",
+      "source_sha256": "ab295e0ed531310cd77fb6d68b9c27f84e8636ba9467b9f4fad5f9f8782d0a14",
+      "gzip_sha256": "38502684e37a158ad67170a1df9cff4bae90e7b7cefe9967a0c824c060de83d5"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/150.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed13_trace2\\periods.csv",
+      "source_sha256": "33e36def0f9032f48f2c0de8c1657d600706da720a795e1b67512fdb05d8b6e4",
+      "gzip_sha256": "b4c87a67aebb8a475ff8657fc38c4906d838a3468692bc25112a9a9896050e1d"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/151.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed13_trace2\\protocol.json",
+      "source_sha256": "7b1faa11e30e47f71f89086f922bb2e8f355cc1984eb51b8c04e869fe6eec31a",
+      "gzip_sha256": "bc8fcffa47faca389b35a95b637fff9c46ca9f78c885f698f64610ea7aae9db0"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/152.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed13_trace2\\runtime_failures.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/153.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed13_trace2\\scores.json",
+      "source_sha256": "9484dccc6017f320bf51e50dec0a420f74966c22214c10bdf1dcb696bd4c5c70",
+      "gzip_sha256": "b09ec9284ad7679025abd3fcb93061db2adbed732a51f92d791ca10d86019230"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/154.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed13_trace3\\calls.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/155.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed13_trace3\\completed.json",
+      "source_sha256": "c20179f0df844b1c64220698d1df2b94a139ac68b5d48324d1bd33b35fede835",
+      "gzip_sha256": "f6990a3a075b07838abe955da2b00b39f23db388f61a76e7b26324ef646f1248"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/156.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed13_trace3\\delivered_reports.json",
+      "source_sha256": "fc8e9435b1a5274efa4990e95df78d432545d487a0152f00e63d2323192d699b",
+      "gzip_sha256": "afbff4dd2319f6c672b75a82aaff44a08137e5cb161d2dc797d3ce296979a910"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/157.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed13_trace3\\demands.json",
+      "source_sha256": "ef733fb0f29b44a777ccedc6734ea1821c84ea181b43aae8db25801cb8a73a47",
+      "gzip_sha256": "795f421c654ed3c61bb39eda2773517bef4ef599d074f89a8222c01a85abe614"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/158.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed13_trace3\\episodes.json",
+      "source_sha256": "35df0888c1632b94b639316f61bbf48b6014da6dda0eb2f53db46891e886e179",
+      "gzip_sha256": "2e78b6c853f0eb095b8bbe26b9f98012eb6223d906eb55ce6ea0483a1835b911"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/159.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed13_trace3\\forecast_model_checks.json",
+      "source_sha256": "ffc5585db6fbb8ea6ac6b97179facb01047f3f88d96fab3e34178489fc1ba402",
+      "gzip_sha256": "fc2b6c994e9e0cb37f770926649e4908ab87f8692e4f7429e7490ff9e7ecc19e"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/160.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed13_trace3\\independent_audit.json",
+      "source_sha256": "61aff0d98639455b80bf42f05ddbdfb0d42ab9420ef09f91142eb34340f1587e",
+      "gzip_sha256": "fa3dbada4ca7777ffd8308751d391f9fede6eb038571646dd5a2bf657d15f108"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/161.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed13_trace3\\information_audits.json",
+      "source_sha256": "c5c8582cdf2c1882e9059064bbf065f30125fc4655da04f1fa6b95ae0345217e",
+      "gzip_sha256": "329ee30ff8ab56e79b0138f718ab891d88c6a1daa747f4cc06361b68761a97f3"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/162.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed13_trace3\\periods.csv",
+      "source_sha256": "eded371634e985d387cf177a1905935db9aeb9e2b18e5e0efcca156dcf5b56c5",
+      "gzip_sha256": "dce2590b5c3cf89f6f6dfeabd4f60460432f90374e55d3b2505f7bf3c8ef24e1"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/163.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed13_trace3\\protocol.json",
+      "source_sha256": "8bf6dc6c1acaecd226dea782c3b7bc56a01a80fee7766826b459a52b3201715f",
+      "gzip_sha256": "41d7214ee447bea05760a706b690833df4e41c0895efe2110d96a73bc84f6744"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/164.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed13_trace3\\runtime_failures.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/165.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed13_trace3\\scores.json",
+      "source_sha256": "dc91e9904f4c1b3cb2fedf5c86f913fd4aecae1e4d939a572b686cdfb343fe18",
+      "gzip_sha256": "fa330d4015f181a405ff05f4b2bf09db5c2e0f8bbfd5764311dc6aff701d43f0"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/166.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed14_trace0\\calls.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/167.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed14_trace0\\completed.json",
+      "source_sha256": "0da5e27d9ef6109ce7c123a02105923512cb1019e823fda60047d4ad5b8b5d39",
+      "gzip_sha256": "1cb9dbe39a08694f6287bc8b3ccf4e5f8d3cfa5af9a76f20c9225041fe895e2c"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/168.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed14_trace0\\delivered_reports.json",
+      "source_sha256": "8c607b6aeccc78aff78c49fb8acb96e501292c7a733ffc95722e7d0cd06d42fa",
+      "gzip_sha256": "8c3bcf0c301e8741f50a39dff3baaf3f38cd72d02840a5f98b873e59a9632992"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/169.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed14_trace0\\demands.json",
+      "source_sha256": "ef733fb0f29b44a777ccedc6734ea1821c84ea181b43aae8db25801cb8a73a47",
+      "gzip_sha256": "795f421c654ed3c61bb39eda2773517bef4ef599d074f89a8222c01a85abe614"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/170.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed14_trace0\\episodes.json",
+      "source_sha256": "82ef3293efdd070ecbd7125814c71831006067eee690e658ae61b230cb770ad8",
+      "gzip_sha256": "65117f4f911beec46a708748165218ace74dd957e9cdfe6886b6fe1f1535abdd"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/171.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed14_trace0\\forecast_model_checks.json",
+      "source_sha256": "ffc5585db6fbb8ea6ac6b97179facb01047f3f88d96fab3e34178489fc1ba402",
+      "gzip_sha256": "fc2b6c994e9e0cb37f770926649e4908ab87f8692e4f7429e7490ff9e7ecc19e"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/172.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed14_trace0\\independent_audit.json",
+      "source_sha256": "61aff0d98639455b80bf42f05ddbdfb0d42ab9420ef09f91142eb34340f1587e",
+      "gzip_sha256": "fa3dbada4ca7777ffd8308751d391f9fede6eb038571646dd5a2bf657d15f108"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/173.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed14_trace0\\information_audits.json",
+      "source_sha256": "fa28031b96e9cc323af2535de0e25a4d46f4e80be40f35eee217e5d268ed95af",
+      "gzip_sha256": "defd96fcb8f75f4e73726b04415843b3d8248f92de3af9b40f308197206f1b1f"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/174.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed14_trace0\\periods.csv",
+      "source_sha256": "beb604a3f73c60624b5beb4225a066a433441e0e7518718d7f93fef0ffce6cda",
+      "gzip_sha256": "1790be00a0a0211b491bd83f85f9267a8265a4e7fc73e329f3838386ae38d39f"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/175.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed14_trace0\\protocol.json",
+      "source_sha256": "c0d6625dd07822d47e58e934bb7e865c4133750acff1e6f7461604deab38f7f7",
+      "gzip_sha256": "562a7b12443c5952a0376f24b57d3aab041e92544060e000ff4989dd0f54fb61"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/176.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed14_trace0\\runtime_failures.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/177.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed14_trace0\\scores.json",
+      "source_sha256": "e1cd93330e0dbda787dd602294e1bfc6e6e72c21147d8c7971e65517ff9b0de6",
+      "gzip_sha256": "4e370a68658c7596616a64222ead313e12d65f567ed5a6840046f9e436a5110c"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/178.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed14_trace1\\calls.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/179.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed14_trace1\\completed.json",
+      "source_sha256": "286c90c8133d8c5a1760b162d9a893be4c7f888473fff408b21717af1a7947d7",
+      "gzip_sha256": "d072f5db43a6622157a67a2e554583e306227cd9cabf04761527c028c737e8ef"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/180.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed14_trace1\\delivered_reports.json",
+      "source_sha256": "9acb6e66fd39f8177a4fc66a092f18488bc64b3097b0037c47579baf1ce08626",
+      "gzip_sha256": "725ed64f288f8a8b9b638e94d78999998534cbd2fba016248e2c216514b3f127"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/181.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed14_trace1\\demands.json",
+      "source_sha256": "ef733fb0f29b44a777ccedc6734ea1821c84ea181b43aae8db25801cb8a73a47",
+      "gzip_sha256": "795f421c654ed3c61bb39eda2773517bef4ef599d074f89a8222c01a85abe614"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/182.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed14_trace1\\episodes.json",
+      "source_sha256": "2613b32007d0af0dfa86ecf06334505d30dee7d80fffddf46eb5fdb7c7194c2e",
+      "gzip_sha256": "9114583c5eeec14a11cb5be02fcb71592563450e62af4e1001f97644c88e5e96"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/183.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed14_trace1\\forecast_model_checks.json",
+      "source_sha256": "ffc5585db6fbb8ea6ac6b97179facb01047f3f88d96fab3e34178489fc1ba402",
+      "gzip_sha256": "fc2b6c994e9e0cb37f770926649e4908ab87f8692e4f7429e7490ff9e7ecc19e"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/184.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed14_trace1\\independent_audit.json",
+      "source_sha256": "6d53e5102ca80905e56cd13857b2d6b44f930fe99ecf891e40e947f587f4d705",
+      "gzip_sha256": "09fc25da55811802d6c27df031f396462fa516ecd22517fcb0ddea65befca50c"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/185.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed14_trace1\\information_audits.json",
+      "source_sha256": "0b1fd766f0d0564e9ebaccaabbb1f04e521460b1da1ffe0def2944c71adbdaff",
+      "gzip_sha256": "0c9801b28d058d468b4959f926c080a0767ff8bfb86e759de40fbb08e384ab1e"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/186.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed14_trace1\\periods.csv",
+      "source_sha256": "2a513498bb34072ba252ea4dbb62296100a8e8c01ce03b651ef90d593adb41f3",
+      "gzip_sha256": "bb3c1f1fe2b6f42bdf7d92fa90b36ea50ad7e4dc98d538ec61bf3eeed4d259dd"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/187.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed14_trace1\\protocol.json",
+      "source_sha256": "92eae5022477bc14687dcddc2a7338d02bae1790e9c4ddafe6fb83cb8c77623b",
+      "gzip_sha256": "45d15029c74ac20a0af47c3f39ccdf4c8929081ad278933e029efa89a041e643"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/188.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed14_trace1\\runtime_failures.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/189.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed14_trace1\\scores.json",
+      "source_sha256": "050394ee3ce103407478fc05098b6ee1b37c56ceb9c970b5cc0a722adc67cd52",
+      "gzip_sha256": "17324e3b38cffb001665f0eabd287ae7089236beef0cca978642d0beca61bca3"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/190.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed14_trace2\\calls.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/191.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed14_trace2\\delivered_reports.json",
+      "source_sha256": "f1079ba6e5cd643fc93142ec28380183d599016b99200855ea9131690894a470",
+      "gzip_sha256": "ed697d7e99c218f7bdfafc0f8dd6d1a914701e1433d438e0b8017957a5851749"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/192.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed14_trace2\\demands.json",
+      "source_sha256": "ef733fb0f29b44a777ccedc6734ea1821c84ea181b43aae8db25801cb8a73a47",
+      "gzip_sha256": "795f421c654ed3c61bb39eda2773517bef4ef599d074f89a8222c01a85abe614"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/193.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed14_trace2\\episodes.json",
+      "source_sha256": "fd3366ab84262dfd98c1ad4220b676eaa631bc5c6ac2e0bf7300a51a2c44335d",
+      "gzip_sha256": "60032051f44c381e1f810775036e35f875b2e332c71bd0d262c5e3384730e1d0"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/194.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed14_trace2\\information_audits.json",
+      "source_sha256": "d5bd6b63b3fde75157235ac1297b92ca8847ba242dd27ed9100de1a3e479806e",
+      "gzip_sha256": "c335ac904b5f2b1eadd2fb6f8c17ebdb05ca8e98365651d46bb11c59452eb8bc"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/195.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed14_trace2\\periods.csv",
+      "source_sha256": "2eabe36ae2d76bcd3a703ff155cbcd6f424a92d4b8b68ae004426476cadd25b9",
+      "gzip_sha256": "994fdf3985f041da9584d2abc4e414a7f8495f45a23dc55f8b97d418b63d987f"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/196.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed14_trace2\\protocol.json",
+      "source_sha256": "b0c036ffa9321f93afc0d876bc775945f9ab3a87fae18dfe753879b1fe8d0a01",
+      "gzip_sha256": "50bf3a6aafb80e14161f9adc6cd6ad95b601db722bb5bdcd6b523ec9ccea24df"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/197.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed14_trace2\\runtime_failures.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/198.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed14_trace2\\scores.json",
+      "source_sha256": "1a3da099824aec01721b78cad521eafa6334e19220493ba5508282774a729805",
+      "gzip_sha256": "5d4052fd2870dfbc85ab91a757bbe6b54193410ef83e1c8b33a99d48d1deff19"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/199.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed11_trace0\\adapted_sundial\\logs\\events.out.tfevents.1792043705.石原赫的电脑",
+      "source_sha256": "4177af72b26002112261d70093b74de643759e4149d5832eccd3f841c5f25bec",
+      "gzip_sha256": "eb5807c08b89c93c8c95c6fe1983acd0cde56c8acf72c5c4f4743068cb6f3178"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/200.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed11_trace1\\adapted_sundial\\logs\\events.out.tfevents.1792043748.石原赫的电脑",
+      "source_sha256": "a399c2a74d313e5402bfee0cf5f8a85e31249251d0f6ca79dd844f8e368f096a",
+      "gzip_sha256": "1411a80dd1f9181cf8b29cd94d3760cb685aa668c36043ca30e65fb2a5212eed"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/201.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed11_trace2\\adapted_sundial\\logs\\events.out.tfevents.1792043792.石原赫的电脑",
+      "source_sha256": "b9f68e8a086ddb6f42c92e5eb90ac6c1a2012b9505058582119cfda7b4447d5a",
+      "gzip_sha256": "d086eb34d64dabd4d40dd5f079c24a7650981f8cb23c758cec4fbca9cff6e0bf"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/202.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed11_trace3\\adapted_sundial\\logs\\events.out.tfevents.1792043841.石原赫的电脑",
+      "source_sha256": "55f61e1e21e42797e6629e4aaa14030eb800f0209e9dfe60dc92156a8e2d0696",
+      "gzip_sha256": "be3d813ef1591f14df9d994a192858a6903bfc72160ecccfe64128f2750cb45a"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/203.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed12_trace0\\adapted_sundial\\logs\\events.out.tfevents.1792043885.石原赫的电脑",
+      "source_sha256": "e956cee2e8d453638433a6a43d043494eb84ec4e7f158e3428ce4b98f7df8375",
+      "gzip_sha256": "41bbd8cdd77f2aefb622900d5723fcaa437b05642422fab0157d602eb60e6b42"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/204.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed12_trace1\\adapted_sundial\\logs\\events.out.tfevents.1792043928.石原赫的电脑",
+      "source_sha256": "163fe901b3ea14496c3ea738fc030f9bcc99a44ed6e39002f2c91e2862a96dd2",
+      "gzip_sha256": "fb1ed950a75591a915508952081765252d4087d145bbd4b02ebceb78d344486e"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/205.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed12_trace2\\adapted_sundial\\logs\\events.out.tfevents.1792043970.石原赫的电脑",
+      "source_sha256": "e6c62482946e0b5fdd3e8cba5e1aca6cb2efa88f6c36cd698fd728a717113b08",
+      "gzip_sha256": "4d77347a10c834f2e538553480e866bff15d693d15107f3282ee10547679e040"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/206.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed12_trace3\\adapted_sundial\\logs\\events.out.tfevents.1792044014.石原赫的电脑",
+      "source_sha256": "622480c9e893dc054a042383d79e48944e73c2448509b269a986b45f3ed287a4",
+      "gzip_sha256": "84bcf20467c21a792bfa485b958efa46ff33cc2b6db2fc7c2df81d9df53a49db"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/207.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed13_trace0\\adapted_sundial\\logs\\events.out.tfevents.1792044056.石原赫的电脑",
+      "source_sha256": "692a41bdbebde542b685a8e16b6293601a67294d0393f9948def73dd822e1bd7",
+      "gzip_sha256": "879b4f85022c9d3e97487a0dee826ecdbd6d1143a482b0de6b6a12de51c8d596"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/208.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed13_trace1\\adapted_sundial\\logs\\events.out.tfevents.1792044097.石原赫的电脑",
+      "source_sha256": "ca2eb1c81190ad783a271a31c662f38a9047a3e034243392c243526aebd9fd1e",
+      "gzip_sha256": "16f8c4a8282d31c1fe9836629859ccbd5582dde34baa3a09c9266d5a24f6b631"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/209.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed13_trace2\\adapted_sundial\\logs\\events.out.tfevents.1792044142.石原赫的电脑",
+      "source_sha256": "1dc8500ad1a49236a123bca7794330438d1758ab96663bac33f7fe5365254b73",
+      "gzip_sha256": "4f1f148dfffc06e0350638704e5859d1c2d2ee0a546f0f6b0635869dbcc27e1f"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/210.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed13_trace3\\adapted_sundial\\logs\\events.out.tfevents.1792044185.石原赫的电脑",
+      "source_sha256": "3754800a06c19972e3ffcdba1cedc2065b2de1be1d9c9bf596d313f59fcd4037",
+      "gzip_sha256": "d4c245bf7138e207b1fe16a246d3a1d92d2596445afee038c3eb41f1d627bf11"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/211.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed14_trace0\\adapted_sundial\\logs\\events.out.tfevents.1792044224.石原赫的电脑",
+      "source_sha256": "a14a6be017049105c0d44224f8b0de9678585fed69c7d6311ad4b63136927fc1",
+      "gzip_sha256": "f71eb58f9cfb12a1bad782a9dfd216f0a261e1f00693abaddebe0cce21e423b1"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/212.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed14_trace1\\adapted_sundial\\logs\\events.out.tfevents.1792044265.石原赫的电脑",
+      "source_sha256": "e0fb6a2f80fcd44f1779305ada101962302a4e5d72ea043580337fae835c5015",
+      "gzip_sha256": "85adac606fd0ed6e844214cf3fd0b0f55e3b185c277d9501b9b2748675382f81"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/213.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_balanced_allocation\\v1\\runs\\seed14_trace2\\adapted_sundial\\logs\\events.out.tfevents.1792044309.石原赫的电脑",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gzip_sha256": "46b50c321b39e89a491b6727a01628c34245605a30beb3e7414c5e01cff90e6e"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/214.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_balanced_allocation\\audit.py",
+      "source_sha256": "61e0d6d93b300f85dc15d6ac41dc4ba16bf7603c014c1836cbe605c2f3753d4a",
+      "gzip_sha256": "56b2d5a7c29096d90dabc2729af8d3ec415581f856b6aad59e32d045dd2b18d0"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/215.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_balanced_allocation\\batch.py",
+      "source_sha256": "41986e48e92e01e6f043d548164cf951f42f94cfcd8f3d58d0efa88569202524",
+      "gzip_sha256": "6d8efdcb639eef8c36a380c3ca7b0e5723b6e761467cea31f447ec43e386ff67"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/216.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_balanced_allocation\\predictor.py",
+      "source_sha256": "e96066ba590e3a90fb2aea32ca92a82f2289491d7f85c7e0be506dab66448df9",
+      "gzip_sha256": "a43cfecd70b9ab1d5d9f4dc29689a50a33e9ba2e5b8928ee41cbbdd683a49fc8"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/217.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_balanced_allocation\\runner.py",
+      "source_sha256": "df7c0aa583c2a57969e755d1e53b8a8f4c4caf1d70d598f9236f2a6d28ac5ae2",
+      "gzip_sha256": "f6c9974263ab49912276217adfb0435f86773065d431da998c016fb375e2edae"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/218.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\2026-10-15-sundial-balanced-allocation-stopped.md",
+      "source_sha256": "adff82972adda20fa567bbb52565a38373eda9f0c49a8344bc1436351c2464ef",
+      "gzip_sha256": "c8fb9d73fc76eba70e253f73dff7cd289957d8233622d1589117aceca3c75e39"
+    },
+    "docs/artifacts/sundial_balanced_allocation_user_stopped_v1/files/219.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\online_llm_artifacts\\archive_balanced_user_stop.py",
+      "source_sha256": "9783c1575b03c6740526e1fbb08e858ff9e91a4ac3e7eba5dcede067a0508ee1",
+      "gzip_sha256": "cc6756235b878fb04546d6378e54508f1224fde65c9d0899a6a704eb6213ae72"
+    }
+  },
+  "lossless": true,
+  "credential_absent": true,
+  "status": "stopped_by_user",
+  "completed_tasks": 14,
+  "api": 0
+}
