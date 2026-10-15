@@ -1,0 +1,33 @@
+{
+  "files": {
+    "000.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_double_mechanism\\six_rules_v1\\execution.json",
+      "raw_sha256": "4a9aec61032dc7c4229810f41017ca30cc93918bc40e3c29b446a789b984e52e",
+      "gzip_sha256": "82bb6f68bf5aff2cc92dc3fdc268979bb64585047a4fbf35922b909144775f3c"
+    },
+    "001.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\2026-10-15-sundial-double-llm-execution-clarification.md",
+      "raw_sha256": "abb7b61d382c8b252c82873bb8e88d6565db862f6cf8c68a61a3e83def64e14b",
+      "gzip_sha256": "93567082e05693dd7cb999dd2064f06b9b63a7065d5a1b62898a507c0fb04736"
+    }
+  },
+  "api": 0,
+  "lossless": true,
+  "credential_absent": true,
+  "summary": {
+    "merton": {
+      "before": 0,
+      "first_peak": 30,
+      "gap": 13,
+      "second_peak": 20,
+      "after": 47
+    },
+    "sundial": {
+      "before": 0,
+      "first_peak": 3,
+      "gap": 10,
+      "second_peak": 0,
+      "after": 72
+    }
+  }
+}
