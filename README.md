@@ -253,3 +253,8 @@ Sundial128M冻结，仅训练24参数门控位置/尺度校正：24新训练路�
 ### 切回最早共同对照路径（2026-10-15）
 
 按用户要求改用joint_baseline_confirmation/confirmation_v1的batch01原始需求，先保持11/12模型和16回合规模，仅新增响应Sundial真实LLM评估；原纯HAPPO与online_feedback只读复用，不重跑。8回合4800节点期无API接线及完整审核通过，130份注册gzip字节由驱动核验，登记2c48377推送后唯一驱动启动。状态根results/sundial_original_paths/development_v1。原旧控制器与新guard_pool机制不同，比较完整系统，不单独归因预测器；旧协议路径转义异常保留，以原始逐期成本与completed模型哈希审核。先前Poisson试验与不利结果全部保留。见[本轮协议](docs/superpowers/plans/2026-10-15-sundial-original-paths.md)。
+
+
+### 完整机制匹配的Sundial替换正式启动（2026-10-15，当前活动批）
+
+用户确认两边都保留修订守卫＋候选池逐一复核，仅替换预测模块。当前唯一驱动run_matched_guard_sundial_batch.py，状态results/sundial_matched_guard_pool/development_v1；11/12模型、confirmation01_main原路径、16新回合9600节点期，复用online_llm_guard_pool的guard_pool Merton结果与原纯HAPPO。59原源码hash、旧结果raw hash、模型/SYSTEM/接口核对一致，8回合无API接线完整通过，189份gzip注册归档密钥缺席及Git存储字节核验，登记39f95a5推送后启动。128HTTP64语义上限，无自动重跑；Sundial含已冻结multiscale24/all_half适配，提示历史Merton描述和不同API日期限制保留。不拿五模型两批22.312均值与本两模型一批直接相比。此前最早路径批23HTTP后格式修复失败停止，原记录费用全部保留，本次未重启该批。见[匹配协议](docs/superpowers/plans/2026-10-15-sundial-matched-guard-pool.md)。
