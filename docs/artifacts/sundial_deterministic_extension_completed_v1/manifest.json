@@ -1,0 +1,317 @@
+{
+  "files": {
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/000.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\combined_five_seed_summary.json",
+      "source_sha256": "e189294bf56615a1fafb82434f265510b710c560c7bf2a51de9aec3208c99525",
+      "gzip_sha256": "3604b922bb31a9d41762abb9a83d34f7255b4d5311e20fb47ce39677ab1e146b"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/001.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\completed.json",
+      "source_sha256": "73f3513314a966d831edb85646cac1bcf2c42ab6db407dd46190309fdf089007",
+      "gzip_sha256": "d98def03f3acc7b684b7cb2d9540a7db94b3704e0124aec319b56746ed6a0097"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/002.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\launch.json",
+      "source_sha256": "71f9f70310847622c9c76f31f6c6dfafd59f076b193494998fd701ebb4d9d16e",
+      "gzip_sha256": "f9b43fdc03518377f23a50dde26fc9bed88e05c13f7cfcaac6739d87f0da0192"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/003.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\progress.json",
+      "source_sha256": "5488c4c07f961688164f2aee3982649e850fd8b1085e6272954013128e728125",
+      "gzip_sha256": "983cc4d5ff97ccef45a268d21b4e8d7edbed7461070c06c5c0b1e2bea5ff5344"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/004.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\registration.json",
+      "source_sha256": "11ef5cf96c0478b82ded260e57cb42f55299173597baee9006035caa6236a7fb",
+      "gzip_sha256": "aa3f78994c63deba121aa81704c9a3505180db2cbe8df57ad9f01d70e6fa48ba"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/005.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\seed11_double.log",
+      "source_sha256": "ca1d2483faa9ffe3b8ed7d6ab319c4d864e0711b6433a2b622e808e4dab23fe5",
+      "gzip_sha256": "4886eeb19475a921208ccd4668b8247f7561e857d7893f38324053b843f3f1a2"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/006.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\seed12_double.log",
+      "source_sha256": "db2c4dbded0ce528760db351a5066f8a61fe0c9cb1d30f4690bfb223c9258bdb",
+      "gzip_sha256": "a48acf5732293b40c5149203ef445f3c82e2e057d0578ceb3b32549ffc0654b2"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/007.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\seed13_double.log",
+      "source_sha256": "5bc2447f84e6e03349984e4eda14df55bf29c65ebe02fe06e8a967cc50c14cc0",
+      "gzip_sha256": "f885cb8422a998e51219a878fedb6958f398ad2ec3e63abf44eac2e17004cbef"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/008.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\started.lock",
+      "source_sha256": "6956b9a3729f63edfb941d4a7fbb93fd7106cb9f7a35e4054f74bc8f90bc843a",
+      "gzip_sha256": "4c065a4537eca7d6e22608b229b3b8cf1d3c0b217b47112f1dda28536e9ce3f5"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/009.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\summary.json",
+      "source_sha256": "7cc519750a1614a4ea31d635a5d2a083194e0d084eeaf3db1ae93ceaee1cc605",
+      "gzip_sha256": "0ed07e88bb5210d94af74522f3fb92e097ee81d3b20c94b5f0e7741b0d824ae3"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/010.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\runs\\seed11_double\\calls.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/011.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\runs\\seed11_double\\completed.json",
+      "source_sha256": "f9e6b73f1cf99e669539556d99f2b0772af8dcbfdaba2d1c0f0706bfb619f814",
+      "gzip_sha256": "2870612b6fef2d4cfa754cd8c58f96a471acb95618c5f32182aebb3301764735"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/012.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\runs\\seed11_double\\delivered_reports.json",
+      "source_sha256": "d6143bfcab1c3838125f6fb84585ded09b3aefeab2b2230fd3d48fa64a6df0bf",
+      "gzip_sha256": "cf8b596f47602d8d79203e0c477eb4e18d3c7db320fe6ed9e88008aaf0108800"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/013.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\runs\\seed11_double\\demands.json",
+      "source_sha256": "ef733fb0f29b44a777ccedc6734ea1821c84ea181b43aae8db25801cb8a73a47",
+      "gzip_sha256": "795f421c654ed3c61bb39eda2773517bef4ef599d074f89a8222c01a85abe614"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/014.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\runs\\seed11_double\\episodes.json",
+      "source_sha256": "3c7f6cc37831668f16c433894b6139c39a238144839170262e9f6b6ca87b4340",
+      "gzip_sha256": "2d16576fbc73fc5b7e453c8cf8855f92f31c65a2a384f4bf37b5dd633e499814"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/015.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\runs\\seed11_double\\forecast_model_checks.json",
+      "source_sha256": "cc06cbd391dfd5e3f747e6a6dbb4ee49e239957f1beff55e87788f4abc5a5097",
+      "gzip_sha256": "80e492a9b4f0d2152438ea9d030a033f20cd9adc7e253e3ae8f4a98b26bed54d"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/016.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\runs\\seed11_double\\independent_audit.json",
+      "source_sha256": "7870f371d08fd676264acc12f81db9f633b37656b6fdf2225cda29f17c445c97",
+      "gzip_sha256": "5e15f4fd0e635625ff26bbb9fab2fe23890dbd4470510eb69b6ae6130bb2f3b0"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/017.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\runs\\seed11_double\\information_audits.json",
+      "source_sha256": "39740be1238b8942a6afcd2d470103f45dc5f24b2128458ab11eddd6af76726f",
+      "gzip_sha256": "849b3bf434537b6cb67d4298d6037ac96f8f45b06ccda3fb39fcb640b2c3efdb"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/018.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\runs\\seed11_double\\periods.csv",
+      "source_sha256": "74f898c0881d666ab4771a32e737886c91e09575703771341cddded4d58f0f89",
+      "gzip_sha256": "35ea76231f2b4efd0ffe24bee643834b3f0e0547aa7c6579a33fc9d743977542"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/019.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\runs\\seed11_double\\protocol.json",
+      "source_sha256": "12dcc566724b7fecce2cb34b42120beaa7ed233060a505827c9736110decacea",
+      "gzip_sha256": "385f7ec31dcf912089c0ff9f78f371d2120b82434d0b23c4df66206e9e9c158d"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/020.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\runs\\seed11_double\\runtime_failures.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/021.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\runs\\seed11_double\\scores.json",
+      "source_sha256": "65d4caa0becbbbfecca64133774e7a3ff5488625fadcae0ec3b08edd37b0ef62",
+      "gzip_sha256": "edb4029e4237d0c159cb27b05e3055e459218d844c952bbde8c920c8ffab9096"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/022.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\runs\\seed12_double\\calls.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/023.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\runs\\seed12_double\\completed.json",
+      "source_sha256": "4e955235207676dd9ca270747bc3c26f29565dfbc6fcd95831aed74c305e9ca6",
+      "gzip_sha256": "34727983ffcc931fd01ec7a84acac270c30ffa6a7ff36b7c1fc3e24b116e3a3b"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/024.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\runs\\seed12_double\\delivered_reports.json",
+      "source_sha256": "d6143bfcab1c3838125f6fb84585ded09b3aefeab2b2230fd3d48fa64a6df0bf",
+      "gzip_sha256": "cf8b596f47602d8d79203e0c477eb4e18d3c7db320fe6ed9e88008aaf0108800"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/025.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\runs\\seed12_double\\demands.json",
+      "source_sha256": "ef733fb0f29b44a777ccedc6734ea1821c84ea181b43aae8db25801cb8a73a47",
+      "gzip_sha256": "795f421c654ed3c61bb39eda2773517bef4ef599d074f89a8222c01a85abe614"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/026.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\runs\\seed12_double\\episodes.json",
+      "source_sha256": "7189657c849d4843e31b06d3e8399deae53a34d656da28edbab564aecf71d7ee",
+      "gzip_sha256": "c1ca15897af2cd69229e5f47653da67d9a6cbbe538072557a7e1bea4aff42fa7"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/027.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\runs\\seed12_double\\forecast_model_checks.json",
+      "source_sha256": "cc06cbd391dfd5e3f747e6a6dbb4ee49e239957f1beff55e87788f4abc5a5097",
+      "gzip_sha256": "80e492a9b4f0d2152438ea9d030a033f20cd9adc7e253e3ae8f4a98b26bed54d"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/028.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\runs\\seed12_double\\independent_audit.json",
+      "source_sha256": "7870f371d08fd676264acc12f81db9f633b37656b6fdf2225cda29f17c445c97",
+      "gzip_sha256": "5e15f4fd0e635625ff26bbb9fab2fe23890dbd4470510eb69b6ae6130bb2f3b0"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/029.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\runs\\seed12_double\\information_audits.json",
+      "source_sha256": "6c6c6d47cac13ae406223e3effecd245209c4e0f01724f6eb09420b441603c54",
+      "gzip_sha256": "1757e44cbff57e44c262f81e19e0dd84182011579fab514459a492c048457b89"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/030.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\runs\\seed12_double\\periods.csv",
+      "source_sha256": "b0e1020238667cb7cd9dacadf9bb304ba07eec703ac9da28983929c622c496c7",
+      "gzip_sha256": "55ba2083360d1ded83ca7f77a851901b42a7f550ff09e9ddd60b4319b00ee359"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/031.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\runs\\seed12_double\\protocol.json",
+      "source_sha256": "aecea15229afe98f5ddbee869a297f42bf6b9a279d62e7e66b4e50422f9655e0",
+      "gzip_sha256": "fcb1801fcb23e308bbe5a78c20607c0d6eae6657c02a076fa0d3bd3b79cdc0ee"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/032.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\runs\\seed12_double\\runtime_failures.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/033.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\runs\\seed12_double\\scores.json",
+      "source_sha256": "9c84bd631d85b71a297ddc14ad7a68fce4529b23699b3e4cdf1bec241749b7cc",
+      "gzip_sha256": "d9fe5419e3b4141077d13ccf83f66663f0b2f775acb31f7aac774ccfcaccd22b"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/034.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\runs\\seed13_double\\calls.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/035.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\runs\\seed13_double\\completed.json",
+      "source_sha256": "50bd44f06f53ae138377112c7485e359cca76da91046598f8d1047377bab7218",
+      "gzip_sha256": "77b8b2f4d9f1eb410270b0be66767dd79c649fbd521546eb702ab05e0ab5b8d3"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/036.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\runs\\seed13_double\\delivered_reports.json",
+      "source_sha256": "d6143bfcab1c3838125f6fb84585ded09b3aefeab2b2230fd3d48fa64a6df0bf",
+      "gzip_sha256": "cf8b596f47602d8d79203e0c477eb4e18d3c7db320fe6ed9e88008aaf0108800"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/037.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\runs\\seed13_double\\demands.json",
+      "source_sha256": "ef733fb0f29b44a777ccedc6734ea1821c84ea181b43aae8db25801cb8a73a47",
+      "gzip_sha256": "795f421c654ed3c61bb39eda2773517bef4ef599d074f89a8222c01a85abe614"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/038.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\runs\\seed13_double\\episodes.json",
+      "source_sha256": "3fe461bd05cfa768e9ab128f04f65792eead07c732a251e52a6c93c1955943c9",
+      "gzip_sha256": "d8ff814647068a9c220a69579d384efaed9e55a109f3b3318bb33f28927fbb87"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/039.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\runs\\seed13_double\\forecast_model_checks.json",
+      "source_sha256": "cc06cbd391dfd5e3f747e6a6dbb4ee49e239957f1beff55e87788f4abc5a5097",
+      "gzip_sha256": "80e492a9b4f0d2152438ea9d030a033f20cd9adc7e253e3ae8f4a98b26bed54d"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/040.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\runs\\seed13_double\\independent_audit.json",
+      "source_sha256": "7870f371d08fd676264acc12f81db9f633b37656b6fdf2225cda29f17c445c97",
+      "gzip_sha256": "5e15f4fd0e635625ff26bbb9fab2fe23890dbd4470510eb69b6ae6130bb2f3b0"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/041.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\runs\\seed13_double\\information_audits.json",
+      "source_sha256": "b31047d8fef2c9028308fb959aa2665ff528b6abaf99c97fb993a91e06fdf7d9",
+      "gzip_sha256": "80e55586d312c243d54d78fbdb789af20f55dc0059df63121f2546f2488c375e"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/042.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\runs\\seed13_double\\periods.csv",
+      "source_sha256": "8165e80cfd78b494ae77ce7ac9cc6759aabbd1a4443e5deeb65c38597fddde2b",
+      "gzip_sha256": "1b0c801f80ab3232e308381939ca2210d60ca27188a98493b9133fced9ce2156"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/043.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\runs\\seed13_double\\protocol.json",
+      "source_sha256": "2f34cf204851e709d0255d5c25ccb5a2694bf1367e47bf7ed2bfef7566d208c8",
+      "gzip_sha256": "31ef8c14a3c928d0e8b0b1fe5a29f6838475c6a0f5aa48ed9a9daf85c9e26f55"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/044.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\runs\\seed13_double\\runtime_failures.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/045.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\runs\\seed13_double\\scores.json",
+      "source_sha256": "5c9f6f00769648537bdd82743b95b9ce40231e19b845c7056aedbd392bd9e48d",
+      "gzip_sha256": "dcdd33b6d6844077d146b9330fb0f0741252dd8b0c157e61136dc671d31a090b"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/046.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\runs\\seed11_double\\adapted_sundial\\logs\\events.out.tfevents.1792039473.石原赫的电脑",
+      "source_sha256": "b5131adef3f5347f018e80b62ef3178014156d6d512e1984f4c56f791dcbd5c6",
+      "gzip_sha256": "68ee5d63494778975cb140210d1f5f15e691ed845f34bd658262ab14f52f5405"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/047.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\runs\\seed11_double\\native_sundial\\logs\\events.out.tfevents.1792039435.石原赫的电脑",
+      "source_sha256": "dd4059ce68fef7a3964a47330178d828504fcac395555015923345a8af53a067",
+      "gzip_sha256": "6f0948147a94e66ff7ee406c26a08a2a98673ab8013fafefbe75e1249942f9ec"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/048.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\runs\\seed11_double\\original_merton\\logs\\events.out.tfevents.1792039414.石原赫的电脑",
+      "source_sha256": "08b4cdae16a4956bbe0df2d278f7e36c0a977e7590de9af74c6a059d2152c6a3",
+      "gzip_sha256": "f55c13e0f087f8ba8931b95306243f05416a4c64491431763fa2533b6ea378c6"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/049.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\runs\\seed12_double\\adapted_sundial\\logs\\events.out.tfevents.1792039576.石原赫的电脑",
+      "source_sha256": "b4e09c79c03449491445c3e0e6290a1c77a45a78f32bc03a9317db3b13f061e8",
+      "gzip_sha256": "b29fc9ee10f67e2180b7459faf38bc2cf87fbfd9dd78823d8519fede0d0feb8f"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/050.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\runs\\seed12_double\\native_sundial\\logs\\events.out.tfevents.1792039538.石原赫的电脑",
+      "source_sha256": "9b1baaf32274d03be4bf92e6fbc2ffabff79921255a540de726824fcb3ca95f6",
+      "gzip_sha256": "028fda94f595c04bd454adca7068c15a7d917074555ba0f592d9778e07038a0f"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/051.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\runs\\seed12_double\\original_merton\\logs\\events.out.tfevents.1792039516.石原赫的电脑",
+      "source_sha256": "c3636c2d2df3f4390cfd4db08df46c3bbd8d2994cc7ce3d7ce7b4a81e3e2f0a6",
+      "gzip_sha256": "262989d664670d4e2acc7b6bae124f4d8fda2b950cd1308d9ad9b55b1366d14e"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/052.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\runs\\seed13_double\\adapted_sundial\\logs\\events.out.tfevents.1792039683.石原赫的电脑",
+      "source_sha256": "8b105d2bd1a20cb4129ec43c56a02c1a980314e51cee63c1f3ddefc707c3b251",
+      "gzip_sha256": "2f460a2f9b529281c851fd825875d20cdc2853f70d2fdbf043b84436d24a7756"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/053.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\runs\\seed13_double\\native_sundial\\logs\\events.out.tfevents.1792039643.石原赫的电脑",
+      "source_sha256": "d6be8e0b0d10fd852f313cc4921c232ccfc8e696bc87bd111f3290dc429b2927",
+      "gzip_sha256": "3a12ff6bf66c2b907b26cf36425122ba8f644f1f09dca5edc0235da1f784c13e"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/054.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_extension\\v1\\runs\\seed13_double\\original_merton\\logs\\events.out.tfevents.1792039620.石原赫的电脑",
+      "source_sha256": "c8dc4b4bc383ed93335d1284555d9c2ad55d6c3e6c77b8aaa7ec3349e715adb4",
+      "gzip_sha256": "2e08c617a9564ad38890ee70657be8878faa9f9e1797523f27ba8840041f2697"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/055.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_deterministic_extension\\batch.py",
+      "source_sha256": "3cd11bd76f81ddd64c412f88f1e40657d80002284a8480a5ed8f5095ff11571c",
+      "gzip_sha256": "414b8161cbd8d1b7bf99ba79005bb02d255d325b8f48fa4d2a20827e9b0d88c6"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/056.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_deterministic_extension\\runner.py",
+      "source_sha256": "805081ca6b431ae9c0773e8394c9d4ec5c752df782ee53a61a7f40ee11a85308",
+      "gzip_sha256": "65592f87fec17729cd1d9a284010adeb6e2dfd0b3921af8784d51c6a3ab57d1c"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/057.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\online_llm_artifacts\\archive_sundial_deterministic_extension.py",
+      "source_sha256": "86be7e9df71599c45051449b16814b62bfbac0a64fe0b9478d6f8841fc65df47",
+      "gzip_sha256": "840d5836eab26fd3119848ad7b5f3c86ffd839112917106d6dacaf29d301e7f8"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/058.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\2026-10-15-sundial-deterministic-five-seed-results.md",
+      "source_sha256": "3cb5e47159db476122c836b98e2712f8bd38bec1a767b6efd7b12573c8e19b5d",
+      "gzip_sha256": "fe2205194687b9d22d2028557e966e1220019e1d89aafe1f65c45ae8bf38b937"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/059.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\superpowers\\plans\\2026-10-15-sundial-deterministic-extension.md",
+      "source_sha256": "85d82cfd9d55c87ebdbdc24e2d0a4e1bf1127c6fe1d226272c70d05a14998b05",
+      "gzip_sha256": "d4c842b58be661b249ce2c7277722e597e834aa2fcb9d473b51105f51e774b3a"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/060.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_deterministic_cost\\v1\\summary.json",
+      "source_sha256": "0eebfd514ddcddac5e318794126325a1608a1fe973d2baf65acee695cd7f9517",
+      "gzip_sha256": "b4eb358e095823e4d5de21d4676367cd69cec9d8b110adce47ac3158aa135eea"
+    },
+    "docs/artifacts/sundial_deterministic_extension_completed_v1/files/061.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\artifacts\\sundial_deterministic_cost_completed_v1\\manifest.json",
+      "source_sha256": "24b2915c9c4e866bbc60b450449545f07f7f9c3860b6018e57d3fd08bea033f7",
+      "gzip_sha256": "95b2e4fcbd0922f0502fab2f364079ed5e1f52bc2ebf7b84ed9ac8dea473bd5b"
+    }
+  },
+  "lossless": true,
+  "credential_absent": true,
+  "api": 0
+}
