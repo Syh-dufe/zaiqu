@@ -1,0 +1,22 @@
+{
+  "000.gz": {
+    "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_pure_happo\\run.py",
+    "raw_sha256": "63d9390893ea06501b9a117d43b6d33cfea94ec5efb7bea3d89ee261f65818a9",
+    "gzip_sha256": "1142ec27153cf0166024476f6cf6ba961e7a248b2e6f2766db05e65026b7eefc"
+  },
+  "001.gz": {
+    "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\superpowers\\plans\\2026-10-15-cached-path-pure-happo.md",
+    "raw_sha256": "0c29932aa2fe30151cc323b3b29936835933226c7c93fb663014981be4f5561f",
+    "gzip_sha256": "1d205b8bae6eaa7a31fb1873c77e566dfe58df1a0f3d58fcc2ee1682299999a4"
+  },
+  "002.gz": {
+    "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_pure_happo\\cached_paths_v2\\registration.json",
+    "raw_sha256": "614d2fda1268dcb291650742b025fe2bee12fa03c2d4b5cb4754b6b7d77dbcd7",
+    "gzip_sha256": "b1648ae69dd100e2a62170da3c1ef5325bd690df0b3e23a4e4a3a96b411425d4"
+  },
+  "003.gz": {
+    "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_pure_happo\\cached_paths_v1\\registration.json",
+    "raw_sha256": "52129e8168be3db210244e83d69808704ad18b2143489efc1d876a884a363bce",
+    "gzip_sha256": "3ca02b62671e6be3136fb840f49eabc44828e0f928d26d6dfd9af7a201b70203"
+  }
+}
