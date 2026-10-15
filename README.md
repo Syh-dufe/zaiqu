@@ -244,3 +244,7 @@ Sundial128M冻结，仅训练24参数门控位置/尺度校正：24新训练路�
 ### 真实LLM＋响应Sundial开发试验启动（2026-10-15）
 
 用户授权恢复真实API测试，采用校准选定all_half，未将其称已通过五模型验证。11/14模型、四条reserved adapter-dev路径，两系统original_merton/响应适配Sundial，共32回合19200节点期，首轮256HTTP128语义、无自动重跑。原LLM提示/解析/修复/修订守卫/池复核保持，实际预测器写审计，历史Merton提示描述的限制披露。完整无网络16回合9600节点期固定零规则接线及尾段审核通过，登记e29c15a已推送后唯一串行驱动启动；首个真实请求有效，用时约3.3秒。尚无完整成本结果，不预设Sundial胜出。此前故障批保持停止，历史六次超时/在途请求另列。见[当前协议](docs/superpowers/specs/2026-10-15-sundial-response-live-api-design.md)及[响应校准结果](docs/2026-10-15-sundial-change-response-calibration-results.md)。
+
+### 同路径三方成本补齐完成（2026-10-15，更新以上启动状态）
+
+用户要求复用旧Merton后，reserved路径批已停止，29次请求及部分产物保留。当前11/12旧stationary路径仅新跑响应Sundial，16回合实调67HTTP完成；另补纯HAPPO16回合9600节点期，API0、无训练。全部模型/输入、逐期I+B及动作、正常/通知前前缀审核通过。四类型等权总体成本：纯HAPPO20.356458，旧LLM＋Merton20.590625，新LLM＋Sundial20.605833；新版本没有总体优势。每类只有一条物理路径，这是开发描述，不是泛化确认。纯HAPPO种子11收尾缺席评分文件的故障与独立续跑均保留，复用该种子不重跑。见[完整三方表与技术记录](docs/2026-10-15-pure-happo-cached-path-comparison.md)；86份源码/原始产物无损gzip归档保留失败，权重不重复上传。
