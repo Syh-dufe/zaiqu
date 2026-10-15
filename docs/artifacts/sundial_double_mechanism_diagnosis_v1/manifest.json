@@ -1,0 +1,48 @@
+{
+  "files": {
+    "000.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_double_mechanism\\six_rules_v1\\execution.json",
+      "raw_sha256": "4a9aec61032dc7c4229810f41017ca30cc93918bc40e3c29b446a789b984e52e",
+      "gzip_sha256": "82bb6f68bf5aff2cc92dc3fdc268979bb64585047a4fbf35922b909144775f3c"
+    },
+    "001.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_double_mechanism\\six_rules_v1\\forecast_points.json",
+      "raw_sha256": "b2c355db07dda1a1f1ee3d087d6fb6f1622d922b61fd98146e1e18207c74b1de",
+      "gzip_sha256": "810018d7823b8708db078a3986285b6cefae0b899b4b7024e081d73cfa11223f"
+    },
+    "002.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_double_mechanism\\six_rules_v1\\generation.json",
+      "raw_sha256": "2c1cbdddf976f255585920ef3e9720aef12db2a0d5b56f114dcbb2767ce909a8",
+      "gzip_sha256": "16f31626c4973820bb4caa4c05083f47bfed3c8ac7aa2c1bc7d17b16bad8fc7b"
+    },
+    "003.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_double_mechanism\\six_rules_v1\\input_hashes.json",
+      "raw_sha256": "74b2048eb87aee135d65410b238c620263c49a4fd7b9051c597ff144066c3df5",
+      "gzip_sha256": "e8ccf77e5570483c0af224a1dac62500d96c64f470634aa1df7b6d13ebb5fe2e"
+    },
+    "004.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_double_mechanism\\six_rules_v1\\stage_costs.json",
+      "raw_sha256": "8def6e33e385beeb4f17d5dd3ceff15edf039f7a0fb60111bed900482d982d5a",
+      "gzip_sha256": "d6f872334884c02c63635c244a59acfcc52e4f345ebcf3e2d21ef3f2a6a6ebbc"
+    },
+    "005.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_double_mechanism\\six_rules_v1\\summary.json",
+      "raw_sha256": "c549de1caa8f69dfd3edf868d03ff34d7323e8917fe21c4ec5011e84b32bf5f9",
+      "gzip_sha256": "1a194b4c242cd6658fca3e0abb5ec8df683e322c04882b0d451e1c04a72219b0"
+    },
+    "006.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\2026-10-15-sundial-double-mechanism-diagnosis.md",
+      "raw_sha256": "110b29b76eef1ad6d32193666534263091fa4b388c2823d7113638cf730094c4",
+      "gzip_sha256": "8b9c8e41544a06195945ffa3e58bd84465402a59c7cc440838009cc6a081e23e"
+    },
+    "007.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\online_llm_artifacts\\analyze_sundial_double_mechanism.py",
+      "raw_sha256": "3ea50463492fdd776194868bc59e9fefe004105e4286a5a9b5aed8d82298693c",
+      "gzip_sha256": "719f1287014eef3010d8dbc6c37717881a75743d71ea907bbcf6729ea7d7b3c8"
+    }
+  },
+  "credential_absent": true,
+  "lossless": true,
+  "api": 0,
+  "source_records_unchanged": true
+}
