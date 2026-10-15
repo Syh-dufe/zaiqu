@@ -248,3 +248,8 @@ Sundial128M冻结，仅训练24参数门控位置/尺度校正：24新训练路�
 ### 同路径三方成本补齐完成（2026-10-15，更新以上启动状态）
 
 用户要求复用旧Merton后，reserved路径批已停止，29次请求及部分产物保留。当前11/12旧stationary路径仅新跑响应Sundial，16回合实调67HTTP完成；另补纯HAPPO16回合9600节点期，API0、无训练。全部模型/输入、逐期I+B及动作、正常/通知前前缀审核通过。四类型等权总体成本：纯HAPPO20.356458，旧LLM＋Merton20.590625，新LLM＋Sundial20.605833；新版本没有总体优势。每类只有一条物理路径，这是开发描述，不是泛化确认。纯HAPPO种子11收尾缺席评分文件的故障与独立续跑均保留，复用该种子不重跑。见[完整三方表与技术记录](docs/2026-10-15-pure-happo-cached-path-comparison.md)；86份源码/原始产物无损gzip归档保留失败，权重不重复上传。
+
+
+### 切回最早共同对照路径（2026-10-15）
+
+按用户要求改用joint_baseline_confirmation/confirmation_v1的batch01原始需求，先保持11/12模型和16回合规模，仅新增响应Sundial真实LLM评估；原纯HAPPO与online_feedback只读复用，不重跑。8回合4800节点期无API接线及完整审核通过，130份注册gzip字节由驱动核验，登记2c48377推送后唯一驱动启动。状态根results/sundial_original_paths/development_v1。原旧控制器与新guard_pool机制不同，比较完整系统，不单独归因预测器；旧协议路径转义异常保留，以原始逐期成本与completed模型哈希审核。先前Poisson试验与不利结果全部保留。见[本轮协议](docs/superpowers/plans/2026-10-15-sundial-original-paths.md)。
