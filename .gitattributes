@@ -113,3 +113,7 @@ experiments/sundial_focus_completion/** -text
 docs/artifacts/sundial_focus_completion_v1_preregistration/** -text
 docs/artifacts/sundial_focus_completion_v1_completed/** -text
 experiments/online_llm_artifacts/archive_sundial_focus.py -text
+experiments/sundial_representative_paths/** -text
+experiments/online_llm_artifacts/diagnose_sundial_double.py -text
+experiments/online_llm_artifacts/archive_sundial_representative.py -text
+docs/artifacts/sundial_double_diagnosis_representative_v1/** -text

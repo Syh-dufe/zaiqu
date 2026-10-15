@@ -1,0 +1,494 @@
+{
+  "files": {
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0000.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\cached_contract.json",
+      "source_sha256": "7913371ff0711f078981586db5f09625bfdc6592998a569b021ef620833d4f8f",
+      "gzip_sha256": "b1882d1b2451c1de668aa00765e97aab920513f08b32611d9c4555b6f08df36f"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0001.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\summary.json",
+      "source_sha256": "89e435625d1b0b6ae5e5b22accd943090b2083b53c660a8b325f8f4c4aeeb55d",
+      "gzip_sha256": "030f4fa4f43630180c66607e85ff5c3c887253702cfcc7642db634202b476831"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0002.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\wrapper_contract.json",
+      "source_sha256": "52e15ceec2782dd522ef6d170c3fbf8d5352bf315f305eac66cc90bc0511cdb0",
+      "gzip_sha256": "5b7a558ca79021ca7ff9f494c03d24fa532af01b5bc5ffe8eba9c63bae9b492f"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0003.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed11\\calls.json",
+      "source_sha256": "08384bccc83d52b654b0d3d6f84cae58a1ed3fc8e5f5d4d39e8b87e1c0fdd5ba",
+      "gzip_sha256": "a49a42174a09b4d78776d652a9f2d0cbb0fc15443d3beb6cebaee4f469cbb5b1"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0004.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed11\\completed.json",
+      "source_sha256": "811291bd20482c6fe4216a6cace0396b19720a5829b2bb38cb8915f9c3b4cbe3",
+      "gzip_sha256": "10834bc28f9a0f5a969a56eb4b192b0bd88b8125cb2e615edb29561f9ef20a1b"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0005.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed11\\delivered_reports.json",
+      "source_sha256": "6ef95ffd88c286cd14bb35ef4e59df6b7f63eb806f396a13ee2803559391ab7e",
+      "gzip_sha256": "348945d1176021592461ca37245727b71b515d32275dc8d313edb6932348b403"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0006.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed11\\episodes.json",
+      "source_sha256": "44d534ea890a8ffc0ab36b87cf7fbb56aa509a858527a7fff7f6433f48d03668",
+      "gzip_sha256": "bcd8f7f7fb822d0ff4cd2b99efb245c94170652a0f93b7d0e00d790c73255860"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0007.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed11\\information_audits.json",
+      "source_sha256": "a1a3698282417311f5ef3b54dd486b772cdbe451a2572e1729353e9d95bef1ed",
+      "gzip_sha256": "374f48fcdeab43bc83174f842218be24c099e11d68637469c98fd94faa5ec206"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0008.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed11\\periods.csv",
+      "source_sha256": "6d88a6f172f7096f6fe2b30d85a7c4374045627e38dc046cfa8934d6d20f8fd8",
+      "gzip_sha256": "74862b86b3463f8d5350eea5328b8a5ff3ddef446cce2bd5361a00f32c81e482"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0009.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed11\\registration.json",
+      "source_sha256": "0c00a941f968e04ff404aebc2fb6b5c101ca970474edff8673a2f1693249408c",
+      "gzip_sha256": "1c4851a6bfa5c2bcc2cceae7c52cb55cc8baa1ddf888aa94eccb901422f11cda"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0010.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed11\\replay_verification.json",
+      "source_sha256": "b89cc8b4c93d3d3a95fce1f03195ce9dce73408a1383279af590a1e5d83e1156",
+      "gzip_sha256": "ed4c00436f00a8bf6eff378ae65b797d1cdb94585b5628cd37e0ce97b0046c94"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0011.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed11\\runtime_failures.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0012.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed11\\scores.json",
+      "source_sha256": "210b3cd7a78528d2284965e2645005453f7f55b37e70d8f6be6149f064ac269e",
+      "gzip_sha256": "eeb49fbfe97534dd9b43afd046d5771ae0f9164b2d3048c1bed85c8f9e38d15f"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0013.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed12\\calls.json",
+      "source_sha256": "94496a843e1bcf093b43a27d080ce58f922f623ee7549e97097c5be3e00b4619",
+      "gzip_sha256": "dfe16aefa945e8dfa63616bf04e7c42658be968f12c5a585410b4f0457559771"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0014.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed12\\completed.json",
+      "source_sha256": "4e6470261b0a06598a8fc402e5a6e7eac27df1f7fff106f2c4c7acd5814c3ce1",
+      "gzip_sha256": "c0027ae5ae58ff2ef4c21268c5069b0f497de60f889e527bf78623f698b26d79"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0015.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed12\\delivered_reports.json",
+      "source_sha256": "6ef95ffd88c286cd14bb35ef4e59df6b7f63eb806f396a13ee2803559391ab7e",
+      "gzip_sha256": "348945d1176021592461ca37245727b71b515d32275dc8d313edb6932348b403"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0016.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed12\\episodes.json",
+      "source_sha256": "d31c85db36f7c31d9543942755a8320f818045596f1eb864d1044b026885e91a",
+      "gzip_sha256": "74f89a36e2c1aece5bb5328f97d4638c707df80a1815f791f93ddba8303ebaa5"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0017.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed12\\information_audits.json",
+      "source_sha256": "02dc769cda3f4d23420f28130473c4d5725f666b5c66f316fa33e87eb6f58a0e",
+      "gzip_sha256": "d530fb9c4f0720ffba884216f303c7ddf3d534c331c653763688710dbecfe2ca"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0018.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed12\\periods.csv",
+      "source_sha256": "1038c5b88f468da4b08aeae81b62af920871a8a3152b33f6b3741e2cec681763",
+      "gzip_sha256": "5fe8153c5b6e4748e8e92000f78adbb30654e5062723b59eab6160131b5846a4"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0019.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed12\\registration.json",
+      "source_sha256": "3b4924f8edd64ff4b90a8f3e417a63f77245fe1a5a8f1b27f7ac59b0a357bcfc",
+      "gzip_sha256": "d8a05ab9053144726b0713e6238b83b1a39d273c1619f4a4508e82f6c13d565a"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0020.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed12\\replay_verification.json",
+      "source_sha256": "b89cc8b4c93d3d3a95fce1f03195ce9dce73408a1383279af590a1e5d83e1156",
+      "gzip_sha256": "ed4c00436f00a8bf6eff378ae65b797d1cdb94585b5628cd37e0ce97b0046c94"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0021.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed12\\runtime_failures.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0022.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed12\\scores.json",
+      "source_sha256": "da85af98e76237a4de409cb5a1ab4fe7f22a00a34f471268b319184cce97a7f3",
+      "gzip_sha256": "e09acc6f23786f6008c9bf7cbc23558c7b113be673564c75df30ea38545878d0"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0023.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed13\\calls.json",
+      "source_sha256": "d02bb9a6f5e756568588a7e827de3237468c98c9055124339ba7e47fa95aad7c",
+      "gzip_sha256": "267e37d14938dd4d714c57a4b16632535c16658e03b109d34b71dc53c20ce2d4"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0024.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed13\\completed.json",
+      "source_sha256": "a144ee16873927a4570be29f8afd612ad1262385faee4a83894af90830d60614",
+      "gzip_sha256": "5cd491adda61d1c0811112b2655274481973536aa59d1ccb58a0a6600add17db"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0025.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed13\\delivered_reports.json",
+      "source_sha256": "6ef95ffd88c286cd14bb35ef4e59df6b7f63eb806f396a13ee2803559391ab7e",
+      "gzip_sha256": "348945d1176021592461ca37245727b71b515d32275dc8d313edb6932348b403"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0026.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed13\\episodes.json",
+      "source_sha256": "2757207f02bd89fc11e3b2d12b8f43af9813827831e52baff0ea2eb336aba73c",
+      "gzip_sha256": "7edea046e256a6582b4e1c402be558f7f25c1511132965581fd5a58a2a31f0c8"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0027.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed13\\information_audits.json",
+      "source_sha256": "133eafdbd9224154bbba047cd09edbd0a4bb4fc571b627e8c4185df04f365fba",
+      "gzip_sha256": "cf3f4ba822788436fd2ba52fab1e349c44ceadc35f8edddebe4bf8e6cbc6d50a"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0028.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed13\\periods.csv",
+      "source_sha256": "140a67223d414b0137b151d06ea251f044678bc8cf2493210e486decc3038f3e",
+      "gzip_sha256": "a0284657b681947f0b94cdf1c723ff6f138c600b351811784a0527fe7fadd9a2"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0029.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed13\\registration.json",
+      "source_sha256": "a4b0470dcf93164efc3d3184d1b2c6091dcd68e6d8181aa00f6b2455c90f8c10",
+      "gzip_sha256": "d41e61d95a6058a69391e5d3fd5a8a158b53415829893953a487e35c725dd1af"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0030.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed13\\replay_verification.json",
+      "source_sha256": "b89cc8b4c93d3d3a95fce1f03195ce9dce73408a1383279af590a1e5d83e1156",
+      "gzip_sha256": "ed4c00436f00a8bf6eff378ae65b797d1cdb94585b5628cd37e0ce97b0046c94"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0031.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed13\\runtime_failures.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0032.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed13\\scores.json",
+      "source_sha256": "477ccfea80eb5496216eb56cf5ca760646ed9ff3ee3e0b3a1c4b944381b48905",
+      "gzip_sha256": "50ff4de54b80f9d22efd4a5c78d4528bbf7b89cca7aa1f70b7918a954bcd3749"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0033.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed14\\calls.json",
+      "source_sha256": "117d536e46826afaa11a34db216250f4ea4ea253d685167d5a823bce166e8697",
+      "gzip_sha256": "84617e7fe11a03d5afd3a1de4a2f8199ae9f26a24350badbf4baef0f7496ea2a"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0034.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed14\\completed.json",
+      "source_sha256": "40caeb622ed66562bf618f550877be87d8c307b84ed13efa5b25d6d78d675341",
+      "gzip_sha256": "f1ed42b75de0e003802c37ce6c2095a90313d446bfc6ceb85325d2c99400554d"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0035.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed14\\delivered_reports.json",
+      "source_sha256": "6ef95ffd88c286cd14bb35ef4e59df6b7f63eb806f396a13ee2803559391ab7e",
+      "gzip_sha256": "348945d1176021592461ca37245727b71b515d32275dc8d313edb6932348b403"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0036.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed14\\episodes.json",
+      "source_sha256": "3b27163935f5e56adf3d0407bf747e8c34ad5cdd9ee17a6169445527e83ad76b",
+      "gzip_sha256": "d07f7f7804be71a01eea31b6b68fcf0cd1b50e41e8fb8b9c9c4cecb11b7a0fcc"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0037.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed14\\information_audits.json",
+      "source_sha256": "cc98d69ba41b11bc1b0a8e969fd2562df8529a5c96e5ed55592c7967328d1f2d",
+      "gzip_sha256": "0b1e5dfa9be9225ba38c762cddca17fa92d359d91aba174295e726a0b298d5a0"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0038.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed14\\periods.csv",
+      "source_sha256": "e67c80c2a7ecd04ad6921ffc5865c442eda72f0e0a72b3c7b59d6ae97ec1b771",
+      "gzip_sha256": "a91b55fcc52d95bda7cf2f9392b4d7f55c964bbf9d3a0f52d675fd62d699dc91"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0039.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed14\\registration.json",
+      "source_sha256": "d39b5e9c5bbe49a8be662924d149405ac461b45ca556ae37e7d30a3b000ed320",
+      "gzip_sha256": "00ebc429db6ba5247af26720e7a5f3643fcdd4bdc8dfcdadd02231cf83acd8e9"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0040.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed14\\replay_verification.json",
+      "source_sha256": "b89cc8b4c93d3d3a95fce1f03195ce9dce73408a1383279af590a1e5d83e1156",
+      "gzip_sha256": "ed4c00436f00a8bf6eff378ae65b797d1cdb94585b5628cd37e0ce97b0046c94"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0041.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed14\\runtime_failures.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0042.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed14\\scores.json",
+      "source_sha256": "9b2e7e8507838de0ee8e45ae41016926df8d45e15cdb2d94b28bef1c07cf5916",
+      "gzip_sha256": "d28c3ae99371453dc7a522ed1149dac96f1efdca5f38daf1020c9e13dff66231"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0043.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed15\\calls.json",
+      "source_sha256": "50c8ecbafafbf35ac7463a6362fdff627b5aef9e26f48e79c41f40df56834b2d",
+      "gzip_sha256": "1cd19ee3d99e94ec11b1e1f2b5a1f1a54a909d6ae2e621f4b56ce2c7a9a98a40"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0044.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed15\\completed.json",
+      "source_sha256": "fdc47bdfffb763b180a369f43060399c720ba0bf943a3b04e978091e53421322",
+      "gzip_sha256": "4808c22762d8303920996b5f517dd91a271e94aff655a8a34278e424ac87d542"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0045.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed15\\delivered_reports.json",
+      "source_sha256": "6ef95ffd88c286cd14bb35ef4e59df6b7f63eb806f396a13ee2803559391ab7e",
+      "gzip_sha256": "348945d1176021592461ca37245727b71b515d32275dc8d313edb6932348b403"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0046.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed15\\episodes.json",
+      "source_sha256": "e833a9d84cee1c044f92b6a7bd723ad84ffc125b04fe00b092516fd5dcac5ca0",
+      "gzip_sha256": "ba98c6603232649b2d34114db83d57f662d4b5541ef7cc09f26f43128a1e44bb"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0047.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed15\\information_audits.json",
+      "source_sha256": "a01620be4d4775cbe88c96ba085ce456a977743eee4b4d48101937ecbc6b2e77",
+      "gzip_sha256": "7e876743f149c647a62c6677054977ac8a40ec2b55e1148a542534b7631e3507"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0048.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed15\\periods.csv",
+      "source_sha256": "53d6724e5abdc4d7628f248dd0d4ec4471e55ce69a957103c965e634234be3c4",
+      "gzip_sha256": "dba20baa0632b0d73590e288d6f1fefbea368dce90b5a50bebb6c01798aba76c"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0049.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed15\\registration.json",
+      "source_sha256": "cb22ace815c900d77077ea4a2705c694a89165d815b52319b8e44ae3a56651c6",
+      "gzip_sha256": "72b5db68f2f916b834f1a1e342c701c28a75f9f8b9a0fd4d16c8ef2b2ae9b437"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0050.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed15\\replay_verification.json",
+      "source_sha256": "b89cc8b4c93d3d3a95fce1f03195ce9dce73408a1383279af590a1e5d83e1156",
+      "gzip_sha256": "ed4c00436f00a8bf6eff378ae65b797d1cdb94585b5628cd37e0ce97b0046c94"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0051.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed15\\runtime_failures.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0052.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed15\\scores.json",
+      "source_sha256": "d2d7e7c862085bb519beed74cccef10de92cdc8116050ea08763c0f93c71f407",
+      "gzip_sha256": "de1e5b5f400ec4095c5ec5293750faa08efff7ee7735129e3b12aa3c4f5bd138"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0053.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed11\\adapted_sundial\\logs\\events.out.tfevents.1792033604.石原赫的电脑",
+      "source_sha256": "48e891758a2616203922457da7fe543ea1fe99862d91ad697286d82a6b6be591",
+      "gzip_sha256": "96a30799fd4cdbfabece25a604b581019dcf68a7587608284be79ffbce86e035"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0054.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed12\\adapted_sundial\\logs\\events.out.tfevents.1792033629.石原赫的电脑",
+      "source_sha256": "24d0a754280b6287b0f352d07f6c30dc2aa3b79f62a30b5e223094f97142696d",
+      "gzip_sha256": "b1b0bd9ae2a3a7777e26618832c6ba3f6077b052aace2cd2f7241fe58dddb777"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0055.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed13\\adapted_sundial\\logs\\events.out.tfevents.1792033702.石原赫的电脑",
+      "source_sha256": "e9f58965bd2b9befbf6ef23a04b65e83b8e88db21a4932d68474901645ab08e4",
+      "gzip_sha256": "04bec87569418af86edb5a88515275bf124be32b575b7bf6ffe023ba394de482"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0056.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed14\\adapted_sundial\\logs\\events.out.tfevents.1792033546.石原赫的电脑",
+      "source_sha256": "297812d5438d3c39c04f3345063c63eb311f3337a36710836568e431a6dffaee",
+      "gzip_sha256": "90632c325b7eb742506a1a2625fe9f201e554aa77ef0c00da4958158e932ad97"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0057.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_paths\\no_api_replay_v1\\seed15\\adapted_sundial\\logs\\events.out.tfevents.1792033571.石原赫的电脑",
+      "source_sha256": "1bbbe91321a3f265b6600b90f815b802765d0d5ea822900a5cf2e2caf2a86ac6",
+      "gzip_sha256": "9a283b78b01942b70317a1f63b80b16206657a08747b06c56270465eedd32e10"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0058.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_double_diagnosis\\v1\\cost_gain_diagnosis.json",
+      "source_sha256": "f6d37f576a4a6a69196e6177920a0125181608cd9d7a82e36133380191d9e8b5",
+      "gzip_sha256": "acfae1ff57b96d44a9998700a1d35b1b8ac9f10ec5d4d8cd94f73ceed03aef5e"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0059.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_double_diagnosis\\v1\\diagnostic_source_at_failure.py",
+      "source_sha256": "e03f1b038ff1965929cd699afa52c771a85d982898d27e2559ee41fc758adb2c",
+      "gzip_sha256": "4d7b2a829308e4c9f0fe5937e0aaf6d2eaa519d3fcafe73d3fbad1ef35ef8327"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0060.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_double_diagnosis\\v1\\seed14\\delivered_reports.json",
+      "source_sha256": "ca23e518a3a65de3be86606efc612009d8655c663c73e7fa1f49400c7232c7c9",
+      "gzip_sha256": "870723f184704aa05d84f7d63952b3b349734f4fad0835ec53b9ceb17ccb4a14"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0061.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_double_diagnosis\\v1\\seed14\\episodes.json",
+      "source_sha256": "f55d466d92bc8e6f28b3e8514c9be96e2176e76c44e86ab8743efbcb5a5d7bc4",
+      "gzip_sha256": "7a1a34233ef1fbc95acb82cfec2817972d149a7803964b1ec140bc6f787c6bd6"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0062.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_double_diagnosis\\v1\\seed14\\failed.json",
+      "source_sha256": "6b6fc4ee07d4e3e40c732164c5f879309630a919b5978d512ddfd2319c40fa14",
+      "gzip_sha256": "c3b3323cad061908841b7fab1f215baae57e3cbcf378fdc8c42a28edd90b40f9"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0063.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_double_diagnosis\\v1\\seed14\\independent_numeric_verification.json",
+      "source_sha256": "2cc27872f045fec1cd241441e3eb2b2f2178f7944630544ab685779522c34e72",
+      "gzip_sha256": "b7475639b5ad2bf55e21ce25fe48a8b71fc7b5cb65cd43dda4fe8c94415d5ab6"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0064.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_double_diagnosis\\v1\\seed14\\information_audits.json",
+      "source_sha256": "27ef42e67115aa0ebf6bba4495d264b5a0669ae51bb38689ebd8197bbb5af482",
+      "gzip_sha256": "1cca25d3c03343b5e0c3c9affd12bca94dd31b94fdd3f7c27179e2d6a9d79e43"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0065.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_double_diagnosis\\v1\\seed14\\matched_state_probes.json",
+      "source_sha256": "da47bdffac9f04f3a895169fe45c378a130b40c16455614ec8f80a2e1a2cf721",
+      "gzip_sha256": "9bba160d2d767cb16ca933ec9685656f3143858613c4e399828d82bde2136ad7"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0066.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_double_diagnosis\\v1\\seed14\\periods.csv",
+      "source_sha256": "cf5525db220d1ee97a9e68a981e6eff8ab8a80282d3c14db91556fb40178da99",
+      "gzip_sha256": "ac3c755751153f4d0165db78a29d9df05b615e3b4f0c0bea1aac05868566bb00"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0067.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_double_diagnosis\\v1\\seed14\\runtime_failures.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0068.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_double_diagnosis\\v1\\seed14\\scores.json",
+      "source_sha256": "719f050cbf6d309bafcc23956af59729465b69b81ad8460d6bf548b65b7f5f97",
+      "gzip_sha256": "362c163dc6316a2257f87e2c1702a05efbca9146e7584be32668c09702860aad"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0069.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_double_diagnosis\\v1\\seed15\\delivered_reports.json",
+      "source_sha256": "ca23e518a3a65de3be86606efc612009d8655c663c73e7fa1f49400c7232c7c9",
+      "gzip_sha256": "870723f184704aa05d84f7d63952b3b349734f4fad0835ec53b9ceb17ccb4a14"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0070.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_double_diagnosis\\v1\\seed15\\episodes.json",
+      "source_sha256": "78120807508b2242f450b138f00335655a949be6358bd327f50b15214ae8a5f7",
+      "gzip_sha256": "74f2150e73fb0cc47c7969c115a259259f179afc612ed75de3394677ae0bb505"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0071.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_double_diagnosis\\v1\\seed15\\failed.json",
+      "source_sha256": "3a580b03d61fec27cbc2c29ddc0cb5601df510840baa8fddf3e43812ba74fab9",
+      "gzip_sha256": "24bdc6c2e38ad51f562095205588b4502a07d404e6894eabce7e825f8c7b8dfa"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0072.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_double_diagnosis\\v1\\seed15\\independent_numeric_verification.json",
+      "source_sha256": "2cc27872f045fec1cd241441e3eb2b2f2178f7944630544ab685779522c34e72",
+      "gzip_sha256": "b7475639b5ad2bf55e21ce25fe48a8b71fc7b5cb65cd43dda4fe8c94415d5ab6"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0073.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_double_diagnosis\\v1\\seed15\\information_audits.json",
+      "source_sha256": "f81eae5294c0f946e2e7ec179e41002305ee8e05e0ae4d6d93857ccbb1ba74d9",
+      "gzip_sha256": "39ebe423e5b0e4b4d21e84303541a7222d085d9ec71aa49e37f78488ffd16474"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0074.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_double_diagnosis\\v1\\seed15\\matched_state_probes.json",
+      "source_sha256": "ebe5f9d9b26ee900705df283d9bdc46c70bf9d6d52d49af4b69da4a974d3b8a0",
+      "gzip_sha256": "27589c165f35e34606e35f90078ad5a13027269473c8489b719720639c9447e5"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0075.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_double_diagnosis\\v1\\seed15\\periods.csv",
+      "source_sha256": "adb895fd1156a22c79b173f85711fc0236ebaf5e34baa176f4478034ca5b9dcd",
+      "gzip_sha256": "92b6280423e24f019c93196680afac680d27e2ff2eedb3645a02552b342a9432"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0076.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_double_diagnosis\\v1\\seed15\\runtime_failures.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0077.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_double_diagnosis\\v1\\seed15\\scores.json",
+      "source_sha256": "5867affeeb940b35e4dafde1e781f28601544ca53cfd1a5b8b92c622afbbd6a6",
+      "gzip_sha256": "d85e174fef75e6242f904f34bae648a7099f539a6c7a1b858e7e6acd7dbf4750"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0078.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_double_diagnosis\\v1\\seed14\\adapted_sundial\\logs\\events.out.tfevents.1792031384.石原赫的电脑",
+      "source_sha256": "dd1cd429425e7fdfe90cbebe3446f6954cbba69174c1a1ac69558d80fc530a3e",
+      "gzip_sha256": "385c2bf263ed0b6c5d15f8888508cf0df4d41d678134e77b8de04658007d6763"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0079.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_double_diagnosis\\v1\\seed14\\original_merton\\logs\\events.out.tfevents.1792031351.石原赫的电脑",
+      "source_sha256": "a6ea85c22c93e6804de3b34e654649393485198e4d631b9e7e69075551c09e52",
+      "gzip_sha256": "5267dde255b347b5b9217734cf027b243cc3e7f2c52b1f6d1af2d82ee5e956e0"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0080.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_double_diagnosis\\v1\\seed15\\adapted_sundial\\logs\\events.out.tfevents.1792031406.石原赫的电脑",
+      "source_sha256": "08f4ab6bdbab1903804d06b874d0cf61bbd1e5f3dd1819f7bd1354b020c04733",
+      "gzip_sha256": "7ae38a368771be62291f88988db5a7e44ddf212bee1e927a6bab0009050ce579"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0081.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_double_diagnosis\\v1\\seed15\\original_merton\\logs\\events.out.tfevents.1792031368.石原赫的电脑",
+      "source_sha256": "9959742a1d36baad566a4be00dc708e1cba25ba18e8df383bcece66fffa71a9c",
+      "gzip_sha256": "ba55ee1a99cd6f97df9f076f07a0c1772017422b4679ab171cf4b9e39b7f6a38"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0082.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_representative_paths\\predictor.py",
+      "source_sha256": "41c0cb339e20737a50e0752b12de3efc2f2524a70d1b21b9e172a10bde1904b8",
+      "gzip_sha256": "0316eda1a0a435d36ed37f69eed574887ece174376eaa15d5823e394ddf9409f"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0083.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_representative_paths\\replay.py",
+      "source_sha256": "e3a287a313e0718c631585f6c44389cf0784c9051aebf3814ac415913a31100c",
+      "gzip_sha256": "e4c067a07fd74b7db5890a77ccc9c7ebc03cd264e97270028cfc92caf5a8453b"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0084.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_representative_paths\\selection.py",
+      "source_sha256": "f299f638ec87c8b0d5aa8d9c925822d4940e9d912b190472e85cbdd9b1690a0b",
+      "gzip_sha256": "98b978cc8f2e6dfe6525de0ac711fa54b7d56de6c6bdd2f1034aad26e7cb1a36"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0085.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\online_llm_artifacts\\archive_sundial_representative.py",
+      "source_sha256": "033ea8f68feb63c0168ee1621858c0be3ab33946da83b87bb335de65118b1175",
+      "gzip_sha256": "20a3b5cc5a363cefb2c04444d1132e1cab97227b6159009b2d23b8e158a63d71"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0086.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\online_llm_artifacts\\diagnose_sundial_double.py",
+      "source_sha256": "2a0239169b30b1ff24ff0d0ae51405b1a8a3c3c07b97eb9388d855b1c44c9ee5",
+      "gzip_sha256": "be9cfedb7c253a17fd211af5938a90c678d54b78f7d4913ac92c1baec81bb8ad"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0087.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\2026-10-15-sundial-double-diagnosis-and-representative-results.md",
+      "source_sha256": "2e985c720240532e2e05e762c2bb1206b2083012ba3be710dd7975977b57ff5a",
+      "gzip_sha256": "65fced22d3762c7423530692413905f1e3141e2e95a4a8a0feefe4a351aa781b"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0088.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\superpowers\\specs\\2026-10-15-sundial-representative-paths-design.md",
+      "source_sha256": "2126b6b2a1ad08b5945996086f3e202a967f7c284199d9b9a75883b21fc69b57",
+      "gzip_sha256": "502b5fd2eba5b6820c4f261390bc07698dd9809043b53af4de2abec16ae14323"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0089.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\superpowers\\plans\\2026-10-15-sundial-representative-paths.md",
+      "source_sha256": "73609d0cd089d4eb3b05920f5e6738dce338d9d11f88968ac56d34234b4125cd",
+      "gzip_sha256": "ca39a1a406cabda5a921185b0af6b5cf92154bb75ece8f06808200024e7eb512"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0090.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_double_diagnosis_seed14.log",
+      "source_sha256": "1942f58e2eb2c2cdbf0ecd2785438604e89e1ad633b4bfb0d1f7571edbc45305",
+      "gzip_sha256": "a4c7996de73c12d1ca41d45f382b8dde72a3f8aab2dbc2e14726ae59f4430580"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0091.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_double_diagnosis_seed15.log",
+      "source_sha256": "60145ca82361ba9f648839df99e90b2d7a558747fd798b49b5dd52661d4bb2f4",
+      "gzip_sha256": "9ad4a350e4319454fac3e7c969598605d3a9e22ada3b115a47f862128fd16255"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0092.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_replay_seed11.log",
+      "source_sha256": "e40e935d2fb3eccab046848e67be136f1523993f23a1199c4bfccd0fef4d21ae",
+      "gzip_sha256": "df4f561d33dc29cdf1f5a7e3c45323f7e5764b1b05ace7049917f7ddd239867e"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0093.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_replay_seed12.log",
+      "source_sha256": "975c9e323e4e0871da41996db1be7e4f201dec58f76c3ffa6b2f02ba8765507d",
+      "gzip_sha256": "97e50864fd7781cab334e6578ae0c526d764f78b43265c06e9acc66650d4119f"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0094.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_replay_seed13.log",
+      "source_sha256": "9976d60ec20bac0b6a683d3abd7b21a49b566e892f06b4b9c8053bce02a5c885",
+      "gzip_sha256": "a523de5b8c60441419d71ff97f976895fe6e344ca9ed59fa2caff7e0d7494acd"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0095.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_replay_seed14.log",
+      "source_sha256": "fd56322c796c69b8dfd43054eec0e51b6c955c38e1473cc28a6076662c2d880e",
+      "gzip_sha256": "a7b546c403b520a59873646a33c0c8f4abb2a20340c21019c0b4a70dbd82f2a0"
+    },
+    "docs/artifacts/sundial_double_diagnosis_representative_v1/files/0096.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_representative_replay_seed15.log",
+      "source_sha256": "4957341a3e78305d85f86975c0dc752775b7d8066baa4a1ea532997b0fd6c5bf",
+      "gzip_sha256": "d6afed0f404b580a9c6d3ffbb4efb24796976004890480108fc024c9dc753ad4"
+    }
+  },
+  "lossless": true,
+  "credential_absent": true,
+  "network_requests": 0,
+  "original_diagnosis_tail_failure_kept": true,
+  "not_live_api_confirmation": true
+}
