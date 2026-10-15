@@ -258,3 +258,8 @@ Sundial128M冻结，仅训练24参数门控位置/尺度校正：24新训练路�
 ### 完整机制匹配的Sundial替换正式启动（2026-10-15，当前活动批）
 
 用户确认两边都保留修订守卫＋候选池逐一复核，仅替换预测模块。当前唯一驱动run_matched_guard_sundial_batch.py，状态results/sundial_matched_guard_pool/development_v1；11/12模型、confirmation01_main原路径、16新回合9600节点期，复用online_llm_guard_pool的guard_pool Merton结果与原纯HAPPO。59原源码hash、旧结果raw hash、模型/SYSTEM/接口核对一致，8回合无API接线完整通过，189份gzip注册归档密钥缺席及Git存储字节核验，登记39f95a5推送后启动。128HTTP64语义上限，无自动重跑；Sundial含已冻结multiscale24/all_half适配，提示历史Merton描述和不同API日期限制保留。不拿五模型两批22.312均值与本两模型一批直接相比。此前最早路径批23HTTP后格式修复失败停止，原记录费用全部保留，本次未重启该批。见[匹配协议](docs/superpowers/plans/2026-10-15-sundial-matched-guard-pool.md)。
+
+
+### 上述匹配批次已因格式校验停止（2026-10-15，当前状态）
+
+实际首次生成及原一次格式修复共2HTTP均返回候选规则数4/5/6，违反冻结DSL每候选1..4条规则；已自动停止，无完整冲击成本、seed12未启动、无自动重试。不是余额/网络错误，不能算Sundial效果退化。原回复/费用/正常回合/失败均保留，不截断规则或挑有效候选吞错。见[完整诊断归档](docs/2026-10-15-sundial-matched-guard-pool-format-stop.md)。

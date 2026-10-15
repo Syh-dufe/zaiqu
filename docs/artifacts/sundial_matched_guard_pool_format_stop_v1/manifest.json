@@ -1,0 +1,150 @@
+{
+  "files": {
+    "000.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_matched_guard_pool\\development_v1\\api_precheck.json",
+      "raw_sha256": "e7c1472bca7a63d475fff9d71cf8d0364ea4113fe14723ed1f3d21473af72352",
+      "gzip_sha256": "64c35f0cd49ff632ec1e4bd8c67e27356ed438f5b6869eb1801692ec86bf70dd"
+    },
+    "001.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_matched_guard_pool\\development_v1\\driver.log",
+      "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gzip_sha256": "46b50c321b39e89a491b6727a01628c34245605a30beb3e7414c5e01cff90e6e"
+    },
+    "002.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_matched_guard_pool\\development_v1\\error.log",
+      "raw_sha256": "a9be4006e72386dd0d128512bac5d943ee335702e0d05b623683d77d8517470d",
+      "gzip_sha256": "c321ff8f159decf05c4eab6fdf9457576ac1925d4f0db67ab06d5cb8aa8a8d7a"
+    },
+    "003.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_matched_guard_pool\\development_v1\\failed.json",
+      "raw_sha256": "378ed2abf71ba37a8236f56ac22d42b4ca418642b7413351c220a4e28ab7f962",
+      "gzip_sha256": "da61ad9433a130d3fead3f0a4188bc404f0388eb871625162d79f91c95d7917e"
+    },
+    "004.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_matched_guard_pool\\development_v1\\launch.json",
+      "raw_sha256": "a9e9383f77388c59fb68c4230548177789fbcc5d38f8da3bb4de262e3918735c",
+      "gzip_sha256": "45603f258ca822bd8e633d930c8306a27cd30ba2492726edb0384649db4b58da"
+    },
+    "005.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_matched_guard_pool\\development_v1\\progress.json",
+      "raw_sha256": "4f9c3883c87ec5db8ff3c93013468aae70c73f174113e2c7c35b153c964e623c",
+      "gzip_sha256": "8f16795b5a130554b14edf86dcd15f676476f8cde6279f4592ff2821cc3e3a3e"
+    },
+    "006.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_matched_guard_pool\\development_v1\\publication.json",
+      "raw_sha256": "bef1aa5f4419cecd75ab7395fa40291d292570d238a55c2f346ca944f4b28f5f",
+      "gzip_sha256": "d43f1861c62da521da4cf2881437b200a38cd17bf1a3a2882ab5c337f88b5d43"
+    },
+    "007.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_matched_guard_pool\\development_v1\\registration.json",
+      "raw_sha256": "92c2576a0fc9e2be6c81a5b5e3531bc66d22037c9be0b605bd5f1d2228333512",
+      "gzip_sha256": "ab4ebc221c7c51b1bc6b3aa5cc9cb194bf4e3e99e7bcbd3f1384735b9dd384c0"
+    },
+    "008.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_matched_guard_pool\\development_v1\\seed11_four_types.log",
+      "raw_sha256": "76614606b217336330fc5dafe4693526ce9eea4bfddfe4b8153e5dc773dca3d8",
+      "gzip_sha256": "a11a54d19a10ffedbad68b3d25abfbc63d9cf472978b8316ceba5fd379e8fb30"
+    },
+    "009.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_matched_guard_pool\\development_v1\\started.lock",
+      "raw_sha256": "9477e5e3f8aa6ec869c12913d0c440c74e245d251907bee14c9116e9046c6bb7",
+      "gzip_sha256": "024eb28d1a18bd68ed01efcbf8074b3e8efec85d65c3cf839b8e95c426269661"
+    },
+    "010.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_matched_guard_pool\\development_v1\\runs\\seed11_four_types\\calls.json",
+      "raw_sha256": "c257419f31dd165239efef62392b2dc9b5be58a9307a9155aa7356b65935f6f1",
+      "gzip_sha256": "ce8d8a6800fbb7816478d07723292454ff502a964ec70d2e4d3d6e0ebbf6af90"
+    },
+    "011.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_matched_guard_pool\\development_v1\\runs\\seed11_four_types\\delivered_reports.json",
+      "raw_sha256": "c280957ec7ffe925afa3797be78015e65566e650b52a978a165f7098e987bf65",
+      "gzip_sha256": "1f9b97e2065b14e054a776ddc8bcecc28992450ff41e1c97c23a7b9e50a0b18d"
+    },
+    "012.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_matched_guard_pool\\development_v1\\runs\\seed11_four_types\\demands.json",
+      "raw_sha256": "99e4995eccfbe6c50f2d46b41e167769f69d6cdb61c9a75d84b264c7860a3bb8",
+      "gzip_sha256": "823cfe42c2b8db108fc047a83f5ecae833bfff94c162ca875e7b19746bf21a71"
+    },
+    "013.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_matched_guard_pool\\development_v1\\runs\\seed11_four_types\\episodes.json",
+      "raw_sha256": "0bae5c9d178ea855b916db69a4768637eff7f28ffab53f6155347478cdf486c9",
+      "gzip_sha256": "6c46c816aa6f8228168a575a35714a8dd24f31bc0b28ff0e50648a1ee235bd6b"
+    },
+    "014.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_matched_guard_pool\\development_v1\\runs\\seed11_four_types\\failed.json",
+      "raw_sha256": "81f8c8ca03ecde6a59d8d3dcfa545fccc2cb78a41bed24af0f25dff83ecfa1da",
+      "gzip_sha256": "b0c62a3cafa986c476f7048d35d62f8b4a9a847fb7cea24e2e5a780052551847"
+    },
+    "015.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_matched_guard_pool\\development_v1\\runs\\seed11_four_types\\information_audits.json",
+      "raw_sha256": "92355dbf07efc5d9397732a05806ae89f91c33a4119abb938941d125dff70e1a",
+      "gzip_sha256": "3597c56f35e98afac5a7ba445b3c11f73bbe8e9793b24f296f711c1557fbd77a"
+    },
+    "016.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_matched_guard_pool\\development_v1\\runs\\seed11_four_types\\periods.csv",
+      "raw_sha256": "f1a66fbfa6eda5c2569dbf59443196d28eafc73b1096d45dca08f11d43a9babb",
+      "gzip_sha256": "4b91341ca1637578635d41c163b3484a2b421c70a8a9869d4443244111d7f862"
+    },
+    "017.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_matched_guard_pool\\development_v1\\runs\\seed11_four_types\\protocol.json",
+      "raw_sha256": "e045075b64cb826f2d6bb891485f1d41e0091738006ce21180acfef7f19830fd",
+      "gzip_sha256": "5ca8f2c7e0027b3a07ceeed501d9ba54bfa0bcac14ab75fdcfd7bd4f55563756"
+    },
+    "018.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_matched_guard_pool\\development_v1\\runs\\seed11_four_types\\runtime_failures.json",
+      "raw_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "019.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_matched_guard_pool\\development_v1\\runs\\seed11_four_types\\adapted_sundial\\logs\\events.out.tfevents.1792050091.\u77f3\u539f\u8d6b\u7684\u7535\u8111",
+      "raw_sha256": "6a8890dd2671ab1be1b06769aa4c11220af86ab80f6222dd9041d6355e1e007c",
+      "gzip_sha256": "e7f07315e9179191c1a38158e6f59b47d94f4c025b7f1252a80ec64bfbb86a1d"
+    },
+    "020.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\2026-10-15-sundial-matched-guard-pool-format-stop.md",
+      "raw_sha256": "7abdf3f3a7beaadef1d00724b7bdaa3deb9efab6d5d532fda0cf968768fe955a",
+      "gzip_sha256": "8489dbc96c98f5fc9fc6cd47b6630c8a2e19712bb8e39786f22877eef8661d5a"
+    },
+    "021.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\superpowers\\plans\\2026-10-15-sundial-matched-guard-pool.md",
+      "raw_sha256": "5431dc4647b1a5c39459f291ad12b5f2ed41d1c2265e3d32a2b526cd46e2bd02",
+      "gzip_sha256": "b5fc1c7ce44d9c32086a608426f45d131394d21798b0fe453f12c16e8f421ab5"
+    },
+    "022.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\online_llm_artifacts\\run_matched_guard_sundial_batch.py",
+      "raw_sha256": "f7621b880f6440a6e6b64ee25b9d4da6fa5f32cfd61526c430888926625042ed",
+      "gzip_sha256": "a4be48f0387cbadcdc0f676c1fbeb5d18f2009ed42312e55a139413f11f47faa"
+    },
+    "023.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_matched_guard_pool\\audit.py",
+      "raw_sha256": "3c22003f723731354a07e937c8565793545baeb7dd301d6f302fe6722e4216d3",
+      "gzip_sha256": "04124f1bc248d70557f867ea7c6f1aed7ce094b20601602cd3369b4e809f2ce3"
+    },
+    "024.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_matched_guard_pool\\preflight.py",
+      "raw_sha256": "58ce17c9bac946821448418cf5387b9747ebf2321a40989a34436359d2776877",
+      "gzip_sha256": "f4e36575a233ea8c9d985f710f53122ae4f51139b6ed928b67b61951f05bb04c"
+    },
+    "025.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_matched_guard_pool\\runner.py",
+      "raw_sha256": "fbf94d20973bf439adcff0cd6415f1b45cca39fa038d89514e2fd38713f3ddb9",
+      "gzip_sha256": "8b1745addcb72cda6c88f9fbd75af3515285307e43d69dec6cf2a7b4ebc70595"
+    }
+  },
+  "http": 2,
+  "semantic": 1,
+  "rule_counts": [
+    [
+      4,
+      5,
+      6
+    ],
+    [
+      4,
+      5,
+      6
+    ]
+  ],
+  "credential_absent": true,
+  "lossless": true
+}
