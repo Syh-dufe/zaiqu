@@ -1,0 +1,188 @@
+{
+  "files": {
+    "docs/artifacts/sundial_multiscale_adapter_completed_v1/files/000.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_adapter\\v1\\cases.json",
+      "source_sha256": "477e10c1357b564133de479dbf576cb0fe45f67c7bc027a2410d8fdeddb2d2ea",
+      "gzip_sha256": "5263e74510758dcbb3df1b25c8d2592622fd910a714466aa56f5be4486647124"
+    },
+    "docs/artifacts/sundial_multiscale_adapter_completed_v1/files/001.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_adapter\\v1\\completed.json",
+      "source_sha256": "2213ac1e66ba867f80264fb6733cb25caa51e8ffbbab976d2a18792bb5e737e9",
+      "gzip_sha256": "3492133a9e8c454e56acc9f61c8090a9c52cf0dffee6c359b18dd75c9e7b690f"
+    },
+    "docs/artifacts/sundial_multiscale_adapter_completed_v1/files/002.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_adapter\\v1\\crps24_best.json",
+      "source_sha256": "c6bd264cd5372c742be8af8d7673af82cb8b7e9af4b4f3b105e134a9aa8e2381",
+      "gzip_sha256": "6aefffbc180629575b8dfd0d0c6eca2a822e882168fbaf6437aa2d7afc7516d6"
+    },
+    "docs/artifacts/sundial_multiscale_adapter_completed_v1/files/003.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_adapter\\v1\\crps24_curve.json",
+      "source_sha256": "9bf4313a0bc55e0118906d8c61547f95b893e04c271158ec6ff7df21734a5cf9",
+      "gzip_sha256": "40e2ce04593df06832be2ca5831ee85a0459b772c7f8886d9624b1b3626767f3"
+    },
+    "docs/artifacts/sundial_multiscale_adapter_completed_v1/files/004.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_adapter\\v1\\crps24_final.json",
+      "source_sha256": "28cec827c2752f4302fd1893a2cb833e7f7acc82002d9a383318bf68089f7ad8",
+      "gzip_sha256": "78a76cd1d0ee0a83c079262c9404ffaa01c19079d32a342da520da8bbee5c08f"
+    },
+    "docs/artifacts/sundial_multiscale_adapter_completed_v1/files/005.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_adapter\\v1\\driver.log",
+      "source_sha256": "fda8ca5292e3608b043756c42fcc950e38b015657122eb3664b1f9bcdaaeb99b",
+      "gzip_sha256": "602134c355b77328b45d9be00ee4a0890499578555b05bf42c0b438875b61048"
+    },
+    "docs/artifacts/sundial_multiscale_adapter_completed_v1/files/006.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_adapter\\v1\\error.log",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gzip_sha256": "46b50c321b39e89a491b6727a01628c34245605a30beb3e7414c5e01cff90e6e"
+    },
+    "docs/artifacts/sundial_multiscale_adapter_completed_v1/files/007.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_adapter\\v1\\freeze.json",
+      "source_sha256": "1fe8dfc65f66183cb4d468a61eb4943c38cf0b64b6c3f91246042ba54666c003",
+      "gzip_sha256": "c8bfc73c049156fda7bd0a888e831ec5e7af53917d5af7bbc1b43fa2f9ffa6d4"
+    },
+    "docs/artifacts/sundial_multiscale_adapter_completed_v1/files/008.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_adapter\\v1\\generation_log.json",
+      "source_sha256": "8bff8abe930ef74211702d06fea29151efff14ef5ebd60d5aae1595885b81fb4",
+      "gzip_sha256": "7bafe2e564f3d038a964937f0c19d3e17bb194f890f7c39aa4fefca70e18b0d7"
+    },
+    "docs/artifacts/sundial_multiscale_adapter_completed_v1/files/009.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_adapter\\v1\\historical.json",
+      "source_sha256": "94be0a0de231ac31e7a554364f398b181d1ea0e21d5c9d3ce3a19ea77bd7ea4f",
+      "gzip_sha256": "869b2df47fdc8ea510a44bd86f92263baf03da15ad172d2de7602cedfc0a9566"
+    },
+    "docs/artifacts/sundial_multiscale_adapter_completed_v1/files/010.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_adapter\\v1\\independent_audit.json",
+      "source_sha256": "b8aab990764fcfb9e6c9270c6884effc3ddf84657a15e0c854b33eff7a142581",
+      "gzip_sha256": "55bff845409c3879100c500e8ba71f17e9c280199a0a41d16cc3414d8d5107c7"
+    },
+    "docs/artifacts/sundial_multiscale_adapter_completed_v1/files/011.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_adapter\\v1\\independent_audit_failure.json",
+      "source_sha256": "5d602503c272876dfa8acfbc997aa331adc337cda1ea1994f02aedb5aae7d4cf",
+      "gzip_sha256": "373c731dee9746a7232bbe928ea292d029ca8f6b03e1599c191adef14ac777f3"
+    },
+    "docs/artifacts/sundial_multiscale_adapter_completed_v1/files/012.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_adapter\\v1\\independent_audit_source_at_failure.py",
+      "source_sha256": "b7dae10e89d190b88adf6dc75e8d1d0e1be06d8513e3da4e098252f3c64a0c62",
+      "gzip_sha256": "717585ceeb19b5171e54c6304d074b85f7dd5583e496ee22f671ee0551f28558"
+    },
+    "docs/artifacts/sundial_multiscale_adapter_completed_v1/files/013.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_adapter\\v1\\inputs.json",
+      "source_sha256": "7de5f809620cafb7b521e1661ce332a9f60ac09765a4baf7129cb16e21800e87",
+      "gzip_sha256": "fcf87ae4cca0b7e32dd5496a4736881d7acfbea777e87e884c869a4413af1bbf"
+    },
+    "docs/artifacts/sundial_multiscale_adapter_completed_v1/files/014.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_adapter\\v1\\input_independent_verification.json",
+      "source_sha256": "b7a302bfc716d8946089616eb456e76911fe26c6d4dac65763e315515d1b285c",
+      "gzip_sha256": "87c09eb25325f74452682161626130ebeaee39c101112734267a5d85ec3e80f3"
+    },
+    "docs/artifacts/sundial_multiscale_adapter_completed_v1/files/015.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_adapter\\v1\\launch.json",
+      "source_sha256": "3dbbf68bb1e29f2232178ed4ee7d2bfae8744f6c2bf05fe8c22f292d30a5bfaa",
+      "gzip_sha256": "d6f63fa6d4178bc8658c25a71bee119934cb55fe7e6554c876973f6add87510e"
+    },
+    "docs/artifacts/sundial_multiscale_adapter_completed_v1/files/016.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_adapter\\v1\\mae_precision_layout_diagnosis.json",
+      "source_sha256": "680957e9637e431e1d1f6c1212abb70912dd893cf1fc729fa656bebd360f22ee",
+      "gzip_sha256": "6a0ee13fc832c20925129e7cb246399fa8e774bbc3db83c3e5eb435fcfaaec48"
+    },
+    "docs/artifacts/sundial_multiscale_adapter_completed_v1/files/017.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_adapter\\v1\\metrics.json",
+      "source_sha256": "a3762b9189c954e3bda81a1c382edeea6c8471cfe94b23e79fcf5eaf25766a17",
+      "gzip_sha256": "27d1dd203919c03e69d02bbdc17f96a6d439b8e04bb82a543df814103b4192d7"
+    },
+    "docs/artifacts/sundial_multiscale_adapter_completed_v1/files/018.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_adapter\\v1\\model_verification.json",
+      "source_sha256": "b78fed84cf09aac959c6ab9bd9ee4b9cfcf9609ff305c2a6dc7990eeb89f9275",
+      "gzip_sha256": "42088656e303a6de32c08736e52a2cd5695570b61457c60261f0fc39a3d7dae1"
+    },
+    "docs/artifacts/sundial_multiscale_adapter_completed_v1/files/019.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_adapter\\v1\\multiscale24_best.json",
+      "source_sha256": "c6714b54504be7f6eaadad434878b09043895d98123485ad0083b93c1822624b",
+      "gzip_sha256": "4ae9cbcd0e23e6f972c0d4a6445010ffa5e2ec7e739f7f12e33747f59c40cd4a"
+    },
+    "docs/artifacts/sundial_multiscale_adapter_completed_v1/files/020.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_adapter\\v1\\multiscale24_curve.json",
+      "source_sha256": "e6225700f7baeeaf245bfc214dc8aaf474f4f5418155165450b927114ebf164d",
+      "gzip_sha256": "fc3182c339831bfc069e9bb7084db8dbdcdc2a4df0fb697fc176184f9dfacc80"
+    },
+    "docs/artifacts/sundial_multiscale_adapter_completed_v1/files/021.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_adapter\\v1\\multiscale24_final.json",
+      "source_sha256": "5a38111ffd8fcd92043845a16c715cc9233e80cd6d9ff32d9341e8f7c21ccff6",
+      "gzip_sha256": "8b794da0262a5cd843cad26db9d164e7db8a2216a4aa67ba7f7b57fd482f205b"
+    },
+    "docs/artifacts/sundial_multiscale_adapter_completed_v1/files/022.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_adapter\\v1\\predictions.json",
+      "source_sha256": "4adcfd9f10fa8837f5245836e863f7a9a0a7c37f45e9bb4a8b078c67ac11dcbd",
+      "gzip_sha256": "186a64d96c627caed4e0b3e285a9e9a2bc434623f54d4b4fe44a4f8e6982ba73"
+    },
+    "docs/artifacts/sundial_multiscale_adapter_completed_v1/files/023.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_adapter\\v1\\prepared.json",
+      "source_sha256": "c894c3af358c9cc24f5f4204db46a506cc8d6912d9d12eb73ec4d6c7b02ec569",
+      "gzip_sha256": "4198f705712d25c3590eb53329859e9f89fe6d843c50584c651147631ba02638"
+    },
+    "docs/artifacts/sundial_multiscale_adapter_completed_v1/files/024.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_adapter\\v1\\progress.json",
+      "source_sha256": "2cf60bfd1bc3ccaf3cdaf9bfcd1eb4e3e1558947aca3a57c3c14d28139686075",
+      "gzip_sha256": "09ca7705fc6503b1f85b616f3ee9c37199f7f44a67fe31f49cc10eaa1985fbbc"
+    },
+    "docs/artifacts/sundial_multiscale_adapter_completed_v1/files/025.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_adapter\\v1\\publication.json",
+      "source_sha256": "174efb13dc7d3322377872750c49d8614cb4011476236d0e3f034de218dc2394",
+      "gzip_sha256": "786c9ee14645d3a89ac6aeae394357382c12f6b41d76f63d33f0b24516e226e4"
+    },
+    "docs/artifacts/sundial_multiscale_adapter_completed_v1/files/026.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_adapter\\v1\\scoring_values.json",
+      "source_sha256": "67a97c915736ee1fd8f1e7759b3738b1813433506a7d90fa859148f5f714d87e",
+      "gzip_sha256": "76afc13ab1ec71970fc1094eedc6e4a3e94dd432be50dd90db492314aa87e11e"
+    },
+    "docs/artifacts/sundial_multiscale_adapter_completed_v1/files/027.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_adapter\\v1\\started.lock",
+      "source_sha256": "b343addd7aa6b85a2ee277a457f52bdff834dbcd962f2c5a2d14bb151dae897f",
+      "gzip_sha256": "ad199dd9addc11579ba2e3b0bd7289639dad9db8ed875779e0fd2c83a533c0c1"
+    },
+    "docs/artifacts/sundial_multiscale_adapter_completed_v1/files/028.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_multiscale_adapter\\v1\\wrapper_launch.json",
+      "source_sha256": "9984af26555b72dcdbb27d5553ca43146923a8c178386277764fbe4e3a4fc922",
+      "gzip_sha256": "e9a0b3e3e90aaa86579e866b56e934694b7415db58450d7c60366a9624e9354b"
+    },
+    "docs/artifacts/sundial_multiscale_adapter_completed_v1/files/029.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_multiscale_adapter\\common.py",
+      "source_sha256": "85e44c500f1c1e3b29d80310f515f9f5d5beb5cf754face0705effc10324fb84",
+      "gzip_sha256": "6fb9afebb409ca56250b99386c3555437ce70a190d40daf233b1c608e2628ed4"
+    },
+    "docs/artifacts/sundial_multiscale_adapter_completed_v1/files/030.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_multiscale_adapter\\pipeline.py",
+      "source_sha256": "69fa6cf766f7e995ffe1597ae429154ad5711b0c5d09bfdde97075b26ad2487d",
+      "gzip_sha256": "3d6d6d3539a33c3b3a23e0e2773343631b6d6c0d2cd39bd0626001decf51dbc9"
+    },
+    "docs/artifacts/sundial_multiscale_adapter_completed_v1/files/031.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_multiscale_adapter\\prepare.py",
+      "source_sha256": "a562bdccd9262741975c155b8a81d2dbf26d15b5238ec02f9aa0a3036617fc4c",
+      "gzip_sha256": "1f003d53801d0dcd884a00db14fd9c5363deb0164777fa5b41824485c4218bfd"
+    },
+    "docs/artifacts/sundial_multiscale_adapter_completed_v1/files/032.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\online_llm_artifacts\\audit_sundial_multiscale.py",
+      "source_sha256": "5283bed00a1f5093d1122f92c15088fe0d5ef237fc2816745da4a12425a156b2",
+      "gzip_sha256": "f7b9e2c0a0a6d0119fbc9533af3bac77b82791d67c2adb5399434b4b69a90c39"
+    },
+    "docs/artifacts/sundial_multiscale_adapter_completed_v1/files/033.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\2026-10-15-sundial-multiscale-adapter-results.md",
+      "source_sha256": "546411ea0c3cfe70bbbb1f1c2550a658edd1fc878f62d02353e1963daa1ceb43",
+      "gzip_sha256": "fcb87e1dd766c016fc913d9b5ccffbd82936479e9447b215e36305221ac044f2"
+    },
+    "docs/artifacts/sundial_multiscale_adapter_completed_v1/files/034.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\superpowers\\specs\\2026-10-15-sundial-multiscale-adapter-design.md",
+      "source_sha256": "b0c895b38bfe6467d1ab93a39b335ab1233abb4e79d53aacff58e96bc80f4e43",
+      "gzip_sha256": "b46193538c2151ea3e637c0042b068e96df1c830dd8e4d12aaac84ef24d863dc"
+    },
+    "docs/artifacts/sundial_multiscale_adapter_completed_v1/files/035.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\superpowers\\plans\\2026-10-15-sundial-multiscale-adapter.md",
+      "source_sha256": "efaa40351130184fb7a75630207c66f22a920f639574632746d39a7f79875a4b",
+      "gzip_sha256": "4ac97485fab7f6185c81886d9fb113d0879c399767fc8885d5714fad8ee7cb63"
+    }
+  },
+  "lossless": true,
+  "credential_absent": true,
+  "checkpoint_weights_local_only": true,
+  "api": 0
+}

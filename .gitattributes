@@ -119,3 +119,7 @@ experiments/online_llm_artifacts/archive_sundial_representative.py -text
 docs/artifacts/sundial_double_diagnosis_representative_v1/** -text
 experiments/sundial_multiscale_adapter/** -text
 docs/artifacts/sundial_multiscale_adapter_preregistration_v1/** -text
+docs/artifacts/sundial_multiscale_adapter_completed_v1/** -text
+experiments/online_llm_artifacts/audit_sundial_multiscale.py -text
+experiments/sundial_shared_pool_diagnosis/** -text
+docs/artifacts/sundial_shared_pool_preregistration_v1/** -text
