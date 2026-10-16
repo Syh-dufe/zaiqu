@@ -1,0 +1,7 @@
+# Base-stock固定路径缓存来源修正
+
+原追加版本v1已在仿真前因缓存中缺少happo行而停止，started.lock/failed/登记永久保留，新增仿真0、API0。根因是guard_pool新增目录仅保存revision_guard/pool_review/guard_pool，纯HAPPO原始行在results/submission_required/v1/runs/confirmation01_main_seedN。
+
+新独立包装器只纠正happo对照来源、版本根与归档名称，原v1源码、策略、输入、z=2、6回合3600行合同不改。Merton和Sundial来源不变。读入全部15个来源并独立复算90个缓存回合后再注册，确认前三输入与报告一致；失败不删、不覆写、不付费重跑。v2注册与完成归档均收录原失败诊断和两版源码计划。用户已授权在固定路径上补齐基线，此为必要来源修复，无调参或新路径。
+
+v2结果根results/sundial_fixed_base_stock/v2；源码experiments/sundial_fixed_base_stock_recovery/batch.py。登记推送与精确Git字节核验后唯一运行，正常/冲击各三回合；复用原标量账本/成本/动作核验。正在训练的成本适配进程保持运行。
