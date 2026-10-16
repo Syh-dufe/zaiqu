@@ -1,0 +1,162 @@
+{
+  "files": {
+    "docs/artifacts/sundial_fixed_base_stock_completed_v2/000.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_fixed_base_stock\\v2\\cached_comparison.json",
+      "source_sha256": "2880fe0215baed3e3bb4106a46e2df467b99aeaee24c5da1b83a0f86b331c6fb",
+      "gzip_sha256": "37e618e737185e14f670664e908fa3564b93992770d711a2f1fa178a49a78c19"
+    },
+    "docs/artifacts/sundial_fixed_base_stock_completed_v2/001.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_fixed_base_stock\\v2\\completed.json",
+      "source_sha256": "8a53811195df1778cf6795a12c94a1707c47658805882c1d66792dc20dd4a471",
+      "gzip_sha256": "0a8664a30419041ee0e5c268bcac805e260bb6d9f4b0dcc3690b37e41f3de8d1"
+    },
+    "docs/artifacts/sundial_fixed_base_stock_completed_v2/002.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_fixed_base_stock\\v2\\episodes.json",
+      "source_sha256": "47a35285dcd19c7d0001c37c5106996b9f60495289d32fb2d08bf918f44e893d",
+      "gzip_sha256": "adb5e63362c48cd6520b6f28924ab6010eb42cea7481260d154182227da64216"
+    },
+    "docs/artifacts/sundial_fixed_base_stock_completed_v2/003.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_fixed_base_stock\\v2\\launch.json",
+      "source_sha256": "d8da2adde723900628d995407c33dd98e53359daca58f8a376e60dcd3ad3b03e",
+      "gzip_sha256": "862eafaa62f335acb0df3d5765d53cda65e291e76d682a18373ed31fb4247b44"
+    },
+    "docs/artifacts/sundial_fixed_base_stock_completed_v2/004.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_fixed_base_stock\\v2\\numerical_boundaries.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/sundial_fixed_base_stock_completed_v2/005.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_fixed_base_stock\\v2\\progress.json",
+      "source_sha256": "82cd970bb02d83691a6be39d2cf2900b7901e08da3b0b637f5eced6be2675cc5",
+      "gzip_sha256": "618a68a890dbc64a5696dae0e329d089c1c805b8e01334d95a3e1e53f1c3693a"
+    },
+    "docs/artifacts/sundial_fixed_base_stock_completed_v2/006.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_fixed_base_stock\\v2\\publication.json",
+      "source_sha256": "190f4f17301263909ea11d6e5d44cec69b125f3aa7b19e2d8bdd2fced04b095a",
+      "gzip_sha256": "9a697c453e7471cc30323869002b583a0f4e85146a724ec25385cfadb6c028d6"
+    },
+    "docs/artifacts/sundial_fixed_base_stock_completed_v2/007.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_fixed_base_stock\\v2\\registration.json",
+      "source_sha256": "ff2c1933f8ac56042b4e032d7288a87767e4287e120d9966a8a1234028e06193",
+      "gzip_sha256": "b18eaeb08d9e5a7f6c84847d922ddc99ab4ac006b14bf3572efa7b0e877560f1"
+    },
+    "docs/artifacts/sundial_fixed_base_stock_completed_v2/008.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_fixed_base_stock\\v2\\started.lock",
+      "source_sha256": "f4cac5f0bfe92dcc433aaf65b2795c0fc52664ed1ecce61546e9ef80f2ca00eb",
+      "gzip_sha256": "0ba580ad5142ceaf88ad2bf1b334869779c92bb6fbde332034c5165f577ffc56"
+    },
+    "docs/artifacts/sundial_fixed_base_stock_completed_v2/009.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_fixed_base_stock\\v2\\summary.json",
+      "source_sha256": "d7aa92354b93480556cdf40427a60b099d740881f35e7606350dd9b52700bb35",
+      "gzip_sha256": "f739245a9bcfcd246c6bcc7aa35fefd6f06ad80fdfca09e974b6c9033db278d6"
+    },
+    "docs/artifacts/sundial_fixed_base_stock_completed_v2/010.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_fixed_base_stock\\v2\\runs\\trace0_base\\audit.json",
+      "source_sha256": "0d7fd5a8db1e20e3e5634c53e992b3fde4fc171598f26da7c8a183aded94c71c",
+      "gzip_sha256": "80e6e64e25d94b8a5e296fec7e3e839a4dbeaa7131bf391f3f8a12e5ee8fdcb3"
+    },
+    "docs/artifacts/sundial_fixed_base_stock_completed_v2/011.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_fixed_base_stock\\v2\\runs\\trace0_base\\periods.csv.gz",
+      "source_sha256": "7a919f1fb2ee20fcc5e30e6aad0b4ed1b43901dd9e72ce78885d8a6e4d3dbfc2",
+      "gzip_sha256": "8a704da888edc82f1e9ec70360f8bc7932710ee2573f9b99026d56523ff7babf"
+    },
+    "docs/artifacts/sundial_fixed_base_stock_completed_v2/012.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_fixed_base_stock\\v2\\runs\\trace0_shock\\audit.json",
+      "source_sha256": "0d7fd5a8db1e20e3e5634c53e992b3fde4fc171598f26da7c8a183aded94c71c",
+      "gzip_sha256": "80e6e64e25d94b8a5e296fec7e3e839a4dbeaa7131bf391f3f8a12e5ee8fdcb3"
+    },
+    "docs/artifacts/sundial_fixed_base_stock_completed_v2/013.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_fixed_base_stock\\v2\\runs\\trace0_shock\\periods.csv.gz",
+      "source_sha256": "4a8f3f8f2a59f7e3fb1380788876d538796c1882766d5c1bb07d2203b4cc3a07",
+      "gzip_sha256": "e8143ae02b4eee28a8a305941de76d2442e25e42e1cda292ae1e4eabad14e641"
+    },
+    "docs/artifacts/sundial_fixed_base_stock_completed_v2/014.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_fixed_base_stock\\v2\\runs\\trace1_base\\audit.json",
+      "source_sha256": "0d7fd5a8db1e20e3e5634c53e992b3fde4fc171598f26da7c8a183aded94c71c",
+      "gzip_sha256": "80e6e64e25d94b8a5e296fec7e3e839a4dbeaa7131bf391f3f8a12e5ee8fdcb3"
+    },
+    "docs/artifacts/sundial_fixed_base_stock_completed_v2/015.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_fixed_base_stock\\v2\\runs\\trace1_base\\periods.csv.gz",
+      "source_sha256": "cbf3e4d9ad52f6287d9ee2a3e81f45ed5eb3d88e7ab389ef0749db1c72318495",
+      "gzip_sha256": "8c636ce28751c7ab921bc553d0ab9768b93ea988d8e0592a5a675d48f08b10f7"
+    },
+    "docs/artifacts/sundial_fixed_base_stock_completed_v2/016.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_fixed_base_stock\\v2\\runs\\trace1_shock\\audit.json",
+      "source_sha256": "0d7fd5a8db1e20e3e5634c53e992b3fde4fc171598f26da7c8a183aded94c71c",
+      "gzip_sha256": "80e6e64e25d94b8a5e296fec7e3e839a4dbeaa7131bf391f3f8a12e5ee8fdcb3"
+    },
+    "docs/artifacts/sundial_fixed_base_stock_completed_v2/017.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_fixed_base_stock\\v2\\runs\\trace1_shock\\periods.csv.gz",
+      "source_sha256": "25aac58ea309d7b53d0fe9abc8998ae7b5af30bb13cb038d749fb11b40f22c99",
+      "gzip_sha256": "ad5df8cbf1f82beca8d07aad4e2ecdfa80ad7bb034a0f9639b32dfef4dbdb129"
+    },
+    "docs/artifacts/sundial_fixed_base_stock_completed_v2/018.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_fixed_base_stock\\v2\\runs\\trace2_base\\audit.json",
+      "source_sha256": "0d7fd5a8db1e20e3e5634c53e992b3fde4fc171598f26da7c8a183aded94c71c",
+      "gzip_sha256": "80e6e64e25d94b8a5e296fec7e3e839a4dbeaa7131bf391f3f8a12e5ee8fdcb3"
+    },
+    "docs/artifacts/sundial_fixed_base_stock_completed_v2/019.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_fixed_base_stock\\v2\\runs\\trace2_base\\periods.csv.gz",
+      "source_sha256": "096740345f5d80b720421987db5b6a63f94c5ec7d66a71e91fd6d2747f4e0dac",
+      "gzip_sha256": "b8c0d1a90a14e2192321d06ea11cf322b87c60d87fbe8df4f2a6b07b05204e76"
+    },
+    "docs/artifacts/sundial_fixed_base_stock_completed_v2/020.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_fixed_base_stock\\v2\\runs\\trace2_shock\\audit.json",
+      "source_sha256": "0d7fd5a8db1e20e3e5634c53e992b3fde4fc171598f26da7c8a183aded94c71c",
+      "gzip_sha256": "80e6e64e25d94b8a5e296fec7e3e839a4dbeaa7131bf391f3f8a12e5ee8fdcb3"
+    },
+    "docs/artifacts/sundial_fixed_base_stock_completed_v2/021.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_fixed_base_stock\\v2\\runs\\trace2_shock\\periods.csv.gz",
+      "source_sha256": "e36b44286833fe173e286b8107172e07bc44f1432b70baf0f2612d49cd672da3",
+      "gzip_sha256": "481f036c4060ad672758ff751446fcd47be4974cc0fa39cf62d9eb8a50441c33"
+    },
+    "docs/artifacts/sundial_fixed_base_stock_completed_v2/022.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_fixed_base_stock\\batch.py",
+      "source_sha256": "466a69d1ec19725987b371abfbd773ef8db949f73cb452c9ae2866cb9503e9b5",
+      "gzip_sha256": "a3989b7b14fdce7e5e2ec9625a17c17d0c8c4c68ca2d382346e80dd7f7544d06"
+    },
+    "docs/artifacts/sundial_fixed_base_stock_completed_v2/023.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\superpowers\\plans\\2026-10-16-sundial-fixed-base-stock.md",
+      "source_sha256": "b7016b9a05be819aca768bb9675fe85741b75207d002d46880c2b77253c235d9",
+      "gzip_sha256": "2f8c4ce986cbe14f773565263dfa0e467e5edaf10a8719df1e3e214644cac9f6"
+    },
+    "docs/artifacts/sundial_fixed_base_stock_completed_v2/024.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_fixed_base_stock_recovery\\batch.py",
+      "source_sha256": "34225c2cf0fa0e1151b9d692ab7f270458cc8aa46c5ec50c64c5dafa4de9a8ef",
+      "gzip_sha256": "cc24caca0ecdf81d7c410831a060f77b0ba9408f864daa41b3c1ea8d753fb6bb"
+    },
+    "docs/artifacts/sundial_fixed_base_stock_completed_v2/025.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\superpowers\\plans\\2026-10-16-sundial-fixed-base-stock-source-recovery.md",
+      "source_sha256": "89c45de3f64f3513e1195eac47f8ab4ff82e954a9ff9c6f9273aef7672c8ac45",
+      "gzip_sha256": "1cf0e9184f38ca99f771a6b8ddde980e947f212d4afb80fbca04ba1fb07dd7cd"
+    },
+    "docs/artifacts/sundial_fixed_base_stock_completed_v2/026.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_fixed_base_stock\\v1\\failed.json",
+      "source_sha256": "c3c210a6a6a91d386bb7ffac0ed1be535341c210db9a4a5045ee4a492c208ea2",
+      "gzip_sha256": "ddaa45664e2bd92a2fad4d33e044ceb216a07b1fd6e776a5387efff695675975"
+    },
+    "docs/artifacts/sundial_fixed_base_stock_completed_v2/027.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_fixed_base_stock\\v1\\launch.json",
+      "source_sha256": "f598a89df76f7bdcb030e74750ec852b4fc65894dd88fc41541eb899be9d8fa1",
+      "gzip_sha256": "e00d9015c5428da209d4ce866b068e14b8a4ba008db685817c1fa14a23c3df1b"
+    },
+    "docs/artifacts/sundial_fixed_base_stock_completed_v2/028.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_fixed_base_stock\\v1\\publication.json",
+      "source_sha256": "b014dae696370491c8b4cf0f87b9cff41bd7f3fea7d33cfa085677023e82217a",
+      "gzip_sha256": "539b8e3eabc9910f420713b4f6da42cd898845496f06f3d166f12157201f2378"
+    },
+    "docs/artifacts/sundial_fixed_base_stock_completed_v2/029.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_fixed_base_stock\\v1\\registration.json",
+      "source_sha256": "ed4c0ae5f30eafa55f51634c04c95c203e299f3c077b7ea5fa51646c2c73ef8b",
+      "gzip_sha256": "5f2fd46f018c390a5416cbd51c217231083cabb87e916309de658999cf454ed2"
+    },
+    "docs/artifacts/sundial_fixed_base_stock_completed_v2/030.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_fixed_base_stock\\v1\\started.lock",
+      "source_sha256": "c2fee3f0d5577fe1cb5b68e6e7e8a53d51453f680ecd77d7101ab3da1b0630c4",
+      "gzip_sha256": "c2e6824ed77ec998e0c0bb3f579aa789dbe4c7418f3b8664ac829bf2b2e1b1a8"
+    }
+  },
+  "lossless": true,
+  "credential_absent": true,
+  "large_weights_not_copied": true
+}
