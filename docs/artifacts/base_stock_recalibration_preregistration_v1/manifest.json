@@ -1,0 +1,137 @@
+{
+  "files": {
+    "docs/artifacts/base_stock_recalibration_preregistration_v1/000.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\base_stock_recalibration\\batch.py",
+      "source_sha256": "7050b6a305cf026f8723f9a3e435d5d50e4ee65e98c61ea2f0b8e2cba6a75f5f",
+      "gzip_sha256": "81320b363df6b82b5a5b0953c9929904c006aaf3a8e1a0ee6b7ae96efd123b42"
+    },
+    "docs/artifacts/base_stock_recalibration_preregistration_v1/001.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\superpowers\\specs\\2026-10-16-base-stock-recalibration-design.md",
+      "source_sha256": "688c6fc4536f75b23b8d47db1683b7eb3ecfe45e6df6ffc6d7ee2e81f2735dab",
+      "gzip_sha256": "91c1c31fcd28f7e03f9355e98bb4351a6e5d278525fb45f805167223afd056de"
+    },
+    "docs/artifacts/base_stock_recalibration_preregistration_v1/002.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\superpowers\\plans\\2026-10-16-base-stock-recalibration.md",
+      "source_sha256": "ce7c307cec2859e87738da26be27c34c3be572305ee507d9a871fe8022c6ece6",
+      "gzip_sha256": "b0fb3cbc3cf9c1771c46d09481c3f828fca73548d3b9448ea39965f222cb7e84"
+    },
+    "docs/artifacts/base_stock_recalibration_preregistration_v1/003.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\2026-10-16-liu-base-stock-protocol-check.md",
+      "source_sha256": "03de5769937bc92e8d78eb2ff6d35a93767dfc6b42035e91cd280f2dd6f944c0",
+      "gzip_sha256": "0b219a2df6b977b0cbeaddcc6799e8ff30c880f10cd88668ec13abb5b010e066"
+    },
+    "docs/artifacts/base_stock_recalibration_preregistration_v1/004.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\base_stock_recalibration\\v1\\registration.json",
+      "source_sha256": "581c101700d7dc36ac2638fb7ca9d1e455919ab32376e920ab59c6226878082e",
+      "gzip_sha256": "e9c57f8fc752e680955268380cb71317930d2f48012fb07f5e310e7f7f2009c6"
+    },
+    "docs/artifacts/base_stock_recalibration_preregistration_v1/005.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\base_stock_recalibration\\v1\\method_freeze.json",
+      "source_sha256": "7d1cce64baf9fea3fa136e8666602f6686971cea511e0b79a91e306d497484f5",
+      "gzip_sha256": "a84d6a44c6268cf6d070c6a668b8709d3afb7ca7f8efd3c159e8508b24761c7f"
+    },
+    "docs/artifacts/base_stock_recalibration_preregistration_v1/006.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\base_stock_recalibration\\v1\\historical.json",
+      "source_sha256": "4707a4b4e5ae15993ea62266e3f017c6e48207e4973f6cce95943aa355939885",
+      "gzip_sha256": "20801183e4f3066d0524969d545845937bd7e2fe0db545a463387773f967ccde"
+    },
+    "docs/artifacts/base_stock_recalibration_preregistration_v1/007.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\base_stock_recalibration\\v1\\generation_log.json",
+      "source_sha256": "cb4e0738e390e0b91e0ffa7c07b63ba0dc304f26c0e24e24dece4a00a61bb03f",
+      "gzip_sha256": "ec68cfec48ce95f8831c4943025694b4f92cab16818c7e2f65ee36eb3dcbae3f"
+    },
+    "docs/artifacts/base_stock_recalibration_preregistration_v1/008.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\base_stock_recalibration\\v1\\inputs\\development_00.json",
+      "source_sha256": "754f7723b12274b0530e2d9dde5f38cc52cd1a256d7961abcd9785d4d2512b4f",
+      "gzip_sha256": "76cdabc2d99984a4c3a60acf8b9a886f9b0cad4da65c953baaa1ef3178a4b267"
+    },
+    "docs/artifacts/base_stock_recalibration_preregistration_v1/009.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\base_stock_recalibration\\v1\\inputs\\development_01.json",
+      "source_sha256": "19c69ef1cd1c4cffe1a043bc9fd7e3fd6dd451ab6bfe38030d134f36b403d066",
+      "gzip_sha256": "2ccd173730c72094867f918a567e32f42094c49b473b80dc5b5a2537db5c58a0"
+    },
+    "docs/artifacts/base_stock_recalibration_preregistration_v1/010.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\base_stock_recalibration\\v1\\inputs\\development_02.json",
+      "source_sha256": "60439b6114b278f9f7a74ac0c2608e688e74a9debba1709113da81aac39b0393",
+      "gzip_sha256": "181759dc1a03cc7ed159c480a9d46eada11d2b0fdbb68bc302e57bf73f1ae09b"
+    },
+    "docs/artifacts/base_stock_recalibration_preregistration_v1/011.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\base_stock_recalibration\\v1\\inputs\\development_03.json",
+      "source_sha256": "d0f39dd8aa4bd105d4328f50fa088ec7bd3724ded1ed6f8d31f7f88480811b54",
+      "gzip_sha256": "219e245535513d1d2f1b1b5141167a0a69144e9cb651bb59eda399fdb52fd3d8"
+    },
+    "docs/artifacts/base_stock_recalibration_preregistration_v1/012.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\base_stock_recalibration\\v1\\inputs\\development_04.json",
+      "source_sha256": "f7e7b0b32f5b8c71a1d3f5f88c0d2dba7277c3d24e0a162fa8e3c571195e82ba",
+      "gzip_sha256": "b0f54c325f22653da488fa5165cacab1b937f88ffd7aadc9ddac8caec884d67d"
+    },
+    "docs/artifacts/base_stock_recalibration_preregistration_v1/013.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\base_stock_recalibration\\v1\\inputs\\development_05.json",
+      "source_sha256": "c95823dff3efcc1c3b0e13473c934bf0b89df328b7af2b02e43d9408aae5aaf2",
+      "gzip_sha256": "518d55ea1c50f0d9700532caee3bd85eb7a45f9d9afcfb0fe00d3e4fcf866872"
+    },
+    "docs/artifacts/base_stock_recalibration_preregistration_v1/014.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\base_stock_recalibration\\v1\\inputs\\development_06.json",
+      "source_sha256": "76bac0c1e38992f73239a64c27709925797489319348f5d6d8755d34aa236c94",
+      "gzip_sha256": "42e2468747b2d58da5710aed2c4f95a195bd56b98cada6714c741376e7fc964e"
+    },
+    "docs/artifacts/base_stock_recalibration_preregistration_v1/015.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\base_stock_recalibration\\v1\\inputs\\development_07.json",
+      "source_sha256": "f34c68daad9fca9f839ec73d087239bd8f1f3dcd8b46d33cd86b5f85534974dc",
+      "gzip_sha256": "faef72647ef07c2053846f20e78987e723da3d07bec4be2098d08aa87f91f28a"
+    },
+    "docs/artifacts/base_stock_recalibration_preregistration_v1/016.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\base_stock_recalibration\\v1\\inputs\\holdout_00.json",
+      "source_sha256": "c99d030cff4c7564439c0ad6a5a2c8c50682e625a6cb84ae9f6778d418661109",
+      "gzip_sha256": "d0bc4d8dd296e255583852ba8399173aeabb90a56a08105ebe461fb521f24c5a"
+    },
+    "docs/artifacts/base_stock_recalibration_preregistration_v1/017.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\base_stock_recalibration\\v1\\inputs\\holdout_01.json",
+      "source_sha256": "1d30bcab76fa89ee6ad908bea8f9be3f5c35215be7088e961f0f7d22649b6dac",
+      "gzip_sha256": "90c1c09ec1f1daa8ead1aad1195ebac7e65b1e0d785d6b5a26f87dfb1efd4ed7"
+    },
+    "docs/artifacts/base_stock_recalibration_preregistration_v1/018.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\base_stock_recalibration\\v1\\inputs\\holdout_02.json",
+      "source_sha256": "6ca0d832e9bc979ade61294505b75fd5a5339b5ee613f70e4cd1dfc87526edfb",
+      "gzip_sha256": "b23f4733c10f5ab268a34f3511b86e09e1d04316e338330e48c6e81d482edc06"
+    },
+    "docs/artifacts/base_stock_recalibration_preregistration_v1/019.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\base_stock_recalibration\\v1\\inputs\\holdout_03.json",
+      "source_sha256": "00230a1af7665ed4e7b548547430c33f6580a8fb4f32752b0de54faf6398ef82",
+      "gzip_sha256": "6287b4340db7fb6e4b44994884d3634861315da84a3a08e55259eea1dcdaf7cd"
+    },
+    "docs/artifacts/base_stock_recalibration_preregistration_v1/020.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\base_stock_recalibration\\v1\\inputs\\holdout_04.json",
+      "source_sha256": "d9bc9d2103848e4c73d98445b42e6022d92e568759e04ed5fef27e035dac0834",
+      "gzip_sha256": "e6b640ad1830d444117f6e2a509a73171539aee07978006e5b163e37594fc33f"
+    },
+    "docs/artifacts/base_stock_recalibration_preregistration_v1/021.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\base_stock_recalibration\\v1\\inputs\\holdout_05.json",
+      "source_sha256": "18d4f826ce79f038b43e74ad036359da3fbec6e1d1e44dee6653b9b5a9b9dade",
+      "gzip_sha256": "8c5aa014ed06a6b7a0cd596845a8cd9ffc10334b03277aa0eef2998e452d0053"
+    },
+    "docs/artifacts/base_stock_recalibration_preregistration_v1/022.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\base_stock_recalibration\\v1\\inputs\\holdout_06.json",
+      "source_sha256": "73dec9c36957df91527fc4a7902cf1345189fd547a9b97a2fa2b00bba0a12e73",
+      "gzip_sha256": "0658ba89e7323bcf03b2bdb3858a68c8d9c6583d2df8152943313550b3c2304f"
+    },
+    "docs/artifacts/base_stock_recalibration_preregistration_v1/023.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\base_stock_recalibration\\v1\\inputs\\holdout_07.json",
+      "source_sha256": "26dfadd253894df2baeb79e8f77cd706de3f1e466c652bdd49e20ebea855f2c9",
+      "gzip_sha256": "c0345c8491169e358b60eae4e3a73eba59ae7af6fb91d6f282499588691c538f"
+    },
+    "docs/artifacts/base_stock_recalibration_preregistration_v1/024.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\base_stock_recalibration\\v1\\inputs\\holdout_08.json",
+      "source_sha256": "a6f6175bba0a219585aea88c7da6eaff222eb16c0a3b4381dc98129fc39ee33f",
+      "gzip_sha256": "e690587cb48f05780c56da3892f6ae4a9b65a8fddeae12eb9464655d66fbafcf"
+    },
+    "docs/artifacts/base_stock_recalibration_preregistration_v1/025.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\base_stock_recalibration\\v1\\inputs\\holdout_09.json",
+      "source_sha256": "9b104e67d7d1105d906641d1301729b11a1b6281c039582ffea75619ff928bfd",
+      "gzip_sha256": "e5b47d0a3f800298811c4d332d8f817c2844b079ac00ba8b71f7c0d0f1a0575f"
+    }
+  },
+  "lossless": true,
+  "credential_absent": true,
+  "large_weights_not_copied": true
+}
