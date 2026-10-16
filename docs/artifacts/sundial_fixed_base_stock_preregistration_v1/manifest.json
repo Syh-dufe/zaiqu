@@ -1,0 +1,22 @@
+{
+  "files": {
+    "docs/artifacts/sundial_fixed_base_stock_preregistration_v1/000.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\sundial_fixed_base_stock\\batch.py",
+      "source_sha256": "466a69d1ec19725987b371abfbd773ef8db949f73cb452c9ae2866cb9503e9b5",
+      "gzip_sha256": "a3989b7b14fdce7e5e2ec9625a17c17d0c8c4c68ca2d382346e80dd7f7544d06"
+    },
+    "docs/artifacts/sundial_fixed_base_stock_preregistration_v1/001.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\superpowers\\plans\\2026-10-16-sundial-fixed-base-stock.md",
+      "source_sha256": "b7016b9a05be819aca768bb9675fe85741b75207d002d46880c2b77253c235d9",
+      "gzip_sha256": "2f8c4ce986cbe14f773565263dfa0e467e5edaf10a8719df1e3e214644cac9f6"
+    },
+    "docs/artifacts/sundial_fixed_base_stock_preregistration_v1/002.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\sundial_fixed_base_stock\\v1\\registration.json",
+      "source_sha256": "ed4c0ae5f30eafa55f51634c04c95c203e299f3c077b7ea5fa51646c2c73ef8b",
+      "gzip_sha256": "5f2fd46f018c390a5416cbd51c217231083cabb87e916309de658999cf454ed2"
+    }
+  },
+  "lossless": true,
+  "credential_absent": true,
+  "large_weights_not_copied": true
+}
