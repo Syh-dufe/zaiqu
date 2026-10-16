@@ -1,0 +1,252 @@
+{
+  "files": {
+    "docs/artifacts/seeds16_20_fixed_comparison_preregistration_v2/000.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\seeds16_20_fixed_comparison\\v2\\fixture_seed16_merton.log",
+      "source_sha256": "b50ff04a1aa8fb79cb4748ad162ec0f91b7b4e7618d91545b0f6de9b01fbb12c",
+      "gzip_sha256": "9889460c36d56c8946985a1864ddd2c88aae2b271b61fc77f833d896962d61e6"
+    },
+    "docs/artifacts/seeds16_20_fixed_comparison_preregistration_v2/001.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\seeds16_20_fixed_comparison\\v2\\fixture_seed16_sundial.log",
+      "source_sha256": "2658aebcd5fe6f4d842bdda5c28d327e367f352712d923b19ebd0a7dd0273968",
+      "gzip_sha256": "7b20c80df18584de72ed6249b1d01621abbc0d05a34250d74f761f9cd959353b"
+    },
+    "docs/artifacts/seeds16_20_fixed_comparison_preregistration_v2/002.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\seeds16_20_fixed_comparison\\v2\\input.json",
+      "source_sha256": "409d49b56c7597534d6e4ff8e6d9afe2d4d4c5b238dfbfa32eca0a6d59b4c66c",
+      "gzip_sha256": "3b99ba7100dd52e2774cd4c2a556a32dc808cc0929028e42e225ac980a86161a"
+    },
+    "docs/artifacts/seeds16_20_fixed_comparison_preregistration_v2/003.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\seeds16_20_fixed_comparison\\v2\\preflight.json",
+      "source_sha256": "38223fe7f178b79aac860e7b186e3c5e522e21a69915ada8135523c273565c10",
+      "gzip_sha256": "2bd3affacef61f6ff69ae4d735cc91c7e7874275c3dd1c8f036c48a7316c78da"
+    },
+    "docs/artifacts/seeds16_20_fixed_comparison_preregistration_v2/004.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\seeds16_20_fixed_comparison\\v2\\preparation_freeze.json",
+      "source_sha256": "282f492a9094affc9d5418d69bc16f658933db8606f40042795f422164a9cd55",
+      "gzip_sha256": "d1c0fa164f1870aabd7ba2fbc72166ecfc5bf8103eac7e51ce25a0922cdfb9a8"
+    },
+    "docs/artifacts/seeds16_20_fixed_comparison_preregistration_v2/005.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\seeds16_20_fixed_comparison\\v2\\registration.json",
+      "source_sha256": "fb2c2d2ea3420aeb915baef9a9cf006afca74831462b505838757f34fa7aaec1",
+      "gzip_sha256": "433f4a47c2feef2c1e6967b79c12fadb22e589fe7f594bac3e6303cefe9d69fd"
+    },
+    "docs/artifacts/seeds16_20_fixed_comparison_preregistration_v2/006.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\seeds16_20_fixed_comparison\\v2\\fixture\\fixture_seed16_merton\\audit.json",
+      "source_sha256": "039294984b9467f27234385bd774f47a795527069e71227a3f442e560b61d3ab",
+      "gzip_sha256": "cb11375bfb257f06df8cba3b99f6e91424df2b24b6b710c3768e302ced8f5bb4"
+    },
+    "docs/artifacts/seeds16_20_fixed_comparison_preregistration_v2/007.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\seeds16_20_fixed_comparison\\v2\\fixture\\fixture_seed16_merton\\calls.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/seeds16_20_fixed_comparison_preregistration_v2/008.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\seeds16_20_fixed_comparison\\v2\\fixture\\fixture_seed16_merton\\completed.json",
+      "source_sha256": "4a419ccbf7ce2112d7ba64eebe5bdad53900c4512481f6e21a2df8f1b7c742ca",
+      "gzip_sha256": "9da5f3452537d8eb292899bf6e4a57aa770dc9a9ec13c165e3dac636f2380319"
+    },
+    "docs/artifacts/seeds16_20_fixed_comparison_preregistration_v2/009.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\seeds16_20_fixed_comparison\\v2\\fixture\\fixture_seed16_merton\\delivered_reports.json",
+      "source_sha256": "c0bfd1b6a01ccc665ecb908398d88c583116ef90262cee0a5ffb6901358d303e",
+      "gzip_sha256": "16208a8eb06bb7c2b888d9c80126ff70f7b90aeb2c483d680e19ae30b659cd91"
+    },
+    "docs/artifacts/seeds16_20_fixed_comparison_preregistration_v2/010.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\seeds16_20_fixed_comparison\\v2\\fixture\\fixture_seed16_merton\\demands.json",
+      "source_sha256": "af5f56c715b74ced4741a035ffab17ce412a1018441a70e0705657eeebd57486",
+      "gzip_sha256": "535c7f824b30b977363dc265a4168e36d4fd5800993c1e8d0724472ea89ec8a0"
+    },
+    "docs/artifacts/seeds16_20_fixed_comparison_preregistration_v2/011.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\seeds16_20_fixed_comparison\\v2\\fixture\\fixture_seed16_merton\\episodes.json",
+      "source_sha256": "52353be043317d065a374c4e48224bc3d72dad9b85e6f5af657d3d50a8f3b1f2",
+      "gzip_sha256": "6aac6800f1078da3ffd44bd72d07c9f8d15a3699d1b88207df6a9deacad27301"
+    },
+    "docs/artifacts/seeds16_20_fixed_comparison_preregistration_v2/012.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\seeds16_20_fixed_comparison\\v2\\fixture\\fixture_seed16_merton\\forecast_model_checks.json",
+      "source_sha256": "9609add8b312ed548db14b54cee363742e7f87d7a3ba76ee099304e09d29741d",
+      "gzip_sha256": "f5f9f0e302ccf969aeeb8f6af3c9c354466f79a4a65ed2d0c1cbc7130f8f86d3"
+    },
+    "docs/artifacts/seeds16_20_fixed_comparison_preregistration_v2/013.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\seeds16_20_fixed_comparison\\v2\\fixture\\fixture_seed16_merton\\information_audits.json",
+      "source_sha256": "6a62240b71098c9274b35903cc245572722b099bb68d68c1b73bf81ee4731d38",
+      "gzip_sha256": "2deceb523d54794bfc91eee21f0bbc2d777f0ea7ab9499aefe99d0d845f9bc40"
+    },
+    "docs/artifacts/seeds16_20_fixed_comparison_preregistration_v2/014.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\seeds16_20_fixed_comparison\\v2\\fixture\\fixture_seed16_merton\\periods.csv",
+      "source_sha256": "8c7b8ce50a6c7f9c7d2b9a27c40b84fd0e33d3c2f8169f808677519328205ce9",
+      "gzip_sha256": "3c1a0ad9bf04130b44eae81353aee0ded1303a8220e65c771df8b596ce77a19d"
+    },
+    "docs/artifacts/seeds16_20_fixed_comparison_preregistration_v2/015.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\seeds16_20_fixed_comparison\\v2\\fixture\\fixture_seed16_merton\\protocol.json",
+      "source_sha256": "3edce112b04ddca9b5bf37693ae237be1b57db87ba6a322b89ec615279e43376",
+      "gzip_sha256": "4236d3f85a4f885afd125d2444e12d9e68cf427595807b207d4ea39e3856ea93"
+    },
+    "docs/artifacts/seeds16_20_fixed_comparison_preregistration_v2/016.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\seeds16_20_fixed_comparison\\v2\\fixture\\fixture_seed16_merton\\runtime_failures.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/seeds16_20_fixed_comparison_preregistration_v2/017.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\seeds16_20_fixed_comparison\\v2\\fixture\\fixture_seed16_merton\\scores.json",
+      "source_sha256": "4a2851d92936b88d92846ef6bf62e5b7fabdede6e9d3d8669f766a50bb236241",
+      "gzip_sha256": "56f3b343357b9c72454a061df987ed48025e0261c8d61d070419bf8a12c8eff2"
+    },
+    "docs/artifacts/seeds16_20_fixed_comparison_preregistration_v2/018.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\seeds16_20_fixed_comparison\\v2\\fixture\\fixture_seed16_sundial\\audit.json",
+      "source_sha256": "ee22e41b47e3b58b5d5a0f4b197f98bb88ecdfedcbc5c5ebc9a2bd00411b4848",
+      "gzip_sha256": "e084e1ebb72ec667dc5a100edb57927b75e8590e1a9bff8f7aef3ef2bc322600"
+    },
+    "docs/artifacts/seeds16_20_fixed_comparison_preregistration_v2/019.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\seeds16_20_fixed_comparison\\v2\\fixture\\fixture_seed16_sundial\\calls.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/seeds16_20_fixed_comparison_preregistration_v2/020.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\seeds16_20_fixed_comparison\\v2\\fixture\\fixture_seed16_sundial\\completed.json",
+      "source_sha256": "efcb5a09d02964407fca012ae412545c756616392ab46191293787fdffcf8fdc",
+      "gzip_sha256": "f9548644023af7723053a93762d0595dc61ff0fe6ef39dc94b5f347fed235227"
+    },
+    "docs/artifacts/seeds16_20_fixed_comparison_preregistration_v2/021.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\seeds16_20_fixed_comparison\\v2\\fixture\\fixture_seed16_sundial\\delivered_reports.json",
+      "source_sha256": "87147df041e6d8df255e1e8c587f946a853bbc1671e397b34becde5d9b299ece",
+      "gzip_sha256": "3ecfb86efeb1b156c8fd292144b52b08ed1becffc64d22881a869771dbad9ea2"
+    },
+    "docs/artifacts/seeds16_20_fixed_comparison_preregistration_v2/022.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\seeds16_20_fixed_comparison\\v2\\fixture\\fixture_seed16_sundial\\demands.json",
+      "source_sha256": "af5f56c715b74ced4741a035ffab17ce412a1018441a70e0705657eeebd57486",
+      "gzip_sha256": "535c7f824b30b977363dc265a4168e36d4fd5800993c1e8d0724472ea89ec8a0"
+    },
+    "docs/artifacts/seeds16_20_fixed_comparison_preregistration_v2/023.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\seeds16_20_fixed_comparison\\v2\\fixture\\fixture_seed16_sundial\\episodes.json",
+      "source_sha256": "d0c9b3d3aefd00bcd678abda297d993a05ac0eab39cc49cabe81551d2e63e5cd",
+      "gzip_sha256": "28f753d5e32fe89ba677852ff3031811716e04b0c6aef67a276ea13892fd566a"
+    },
+    "docs/artifacts/seeds16_20_fixed_comparison_preregistration_v2/024.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\seeds16_20_fixed_comparison\\v2\\fixture\\fixture_seed16_sundial\\forecast_model_checks.json",
+      "source_sha256": "9cb88d7c1a6a7dc3458c79f7a5c1fa43a5aad2c2c6d3e492c1e005de3419f27c",
+      "gzip_sha256": "0b5a8ae588dfc14ae6b7d24343dc3bac42e1905ee66225459ef4db7783e3802c"
+    },
+    "docs/artifacts/seeds16_20_fixed_comparison_preregistration_v2/025.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\seeds16_20_fixed_comparison\\v2\\fixture\\fixture_seed16_sundial\\information_audits.json",
+      "source_sha256": "48f483abff6260084ad44d8ec615f49ea0ee8e2018bb47e7d7fd0c7f26e32a04",
+      "gzip_sha256": "f00bc34e3f24a5e3db0d1214f9f62f9db7f6dd8e19fc5f215fc10448385b8cc1"
+    },
+    "docs/artifacts/seeds16_20_fixed_comparison_preregistration_v2/026.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\seeds16_20_fixed_comparison\\v2\\fixture\\fixture_seed16_sundial\\periods.csv",
+      "source_sha256": "86eba8be2cf6d13444968ee45a4d218a3a16ca82405b208e98365eea36d2395b",
+      "gzip_sha256": "3969cb789e51652557d1796c5a5d0e07c49d9a18de86e13bea94657d087eccb6"
+    },
+    "docs/artifacts/seeds16_20_fixed_comparison_preregistration_v2/027.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\seeds16_20_fixed_comparison\\v2\\fixture\\fixture_seed16_sundial\\protocol.json",
+      "source_sha256": "a5321a91debc0b7b8fd6dba370eb87c9e75eb335031a907f2f39cf54f3ebced2",
+      "gzip_sha256": "c7ae4db748872f775bf312404b0d481c988d33051ee3eff4e0747a19d783c41c"
+    },
+    "docs/artifacts/seeds16_20_fixed_comparison_preregistration_v2/028.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\seeds16_20_fixed_comparison\\v2\\fixture\\fixture_seed16_sundial\\runtime_failures.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/seeds16_20_fixed_comparison_preregistration_v2/029.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\seeds16_20_fixed_comparison\\v2\\fixture\\fixture_seed16_sundial\\scores.json",
+      "source_sha256": "f84f77edcb0713b24d2b4cdead393c60b2a717c7fe156df776f108ea74f453eb",
+      "gzip_sha256": "4a30ec7b4085a95bd6326a693209f3ceefb8e96db515f21039e06909ab32651f"
+    },
+    "docs/artifacts/seeds16_20_fixed_comparison_preregistration_v2/030.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\seeds16_20_fixed_comparison\\v2\\fixture\\fixture_seed16_merton\\happo\\logs\\events.out.tfevents.1792160264.石原赫的电脑",
+      "source_sha256": "8ed32253c1035c5898cf31b5fd65b31a8e7a3fdaff711910acf3214cd219a079",
+      "gzip_sha256": "233ca58b29d14fcb3eb8f21e8b59a8468a66bad3472d570c0964ea9f896c2259"
+    },
+    "docs/artifacts/seeds16_20_fixed_comparison_preregistration_v2/031.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\seeds16_20_fixed_comparison\\v2\\fixture\\fixture_seed16_merton\\original_merton\\logs\\events.out.tfevents.1792160268.石原赫的电脑",
+      "source_sha256": "67c244394dde90dfadbec84c92c1ebcdfbe51f414ca3419d6e0872ad4b982a02",
+      "gzip_sha256": "f6fdacedc6b3b18c0639e64c4485ee7eb92080bf2f8571ca0eb3e8dd152a2f2c"
+    },
+    "docs/artifacts/seeds16_20_fixed_comparison_preregistration_v2/032.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\seeds16_20_fixed_comparison\\v2\\fixture\\fixture_seed16_sundial\\adapted_sundial\\logs\\events.out.tfevents.1792160305.石原赫的电脑",
+      "source_sha256": "1dbec7ebc81a177da673c85ff66a74f636cbbd1bc9692eef17e76702a91916ec",
+      "gzip_sha256": "6b9847236a30ba8a354506644f2f9c4239448ebdba86b9f866d79e5776c32801"
+    },
+    "docs/artifacts/seeds16_20_fixed_comparison_preregistration_v2/033.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\seeds16_20_fixed_comparison\\audit.py",
+      "source_sha256": "4c3b696884ff6334ada9be26c9138b3499a0410242aa53b2c07ee195e18f7b29",
+      "gzip_sha256": "2ec395eb874ac4b77e5c353e4cb20aaad39da4ca89a04963caf39e9b0929c705"
+    },
+    "docs/artifacts/seeds16_20_fixed_comparison_preregistration_v2/034.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\seeds16_20_fixed_comparison\\batch.py",
+      "source_sha256": "4b2fb86b7989d317b017c2e4acd6da38d321fadd9a24dbe7c0e7d672a5d4e87f",
+      "gzip_sha256": "ec0292696fc2358949331fe6982652a2f3470f2f4e16b0163b543dcafb140604"
+    },
+    "docs/artifacts/seeds16_20_fixed_comparison_preregistration_v2/035.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\seeds16_20_fixed_comparison\\runner.py",
+      "source_sha256": "9f0180b4553ebae9dc3f2e019cde109630e08ce3c7e18aaa2f490c4119d6191d",
+      "gzip_sha256": "30bfcc37fe0032b26d7d18185ed843d92c323d33a50cc7fcc87d51dfda7a48ea"
+    },
+    "docs/artifacts/seeds16_20_fixed_comparison_preregistration_v2/036.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\superpowers\\specs\\2026-10-16-seeds16-20-fixed-comparison-design.md",
+      "source_sha256": "431f7800eea7368a9e50e338638d61a36649da17fe9f56e4b170bd137023ac9d",
+      "gzip_sha256": "360f26f476f88a4e2b3ac94d80459bf659c1c30466039683b776d82003814495"
+    },
+    "docs/artifacts/seeds16_20_fixed_comparison_preregistration_v2/037.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\superpowers\\plans\\2026-10-16-seeds16-20-fixed-comparison.md",
+      "source_sha256": "f989662081286a1d56af3efeaa5459913478682a9f83a1a9eae251919a222b80",
+      "gzip_sha256": "b5749432dc30d0d91550d3daafc813e2db5cd740514eb7a37af1ac553e7ed7c4"
+    },
+    "docs/artifacts/seeds16_20_fixed_comparison_preregistration_v2/038.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\seeds16_20_fixed_comparison\\v1\\fixture_seed16_merton.log",
+      "source_sha256": "a812c27c0d94cf5ccfbd08cac3aebcdf3c9915ddd97e81287ca86acc2b079312",
+      "gzip_sha256": "b335c54c11f881f2bab8933067f96a9e84d21323beaa2a157de4edaeb506d682"
+    },
+    "docs/artifacts/seeds16_20_fixed_comparison_preregistration_v2/039.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\seeds16_20_fixed_comparison\\v1\\input.json",
+      "source_sha256": "409d49b56c7597534d6e4ff8e6d9afe2d4d4c5b238dfbfa32eca0a6d59b4c66c",
+      "gzip_sha256": "3b99ba7100dd52e2774cd4c2a556a32dc808cc0929028e42e225ac980a86161a"
+    },
+    "docs/artifacts/seeds16_20_fixed_comparison_preregistration_v2/040.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\seeds16_20_fixed_comparison\\v1\\preflight_failure.json",
+      "source_sha256": "1cea14868152a21ff9d9ca1ea8b1c04f35ba8bcfcd85bc50c538c079797db8ed",
+      "gzip_sha256": "f7d3040dcde5e801b162f4cff285e748d3e35b6e382be4886df47e1598228729"
+    },
+    "docs/artifacts/seeds16_20_fixed_comparison_preregistration_v2/041.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\seeds16_20_fixed_comparison\\v1\\preparation_freeze.json",
+      "source_sha256": "1ff1b2d0768a592ac49d0b3c3efb34b36241a8a1cafcbe065753686737dc9e35",
+      "gzip_sha256": "e577e18667ecce6562fb6c8f879ee8d717cc3647fdc54b9dfe066bb8cd23a9b2"
+    },
+    "docs/artifacts/seeds16_20_fixed_comparison_preregistration_v2/042.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\seeds16_20_fixed_comparison\\v1\\source_snapshot\\audit.py",
+      "source_sha256": "4c3b696884ff6334ada9be26c9138b3499a0410242aa53b2c07ee195e18f7b29",
+      "gzip_sha256": "2ec395eb874ac4b77e5c353e4cb20aaad39da4ca89a04963caf39e9b0929c705"
+    },
+    "docs/artifacts/seeds16_20_fixed_comparison_preregistration_v2/043.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\seeds16_20_fixed_comparison\\v1\\source_snapshot\\batch.py",
+      "source_sha256": "5f7b0914c65a67a28608ea675a0cd3f7c50aa245d5b19c88f315cba98ac04b85",
+      "gzip_sha256": "4c1b7e9de070d4413e74977b09c8483cd29b4a568e30bfb6666eb395e83c9fea"
+    },
+    "docs/artifacts/seeds16_20_fixed_comparison_preregistration_v2/044.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\seeds16_20_fixed_comparison\\v1\\source_snapshot\\runner.py",
+      "source_sha256": "df1cd6144c12137ce3d0ac21b1360ea64079b893e05cf97488d75428d32a9d45",
+      "gzip_sha256": "f57b7794a7f1850085aded542ce73d890ddecf847e98645febbcc055f722751b"
+    },
+    "docs/artifacts/seeds16_20_fixed_comparison_preregistration_v2/045.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\seeds16_20_fixed_comparison\\v1\\fixture\\fixture_seed16_merton\\calls.json",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "gzip_sha256": "61663fde99b3394d71653f41c19fe91269442622a4a6695f8352a70fbf5ca4c1"
+    },
+    "docs/artifacts/seeds16_20_fixed_comparison_preregistration_v2/046.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\seeds16_20_fixed_comparison\\v1\\fixture\\fixture_seed16_merton\\demands.json",
+      "source_sha256": "af5f56c715b74ced4741a035ffab17ce412a1018441a70e0705657eeebd57486",
+      "gzip_sha256": "535c7f824b30b977363dc265a4168e36d4fd5800993c1e8d0724472ea89ec8a0"
+    },
+    "docs/artifacts/seeds16_20_fixed_comparison_preregistration_v2/047.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\seeds16_20_fixed_comparison\\v1\\fixture\\fixture_seed16_merton\\failed.json",
+      "source_sha256": "d316c5f16a0e35dbb124fd556c78485847ac000654672a8ad92abaf18bbf5dd7",
+      "gzip_sha256": "a16ddc66f7d4f36721337253b16aab01e418d696e87babe1864cfdc01af1ec77"
+    },
+    "docs/artifacts/seeds16_20_fixed_comparison_preregistration_v2/048.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\seeds16_20_fixed_comparison\\v1\\fixture\\fixture_seed16_merton\\protocol.json",
+      "source_sha256": "983fa222fac2a9fd9a959fcd3864934ab56181eacb0528415c1ee6ea2a5a58eb",
+      "gzip_sha256": "10b3bedbd605ecfc3db8a5054447391f078f966b54aba886067d731ecd691dda"
+    }
+  },
+  "lossless": true,
+  "credential_absent": true,
+  "large_weights_not_copied": true
+}
