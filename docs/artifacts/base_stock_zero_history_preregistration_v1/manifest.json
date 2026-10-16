@@ -1,0 +1,27 @@
+{
+  "files": {
+    "docs/artifacts/base_stock_zero_history_preregistration_v1/000.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\base_stock_zero_history\\batch.py",
+      "source_sha256": "b427ceb61c0ceef4d74304d5040480a470d9949edb0d406c0a013e40216de36a",
+      "gzip_sha256": "52466bee457948d2bc50711fc27766fbc47ea6118d3907930c2fdb8c0a41ce79"
+    },
+    "docs/artifacts/base_stock_zero_history_preregistration_v1/001.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\superpowers\\specs\\2026-10-16-base-stock-zero-history-design.md",
+      "source_sha256": "3612314ccf89f26f7b0a2f7a6b9d0ffdd1f6706d5255f98534351d6f9658035e",
+      "gzip_sha256": "2a2a9a56352f78d92640849eb169af7acc76db09ec367679e57d0a864b3814b1"
+    },
+    "docs/artifacts/base_stock_zero_history_preregistration_v1/002.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\superpowers\\plans\\2026-10-16-base-stock-zero-history.md",
+      "source_sha256": "67eba3d688dbd25395b17c8e2e0bfb9cfbbe1225f71e677facb7cb30282b0eeb",
+      "gzip_sha256": "83936656bb8b04c942a88a0b3876182d1b89cbe2f96dd11b617ba9640b82a432"
+    },
+    "docs/artifacts/base_stock_zero_history_preregistration_v1/003.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\base_stock_zero_history\\v1\\registration.json",
+      "source_sha256": "bdbed4dab8c050cc1ca345aa8cad629bd740df2adf8bae2fc0420ad34e56404e",
+      "gzip_sha256": "e000a3615eb791f659018faeb1908b211a38b6151123b62a1a5c86fa5be5fbac"
+    }
+  },
+  "lossless": true,
+  "credential_absent": true,
+  "large_weights_not_copied": true
+}
