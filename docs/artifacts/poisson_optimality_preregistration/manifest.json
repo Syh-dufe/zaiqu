@@ -1,0 +1,529 @@
+{
+  "files": [
+    {
+      "source": "docs/superpowers/plans/2026-10-16-poisson-optimality.md",
+      "archive": "0000.gz",
+      "sha256": "7ee1fe8aee250f4d26f017b8184d684a680a386d6ed27a5510f6a5bb86134edf",
+      "bytes": 2243
+    },
+    {
+      "source": "docs/superpowers/specs/2026-10-16-poisson-optimality-design.md",
+      "archive": "0001.gz",
+      "sha256": "29342eaf73f08c23d888aa0de01ca830f521264a63ba9c6143f6eec0740dcb66",
+      "bytes": 3608
+    },
+    {
+      "source": "experiments/poisson_optimality/batch.py",
+      "archive": "0002.gz",
+      "sha256": "b66368ba375dbfbe5c9878b542181fdbb10aa333ace58f180b9be89bce1ca486",
+      "bytes": 6645
+    },
+    {
+      "source": "experiments/poisson_optimality/common.py",
+      "archive": "0003.gz",
+      "sha256": "7d8d8e6aaf8d10311aa954d9fd769ebd1901a06735bcdf28f804c02ea602e980",
+      "bytes": 1206
+    },
+    {
+      "source": "experiments/poisson_optimality/environment.py",
+      "archive": "0004.gz",
+      "sha256": "f993eed82bb6be09bdbfcdc0b35163725ecf0cd59c71ba447e65ae01ff89f7f4",
+      "bytes": 2921
+    },
+    {
+      "source": "experiments/poisson_optimality/train.py",
+      "archive": "0005.gz",
+      "sha256": "e6f886e0d918b35e593b274d2b52fc1970e612a3f7021384dc066b2501924426",
+      "bytes": 8750
+    },
+    {
+      "source": "external/liu-inventory/algorithms/__init__.py",
+      "archive": "0006.gz",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "external/liu-inventory/algorithms/actor_critic.py",
+      "archive": "0007.gz",
+      "sha256": "a60a097b84fd74c4027ecd0d3b0b94e9be9ed276cad85e694fddf466b6b7a9ad",
+      "bytes": 8743
+    },
+    {
+      "source": "external/liu-inventory/algorithms/happo_policy.py",
+      "archive": "0008.gz",
+      "sha256": "48f1915d792a000a5938718a09d897c2646cbc6d2d59529d47b8e79bd6f3161a",
+      "bytes": 7855
+    },
+    {
+      "source": "external/liu-inventory/algorithms/happo_trainer.py",
+      "archive": "0009.gz",
+      "sha256": "40c67b8b8f724cb0102f4766b58ea876606c7f2423b3733c41864502f53ba84a",
+      "bytes": 10716
+    },
+    {
+      "source": "external/liu-inventory/algorithms/utils/act.py",
+      "archive": "0010.gz",
+      "sha256": "dc551eb81567f591eab1ef148768439f67c236f2aca493e401171493fcc86d71",
+      "bytes": 11179
+    },
+    {
+      "source": "external/liu-inventory/algorithms/utils/cnn.py",
+      "archive": "0011.gz",
+      "sha256": "958c59f4828ec874934490249877b7b82d6d218ef12db2428dac7f6b325ce067",
+      "bytes": 1910
+    },
+    {
+      "source": "external/liu-inventory/algorithms/utils/distributions.py",
+      "archive": "0012.gz",
+      "sha256": "f11e226e9218e954c576f80ed4043bd480de1fc5a29905bd11663d2e678d159e",
+      "bytes": 4682
+    },
+    {
+      "source": "external/liu-inventory/algorithms/utils/mlp.py",
+      "archive": "0013.gz",
+      "sha256": "04e0ae4da416ac5352cd5d228688577903b4d0242386e19f63a0b3361af03b49",
+      "bytes": 2132
+    },
+    {
+      "source": "external/liu-inventory/algorithms/utils/rnn.py",
+      "archive": "0014.gz",
+      "sha256": "bb6ca30a91503f012df3c45d9be9011642f9895fb9804b05530bcb49db47fe50",
+      "bytes": 2929
+    },
+    {
+      "source": "external/liu-inventory/algorithms/utils/util.py",
+      "archive": "0015.gz",
+      "sha256": "0d32cea8abf8d063bf0cd7fd8a80b3e12331be4bfa96ed18d7c51a17323c560b",
+      "bytes": 442
+    },
+    {
+      "source": "external/liu-inventory/config.py",
+      "archive": "0016.gz",
+      "sha256": "603bb1e9b04f03cd32b9d939e7d7e1f5162a3fde3f3116c0120f80fb9e93ce99",
+      "bytes": 11578
+    },
+    {
+      "source": "external/liu-inventory/envs/__init__.py",
+      "archive": "0017.gz",
+      "sha256": "15c2ffe5d6790738d28363cf7101f64d7b6370a182b805284fbbbd304e6b42a1",
+      "bytes": 90
+    },
+    {
+      "source": "external/liu-inventory/envs/env_wrappers.py",
+      "archive": "0018.gz",
+      "sha256": "1781852360c113902585d9e293016382d5fdd956ad756ea820b5697b429fa405",
+      "bytes": 9199
+    },
+    {
+      "source": "external/liu-inventory/envs/generator.py",
+      "archive": "0019.gz",
+      "sha256": "48366755e3318751966f240c68316488a7f79066a9c3116a798d5cab46e55741",
+      "bytes": 1630
+    },
+    {
+      "source": "external/liu-inventory/envs/net_2x3.py",
+      "archive": "0020.gz",
+      "sha256": "fad67da8c575853154d6d7e22aa034cad8f6f8c1ff0fde9cd8de07729325bd24",
+      "bytes": 14223
+    },
+    {
+      "source": "external/liu-inventory/envs/serial.py",
+      "archive": "0021.gz",
+      "sha256": "7c73e9fe9ea5f8bf60908ee26e272e16bbb95e0acd9e074272ca8d1a95d70088",
+      "bytes": 12262
+    },
+    {
+      "source": "external/liu-inventory/envs/template.py",
+      "archive": "0022.gz",
+      "sha256": "49a2b095b30ddbe195e4790650b87d2c2d2d10f2e3ed0bec2627fec8a2d2529f",
+      "bytes": 7271
+    },
+    {
+      "source": "external/liu-inventory/runners/__init__.py",
+      "archive": "0023.gz",
+      "sha256": "c128749b116e135f555dc0948ea297a43316cc3cee0415e9e8e19aea7f72a9fc",
+      "bytes": 64
+    },
+    {
+      "source": "external/liu-inventory/runners/separated/__init__.py",
+      "archive": "0024.gz",
+      "sha256": "000ace4edd2d1786448beee066ce906a8b838276066f27b63eaf19b7c3de251c",
+      "bytes": 98
+    },
+    {
+      "source": "external/liu-inventory/runners/separated/base_runner.py",
+      "archive": "0025.gz",
+      "sha256": "d2d6f229dd65319ee0aeb81a376b6d80524f53070fd0c73a860c760c9570517e",
+      "bytes": 9947
+    },
+    {
+      "source": "external/liu-inventory/runners/separated/runner.py",
+      "archive": "0026.gz",
+      "sha256": "47c997beb9c2504afaa80215c89e430d15e0c75e77a0ed757551ffa6f4179fc8",
+      "bytes": 15346
+    },
+    {
+      "source": "external/liu-inventory/train_env.py",
+      "archive": "0027.gz",
+      "sha256": "78959c118607046478d4681f4ad8f31e239a299a0b49363fd5321d0bff8d36c9",
+      "bytes": 2992
+    },
+    {
+      "source": "external/liu-inventory/utils/__init__.py",
+      "archive": "0028.gz",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "external/liu-inventory/utils/multi_discrete.py",
+      "archive": "0029.gz",
+      "sha256": "7bca00aa5f47039ebe1fa1cb26e46682046cda57cf05d963f7c3ac699fa5a7a6",
+      "bytes": 2391
+    },
+    {
+      "source": "external/liu-inventory/utils/popart.py",
+      "archive": "0030.gz",
+      "sha256": "40fdb523f10aac1d03362cc1fc6a745936743a6763003a791a962fbe8acc9bbd",
+      "bytes": 3181
+    },
+    {
+      "source": "external/liu-inventory/utils/separated_buffer.py",
+      "archive": "0031.gz",
+      "sha256": "af0f1850bc0a8101ed18a5298aea1eb8146f86eb16396d46ea4b77e9ed436051",
+      "bytes": 23965
+    },
+    {
+      "source": "external/liu-inventory/utils/util.py",
+      "archive": "0032.gz",
+      "sha256": "7cf8ce806483e8abbc358951105a3765a734c92a15fa641595fa6ea967e1f4d7",
+      "bytes": 2304
+    },
+    {
+      "source": "external/liu-inventory/utils/valuenorm.py",
+      "archive": "0033.gz",
+      "sha256": "8cd48bb7e3a3d8295baec57a2cde23ca60a973d047f358f408709ef53c6a1836",
+      "bytes": 3189
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixture_L2.log",
+      "archive": "0034.gz",
+      "sha256": "2f51258882d5734f6279d9a28927e99d817582f15eb1a422ae1abc65d74a60fa",
+      "bytes": 2962
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixture_L4.log",
+      "archive": "0035.gz",
+      "sha256": "29a7f4951bb6a68961d9120e452f9e6f2cef1b119cf0ebe08ee2331e91e64edd",
+      "bytes": 2954
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixture_saved_best.log",
+      "archive": "0036.gz",
+      "sha256": "b6020df3692b31a7a00495d164f00ae8368a26a9a214118722f103165a69aeff",
+      "bytes": 7708
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed11/completed.json",
+      "archive": "0037.gz",
+      "sha256": "74fabba3d6200bc9e408b1163eafc3c5a81af695301256d279ad92ebf86e082c",
+      "bytes": 1393
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed11/config.json",
+      "archive": "0038.gz",
+      "sha256": "a866fc40e2cf09bd95ad009a6124ec50af566bb836471d7ab580037b39174e86",
+      "bytes": 2460
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed11/curve.csv",
+      "archive": "0039.gz",
+      "sha256": "ac7f6a6b3221b669717d9327774c288b3f1c6eaa51c1e03a6b78a31a8d06c80e",
+      "bytes": 185
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed11/final_models/actor_agent0.pt",
+      "archive": "0040.gz",
+      "sha256": "877da5c00f66a84ac2758af1d23a381536f02572481effc27cc8bd8f9385f89b",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed11/final_models/actor_agent1.pt",
+      "archive": "0041.gz",
+      "sha256": "dabf0d934871e88cebb0720d27151a9d0070c4ca82e8aec05cbaa2ad5d0febd8",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed11/final_models/actor_agent2.pt",
+      "archive": "0042.gz",
+      "sha256": "1a985690f0629b80c07998572331d45e74fa0a0a6b79c76174b41012f4ac1e7b",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed11/final_models/critic_agent0.pt",
+      "archive": "0043.gz",
+      "sha256": "c0ced91c7675fd1d151fcacb15a40057af40145df9a9e81b3b9368c2bb19c8d6",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed11/final_models/critic_agent1.pt",
+      "archive": "0044.gz",
+      "sha256": "d1952216ee5c5e58fcafec165d586b29db3b0276a0187f0a87c98d44c84c40c2",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed11/final_models/critic_agent2.pt",
+      "archive": "0045.gz",
+      "sha256": "5125d9f57ed0d642399c63ec0a5e068183cc114bb0d8ee5567081a51f1967734",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed11/final_models/parameters.json",
+      "archive": "0046.gz",
+      "sha256": "58a5681d747e4d68f28d63c2976945c9fe2b655625a1eb0eee870f8cd144491f",
+      "bytes": 675
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed11/logs/events.out.tfevents.1792163488.石原赫的电脑",
+      "archive": "0047.gz",
+      "sha256": "2c2c3ffb9a7db72699e47fad646f40f6df0427a4b7c3f40c8f6cb9ebd8febd8b",
+      "bytes": 40
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed11/progress.json",
+      "archive": "0048.gz",
+      "sha256": "2b0fc004649cd93f938865f1674a390f88a1158151e0ad154243d2fda9cae913",
+      "bytes": 220
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed11/training_demands.jsonl",
+      "archive": "0049.gz",
+      "sha256": "f81056723d0a8a4a2619e2bf2b60fb37c7fcaaba88eaf382fa2b6b1fd1837b96",
+      "bytes": 3548
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed12/best.json",
+      "archive": "0050.gz",
+      "sha256": "b5cc750f4c96c1c5cf49c919f28d3ed33cb09b464fce3df3b9fab336f2fa52fa",
+      "bytes": 150
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed12/completed.json",
+      "archive": "0051.gz",
+      "sha256": "77e0b710a781539f8d7ba3eebf53bdbf6c6bce33b792c3610a6d38212105a52d",
+      "bytes": 2364
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed12/config.json",
+      "archive": "0052.gz",
+      "sha256": "196abd0579dae1cd215bf4e5863231ba2e0975bb61d5cd4afc6909b3fcef28d7",
+      "bytes": 2460
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed12/curve.csv",
+      "archive": "0053.gz",
+      "sha256": "f20dac3514528c5b65efe6c437f9f088ab4a27a972436d1f965beb611d3fab84",
+      "bytes": 413
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed12/final_models/actor_agent0.pt",
+      "archive": "0054.gz",
+      "sha256": "81f722608982f3f72066b31a08efcb67cd2fed3b26531da981eb3c2b5649270a",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed12/final_models/actor_agent1.pt",
+      "archive": "0055.gz",
+      "sha256": "1a50baa6a75e470c3a1673e40220dc86a5d22c712c8ceb8be3c2daae3e47958d",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed12/final_models/actor_agent2.pt",
+      "archive": "0056.gz",
+      "sha256": "8f2910529bb7b27796f1ed264df197c725e83c8c6499da839aad6ea337230eb8",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed12/final_models/critic_agent0.pt",
+      "archive": "0057.gz",
+      "sha256": "caf070e86bbfb99b3c11ddf0ae520c89591345c23863e11d7d16af51c4766e8f",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed12/final_models/critic_agent1.pt",
+      "archive": "0058.gz",
+      "sha256": "1ea925d801785adff18ae29ad509d2fa699f18ebafd1d5d47bbd23613db314e1",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed12/final_models/critic_agent2.pt",
+      "archive": "0059.gz",
+      "sha256": "96b4981d32a790a4920aa19571e4284c10360c134752e977e11e879f3673e18f",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed12/final_models/parameters.json",
+      "archive": "0060.gz",
+      "sha256": "a4b8ee603ebf17e1fa3820b1acb88398b8c3b0ba6f5f18b154a71c38d2a35463",
+      "bytes": 675
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed12/logs/events.out.tfevents.1792163556.石原赫的电脑",
+      "archive": "0061.gz",
+      "sha256": "7a7db615da8e7bea3a09c32ca85f27bdbb7f908092f4ea580d40f7249901390c",
+      "bytes": 40
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed12/models/actor_agent0.pt",
+      "archive": "0062.gz",
+      "sha256": "910d7421f1fc7684fa8aceb1f40c7a8be691a42113a054aaa663edf52c000395",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed12/models/actor_agent1.pt",
+      "archive": "0063.gz",
+      "sha256": "3c55f591322d6e4a60b31754c8f5921d9764a8b5460f502b03801d549511f20d",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed12/models/actor_agent2.pt",
+      "archive": "0064.gz",
+      "sha256": "432ab0f8beb883b195b577b2958065a8ae8a3adce88fb25294d57baee534550d",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed12/models/critic_agent0.pt",
+      "archive": "0065.gz",
+      "sha256": "cf34de12667adddeb18065bf021da8597ce9c7ecde4863eba900523b681ce9dc",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed12/models/critic_agent1.pt",
+      "archive": "0066.gz",
+      "sha256": "a6194beb78e28b1728b690380a354f2c041bddf5051ef86fbe4f4e65445de7fb",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed12/models/critic_agent2.pt",
+      "archive": "0067.gz",
+      "sha256": "f67cb828a227884fd818679a05f634f7ef91c35073c6795f45d73514ad8ca79c",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed12/progress.json",
+      "archive": "0068.gz",
+      "sha256": "c632726d28b6ba01836095471cdb008f1375f19b5b3c7b005c2c5897d80ad465",
+      "bytes": 219
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed12/training_demands.jsonl",
+      "archive": "0069.gz",
+      "sha256": "d1dd7ab3aa195b681eda093bcee482c1e4a945ed8858617fb61e63dbce325dc4",
+      "bytes": 21258
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L4_seed11/completed.json",
+      "archive": "0070.gz",
+      "sha256": "64fd4d3328515be7e76ca28c1d8c776e8e648135c1c744f0fd6e5d2a094a56cd",
+      "bytes": 1367
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L4_seed11/config.json",
+      "archive": "0071.gz",
+      "sha256": "f8c9e72d87f0ddb903e9ed2a6c20b9709ad00b66d81f079b375f4e02ac7894af",
+      "bytes": 2460
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L4_seed11/curve.csv",
+      "archive": "0072.gz",
+      "sha256": "a8d5becab27f56f34b8966a63ad6198bca2cc81f34f87e4206100a1d9fdd1e02",
+      "bytes": 178
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L4_seed11/final_models/actor_agent0.pt",
+      "archive": "0073.gz",
+      "sha256": "e19471f7acc240affe865a41eb3e399183309df86655e11e588c0394cebc4180",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L4_seed11/final_models/actor_agent1.pt",
+      "archive": "0074.gz",
+      "sha256": "4258fbce5c3ca3c5589b1a4a4940d8bffd435920aac548fff4c91c0ce5f90bde",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L4_seed11/final_models/actor_agent2.pt",
+      "archive": "0075.gz",
+      "sha256": "fe8218a2884474de1031c77c57f00f09c9baf679e84f3507a78f2c27bdf372d6",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L4_seed11/final_models/critic_agent0.pt",
+      "archive": "0076.gz",
+      "sha256": "22cf8e8636da847cc917c0ee5d4078fc7d8c56dd829b86316c11a9cf1f8dc6fe",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L4_seed11/final_models/critic_agent1.pt",
+      "archive": "0077.gz",
+      "sha256": "9e301615be305bf6ec8dee293c842a0356e0ab8ed5ba2e8c31492625b3be16f2",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L4_seed11/final_models/critic_agent2.pt",
+      "archive": "0078.gz",
+      "sha256": "c15446a2d271baf9623739fee3f1a4e554ff760b962e8276e4c9c45ea9a5b4ea",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L4_seed11/final_models/parameters.json",
+      "archive": "0079.gz",
+      "sha256": "7269f54dff7297174d0710ceace5c419e0e571ed610c1263a58d2ed1adac8a68",
+      "bytes": 675
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L4_seed11/logs/events.out.tfevents.1792163518.石原赫的电脑",
+      "archive": "0080.gz",
+      "sha256": "99cd816fbfd6bc5c839cc107ee8ad3d31704647e54df17f7de29b7be46c34bc2",
+      "bytes": 40
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L4_seed11/progress.json",
+      "archive": "0081.gz",
+      "sha256": "3be70dd1415efd640016662276ae99b31f8ff87c89d3e0394b393265fcc3f6bb",
+      "bytes": 211
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L4_seed11/training_demands.jsonl",
+      "archive": "0082.gz",
+      "sha256": "f81056723d0a8a4a2619e2bf2b60fb37c7fcaaba88eaf382fa2b6b1fd1837b96",
+      "bytes": 3548
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/freeze.json",
+      "archive": "0083.gz",
+      "sha256": "c414d798f35281e7c6cf4098f9756aba3f7fb51da58599ad360cfc37c59826ef",
+      "bytes": 6288
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/inputs.json",
+      "archive": "0084.gz",
+      "sha256": "240f325b99cf95a8729d7830cc114254fcd5361419057e28a8a7a0739c968c03",
+      "bytes": 77067
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/method_freeze.json",
+      "archive": "0085.gz",
+      "sha256": "1c1ea276ba15fd6818df7cb83605d8679b9bf6cfc534c74255ae1f7085ed98ee",
+      "bytes": 5442
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/preflight.json",
+      "archive": "0086.gz",
+      "sha256": "f498b2d25c1a3e8b748dc647136ce3e26621f420252dd720c7275329b16234dd",
+      "bytes": 136
+    }
+  ],
+  "user_key_absent": true,
+  "fixture_weights_only": true,
+  "formal_training_not_started": true
+}
