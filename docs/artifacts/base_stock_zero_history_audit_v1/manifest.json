@@ -1,0 +1,27 @@
+{
+  "files": {
+    "docs/artifacts/base_stock_zero_history_audit_v1/000.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\base_stock_zero_history\\v1\\independent_audit.json",
+      "source_sha256": "78d6cbf6fe107ca77f02fb946ca3f0fdef039f46e6fcb647aec41f63c0b2a320",
+      "gzip_sha256": "18e7102d037d5b7ef27f8fe9ab2379b631bdd373e97659e093eccfa9e64b4b7c"
+    },
+    "docs/artifacts/base_stock_zero_history_audit_v1/001.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\base_stock_zero_history\\v1\\completed_publication.json",
+      "source_sha256": "828755107f1501c40019ae0183407fa3797b9ba2e6f237aa7107a83f5c0d8ac5",
+      "gzip_sha256": "afa56af0dd51b8bdcf8511f4a1835c524dbe433bce86b59b7b244babe3e5edfd"
+    },
+    "docs/artifacts/base_stock_zero_history_audit_v1/002.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\2026-10-16-base-stock-zero-history-results.md",
+      "source_sha256": "ffa5f9bee876ba404b67fc7610afef3bfef61b10cf59d3716f15197eadd7b331",
+      "gzip_sha256": "dc15bd0e56ecb08ed7510c5a311b6e397d7598f5f5eed409c3b31d0b07aef03d"
+    },
+    "docs/artifacts/base_stock_zero_history_audit_v1/003.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\README.md",
+      "source_sha256": "aa32f451a789b0ecdf7c8a76f9b39fabd5402a1a7b79c0200a2825d88cffbd28",
+      "gzip_sha256": "09bb965543802f726b8184946b73224ff1bfccc4730589f6b7b3984cb377b147"
+    }
+  },
+  "lossless": true,
+  "credential_absent": true,
+  "large_weights_not_copied": true
+}
