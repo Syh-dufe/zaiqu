@@ -1,0 +1,32 @@
+{
+  "files": {
+    "docs/artifacts/base_stock_recalibration_audit_v1/000.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\base_stock_recalibration\\v1\\independent_audit.json",
+      "source_sha256": "3079e5bedc5a8c1aeb8a945219aade0b91fb5e43d45e4f7afd44af4fc24b4b1c",
+      "gzip_sha256": "4534b61dd29d8cfb799287720184cc22c0bdb3e9fb3bafbf5a379ae2cb2e372a"
+    },
+    "docs/artifacts/base_stock_recalibration_audit_v1/001.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\results\\base_stock_recalibration\\v1\\completed_publication.json",
+      "source_sha256": "0c8685ff813d38d8a466a087ba365c5046f913f49cc779e23d2c4dc9ac683218",
+      "gzip_sha256": "aa312a7e23a1716972af74bfeb8ea0f6a1847228e562f8379423efa7433f82e4"
+    },
+    "docs/artifacts/base_stock_recalibration_audit_v1/002.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\experiments\\online_llm_artifacts\\audit_base_stock_recalibration.py",
+      "source_sha256": "41ccd9c3c6224b9a4d1146baa5035866390b103d16c017f988f420abb788435d",
+      "gzip_sha256": "e92363afa667316fbb46f71a2dc84bb7646d394c0f6a59de4c95589b4160013d"
+    },
+    "docs/artifacts/base_stock_recalibration_audit_v1/003.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\docs\\2026-10-16-base-stock-recalibration-results.md",
+      "source_sha256": "4981a5433b28752c1fe641f5dbcf412664fa997d439b55691b8e7aa8756d2a5c",
+      "gzip_sha256": "708fada3b9cec410160f2ede8501ba4908d074e30679c4b84261c530908fa0df"
+    },
+    "docs/artifacts/base_stock_recalibration_audit_v1/004.gz": {
+      "source": "C:\\Users\\13384\\.codex\\worktrees\\zaiqu-formal-bc\\README.md",
+      "source_sha256": "5d198414f762eb1811921ac3273084d992550e623aa88a571c37760211b1306a",
+      "gzip_sha256": "80fc999467959340bd5b63afb38007246e6698a680e99d0d59e35a169c2c5d30"
+    }
+  },
+  "lossless": true,
+  "credential_absent": true,
+  "large_weights_not_copied": true
+}
