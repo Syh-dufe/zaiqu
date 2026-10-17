@@ -1,0 +1,48 @@
+{
+  "files": [
+    {
+      "source": "results/poisson_shock_base_stock/v1/completed.json",
+      "archive": "0000.gz",
+      "sha256": "3f9f42ea1190336e64fe270e25d465a3f9700a06de1838bda2d6a295fef13bc9",
+      "bytes": 198
+    },
+    {
+      "source": "results/poisson_shock_base_stock/v1/episodes.json",
+      "archive": "0001.gz",
+      "sha256": "beea774619dee13bcd238385d7340b88c9eb59dc358c1b37b91c150aeada1605",
+      "bytes": 2664
+    },
+    {
+      "source": "results/poisson_shock_base_stock/v1/periods.csv.gz",
+      "archive": "0002.gz",
+      "sha256": "91a5f989cb463ee15619d59517703fd3787752f0c960324f5142b5015d3179cc",
+      "bytes": 99801
+    },
+    {
+      "source": "results/poisson_shock_base_stock/v1/registration.json",
+      "archive": "0003.gz",
+      "sha256": "d39bae25e38202bd01c1bcea91b1f8fc525b9990e1cccc48703848406d9d9f23",
+      "bytes": 27095
+    },
+    {
+      "source": "results/poisson_shock_base_stock/v1/summary.json",
+      "archive": "0004.gz",
+      "sha256": "b4003e2a3a48f691f5dac2bc29cf620e40680748ea6c6e14eb42dd5b3a4cd111",
+      "bytes": 2009
+    },
+    {
+      "source": "results/poisson_shock_base_stock/v1/unused_training_demands_L2.jsonl",
+      "archive": "0005.gz",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "results/poisson_shock_base_stock/v1/unused_training_demands_L4.jsonl",
+      "archive": "0006.gz",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    }
+  ],
+  "user_key_absent": true,
+  "lossless": true
+}
