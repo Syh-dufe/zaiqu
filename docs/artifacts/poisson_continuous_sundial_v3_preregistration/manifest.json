@@ -1,0 +1,360 @@
+{
+  "files": [
+    {
+      "source": "docs/superpowers/plans/2026-10-17-poisson-continuous-sundial.md",
+      "archive": "0000.gz",
+      "sha256": "ca934363df7360101a21cea6788575322d04a26ae1d0befc11aa1556ddb5e278",
+      "bytes": 1230
+    },
+    {
+      "source": "docs/superpowers/specs/2026-10-17-poisson-continuous-sundial-design.md",
+      "archive": "0001.gz",
+      "sha256": "4775614516bdd0ee9e8f0ee159c5632a0bae7ed9b8b2cfdbc7896d75177a4e66",
+      "bytes": 2284
+    },
+    {
+      "source": "experiments/deepseek_pilot/rules.py",
+      "archive": "0002.gz",
+      "sha256": "8de5400b739098929e760caf8bca9abd9d89a6f5e6910d9ab839119aefbc497b",
+      "bytes": 4990
+    },
+    {
+      "source": "experiments/deepseek_refinement/reports.py",
+      "archive": "0003.gz",
+      "sha256": "46d4588efa0daae795e9677f4151cee66fe0d77aabe40eebc1296d4be460b154",
+      "bytes": 2565
+    },
+    {
+      "source": "experiments/deepseek_refinement/shadow.py",
+      "archive": "0004.gz",
+      "sha256": "fbf92c3c5bc5b86a52890a32e5d26d51400daef467504401838da55bbff95865",
+      "bytes": 7526
+    },
+    {
+      "source": "experiments/formal_evaluation/ablations.py",
+      "archive": "0005.gz",
+      "sha256": "bac84d7a7b44f8416620939244fd0683334cfead5236e0c2ecbb60edc391124e",
+      "bytes": 353
+    },
+    {
+      "source": "experiments/joint_baseline/frozen.py",
+      "archive": "0006.gz",
+      "sha256": "9f37cbcfb9d6fb60234496100acb0d3c060743064e04e9e5ef28c0a6f396f2bf",
+      "bytes": 2325
+    },
+    {
+      "source": "experiments/online_llm/client.py",
+      "archive": "0007.gz",
+      "sha256": "db7d8dd0efe1916896eefd575c50a459ed594076c3ca233449bfe2184e3af511",
+      "bytes": 5237
+    },
+    {
+      "source": "experiments/online_llm/controller.py",
+      "archive": "0008.gz",
+      "sha256": "4f67a4775be661f0751fd2f916baf8f961350de01430c14e5a57e12cdd54b067",
+      "bytes": 8445
+    },
+    {
+      "source": "experiments/online_llm_guard_pool/controller.py",
+      "archive": "0009.gz",
+      "sha256": "a291d659726b6fbdfe221af1862be5f35473f74c8154846aaabfaf40a81d57cc",
+      "bytes": 3807
+    },
+    {
+      "source": "experiments/online_llm_guard_pool/policy.py",
+      "archive": "0010.gz",
+      "sha256": "f73c136a44a77104044a055dd2aafb5a759786abb555cb78a1c4e2bbe88057c2",
+      "bytes": 2162
+    },
+    {
+      "source": "experiments/online_llm_guard_pool/runner.py",
+      "archive": "0011.gz",
+      "sha256": "576d68903f2bba41da70aef0674fc7af0671dc242b7f13b162bbce03959b4caf",
+      "bytes": 2413
+    },
+    {
+      "source": "experiments/poisson_baseline_comparison/compare.py",
+      "archive": "0012.gz",
+      "sha256": "6292d7e518c923f5dadd4a24cf142d52f30b8a5ff14c2b81a9d35433bd39d699",
+      "bytes": 15890
+    },
+    {
+      "source": "experiments/poisson_continuous_sundial/audit.py",
+      "archive": "0013.gz",
+      "sha256": "734a5fd5adc80237003475f16a3c73454c94333bd052ea448847b3a3470186a0",
+      "bytes": 3469
+    },
+    {
+      "source": "experiments/poisson_continuous_sundial/controller.py",
+      "archive": "0014.gz",
+      "sha256": "f604a3e84faf6b164e68bf576bc549d941334387fdf03344f071c7483d2afcf8",
+      "bytes": 8216
+    },
+    {
+      "source": "experiments/poisson_continuous_sundial/driver.py",
+      "archive": "0015.gz",
+      "sha256": "478edcfb1d71bc17d1b34c3a80e344d3e9ad9b14e8e84e1e7106d253195af604",
+      "bytes": 2213
+    },
+    {
+      "source": "experiments/poisson_continuous_sundial/runner.py",
+      "archive": "0016.gz",
+      "sha256": "5d4783af0a1ff54983cc76494ba31ff517d3ff3068e2c469f13e598f5f67e264",
+      "bytes": 7452
+    },
+    {
+      "source": "experiments/poisson_full_mechanism/audit.py",
+      "archive": "0017.gz",
+      "sha256": "4931400408f79ce37c631e6e0a02ddc1b6b149e7c19b9b28a736969b4351b0e7",
+      "bytes": 4781
+    },
+    {
+      "source": "experiments/poisson_full_mechanism/batch.py",
+      "archive": "0018.gz",
+      "sha256": "e6ddc953d8684270d0f280b8c8964f2cd67b1b4949e3cfea908fe2eb4161e589",
+      "bytes": 7940
+    },
+    {
+      "source": "experiments/poisson_full_mechanism/runner.py",
+      "archive": "0019.gz",
+      "sha256": "a9b57f620eaef90382be9d004bd0cc005803d1e48e6a4996283cbc95fa191d0d",
+      "bytes": 12161
+    },
+    {
+      "source": "experiments/poisson_optimality/common.py",
+      "archive": "0020.gz",
+      "sha256": "7d8d8e6aaf8d10311aa954d9fd769ebd1901a06735bcdf28f804c02ea602e980",
+      "bytes": 1206
+    },
+    {
+      "source": "experiments/poisson_optimality/environment.py",
+      "archive": "0021.gz",
+      "sha256": "f993eed82bb6be09bdbfcdc0b35163725ecf0cd59c71ba447e65ae01ff89f7f4",
+      "bytes": 2921
+    },
+    {
+      "source": "experiments/poisson_optimality/train.py",
+      "archive": "0022.gz",
+      "sha256": "e6f886e0d918b35e593b274d2b52fc1970e612a3f7021384dc066b2501924426",
+      "bytes": 8750
+    },
+    {
+      "source": "experiments/submission_required/component.py",
+      "archive": "0023.gz",
+      "sha256": "2e558f65d95cc4ccbc43aac46565932ffbe499d09d0e5d9ef80e037fbdd56153",
+      "bytes": 12221
+    },
+    {
+      "source": "experiments/submission_required/run_online.py",
+      "archive": "0024.gz",
+      "sha256": "04dfe6de7a53fe14eed4bb0baa35bdbc9d57fc6c46b32a2b34a8a0869bfc6522",
+      "bytes": 22256
+    },
+    {
+      "source": "experiments/sundial_adapter_development/adapter.py",
+      "archive": "0025.gz",
+      "sha256": "875a1352e2ec3f9d3f940d48ebf7a2afe110bb27a804df32a08499a8268d66b3",
+      "bytes": 1237
+    },
+    {
+      "source": "experiments/sundial_adapter_development/common.py",
+      "archive": "0026.gz",
+      "sha256": "f8ba45122a6bb8f887413b046c21b10ec5701460d50d904b5415062084cb331a",
+      "bytes": 2913
+    },
+    {
+      "source": "experiments/sundial_adapter_development/evaluate.py",
+      "archive": "0027.gz",
+      "sha256": "f8bd68e5db793d0cb6938183d0f7b01d94301dfa630b994fb9f19fe74e85a875",
+      "bytes": 2867
+    },
+    {
+      "source": "experiments/sundial_adapter_development/fit.py",
+      "archive": "0028.gz",
+      "sha256": "205fc4b9c671eefd5bf6ad5a819832a6efc45effd1b092f01face3bd5acebaa0",
+      "bytes": 2641
+    },
+    {
+      "source": "experiments/sundial_adapter_development/forecast.py",
+      "archive": "0029.gz",
+      "sha256": "f2600979d1e935fb2e30883ca1bf6ef7f07e6099e6d23d9048f890719df9d996",
+      "bytes": 2494
+    },
+    {
+      "source": "experiments/sundial_adapter_development/prepare.py",
+      "archive": "0030.gz",
+      "sha256": "aa3d1fec454e00ae4b673af957ef152024e3066e4fa153f4b8b9e6bfffabf971",
+      "bytes": 2290
+    },
+    {
+      "source": "experiments/sundial_adapter_development/verify.py",
+      "archive": "0031.gz",
+      "sha256": "bf71c8a5a1836b4751a4cc82744ef197996a29b0465320981fc84eaf005f2305",
+      "bytes": 4122
+    },
+    {
+      "source": "experiments/sundial_change_response/audit.py",
+      "archive": "0032.gz",
+      "sha256": "aa21fcf592a08f4d85fd8590e386cfaadf5da80a8923d1d126dcc039fb2bf9e3",
+      "bytes": 4262
+    },
+    {
+      "source": "experiments/sundial_change_response/batch.py",
+      "archive": "0033.gz",
+      "sha256": "f2c4a666786faf2e347e6129c5323f18ab67789bac5736513e78b08d1012cf50",
+      "bytes": 5345
+    },
+    {
+      "source": "experiments/sundial_change_response/predictor.py",
+      "archive": "0034.gz",
+      "sha256": "b7e8eef2ec3b7f4e1a229e9305fdd4ff0534a8a762ff0bf076ca16c1832ffe43",
+      "bytes": 1286
+    },
+    {
+      "source": "experiments/sundial_change_response/response.py",
+      "archive": "0035.gz",
+      "sha256": "d6b232856446f38fbc4b4c5d5f90ed12af9ecf6798dfeffb069062196907b3d9",
+      "bytes": 988
+    },
+    {
+      "source": "experiments/sundial_change_response/runner.py",
+      "archive": "0036.gz",
+      "sha256": "f73a94802f3588d4f5d935407c9fad25fb955524c648aee10edc3bf4b03b8020",
+      "bytes": 2328
+    },
+    {
+      "source": "experiments/sundial_closed_loop_development/analyze.py",
+      "archive": "0037.gz",
+      "sha256": "920dade22861c6b90e32b59c05e92a3e3526f745d3b60c1cbcde1ee28dc935f5",
+      "bytes": 3638
+    },
+    {
+      "source": "experiments/sundial_closed_loop_development/audit.py",
+      "archive": "0038.gz",
+      "sha256": "639d536a3335b7e3906c54ac6808902af549814c8cb3459e5b94fbcee9fbecdb",
+      "bytes": 6321
+    },
+    {
+      "source": "experiments/sundial_closed_loop_development/batch.py",
+      "archive": "0039.gz",
+      "sha256": "fe2fd2e55cafa49b9cf64364919a3c4a0b07a1ce5c0db5d854c86b5b20b089db",
+      "bytes": 8763
+    },
+    {
+      "source": "experiments/sundial_closed_loop_development/controller.py",
+      "archive": "0040.gz",
+      "sha256": "44a91599ddb41526d7a8ebf359cc374a0acd68c249e00fecf30ad185d203f938",
+      "bytes": 1995
+    },
+    {
+      "source": "experiments/sundial_closed_loop_development/predictor.py",
+      "archive": "0041.gz",
+      "sha256": "35995a095f0b86464d4250d87f549aed5b21c30b2c9f4db95cb3ace64d99d6ec",
+      "bytes": 4285
+    },
+    {
+      "source": "experiments/sundial_closed_loop_development/preflight.py",
+      "archive": "0042.gz",
+      "sha256": "7178c53561a288ab6275d71eb45d2bc4b7e818358ff5de22c52e85a03650f039",
+      "bytes": 3121
+    },
+    {
+      "source": "experiments/sundial_closed_loop_development/prepare.py",
+      "archive": "0043.gz",
+      "sha256": "afd74c563b627d9dc1a281e41185e3134679e0bce1a904c490de80ad079817af",
+      "bytes": 2451
+    },
+    {
+      "source": "experiments/sundial_closed_loop_development/runner.py",
+      "archive": "0044.gz",
+      "sha256": "647e52ff372d3e2abb948d52666a68cf541116ee562a6fa26a8d5a25f7380192",
+      "bytes": 2520
+    },
+    {
+      "source": "experiments/sundial_multiscale_cost/audit.py",
+      "archive": "0045.gz",
+      "sha256": "ce5c2ae42fce69870cc172c5e6dfc2390c9ddb7958976fc80dee79a4250d86a0",
+      "bytes": 3104
+    },
+    {
+      "source": "experiments/sundial_multiscale_cost/batch.py",
+      "archive": "0046.gz",
+      "sha256": "c019d78ecd910ed99d7ed8a22e733b4f6a1921c263d68fb4e9dc78f99ca2c75d",
+      "bytes": 7190
+    },
+    {
+      "source": "experiments/sundial_multiscale_cost/predictor.py",
+      "archive": "0047.gz",
+      "sha256": "27cd1bcd102bdb49e64e6c4fe237979c2946f83497cf1b8bbbbc3c4ea730890d",
+      "bytes": 1843
+    },
+    {
+      "source": "experiments/sundial_multiscale_cost/preflight.py",
+      "archive": "0048.gz",
+      "sha256": "691527b6551014a26ae3e08f8f8e4297c1d431bb233a7031337054aac28440c2",
+      "bytes": 2527
+    },
+    {
+      "source": "experiments/sundial_multiscale_cost/reaudit.py",
+      "archive": "0049.gz",
+      "sha256": "e8f87fed3be5103de17ae98d90bb71cf6674675a6e8c3984c3a399e0b1191e8a",
+      "bytes": 1030
+    },
+    {
+      "source": "experiments/sundial_multiscale_cost/runner.py",
+      "archive": "0050.gz",
+      "sha256": "f77c343514497b327011c91feeffd68b5b17b691c2b80c8c81a770ba53dba7bd",
+      "bytes": 2567
+    },
+    {
+      "source": "experiments/sundial_response_live_api/runner.py",
+      "archive": "0051.gz",
+      "sha256": "6e591ef36060fe84aad0d5bcc85ec6fa2caf1a7dff14b1036e6f46145b438190",
+      "bytes": 2669
+    },
+    {
+      "source": "experiments/sundial_six_rules/runner.py",
+      "archive": "0052.gz",
+      "sha256": "3fcfa406219d6371c6acba115279b6724e1730ec9fc0bfee566ddb3c3f439b14",
+      "bytes": 2603
+    },
+    {
+      "source": "experiments/timesfm_path_development/audit.py",
+      "archive": "0053.gz",
+      "sha256": "fb9bbc30efd5325c1f4c4cd360154cb291e6dfd4e9b495004decf63090810f88",
+      "bytes": 3945
+    },
+    {
+      "source": "experiments/timesfm_path_development/diagnose.py",
+      "archive": "0054.gz",
+      "sha256": "980692545927499e3321c27b3d6020b2154e9f862a7f5bc675c3d4d2600b990d",
+      "bytes": 3185
+    },
+    {
+      "source": "experiments/timesfm_path_development/paths.py",
+      "archive": "0055.gz",
+      "sha256": "69facda6e611bd57d363e36205b300fe15c15ed39253706694c72f4a7e15c2c4",
+      "bytes": 1604
+    },
+    {
+      "source": "results/poisson_continuous_sundial_v3/development_v1/registration.json",
+      "archive": "0056.gz",
+      "sha256": "20521187cb8b201b3fe79c3d1d25f33003d6d99f83687bac0cbf7fb332da298b",
+      "bytes": 7944
+    },
+    {
+      "source": "results/poisson_continuous_sundial_v3/inputs.json",
+      "archive": "0057.gz",
+      "sha256": "a06cf0f6adfa45140ceff09889e4e16b39eb068985a8d4494ecb4d9d6130f645",
+      "bytes": 4051
+    },
+    {
+      "source": "results/sundial_multiscale_adapter/v1/multiscale24_best.json",
+      "archive": "0058.gz",
+      "sha256": "c6714b54504be7f6eaadad434878b09043895d98123485ad0083b93c1822624b",
+      "bytes": 1013
+    }
+  ],
+  "user_key_absent": true,
+  "lossless": true
+}
