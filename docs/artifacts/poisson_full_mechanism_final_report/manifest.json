@@ -1,0 +1,24 @@
+{
+  "files": [
+    {
+      "source": "docs/2026-10-17-poisson-full-mechanism-results.md",
+      "archive": "0000.gz",
+      "sha256": "052c68786040d57b4652b5311b4f364e6ef0ac0351f391156dd919f5d5d7dd38",
+      "bytes": 6363
+    },
+    {
+      "source": "results/poisson_full_mechanism/network_recovery_v2/aggregate_cost_tables.json",
+      "archive": "0001.gz",
+      "sha256": "eeaf1052007400d7387ff755206c1b5ec9f92a76febd40cf9e9d8e9277d6111f",
+      "bytes": 10422
+    },
+    {
+      "source": "results/poisson_full_mechanism/network_recovery_v2/independent_final_accounting.json",
+      "archive": "0002.gz",
+      "sha256": "92749ae96c1f63d9a72151451f022801fd06589aa97ae649d78707f9bf61697d",
+      "bytes": 1523
+    }
+  ],
+  "user_key_absent": true,
+  "lossless": true
+}
