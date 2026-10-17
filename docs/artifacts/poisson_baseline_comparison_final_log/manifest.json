@@ -1,0 +1,18 @@
+{
+  "files": [
+    {
+      "source": "results/poisson_baseline_comparison/v1/driver.log",
+      "archive": "0000.gz",
+      "sha256": "764c1724c1e5cc45eee511aeebebd5c9781507986246e2977755635c178f64c7",
+      "bytes": 44
+    },
+    {
+      "source": "results/poisson_baseline_comparison/v1/final_log_capture.json",
+      "archive": "0001.gz",
+      "sha256": "268707bf076fd84124a877147618d0a677cde35cdf48db087c0ba24a02fe64eb",
+      "bytes": 373
+    }
+  ],
+  "user_key_absent": true,
+  "lossless": true
+}
