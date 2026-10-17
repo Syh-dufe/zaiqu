@@ -1,0 +1,60 @@
+{
+  "files": [
+    {
+      "source": "results/poisson_paper_range/v1/completed.json",
+      "archive": "0000.gz",
+      "sha256": "08fc682d8bcd3ff73f1a6b0a14c82ff3c2c0bec3e685c015847bd97e927f0c83",
+      "bytes": 193
+    },
+    {
+      "source": "results/poisson_paper_range/v1/episodes.json",
+      "archive": "0001.gz",
+      "sha256": "c155b188635ba5a10a3eeb6d5baa75823e0fe7f0402d5ddefbf35fe1307baf7e",
+      "bytes": 11563
+    },
+    {
+      "source": "results/poisson_paper_range/v1/periods.csv.gz",
+      "archive": "0002.gz",
+      "sha256": "283b3f7bc40d75707462cffdf152aaef1fae8e031c9ac7a6fd0e55953baa8294",
+      "bytes": 437122
+    },
+    {
+      "source": "results/poisson_paper_range/v1/registration.json",
+      "archive": "0003.gz",
+      "sha256": "0e02bb9ba5e49992b15129791b5c03fb3df4c9bcbd52b00a26b031adfa1b1045",
+      "bytes": 27284
+    },
+    {
+      "source": "results/poisson_paper_range/v1/selection.json",
+      "archive": "0004.gz",
+      "sha256": "7f79a78bb32c7813ec25dfa3ffa3078c84bf6dcd560aafb8b3339f2684284a5a",
+      "bytes": 22900
+    },
+    {
+      "source": "results/poisson_paper_range/v1/started.lock",
+      "archive": "0005.gz",
+      "sha256": "156fb587b7fed5a094d38a547bd1f0fbbad3f3d786e98edc41c8a954e772b3ec",
+      "bytes": 21
+    },
+    {
+      "source": "results/poisson_paper_range/v1/summary.json",
+      "archive": "0006.gz",
+      "sha256": "5398c868e00e25a0711518b989dfbce918b507a139c2d2c1bd5f0c8a119cc2be",
+      "bytes": 7145
+    },
+    {
+      "source": "results/poisson_paper_range/v1/unused_training_demands_L2.jsonl",
+      "archive": "0007.gz",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "results/poisson_paper_range/v1/unused_training_demands_L4.jsonl",
+      "archive": "0008.gz",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    }
+  ],
+  "user_key_absent": true,
+  "lossless": true
+}
