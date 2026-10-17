@@ -1,0 +1,882 @@
+{
+  "files": [
+    {
+      "source": "docs/superpowers/plans/2026-10-16-poisson-optimality.md",
+      "archive": "0000.gz",
+      "sha256": "7ee1fe8aee250f4d26f017b8184d684a680a386d6ed27a5510f6a5bb86134edf",
+      "bytes": 2243
+    },
+    {
+      "source": "docs/superpowers/plans/2026-10-17-poisson-baseline-comparison.md",
+      "archive": "0001.gz",
+      "sha256": "fc6fbb59b925945171572375c34213805a898e58aad6db30fd214725e12fed7e",
+      "bytes": 2466
+    },
+    {
+      "source": "docs/superpowers/specs/2026-10-16-poisson-optimality-design.md",
+      "archive": "0002.gz",
+      "sha256": "29342eaf73f08c23d888aa0de01ca830f521264a63ba9c6143f6eec0740dcb66",
+      "bytes": 3608
+    },
+    {
+      "source": "docs/superpowers/specs/2026-10-17-poisson-baseline-comparison-design.md",
+      "archive": "0003.gz",
+      "sha256": "3b63c03659221471352aa21ee11894a158427917fea44adc73c06f5e2f4eb9df",
+      "bytes": 4950
+    },
+    {
+      "source": "experiments/poisson_baseline_comparison/audit.py",
+      "archive": "0004.gz",
+      "sha256": "f7d1d17aa6d6a8a42e29ae384ec32821922591351611571ed091914a6fd84452",
+      "bytes": 5784
+    },
+    {
+      "source": "experiments/poisson_baseline_comparison/compare.py",
+      "archive": "0005.gz",
+      "sha256": "6292d7e518c923f5dadd4a24cf142d52f30b8a5ff14c2b81a9d35433bd39d699",
+      "bytes": 15890
+    },
+    {
+      "source": "experiments/poisson_optimality/batch.py",
+      "archive": "0006.gz",
+      "sha256": "b66368ba375dbfbe5c9878b542181fdbb10aa333ace58f180b9be89bce1ca486",
+      "bytes": 6645
+    },
+    {
+      "source": "experiments/poisson_optimality/common.py",
+      "archive": "0007.gz",
+      "sha256": "7d8d8e6aaf8d10311aa954d9fd769ebd1901a06735bcdf28f804c02ea602e980",
+      "bytes": 1206
+    },
+    {
+      "source": "experiments/poisson_optimality/environment.py",
+      "archive": "0008.gz",
+      "sha256": "f993eed82bb6be09bdbfcdc0b35163725ecf0cd59c71ba447e65ae01ff89f7f4",
+      "bytes": 2921
+    },
+    {
+      "source": "experiments/poisson_optimality/train.py",
+      "archive": "0009.gz",
+      "sha256": "e6f886e0d918b35e593b274d2b52fc1970e612a3f7021384dc066b2501924426",
+      "bytes": 8750
+    },
+    {
+      "source": "external/liu-inventory/algorithms/__init__.py",
+      "archive": "0010.gz",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "external/liu-inventory/algorithms/actor_critic.py",
+      "archive": "0011.gz",
+      "sha256": "a60a097b84fd74c4027ecd0d3b0b94e9be9ed276cad85e694fddf466b6b7a9ad",
+      "bytes": 8743
+    },
+    {
+      "source": "external/liu-inventory/algorithms/happo_policy.py",
+      "archive": "0012.gz",
+      "sha256": "48f1915d792a000a5938718a09d897c2646cbc6d2d59529d47b8e79bd6f3161a",
+      "bytes": 7855
+    },
+    {
+      "source": "external/liu-inventory/algorithms/happo_trainer.py",
+      "archive": "0013.gz",
+      "sha256": "40c67b8b8f724cb0102f4766b58ea876606c7f2423b3733c41864502f53ba84a",
+      "bytes": 10716
+    },
+    {
+      "source": "external/liu-inventory/algorithms/utils/act.py",
+      "archive": "0014.gz",
+      "sha256": "dc551eb81567f591eab1ef148768439f67c236f2aca493e401171493fcc86d71",
+      "bytes": 11179
+    },
+    {
+      "source": "external/liu-inventory/algorithms/utils/cnn.py",
+      "archive": "0015.gz",
+      "sha256": "958c59f4828ec874934490249877b7b82d6d218ef12db2428dac7f6b325ce067",
+      "bytes": 1910
+    },
+    {
+      "source": "external/liu-inventory/algorithms/utils/distributions.py",
+      "archive": "0016.gz",
+      "sha256": "f11e226e9218e954c576f80ed4043bd480de1fc5a29905bd11663d2e678d159e",
+      "bytes": 4682
+    },
+    {
+      "source": "external/liu-inventory/algorithms/utils/mlp.py",
+      "archive": "0017.gz",
+      "sha256": "04e0ae4da416ac5352cd5d228688577903b4d0242386e19f63a0b3361af03b49",
+      "bytes": 2132
+    },
+    {
+      "source": "external/liu-inventory/algorithms/utils/rnn.py",
+      "archive": "0018.gz",
+      "sha256": "bb6ca30a91503f012df3c45d9be9011642f9895fb9804b05530bcb49db47fe50",
+      "bytes": 2929
+    },
+    {
+      "source": "external/liu-inventory/algorithms/utils/util.py",
+      "archive": "0019.gz",
+      "sha256": "0d32cea8abf8d063bf0cd7fd8a80b3e12331be4bfa96ed18d7c51a17323c560b",
+      "bytes": 442
+    },
+    {
+      "source": "external/liu-inventory/config.py",
+      "archive": "0020.gz",
+      "sha256": "603bb1e9b04f03cd32b9d939e7d7e1f5162a3fde3f3116c0120f80fb9e93ce99",
+      "bytes": 11578
+    },
+    {
+      "source": "external/liu-inventory/envs/__init__.py",
+      "archive": "0021.gz",
+      "sha256": "15c2ffe5d6790738d28363cf7101f64d7b6370a182b805284fbbbd304e6b42a1",
+      "bytes": 90
+    },
+    {
+      "source": "external/liu-inventory/envs/env_wrappers.py",
+      "archive": "0022.gz",
+      "sha256": "1781852360c113902585d9e293016382d5fdd956ad756ea820b5697b429fa405",
+      "bytes": 9199
+    },
+    {
+      "source": "external/liu-inventory/envs/generator.py",
+      "archive": "0023.gz",
+      "sha256": "48366755e3318751966f240c68316488a7f79066a9c3116a798d5cab46e55741",
+      "bytes": 1630
+    },
+    {
+      "source": "external/liu-inventory/envs/net_2x3.py",
+      "archive": "0024.gz",
+      "sha256": "fad67da8c575853154d6d7e22aa034cad8f6f8c1ff0fde9cd8de07729325bd24",
+      "bytes": 14223
+    },
+    {
+      "source": "external/liu-inventory/envs/serial.py",
+      "archive": "0025.gz",
+      "sha256": "7c73e9fe9ea5f8bf60908ee26e272e16bbb95e0acd9e074272ca8d1a95d70088",
+      "bytes": 12262
+    },
+    {
+      "source": "external/liu-inventory/envs/template.py",
+      "archive": "0026.gz",
+      "sha256": "49a2b095b30ddbe195e4790650b87d2c2d2d10f2e3ed0bec2627fec8a2d2529f",
+      "bytes": 7271
+    },
+    {
+      "source": "external/liu-inventory/runners/__init__.py",
+      "archive": "0027.gz",
+      "sha256": "c128749b116e135f555dc0948ea297a43316cc3cee0415e9e8e19aea7f72a9fc",
+      "bytes": 64
+    },
+    {
+      "source": "external/liu-inventory/runners/separated/__init__.py",
+      "archive": "0028.gz",
+      "sha256": "000ace4edd2d1786448beee066ce906a8b838276066f27b63eaf19b7c3de251c",
+      "bytes": 98
+    },
+    {
+      "source": "external/liu-inventory/runners/separated/base_runner.py",
+      "archive": "0029.gz",
+      "sha256": "d2d6f229dd65319ee0aeb81a376b6d80524f53070fd0c73a860c760c9570517e",
+      "bytes": 9947
+    },
+    {
+      "source": "external/liu-inventory/runners/separated/runner.py",
+      "archive": "0030.gz",
+      "sha256": "47c997beb9c2504afaa80215c89e430d15e0c75e77a0ed757551ffa6f4179fc8",
+      "bytes": 15346
+    },
+    {
+      "source": "external/liu-inventory/train_env.py",
+      "archive": "0031.gz",
+      "sha256": "78959c118607046478d4681f4ad8f31e239a299a0b49363fd5321d0bff8d36c9",
+      "bytes": 2992
+    },
+    {
+      "source": "external/liu-inventory/utils/__init__.py",
+      "archive": "0032.gz",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "external/liu-inventory/utils/multi_discrete.py",
+      "archive": "0033.gz",
+      "sha256": "7bca00aa5f47039ebe1fa1cb26e46682046cda57cf05d963f7c3ac699fa5a7a6",
+      "bytes": 2391
+    },
+    {
+      "source": "external/liu-inventory/utils/popart.py",
+      "archive": "0034.gz",
+      "sha256": "40fdb523f10aac1d03362cc1fc6a745936743a6763003a791a962fbe8acc9bbd",
+      "bytes": 3181
+    },
+    {
+      "source": "external/liu-inventory/utils/separated_buffer.py",
+      "archive": "0035.gz",
+      "sha256": "af0f1850bc0a8101ed18a5298aea1eb8146f86eb16396d46ea4b77e9ed436051",
+      "bytes": 23965
+    },
+    {
+      "source": "external/liu-inventory/utils/util.py",
+      "archive": "0036.gz",
+      "sha256": "7cf8ce806483e8abbc358951105a3765a734c92a15fa641595fa6ea967e1f4d7",
+      "bytes": 2304
+    },
+    {
+      "source": "external/liu-inventory/utils/valuenorm.py",
+      "archive": "0037.gz",
+      "sha256": "8cd48bb7e3a3d8295baec57a2cde23ca60a973d047f358f408709ef53c6a1836",
+      "bytes": 3189
+    },
+    {
+      "source": "results/poisson_baseline_comparison/preparation_diagnostics/compare_before_dependency_fix.py",
+      "archive": "0038.gz",
+      "sha256": "4b9ddb5348e7ee8e29aab5119912011ae2e0fb5ccbaeedfb891087938693453d",
+      "bytes": 15499
+    },
+    {
+      "source": "results/poisson_baseline_comparison/preparation_diagnostics/import_failure.json",
+      "archive": "0039.gz",
+      "sha256": "dff70080aebc883c0ce2356b63f34fd574cb04f67de7c7948f01ed74fe0bbb08",
+      "bytes": 281
+    },
+    {
+      "source": "results/poisson_baseline_comparison/v1/preflight.json",
+      "archive": "0040.gz",
+      "sha256": "55db599d83c41fe01e339c99763da518080262fd6ff962006fc3cfcbb0f4394a",
+      "bytes": 2160
+    },
+    {
+      "source": "results/poisson_baseline_comparison/v1/registration.json",
+      "archive": "0041.gz",
+      "sha256": "746f9b5e932501453d8319f542cc78243fa52cf157c51a937e6ab14e6e615cdd",
+      "bytes": 25909
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/completed.json",
+      "archive": "0042.gz",
+      "sha256": "f17096b6788ba3d2fc37443ec6e0c7436c0b040c41f0ed371d56ce037c18cfb0",
+      "bytes": 125
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/inputs.json",
+      "archive": "0043.gz",
+      "sha256": "240f325b99cf95a8729d7830cc114254fcd5361419057e28a8a7a0739c968c03",
+      "bytes": 77067
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/method_freeze.json",
+      "archive": "0044.gz",
+      "sha256": "1c1ea276ba15fd6818df7cb83605d8679b9bf6cfc534c74255ae1f7085ed98ee",
+      "bytes": 5442
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed11/best.json",
+      "archive": "0045.gz",
+      "sha256": "3d2bb05b239c7d39125b5e5ba789ab0aa931cf02ac0daa0b44c910039ff6628b",
+      "bytes": 151
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed11/completed.json",
+      "archive": "0046.gz",
+      "sha256": "9a9abcbfe3b6a793393b1a324e4458d1a04ee625ce93640f6b3f200ef43553f1",
+      "bytes": 2369
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed11/config.json",
+      "archive": "0047.gz",
+      "sha256": "916113e8b6a8a0b6f099c08e34d147ed4f2a4a1f7cce2cc8cd3000aa50c93494",
+      "bytes": 2463
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed11/models/actor_agent0.pt",
+      "archive": "0048.gz",
+      "sha256": "91569396ff19e160c88b0c6e80738dfcd3dc00caa0da61c18cbc585b8264cf31",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed11/models/actor_agent1.pt",
+      "archive": "0049.gz",
+      "sha256": "6c6e635953065e1f1b5014cbddfd2a0dd415def4414817c323ebab59d84f72dc",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed11/models/actor_agent2.pt",
+      "archive": "0050.gz",
+      "sha256": "1088c7140ed6580714875f7ac994a367ffd8908f2e572b75e968bcb72e60c40f",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed11/models/critic_agent0.pt",
+      "archive": "0051.gz",
+      "sha256": "850555e6f4712592e6d1d7576d3e757c8a529c4c7f00a8339f81c285dcda3ff1",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed11/models/critic_agent1.pt",
+      "archive": "0052.gz",
+      "sha256": "7a109c2fe9e43f5e8449ae514efe6c35867ca6b75730b70345a529311803fce9",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed11/models/critic_agent2.pt",
+      "archive": "0053.gz",
+      "sha256": "90225cd98a7f9bab495eb4c79ccaeb11eb714015394383bc4b4d60be8acdc5c0",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed11/training_demands.jsonl",
+      "archive": "0054.gz",
+      "sha256": "1f807cf1aadcc7efc2f3a9f28d2a66fce35c6feba6e7100c1a550c63e86dc916",
+      "bytes": 301579
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed12/best.json",
+      "archive": "0055.gz",
+      "sha256": "0f38a06f1bccc8329e9e3fedd6fc71f9b46847e96da58ab8049fb75dd18ea2e3",
+      "bytes": 150
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed12/completed.json",
+      "archive": "0056.gz",
+      "sha256": "df0a1b2e5e98bcf91b8e5a8804f7a83195e341b3513507f3f0d39a2784ffaed2",
+      "bytes": 2400
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed12/config.json",
+      "archive": "0057.gz",
+      "sha256": "119b94cb682535f92d847f54d51316511f0821af63feb2f824427930a17210c8",
+      "bytes": 2463
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed12/models/actor_agent0.pt",
+      "archive": "0058.gz",
+      "sha256": "fd616e2a3a16dae01991ef0bdcb044edb477d359f4f8e7c2197c698d1e33bfe0",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed12/models/actor_agent1.pt",
+      "archive": "0059.gz",
+      "sha256": "15746217efd73685110ea9a50e7d245adcef92f7711bdadcc55d1cf7c0924899",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed12/models/actor_agent2.pt",
+      "archive": "0060.gz",
+      "sha256": "83c595224b05e239aa16b000f1b00075816b3edf21d033a62289a8d8e75cbd61",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed12/models/critic_agent0.pt",
+      "archive": "0061.gz",
+      "sha256": "9b2d6019d125b2edc6e1d58ca5451af79a4a1812b293fee3de6eef8272e0e2af",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed12/models/critic_agent1.pt",
+      "archive": "0062.gz",
+      "sha256": "39f01a555a6b4bf1b690f5952508812cc74cadae4d261384db9250c0971af372",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed12/models/critic_agent2.pt",
+      "archive": "0063.gz",
+      "sha256": "e5459b19b4c2dc2cff568edd9c715ae508e948b57c153338393db9cb6df8cb50",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed12/training_demands.jsonl",
+      "archive": "0064.gz",
+      "sha256": "12488e8799459b7991061e4a68718eec3085a9b4fadddd073ca177b19b65a6de",
+      "bytes": 425688
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed13/best.json",
+      "archive": "0065.gz",
+      "sha256": "c93bd73b292225f5e974571c5be2139b21b3c40e574255913f08093b2f6771f2",
+      "bytes": 150
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed13/completed.json",
+      "archive": "0066.gz",
+      "sha256": "6694a1ee9028bbe6c7d15550ff6650b524c3cfecc9f62918ea6af5006879cc55",
+      "bytes": 2397
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed13/config.json",
+      "archive": "0067.gz",
+      "sha256": "7844d3186b4012f586b9dd04b6239cee03c49bdc44d60ef28e726518e5020cb6",
+      "bytes": 2463
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed13/models/actor_agent0.pt",
+      "archive": "0068.gz",
+      "sha256": "7557b6382d90414bed23af45f361346d4b2bc172d17b60740f630953f45d0bb3",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed13/models/actor_agent1.pt",
+      "archive": "0069.gz",
+      "sha256": "6362d8a912e7ff540d331b5b5e56b00c7621e0d228817b7936c52888c6e4cb55",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed13/models/actor_agent2.pt",
+      "archive": "0070.gz",
+      "sha256": "52a15e2339dc69f58ddf53547f9fad5eafb3f161008252764230c2f49dbc4101",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed13/models/critic_agent0.pt",
+      "archive": "0071.gz",
+      "sha256": "3e0311178f810e1a233c5d87c6f846501e31e432cd2bb0e823337d9e53e7afae",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed13/models/critic_agent1.pt",
+      "archive": "0072.gz",
+      "sha256": "c5c20a0a831b326c4272186277b9a253d0de72f719a2eda5273de1ad38e6ce71",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed13/models/critic_agent2.pt",
+      "archive": "0073.gz",
+      "sha256": "959716828c5e312bb34e9e77136389e2b8b6f6fc57e6017d6c51498fe09bdc1a",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed13/training_demands.jsonl",
+      "archive": "0074.gz",
+      "sha256": "6ce640cb0577ce21f50f51d9f44ec8e51e08c467cb4ae70ca01ed961d1fc8c5f",
+      "bytes": 408142
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed14/best.json",
+      "archive": "0075.gz",
+      "sha256": "c6d550232d1b94700c35eb1392fc7a9de44ada3880b6456d46a4b3a27d84b6ef",
+      "bytes": 151
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed14/completed.json",
+      "archive": "0076.gz",
+      "sha256": "f099e149a579e724e90089b642a68df34baa9361efe26b7c89f7ed0ae83c8805",
+      "bytes": 2373
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed14/config.json",
+      "archive": "0077.gz",
+      "sha256": "532181c002d03c574061a830f6cb69e6f3c44b7b778632390619a089dd0916cd",
+      "bytes": 2463
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed14/models/actor_agent0.pt",
+      "archive": "0078.gz",
+      "sha256": "3bb21ec79f30e878316993963cc3aadc091cb84b2845ecf28d8bcd72463178d8",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed14/models/actor_agent1.pt",
+      "archive": "0079.gz",
+      "sha256": "95655012a7b2154b49a8af91cdf9929bf69d8c2fe60e7307b9b6aab0119c219a",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed14/models/actor_agent2.pt",
+      "archive": "0080.gz",
+      "sha256": "ae40442070e49e36fbf6036516e8fb4b73b3c236fe667bd5eb2385a3d2de3c48",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed14/models/critic_agent0.pt",
+      "archive": "0081.gz",
+      "sha256": "bb546c8690829c2c0019a8e3a982c7dbbcd04691ff385bf14ece32e16bcd124d",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed14/models/critic_agent1.pt",
+      "archive": "0082.gz",
+      "sha256": "2104142349cfd998a15979f644fde58d8470157b5b0c41ce0c5702a2668b4610",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed14/models/critic_agent2.pt",
+      "archive": "0083.gz",
+      "sha256": "82e9a68f76a5a1ff1940a78da2240c345b594dd1a3ef7a9fa57bd57c0691bd19",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed14/training_demands.jsonl",
+      "archive": "0084.gz",
+      "sha256": "7e4b7b90b4894249ff5c4cc18710edaa8ce1a190258d07255259227d4073c745",
+      "bytes": 390256
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed15/best.json",
+      "archive": "0085.gz",
+      "sha256": "88c22e1f3d61d31113187c4b10f17014a1d671476607506709b7fbfb88eeedfd",
+      "bytes": 151
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed15/completed.json",
+      "archive": "0086.gz",
+      "sha256": "f9c926fe83de2f433c37f61625ccb8458b896d7e15acc70c1cb0e66bb310971b",
+      "bytes": 2393
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed15/config.json",
+      "archive": "0087.gz",
+      "sha256": "c5a734b7bad8cae9a63bb562af2dc7a8b19c9447aec11bbdc1b0a8e7a3ad60b2",
+      "bytes": 2463
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed15/models/actor_agent0.pt",
+      "archive": "0088.gz",
+      "sha256": "cdc2defe40e0e37e07b674586a9798c30d20e8f40df77522dd5a2ffb96b4edfc",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed15/models/actor_agent1.pt",
+      "archive": "0089.gz",
+      "sha256": "17bf325354c4905219925c82e159123e13ea6936ce5f099bd29b96d0468d8d6c",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed15/models/actor_agent2.pt",
+      "archive": "0090.gz",
+      "sha256": "4f46483aa183ff2fae3cf55b751a9d02e8d209015e051d331f1944f36ec06fe7",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed15/models/critic_agent0.pt",
+      "archive": "0091.gz",
+      "sha256": "895b85da7493a93a8018be404a02485e52a64886ee82257073ab50e4b1e2d9f9",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed15/models/critic_agent1.pt",
+      "archive": "0092.gz",
+      "sha256": "0b66ab468007f4738ac98731424ed14ac5e4ecf9f4a514471462dc7e4ebf921a",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed15/models/critic_agent2.pt",
+      "archive": "0093.gz",
+      "sha256": "169ad8c888e3c0ce005f0e8b6f530ec31b17ac45234851bc98f6e30b95d1e9c6",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed15/training_demands.jsonl",
+      "archive": "0094.gz",
+      "sha256": "0fd8531c0ab267d33670238172d794cb526324edc2f2252264b1c1a6fca81b30",
+      "bytes": 230478
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed11/best.json",
+      "archive": "0095.gz",
+      "sha256": "d91c73d5f28563052a1619082b6be91d94c992ac559e1a7c78d1c93beb518f28",
+      "bytes": 149
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed11/completed.json",
+      "archive": "0096.gz",
+      "sha256": "5053282ed994bea08d78ed5165812358d18ab74fc62756a1eebfe91083c43e32",
+      "bytes": 2365
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed11/config.json",
+      "archive": "0097.gz",
+      "sha256": "350d08005177f7eff9df5fc49e52a43923a2f720815886b5349e2fb5e9acd518",
+      "bytes": 2463
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed11/models/actor_agent0.pt",
+      "archive": "0098.gz",
+      "sha256": "cb9ae768f431fae6d901afd65b4c8292bd634139217abbbe868885e0c5d61ad2",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed11/models/actor_agent1.pt",
+      "archive": "0099.gz",
+      "sha256": "83f6f6dec600eb85f0b99fb7f9c9cc935493c863d54e74d661121e72939f1d4d",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed11/models/actor_agent2.pt",
+      "archive": "0100.gz",
+      "sha256": "12d0565cdd4d30f51198ca5d0b1dc4f515eaa59b07ebe8ef5885f78b6673c2d4",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed11/models/critic_agent0.pt",
+      "archive": "0101.gz",
+      "sha256": "60eec7fca1ade9ff3d52d98c5a91676dacc06ff23e55051e5770add4983eb96a",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed11/models/critic_agent1.pt",
+      "archive": "0102.gz",
+      "sha256": "33bd77ef4027da23c93239945db31a8366d9552cc5207ce1b2ebfdcd91c742b5",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed11/models/critic_agent2.pt",
+      "archive": "0103.gz",
+      "sha256": "6a3963a24c5fe409ea88555885b43bcfd6a1ba0c85f132473ba5ea6b4dfad7a8",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed11/training_demands.jsonl",
+      "archive": "0104.gz",
+      "sha256": "90501895962dbac90491f35a8110c64a4576f48d4783fed24877368128b25c5c",
+      "bytes": 212902
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed12/best.json",
+      "archive": "0105.gz",
+      "sha256": "0305c449d8fc685fcd6cb78967e2d51b37ea4c600fc118b836dc48d1a7a58eb8",
+      "bytes": 141
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed12/completed.json",
+      "archive": "0106.gz",
+      "sha256": "2514b50ef41e27b9049e0c582ff8ab846b1fbdb93fd8962f8b117485841f09b1",
+      "bytes": 2366
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed12/config.json",
+      "archive": "0107.gz",
+      "sha256": "d7a10ba7bef498eda0b24c430b88e08ac2a145b7f2fc1779e361caf37387fd10",
+      "bytes": 2463
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed12/models/actor_agent0.pt",
+      "archive": "0108.gz",
+      "sha256": "7dc1e1260afcf2a4f68ae8f3fcef89922c25753768ecc6174e8af70a6eb6fd92",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed12/models/actor_agent1.pt",
+      "archive": "0109.gz",
+      "sha256": "c2995d031eb93e749af2f9a74d6981cf071c0bf786d17da477d9b2b183bea313",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed12/models/actor_agent2.pt",
+      "archive": "0110.gz",
+      "sha256": "3773bdfe3b23083085074d8fc6c000b34304ea74e48c5fb71548bb39d9cb9dc4",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed12/models/critic_agent0.pt",
+      "archive": "0111.gz",
+      "sha256": "b9c8530c9b001e990e0abec35a9c9a0d89b92dbf74b9841d61c14a4d7cd6aab0",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed12/models/critic_agent1.pt",
+      "archive": "0112.gz",
+      "sha256": "2352217bf8186eca4649b2f5f69cb33295ae64a2852739e4b9a004a115639510",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed12/models/critic_agent2.pt",
+      "archive": "0113.gz",
+      "sha256": "05c571994ac53e5289aac0554bd5c5bbde3e1a90a5a94328c4228307595d45ae",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed12/training_demands.jsonl",
+      "archive": "0114.gz",
+      "sha256": "10efecfdbf8f7481b72a3998016248c6c4bf220704eebb8ba3e876c8dd114c5d",
+      "bytes": 319466
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed13/best.json",
+      "archive": "0115.gz",
+      "sha256": "28b0750776681b16e184a823f07483dec71945fa878de2e254c3cb61f0a9506a",
+      "bytes": 150
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed13/completed.json",
+      "archive": "0116.gz",
+      "sha256": "fdc1234311c7ab9a08b7c5f714f4661292749b0a254e8c2e93da8e492be776dd",
+      "bytes": 2390
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed13/config.json",
+      "archive": "0117.gz",
+      "sha256": "24dad9bc29ae6499bcc9c92ef0ff915f59f78582748acb70275c55f5dc4ed3ec",
+      "bytes": 2463
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed13/models/actor_agent0.pt",
+      "archive": "0118.gz",
+      "sha256": "2b640d9acd697555d8297fb5482628983a7b9b7e18580749d553d66b79fbca2a",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed13/models/actor_agent1.pt",
+      "archive": "0119.gz",
+      "sha256": "1235b0bc8748d6be262d42d8f23f7a5739443c477c6b45106465595311fea7cd",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed13/models/actor_agent2.pt",
+      "archive": "0120.gz",
+      "sha256": "59483ac6ec532fda247c2a6be5a814cdc54050de2622e25bd7d096af69f5c8c3",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed13/models/critic_agent0.pt",
+      "archive": "0121.gz",
+      "sha256": "1194aad7362fd139f967d2d3965164859896fca82a7714f9f73dc15acf40dadc",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed13/models/critic_agent1.pt",
+      "archive": "0122.gz",
+      "sha256": "e354d39cb6dca9c3e9a0257b9cfc22e3c421cd09b9d33bd77583dba03b817c7b",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed13/models/critic_agent2.pt",
+      "archive": "0123.gz",
+      "sha256": "58b847cce10a4e4020bd0000303e2e1c2b88f7f65e3c54aa6328a4e2e0373fed",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed13/training_demands.jsonl",
+      "archive": "0124.gz",
+      "sha256": "840a473088f38e117589f3daf85e0ca90af382396893ed0d7a26909a0d5d16ec",
+      "bytes": 337328
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed14/best.json",
+      "archive": "0125.gz",
+      "sha256": "7569dca2c15d709fddc55d36c454b32c7007b7d38416f741fadb204c9a36f5a8",
+      "bytes": 141
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed14/completed.json",
+      "archive": "0126.gz",
+      "sha256": "3d2945363095650210c0f1ce7ba2772a9c39facd332956d34f94518f30ca3e6d",
+      "bytes": 2373
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed14/config.json",
+      "archive": "0127.gz",
+      "sha256": "46e1236336aef43f09ac8c64e324a6a0592a6f447e97bd687076904272daa136",
+      "bytes": 2463
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed14/models/actor_agent0.pt",
+      "archive": "0128.gz",
+      "sha256": "eb575e4f37857150034a21aa3135f1a11774b964933086567b530e3888080aa1",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed14/models/actor_agent1.pt",
+      "archive": "0129.gz",
+      "sha256": "131ed2940628773c2c16bd7ad43bafcd4659a56efcdc4f2683021e6b8c492b16",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed14/models/actor_agent2.pt",
+      "archive": "0130.gz",
+      "sha256": "89627648c3fb1bdc4fc94235112a9d906cf64ad2027698192a181abf893e72ca",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed14/models/critic_agent0.pt",
+      "archive": "0131.gz",
+      "sha256": "4afe8dba291a6a283047e179959f3a227558b54badb08adee552730591c4a2c4",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed14/models/critic_agent1.pt",
+      "archive": "0132.gz",
+      "sha256": "a36a58774b3648453b695f0b584f26d07bab1dce060c061afd97e1bfd8fbc082",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed14/models/critic_agent2.pt",
+      "archive": "0133.gz",
+      "sha256": "7692e181750f1065d22faa7bc98555e0a9e4b5b6e7056a4806cf995458a6d7b0",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed14/training_demands.jsonl",
+      "archive": "0134.gz",
+      "sha256": "5a3ca1f39e7584156e95be87c8ecc88935767b1c07ec5b469b35194eafc87bf8",
+      "bytes": 478987
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed15/best.json",
+      "archive": "0135.gz",
+      "sha256": "4c9cd897f0a0d450059a09b47a2bd9406c73062e2c414fdf385f7f3a717b40ad",
+      "bytes": 141
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed15/completed.json",
+      "archive": "0136.gz",
+      "sha256": "2a5aca80649ffb74e113f1dfeab2108eafc1fa91a1a9deff797aece2bb836a38",
+      "bytes": 2363
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed15/config.json",
+      "archive": "0137.gz",
+      "sha256": "44933738d83740ff31dd7e097fcebef1dee4808984f834299b52c07eb8b7b61c",
+      "bytes": 2463
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed15/models/actor_agent0.pt",
+      "archive": "0138.gz",
+      "sha256": "85ee13a996389024441f3a4f0c805d273a1c22a92147b57f522e222ec6618030",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed15/models/actor_agent1.pt",
+      "archive": "0139.gz",
+      "sha256": "e7be9b69dad8260a4ed189e2af364368c74f99b3c729c166a7c80289b159ceed",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed15/models/actor_agent2.pt",
+      "archive": "0140.gz",
+      "sha256": "9ad0dbcb78567b34da3565dcb3fcee1b3b0892923b3ee408a646839f0e90fe87",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed15/models/critic_agent0.pt",
+      "archive": "0141.gz",
+      "sha256": "67fe0087d5e178c9f2eb977406eb8489035f46905c6ab5af00d9b20a6a665754",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed15/models/critic_agent1.pt",
+      "archive": "0142.gz",
+      "sha256": "a8fbee0975e8a04caa61eb96630296a7f6d8a5b92087b26bf118ed19211a5597",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed15/models/critic_agent2.pt",
+      "archive": "0143.gz",
+      "sha256": "ac8e60a4826c7370ae813ce83c702c5909ddc1746c2ebe64dd6903ed5a252226",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed15/training_demands.jsonl",
+      "archive": "0144.gz",
+      "sha256": "043ebb106f436b77c4404e3452d3209706a175fc7bac803513b5b38c5cc478a9",
+      "bytes": 248169
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/summary.json",
+      "archive": "0145.gz",
+      "sha256": "a43370513e1791303a9922f74460c237b63db6df6d5cf86a89460c8caa1f8a9b",
+      "bytes": 26116
+    }
+  ],
+  "user_key_absent": true,
+  "lossless": true
+}
