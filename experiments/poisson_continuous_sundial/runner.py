@@ -2,13 +2,13 @@
 import argparse,copy,csv,hashlib,importlib.util,inspect,json,math,sys,traceback
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[2];HERE=Path(__file__).parent
-OUT=ROOT/'results/poisson_continuous_sundial_v3/development_v1'
+OUT=ROOT/'results/poisson_continuous_sundial_v4/development_v1'
 OLD=ROOT/'experiments/poisson_full_mechanism/runner.py'
 def module(name,path):
  s=importlib.util.spec_from_file_location(name,path);v=importlib.util.module_from_spec(s);sys.modules[name]=v;s.loader.exec_module(v);return v
 r=module('continuous_sundial_frozen_full_runner',OLD)
 r.OUT=OUT
-GENERATE_AT=(18,63,108,153)
+GENERATE_AT=(19,64,109,154)
 
 def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
 def read(p):return json.loads(Path(p).read_text(encoding='utf-8'))
@@ -88,9 +88,9 @@ def prepare():
  hashes[(OUT.parent/'inputs.json').relative_to(ROOT).as_posix()]=sha(OUT.parent/'inputs.json')
  write(OUT/'registration.json',dict(files=hashes,leads=[2,4],model_seeds=[11,12,13,14,15],paths=2,
        episodes=40,node_periods=24000,api_http_cap=320,api_semantic_cap=160,api_calls_only_full_sundial=True,
-       generation_decision_periods=[x+1 for x in GENERATE_AT],report_interval=3,continuous_forecast='every newly delivered report',
+       generation_decision_periods=list(GENERATE_AT),report_interval=3,continuous_forecast='every newly delivered report',
        no_injected_shock=True,design='development pilot; not independent confirmation'))
- r.ref.archive(ROOT/'docs/artifacts/poisson_continuous_sundial_v3_preregistration',[*freeze_sources(),OUT.parent/'inputs.json',OUT/'registration.json'])
+ r.ref.archive(ROOT/'docs/artifacts/poisson_continuous_sundial_v4_preregistration',[*freeze_sources(),OUT.parent/'inputs.json',OUT/'registration.json'])
 
 def preflight(lead):
  install_controller();verify()

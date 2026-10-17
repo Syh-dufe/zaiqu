@@ -4,7 +4,7 @@ from pathlib import Path
 def audit(folder):
  folder=Path(folder);root=Path(__file__).resolve().parents[2]
  protocol=json.loads((folder/'protocol.json').read_text(encoding='utf-8'))
- data=json.loads((root/'results/poisson_continuous_sundial_v3/development_v1/inputs.json').read_text(encoding='utf-8'))
+ data=json.loads((root/'results/poisson_continuous_sundial_v4/development_v1/inputs.json').read_text(encoding='utf-8'))
  episodes=json.loads((folder/'episodes.json').read_text(encoding='utf-8'))
  groups={}
  with gzip.open(folder/'periods.csv.gz','rt',encoding='utf-8',newline='') as f:
@@ -24,7 +24,7 @@ def audit(folder):
     assert all(0<=x<=20 for x in actions+proposal) and all(abs(a-p)<=6 for a,p in zip(actions,proposal))
     if method=='happo':assert actions==proposal
     avail=[inv[i]+pipe[i][0] for i in range(3)];req=[d+back[0],actions[0]+back[1],actions[1]+back[2]]
-    sent=[min(a,q) for a,q in zip(avail,req)];inv=[a-s for a,s in zip(avail,sent)];back=[q-s for a,q in zip(req,sent)]
+    sent=[min(a,q) for a,q in zip(avail,req)];inv=[a-s for a,s in zip(avail,sent)];back=[q-s for q,s in zip(req,sent)]
     shipped=[sent[1],sent[2],actions[2]];pipe=[pipe[i][1:]+[shipped[i]] for i in range(3)]
     for i,row in enumerate(tri):
      assert int(row['inventory'])==inv[i] and int(row['backlog'])==back[i]
@@ -35,7 +35,7 @@ def audit(folder):
    costs[f'{method}_trace{trace}']=total/600
    assert all(r['notification_period']=='' for r in rows)
  scorefile=json.loads((folder/'scores.json').read_text(encoding='utf-8'))
- full=[r for r in scorefile if r.get('method')=='adapted_sundial']
+ full=[r for r in scorefile if r.get('method')=='guard_pool']
  assert sorted(r['decision_period'] for r in full if r.get('generation_event') and r['trace']==0)==[19,64,109,154]
  assert sorted(r['decision_period'] for r in full if r.get('generation_event') and r['trace']==1)==([] if ntraces==1 else [19,64,109,154])
  report_periods=list(range(4,200,3))
