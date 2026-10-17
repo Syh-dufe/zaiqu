@@ -1,0 +1,2028 @@
+{
+  "files": [
+    {
+      "source": "docs/superpowers/plans/2026-10-16-poisson-optimality.md",
+      "archive": "0000.gz",
+      "sha256": "7ee1fe8aee250f4d26f017b8184d684a680a386d6ed27a5510f6a5bb86134edf",
+      "bytes": 2243
+    },
+    {
+      "source": "docs/superpowers/specs/2026-10-16-poisson-optimality-design.md",
+      "archive": "0001.gz",
+      "sha256": "29342eaf73f08c23d888aa0de01ca830f521264a63ba9c6143f6eec0740dcb66",
+      "bytes": 3608
+    },
+    {
+      "source": "experiments/poisson_optimality/batch.py",
+      "archive": "0002.gz",
+      "sha256": "b66368ba375dbfbe5c9878b542181fdbb10aa333ace58f180b9be89bce1ca486",
+      "bytes": 6645
+    },
+    {
+      "source": "experiments/poisson_optimality/common.py",
+      "archive": "0003.gz",
+      "sha256": "7d8d8e6aaf8d10311aa954d9fd769ebd1901a06735bcdf28f804c02ea602e980",
+      "bytes": 1206
+    },
+    {
+      "source": "experiments/poisson_optimality/environment.py",
+      "archive": "0004.gz",
+      "sha256": "f993eed82bb6be09bdbfcdc0b35163725ecf0cd59c71ba447e65ae01ff89f7f4",
+      "bytes": 2921
+    },
+    {
+      "source": "experiments/poisson_optimality/train.py",
+      "archive": "0005.gz",
+      "sha256": "e6f886e0d918b35e593b274d2b52fc1970e612a3f7021384dc066b2501924426",
+      "bytes": 8750
+    },
+    {
+      "source": "external/liu-inventory/algorithms/__init__.py",
+      "archive": "0006.gz",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "external/liu-inventory/algorithms/actor_critic.py",
+      "archive": "0007.gz",
+      "sha256": "a60a097b84fd74c4027ecd0d3b0b94e9be9ed276cad85e694fddf466b6b7a9ad",
+      "bytes": 8743
+    },
+    {
+      "source": "external/liu-inventory/algorithms/happo_policy.py",
+      "archive": "0008.gz",
+      "sha256": "48f1915d792a000a5938718a09d897c2646cbc6d2d59529d47b8e79bd6f3161a",
+      "bytes": 7855
+    },
+    {
+      "source": "external/liu-inventory/algorithms/happo_trainer.py",
+      "archive": "0009.gz",
+      "sha256": "40c67b8b8f724cb0102f4766b58ea876606c7f2423b3733c41864502f53ba84a",
+      "bytes": 10716
+    },
+    {
+      "source": "external/liu-inventory/algorithms/utils/act.py",
+      "archive": "0010.gz",
+      "sha256": "dc551eb81567f591eab1ef148768439f67c236f2aca493e401171493fcc86d71",
+      "bytes": 11179
+    },
+    {
+      "source": "external/liu-inventory/algorithms/utils/cnn.py",
+      "archive": "0011.gz",
+      "sha256": "958c59f4828ec874934490249877b7b82d6d218ef12db2428dac7f6b325ce067",
+      "bytes": 1910
+    },
+    {
+      "source": "external/liu-inventory/algorithms/utils/distributions.py",
+      "archive": "0012.gz",
+      "sha256": "f11e226e9218e954c576f80ed4043bd480de1fc5a29905bd11663d2e678d159e",
+      "bytes": 4682
+    },
+    {
+      "source": "external/liu-inventory/algorithms/utils/mlp.py",
+      "archive": "0013.gz",
+      "sha256": "04e0ae4da416ac5352cd5d228688577903b4d0242386e19f63a0b3361af03b49",
+      "bytes": 2132
+    },
+    {
+      "source": "external/liu-inventory/algorithms/utils/rnn.py",
+      "archive": "0014.gz",
+      "sha256": "bb6ca30a91503f012df3c45d9be9011642f9895fb9804b05530bcb49db47fe50",
+      "bytes": 2929
+    },
+    {
+      "source": "external/liu-inventory/algorithms/utils/util.py",
+      "archive": "0015.gz",
+      "sha256": "0d32cea8abf8d063bf0cd7fd8a80b3e12331be4bfa96ed18d7c51a17323c560b",
+      "bytes": 442
+    },
+    {
+      "source": "external/liu-inventory/config.py",
+      "archive": "0016.gz",
+      "sha256": "603bb1e9b04f03cd32b9d939e7d7e1f5162a3fde3f3116c0120f80fb9e93ce99",
+      "bytes": 11578
+    },
+    {
+      "source": "external/liu-inventory/envs/__init__.py",
+      "archive": "0017.gz",
+      "sha256": "15c2ffe5d6790738d28363cf7101f64d7b6370a182b805284fbbbd304e6b42a1",
+      "bytes": 90
+    },
+    {
+      "source": "external/liu-inventory/envs/env_wrappers.py",
+      "archive": "0018.gz",
+      "sha256": "1781852360c113902585d9e293016382d5fdd956ad756ea820b5697b429fa405",
+      "bytes": 9199
+    },
+    {
+      "source": "external/liu-inventory/envs/generator.py",
+      "archive": "0019.gz",
+      "sha256": "48366755e3318751966f240c68316488a7f79066a9c3116a798d5cab46e55741",
+      "bytes": 1630
+    },
+    {
+      "source": "external/liu-inventory/envs/net_2x3.py",
+      "archive": "0020.gz",
+      "sha256": "fad67da8c575853154d6d7e22aa034cad8f6f8c1ff0fde9cd8de07729325bd24",
+      "bytes": 14223
+    },
+    {
+      "source": "external/liu-inventory/envs/serial.py",
+      "archive": "0021.gz",
+      "sha256": "7c73e9fe9ea5f8bf60908ee26e272e16bbb95e0acd9e074272ca8d1a95d70088",
+      "bytes": 12262
+    },
+    {
+      "source": "external/liu-inventory/envs/template.py",
+      "archive": "0022.gz",
+      "sha256": "49a2b095b30ddbe195e4790650b87d2c2d2d10f2e3ed0bec2627fec8a2d2529f",
+      "bytes": 7271
+    },
+    {
+      "source": "external/liu-inventory/runners/__init__.py",
+      "archive": "0023.gz",
+      "sha256": "c128749b116e135f555dc0948ea297a43316cc3cee0415e9e8e19aea7f72a9fc",
+      "bytes": 64
+    },
+    {
+      "source": "external/liu-inventory/runners/separated/__init__.py",
+      "archive": "0024.gz",
+      "sha256": "000ace4edd2d1786448beee066ce906a8b838276066f27b63eaf19b7c3de251c",
+      "bytes": 98
+    },
+    {
+      "source": "external/liu-inventory/runners/separated/base_runner.py",
+      "archive": "0025.gz",
+      "sha256": "d2d6f229dd65319ee0aeb81a376b6d80524f53070fd0c73a860c760c9570517e",
+      "bytes": 9947
+    },
+    {
+      "source": "external/liu-inventory/runners/separated/runner.py",
+      "archive": "0026.gz",
+      "sha256": "47c997beb9c2504afaa80215c89e430d15e0c75e77a0ed757551ffa6f4179fc8",
+      "bytes": 15346
+    },
+    {
+      "source": "external/liu-inventory/train_env.py",
+      "archive": "0027.gz",
+      "sha256": "78959c118607046478d4681f4ad8f31e239a299a0b49363fd5321d0bff8d36c9",
+      "bytes": 2992
+    },
+    {
+      "source": "external/liu-inventory/utils/__init__.py",
+      "archive": "0028.gz",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "external/liu-inventory/utils/multi_discrete.py",
+      "archive": "0029.gz",
+      "sha256": "7bca00aa5f47039ebe1fa1cb26e46682046cda57cf05d963f7c3ac699fa5a7a6",
+      "bytes": 2391
+    },
+    {
+      "source": "external/liu-inventory/utils/popart.py",
+      "archive": "0030.gz",
+      "sha256": "40fdb523f10aac1d03362cc1fc6a745936743a6763003a791a962fbe8acc9bbd",
+      "bytes": 3181
+    },
+    {
+      "source": "external/liu-inventory/utils/separated_buffer.py",
+      "archive": "0031.gz",
+      "sha256": "af0f1850bc0a8101ed18a5298aea1eb8146f86eb16396d46ea4b77e9ed436051",
+      "bytes": 23965
+    },
+    {
+      "source": "external/liu-inventory/utils/util.py",
+      "archive": "0032.gz",
+      "sha256": "7cf8ce806483e8abbc358951105a3765a734c92a15fa641595fa6ea967e1f4d7",
+      "bytes": 2304
+    },
+    {
+      "source": "external/liu-inventory/utils/valuenorm.py",
+      "archive": "0033.gz",
+      "sha256": "8cd48bb7e3a3d8295baec57a2cde23ca60a973d047f358f408709ef53c6a1836",
+      "bytes": 3189
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/active.json",
+      "archive": "0034.gz",
+      "sha256": "675e05c565dd3da116280e3b5656f2b871f30b2838f384966cf9909b6fbfd095",
+      "bytes": 74
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/completed.json",
+      "archive": "0035.gz",
+      "sha256": "f17096b6788ba3d2fc37443ec6e0c7436c0b040c41f0ed371d56ce037c18cfb0",
+      "bytes": 125
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/driver.log",
+      "archive": "0036.gz",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/error.log",
+      "archive": "0037.gz",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixture_L2.log",
+      "archive": "0038.gz",
+      "sha256": "2f51258882d5734f6279d9a28927e99d817582f15eb1a422ae1abc65d74a60fa",
+      "bytes": 2962
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixture_L4.log",
+      "archive": "0039.gz",
+      "sha256": "29a7f4951bb6a68961d9120e452f9e6f2cef1b119cf0ebe08ee2331e91e64edd",
+      "bytes": 2954
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixture_saved_best.log",
+      "archive": "0040.gz",
+      "sha256": "b6020df3692b31a7a00495d164f00ae8368a26a9a214118722f103165a69aeff",
+      "bytes": 7708
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed11/completed.json",
+      "archive": "0041.gz",
+      "sha256": "74fabba3d6200bc9e408b1163eafc3c5a81af695301256d279ad92ebf86e082c",
+      "bytes": 1393
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed11/config.json",
+      "archive": "0042.gz",
+      "sha256": "a866fc40e2cf09bd95ad009a6124ec50af566bb836471d7ab580037b39174e86",
+      "bytes": 2460
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed11/curve.csv",
+      "archive": "0043.gz",
+      "sha256": "ac7f6a6b3221b669717d9327774c288b3f1c6eaa51c1e03a6b78a31a8d06c80e",
+      "bytes": 185
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed11/final_models/actor_agent0.pt",
+      "archive": "0044.gz",
+      "sha256": "877da5c00f66a84ac2758af1d23a381536f02572481effc27cc8bd8f9385f89b",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed11/final_models/actor_agent1.pt",
+      "archive": "0045.gz",
+      "sha256": "dabf0d934871e88cebb0720d27151a9d0070c4ca82e8aec05cbaa2ad5d0febd8",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed11/final_models/actor_agent2.pt",
+      "archive": "0046.gz",
+      "sha256": "1a985690f0629b80c07998572331d45e74fa0a0a6b79c76174b41012f4ac1e7b",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed11/final_models/critic_agent0.pt",
+      "archive": "0047.gz",
+      "sha256": "c0ced91c7675fd1d151fcacb15a40057af40145df9a9e81b3b9368c2bb19c8d6",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed11/final_models/critic_agent1.pt",
+      "archive": "0048.gz",
+      "sha256": "d1952216ee5c5e58fcafec165d586b29db3b0276a0187f0a87c98d44c84c40c2",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed11/final_models/critic_agent2.pt",
+      "archive": "0049.gz",
+      "sha256": "5125d9f57ed0d642399c63ec0a5e068183cc114bb0d8ee5567081a51f1967734",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed11/final_models/parameters.json",
+      "archive": "0050.gz",
+      "sha256": "58a5681d747e4d68f28d63c2976945c9fe2b655625a1eb0eee870f8cd144491f",
+      "bytes": 675
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed11/logs/events.out.tfevents.1792163488.石原赫的电脑",
+      "archive": "0051.gz",
+      "sha256": "2c2c3ffb9a7db72699e47fad646f40f6df0427a4b7c3f40c8f6cb9ebd8febd8b",
+      "bytes": 40
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed11/progress.json",
+      "archive": "0052.gz",
+      "sha256": "2b0fc004649cd93f938865f1674a390f88a1158151e0ad154243d2fda9cae913",
+      "bytes": 220
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed11/training_demands.jsonl",
+      "archive": "0053.gz",
+      "sha256": "f81056723d0a8a4a2619e2bf2b60fb37c7fcaaba88eaf382fa2b6b1fd1837b96",
+      "bytes": 3548
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed12/best.json",
+      "archive": "0054.gz",
+      "sha256": "b5cc750f4c96c1c5cf49c919f28d3ed33cb09b464fce3df3b9fab336f2fa52fa",
+      "bytes": 150
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed12/completed.json",
+      "archive": "0055.gz",
+      "sha256": "77e0b710a781539f8d7ba3eebf53bdbf6c6bce33b792c3610a6d38212105a52d",
+      "bytes": 2364
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed12/config.json",
+      "archive": "0056.gz",
+      "sha256": "196abd0579dae1cd215bf4e5863231ba2e0975bb61d5cd4afc6909b3fcef28d7",
+      "bytes": 2460
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed12/curve.csv",
+      "archive": "0057.gz",
+      "sha256": "f20dac3514528c5b65efe6c437f9f088ab4a27a972436d1f965beb611d3fab84",
+      "bytes": 413
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed12/final_models/actor_agent0.pt",
+      "archive": "0058.gz",
+      "sha256": "81f722608982f3f72066b31a08efcb67cd2fed3b26531da981eb3c2b5649270a",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed12/final_models/actor_agent1.pt",
+      "archive": "0059.gz",
+      "sha256": "1a50baa6a75e470c3a1673e40220dc86a5d22c712c8ceb8be3c2daae3e47958d",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed12/final_models/actor_agent2.pt",
+      "archive": "0060.gz",
+      "sha256": "8f2910529bb7b27796f1ed264df197c725e83c8c6499da839aad6ea337230eb8",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed12/final_models/critic_agent0.pt",
+      "archive": "0061.gz",
+      "sha256": "caf070e86bbfb99b3c11ddf0ae520c89591345c23863e11d7d16af51c4766e8f",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed12/final_models/critic_agent1.pt",
+      "archive": "0062.gz",
+      "sha256": "1ea925d801785adff18ae29ad509d2fa699f18ebafd1d5d47bbd23613db314e1",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed12/final_models/critic_agent2.pt",
+      "archive": "0063.gz",
+      "sha256": "96b4981d32a790a4920aa19571e4284c10360c134752e977e11e879f3673e18f",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed12/final_models/parameters.json",
+      "archive": "0064.gz",
+      "sha256": "a4b8ee603ebf17e1fa3820b1acb88398b8c3b0ba6f5f18b154a71c38d2a35463",
+      "bytes": 675
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed12/logs/events.out.tfevents.1792163556.石原赫的电脑",
+      "archive": "0065.gz",
+      "sha256": "7a7db615da8e7bea3a09c32ca85f27bdbb7f908092f4ea580d40f7249901390c",
+      "bytes": 40
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed12/models/actor_agent0.pt",
+      "archive": "0066.gz",
+      "sha256": "910d7421f1fc7684fa8aceb1f40c7a8be691a42113a054aaa663edf52c000395",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed12/models/actor_agent1.pt",
+      "archive": "0067.gz",
+      "sha256": "3c55f591322d6e4a60b31754c8f5921d9764a8b5460f502b03801d549511f20d",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed12/models/actor_agent2.pt",
+      "archive": "0068.gz",
+      "sha256": "432ab0f8beb883b195b577b2958065a8ae8a3adce88fb25294d57baee534550d",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed12/models/critic_agent0.pt",
+      "archive": "0069.gz",
+      "sha256": "cf34de12667adddeb18065bf021da8597ce9c7ecde4863eba900523b681ce9dc",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed12/models/critic_agent1.pt",
+      "archive": "0070.gz",
+      "sha256": "a6194beb78e28b1728b690380a354f2c041bddf5051ef86fbe4f4e65445de7fb",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed12/models/critic_agent2.pt",
+      "archive": "0071.gz",
+      "sha256": "f67cb828a227884fd818679a05f634f7ef91c35073c6795f45d73514ad8ca79c",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed12/progress.json",
+      "archive": "0072.gz",
+      "sha256": "c632726d28b6ba01836095471cdb008f1375f19b5b3c7b005c2c5897d80ad465",
+      "bytes": 219
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L2_seed12/training_demands.jsonl",
+      "archive": "0073.gz",
+      "sha256": "d1dd7ab3aa195b681eda093bcee482c1e4a945ed8858617fb61e63dbce325dc4",
+      "bytes": 21258
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L4_seed11/completed.json",
+      "archive": "0074.gz",
+      "sha256": "64fd4d3328515be7e76ca28c1d8c776e8e648135c1c744f0fd6e5d2a094a56cd",
+      "bytes": 1367
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L4_seed11/config.json",
+      "archive": "0075.gz",
+      "sha256": "f8c9e72d87f0ddb903e9ed2a6c20b9709ad00b66d81f079b375f4e02ac7894af",
+      "bytes": 2460
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L4_seed11/curve.csv",
+      "archive": "0076.gz",
+      "sha256": "a8d5becab27f56f34b8966a63ad6198bca2cc81f34f87e4206100a1d9fdd1e02",
+      "bytes": 178
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L4_seed11/final_models/actor_agent0.pt",
+      "archive": "0077.gz",
+      "sha256": "e19471f7acc240affe865a41eb3e399183309df86655e11e588c0394cebc4180",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L4_seed11/final_models/actor_agent1.pt",
+      "archive": "0078.gz",
+      "sha256": "4258fbce5c3ca3c5589b1a4a4940d8bffd435920aac548fff4c91c0ce5f90bde",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L4_seed11/final_models/actor_agent2.pt",
+      "archive": "0079.gz",
+      "sha256": "fe8218a2884474de1031c77c57f00f09c9baf679e84f3507a78f2c27bdf372d6",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L4_seed11/final_models/critic_agent0.pt",
+      "archive": "0080.gz",
+      "sha256": "22cf8e8636da847cc917c0ee5d4078fc7d8c56dd829b86316c11a9cf1f8dc6fe",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L4_seed11/final_models/critic_agent1.pt",
+      "archive": "0081.gz",
+      "sha256": "9e301615be305bf6ec8dee293c842a0356e0ab8ed5ba2e8c31492625b3be16f2",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L4_seed11/final_models/critic_agent2.pt",
+      "archive": "0082.gz",
+      "sha256": "c15446a2d271baf9623739fee3f1a4e554ff760b962e8276e4c9c45ea9a5b4ea",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L4_seed11/final_models/parameters.json",
+      "archive": "0083.gz",
+      "sha256": "7269f54dff7297174d0710ceace5c419e0e571ed610c1263a58d2ed1adac8a68",
+      "bytes": 675
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L4_seed11/logs/events.out.tfevents.1792163518.石原赫的电脑",
+      "archive": "0084.gz",
+      "sha256": "99cd816fbfd6bc5c839cc107ee8ad3d31704647e54df17f7de29b7be46c34bc2",
+      "bytes": 40
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L4_seed11/progress.json",
+      "archive": "0085.gz",
+      "sha256": "3be70dd1415efd640016662276ae99b31f8ff87c89d3e0394b393265fcc3f6bb",
+      "bytes": 211
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/fixtures/L4_seed11/training_demands.jsonl",
+      "archive": "0086.gz",
+      "sha256": "f81056723d0a8a4a2619e2bf2b60fb37c7fcaaba88eaf382fa2b6b1fd1837b96",
+      "bytes": 3548
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/freeze.json",
+      "archive": "0087.gz",
+      "sha256": "c414d798f35281e7c6cf4098f9756aba3f7fb51da58599ad360cfc37c59826ef",
+      "bytes": 6288
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/independent_completion_audit.json",
+      "archive": "0088.gz",
+      "sha256": "9ed690b5176851f0b6b2fcbac34c4ab104f1a924d797377f2237b71ea72ce327",
+      "bytes": 2059
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/inputs.json",
+      "archive": "0089.gz",
+      "sha256": "240f325b99cf95a8729d7830cc114254fcd5361419057e28a8a7a0739c968c03",
+      "bytes": 77067
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/L2_seed11.log",
+      "archive": "0090.gz",
+      "sha256": "7b017a89ae8d019d685ea37d785c23b5fa00d0a56c21a92942da5eaba018ca8b",
+      "bytes": 69845
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/L2_seed12.log",
+      "archive": "0091.gz",
+      "sha256": "e887c8f80c64ac8433b060d7178c2e5e6eefb4daa826678a182a2a363395e407",
+      "bytes": 97510
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/L2_seed13.log",
+      "archive": "0092.gz",
+      "sha256": "c61301ee2af4d0376cddd8ade869f675ff17caa5ff42bf22d757b824e9aa8db0",
+      "bytes": 93372
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/L2_seed14.log",
+      "archive": "0093.gz",
+      "sha256": "2cd061edaf9d769750e3966315fbc6c9628b284313ed5ef2702e28b52f7285ac",
+      "bytes": 89346
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/L2_seed15.log",
+      "archive": "0094.gz",
+      "sha256": "a99a67aa3fff456c71842ecf8d99d48a93633ea57c05182f48da8e4f578ba25f",
+      "bytes": 54105
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/L4_seed11.log",
+      "archive": "0095.gz",
+      "sha256": "f83d0ac6723ab81a9fc4cfd50f51857e708e18fbfcd89028fc0e884c01b7c18b",
+      "bytes": 50360
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/L4_seed12.log",
+      "archive": "0096.gz",
+      "sha256": "f7226e622de223ad00c89150a530897d436e6a003bdd4965ef95fbfaea124be7",
+      "bytes": 73999
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/L4_seed13.log",
+      "archive": "0097.gz",
+      "sha256": "0af8d2803d49a6a53f4d40c5508924b5345cbc83d7eaf88f9017f32993862348",
+      "bytes": 77979
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/L4_seed14.log",
+      "archive": "0098.gz",
+      "sha256": "f49f56d90a5ea4b0d7352b5f463e5efcf8bddad964a2371765ab246e163c2043",
+      "bytes": 109629
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/L4_seed15.log",
+      "archive": "0099.gz",
+      "sha256": "e7cddfb0725d46aa6b8580b9bf994a72618212895ed00d11ee26853bb7435eeb",
+      "bytes": 58186
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/launch.json",
+      "archive": "0100.gz",
+      "sha256": "18dd97d3c6d21d6bf75580dcc3ad29fab05cf7677feb1bda903a07e716947d45",
+      "bytes": 156
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/method_freeze.json",
+      "archive": "0101.gz",
+      "sha256": "1c1ea276ba15fd6818df7cb83605d8679b9bf6cfc534c74255ae1f7085ed98ee",
+      "bytes": 5442
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/preflight.json",
+      "archive": "0102.gz",
+      "sha256": "f498b2d25c1a3e8b748dc647136ce3e26621f420252dd720c7275329b16234dd",
+      "bytes": 136
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/progress.json",
+      "archive": "0103.gz",
+      "sha256": "db45a09a779fcf9c2983fc147dd8a56b34174fcf6db06661f50510959ef83171",
+      "bytes": 239
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/publication.json",
+      "archive": "0104.gz",
+      "sha256": "b8760362734c15c64cb05496ef2b8b31b0ae76b78cb268938da46894bfdefa91",
+      "bytes": 239
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/registration.json",
+      "archive": "0105.gz",
+      "sha256": "51309abb675962411a14e6eaf127eb4aeaf127de7eb2c957ace47d4d9ec1a28b",
+      "bytes": 239
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed11/best.json",
+      "archive": "0106.gz",
+      "sha256": "3d2bb05b239c7d39125b5e5ba789ab0aa931cf02ac0daa0b44c910039ff6628b",
+      "bytes": 151
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed11/completed.json",
+      "archive": "0107.gz",
+      "sha256": "9a9abcbfe3b6a793393b1a324e4458d1a04ee625ce93640f6b3f200ef43553f1",
+      "bytes": 2369
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed11/config.json",
+      "archive": "0108.gz",
+      "sha256": "916113e8b6a8a0b6f099c08e34d147ed4f2a4a1f7cce2cc8cd3000aa50c93494",
+      "bytes": 2463
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed11/curve.csv",
+      "archive": "0109.gz",
+      "sha256": "0b3ade9a8fc25b342e905f04ebbfd99c32fdf7f48028d0cbea27c8a8ff39e6bc",
+      "bytes": 3387
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed11/final_models/actor_agent0.pt",
+      "archive": "0110.gz",
+      "sha256": "76cda5362300d53ecd3779228e6bf527e6d5813a6b848d2e5180559ee02db3cd",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed11/final_models/actor_agent1.pt",
+      "archive": "0111.gz",
+      "sha256": "cfdd22d1c46cf97c7096a2e08ed599a8e64e82801d181aa5e36f3a5037e7ff66",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed11/final_models/actor_agent2.pt",
+      "archive": "0112.gz",
+      "sha256": "c60ca109ecd45e8e6a00c9e7cd31ac7e6e03b28d5a1943b0bfa1f59925af004d",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed11/final_models/critic_agent0.pt",
+      "archive": "0113.gz",
+      "sha256": "8de9f9c3d3cf3a87e6756af5db96aba968d89eae29450b425265790c79ea142e",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed11/final_models/critic_agent1.pt",
+      "archive": "0114.gz",
+      "sha256": "de8633cbc3b7d822f0c8885e5a0f9a7be60f2ba5c91588c13c5ade78763dffe2",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed11/final_models/critic_agent2.pt",
+      "archive": "0115.gz",
+      "sha256": "f665566716a0d9f4d9f28be3bacb3016e6e570c3cbf1ff2d110ff6b248ae3c41",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed11/final_models/parameters.json",
+      "archive": "0116.gz",
+      "sha256": "a68f406daddf2f53b39abdfd3c8e8fffa28a295428ca531fcf9390b28b34fa2f",
+      "bytes": 676
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed11/logs/events.out.tfevents.1792163710.石原赫的电脑",
+      "archive": "0117.gz",
+      "sha256": "2a37286939fee065be847bfd151afa134fdf5eddd74afa6ca64e7f4beb6370cd",
+      "bytes": 40
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed11/models/actor_agent0.pt",
+      "archive": "0118.gz",
+      "sha256": "91569396ff19e160c88b0c6e80738dfcd3dc00caa0da61c18cbc585b8264cf31",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed11/models/actor_agent1.pt",
+      "archive": "0119.gz",
+      "sha256": "6c6e635953065e1f1b5014cbddfd2a0dd415def4414817c323ebab59d84f72dc",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed11/models/actor_agent2.pt",
+      "archive": "0120.gz",
+      "sha256": "1088c7140ed6580714875f7ac994a367ffd8908f2e572b75e968bcb72e60c40f",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed11/models/critic_agent0.pt",
+      "archive": "0121.gz",
+      "sha256": "850555e6f4712592e6d1d7576d3e757c8a529c4c7f00a8339f81c285dcda3ff1",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed11/models/critic_agent1.pt",
+      "archive": "0122.gz",
+      "sha256": "7a109c2fe9e43f5e8449ae514efe6c35867ca6b75730b70345a529311803fce9",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed11/models/critic_agent2.pt",
+      "archive": "0123.gz",
+      "sha256": "90225cd98a7f9bab495eb4c79ccaeb11eb714015394383bc4b4d60be8acdc5c0",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed11/progress.json",
+      "archive": "0124.gz",
+      "sha256": "9e48eb1b045318b3f0f6303b945672f018ca2b669fd5d8f50d287ab4569da184",
+      "bytes": 224
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed11/training_demands.jsonl",
+      "archive": "0125.gz",
+      "sha256": "1f807cf1aadcc7efc2f3a9f28d2a66fce35c6feba6e7100c1a550c63e86dc916",
+      "bytes": 301579
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed12/best.json",
+      "archive": "0126.gz",
+      "sha256": "0f38a06f1bccc8329e9e3fedd6fc71f9b46847e96da58ab8049fb75dd18ea2e3",
+      "bytes": 150
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed12/completed.json",
+      "archive": "0127.gz",
+      "sha256": "df0a1b2e5e98bcf91b8e5a8804f7a83195e341b3513507f3f0d39a2784ffaed2",
+      "bytes": 2400
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed12/config.json",
+      "archive": "0128.gz",
+      "sha256": "119b94cb682535f92d847f54d51316511f0821af63feb2f824427930a17210c8",
+      "bytes": 2463
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed12/curve.csv",
+      "archive": "0129.gz",
+      "sha256": "4887bf80ef9612289ff9d0df0ea6d04d2351bb4461f5af8c8cb4106d224b3e83",
+      "bytes": 4792
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed12/final_models/actor_agent0.pt",
+      "archive": "0130.gz",
+      "sha256": "7bc984434315dbd09c4ba60274d5622c8a708bf8ae70e90a6d33ed2736162681",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed12/final_models/actor_agent1.pt",
+      "archive": "0131.gz",
+      "sha256": "ef79cae07210161f5fcd4dedc2834edad298dc04239af15b7cd848bbdc28eb89",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed12/final_models/actor_agent2.pt",
+      "archive": "0132.gz",
+      "sha256": "22d5ecafd92ef738fed3ff2fdbc4e9add98aa05ff3c50e3a83a313aea0e56a44",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed12/final_models/critic_agent0.pt",
+      "archive": "0133.gz",
+      "sha256": "e9a16960d4a6269729558a4a1121cfb12c40395b9a03d822fe5a570a1b7508de",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed12/final_models/critic_agent1.pt",
+      "archive": "0134.gz",
+      "sha256": "3b8baec8d82fac2d0ffcd88e403452a1ff15d8fcdff900133012afa758a26c06",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed12/final_models/critic_agent2.pt",
+      "archive": "0135.gz",
+      "sha256": "4505fc3958f8b458b2c5ca0a3a317ca153d39ad07b11e32caa73c33de18819d3",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed12/final_models/parameters.json",
+      "archive": "0136.gz",
+      "sha256": "c673c01adacf7382448962f1991b892448a39591913243f38ccea49c4803e76e",
+      "bytes": 677
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed12/logs/events.out.tfevents.1792164539.石原赫的电脑",
+      "archive": "0137.gz",
+      "sha256": "621ef8f73f800269bf6ac0a82d3a7134527d166212f901baf08469c318459e68",
+      "bytes": 40
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed12/models/actor_agent0.pt",
+      "archive": "0138.gz",
+      "sha256": "fd616e2a3a16dae01991ef0bdcb044edb477d359f4f8e7c2197c698d1e33bfe0",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed12/models/actor_agent1.pt",
+      "archive": "0139.gz",
+      "sha256": "15746217efd73685110ea9a50e7d245adcef92f7711bdadcc55d1cf7c0924899",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed12/models/actor_agent2.pt",
+      "archive": "0140.gz",
+      "sha256": "83c595224b05e239aa16b000f1b00075816b3edf21d033a62289a8d8e75cbd61",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed12/models/critic_agent0.pt",
+      "archive": "0141.gz",
+      "sha256": "9b2d6019d125b2edc6e1d58ca5451af79a4a1812b293fee3de6eef8272e0e2af",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed12/models/critic_agent1.pt",
+      "archive": "0142.gz",
+      "sha256": "39f01a555a6b4bf1b690f5952508812cc74cadae4d261384db9250c0971af372",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed12/models/critic_agent2.pt",
+      "archive": "0143.gz",
+      "sha256": "e5459b19b4c2dc2cff568edd9c715ae508e948b57c153338393db9cb6df8cb50",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed12/progress.json",
+      "archive": "0144.gz",
+      "sha256": "828b659394315c40f378b77f0e78097322eacbc434f334b0f89889db82362e43",
+      "bytes": 228
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed12/snapshots/step100000/actor_agent0.pt",
+      "archive": "0145.gz",
+      "sha256": "05e314df0a9db8d0890c2b7fb01059904744d0419ed2ab8181cf6ce6d621d6e5",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed12/snapshots/step100000/actor_agent1.pt",
+      "archive": "0146.gz",
+      "sha256": "65c857765bef30777c9d29ee4448c112d95a28ef85183b85e918e7763496a658",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed12/snapshots/step100000/actor_agent2.pt",
+      "archive": "0147.gz",
+      "sha256": "1a88cc4043e6c1e6dde95366d36cb3f2bea2533b09fd4719578c70c96daef90d",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed12/snapshots/step100000/critic_agent0.pt",
+      "archive": "0148.gz",
+      "sha256": "f810ec205f4fe21b0ab57e6a42b6a5db3d033540dbe2814e355246e50a626dc1",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed12/snapshots/step100000/critic_agent1.pt",
+      "archive": "0149.gz",
+      "sha256": "9709f06a129d2006413d3533e10a075301dd190592b1fd0690ea8f40bd2a4b65",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed12/snapshots/step100000/critic_agent2.pt",
+      "archive": "0150.gz",
+      "sha256": "579e93fc549ce5f6fd6747dd1437fa1c15b399ba6abd5c86814860ceb617cd09",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed12/snapshots/step100000/parameters.json",
+      "archive": "0151.gz",
+      "sha256": "bebfff34bef14eb774d36a53b6383f2283eaeda405f0430f12c9655d222eddfd",
+      "bytes": 677
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed12/training_demands.jsonl",
+      "archive": "0152.gz",
+      "sha256": "12488e8799459b7991061e4a68718eec3085a9b4fadddd073ca177b19b65a6de",
+      "bytes": 425688
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed13/best.json",
+      "archive": "0153.gz",
+      "sha256": "c93bd73b292225f5e974571c5be2139b21b3c40e574255913f08093b2f6771f2",
+      "bytes": 150
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed13/completed.json",
+      "archive": "0154.gz",
+      "sha256": "6694a1ee9028bbe6c7d15550ff6650b524c3cfecc9f62918ea6af5006879cc55",
+      "bytes": 2397
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed13/config.json",
+      "archive": "0155.gz",
+      "sha256": "7844d3186b4012f586b9dd04b6239cee03c49bdc44d60ef28e726518e5020cb6",
+      "bytes": 2463
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed13/curve.csv",
+      "archive": "0156.gz",
+      "sha256": "051b8394905ae35fe1e315b0a39ddd603a769ea0c5f933bd41ddd12c71162b4c",
+      "bytes": 4549
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed13/final_models/actor_agent0.pt",
+      "archive": "0157.gz",
+      "sha256": "f7db2aae830c81a3b72f0760fa0556f314e25491a71d0ebf0e63e3570264eea9",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed13/final_models/actor_agent1.pt",
+      "archive": "0158.gz",
+      "sha256": "109c738885ac023a887661cbb1dbd6b2b66864d4b93990aae3b91c315cd8c68d",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed13/final_models/actor_agent2.pt",
+      "archive": "0159.gz",
+      "sha256": "055ded648ea7f46e57e0a089aa1df3ea6ccfa293e5f959c8cbbccf51c750ad0d",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed13/final_models/critic_agent0.pt",
+      "archive": "0160.gz",
+      "sha256": "30e1593f9f1c93b2d2684c959f4a7f03d20ba35f8cf63b3943afc08407b0f779",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed13/final_models/critic_agent1.pt",
+      "archive": "0161.gz",
+      "sha256": "45431da76eaa351266d4330def8970a12d20c785e90a1803c1a59447dcd9623d",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed13/final_models/critic_agent2.pt",
+      "archive": "0162.gz",
+      "sha256": "6bdb1d8f26f9028d4a1d5d54ce0d795ef232eb00bd294ce78e0a7e7f997a4f3c",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed13/final_models/parameters.json",
+      "archive": "0163.gz",
+      "sha256": "48753050ac9009ee5e9bf13556d6489efd3cce8fec4b290afccb87cea556834a",
+      "bytes": 677
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed13/logs/events.out.tfevents.1792165671.石原赫的电脑",
+      "archive": "0164.gz",
+      "sha256": "c44eaf994ae02f3e69741fd1a07b216fda79225a35aa8df042ea916d8f2ef401",
+      "bytes": 40
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed13/models/actor_agent0.pt",
+      "archive": "0165.gz",
+      "sha256": "7557b6382d90414bed23af45f361346d4b2bc172d17b60740f630953f45d0bb3",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed13/models/actor_agent1.pt",
+      "archive": "0166.gz",
+      "sha256": "6362d8a912e7ff540d331b5b5e56b00c7621e0d228817b7936c52888c6e4cb55",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed13/models/actor_agent2.pt",
+      "archive": "0167.gz",
+      "sha256": "52a15e2339dc69f58ddf53547f9fad5eafb3f161008252764230c2f49dbc4101",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed13/models/critic_agent0.pt",
+      "archive": "0168.gz",
+      "sha256": "3e0311178f810e1a233c5d87c6f846501e31e432cd2bb0e823337d9e53e7afae",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed13/models/critic_agent1.pt",
+      "archive": "0169.gz",
+      "sha256": "c5c20a0a831b326c4272186277b9a253d0de72f719a2eda5273de1ad38e6ce71",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed13/models/critic_agent2.pt",
+      "archive": "0170.gz",
+      "sha256": "959716828c5e312bb34e9e77136389e2b8b6f6fc57e6017d6c51498fe09bdc1a",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed13/progress.json",
+      "archive": "0171.gz",
+      "sha256": "8d58870a043190cfc8888277f95645ce6a7969244be4f7096b2d2bdee91b98e0",
+      "bytes": 229
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed13/snapshots/step100000/actor_agent0.pt",
+      "archive": "0172.gz",
+      "sha256": "d846cab63c49080a379e73bca5bf73c6a4b1747e818aa22032fbd951fd0dfe7a",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed13/snapshots/step100000/actor_agent1.pt",
+      "archive": "0173.gz",
+      "sha256": "05270a45af16df4604a0cb6a9f402108ce85f53e5fa0c7c8667d22350cfe8014",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed13/snapshots/step100000/actor_agent2.pt",
+      "archive": "0174.gz",
+      "sha256": "1a238bce5500b764d28be7b51ecf8e25d9d28b0a80933ee230574fd695b3efd2",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed13/snapshots/step100000/critic_agent0.pt",
+      "archive": "0175.gz",
+      "sha256": "cc005730e88035ee9e1ce3f210b39d7d6097967c08d19ec32a18005eb3413e44",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed13/snapshots/step100000/critic_agent1.pt",
+      "archive": "0176.gz",
+      "sha256": "9bbf0dda6c1dacb077e07384be83cb3ef5a715c9b2c713998652d0de21588406",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed13/snapshots/step100000/critic_agent2.pt",
+      "archive": "0177.gz",
+      "sha256": "2fab4d4a5d888d7b0385a9e6f40b4e69233785802f807a1eb20e4ca32f8b3979",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed13/snapshots/step100000/parameters.json",
+      "archive": "0178.gz",
+      "sha256": "7ea5b2a91c511ae0dd910a5170d268b8e18005072fae915ee088675fba0b363a",
+      "bytes": 677
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed13/training_demands.jsonl",
+      "archive": "0179.gz",
+      "sha256": "6ce640cb0577ce21f50f51d9f44ec8e51e08c467cb4ae70ca01ed961d1fc8c5f",
+      "bytes": 408142
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed14/best.json",
+      "archive": "0180.gz",
+      "sha256": "c6d550232d1b94700c35eb1392fc7a9de44ada3880b6456d46a4b3a27d84b6ef",
+      "bytes": 151
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed14/completed.json",
+      "archive": "0181.gz",
+      "sha256": "f099e149a579e724e90089b642a68df34baa9361efe26b7c89f7ed0ae83c8805",
+      "bytes": 2373
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed14/config.json",
+      "archive": "0182.gz",
+      "sha256": "532181c002d03c574061a830f6cb69e6f3c44b7b778632390619a089dd0916cd",
+      "bytes": 2463
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed14/curve.csv",
+      "archive": "0183.gz",
+      "sha256": "ace5ce190099fb723023cf2a2e2d541bb940d9d97a9fc1bc9072aa899fc11e54",
+      "bytes": 4350
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed14/final_models/actor_agent0.pt",
+      "archive": "0184.gz",
+      "sha256": "c007cfeed37e24a281683b916c88c6bccd575b8dfc19d86b89007ef0cc4e4f13",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed14/final_models/actor_agent1.pt",
+      "archive": "0185.gz",
+      "sha256": "bd0aeb43ae781407c22e53d0eed15b591fe3a142c0b98767ddf83c47783a0441",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed14/final_models/actor_agent2.pt",
+      "archive": "0186.gz",
+      "sha256": "1056aa59d60f8dbf04d147127369e59782745b3728d9f531ba1fa79a1176c600",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed14/final_models/critic_agent0.pt",
+      "archive": "0187.gz",
+      "sha256": "560a950ebfeec4b205c33252c9be07e12fc3f922a9696a342954412441ea8b69",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed14/final_models/critic_agent1.pt",
+      "archive": "0188.gz",
+      "sha256": "6d03d6807bbc3d23d951717e6f682eb8a0c6230efa6edf0df76ed6429f7261dc",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed14/final_models/critic_agent2.pt",
+      "archive": "0189.gz",
+      "sha256": "62900030815de53abe04c5a205224e127ac49c24554f04309a2e6aa9147cb2b8",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed14/final_models/parameters.json",
+      "archive": "0190.gz",
+      "sha256": "2e80471cdc7fd5130f2ecb792ea7ce87d96ea43763af33895fd4053274abc430",
+      "bytes": 677
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed14/logs/events.out.tfevents.1792166746.石原赫的电脑",
+      "archive": "0191.gz",
+      "sha256": "871c34752dc8a35f39b648f5e558221492ae7a0a03dfc1aee926b3bf62c79237",
+      "bytes": 40
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed14/models/actor_agent0.pt",
+      "archive": "0192.gz",
+      "sha256": "3bb21ec79f30e878316993963cc3aadc091cb84b2845ecf28d8bcd72463178d8",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed14/models/actor_agent1.pt",
+      "archive": "0193.gz",
+      "sha256": "95655012a7b2154b49a8af91cdf9929bf69d8c2fe60e7307b9b6aab0119c219a",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed14/models/actor_agent2.pt",
+      "archive": "0194.gz",
+      "sha256": "ae40442070e49e36fbf6036516e8fb4b73b3c236fe667bd5eb2385a3d2de3c48",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed14/models/critic_agent0.pt",
+      "archive": "0195.gz",
+      "sha256": "bb546c8690829c2c0019a8e3a982c7dbbcd04691ff385bf14ece32e16bcd124d",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed14/models/critic_agent1.pt",
+      "archive": "0196.gz",
+      "sha256": "2104142349cfd998a15979f644fde58d8470157b5b0c41ce0c5702a2668b4610",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed14/models/critic_agent2.pt",
+      "archive": "0197.gz",
+      "sha256": "82e9a68f76a5a1ff1940a78da2240c345b594dd1a3ef7a9fa57bd57c0691bd19",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed14/progress.json",
+      "archive": "0198.gz",
+      "sha256": "efcaec0fec4348a6421c30ee693d854401f7d5673dc1ebbf3333537047a0574e",
+      "bytes": 230
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed14/snapshots/step100000/actor_agent0.pt",
+      "archive": "0199.gz",
+      "sha256": "158410a41efa2a359d2126d39fa6f568bd95feeae78e35aa9c2a0d3c12a92413",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed14/snapshots/step100000/actor_agent1.pt",
+      "archive": "0200.gz",
+      "sha256": "13f9d08271d70f013991d841c2d7fb4ab4947df682229aed63ac1422170f4bdf",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed14/snapshots/step100000/actor_agent2.pt",
+      "archive": "0201.gz",
+      "sha256": "1131fa00ee412eea02d8061e0d1479345bf762a195a601fcb780f26ca85aad69",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed14/snapshots/step100000/critic_agent0.pt",
+      "archive": "0202.gz",
+      "sha256": "0740cbd0e5c27138641d7d78e3c4e1a01911e3a12c2a6aa2123bd77d09c17017",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed14/snapshots/step100000/critic_agent1.pt",
+      "archive": "0203.gz",
+      "sha256": "642c1cd4b0dc6f6ff097ed9eeac72799f29529863d6a575fad09c09c4959de1a",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed14/snapshots/step100000/critic_agent2.pt",
+      "archive": "0204.gz",
+      "sha256": "ce432055aacb8e58c0a87c701eb56c1b531b34079bc4d705cf69de5195c9d85b",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed14/snapshots/step100000/parameters.json",
+      "archive": "0205.gz",
+      "sha256": "86b52c314932d63ff74048c8afeb5237379a8d67c4ccf84bdefa70dab3e18c4e",
+      "bytes": 677
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed14/training_demands.jsonl",
+      "archive": "0206.gz",
+      "sha256": "7e4b7b90b4894249ff5c4cc18710edaa8ce1a190258d07255259227d4073c745",
+      "bytes": 390256
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed15/best.json",
+      "archive": "0207.gz",
+      "sha256": "88c22e1f3d61d31113187c4b10f17014a1d671476607506709b7fbfb88eeedfd",
+      "bytes": 151
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed15/completed.json",
+      "archive": "0208.gz",
+      "sha256": "f9c926fe83de2f433c37f61625ccb8458b896d7e15acc70c1cb0e66bb310971b",
+      "bytes": 2393
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed15/config.json",
+      "archive": "0209.gz",
+      "sha256": "c5a734b7bad8cae9a63bb562af2dc7a8b19c9447aec11bbdc1b0a8e7a3ad60b2",
+      "bytes": 2463
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed15/curve.csv",
+      "archive": "0210.gz",
+      "sha256": "35a9dd1c08aa87f2d3ff38c94991414d2fcedb9a2197c7ab3a1594b3933ab857",
+      "bytes": 2698
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed15/final_models/actor_agent0.pt",
+      "archive": "0211.gz",
+      "sha256": "1fb701e7ffe8950bb5f31e007f5ac9496441d478f428cb95b9ee3fb895f8387d",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed15/final_models/actor_agent1.pt",
+      "archive": "0212.gz",
+      "sha256": "cbfc24332ef5d7ea03db3cff50a0d2df5a27fe7e1b38311fb798da5b444d32bd",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed15/final_models/actor_agent2.pt",
+      "archive": "0213.gz",
+      "sha256": "4b1080261af253d660390a90ed49fe43151ca28ded5b536961ef8befa4dcb3fb",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed15/final_models/critic_agent0.pt",
+      "archive": "0214.gz",
+      "sha256": "04f7adbd8a6d0d341326d13990c18be99160b61fedbdacd88318525a435752c3",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed15/final_models/critic_agent1.pt",
+      "archive": "0215.gz",
+      "sha256": "d38d2ba9d432ae4cbc15e7f5435e66b7a88057f4ad7923414e464be06dce06d5",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed15/final_models/critic_agent2.pt",
+      "archive": "0216.gz",
+      "sha256": "22344c1239c49c5475676f83bd181cce7fe9c58a88f36d20b52bfd52c9ffd06f",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed15/final_models/parameters.json",
+      "archive": "0217.gz",
+      "sha256": "bf4ea42b1c0018ce2493738a178fae9eda7fa501f1994e7fb1f373d1ab46c054",
+      "bytes": 676
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed15/logs/events.out.tfevents.1792167777.石原赫的电脑",
+      "archive": "0218.gz",
+      "sha256": "76adae6f82ec1de5794c0885514a1322664be58875c25fb91368906b29db6586",
+      "bytes": 40
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed15/models/actor_agent0.pt",
+      "archive": "0219.gz",
+      "sha256": "cdc2defe40e0e37e07b674586a9798c30d20e8f40df77522dd5a2ffb96b4edfc",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed15/models/actor_agent1.pt",
+      "archive": "0220.gz",
+      "sha256": "17bf325354c4905219925c82e159123e13ea6936ce5f099bd29b96d0468d8d6c",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed15/models/actor_agent2.pt",
+      "archive": "0221.gz",
+      "sha256": "4f46483aa183ff2fae3cf55b751a9d02e8d209015e051d331f1944f36ec06fe7",
+      "bytes": 951217
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed15/models/critic_agent0.pt",
+      "archive": "0222.gz",
+      "sha256": "895b85da7493a93a8018be404a02485e52a64886ee82257073ab50e4b1e2d9f9",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed15/models/critic_agent1.pt",
+      "archive": "0223.gz",
+      "sha256": "0b66ab468007f4738ac98731424ed14ac5e4ecf9f4a514471462dc7e4ebf921a",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed15/models/critic_agent2.pt",
+      "archive": "0224.gz",
+      "sha256": "169ad8c888e3c0ce005f0e8b6f530ec31b17ac45234851bc98f6e30b95d1e9c6",
+      "bytes": 945935
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed15/progress.json",
+      "archive": "0225.gz",
+      "sha256": "b9981024a89786c1136857d7cb35f065b1fc7d4fe07d781a8a4429ab821d12e8",
+      "bytes": 224
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L2_seed15/training_demands.jsonl",
+      "archive": "0226.gz",
+      "sha256": "0fd8531c0ab267d33670238172d794cb526324edc2f2252264b1c1a6fca81b30",
+      "bytes": 230478
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed11/best.json",
+      "archive": "0227.gz",
+      "sha256": "d91c73d5f28563052a1619082b6be91d94c992ac559e1a7c78d1c93beb518f28",
+      "bytes": 149
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed11/completed.json",
+      "archive": "0228.gz",
+      "sha256": "5053282ed994bea08d78ed5165812358d18ab74fc62756a1eebfe91083c43e32",
+      "bytes": 2365
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed11/config.json",
+      "archive": "0229.gz",
+      "sha256": "350d08005177f7eff9df5fc49e52a43923a2f720815886b5349e2fb5e9acd518",
+      "bytes": 2463
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed11/curve.csv",
+      "archive": "0230.gz",
+      "sha256": "403c408214507084972578081123b9f51de08aa1aa983ed91db1e297e0ae21cd",
+      "bytes": 2376
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed11/final_models/actor_agent0.pt",
+      "archive": "0231.gz",
+      "sha256": "eaacf3de6884c0527be901e21a1609c8704eedcac736c8994f6f57f70eeaf3e3",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed11/final_models/actor_agent1.pt",
+      "archive": "0232.gz",
+      "sha256": "7675a4dc60bd4ac0b3338c6d6f3a7e15e13d9f5f6c0036497eb8ea7bc24efe14",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed11/final_models/actor_agent2.pt",
+      "archive": "0233.gz",
+      "sha256": "5f673bbe8862ffc1627c6c1603a3d049262d6a9910710431ede1742437f560de",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed11/final_models/critic_agent0.pt",
+      "archive": "0234.gz",
+      "sha256": "733a5b13e6421767289af4aa59004c26b3868bce0396f20fff1e5c333296df83",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed11/final_models/critic_agent1.pt",
+      "archive": "0235.gz",
+      "sha256": "7238e25b53942b04ee2cfbd800ccfda0d3011db020eb3ca5fc0cfe8dafaac807",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed11/final_models/critic_agent2.pt",
+      "archive": "0236.gz",
+      "sha256": "6960c3b0ebad648c32f16884c0edb87ee7ea869438558bfdb39bd126e915fe8d",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed11/final_models/parameters.json",
+      "archive": "0237.gz",
+      "sha256": "78af56be7f36c3b3017429aa973aea2c3065064ef44482d141c91044a1fc2636",
+      "bytes": 676
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed11/logs/events.out.tfevents.1792168420.石原赫的电脑",
+      "archive": "0238.gz",
+      "sha256": "5796e83b92cbb3de116b71f5e36aae45d85e042a2200cecab244d12eadf3eae5",
+      "bytes": 40
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed11/models/actor_agent0.pt",
+      "archive": "0239.gz",
+      "sha256": "cb9ae768f431fae6d901afd65b4c8292bd634139217abbbe868885e0c5d61ad2",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed11/models/actor_agent1.pt",
+      "archive": "0240.gz",
+      "sha256": "83f6f6dec600eb85f0b99fb7f9c9cc935493c863d54e74d661121e72939f1d4d",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed11/models/actor_agent2.pt",
+      "archive": "0241.gz",
+      "sha256": "12d0565cdd4d30f51198ca5d0b1dc4f515eaa59b07ebe8ef5885f78b6673c2d4",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed11/models/critic_agent0.pt",
+      "archive": "0242.gz",
+      "sha256": "60eec7fca1ade9ff3d52d98c5a91676dacc06ff23e55051e5770add4983eb96a",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed11/models/critic_agent1.pt",
+      "archive": "0243.gz",
+      "sha256": "33bd77ef4027da23c93239945db31a8366d9552cc5207ce1b2ebfdcd91c742b5",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed11/models/critic_agent2.pt",
+      "archive": "0244.gz",
+      "sha256": "6a3963a24c5fe409ea88555885b43bcfd6a1ba0c85f132473ba5ea6b4dfad7a8",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed11/progress.json",
+      "archive": "0245.gz",
+      "sha256": "ca2568a2d49a9d149881dd5bdfeb1393ac69b696c56c2e27fd23ad2a396a33a2",
+      "bytes": 223
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed11/training_demands.jsonl",
+      "archive": "0246.gz",
+      "sha256": "90501895962dbac90491f35a8110c64a4576f48d4783fed24877368128b25c5c",
+      "bytes": 212902
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed12/best.json",
+      "archive": "0247.gz",
+      "sha256": "0305c449d8fc685fcd6cb78967e2d51b37ea4c600fc118b836dc48d1a7a58eb8",
+      "bytes": 141
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed12/completed.json",
+      "archive": "0248.gz",
+      "sha256": "2514b50ef41e27b9049e0c582ff8ab846b1fbdb93fd8962f8b117485841f09b1",
+      "bytes": 2366
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed12/config.json",
+      "archive": "0249.gz",
+      "sha256": "d7a10ba7bef498eda0b24c430b88e08ac2a145b7f2fc1779e361caf37387fd10",
+      "bytes": 2463
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed12/curve.csv",
+      "archive": "0250.gz",
+      "sha256": "83519dbcd6cf9d3b33968b9a08ab5ea93598e363e71efdcf0a4057fb67ac8f02",
+      "bytes": 3549
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed12/final_models/actor_agent0.pt",
+      "archive": "0251.gz",
+      "sha256": "2fd4546acab7846fb8536651b41566563069900b0c4a062888cd55cbb65b4659",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed12/final_models/actor_agent1.pt",
+      "archive": "0252.gz",
+      "sha256": "dea30fd2c79e041abf756cc7ded93002d57e907bc3059bf8538a53c5cd1a92d9",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed12/final_models/actor_agent2.pt",
+      "archive": "0253.gz",
+      "sha256": "7fb6c4eae16f8f05a6fb20d8a9b5a7a7ab24fc5302c68497ddefc1fb7625f431",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed12/final_models/critic_agent0.pt",
+      "archive": "0254.gz",
+      "sha256": "e5298b5f9c2c62be13ca8ca544fef10d812549c526b9bb6fe4928f10b380f51c",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed12/final_models/critic_agent1.pt",
+      "archive": "0255.gz",
+      "sha256": "cfcee08fbb7e899d164fcb940117667b7cd43eff6a29ad7e2abaf30fa9685653",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed12/final_models/critic_agent2.pt",
+      "archive": "0256.gz",
+      "sha256": "feb461fe8aad705c5d7690136ebcf4460440ff8442a387977d8a88b923570a97",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed12/final_models/parameters.json",
+      "archive": "0257.gz",
+      "sha256": "cccf0b828829cc0fc0bb5bc12dd48f2b6be8a5fec68ddab077855025429633d9",
+      "bytes": 676
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed12/logs/events.out.tfevents.1792169023.石原赫的电脑",
+      "archive": "0258.gz",
+      "sha256": "131657009e3c368dbf281c8a350411e744641fad8c3c58a5f8212429d2f4e379",
+      "bytes": 40
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed12/models/actor_agent0.pt",
+      "archive": "0259.gz",
+      "sha256": "7dc1e1260afcf2a4f68ae8f3fcef89922c25753768ecc6174e8af70a6eb6fd92",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed12/models/actor_agent1.pt",
+      "archive": "0260.gz",
+      "sha256": "c2995d031eb93e749af2f9a74d6981cf071c0bf786d17da477d9b2b183bea313",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed12/models/actor_agent2.pt",
+      "archive": "0261.gz",
+      "sha256": "3773bdfe3b23083085074d8fc6c000b34304ea74e48c5fb71548bb39d9cb9dc4",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed12/models/critic_agent0.pt",
+      "archive": "0262.gz",
+      "sha256": "b9c8530c9b001e990e0abec35a9c9a0d89b92dbf74b9841d61c14a4d7cd6aab0",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed12/models/critic_agent1.pt",
+      "archive": "0263.gz",
+      "sha256": "2352217bf8186eca4649b2f5f69cb33295ae64a2852739e4b9a004a115639510",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed12/models/critic_agent2.pt",
+      "archive": "0264.gz",
+      "sha256": "05c571994ac53e5289aac0554bd5c5bbde3e1a90a5a94328c4228307595d45ae",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed12/progress.json",
+      "archive": "0265.gz",
+      "sha256": "4cae407266f1599aa3edc6baa685c36ef1c2da3cf8e8634ef76431eabbf25d50",
+      "bytes": 214
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed12/training_demands.jsonl",
+      "archive": "0266.gz",
+      "sha256": "10efecfdbf8f7481b72a3998016248c6c4bf220704eebb8ba3e876c8dd114c5d",
+      "bytes": 319466
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed13/best.json",
+      "archive": "0267.gz",
+      "sha256": "28b0750776681b16e184a823f07483dec71945fa878de2e254c3cb61f0a9506a",
+      "bytes": 150
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed13/completed.json",
+      "archive": "0268.gz",
+      "sha256": "fdc1234311c7ab9a08b7c5f714f4661292749b0a254e8c2e93da8e492be776dd",
+      "bytes": 2390
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed13/config.json",
+      "archive": "0269.gz",
+      "sha256": "24dad9bc29ae6499bcc9c92ef0ff915f59f78582748acb70275c55f5dc4ed3ec",
+      "bytes": 2463
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed13/curve.csv",
+      "archive": "0270.gz",
+      "sha256": "2b9650bafd7be3e6510234061f49313278c1060dd41b8a88ab670654d5d4edd9",
+      "bytes": 3759
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed13/final_models/actor_agent0.pt",
+      "archive": "0271.gz",
+      "sha256": "47bbc698d58278cb8c68a9d8daaa59d16c2ffc83238bdf1c5418e0be9a9672ba",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed13/final_models/actor_agent1.pt",
+      "archive": "0272.gz",
+      "sha256": "94f9c6f6909db2d17cf50c53e1bbc3d69255cc62dea51b13c4bb97ff70999741",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed13/final_models/actor_agent2.pt",
+      "archive": "0273.gz",
+      "sha256": "78100713e32d8b9b3b50ccb6a21dd6ae5fef5d5a989de374b9f1e30c67666855",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed13/final_models/critic_agent0.pt",
+      "archive": "0274.gz",
+      "sha256": "b86c34f25293b8c95b200bff8c4bad980d20b5afed35efc987cfa312e22237b8",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed13/final_models/critic_agent1.pt",
+      "archive": "0275.gz",
+      "sha256": "62f4cadc9e3472b25dde227f88ded938d2063e6a71aca3c0ff5d68755568f740",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed13/final_models/critic_agent2.pt",
+      "archive": "0276.gz",
+      "sha256": "4f9c2e3b478f409b6f301f1ee42b3938cc3f2eedbf8d406fcbb2b56f1c3cb62a",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed13/final_models/parameters.json",
+      "archive": "0277.gz",
+      "sha256": "d9209c1a76fc580cae1ec61e6fc51d437ccba6131573bc16ecaabb9e25c86630",
+      "bytes": 676
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed13/logs/events.out.tfevents.1792169913.石原赫的电脑",
+      "archive": "0278.gz",
+      "sha256": "b2c319e4fdf2cf6c6608d7e5b2e89645361f8f7ad3283e5787eed0befbe80d87",
+      "bytes": 40
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed13/models/actor_agent0.pt",
+      "archive": "0279.gz",
+      "sha256": "2b640d9acd697555d8297fb5482628983a7b9b7e18580749d553d66b79fbca2a",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed13/models/actor_agent1.pt",
+      "archive": "0280.gz",
+      "sha256": "1235b0bc8748d6be262d42d8f23f7a5739443c477c6b45106465595311fea7cd",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed13/models/actor_agent2.pt",
+      "archive": "0281.gz",
+      "sha256": "59483ac6ec532fda247c2a6be5a814cdc54050de2622e25bd7d096af69f5c8c3",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed13/models/critic_agent0.pt",
+      "archive": "0282.gz",
+      "sha256": "1194aad7362fd139f967d2d3965164859896fca82a7714f9f73dc15acf40dadc",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed13/models/critic_agent1.pt",
+      "archive": "0283.gz",
+      "sha256": "e354d39cb6dca9c3e9a0257b9cfc22e3c421cd09b9d33bd77583dba03b817c7b",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed13/models/critic_agent2.pt",
+      "archive": "0284.gz",
+      "sha256": "58b847cce10a4e4020bd0000303e2e1c2b88f7f65e3c54aa6328a4e2e0373fed",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed13/progress.json",
+      "archive": "0285.gz",
+      "sha256": "59a51b687dfd2790d4351fe4359564f2c3145eaf2143d5e341b2938ab806bd01",
+      "bytes": 223
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed13/training_demands.jsonl",
+      "archive": "0286.gz",
+      "sha256": "840a473088f38e117589f3daf85e0ca90af382396893ed0d7a26909a0d5d16ec",
+      "bytes": 337328
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed14/best.json",
+      "archive": "0287.gz",
+      "sha256": "7569dca2c15d709fddc55d36c454b32c7007b7d38416f741fadb204c9a36f5a8",
+      "bytes": 141
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed14/completed.json",
+      "archive": "0288.gz",
+      "sha256": "3d2945363095650210c0f1ce7ba2772a9c39facd332956d34f94518f30ca3e6d",
+      "bytes": 2373
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed14/config.json",
+      "archive": "0289.gz",
+      "sha256": "46e1236336aef43f09ac8c64e324a6a0592a6f447e97bd687076904272daa136",
+      "bytes": 2463
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed14/curve.csv",
+      "archive": "0290.gz",
+      "sha256": "d547f51a5f67ff6c66c8d7234653da8e4fd30ac231780aacf8a7663006637d1a",
+      "bytes": 5222
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed14/final_models/actor_agent0.pt",
+      "archive": "0291.gz",
+      "sha256": "e876eafaf093bd086bc8b65412a77c3bee348cb00a5288972adb081bf486d997",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed14/final_models/actor_agent1.pt",
+      "archive": "0292.gz",
+      "sha256": "9510bdcb9a65544665ca7b3173fe4b5ecdd8ffad308d8d09d2ced0794009f0cf",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed14/final_models/actor_agent2.pt",
+      "archive": "0293.gz",
+      "sha256": "7032222d998e9f5f9f4fa4f598c1dac321f55a96d2b1c44d27cc8a8c29eab832",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed14/final_models/critic_agent0.pt",
+      "archive": "0294.gz",
+      "sha256": "6282b6483ffcccad7e3ea37a451f120d81359503189b5d8440acd0868b4e33b4",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed14/final_models/critic_agent1.pt",
+      "archive": "0295.gz",
+      "sha256": "4fdcf8daf6269401428580b9f5b55c9947bd11a954b4980ec36fbd35942af85c",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed14/final_models/critic_agent2.pt",
+      "archive": "0296.gz",
+      "sha256": "ee0b17bd056276f84bd1b94d582a15c973c15701df48014ce2e82912ac80c12c",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed14/final_models/parameters.json",
+      "archive": "0297.gz",
+      "sha256": "229500efdedac4fd99df8375446f080eaba744cc811f679b89808a52016ff68a",
+      "bytes": 677
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed14/logs/events.out.tfevents.1792170858.石原赫的电脑",
+      "archive": "0298.gz",
+      "sha256": "96f2c79b90deb40f07bad24232614926d4bd7e1dcf5c0c55982f27c42c684ec1",
+      "bytes": 40
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed14/models/actor_agent0.pt",
+      "archive": "0299.gz",
+      "sha256": "eb575e4f37857150034a21aa3135f1a11774b964933086567b530e3888080aa1",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed14/models/actor_agent1.pt",
+      "archive": "0300.gz",
+      "sha256": "131ed2940628773c2c16bd7ad43bafcd4659a56efcdc4f2683021e6b8c492b16",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed14/models/actor_agent2.pt",
+      "archive": "0301.gz",
+      "sha256": "89627648c3fb1bdc4fc94235112a9d906cf64ad2027698192a181abf893e72ca",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed14/models/critic_agent0.pt",
+      "archive": "0302.gz",
+      "sha256": "4afe8dba291a6a283047e179959f3a227558b54badb08adee552730591c4a2c4",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed14/models/critic_agent1.pt",
+      "archive": "0303.gz",
+      "sha256": "a36a58774b3648453b695f0b584f26d07bab1dce060c061afd97e1bfd8fbc082",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed14/models/critic_agent2.pt",
+      "archive": "0304.gz",
+      "sha256": "7692e181750f1065d22faa7bc98555e0a9e4b5b6e7056a4806cf995458a6d7b0",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed14/progress.json",
+      "archive": "0305.gz",
+      "sha256": "85b4f9e2a5737ff5bb2a02deead1e6b68bfb8fb58ced1ada4bfb11cd8f98656d",
+      "bytes": 220
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed14/snapshots/step100000/actor_agent0.pt",
+      "archive": "0306.gz",
+      "sha256": "afb7dc3fa4f8eb21de7c9ef024fd654bda47849b53343b59a5a54b46fe3c0544",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed14/snapshots/step100000/actor_agent1.pt",
+      "archive": "0307.gz",
+      "sha256": "ed5ae896c2c052136bb864f920953278ace3d8d802c04b5336e978ec9abb268a",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed14/snapshots/step100000/actor_agent2.pt",
+      "archive": "0308.gz",
+      "sha256": "2bc10e0444f93c75f971577413aed2f998163de60c3a7f39617ae5e8267a9886",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed14/snapshots/step100000/critic_agent0.pt",
+      "archive": "0309.gz",
+      "sha256": "6cafa835ad4cfd5f8a82d976cf42d00cff899c38ac73ab74bd81c3cdb4a00b31",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed14/snapshots/step100000/critic_agent1.pt",
+      "archive": "0310.gz",
+      "sha256": "1c95a5a3c87f56ca4b06e09015cd081a5c81e389b38bff1712b78f46656b8660",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed14/snapshots/step100000/critic_agent2.pt",
+      "archive": "0311.gz",
+      "sha256": "f4f5e7de6c734bc672f8df56978309ccac8aa9722a38248b1f1cd7d987210081",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed14/snapshots/step100000/parameters.json",
+      "archive": "0312.gz",
+      "sha256": "a9e13c75be538be9f4d6a5b5eb18e3f82170166717b3d20e03ad8b4c2d4ee56e",
+      "bytes": 677
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed14/training_demands.jsonl",
+      "archive": "0313.gz",
+      "sha256": "5a3ca1f39e7584156e95be87c8ecc88935767b1c07ec5b469b35194eafc87bf8",
+      "bytes": 478987
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed15/best.json",
+      "archive": "0314.gz",
+      "sha256": "4c9cd897f0a0d450059a09b47a2bd9406c73062e2c414fdf385f7f3a717b40ad",
+      "bytes": 141
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed15/completed.json",
+      "archive": "0315.gz",
+      "sha256": "2a5aca80649ffb74e113f1dfeab2108eafc1fa91a1a9deff797aece2bb836a38",
+      "bytes": 2363
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed15/config.json",
+      "archive": "0316.gz",
+      "sha256": "44933738d83740ff31dd7e097fcebef1dee4808984f834299b52c07eb8b7b61c",
+      "bytes": 2463
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed15/curve.csv",
+      "archive": "0317.gz",
+      "sha256": "1c40c1ba06f776faa41745926a48caba034644c1330c037d8bece2221874bf12",
+      "bytes": 2856
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed15/final_models/actor_agent0.pt",
+      "archive": "0318.gz",
+      "sha256": "3b8e9a9db3c75560a695bbd227ebfefb78ec31b609f062e9eef670d1c645358a",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed15/final_models/actor_agent1.pt",
+      "archive": "0319.gz",
+      "sha256": "36c267feee20fddb55dc5cc6fe7a9d9c1137670b712a9ed5bc8326c9f1a4f778",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed15/final_models/actor_agent2.pt",
+      "archive": "0320.gz",
+      "sha256": "956cde646bfa4a6e8935135bb4d890cc0232dd5f0af4c12529d63bfd6ce643f5",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed15/final_models/critic_agent0.pt",
+      "archive": "0321.gz",
+      "sha256": "20813a5aec584f19619d64d5e05c8d2a5e90f2818e0ec152c86b7c8151b6ed61",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed15/final_models/critic_agent1.pt",
+      "archive": "0322.gz",
+      "sha256": "39a0754fe75c62c6000248de1e4cd46e65dd210ad808e3c6547bff1db2634f71",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed15/final_models/critic_agent2.pt",
+      "archive": "0323.gz",
+      "sha256": "7c1ef590be9408c664595e49465e92c41a00b245fbb84dae64d4b75af8969256",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed15/final_models/parameters.json",
+      "archive": "0324.gz",
+      "sha256": "93c2196817ce179b81ee03e2514b500f449015aa572f5fedece7910ce2261c79",
+      "bytes": 676
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed15/logs/events.out.tfevents.1792172111.石原赫的电脑",
+      "archive": "0325.gz",
+      "sha256": "6928badd7fa56c946178eebace4fce917b33e64e35747e1d4081b107ab52a8eb",
+      "bytes": 40
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed15/models/actor_agent0.pt",
+      "archive": "0326.gz",
+      "sha256": "85ee13a996389024441f3a4f0c805d273a1c22a92147b57f522e222ec6618030",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed15/models/actor_agent1.pt",
+      "archive": "0327.gz",
+      "sha256": "e7be9b69dad8260a4ed189e2af364368c74f99b3c729c166a7c80289b159ceed",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed15/models/actor_agent2.pt",
+      "archive": "0328.gz",
+      "sha256": "9ad0dbcb78567b34da3565dcb3fcee1b3b0892923b3ee408a646839f0e90fe87",
+      "bytes": 952241
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed15/models/critic_agent0.pt",
+      "archive": "0329.gz",
+      "sha256": "67fe0087d5e178c9f2eb977406eb8489035f46905c6ab5af00d9b20a6a665754",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed15/models/critic_agent1.pt",
+      "archive": "0330.gz",
+      "sha256": "a8fbee0975e8a04caa61eb96630296a7f6d8a5b92087b26bf118ed19211a5597",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed15/models/critic_agent2.pt",
+      "archive": "0331.gz",
+      "sha256": "ac8e60a4826c7370ae813ce83c702c5909ddc1746c2ebe64dd6903ed5a252226",
+      "bytes": 949007
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed15/progress.json",
+      "archive": "0332.gz",
+      "sha256": "fbedc41d153eb7a2a5c29e60b9f388b1874780daf1aa2b76e8256cd236167bac",
+      "bytes": 214
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/runs/L4_seed15/training_demands.jsonl",
+      "archive": "0333.gz",
+      "sha256": "043ebb106f436b77c4404e3452d3209706a175fc7bac803513b5b38c5cc478a9",
+      "bytes": 248169
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/started.lock",
+      "archive": "0334.gz",
+      "sha256": "30900b5bc7fe986578f7440f7900fca4d02475e71b64873f2d09e6acf5803dc5",
+      "bytes": 5
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/summary.json",
+      "archive": "0335.gz",
+      "sha256": "a43370513e1791303a9922f74460c237b63db6df6d5cf86a89460c8caa1f8a9b",
+      "bytes": 26116
+    },
+    {
+      "source": "results/poisson_optimality/formal_v1/wrapper_launch.json",
+      "archive": "0336.gz",
+      "sha256": "a446fdbf3809d4ee4eb84f377aea8135b82ef30363d3ad58977d9a1b2f5097b7",
+      "bytes": 153
+    }
+  ],
+  "user_key_absent": true,
+  "lossless": true
+}

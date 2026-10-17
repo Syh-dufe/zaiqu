@@ -1,0 +1,174 @@
+{
+  "files": [
+    {
+      "source": "docs/superpowers/plans/2026-10-17-poisson-baseline-comparison.md",
+      "archive": "0000.gz",
+      "sha256": "fc6fbb59b925945171572375c34213805a898e58aad6db30fd214725e12fed7e",
+      "bytes": 2466
+    },
+    {
+      "source": "docs/superpowers/specs/2026-10-17-poisson-baseline-comparison-design.md",
+      "archive": "0001.gz",
+      "sha256": "3b63c03659221471352aa21ee11894a158427917fea44adc73c06f5e2f4eb9df",
+      "bytes": 4950
+    },
+    {
+      "source": "experiments/poisson_baseline_comparison/audit.py",
+      "archive": "0002.gz",
+      "sha256": "f7d1d17aa6d6a8a42e29ae384ec32821922591351611571ed091914a6fd84452",
+      "bytes": 5784
+    },
+    {
+      "source": "experiments/poisson_baseline_comparison/compare.py",
+      "archive": "0003.gz",
+      "sha256": "6292d7e518c923f5dadd4a24cf142d52f30b8a5ff14c2b81a9d35433bd39d699",
+      "bytes": 15890
+    },
+    {
+      "source": "results/poisson_baseline_comparison/v1/completed.json",
+      "archive": "0004.gz",
+      "sha256": "6389a2418e1dec09293c3f8e05b7b71bd405b2a6de94aed13aa4da7d1d9cd546",
+      "bytes": 245
+    },
+    {
+      "source": "results/poisson_baseline_comparison/v1/development_L2.json",
+      "archive": "0005.gz",
+      "sha256": "7e42651ecff21ad0e14d7c4007bcce0fd356b956529470b46412785094ef1aaf",
+      "bytes": 86494
+    },
+    {
+      "source": "results/poisson_baseline_comparison/v1/development_L4.json",
+      "archive": "0006.gz",
+      "sha256": "4e101651ce1bd9fb7cffc80e1cd43ee3862ad81a521c0808bdb17120d8c6f305",
+      "bytes": 131282
+    },
+    {
+      "source": "results/poisson_baseline_comparison/v1/driver.log",
+      "archive": "0007.gz",
+      "sha256": "1a1933e20a76756ef6e40030835f5aa5ba5c216b2891c8e06b5bd344ec8ac6fc",
+      "bytes": 33
+    },
+    {
+      "source": "results/poisson_baseline_comparison/v1/episodes.json",
+      "archive": "0008.gz",
+      "sha256": "bec48e63b87226b7868a69a81d5388443f5bd22e9aeb176e50a35a5083d03744",
+      "bytes": 96678
+    },
+    {
+      "source": "results/poisson_baseline_comparison/v1/error.log",
+      "archive": "0009.gz",
+      "sha256": "1035b4878ee92ca967f7988ce7dbc240c0d39c664a3c7cf3dc304a5c5d3ed51a",
+      "bytes": 504
+    },
+    {
+      "source": "results/poisson_baseline_comparison/v1/evaluation_demands_L2.jsonl",
+      "archive": "0010.gz",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "results/poisson_baseline_comparison/v1/evaluation_demands_L4.jsonl",
+      "archive": "0011.gz",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "results/poisson_baseline_comparison/v1/holdout_inputs.json",
+      "archive": "0012.gz",
+      "sha256": "761f2ea00a907b5aa065f56aa34ca21b7cfbd7ec92ebc90442e49e348ad72ccb",
+      "bytes": 38676
+    },
+    {
+      "source": "results/poisson_baseline_comparison/v1/independent_audit.json",
+      "archive": "0013.gz",
+      "sha256": "776f578b74d1617f92e390e92134cdea6c072549a2da99bf0ecfa23a614d1c9a",
+      "bytes": 258
+    },
+    {
+      "source": "results/poisson_baseline_comparison/v1/launch.json",
+      "archive": "0014.gz",
+      "sha256": "8f6f02ba33b99c125df60be5aaff9d045bfa0ec64580eaed122dab8d17a8eaf2",
+      "bytes": 52
+    },
+    {
+      "source": "results/poisson_baseline_comparison/v1/periods_L2.csv.gz",
+      "archive": "0015.gz",
+      "sha256": "1b796f2cf6c41d1823961728b1691446e1e2d16cf328998bd676dd413434e654",
+      "bytes": 1720154
+    },
+    {
+      "source": "results/poisson_baseline_comparison/v1/periods_L4.csv.gz",
+      "archive": "0016.gz",
+      "sha256": "78ce7fa15df180c74f8ce597966f6a1509e18f72ade7f2b7371917f5aaed8e3d",
+      "bytes": 1921537
+    },
+    {
+      "source": "results/poisson_baseline_comparison/v1/preflight.json",
+      "archive": "0017.gz",
+      "sha256": "55db599d83c41fe01e339c99763da518080262fd6ff962006fc3cfcbb0f4394a",
+      "bytes": 2160
+    },
+    {
+      "source": "results/poisson_baseline_comparison/v1/preflight_demands_L2.jsonl",
+      "archive": "0018.gz",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "results/poisson_baseline_comparison/v1/preflight_demands_L4.jsonl",
+      "archive": "0019.gz",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "results/poisson_baseline_comparison/v1/progress.json",
+      "archive": "0020.gz",
+      "sha256": "10b8cf62fdfc37af4b556764cbd6ef3342d03d408fd81cef60a16d8232db7642",
+      "bytes": 65
+    },
+    {
+      "source": "results/poisson_baseline_comparison/v1/publication.json",
+      "archive": "0021.gz",
+      "sha256": "e25294c31e9f4a22c6ec33def2eaf149b0b7be510fb7d508663bbd95bc181cd0",
+      "bytes": 200
+    },
+    {
+      "source": "results/poisson_baseline_comparison/v1/registration.json",
+      "archive": "0022.gz",
+      "sha256": "746f9b5e932501453d8319f542cc78243fa52cf157c51a937e6ab14e6e615cdd",
+      "bytes": 25909
+    },
+    {
+      "source": "results/poisson_baseline_comparison/v1/selection.json",
+      "archive": "0023.gz",
+      "sha256": "20649cac9f6087bf3f7aad82e30e72d97886b85706cdfd40ad3ff9f66184e871",
+      "bytes": 4207
+    },
+    {
+      "source": "results/poisson_baseline_comparison/v1/simulation_completed.json",
+      "archive": "0024.gz",
+      "sha256": "6389a2418e1dec09293c3f8e05b7b71bd405b2a6de94aed13aa4da7d1d9cd546",
+      "bytes": 245
+    },
+    {
+      "source": "results/poisson_baseline_comparison/v1/started.lock",
+      "archive": "0025.gz",
+      "sha256": "023a5d902d01ea352bd16811c52367fa763b51070cced871ffde76420b4e597d",
+      "bytes": 4
+    },
+    {
+      "source": "results/poisson_baseline_comparison/v1/summary.json",
+      "archive": "0026.gz",
+      "sha256": "68c95cabf09602b2e8b9ad49ee2b90f525a4c2b808db6ae168653a3983a03a01",
+      "bytes": 1513
+    },
+    {
+      "source": "results/poisson_baseline_comparison/v1/wrapper_launch.json",
+      "archive": "0027.gz",
+      "sha256": "295464287b0ff65a157c62864ce65a949583902caf814b2dc47dd2b8ec9de9a5",
+      "bytes": 145
+    }
+  ],
+  "user_key_absent": true,
+  "lossless": true
+}
